@@ -36,4 +36,4 @@ het bijbehorende Pand.
 
 Beide oplossingsrichtingen worden door Geonovum nader uitgewerkt.
 
-Het volledige verslag lees je hier:
+Het volledige verslag lees je hier: https://github.com/Geonovum/IMGeo2018/blob/master/themawerkgroepen/Panden%20en%20overige%20bouwwerken/20170622_verslag_BGT_werksessie_thema_Panden.pdf
