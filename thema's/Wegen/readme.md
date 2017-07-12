@@ -39,4 +39,4 @@ of BGT bronhouders deze gegevens hebben of eenvoudig kunnen opvragen, en deze
 gegevens ook zullen aanleveren. Er is een diffuus beeld; Geonovum onderzoekt dit
 verder ook in de nadere afstemming tussen NWB en BGT die loopt.
 
-Het volledige verslag van deze werksessie staat hier:
+Het volledige verslag van deze werksessie staat hier: https://github.com/Geonovum/IMGeo2018/blob/master/thema's/Wegen/20170511_verslag_BGT_werksessie_thema_Wegen.pdf
