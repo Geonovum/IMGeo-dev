@@ -31,4 +31,4 @@ blijft om aan gebruikers over te laten welk PBP zij kiezen. Mochten er problemen
 bij de uitlevering aan de kant van LV-BGT ontstaan dan wordt dit issue nogmaals
 besproken.
 
-Het volledige verslag van deze werksessie staat hier:
+Het volledige verslag van deze werksessie staat hier: https://github.com/Geonovum/IMGeo2018/blob/master/thema's/Techniek/20170704_verslag_BGT_werksessie_thema_Techniek.pdf
