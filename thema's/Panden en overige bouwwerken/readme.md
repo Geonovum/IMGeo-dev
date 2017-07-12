@@ -37,4 +37,4 @@ oplossingsrichtingen voorgesteld:
 
 Beide oplossingsrichtingen worden door Geonovum nader uitgewerkt.
 
-Het volledige verslag van deze werksessie staat hier:
+Het volledige verslag van deze werksessie staat hier: https://github.com/Geonovum/IMGeo2018/blob/master/thema's/Panden%20en%20overige%20bouwwerken/20170622_verslag_BGT_werksessie_thema_Panden.pdf
