@@ -1,10 +1,17 @@
-# IMGeo2018
-Deze Github repository bevat de online werkruimte voor de nieuwe versie van IMGeo. Naar verwachting komt de nieuwe versie van IMGeo in 2018 beschikbaar, vandaar IMGeo2018.
+IMGeo2018
+=========
 
-Deze repository bevat (of gaat bevatten)
-- de openstaande meldingen (__wijzigingsverzoeken__) op de BGT|IMGeo standaarden (https://github.com/Geonovum/IMGeo2018/issues)
-- verslagen en uitwerkingen van de themawerkgroepen (
-- de nieuwe (concept!)versies van de BGT|IMGeo standaarden
-- en het wijzigingsvoorstel met een overzicht van de wijziginge t.o.v. huidige versie en een onderbouwing voor het wel/niet oplossen van wijzigingsverzoeken.
+Deze Github repository bevat de online werkruimte voor de nieuwe versie van
+IMGeo. Naar verwachting komt de nieuwe versie van IMGeo in 2018 beschikbaar,
+vandaar IMGeo2018.
 
+In deze repository staan de openstaande meldingen zijnde verbetersuggesties
+(https://github.com/Geonovum/IMGeo2018/issues), de verslagen en uitwerkingen van
+de themawerkgroepen
+([https://github.com/Geonovum/IMGeo2018/thema’s](https://github.com/Geonovum/IMGeo2018/thema's))
+en komen t.z.t. de wijzigingsvoorstellen en de concept-versie van de nieuwe
+BGT\|IMGeo Standaarden beschikbaar.
 
+**Let op!** Het betreft hier wijzigingsvoorstellen en concept-uitwerkingen. Na
+toetsing en prioritering kan het zijn dat voorstellen niet als hier beschreven
+worden opgenomen in de nieuwe versie van IMGeo.
