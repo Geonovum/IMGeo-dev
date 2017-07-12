@@ -4,9 +4,9 @@ Thema Inrichtingselementen
 In deze map staan het verslag en documenten van de werksessie met thema
 Inrichtingselementen. De issues met betrekking tot dit thema zijn hier te
 vinden:
-<https://github.com/Geonovum/IMGeo2018/issues?q=is%3Aissue+is%3Aopen+label%3APanden>.
+<https://github.com/Geonovum/IMGeo2018/issues?q=is%3Aissue+is%3Aopen+label%3AInrichtingselementen>.
 
-Samenvatting BGT werksessie thema Panden van 22 juni 2018
+Samenvatting BGT werksessie thema Inrichtingselementen van 1 juni 2018
 ---------------------------------------------------------
 
 In de werksessie met als thema Inrichtingselementen is vooral gesproken over
