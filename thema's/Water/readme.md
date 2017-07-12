@@ -36,4 +36,4 @@ Functioneel Gebied en de verschillende onderdelen als Kunstwerkdeel van het type
 gemaal(onder)deel. Voor duiker en duikerdelen geldt hetzelfde. De waterschappen
 werken dit samen met Geonovum uit.
 
-Het volledige verslag van deze werksessie staat hier:
+Het volledige verslag van deze werksessie staat hier: https://github.com/Geonovum/IMGeo2018/blob/master/thema's/Water/20170615_verslag_BGT_werksessie_thema_Water.pdf
