@@ -29,4 +29,4 @@ classificaties van Begroeidterreindeel uit te breiden met groenvoorziening:haag.
 Mogelijk geldt hetzelfde ook voor andere objecten; Geonovum gaat dit onderzoeken
 en verder uitwerken.
 
-Het volledige verslag van deze werksessie staat hier:
+Het volledige verslag van deze werksessie staat hier: https://github.com/Geonovum/IMGeo2018/blob/master/thema's/Inrichtingselementen/20170601_BGT_werksessie_thema_Inrichtingselementen.pdf

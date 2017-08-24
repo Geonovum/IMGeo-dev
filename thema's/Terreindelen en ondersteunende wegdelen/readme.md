@@ -48,4 +48,4 @@ vergroening van erven/tuinen. Sommige bronhouders geven al een andere invulling
 aan (grote) terreinen, bijvoorbeeld industriele complexen en bedrijfsterreinen,
 hoewel IMGeo dit niet verplicht. Geonovum werkt dit verder uit.
 
-Het volledige verslag van deze werksessie staat hier:
+Het volledige verslag van deze werksessie staat hier: https://github.com/Geonovum/IMGeo2018/blob/master/thema's/Terreindelen%20en%20ondersteunende%20wegdelen/20170608_verslag_BGT_werksessie_thema_Terreindelen_en_ondersteunende_wegdelen.pdf
