@@ -6,9 +6,9 @@ Alleen over de visualisatie van teksten wordt in deze gegevenscatalogus iets gez
 
 In de BGT worden teksten opgenomen voor visualisatie en oriëntatie. Waar deze teksten zijn opgenomen, worden zij vergezeld van een geometriepunt en eventuele rotatie. Deze teksten betreffen namen van openbare ruimten en een nummeraanduidingreeks bij panden.
 
-![BGT visualisatie namen](https://raw.githubusercontent.com/adbgnm/spiegel/master/standaarden/catalogus/media/2246f72e43b403281a04a5a9b6f9b1bf.png)
+![Figuur 9: Visualisatie van openbare ruimtenamen op de BGT achtergrondkaart](../afbeeldingen-opmaak/bgt-fig9-visualisatie-namen.png)
 
-Figuur 9: Visualisatie van openbare ruimtenamen op de BGT achtergrondkaart
+_Figuur 9: Visualisatie van openbare ruimtenamen op de BGT achtergrondkaart_
 
 ## Namen
 
@@ -22,9 +22,9 @@ De visualisatie van een openbare ruimtenaam vindt plaats door de coördinaten va
 
 In de visualisatie van de BGT worden nummeraanduidingen gepresenteerd, die horen bij panden, zoals gedefinieerd in de BAG voor de verblijfsobjecten in die panden. Dit is bedoeld ter oriëntatie.
 
-![BGT visualisatie huisnummers](https://raw.githubusercontent.com/adbgnm/spiegel/master/standaarden/catalogus/media/a32c2e8fc4bbc9bb2f1bb6522c0e1976.png)
+![Figuur 10: Visualisatie van nummeraanduidingen op de BGT hoofdthema kaart](../afbeeldingen-opmaak/bgt-fig10-visualisatie-huisnummers.png)
 
-Figuur 10: Visualisatie van nummeraanduidingen op de BGT hoofdthema kaart
+_Figuur 10: Visualisatie van nummeraanduidingen op de BGT hoofdthema kaart_
 
 De nummeraanduidingen van verblijfsobjecten in een pand worden verzameld tot een nummeraanduidingreeks. Als er slechts één huisnummer voorkomt, wordt alleen deze getoond. Bij meerdere huisnummers worden het eerste en het laatste huisnummer getoond, gescheiden door een koppelteken, bijvoorbeeld 33-39.
 
