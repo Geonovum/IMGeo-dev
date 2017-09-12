@@ -14,7 +14,7 @@ De BGT beschrijft de geometrie van objecten voor een afbeeldingbereik van schaal
 
 De BGT bevat fysieke topografische objecten. Uitzonderingen hierop zijn het functioneel gebied Kering (zie paragraaf 3.4) en de (kunstmatig) gekozen vlakobjectbegrenzingen bij wegdelen, waterdelen en terreindelen.
 
-![Figuur 1: Overzicht BGT-objecten.](../afbeeldingen-opmaak/bgt-fig1-overzicht-bgt-objecten.png)
+![Figuur 1: Overzicht BGT-objecten.](../afbeeldingen-opmaak/bgt-fig-overzicht-bgt-objecten.png)
 
 _Figuur 1: Overzicht BGT-objecten._
 
@@ -53,6 +53,6 @@ Scheiding en Overbruggingsdeel).
 
 Macro-objecten zijn geen inhoud van de BGT; in het eigen beheersysteem kan men indien gewenst macro-objecten definiëren, die een clustering van BGT objecten bevatten. In het optionele deel van IMGeo kunnen deze worden uitgewisseld als Functioneel Gebied.
 
-![Figuur 2: Johannes Vermeer - De Geograaf (1669)](../afbeeldingen-opmaak/bgt-fig2-johannes-vermeer-de-geograaf.png)
+![Figuur 2: Johannes Vermeer - De Geograaf (1669)](../afbeeldingen-opmaak/bgt-fig-johannes-vermeer-de-geograaf.png)
 
 _Figuur 2: Johannes Vermeer - De Geograaf (1669)_
