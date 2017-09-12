@@ -229,7 +229,7 @@ Voor de eerste twee punten geldt dat het object met de beste idealisatiewaarde (
 
 Voor het derde punt, de visualisatie van de BGT, gelden afwijkende regels. Deze regels zijn opgenomen in hoofdstuk 5 van het document Visualisatieregels BGT en IMGeo.
 
-# 3.10 Identificatie en historie
+# Identificatie en historie
 
 ### Identificatie
 
