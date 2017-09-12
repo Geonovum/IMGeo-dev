@@ -62,7 +62,7 @@ De OGC-standaard CityGML[^2] kent zijn oorsprong als uitwisselingsformaat. In mi
 version 2.0.0, document \# 12-019. Zie
 https://portal.opengeospatial.org/files/?artifact\_id=47842
 
-![Figuur 3: LOD concept in CityGML verbeeld](../afbeeldingen-opmaak/imgeo-fig-lod-concept-in-citygml-verbeeld.png)
+![LOD concept in CityGML verbeeld](../afbeeldingen-opmaak/imgeo-fig-lod-concept-in-citygml-verbeeld.png)
 
 _Figuur 3: LOD concept in CityGML verbeeld_
 
@@ -97,7 +97,7 @@ IMGeo is geïntegreerd met versie 2.0 van CityGML, met gebruik van de volgende m
 
 [^3]: Overeenkomstig het raamwerk van geo-standaarden, versie 2.1
 
-![Figuur 4: Vegetatieobject als subklasse van CityGML SolitaryVegetationObject](../afbeeldingen-opmaak/imgeo-fig-vegetatieobject-als-subklasse-van-citygml-solitaryvegetationobject.png)
+![Vegetatieobject als subklasse van CityGML SolitaryVegetationObject](../afbeeldingen-opmaak/imgeo-fig-vegetatieobject-als-subklasse-van-citygml-solitaryvegetationobject.png)
 
 _Figuur 4: Vegetatieobject als subklasse van CityGML SolitaryVegetationObject_
 
