@@ -19,8 +19,8 @@ var respecConfig = {
     note: "" 
     }
   ],
-  //shortName: "bgt",
-  //pubDomain: "bgt",
+  //shortName: "shortname",
+  pubDomain: "pubdomain",
   github: "https://github.com/Geonovm/IMGeo2018",
   //previousPublishDate: "2017-01-01",
   //previousStatus: "GN-CV",
