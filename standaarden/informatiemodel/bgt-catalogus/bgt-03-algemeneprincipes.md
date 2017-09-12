@@ -251,6 +251,7 @@ De BGT-ID wordt bepaald bij het ontstaan van het object en blijft behouden als h
 Objecten uit de BAG hebben in de BAG-registratie een unieke identificatiecode. Voor deze objecten neemt de BGT de identificatiecode op als attribuut ‘identificatieBAG’.
 
 ![Figuur 4: Vincent van Gogh – Het gele huis (1888)](../afbeeldingen-opmaak/bgt-fig4-vincent-van-gogh-het-gele-huis.png)
+
 _Figuur 4: Vincent van Gogh – Het gele huis (1888)_
 
 ### Gebeurtenissen
@@ -288,9 +289,11 @@ De BGT hanteert de volgende regels voor object- en versiehistorie (zie ook parag
 
 
 ![Figuur 5: Uitsluitend wijzigingen in geometrie: dezelfde ID’s, nieuwe versies](../afbeeldingen-opmaak/bgt-fig5-uitsluitend-wijzigingen-in-geometrie.png)
+
 _Figuur 5: Uitsluitend wijzigingen in geometrie: dezelfde ID’s, nieuwe versies_
 
 ![Figuur 6: Wijziging door samenvoegen of splitsen: nieuwe, gewijzigde en vervallen objecten](../afbeeldingen-opmaak/bgt-fig6-wijziging-door-samenvoegen-of-splitsen.png)
+
 _Figuur 6: Wijziging door samenvoegen of splitsen: nieuwe, gewijzigde en vervallen objecten_
 
 1.  Als een object niet meer in de werkelijkheid bestaat, vervalt het object. Het object-ID blijft wel geregistreerd. Het object krijgt van de bronhouder een objectEindTijd en een eindRegistratie die gelijk is aan de objectEindTijd.
@@ -333,5 +336,6 @@ In het geval dat niet-gestrookte bogen voorkomen in de vlakgeometrie van BGT-obj
 
 In onderstaande figuur zijn bij de objectafbakening van het terreindeel de plaatsbepalingspunten 1 t/m 10 gebruikt. Bij het wegdeel zijn bij de objectafbakening de plaatsbepalingspunten 6 t/m 16 gebruikt.
 
-![Figuur 7: BGT-objecten en plaatsbepalingspunten](../afbeeldingen-opmaak/bgt-fig7-bgt-objecten-en-plaatsbepalingspunten.emf)
+![Figuur 7: BGT-objecten en plaatsbepalingspunten](../afbeeldingen-opmaak/bgt-fig7-objecten-en-plaatsbepalingspunten.emf)
+
 _Figuur 7: BGT-objecten en plaatsbepalingspunten_
