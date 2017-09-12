@@ -1,4 +1,4 @@
-# 6 Semantisch gegevensmodel
+# Semantisch gegevensmodel
 
 Figuur 11 is een vereenvoudigde weergave van de modellering van de
 BGT-objecttypen (beige). Het IMGeo-object bevat een aantal algemene
@@ -8,6 +8,6 @@ plaatsbepalingspunten. Objecttypen met een gestippeld kader en schuingedrukte
 tekst zijn abstracte objecttypen en komen niet als concreet object voor in een
 BGT dataset.
 
-![](media/fig-bgt-semantisch-gegevensmodel.png)
+![](https://raw.githubusercontent.com/adbgnm/spiegel/master/standaarden/catalogus/media/fig-bgt-semantisch-gegevensmodel.png)
 
 Figuur 11: Overzicht BGT-objecttypen
