@@ -95,7 +95,7 @@ Tabel 1 Per objecttype generieke waarden voor actualiteit, positionele nauwkeuri
 
 De hierboven opgenomen tabel vermeldt een generiek waarde voor de minimale toegestane positionele nauwkeurigheid (de relatieve precisie) tussen nabij gelegen punten van één object met dezelfde idealisatie. In de praktijk zal één BGT-object meestal bestaan uit punten met verschillende waarden voor precisie én idealisatie. Als men tussen deze punten of tussen nabijgelegen punten van verschillende objecten wil toetsen, moet men eerst de maximaal toegestane afwijking berekenen als resultaat van de gerealiseerde precisie van de betreffende plaatsbepalingspunten én de idealisatieprecisie die geldt voor de objecten waar deze punten deel van uit maken. Het proces daarvan is uitgebreid beschreven in de HTW 1996.
 
-![Figuur 8: a: puntprecisie b: idealisatieprecisie c: resulterende relatieve precisie](../afbeeldingen-opmaak/bgt-fig8-punt-idealisatie-resulteren-relatieve-precisie.png)
+![a: puntprecisie b: idealisatieprecisie c: resulterende relatieve precisie](../afbeeldingen-opmaak/bgt-fig-punt-idealisatie-resulteren-relatieve-precisie.png)
 
 _Figuur 8: a: puntprecisie b: idealisatieprecisie c: resulterende relatieve precisie_
 
