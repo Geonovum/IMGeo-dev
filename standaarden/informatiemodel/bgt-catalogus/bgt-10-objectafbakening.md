@@ -19,9 +19,9 @@ Brandgangen, met een openbaar karakter en waarvan de breedte \>0,90 m bedraagt, 
 
 Grasklinkers (open klinkers, groenstenen) kunnen voorkomen als verhardingssoort van parkeervlakken. Voor de BGT is dan het fysiek voorkomen daarvan: open verharding. Wanneer ze als strookverharding voor komen langs wegdelen behoren tot de berm (ondersteunend wegdeel) waar ze in liggen.
 
-![Wegobjecten3](https://raw.githubusercontent.com/adbgnm/spiegel/master/standaarden/catalogus/media/8eeffe79b8eac59b938801ebe9da837b.jpg)
+![Figuur 12: Voorbeeld van weg- en terreindelen](../afbeelding-opmaak/bgt-fig12-afbakening-weg-terrein.jpg)
 
-Figuur 12: Voorbeeld van weg- en terreindelen
+_Figuur 12: Voorbeeld van weg- en terreindelen_
 
 De kruinlijn moet bij het wegdeel worden opgenomen indien de helling een verhouding heeft van verticaal:horizontaal van 1:4 of steiler en het hoogteverschil \> 1 m bedraagt.
 
@@ -180,9 +180,9 @@ In meren wordt een streefpeil beheerd door bemalen en/of spuien. Als de ligging 
 
 Hier geldt onderstaand stroomdiagram. Als kant water de begrenzing van objecten vormt, geldt dat dit een presentatie is van het laagst mogelijke streefpeil ter plaatse. Als de horizontale afstand tussen waterlijn en de bovenkant van een herkenbare insteek 1m of meer bedraagt dan ontstaat in de BGT een ondersteunend waterdeel van het type oever/slootkant.
 
-![](https://raw.githubusercontent.com/adbgnm/spiegel/master/standaarden/catalogus/media/90e8671da8cb5b1bb54087d56fa4a146.jpg)
+![Figuur 13: Stroomdiagram begrenzing waterlopen en -vlakken](../afbeeldingen-opmaak/bgt-fig13-stroomdiagram-waterlopen-watervlakken.jpg)
 
-Figuur 13: Stroomdiagram begrenzing waterlopen en -vlakken
+_Figuur 13: Stroomdiagram begrenzing waterlopen en -vlakken_
 
 # Pand
 
