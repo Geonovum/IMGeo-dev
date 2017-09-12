@@ -19,7 +19,7 @@ Brandgangen, met een openbaar karakter en waarvan de breedte \>0,90 m bedraagt, 
 
 Grasklinkers (open klinkers, groenstenen) kunnen voorkomen als verhardingssoort van parkeervlakken. Voor de BGT is dan het fysiek voorkomen daarvan: open verharding. Wanneer ze als strookverharding voor komen langs wegdelen behoren tot de berm (ondersteunend wegdeel) waar ze in liggen.
 
-![Voorbeeld van weg- en terreindelen](../afbeelding-opmaak/bgt-fig-afbakening-weg-terrein.jpg)
+![Voorbeeld van weg- en terreindelen](../afbeeldingen-opmaak/bgt-fig-afbakening-weg-terrein.jpg)
 
 _Figuur 12: Voorbeeld van weg- en terreindelen_
 
