@@ -16,6 +16,8 @@ De BGT bevat fysieke topografische objecten. Uitzonderingen hierop zijn het func
 
 ![Figuur 1: Overzicht BGT-objecten.](../afbeeldingen-opmaak/bgt-fig1-overzicht-bgt-objecten.png)
 
+_Figuur 1: Overzicht BGT-objecten._
+
 ## Dekking
 
 De BGT wordt landsdekkend beheerd voor het grondgebied van Nederland binnen de gemeentegrenzen. Daartoe behoren ook industriële complexen, zoals Schiphol, de Hoogovens en Europoort.
@@ -52,3 +54,5 @@ Scheiding en Overbruggingsdeel).
 Macro-objecten zijn geen inhoud van de BGT; in het eigen beheersysteem kan men indien gewenst macro-objecten definiëren, die een clustering van BGT objecten bevatten. In het optionele deel van IMGeo kunnen deze worden uitgewisseld als Functioneel Gebied.
 
 ![Figuur 2: Johannes Vermeer - De Geograaf (1669)](../afbeeldingen-opmaak/bgt-fig2-johannes-vermeer-de-geograaf.png)
+
+_Figuur 2: Johannes Vermeer - De Geograaf (1669)_
