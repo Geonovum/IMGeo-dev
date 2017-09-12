@@ -1,14 +1,13 @@
-Beschrijving van de objecttypen
-===============================
+# Beschrijving van de objecttypen
 
 De optionele objecttypen uit IMGeo worden hieronder besproken.
 
-Objecttype: OverigeScheiding
+## Objecttype: OverigeScheiding
 
 
 | **Naam objecttype**               | OverigeScheiding                                                                                                                                                                                                                                                                                                                     |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<featureType\>\> \<\<objecttype\>\>                                                                                                                                                                                                                                                                                               |
+| **Stereotype**                    | «featureType» «objecttype»                                                                                                                                                                                                                                                                                               |
 | **Herkomst objecttype**           | IMGeo 2.0                                                                                                                                                                                                                                                                                                                            |
 | **Code objecttype**               | 54                                                                                                                                                                                                                                                                                                                                   |
 | **Definitie objecttype**          | Kunstmatig, meestal lineair obstakel met een werende functie, met kleinere afmetingen dan toegestaan voor opname in de BGT.                                                                                                                                                                                                          |
@@ -22,12 +21,11 @@ Objecttype: OverigeScheiding
 | **Overzicht associaties**         |                                                                                                                                                                                                                                                                                                                                      |
 | **Overzicht attributen**          | plus-type [0-1]                                                                                                                                                                                                                                                                                                                      |
 
-Objecttype: Inrichtingselement
-------------------------------
+## Objecttype: Inrichtingselement
 
 | **Naam objecttype**               | Inrichtingselement                                                                                                                                                                                                                                                                                                                                                          |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<ADEElement\>\> \<\<objecttype\>\>                                                                                                                                                                                                                                                                                                                                       |
+| **Stereotype**                    | «ADEElement» «objecttype»                                                                                                                                                                                                                                                                                                                                       |
 | **Herkomst objecttype**           | IMGeo                                                                                                                                                                                                                                                                                                                                                                       |
 | **Code objecttype**               | 150                                                                                                                                                                                                                                                                                                                                                                         |
 | **Definitie objecttype**          | Een ruimtelijk object al dan niet ter detaillering dan wel ter inrichting van de overige benoemde ruimtelijke objecten of een ander inrichtingselement.                                                                                                                                                                                                                     |
@@ -40,13 +38,11 @@ Objecttype: Inrichtingselement
 | **Kwaliteitsbegrip**              |                                                                                                                                                                                                                                                                                                                                                                             |
 | **Overzicht associaties**         |                                                                                                                                                                                                                                                                                                                                                                             |
 | **Overzicht attributen**          | bgt-type [1-1]                                                                                                                                                                                                                                                                                                                                                              |
-
-Objecttype: Bak
----------------
+## Objecttype: Bak
 
 | **Naam objecttype**               | Bak                                                                                |
 |-----------------------------------|------------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<objecttype\>\> \<\<featureType\>\>                                             |
+| **Stereotype**                    | «objecttype» «featureType»                                             |
 | **Herkomst objecttype**           | IMGeo                                                                              |
 | **Code objecttype**               | 160                                                                                |
 | **Definitie objecttype**          | Object met een permanent karakter dat dient om iets in te bergen of te verzamelen. |
@@ -57,15 +53,14 @@ Objecttype: Bak
 | **Unieke aanduiding objecttype**  | Identificatie.                                                                     |
 | **Populatie**                     |                                                                                    |
 | **Kwaliteitsbegrip**              |                                                                                    |
-| **Overzicht associaties**         | geometrie2dBak [1..1]\<br /\>lod0GeometrieBak [0..1]                               |
-| **Overzicht attributen**          | bgt-type [1-1]\<br /\>plus-type [0-1]                                              |
+| **Overzicht associaties**         | geometrie2dBak [1..1]<br />lod0GeometrieBak [0..1]                               |
+| **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                              |
 
-Objecttype: Bord
-----------------
+## Objecttype: Bord
 
 | **Naam objecttype**               | Bord                                                   |
 |-----------------------------------|--------------------------------------------------------|
-| **Stereotype**                    | \<\<objecttype\>\> \<\<featureType\>\>                 |
+| **Stereotype**                    | «objecttype» «featureType»                 |
 | **Herkomst objecttype**           | IMGeo                                                  |
 | **Code objecttype**               | 170                                                    |
 | **Definitie objecttype**          | Een paneel waarop informatie wordt afgebeeld.          |
@@ -76,15 +71,14 @@ Objecttype: Bord
 | **Unieke aanduiding objecttype**  | Identificatie                                          |
 | **Populatie**                     |                                                        |
 | **Kwaliteitsbegrip**              |                                                        |
-| **Overzicht associaties**         | lod0GeometrieBord [0..1]\<br /\>geometrie2dBord [1..1] |
-| **Overzicht attributen**          | bgt-type [1-1]\<br /\>plus-type [0-1]                  |
+| **Overzicht associaties**         | lod0GeometrieBord [0..1]<br />geometrie2dBord [1..1] |
+| **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                  |
 
-Objecttype: GebouwInstallatie
------------------------------
+## Objecttype: GebouwInstallatie
 
 | **Naam objecttype**               | GebouwInstallatie                                                                              |
 |-----------------------------------|------------------------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<ADEElement\>\> \<\<objecttype\>\>                                                          |
+| **Stereotype**                    | «ADEElement» «objecttype»                                                          |
 | **Herkomst objecttype**           | IMGeo 2.0                                                                                      |
 | **Code objecttype**               | 180                                                                                            |
 | **Definitie objecttype**          | Een component aan de buitenzijde van een gebouw, die het aanzicht van het gebouw mede bepaalt. |
@@ -95,15 +89,14 @@ Objecttype: GebouwInstallatie
 | **Unieke aanduiding objecttype**  | Identificatie.                                                                                 |
 | **Populatie**                     |                                                                                                |
 | **Kwaliteitsbegrip**              |                                                                                                |
-| **Overzicht associaties**         | geometrie2dGebouwInstallatie [1..1]\<br /\>lod0GeometryGebouwInstallatie [0..1]                |
-| **Overzicht attributen**          | bgt-typeGebouwInstallatie [1-1]\<br /\>plus-typeGebouwInstallatie [0-1]                        |
+| **Overzicht associaties**         | geometrie2dGebouwInstallatie [1..1]<br />lod0GeometryGebouwInstallatie [0..1]                |
+| **Overzicht attributen**          | bgt-typeGebouwInstallatie [1-1]<br />plus-typeGebouwInstallatie [0-1]                        |
 
-Objecttype: Installatie
------------------------
+## Objecttype: Installatie
 
 | **Naam objecttype**               | Installatie                                                          |
 |-----------------------------------|----------------------------------------------------------------------|
-| **Stereotype**                    | \<\<objecttype\>\> \<\<featureType\>\>                               |
+| **Stereotype**                    | «objecttype» «featureType»                               |
 | **Herkomst objecttype**           | IMGeo                                                                |
 | **Code objecttype**               | 190                                                                  |
 | **Definitie objecttype**          | Samenhangend systeem dat een bepaald doel dient.                     |
@@ -114,15 +107,14 @@ Objecttype: Installatie
 | **Unieke aanduiding objecttype**  | Identificatie.                                                       |
 | **Populatie**                     |                                                                      |
 | **Kwaliteitsbegrip**              |                                                                      |
-| **Overzicht associaties**         | geometrie2dInstallatie [1..1]\<br /\>lod0GeometrieInstallatie [0..1] |
-| **Overzicht attributen**          | bgt-type [1-1]\<br /\>plus-type [0-1]                                |
+| **Overzicht associaties**         | geometrie2dInstallatie [1..1]<br />lod0GeometrieInstallatie [0..1] |
+| **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                |
 
-Objecttype: Kast
-----------------
+## Objecttype: Kast
 
 | **Naam objecttype**               | Kast                                                                               |
 |-----------------------------------|------------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<objecttype\>\> \<\<featureType\>\>                                             |
+| **Stereotype**                    | «objecttype» «featureType»                                             |
 | **Herkomst objecttype**           | IMGeo                                                                              |
 | **Code objecttype**               | 200                                                                                |
 | **Definitie objecttype**          | Object met een permanent karakter dat dient om iets in te bergen en te beschermen. |
@@ -133,15 +125,14 @@ Objecttype: Kast
 | **Unieke aanduiding objecttype**  | Identificatie.                                                                     |
 | **Populatie**                     |                                                                                    |
 | **Kwaliteitsbegrip**              |                                                                                    |
-| **Overzicht associaties**         | lod0GeometrieKast [0..1]\<br /\>geometrie2dKast [1..1]                             |
-| **Overzicht attributen**          | bgt-type [1-1]\<br /\>plus-type [0-1]                                              |
+| **Overzicht associaties**         | lod0GeometrieKast [0..1]<br />geometrie2dKast [1..1]                             |
+| **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                              |
 
-Objecttype: Mast
-----------------
+## Objecttype: Mast
 
 | **Naam objecttype**               | Mast                                                   |
 |-----------------------------------|--------------------------------------------------------|
-| **Stereotype**                    | \<\<featureType\>\> \<\<objecttype\>\>                 |
+| **Stereotype**                    | «featureType» «objecttype»                 |
 | **Herkomst objecttype**           | IMGeo                                                  |
 | **Code objecttype**               | 210                                                    |
 | **Definitie objecttype**          | Hoge draagconstructie.                                 |
@@ -152,15 +143,14 @@ Objecttype: Mast
 | **Unieke aanduiding objecttype**  | Identificatie                                          |
 | **Populatie**                     |                                                        |
 | **Kwaliteitsbegrip**              |                                                        |
-| **Overzicht associaties**         | lod0GeometrieMast [0..1]\<br /\>geometrie2dMast [1..1] |
-| **Overzicht attributen**          | bgt-type [1-1]\<br /\>plus-type [0-1]                  |
+| **Overzicht associaties**         | lod0GeometrieMast [0..1]<br />geometrie2dMast [1..1] |
+| **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                  |
 
-Objecttype: Paal
-----------------
+## Objecttype: Paal
 
 | **Naam objecttype**               | Paal                                                                                                |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<objecttype\>\> \<\<featureType\>\>                                                              |
+| **Stereotype**                    | «objecttype» «featureType»                                                              |
 | **Herkomst objecttype**           | IMGeo                                                                                               |
 | **Code objecttype**               | 220                                                                                                 |
 | **Definitie objecttype**          | Langwerpig stuk hout, ijzer, steen enz., dat in de grond staat.                                     |
@@ -171,15 +161,14 @@ Objecttype: Paal
 | **Unieke aanduiding objecttype**  | Identificatie.                                                                                      |
 | **Populatie**                     |                                                                                                     |
 | **Kwaliteitsbegrip**              |                                                                                                     |
-| **Overzicht associaties**         | geometrie2dPaal [1..1]\<br /\>lod0GeometriePaal [0..1]                                              |
-| **Overzicht attributen**          | bgt-type [1-1]\<br /\>hectometeraanduiding [0-1]\<br /\>plus-type [0-1]                             |
+| **Overzicht associaties**         | geometrie2dPaal [1..1]<br />lod0GeometriePaal [0..1]                                              |
+| **Overzicht attributen**          | bgt-type [1-1]<br />hectometeraanduiding [0-1]<br />plus-type [0-1]                             |
 
-Objecttype: Put
----------------
+## Objecttype: Put
 
 | **Naam objecttype**               | Put                                                                           |
 |-----------------------------------|-------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<objecttype\>\> \<\<featureType\>\>                                        |
+| **Stereotype**                    | «objecttype» «featureType»                                        |
 | **Herkomst objecttype**           | IMGeo                                                                         |
 | **Code objecttype**               | 230                                                                           |
 | **Definitie objecttype**          | Gegraven of geboorde kokervormige diepte waarin zich (vloei)stoffen bevinden. |
@@ -190,15 +179,14 @@ Objecttype: Put
 | **Unieke aanduiding objecttype**  | Identificatie.                                                                |
 | **Populatie**                     |                                                                               |
 | **Kwaliteitsbegrip**              |                                                                               |
-| **Overzicht associaties**         | geometrie2dPut [1..1]\<br /\>lod0GeometriePut [0..1]                          |
-| **Overzicht attributen**          | bgt-type [1-1]\<br /\>plus-type [0-1]                                         |
+| **Overzicht associaties**         | geometrie2dPut [1..1]<br />lod0GeometriePut [0..1]                          |
+| **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                         |
 
-Objecttype: Sensor
-------------------
+## Objecttype: Sensor
 
 | **Naam objecttype**               | Sensor                                                                                             |
 |-----------------------------------|----------------------------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<objecttype\>\> \<\<featureType\>\>                                                             |
+| **Stereotype**                    | «objecttype» «featureType»                                                             |
 | **Herkomst objecttype**           | IMGeo                                                                                              |
 | **Code objecttype**               | 240                                                                                                |
 | **Definitie objecttype**          | Apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit). |
@@ -209,15 +197,14 @@ Objecttype: Sensor
 | **Unieke aanduiding objecttype**  | Identificatie.                                                                                     |
 | **Populatie**                     |                                                                                                    |
 | **Kwaliteitsbegrip**              |                                                                                                    |
-| **Overzicht associaties**         | lod0GeometrieSensor [0..1]\<br /\>geometrie2dSensor [1..1]                                         |
-| **Overzicht attributen**          | bgt-type [1-1]\<br /\>plus-type [0-1]                                                              |
+| **Overzicht associaties**         | lod0GeometrieSensor [0..1]<br />geometrie2dSensor [1..1]                                         |
+| **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                                              |
 
-Objecttype: Straatmeubilair
----------------------------
+## Objecttype: Straatmeubilair
 
 | **Naam objecttype**               | Straatmeubilair                                                              |
 |-----------------------------------|------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<objecttype\>\> \<\<featureType\>\>                                       |
+| **Stereotype**                    | «objecttype» «featureType»                                       |
 | **Herkomst objecttype**           | IMGeo                                                                        |
 | **Code objecttype**               | 250                                                                          |
 | **Definitie objecttype**          | Een ruimtelijk object ter inrichting van de openbare ruimte.                 |
@@ -228,15 +215,14 @@ Objecttype: Straatmeubilair
 | **Unieke aanduiding objecttype**  | Identificatie.                                                               |
 | **Populatie**                     |                                                                              |
 | **Kwaliteitsbegrip**              |                                                                              |
-| **Overzicht associaties**         | geometrie2dStraatmeubilair [1..1]\<br /\>lod0GeometrieStraatmeubilair [0..1] |
-| **Overzicht attributen**          | bgt-type [1-1]\<br /\>plus-type [0-1]                                        |
+| **Overzicht associaties**         | geometrie2dStraatmeubilair [1..1]<br />lod0GeometrieStraatmeubilair [0..1] |
+| **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                        |
 
-Objecttype: Waterinrichtingselement
------------------------------------
+## Objecttype: Waterinrichtingselement
 
 | **Naam objecttype**               | Waterinrichtingselement                                                                      |
 |-----------------------------------|----------------------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<objecttype\>\> \<\<featureType\>\>                                                       |
+| **Stereotype**                    | «objecttype» «featureType»                                                       |
 | **Herkomst objecttype**           | IMGeo 2.0                                                                                    |
 | **Code objecttype**               | 260                                                                                          |
 | **Definitie objecttype**          | Een ruimtelijk object ter inrichting van het water.                                          |
@@ -247,15 +233,14 @@ Objecttype: Waterinrichtingselement
 | **Unieke aanduiding objecttype**  | Identificatie.                                                                               |
 | **Populatie**                     |                                                                                              |
 | **Kwaliteitsbegrip**              |                                                                                              |
-| **Overzicht associaties**         | lod0GeometrieWaterinrichtingselement [0..1]\<br /\>geometrie2dWaterinrichtingselement [1..1] |
-| **Overzicht attributen**          | bgt-type [1-1]\<br /\>plus-type [0-1]                                                        |
+| **Overzicht associaties**         | lod0GeometrieWaterinrichtingselement [0..1]<br />geometrie2dWaterinrichtingselement [1..1] |
+| **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                                        |
 
-Objecttype: Weginrichtingselement
----------------------------------
+## Objecttype: Weginrichtingselement
 
 | **Naam objecttype**               | Weginrichtingselement                                                                    |
 |-----------------------------------|------------------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<featureType\>\> \<\<objecttype\>\>                                                   |
+| **Stereotype**                    | «featureType» «objecttype»                                                   |
 | **Herkomst objecttype**           | IMGeo 2.0                                                                                |
 | **Code objecttype**               | 270                                                                                      |
 | **Definitie objecttype**          | Een ruimtelijk object dat dient voor de inrichting van de openbare weg.                  |
@@ -266,15 +251,14 @@ Objecttype: Weginrichtingselement
 | **Unieke aanduiding objecttype**  | Identificatie.                                                                           |
 | **Populatie**                     |                                                                                          |
 | **Kwaliteitsbegrip**              |                                                                                          |
-| **Overzicht associaties**         | lod0GeometrieWeginrichtingselement [0..1]\<br /\>geometrie2dWeginrichtingselement [1..1] |
-| **Overzicht attributen**          | bgt-type [1-1]\<br /\>plus-type [0-1]                                                    |
+| **Overzicht associaties**         | lod0GeometrieWeginrichtingselement [0..1]<br />geometrie2dWeginrichtingselement [1..1] |
+| **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                                    |
 
-Objecttype: VegetatieObject
----------------------------
+## Objecttype: VegetatieObject
 
 | **Naam objecttype**               | VegetatieObject                                                                                                                                                                                             |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<ADEElement\>\> \<\<objecttype\>\>                                                                                                                                                                       |
+| **Stereotype**                    | «ADEElement» «objecttype»                                                                                                                                                                       |
 | **Herkomst objecttype**           | IMGeo 2.0                                                                                                                                                                                                   |
 | **Code objecttype**               | 300                                                                                                                                                                                                         |
 | **Definitie objecttype**          | Solitair vegetatieobject of lijn- of vlakvormige groep gelijksoortige vegetatieobjecten met een beperkte omvang.                                                                                            |
@@ -285,15 +269,14 @@ Objecttype: VegetatieObject
 | **Unieke aanduiding objecttype**  | Identificatie.                                                                                                                                                                                              |
 | **Populatie**                     | Onder vrijstaande vegetatieobjecten worden niet alleen die vegetatieobjecten opgenomen die strikt genomen solitair zijn, zoals bomen, maar ook vegetatieobjecten die samen één geheel vormen zoals een heg. |
 | **Kwaliteitsbegrip**              |                                                                                                                                                                                                             |
-| **Overzicht associaties**         | geometrie2dVegetatieObject [1..1]\<br /\>lod0GeometryVegetatieObject [0..1]                                                                                                                                 |
-| **Overzicht attributen**          | bgt-type [1-1]\<br /\>plus-type [0-1]                                                                                                                                                                       |
+| **Overzicht associaties**         | geometrie2dVegetatieObject [1..1]<br />lod0GeometryVegetatieObject [0..1]                                                                                                                                 |
+| **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                                                                                                                                                       |
 
-Objecttype: RegistratiefGebied
-------------------------------
+## Objecttype: RegistratiefGebied
 
 | **Naam objecttype**               | RegistratiefGebied                                                                                                                                                          |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<objecttype\>\> \<\<featureType\>\>                                                                                                                                      |
+| **Stereotype**                    | «objecttype» «featureType»                                                                                                                                      |
 | **Herkomst objecttype**           | NEN 3610:2011                                                                                                                                                               |
 | **Code objecttype**               | 360                                                                                                                                                                         |
 | **Definitie objecttype**          | Op basis van wet- of regelgeving afgebakend gebied dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering.                            |
@@ -307,12 +290,11 @@ Objecttype: RegistratiefGebied
 | **Overzicht associaties**         | geometrie2d [1..1]                                                                                                                                                          |
 | **Overzicht attributen**          | naam [0-1]                                                                                                                                                                  |
 
-Objecttype: Buurt
------------------
+## Objecttype: Buurt
 
 | **Naam objecttype**               | Buurt                                                                                                                   |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<objecttype\>\> \<\<featureType\>\>                                                                                  |
+| **Stereotype**                    | «objecttype» «featureType»                                                                                  |
 | **Herkomst objecttype**           | IMGeo                                                                                                                   |
 | **Code objecttype**               | 330                                                                                                                     |
 | **Definitie objecttype**          | Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zoveel mogelijk zijn gebaseerd op topografische elementen. |
@@ -326,12 +308,11 @@ Objecttype: Buurt
 | **Overzicht associaties**         | wijk [0..1]                                                                                                             |
 | **Overzicht attributen**          | buurtcode [1-1]                                                                                                         |
 
-Objecttype: OpenbareRuimte
---------------------------
+## Objecttype: OpenbareRuimte
 
 | **Naam objecttype**               | OpenbareRuimte                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<objecttype\>\> \<\<featureType\>\>                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Stereotype**                    | «objecttype» «featureType»                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **Herkomst objecttype**           | BAG                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Code objecttype**               | 400                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Definitie objecttype**          | Een OPENBARE RUIMTE is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen.                                                                                                                                                                                                                                                                                                        |
@@ -345,12 +326,11 @@ Objecttype: OpenbareRuimte
 | **Overzicht associaties**         | naamEnIdOpenbareRuimte [0..1]                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | **Overzicht attributen**          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
-Objecttype: Stadsdeel
----------------------
+## Objecttype: Stadsdeel
 
 | **Naam objecttype**               | Stadsdeel                              |
 |-----------------------------------|----------------------------------------|
-| **Stereotype**                    | \<\<objecttype\>\> \<\<featureType\>\> |
+| **Stereotype**                    | «objecttype» «featureType» |
 | **Herkomst objecttype**           | BRT                                    |
 | **Code objecttype**               | 370                                    |
 | **Definitie objecttype**          | Deel van een stad, wijk.               |
@@ -364,12 +344,11 @@ Objecttype: Stadsdeel
 | **Overzicht associaties**         |                                        |
 | **Overzicht attributen**          |                                        |
 
-Objecttype: Waterschap
-----------------------
+## Objecttype: Waterschap
 
 | **Naam objecttype**               | Waterschap                                                                                                                                  |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<objecttype\>\> \<\<featureType\>\>                                                                                                      |
+| **Stereotype**                    | «objecttype» «featureType»                                                                                                      |
 | **Herkomst objecttype**           | IMGeo                                                                                                                                       |
 | **Code objecttype**               | 380                                                                                                                                         |
 | **Definitie objecttype**          | Regionaal gebied onder het bestuur van een overheidsinstantie (waterschap) die tot taak heeft de waterhuishouding in dit gebied te regelen. |
@@ -383,12 +362,11 @@ Objecttype: Waterschap
 | **Overzicht associaties**         |                                                                                                                                             |
 | **Overzicht attributen**          |                                                                                                                                             |
 
-Objecttype: Wijk
-----------------
+## Objecttype: Wijk
 
 | **Naam objecttype**               | Wijk                                                                                                                                                  |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<objecttype\>\> \<\<featureType\>\>                                                                                                                |
+| **Stereotype**                    | «objecttype» «featureType»                                                                                                                |
 | **Herkomst objecttype**           | IMGeo                                                                                                                                                 |
 | **Code objecttype**               | 390                                                                                                                                                   |
 | **Definitie objecttype**          | Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zoveel mogelijk zijn gebaseerd op sociaalgeografische kenmerken. |
@@ -416,7 +394,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-status                                                                                                      |
 |----------------------------------|------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                                                            |
+| **Stereotype**                   | «attribuuttype»                                                                                            |
 | **Herkomst attribuut**           | IMGeo                                                                                                            |
 | **Code attribuut**               | 10.11                                                                                                            |
 | **Definitie attribuut**          | De status gekoppeld aan de levenscyclus van een geo-object, indien dit een uitbreiding van de populatie betreft. |
@@ -435,7 +413,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-functieWegdeel                                                           |
 |----------------------------------|-------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                         |
+| **Stereotype**                   | «attribuuttype»                                                         |
 | **Herkomst attribuut**           | NEN 3610:2011                                                                 |
 | **Code attribuut**               | 20.4                                                                          |
 | **Definitie attribuut**          | Specificatie van het hoofdgebruiksdoel van het wegdeel, nadere classificatie. |
@@ -452,7 +430,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-fysiekVoorkomenWegdeel                                          |
 |----------------------------------|----------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                |
+| **Stereotype**                   | «attribuuttype»                                                |
 | **Herkomst attribuut**           | IMGEO                                                                |
 | **Code attribuut**               | 20.5                                                                 |
 | **Definitie attribuut**          | Mate waarin het wegdeel al of niet verhard is, nadere classificatie. |
@@ -480,7 +458,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-functieOndersteunendWegdeel                                        |
 |----------------------------------|-------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                   |
+| **Stereotype**                   | «attribuuttype»                                                   |
 | **Herkomst attribuut**           | IMGEO                                                                   |
 | **Code attribuut**               | 70.4                                                                    |
 | **Definitie attribuut**          | Specificatie van het soort ondersteunend wegdeel, nadere classificatie. |
@@ -497,7 +475,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-fysiekVoorkomenOndersteunendWegdeel                                           |
 |----------------------------------|------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                              |
+| **Stereotype**                   | «attribuuttype»                                                              |
 | **Herkomst attribuut**           | BGT                                                                                |
 | **Code attribuut**               | 70.5                                                                               |
 | **Definitie attribuut**          | Mate waarin het ondersteunend wegdeel al of niet verhard is, nadere classificatie. |
@@ -525,7 +503,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-fysiekVoorkomen                                                                        |
 |----------------------------------|---------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                                       |
+| **Stereotype**                   | «attribuuttype»                                                                       |
 | **Herkomst attribuut**           | IMGEO                                                                                       |
 | **Code attribuut**               | 30.3                                                                                        |
 | **Definitie attribuut**          | Nadere classificatie van het soort terrein, ingedeeld naar de uiterlijke verschijningsvorm. |
@@ -544,7 +522,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-fysiekVoorkomen                                                       |
 |----------------------------------|----------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                      |
+| **Stereotype**                   | «attribuuttype»                                                      |
 | **Herkomst attribuut**           | IMGEO                                                                      |
 | **Code attribuut**               | 140.3                                                                      |
 | **Definitie attribuut**          | Nadere classificatie van het vegetatiedek, ingedeeld naar soort vegetatie. |
@@ -572,7 +550,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                                               |
 |----------------------------------|---------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                   |
+| **Stereotype**                   | «attribuuttype»                                   |
 | **Herkomst attribuut**           | IMGEO                                                   |
 | **Code attribuut**               | 40.2                                                    |
 | **Definitie attribuut**          | Specificatie van het soort Water, nadere classificatie. |
@@ -591,7 +569,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                                               |
 |----------------------------------|---------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                   |
+| **Stereotype**                   | «attribuuttype»                                   |
 | **Herkomst attribuut**           | IMGEO                                                   |
 | **Code attribuut**               | 41.2                                                    |
 | **Definitie attribuut**          | Specificatie van het soort Water, nadere classificatie. |
@@ -684,7 +662,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-functieSpoor                                                                                            |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                                                        |
+| **Stereotype**                   | «attribuuttype»                                                                                        |
 | **Herkomst attribuut**           | IMGEO                                                                                                        |
 | **Code attribuut**               | 100.2                                                                                                        |
 | **Definitie attribuut**          | Specificatie van het soort gebruik van het spoor, indien dit een IMGeo uitbreiding van de populatie betreft. |
@@ -712,7 +690,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                                                                                              |
 |----------------------------------|--------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                                                  |
+| **Stereotype**                   | «attribuuttype»                                                                                  |
 | **Herkomst attribuut**           | IMGEO                                                                                                  |
 | **Code attribuut**               | 53.2                                                                                                   |
 | **Definitie attribuut**          | Specificatie van het soort overig bouwwerk, indien dit een IMGeo uitbreiding van de populatie betreft. |
@@ -731,7 +709,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                                                                                        |
 |----------------------------------|--------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                                            |
+| **Stereotype**                   | «attribuuttype»                                                                            |
 | **Herkomst attribuut**           | IMGEO                                                                                            |
 | **Code attribuut**               | 51.2                                                                                             |
 | **Definitie attribuut**          | Specificatie van het soort kunstwerk, indien dit een IMGeo uitbreiding van de populatie betreft. |
@@ -750,7 +728,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | typeOverbruggingsdeel                       |
 |----------------------------------|---------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                       |
+| **Stereotype**                   | «attribuuttype»                       |
 | **Herkomst attribuut**           | IMGEO 2.0                                   |
 | **Code attribuut**               | 55.2                                        |
 | **Definitie attribuut**          | Het soort onderdeel van de brugconstructie. |
@@ -767,7 +745,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | hoortBijTypeOverbrugging                                                                  |
 |----------------------------------|-------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                                     |
+| **Stereotype**                   | «attribuuttype»                                                                     |
 | **Herkomst attribuut**           | IMGEO 2.0                                                                                 |
 | **Code attribuut**               | 55.1                                                                                      |
 | **Definitie attribuut**          | Nadere classificatie van de overbrugging waar het overbruggingsdeel een onderdeel van is. |
@@ -784,7 +762,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | overbruggingIsBeweegbaar                                                              |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                                 |
+| **Stereotype**                   | «attribuuttype»                                                                 |
 | **Herkomst attribuut**           | IMGEO 2.0                                                                             |
 | **Code attribuut**               | 55.3                                                                                  |
 | **Definitie attribuut**          | Aanduiding of de brug waar het overbruggingsdeel bij hoort al dan niet beweegbaar is. |
@@ -823,7 +801,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                                                                                        |
 |----------------------------------|--------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                                            |
+| **Stereotype**                   | «attribuuttype»                                                                            |
 | **Herkomst attribuut**           | IMGEO                                                                                            |
 | **Code attribuut**               | 52.2                                                                                             |
 | **Definitie attribuut**          | Specificatie van het soort scheiding, indien dit een IMGeo uitbreiding van de populatie betreft. |
@@ -842,7 +820,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                                                     |
+| **Stereotype**                   | «attribuuttype»                                                                                     |
 | **Herkomst attribuut**           | IMGEO                                                                                                     |
 | **Code attribuut**               | 350.3                                                                                                     |
 | **Definitie attribuut**          | Specificatie van het soort Functioneel Gebied, indien het een IMGeo uitbreiding van de populatie betreft. |
@@ -859,7 +837,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | naam                                                                                                                                                           |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                                                                                                          |
+| **Stereotype**                   | «attribuuttype»                                                                                                                                          |
 | **Herkomst attribuut**           | IMGeo 2.0                                                                                                                                                      |
 | **Code attribuut**               | 350.1                                                                                                                                                          |
 | **Definitie attribuut**          | De benaming van het functionele gebied.                                                                                                                        |
@@ -878,7 +856,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                                     |
 |----------------------------------|-----------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                         |
+| **Stereotype**                   | «attribuuttype»                         |
 | **Herkomst attribuut**           | IMGEO                                         |
 | **Code attribuut**               | 54.1                                          |
 | **Definitie attribuut**          | Specificatie van het soort overige scheiding. |
@@ -897,7 +875,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | bgt-type                                                                                                                                            |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                                                                                               |
+| **Stereotype**                   | «attribuuttype»                                                                                                                               |
 | **Herkomst attribuut**           | IMGEO                                                                                                                                               |
 | **Code attribuut**               | 150.1                                                                                                                                               |
 | **Definitie attribuut**          | Het soort inrichtingselement.                                                                                                                       |
@@ -916,7 +894,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                             |
 |----------------------------------|---------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                 |
+| **Stereotype**                   | «attribuuttype»                 |
 | **Herkomst attribuut**           | IMGEO                                 |
 | **Code attribuut**               | 160.1                                 |
 | **Definitie attribuut**          | Het soort bak (IMGeo plus-populatie). |
@@ -953,7 +931,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                              |
 |----------------------------------|----------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                  |
+| **Stereotype**                   | «attribuuttype»                  |
 | **Herkomst attribuut**           | IMGEO                                  |
 | **Code attribuut**               | 170.1                                  |
 | **Definitie attribuut**          | Het soort bord (IMGeo plus-populatie). |
@@ -990,7 +968,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | bgt-typeGebouwInstallatie                     |
 |----------------------------------|-----------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                         |
+| **Stereotype**                   | «attribuuttype»                         |
 | **Herkomst attribuut**           | IMGEO 2.0                                     |
 | **Code attribuut**               | 180.1                                         |
 | **Definitie attribuut**          | Specificatie van het soort gebouwinstallatie. |
@@ -1007,7 +985,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-typeGebouwInstallatie                                                                               |
 |----------------------------------|----------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                                                    |
+| **Stereotype**                   | «attribuuttype»                                                                                    |
 | **Herkomst attribuut**           | IMGEO                                                                                                    |
 | **Code attribuut**               | 180.2                                                                                                    |
 | **Definitie attribuut**          | Specificatie van het soort gebouwinstallatie, indien dit een IMGeo uitbreiding van de populatie betreft. |
@@ -1044,7 +1022,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                                     |
 |----------------------------------|-----------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                         |
+| **Stereotype**                   | «attribuuttype»                         |
 | **Herkomst attribuut**           | IMGEO                                         |
 | **Code attribuut**               | 190.1                                         |
 | **Definitie attribuut**          | Het soort installatie (IMGeo plus-populatie). |
@@ -1081,7 +1059,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                              |
 |----------------------------------|----------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                  |
+| **Stereotype**                   | «attribuuttype»                  |
 | **Herkomst attribuut**           | IMGEO                                  |
 | **Code attribuut**               | 200.1                                  |
 | **Definitie attribuut**          | Het soort kast (IMGeo plus-populatie). |
@@ -1118,7 +1096,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                              |
 |----------------------------------|----------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                  |
+| **Stereotype**                   | «attribuuttype»                  |
 | **Herkomst attribuut**           | IMGEO                                  |
 | **Code attribuut**               | 210.1                                  |
 | **Definitie attribuut**          | Het soort mast (IMGeo plus-populatie). |
@@ -1155,7 +1133,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | hectometeraanduiding                                                                                         |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                                                        |
+| **Stereotype**                   | «attribuuttype»                                                                                        |
 | **Herkomst attribuut**           | IMGEO 2.0                                                                                                    |
 | **Code attribuut**               | 220.1                                                                                                        |
 | **Definitie attribuut**          | Code van de paal die kan worden gebruikt voor afstandsaanduiding, zoals bij hectometerpaaltjes en dijkpalen. |
@@ -1172,7 +1150,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                              |
 |----------------------------------|----------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                  |
+| **Stereotype**                   | «attribuuttype»                  |
 | **Herkomst attribuut**           | IMGEO                                  |
 | **Code attribuut**               | 220.2                                  |
 | **Definitie attribuut**          | Het soort paal (IMGeo plus-populatie). |
@@ -1209,7 +1187,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                             |
 |----------------------------------|---------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                 |
+| **Stereotype**                   | «attribuuttype»                 |
 | **Herkomst attribuut**           | IMGEO                                 |
 | **Code attribuut**               | 230.1                                 |
 | **Definitie attribuut**          | Het soort put (IMGeo plus-populatie). |
@@ -1246,7 +1224,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                                |
 |----------------------------------|------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                    |
+| **Stereotype**                   | «attribuuttype»                    |
 | **Herkomst attribuut**           | IMGEO                                    |
 | **Code attribuut**               | 240.1                                    |
 | **Definitie attribuut**          | Het soort sensor (IMGeo plus-populatie). |
@@ -1283,7 +1261,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                                         |
 |----------------------------------|---------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                             |
+| **Stereotype**                   | «attribuuttype»                             |
 | **Herkomst attribuut**           | IMGEO                                             |
 | **Code attribuut**               | 250.1                                             |
 | **Definitie attribuut**          | Het soort straatmeubilair (IMGeo plus-populatie). |
@@ -1320,7 +1298,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                                                 |
 |----------------------------------|-----------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                     |
+| **Stereotype**                   | «attribuuttype»                                     |
 | **Herkomst attribuut**           | IMGEO                                                     |
 | **Code attribuut**               | 260.1                                                     |
 | **Definitie attribuut**          | Het soort waterinrichtingselement (IMGeo plus-populatie). |
@@ -1357,7 +1335,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                                               |
 |----------------------------------|---------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                   |
+| **Stereotype**                   | «attribuuttype»                                   |
 | **Herkomst attribuut**           | IMGEO                                                   |
 | **Code attribuut**               | 270.1                                                   |
 | **Definitie attribuut**          | Het soort weginrichtingselement (IMGeo plus-populatie). |
@@ -1394,7 +1372,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | bgt-type                                                  |
 |----------------------------------|-----------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                     |
+| **Stereotype**                   | «attribuuttype»                                     |
 | **Herkomst attribuut**           | IMGEO 2.0                                                 |
 | **Code attribuut**               | 300.1                                                     |
 | **Definitie attribuut**          | De specificatie van het soort vrijstaand vegetatieobject. |
@@ -1411,7 +1389,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                                                 |
 |----------------------------------|-----------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                     |
+| **Stereotype**                   | «attribuuttype»                                     |
 | **Herkomst attribuut**           | IMGEO 2.0                                                 |
 | **Code attribuut**               | 300.2                                                     |
 | **Definitie attribuut**          | De specificatie van het soort vrijstaand vegetatieobject. |
@@ -1448,7 +1426,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | naam                                                                                                                                                           |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                                                                                                                                          |
+| **Stereotype**                   | «attribuuttype»                                                                                                                                          |
 | **Herkomst attribuut**           | IMGeo 2.0                                                                                                                                                      |
 | **Code attribuut**               | 360.1                                                                                                                                                          |
 | **Definitie attribuut**          | De benaming van het registratieve gebied.                                                                                                                      |
@@ -1476,7 +1454,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | buurtcode                                   |
 |----------------------------------|---------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                       |
+| **Stereotype**                   | «attribuuttype»                       |
 | **Herkomst attribuut**           | IMGeo                                       |
 | **Code attribuut**               | 330.1                                       |
 | **Definitie attribuut**          | De code behorende bij de naam van de buurt. |
@@ -1515,7 +1493,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | wijkcode                                   |
 |----------------------------------|--------------------------------------------|
-| **Stereotype**                   | \<\<attribuuttype\>\>                      |
+| **Stereotype**                   | «attribuuttype»                      |
 | **Herkomst attribuut**           | IMGeo                                      |
 | **Code attribuut**               | 390.1                                      |
 | **Definitie attribuut**          | De code behorende bij de naam van de wijk. |
