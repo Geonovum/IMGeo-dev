@@ -1,4 +1,4 @@
-# 4 Datakwaliteit
+# Datakwaliteit
 
 De BGT kent een normkwaliteit en een gerealiseerde kwaliteit. De normkwaliteit geldt in principe generiek en per object. De gerealiseerde kwaliteit geldt uitsluitend per plaatsbepalingspunt.
 
@@ -16,15 +16,15 @@ De normkwaliteit wordt beschreven met:
 
 De vermelde waarden voor kwaliteit zijn minimumwaarden. Dat wil zeggen dat de aspecten van de BGT daar minimaal aan moeten voldoen. Betere waarden zijn altijd toegestaan.
 
-# 4.1 Actualiteit
+# Actualiteit
 
 Actualiteit is de mate waarin de gegevens binnen een gedefinieerd tijdsinterval overeenstemmen met de werkelijke situatie.
 
-### 4.1.1 Relatie actualiteit en bijhoudingsfrequentie
+### Relatie actualiteit en bijhoudingsfrequentie
 
 Om een vastgestelde actualiteit van een bestand als de BGT te kunnen garanderen moet de inwinning en het verwerkingsproces daarvan met een hogere frequentie plaatsvinden. Neem als voorbeeld dat een object een dag na een terreinopname wijzigt. Als er pas na zes maanden een nieuwe inwinning plaatsvindt, zou de actualiteit al vrijwel zijn overschreden, terwijl het verwerkingsproces van de inwinning nog moet plaatsvinden. Een ander voorbeeld, luchtfoto’s. Deze worden met een bijhoudingsfrequentie van 12 maanden gevlogen. Daarna volgt de verwerking van de luchtfoto’s en de aanpassing van de BGT op basis van de luchtfoto’s. De verwerkingsperiode is zes maanden. Dit levert dan een actualiteit van 18 maanden op.
 
-## 4.2 Positionele nauwkeurigheid
+## Positionele nauwkeurigheid
 
 De BGT stelt eisen aan de positionele nauwkeurigheid, waarmee een object wordt ingewonnen en vastgelegd. Onder positionele nauwkeurigheid verstaat men de mate waarin de opgeslagen coördinaten overeenkomen met de waarden in de werkelijkheid of de geaccepteerde afwijking. De positionele nauwkeurigheid in de BGT is de combinatie van precisie en betrouwbaarheid, ook wel geometrische nauwkeurigheid genoemd. 
 
@@ -91,11 +91,11 @@ Tabel 1 Per objecttype generieke waarden voor actualiteit, positionele nauwkeuri
 
 **Idealisatie** Een aspect dat bij het inmeten (herkennen) van punten in het veld een belangrijke rol speelt, is idealisatie. De idealisatieprecisie is de precisie waarmee in het terrein een punt kan worden aangewezen, het idealiseren van een punt. Goede idealiseerbare punten zijn bijvoorbeeld hoeken van panden, slecht idealiseerbaar bijvoorbeeld de kant van een sloot. De idealisatieprecisie is onafhankelijk van het gevolgde meet- en verwerkingsproces en is een absoluut precisiekenmerk van een punt. De waarden voor idealisatie gelden daarom per punt per objecttype en staan vermeld in de overzichttabel.
 
-### 4.2.1 Relatie Nauwkeurigheid – precisie en plaatsbepalingspunten
+### Relatie Nauwkeurigheid – precisie en plaatsbepalingspunten
 
 De hierboven opgenomen tabel vermeldt een generiek waarde voor de minimale toegestane positionele nauwkeurigheid (de relatieve precisie) tussen nabij gelegen punten van één object met dezelfde idealisatie. In de praktijk zal één BGT-object meestal bestaan uit punten met verschillende waarden voor precisie én idealisatie. Als men tussen deze punten of tussen nabijgelegen punten van verschillende objecten wil toetsen, moet men eerst de maximaal toegestane afwijking berekenen als resultaat van de gerealiseerde precisie van de betreffende plaatsbepalingspunten én de idealisatieprecisie die geldt voor de objecten waar deze punten deel van uit maken. Het proces daarvan is uitgebreid beschreven in de HTW 1996.
 
-![](media/9df2785c8ef75f6a836b204115fb5c8f.png)
+![](https://raw.githubusercontent.com/adbgnm/spiegel/master/standaarden/catalogus/media/9df2785c8ef75f6a836b204115fb5c8f.png)
 
 Figuur 8: a: puntprecisie b: idealisatieprecisie c: resulterende relatieve precisie
 
@@ -103,11 +103,11 @@ Als men punten over grotere afstand met elkaar wil vergelijken, moet men rekenin
 
 [^1]: Zie www.rdnap.nl
 
-## 4.3 Volledigheid
+## Volledigheid
 
 Onder volledigheid verstaat men de mate waarin BGT-objecten die in werkelijkheid voorkomen in het bestand zijn opgenomen. Voor alle vlakobjecten op maaiveldniveau in de BGT geldt per bronhouder een volledigheidseis van 100%. Voor alle overige objecten geldt een volledigheidseis van 98%. Het percentage heeft betrekking op het aantal objecten per bronhouder. Daarnaast geldt dat op maaiveldniveau de objecten samen 100% dekkend zijn (zie paragraaf 2.4 en 3.7).
 
-### 4.3.1 Volledigheid objectkenmerken tijdens transitie
+### Volledigheid objectkenmerken tijdens transitie
 
 Tijdens fase 1 van de realisatie van de BGT, de transitie[^2], moeten de objecten opgenomen worden inclusief hun geometrie en hun hoofdklasse (de klassen genoemd in het semantisch gegevensmodel in hoofdstuk 6). Voor de objecttypen is in het informatiemodel ook een aantal kenmerken beschreven. Deze kenmerken hoeven tijdens de transitie nog niet allemaal ingevuld te worden. Voor alle objecttypen geldt het volgende.
 
@@ -176,11 +176,11 @@ Als een kenmerk \<\<voidable\>\> is, kan men het vullen met een void of null waa
 
 Tijdens transitie kiest men dan de waarde ‘waardeOnbekend’.
 
-## 4.4 Logische consistentie
+## Logische consistentie
 
 Als de BGT volledig is gevuld, is het op maaiveldniveau (niveau 0) voor Nederland gebiedsdekkend. Regels voor de logische consistentie zijn al beschreven in paragraaf 3.7.
 
-## 4.5 Tijd
+## Tijd
 
 De BGT hanteert de ISO 8601 norm voor het beschrijven van tijdsaspecten. De BGT registreert de volgende tijden:
 
@@ -193,20 +193,20 @@ De notatie van de tijd is overeenkomstig de ISO-regelgeving: jjjj-mm-ddTuu:mm:ss
 
 De kwaliteit van de tijdbeschrijving wordt beschreven met drie aspecten, te weten tijdnauwkeurigheid, tijdconsistentie en tijdgeldigheid.
 
-### 4.5.1 Tijdnauwkeurigheid
+### Tijdnauwkeurigheid
 
 Met tijdnauwkeurigheid wordt bedoeld de juistheid van de tijdswaarneming. Dit geeft de foutmarge aan in de tijdswaarneming. De BGT legt objectlevensduur vast met de nauwkeurigheid van de datum en formele historie met de nauwkeurigheid van datum en tijd in uren, minuten en seconden.
 
-### 4.5.2 Tijdconsistentie
+### Tijdconsistentie
 
 Met tijdconsistentie wordt de juistheid van opvolgende gebeurtenissen (events) of tijdreeksen be­doeld. De BGT kent aan elke object een formele historie toe (zie paragraaf 3.10.4). Formele historie bestaat uit een begin- en een eindtijd. De eerste versie van een object ontstaat op hetzelfde moment als het object. Een versie eindigt bij in paragraaf 3.10.3 beschreven gebeurtenissen en er ontstaat aansluitend een nieuwe versie, behalve bij de beëindiging van een object. Hierbij is een overlap of gat in de tijd niet toegestaan.
 
-### 4.5.3 Tijdgeldigheid
+### Tijdgeldigheid
 
 Tijdgeldigheid is de geldigheid van de BGT-data voor de geregistreerde tijd in de registratie.
 
 Als tijdstip (datum en tijd) voor ontstaan, wijzigen en vervallen van objecten geldt het uitgangspunt dat hierbij de tijdzone voor Nederland, de Midden-Europese tijdzone, van kracht is.
 
-## 4.5.4 Thematische nauwkeurigheid
+## Thematische nauwkeurigheid
 
 Thematische nauwkeurigheid is beter bekend als juistheid. Het is de mate waarin de gerelateerde gegevens in overeenstemming zijn met de werkelijke situatie in het veld. Voor teksten en huisnummers geldt een minimumpercentage van 98%.
