@@ -1,4 +1,4 @@
-# 1 Inleiding
+# Inleiding
 
 Het Informatiemodel Geografie (IMGeo) beschrijft hoe objectgerichte geografische informatie moet worden vastgelegd, zodat landelijk uitwisseling van deze informatie mogelijk is. In 2007 is versie 1.0 van IMGeo vastgesteld. Het informatiemodel voor de Basisregistratie Grootschalige Topografie (BGT) is vervolgens in samenhang met IMGeo ontwikkeld.
 
@@ -29,31 +29,31 @@ De belangrijkste wijzigingen ten opzichte van IMGeo 2.0 zijn verder:
 -   Put: boorgat;
 -   Sensor: peilbuis.
 
-## 1.1 IMGeo, het optionele deel
+## IMGeo, het optionele deel
 
 Het informatiemodel IMGeo is een uitbreiding in diepte en breedte op de verplichte Basisregistratie Grootschalige Topografie (BGT). Een wegdeel is in de BGT bijvoorbeeld omschreven als Wegdeel: rijbaan, gesloten verharding. Met IMGeo kan deze beschrijving worden gedetailleerd naar Wegdeel: rijbaan, gesloten verharding, asfaltbeton. Deze uitgebreide objectbeschrijving is vervolgens met verschillende applicaties uit te wisselen.
 
 Het verplichte informatiemodel van de BGT vormt een integraal onderdeel van IMGeo.
 
-## 1.2 Doel
+## Doel
 
 De verdieping- en verbredingslag op de BGT, die in IMGeo is vastgelegd als optioneel deel, is bedoeld voor het opslaan en uitwisselen van plus- en beheertopografie. Waarschijnlijk is er geen behoefte om deze plustopografie voor heel Nederland gebiedsdekkend beschikbaar te hebben. Wel zijn er bronhouders en afnemers die deze informatie willen uitwisselen. Een informatiemodel voor de plus- en beheertopografie is ook voor softwareleveranciers van belang. Zij kunnen hun softwareproducten hierop inrichten. IMGeo zorgt ervoor dat wie de optionele informatie wil beheren en/of uitwisselen, dit in ieder geval volgens een landelijke standaard kan doen (zie ook paragraaf 2.1.1 en 2.1.2). 
 
 IMGeo biedt ook voor de uitwisseling van grootschalige topografie in 3D de landelijke standaard en baseert zich hiervoor op de internationale standaard CityGML.
 
-## 1.3 Inwinning en gebruik
+## Inwinning en gebruik
 
 Het gebruik van het optionele deel van IMGeo is niet verplicht. Bronhouders zijn dus niet verplicht IMGeo-objecten in te winnen – al zullen zij dit voor hun eigen beheer vaak wel doen. Evenmin is het gebruik van de optionele IMGeo-objecten verplicht, in tegenstelling tot het gebruik van de BGT-objecten.
 
 Een bronhouder levert geen IMGeo objecten die liggen op BGT objecten van een andere bronhouder.
 
-## 1.4 Inhoud
+## Inhoud
 
 IMGeo bevat naast de verplichte BGT-set ook optionele objecttypen. Dit zijn niet alleen fysieke, topografische objecten, zoals inrichtingselementen, maar ook functionele en registratieve gebieden en nadere indelingen van wegen, water en terreinen voor beheer.
 
 Figuur 1 geeft een overzicht van de optionele objecttypen in de BGT.
 
-![Figuur 1: Inhoud van IMGeo: optionele objecttypen](../afbeeldingen-opmaak/imgeo-fig-inhoud-van-imgeo.png)
+![Inhoud van IMGeo: optionele objecttypen](../afbeeldingen-opmaak/imgeo-fig-inhoud-van-imgeo.png)
 
 _Figuur 1: Inhoud van IMGeo: optionele objecttypen_
 
@@ -88,7 +88,7 @@ kent van de BGT-domeinwaardenlijsten.
 
 Tabel 1 Voorbeeld van nadere classificatie in IMGeo
 
-![Figuur 2: Uitbreidingen van de populatie van BGT-objecttypen](../afbeeldingen-opmaak/imgeo-fig-uitbreidingen-van-de-populatie-van-bgt-objecttypen.png)
+![Uitbreidingen van de populatie van BGT-objecttypen](../afbeeldingen-opmaak/imgeo-fig-uitbreidingen-van-de-populatie-van-bgt-objecttypen.png)
 
 _Figuur 2: Uitbreidingen van de populatie van BGT-objecttypen_
 
