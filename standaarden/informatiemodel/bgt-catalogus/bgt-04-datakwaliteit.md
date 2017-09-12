@@ -97,6 +97,8 @@ De hierboven opgenomen tabel vermeldt een generiek waarde voor de minimale toege
 
 ![Figuur 8: a: puntprecisie b: idealisatieprecisie c: resulterende relatieve precisie](../afbeeldingen-opmaak/bgt-fig8-punt-idealisatie-resulteren-relatieve-precisie.png)
 
+_Figuur 8: a: puntprecisie b: idealisatieprecisie c: resulterende relatieve precisie_
+
 Als men punten over grotere afstand met elkaar wil vergelijken, moet men rekening houden met de fouten­invloed van het gehanteerde referentiesysteem. In Nederland is dat het stelsel van de Rijksdriehoeksmeting (RD; zie paragraaf 3.5). Toepassing van geschikte positiebepaling met behulp van satellieten (GPS, Glonass) levert als eerste resultaat ruimtelijke coördinaten op in ETRS89. Vaak wordt dit gezien als een ‘absoluut’ coördinaatsysteem. Om daaruit RD-coördinaten te verkrijgen moet men in Nederland altijd een transformatie uitvoeren met de geldige versie van RDNAPTRANS[^1].
 
 [^1]: Zie www.rdnap.nl
