@@ -47,18 +47,8 @@ het gebied dat de dataset beslaat.
 Indien gewenst kan men een dataset beschrijven in bijvoorbeeld een
 productcatalogus waar dan de volgende informatie in kan worden opgenomen:
 
-| *Objecttype* | *Classificering* | *Compleetheid*  *Kies een van de onderstaande mogelijkheden:* |
+| *Objecttype* | *Classificering* | *Compleetheid*<br/>Kies een van de onderstaande mogelijkheden:<br/>\- Komt niet voor<br/>\-Niet ingewonnen<br/>\- Niet opgenomen in dataset<br/>\- Aanwezig in dataset |
 |--------------|------------------|---------------------------------------------------------------|
-
-
--   *Komt niet voor*
-
-    -   *Niet ingewonnen*
-
-        -   *Niet opgenomen in dataset*
-
-            -   *Aanwezig in dataset*
-
 | **Kunstwerkdeel** |                  |                           |   |   |   |   |
 |-------------------|------------------|---------------------------|---|---|---|---|
 |                   | keermuur         | Niet opgenomen in dataset |   |   |   |   |
