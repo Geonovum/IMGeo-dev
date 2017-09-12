@@ -95,9 +95,7 @@ Tabel 1 Per objecttype generieke waarden voor actualiteit, positionele nauwkeuri
 
 De hierboven opgenomen tabel vermeldt een generiek waarde voor de minimale toegestane positionele nauwkeurigheid (de relatieve precisie) tussen nabij gelegen punten van één object met dezelfde idealisatie. In de praktijk zal één BGT-object meestal bestaan uit punten met verschillende waarden voor precisie én idealisatie. Als men tussen deze punten of tussen nabijgelegen punten van verschillende objecten wil toetsen, moet men eerst de maximaal toegestane afwijking berekenen als resultaat van de gerealiseerde precisie van de betreffende plaatsbepalingspunten én de idealisatieprecisie die geldt voor de objecten waar deze punten deel van uit maken. Het proces daarvan is uitgebreid beschreven in de HTW 1996.
 
-![](https://raw.githubusercontent.com/adbgnm/spiegel/master/standaarden/catalogus/media/9df2785c8ef75f6a836b204115fb5c8f.png)
-
-Figuur 8: a: puntprecisie b: idealisatieprecisie c: resulterende relatieve precisie
+![Figuur 8: a: puntprecisie b: idealisatieprecisie c: resulterende relatieve precisie](../afbeeldingen-opmaak/bgt-fig8-punt-idealisatie-resulteren-relatieve-precisie.png)
 
 Als men punten over grotere afstand met elkaar wil vergelijken, moet men rekening houden met de fouten­invloed van het gehanteerde referentiesysteem. In Nederland is dat het stelsel van de Rijksdriehoeksmeting (RD; zie paragraaf 3.5). Toepassing van geschikte positiebepaling met behulp van satellieten (GPS, Glonass) levert als eerste resultaat ruimtelijke coördinaten op in ETRS89. Vaak wordt dit gezien als een ‘absoluut’ coördinaatsysteem. Om daaruit RD-coördinaten te verkrijgen moet men in Nederland altijd een transformatie uitvoeren met de geldige versie van RDNAPTRANS[^1].
 
