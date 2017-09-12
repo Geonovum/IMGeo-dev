@@ -20,7 +20,7 @@ var respecConfig = {
     }
   ],
   //shortName: "shortname",
-  pubDomain: "pubdomain",
+  pubDomain: "http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-bgt-111",
   github: "https://github.com/Geonovm/IMGeo2018",
   //previousPublishDate: "2017-01-01",
   //previousStatus: "GN-CV",
