@@ -53,9 +53,9 @@ IMGeo bevat naast de verplichte BGT-set ook optionele objecttypen. Dit zijn niet
 
 Figuur 1 geeft een overzicht van de optionele objecttypen in de BGT.
 
-![](media/fig-inhoud-van-imgeo.png)
+![Figuur 1: Inhoud van IMGeo: optionele objecttypen](../afbeeldingen-opmaak/imgeo-fig-inhoud-van-imgeo.png)
 
-Figuur 1: Inhoud van IMGeo: optionele objecttypen
+_Figuur 1: Inhoud van IMGeo: optionele objecttypen_
 
 De meeste van deze objecttypen hebben een attribuut ‘type’ waarmee het object
 nader geclassificeerd kan worden. Zo kan een Bord worden opgenomen met de nadere
@@ -88,9 +88,9 @@ kent van de BGT-domeinwaardenlijsten.
 
 Tabel 1 Voorbeeld van nadere classificatie in IMGeo
 
-![](media/fig-uitbreidingen-van-de-populatie-van-bgt-objecttypen.png)
+![Figuur 2: Uitbreidingen van de populatie van BGT-objecttypen](../afbeeldingen-opmaak/imgeo-fig-uitbreidingen-van-de-populatie-van-bgt-objecttypen.png)
 
-Figuur 2: Uitbreidingen van de populatie van BGT-objecttypen
+_Figuur 2: Uitbreidingen van de populatie van BGT-objecttypen_
 
 Voorbeelden ter verduidelijking:
 
