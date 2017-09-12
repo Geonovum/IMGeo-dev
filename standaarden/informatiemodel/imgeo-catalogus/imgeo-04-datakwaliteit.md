@@ -50,7 +50,6 @@ productcatalogus waar dan de volgende informatie in kan worden opgenomen:
 | *Objecttype* | *Classificering* | *Compleetheid*<br/>Kies een van de onderstaande mogelijkheden:<br/>\- Komt niet voor<br/>\-Niet ingewonnen<br/>\- Niet opgenomen in dataset<br/>\- Aanwezig in dataset |
 |--------------|------------------|---------------------------------------------------------------|
 | **Kunstwerkdeel** |                  |                           |   |   |   |   |
-|-------------------|------------------|---------------------------|---|---|---|---|
 |                   | keermuur         | Niet opgenomen in dataset |   |   |   |   |
 |                   | overkluizing     | Komt niet voor            |   |   |   |   |
 |                   | duiker           | Aanwezig in dataset       |   |   |   |   |
