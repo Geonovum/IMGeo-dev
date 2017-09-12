@@ -1,6 +1,5 @@
 # Objectafbakening
 
-
 Dit hoofdstuk beschrijft de regels en aandachtspunten voor het afbakenen van BGT-objecten. Voor de inwinning is het van belang dat er naast de tekst ook visuele ondersteuning beschikbaar is. Hiervoor dient het BGT Objectenhandboek.
 
 ## Wegdeel
@@ -105,7 +104,7 @@ Braakliggende grond in stedelijk gebied is een onbegroeid terreindeel met een fy
 
 Deze terreindelen worden eveneens ingedeeld naar fysiek voorkomen en ook hier wordt, indien noodzakelijk, een kruinlijn opgenomen.
 
-# Waterdeel en ondersteunend waterdeel
+## Waterdeel en ondersteunend waterdeel
 
 De volgende paragrafen beschrijven op welke wijze land en water zijn gescheiden in de BGT.
 
@@ -159,24 +158,24 @@ Langs de Noordzee bezit het onbegroeid terreindeel grenzend aan de basislijn het
 
 Aan de ‘landzijde’ wordt het strand altijd begrensd door zichtbare topografie, zoals de overgang naar de duinen bestaande uit een hek of duinvoet. In het geval een kunstmatige aangelegde waterkering aanwezig is, zoals bij de Hondsbossche Zeewering, bestaat de begrenzing uit kademuur of walbescherming.
 
-### Waddenzee en Zuidwestelijke delta
+#### Waddenzee en Zuidwestelijke delta
 
 In deze wateren is altijd een kunstmatig aangelegde waterkering aanwezig in de vorm van een kademuur of walbescherming. Deze vormen altijd een begrenzing voor de BGT.
 
 Daarnaast worden in deze wateren peilingen verricht voor het Lowest Astronomical Tide (LAT). Als de ligging daarvan beschikbaar is voor de BGT vormt het de scheiding tussen het waterdeel en het ondersteunend waterdeel type slik. Ontbreekt het LAT dan vormt de kunstmatige waterkering de scheiding tussen terrein en water.
 
-### Rivieren
+#### Rivieren
 
 In de BGT komt bij rivieren of een begrenzing voor in de vorm van een kademuur of walbescherming, of een oever. Van nature komt er een variabel peil voor. In de grote, bevaarbare rivieren hanteert Rijkswaterstaat hier een peil met de naam Overeengekomen Lage Rivierwaterstand (OLR). Als een presentatie van dit peil beschikbaar is, vormt het voor de BGT de begrenzing van waterdeel met
 ondersteunend waterdeel type oever. Bij het ontbreken van het OLR vormt het laagste streefpeil, eveneens onder verantwoording van Rijkswaterstaat, deze begrenzing. Is de ligging van een peil niet beschikbaar voor de BGT dan vormt de kunstmatige waterkering de scheiding tussen terrein en water.
 
-### Meren
+#### Meren
 
 Bij meren komen kunstmatig aangelegde waterkeringen voor in de vorm van een kademuur of walbescherming, soms is er sprake van een oever. Als een kunstmatige waterkering aanwezig is in de vorm van een kademuur of walbescherming vormt dit de begrenzing van terrein en water. Bij het ontbreken daarvan vormt het object begrensd door waterlijn en de bovenzijde van een herkenbare insteek een ondersteunend waterdeel type oever/slootkant.
 
 In meren wordt een streefpeil beheerd door bemalen en/of spuien. Als de ligging van een peil bekend is en de horizontale afstand tussen een herkenbare insteek bedraagt 1m of meer dan ontstaat in de BGT een ondersteunend waterdeel van het type oever. Waar sprake is van meerdere streefpeilen, wordt uitgegaan van het laagste niveau of ondergrenspeil.
 
-### Overige waterlopen en -vlakken
+#### Overige waterlopen en -vlakken
 
 Hier geldt onderstaand stroomdiagram. Als kant water de begrenzing van objecten vormt, geldt dat dit een presentatie is van het laagst mogelijke streefpeil ter plaatse. Als de horizontale afstand tussen waterlijn en de bovenkant van een herkenbare insteek 1m of meer bedraagt dan ontstaat in de BGT een ondersteunend waterdeel van het type oever/slootkant.
 
