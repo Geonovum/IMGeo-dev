@@ -1,8 +1,8 @@
-# 2 Ontwerpprincipes
+# Ontwerpprincipes
 
 Dit hoofdstuk bevat een beschrijving van de ontwerpprincipes van IMGeo.
 
-## 2.1 Plus- en beheertopografie
+## Plus- en beheertopografie
 
 Plus- en beheertopografie zijn begrippen die voor de één synoniem met elkaar zijn en voor de ander verschillend. Over het algemeen wordt met plustopografie de inrichtingselementen bedoeld. Denk bijvoorbeeld aan straatmeubilair, bakken, borden of palen die in de openbare ruimte staan. Dit zijn over het algemeen puntobjecten.
 
@@ -10,11 +10,11 @@ Beheertopografie gaat over het opdelen van objecten voor beheer. De wegdelen uit
 
 IMGeo bevat geen beheertopografie in de zin dat hiermee voldoende informatie voor beheerdoeleinden wordt opgeslagen. IMGeo bevat indelingen die rekening houden met beheerdoeleinden, maar bevat zelf geen beheerinformatie.
 
-### 2.1.1 Waarom plustopografie?
+### Waarom plustopografie?
 
 Door IMGeo uit te breiden met plustopografie ontstaat als het ware een ‘ballenbak’ waaruit de bronhouders objecttypen kunnen kiezen. Doordat zij dezelfde ballenbak gebruiken is gegarandeerd dat een bronhouder die een extra optioneel objecttype wil opnemen, dit op exact dezelfde manier doet als andere bronhouders die hetzelfde objecttype gebruiken. Dit principe zorgt voor een harmoniserende werking in model en uitwisseling binnen Nederland.
 
-### 2.1.2 Waarom beheertopografie? 
+### Waarom beheertopografie? 
 
 Een beheerder van de openbare ruimte, landelijk gebied, rijkswegen, etc. heeft meer gedetailleerde objecttypen nodig dan de BGT biedt. Een begroeid terreindeel heeft een BGT-classificatie ‘groenvoorziening’. Met IMGeo kan het geometrisch vlak van het objecttype ‘groenvoorziening’ nader onderverdeeld worden in kleinere vlakken met als classificatie ‘bodembedekkers’, ‘heesters’, ‘planten’, etc. Deze onderverdeling is dusdanig van opzet dat de verschillende objecttypen,  die geometrie hebben en door beheersystemen gebruikt worden, in IMGeo met hun geometrie kunnen worden opgenomen.
 
@@ -22,17 +22,17 @@ Door deze onderverdeling op te nemen in IMGeo is de structuur eenduidig vastgele
 
 De administratieve beheerinformatie, zoals hoe vaak een ‘groenvoorziening: gras- en kruidachtigen’ wordt gemaaid valt buiten de scope van IMGeo en dient te worden opgenomen in het beheersysteem zelf.
 
-## 2.2 Topografie
+## Topografie
 
 IMGeo bevat naast het verplichte BGT-deel met daarin de fysieke topografische objecten (basistopografie) ook objecten die deze basistopografie nader inrichten (plustopografie) en objecten die de basisobjecten nader indelen voor beheer (beheertopografie).
 
 Functionele gebieden komen voor in zowel de BGT als IMGeo. Deze gebieden overlappen doorgaans met een groep andere objecten en geven aan deze verzameling, liggend in een bepaald gebied, een functie. Registratieve gebieden zijn onderdeel van IMGeo, terwijl die geen fysieke topografie hebben.
 
-## 2.3 IMGeo-objecten in de BGT
+## IMGeo-objecten in de BGT
 
 Aan elkaar grenzende IMGeo-objecten met gelijke attribuutwaarden worden als afzonderlijke objecten aangeboden aan de Landelijke Voorziening. Hierdoor is het mogelijk om detaillering op beheerniveau in IMGeo aan te brengen.
 
-## 2.4 Authenticiteit in IMGeo
+## Authenticiteit in IMGeo
 
 De BGT kent het objecttype IMGeo-Object. De waarden van de attributen identificatie, status, relatieveHoogteligging, objectBeginTijd en objectEindTijd zijn volgens de BGT authentiek. Bijna alle objecttypen uit de BGT en IMGeo zijn subtypen van het IMGeo-Object en erven dus deze authentieke attributen.
 
@@ -46,7 +46,7 @@ Een voorbeeld is het objecttype OverigBouwwerk.
 |----------------------------|--------------------------------------------------------|
 | **Niet-authentiek object** | Overig Bouwwerk bgt-type= niet-bgt, plus-type=’bunker’ |
 
-# 2.5 3D in IMGeo
+# 3D in IMGeo
 
 IMGeo is gebaseerd op CityGML, een internationale standaard voor 3D. Hierdoor is een optionele uitbreiding naar representaties van IMGeo-objecten in 2.5D- en 3D mogelijk. IMGeo is gecodeerd als een extensie van CityGML. Hierdoor wordt 3D IMGeo-data ondersteund in software die voldoet aan de CityGML standaard en is IMGeo 2.0 optimaal voorbereid voor 3D.
 
@@ -54,7 +54,7 @@ De volgende subparagrafen bevatten een technische uitleg over de integratie tuss
 
 [^1]: http://www.geonovum.nl/sites/default/files/standaarden/3DPilot\_2Eindrapport\_WerkgroepStandaarden.pdf
 
-### 2.5.1 CityGML
+### CityGML
 
 De OGC-standaard CityGML[^2] kent zijn oorsprong als uitwisselingsformaat. In middels is het ook en vooral een informatiemodel voor het weergeven van 3D-ruimtelijke objecten. CityGML onderscheidt zowel op geometrisch als semantisch niveau thematische concepten (gebouwen, vegetatie, water, landgebruik, straatmeubilair etc.). Daarnaast ondersteunt CityGML verschillende detailniveaus per object, de zogenaamde Levels of Detail (LODs). Een gebouw-object kan bijvoorbeeld variëren van een eenvoudig blok model (LOD1), met dakvormen (LOD2), met ramen, deuren en andere uiterlijke kenmerken (LOD3) tot een volledig gedetailleerd interieurmodel (LOD4) met of zonder textuur informatie.
 
@@ -68,7 +68,7 @@ _Figuur 3: LOD concept in CityGML verbeeld_
 
 CityGML is gebaseerd op Geography Markup Language (GML) en heeft daarmee dezelfde geometriemogelijkheden als GML. Veel informatiemodellen voor geo-informatie definiëren hun geometrie volgens GML, maar beperken zich tot de geometrieën gerepresenteerd door alleen x- en y-coördinaten. GML bevat echter klassen voor 0D tot 3D geometrische primitieven. CityGML ondersteunt deze klassen. Dit zijn 1D-3D “composite geometries” (surfaces verbonden langs gemeenschappelijke grenzen), zoals *CompositeSurface,* en 0D-3D “geometry aggregates” (niet verbonden en dus zonder samenhang), zoals *MultiSurface* of *MultiSolid*.
 
-### 2.5.2 Integratie IMGeo en CityGML
+### Integratie IMGeo en CityGML
 
 IMGeo is geïntegreerd met versie 2.0 van CityGML, met gebruik van de volgende modelleerprincipes:
 
