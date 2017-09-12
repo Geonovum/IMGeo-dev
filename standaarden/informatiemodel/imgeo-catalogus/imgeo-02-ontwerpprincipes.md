@@ -62,9 +62,9 @@ De OGC-standaard CityGML[^2] kent zijn oorsprong als uitwisselingsformaat. In mi
 version 2.0.0, document \# 12-019. Zie
 https://portal.opengeospatial.org/files/?artifact\_id=47842
 
-![](media/fig-LOD-concept-in-citygml-verbeeld.png)
+![Figuur 3: LOD concept in CityGML verbeeld](../afbeeldingen-opmaak/imgeo-fig-lod-concept-in-citygml-verbeeld.png)
 
-Figuur 3: LOD concept in CityGML verbeeld2
+_Figuur 3: LOD concept in CityGML verbeeld_
 
 CityGML is gebaseerd op Geography Markup Language (GML) en heeft daarmee dezelfde geometriemogelijkheden als GML. Veel informatiemodellen voor geo-informatie definiëren hun geometrie volgens GML, maar beperken zich tot de geometrieën gerepresenteerd door alleen x- en y-coördinaten. GML bevat echter klassen voor 0D tot 3D geometrische primitieven. CityGML ondersteunt deze klassen. Dit zijn 1D-3D “composite geometries” (surfaces verbonden langs gemeenschappelijke grenzen), zoals *CompositeSurface,* en 0D-3D “geometry aggregates” (niet verbonden en dus zonder samenhang), zoals *MultiSurface* of *MultiSolid*.
 
@@ -97,9 +97,9 @@ IMGeo is geïntegreerd met versie 2.0 van CityGML, met gebruik van de volgende m
 
 [^3]: Overeenkomstig het raamwerk van geo-standaarden, versie 2.1
 
-![](media/fig-vegetatieobject-als-subklasse-van-citygml-solitaryvegetationobject.png)
+![Figuur 4: Vegetatieobject als subklasse van CityGML SolitaryVegetationObject](../afbeeldingen-opmaak/imgeo-fig-vegetatieobject-als-subklasse-van-citygml-solitaryvegetationobject.png)
 
-Figuur 4: Vegetatieobject als subklasse van CityGML SolitaryVegetationObject
+_Figuur 4: Vegetatieobject als subklasse van CityGML SolitaryVegetationObject_
 
 Zie voor meer informatie over het toepassen van CityGML-IMGeo het 3D-pilotrapport “Technische specificaties voor de opbouw van 3D
 IMGeo-CityGML[^4]”.
