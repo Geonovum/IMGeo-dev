@@ -173,16 +173,14 @@ Zowel lijn- als vlakvormige objecten kunnen bestaan uit een boogvorm. Voor de re
 -   lineaire lijnsegmenten, de zogenaamde gestrookte boog;
 -   beschrijving van de boog met drie punten (GM_Arc).
 
-Voor het weergeven van cirkels kan men gebruik maken van twee bogen. Gebruik van
-GM_Circle is niet toegestaan.
+Voor het weergeven van cirkels kan men gebruik maken van twee bogen. Gebruik van GM_Circle is niet toegestaan.
 
 # Topologie
 
 De vlakobjecten in de BGT op maaiveldniveau (niveau 0) partitioneren de ruimte. Dat betekent dat:
 
 -   elk van deze objecten topologisch gestructureerd moet zijn;
--   deze objecten naadloos op elkaar aan moeten sluiten, zodat er op
-    maaiveldniveau geen gaten voorkomen;
+-   deze objecten naadloos op elkaar aan moeten sluiten, zodat er op maaiveldniveau geen gaten voorkomen;
 -   deze objecten elkaar niet mogen overlappen.
 
 Op maaiveldniveau is het grondgebied van Nederland volledig gebiedsdekkend. Het totaal oppervlak van alle objecten op maaiveldniveau is gelijk aan het dekkingsgebied (zie paragraaf 2.4).
@@ -211,7 +209,7 @@ De BGT stelt de volgende eisen aan de niveauwaarden:
     dat uit meerdere etages bestaat, krijgt in principe één niveau toegekend.
 -   Open, bovengrondse waterdelen hebben altijd het niveau 0.
 
-![Figuur 3: Vincent van Gogh – De brug bij Langlois (1888)](../afbeeldingen-opmaak/bgt-fig3-vincent-van-gogh-de-brug-bij-langlois.png)
+![Vincent van Gogh – De brug bij Langlois (1888)](../afbeeldingen-opmaak/bgt-fig-vincent-van-gogh-de-brug-bij-langlois.png)
 
 _Figuur 3: Vincent van Gogh – De brug bij Langlois (1888)_
 
@@ -250,7 +248,7 @@ De BGT-ID wordt bepaald bij het ontstaan van het object en blijft behouden als h
 
 Objecten uit de BAG hebben in de BAG-registratie een unieke identificatiecode. Voor deze objecten neemt de BGT de identificatiecode op als attribuut ‘identificatieBAG’.
 
-![Figuur 4: Vincent van Gogh – Het gele huis (1888)](../afbeeldingen-opmaak/bgt-fig4-vincent-van-gogh-het-gele-huis.png)
+![Vincent van Gogh – Het gele huis (1888)](../afbeeldingen-opmaak/bgt-fig-vincent-van-gogh-het-gele-huis.png)
 
 _Figuur 4: Vincent van Gogh – Het gele huis (1888)_
 
@@ -288,11 +286,11 @@ De BGT hanteert de volgende regels voor object- en versiehistorie (zie ook parag
     2.  Als een situatie wijzigt door het opknippen van een object of het samenvoegen van (delen van) een object met (delen) van één of meer andere objecten, ontstaan nieuwe objecten.
 
 
-![Figuur 5: Uitsluitend wijzigingen in geometrie: dezelfde ID’s, nieuwe versies](../afbeeldingen-opmaak/bgt-fig5-uitsluitend-wijzigingen-in-geometrie.png)
+![Uitsluitend wijzigingen in geometrie: dezelfde ID’s, nieuwe versies](../afbeeldingen-opmaak/bgt-fig-uitsluitend-wijzigingen-in-geometrie.png)
 
 _Figuur 5: Uitsluitend wijzigingen in geometrie: dezelfde ID’s, nieuwe versies_
 
-![Figuur 6: Wijziging door samenvoegen of splitsen: nieuwe, gewijzigde en vervallen objecten](../afbeeldingen-opmaak/bgt-fig6-wijziging-door-samenvoegen-of-splitsen.png)
+![Wijziging door samenvoegen of splitsen: nieuwe, gewijzigde en vervallen objecten](../afbeeldingen-opmaak/bgt-fig-wijziging-door-samenvoegen-of-splitsen.png)
 
 _Figuur 6: Wijziging door samenvoegen of splitsen: nieuwe, gewijzigde en vervallen objecten_
 
@@ -336,6 +334,6 @@ In het geval dat niet-gestrookte bogen voorkomen in de vlakgeometrie van BGT-obj
 
 In onderstaande figuur zijn bij de objectafbakening van het terreindeel de plaatsbepalingspunten 1 t/m 10 gebruikt. Bij het wegdeel zijn bij de objectafbakening de plaatsbepalingspunten 6 t/m 16 gebruikt.
 
-![Figuur 7: BGT-objecten en plaatsbepalingspunten](../afbeeldingen-opmaak/bgt-fig7-objecten-en-plaatsbepalingspunten.png)
+![BGT-objecten en plaatsbepalingspunten](../afbeeldingen-opmaak/bgt-fig-objecten-en-plaatsbepalingspunten.png)
 
 _Figuur 7: BGT-objecten en plaatsbepalingspunten_
