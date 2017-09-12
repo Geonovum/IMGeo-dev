@@ -1,4 +1,4 @@
-# 1 Inleiding
+# Inleiding
 
 Het Informatiemodel Geografie (IMGeo) beschrijft hoe objectgerichte geografische informatie moet worden vastgelegd, zodat landelijk uitwisseling van deze informatie mogelijk is. In 2007 is versie 1.0 van IMGeo vastgesteld. Het informatiemodel voor de Basisregistratie Grootschalige Topografie (BGT) is vervolgens in samenhang met IMGeo ontwikkeld.
 
@@ -18,7 +18,7 @@ De belangrijkste wijzigingen ten opzichte van versie 1.0 zijn verder:
 -   De mogelijkheid van het toekennen van het kenmerk voidable aan de attributen opTalud, nauwkeurigheid en inwinnendeInstantie;
 -   Het vermelden van het fysiek voorkomen ook bij ondersteunend wegdeel is nu verplicht in plaats van de onderverdeling in de typen Berm verhard en Berm begroeid.
 
-## 1.1 De Basisregistratie Grootschalige Topografie
+## De Basisregistratie Grootschalige Topografie
 
 De Basisregistratie Grootschalige Topografie (BGT) is een topografisch objectenbestand dat voor heel Nederland uniform is wat betreft inhoud en kwaliteit. Dat betekent dat het bestand gebiedsdekkend is en voldoet aan beschreven kwaliteitsaspecten voor volledigheid, actualiteit en nauwkeurigheid. De BGT is bedoeld voor gebruik op een schaal van 1:500 tot 1:5.000. Het gaat over topografische objecten, zoals gebouwen, wegen, spoorwegen, waterlopen, parken en bossen.
 
@@ -28,7 +28,7 @@ Een belangrijk onderdeel van het ontwerp van de BGT is de gegevenscatalogus. Bij
 
 BGT-gebruikers vinden in deze gegevenscatalogus informatie over de BGT over het doel, het gebruik, de inhoud en kwaliteit.
 
-## 1.2 Doel
+## Doel
 
 Het doel van de BGT is: de hele over­heid gebruikt dezelfde basisset grootschalige topografie van Nederland.
 
@@ -43,7 +43,7 @@ Het doel van de BGT is een verbijzondering van de doelstelling van basisregistra
 
 Het accent ligt dus op het brede gebruik van dezelfde informatie. Uiteraard moet de informatie daarvoor beschikbaar zijn en worden geproduceerd. Het perspectief van waaruit de BGT wordt ontwikkeld is echter nadrukkelijk het perspectief van de gebruiker die de BGT-informatie combineert met andere gegevens en daardoor efficiënter en beter kan werken.
 
-## 1.3 Gebruik
+## Gebruik
 
 Voor de overheid betekent het gebruik van de BGT dat er is afgestemd en zo mogelijk een koppeling bestaat met relevante geo-informatie binnen het stelsel van basisregistraties, zoals de Basisregistratie Adressen en Gebouwen (BAG). Een belangrijk uitgangspunt hierbij is dat sprake moet zijn van meervoudig gebruik.
 
