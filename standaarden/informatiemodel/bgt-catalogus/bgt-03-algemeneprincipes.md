@@ -1,8 +1,8 @@
-# 3 Algemene principes
+# Algemene principes
 
 Voor de inhoud van de BGT zijn de volgende algemene principes gehanteerd.
 
-# 3.1 Bronhouders
+# Bronhouders
 
 De BGT beschrijft objecten die worden aangeleverd door bronhouders. Uitgangspunt binnen de BGT is dat elk BGT-object aan één bronhouder is toegewezen en door hem wordt aangeleverd. Een object valt al tijd geheel binnen het gebied van één bronhouder, die over dit object het beheer voert. De grenzen van de objecten zijn een gedeelde verantwoordelijkheid van bronhouders.
 
@@ -10,28 +10,28 @@ Er is gekozen voor het decentraal bronhouderschap. Dit houdt in dat iedere bronh
 
 Bronhoudergrenzen vallen samen met objectbegrenzingen en ‘bewegen mee’ als er mutaties in de objectbegrenzingen optreden.
 
-# 3.2 Ongeclassificeerd object
+# Ongeclassificeerd object
 
 In sommige gebieden is het tijdens de transitie naar de BGT moeilijk of onmogelijk om objecten te vormen en/of een bronhouder te benoemen. In deze gebieden wordt dan bestaande, lijngerichte geometrie opgewerkt tot een ongeclassificeerd object. De niet-geclassificeerde objecten die aan meerdere bronhouders grenzen, worden door de stichting SVB-BGT in overleg met de betreffende bronhouders verdeeld en toegewezen aan een van de aangrenzende bronhouders.
 
 Als in het beheerproces een terugmelding op dit object ontstaat, is de toegewezen bronhouder verantwoordelijk voor het eventueel daaruitvolgende bijhoudingstraject. Het object wordt in dit traject geclassificeerd overeenkomstig de geldende richtlijnen voor de BGT.
 
-# 3.3 Talud
+# Talud
 
 Taluds zijn BGT-inhoud als het hoogteverschil minimaal 1 meter is en de steilheid 1:4 of meer bedraagt. Het kenmerk voor het voorkomen van een talud is een attribuut bij weg-, ondersteunend weg- en terreindelen. Als er meer dan een objecttype op een talud ligt, bevat alleen het hoogst gelegen object een kruinlijngeometrie. Een object dat op een talud ligt is altijd een afzonderlijk begrensd object ten opzichte van een aangrenzend identiek object dat niet op een talud ligt.
 
-# 3.4 Functioneel gebied
+# Functioneel gebied
 
 De BGT kent één functioneel gebied, de Kering. Hierdoor zijn (hoofd)waterkeringen herken­baar. Dit object wordt uitsluitend toegekend door een waterschap en in voorkomende gevallen door Rijkswaterstaat, die ook als bronhouder voor dit object fungeren.
 
-# 3.5 Coördinaat-referentiesysteem
+# Coördinaat-referentiesysteem
 
 Het toegepaste coördinaatsysteem voor de BGT is dat van het stelsel van de Rijksdriehoeksmeting (RD-stelsel). De coördinaatgetallen zijn daarbij op millimeternauwkeurigheid met als eenheid meters. Het coördinaatgetal heeft maximaal drie cijfers achter de komma. Zo nodig wordt daarvoor afgerond, zodanig dat als het vierde cijfer achter de komma de waarde 1 t/m 4 bedraagt, het derde cijfer achter de komma niet wijzigt en als het vierde cijfer achter de komma de waarde 5 t/m 9 bedraagt, het derde cijfer achter de komma met één wordt
 verhoogd, met mogelijk ook implicaties voor de voorliggende cijfers, waarbij dezelfde regel geldt.
 
 Het RD-stelsel voldoet aan de eisen van de Europese richtlijn INSPIRE. Deze stelt dat binnen de Europese continentale aardschol, waartoe ook Nederland en het Nederlandse deel van de Noordzee behoort, geldt dat coördinaten herleidbaar moeten zijn tot het European Terrestrial Reference System 1989 (ETRS89) voor de horizontale component.
 
-# 3.6 Geometrietypen
+# Geometrietypen
 Het BGT-informatiemodel beschrijft het geometrietype als een associatie van een object met een geometrie-object. Daarbij maakt de BGT onderscheid in vlak-, lijn- en puntgeometrie. Tot de BGT-inhoud behoren de volgende objecten.
 
 | Hoofdgroep / subgroep      | BGT classificatie              | Geometrie              |
@@ -176,7 +176,7 @@ Zowel lijn- als vlakvormige objecten kunnen bestaan uit een boogvorm. Voor de re
 Voor het weergeven van cirkels kan men gebruik maken van twee bogen. Gebruik van
 GM_Circle is niet toegestaan.
 
-# 3.7 Topologie
+# Topologie
 
 De vlakobjecten in de BGT op maaiveldniveau (niveau 0) partitioneren de ruimte. Dat betekent dat:
 
@@ -191,7 +191,7 @@ Bij niveauverschillen kunnen objecten elkaar wel overlappen. Objecten op een niv
 
 Elk objecttype bevat één geometrie op één niveau. Dit betekent bijvoorbeeld dat een weg zich opsplitst in meerdere wegdelen met eigen identificaties als deze over een brug loopt, ook al zijn de rest van de kenmerken gelijk.
 
-# 3.8 Niveauaanduidingen per object
+# Niveauaanduidingen per object
 
 De BGT, het verplichte deel van IMGeo dus, is een tweedimensionale objectverzameling. Daarom is het noodzakelijk om de re­la­tieve hoogteligging van objecten ten opzichte van elkaar vast te leggen. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op maaiveldniveau (niveau 0) bevindt of op een onder- of bovenliggend niveau. Het niveau wordt vastgelegd met het attribuut ‘relatieveHoogteligging’. Dit kan elk willekeurig geheel getal (integer) aannemen. Het niveaugetal geeft geen informatie over de absolute hoogte van een object. 
 
@@ -211,11 +211,9 @@ De BGT stelt de volgende eisen aan de niveauwaarden:
     dat uit meerdere etages bestaat, krijgt in principe één niveau toegekend.
 -   Open, bovengrondse waterdelen hebben altijd het niveau 0.
 
-![](../afbeeldingen-opmaak/bgt-fig3-vincent-van-gogh-de-brug-bij-langlois.png)
+![Figuur 3: Vincent van Gogh – De brug bij Langlois (1888)](../afbeeldingen-opmaak/bgt-fig3-vincent-van-gogh-de-brug-bij-langlois.png)
 
-Figuur 3: Vincent van Gogh – De brug bij Langlois (1888)
-
-# 3.9 Hiërarchie in objecten en domeinwaarden
+# Hiërarchie in objecten en domeinwaarden
 
 BGT-objecten bezitten attributen die kenmerken van het object beschrijven. Welke waarde(n) de attributen kunnen of mogen hebben is vastgelegd in domeinwaarden.
 
@@ -231,7 +229,7 @@ Voor het derde punt, de visualisatie van de BGT, gelden afwijkende regels. Deze 
 
 # 3.10 Identificatie en historie
 
-### 3.10.1 Identificatie
+### Identificatie
 
 De BGT-objectidentificatie (object-ID) hanteert de richtlijnen van NEN3610:2011. Aan elk object wordt een uniek identificatienummer toegekend, dat uit twee delen bestaat: een namespace en een identificatiecode. Zolang het object bestaat, mag dit ID niet ver­an­deren. Vanwege de samenhang tussen de BGT en IMGeo wordt één notatiewijze voor het object-ID voorgeschreven.
 
@@ -246,22 +244,21 @@ Op deze wijze ziet een BGT-ID met een willekeurige bronhouder en UUID er dan als
 
 De BGT-ID wordt bepaald bij het ontstaan van het object en blijft behouden als het object wordt overgedragen aan een andere bronhouder.
 
-### 3.10.2 BAG-identificatie
+### BAG-identificatie
 
 Objecten uit de BAG hebben in de BAG-registratie een unieke identificatiecode. Voor deze objecten neemt de BGT de identificatiecode op als attribuut ‘identificatieBAG’.
 
-![](../afbeeldingen-opmaak/bgt-fig4-vincent-van-gogh-het-gele-huis.png)
+![Figuur 4: Vincent van Gogh – Het gele huis (1888)](../afbeeldingen-opmaak/bgt-fig4-vincent-van-gogh-het-gele-huis.png)
 
-Figuur 4: Vincent van Gogh – Het gele huis (1888)
 
-### 3.10.3 Gebeurtenissen
+### Gebeurtenissen
 
 In het stelsel van basisregistraties gelden gedefinieerde gebeurtenissen als aanleiding voor een wijziging. Voor de BGT zijn dat er twee:
 
 -   een wijziging van het object in de werkelijkheid. Dit leidt tot nieuwe versies van één of meer bestaande objecten of tot één of meer nieuwe objecten;
 -   een correctie van één of meer eigenschappen, inclusief de geometrie, van het object. Dit leidt tot een nieuwe versie van hetzelfde object.
 
-### 3.10.4 Levensduur en historie
+### Levensduur en historie
 
 In het stelsel van basisregistraties geldt bij het modelleren van historie een onderscheid in materiële historie en formele historie. Materiële historie beschrijft de veranderingen van een object in de werkelijkheid. Formele historie beschrijft de historie van veranderingen van een object in de registratie. Analoog hieraan beschrijft de formele levensduur het initiële ontstaan en vervallen van een object in de registratie.
 
@@ -288,13 +285,9 @@ De BGT hanteert de volgende regels voor object- en versiehistorie (zie ook parag
     2.  Als een situatie wijzigt door het opknippen van een object of het samenvoegen van (delen van) een object met (delen) van één of meer andere objecten, ontstaan nieuwe objecten.
 
 
-![](../afbeeldingen-opmaak/bgt-fig5-uitsluitend-wijzigingen-in-geometrie.png)
+![Figuur 5: Uitsluitend wijzigingen in geometrie: dezelfde ID’s, nieuwe versies](../afbeeldingen-opmaak/bgt-fig5-uitsluitend-wijzigingen-in-geometrie.png)
 
-Figuur 5: Uitsluitend wijzigingen in geometrie: dezelfde ID’s, nieuwe versies
-
-![](../afbeeldingen-opmaak/bgt-fig6-wijziging-door-samenvoegen-of-splitsen.png)
-
-Figuur 6: Wijziging door samenvoegen of splitsen: nieuwe, gewijzigde en vervallen objecten
+![Figuur 6: Wijziging door samenvoegen of splitsen: nieuwe, gewijzigde en vervallen objecten](../afbeeldingen-opmaak/bgt-fig6-wijziging-door-samenvoegen-of-splitsen.png)
 
 1.  Als een object niet meer in de werkelijkheid bestaat, vervalt het object. Het object-ID blijft wel geregistreerd. Het object krijgt van de bronhouder een objectEindTijd en een eindRegistratie die gelijk is aan de objectEindTijd.
 
@@ -302,11 +295,11 @@ Door het herstellen van een fout van één of meer attributen, inclusief een dee
 
 In de BGT geldt dat elk object op enig moment uitsluitend met één object-ID en één versie voorkomt in de Landelijke Voorziening.
 
-# 3.11 Toekomstige topografie
+# Toekomstige topografie
 
 Toekomstige topografie is geen inhoud voor de BGT. Het kan onderdeel zijn van IMGeo.
 
-# 3.12 Meetgegevens
+# Meetgegevens
 
 De grenzen van de objecten zijn een gedeelde verantwoordelijkheid van bronhouders (zie paragraaf 3.1). Ook moet de BGT landsdekkend zijn, dus zonder overlap of gaten (zie paragraaf 3.7). Tussen de bronhouders is daarom afstemming nodig over de kwaliteit in de objectafbakeningen op de bronhoudergrenzen. Ook moet de kwaliteit van meten expliciet bekend zijn.
 
@@ -314,7 +307,7 @@ Wat betreft de kwaliteit van meten is niet voldoende dat er één kwaliteitsbesc
 
 Ook de kwaliteit van puntgegevens en de bijbehorende kwaliteitsgegevens moeten expliciet voor iedereen bekend zijn. In de gegevenscatalogus worden daarom puntgegevens en de daarbij horende kwaliteit vastgelegd in de vorm van plaatsbepalingspunten. Voor bronhouders geldt een verplicht gebruik van deze punten bij het vormen van aangrenzende objecten.
 
-### 3.12.1 Plaatsbepalingspunt
+### Plaatsbepalingspunt
 
 Plaatsbepalingspunten (PBP’s) zijn die punten die in coördinaten bekend zijn en die gebruikt zijn bij en onderdeel uitmaken van de begrenzing van BGT-objecten. Elk plaatsbepalingspunt heeft een unieke identificatie, maar de relatie tussen BGT-objecten en plaatsbepalingspunten bestaat uit de overeenkomstige coördinatenparen. Er vindt geen administratieve koppeling plaats op basis van
 het ID.
@@ -332,10 +325,8 @@ en met maximaal een punt raakt aan de begrenzing van dat vlakobject.
 
 In het geval dat niet-gestrookte bogen voorkomen in de vlakgeometrie van BGT-objecten worden de drie punten meegenomen die zijn gebruikt bij het vastleggen van de boog.
 
-### 3.12.3 Voorbeelden
+### Voorbeelden
 
 In onderstaande figuur zijn bij de objectafbakening van het terreindeel de plaatsbepalingspunten 1 t/m 10 gebruikt. Bij het wegdeel zijn bij de objectafbakening de plaatsbepalingspunten 6 t/m 16 gebruikt.
 
-![](../afbeeldingen-opmaak/bgt-fig7-bgt-objecten-en-plaatsbepalingspunten.emf)
-
-Figuur 7: BGT-objecten en plaatsbepalingspunten
+![Figuur 7: BGT-objecten en plaatsbepalingspunten](../afbeeldingen-opmaak/bgt-fig7-bgt-objecten-en-plaatsbepalingspunten.emf)
