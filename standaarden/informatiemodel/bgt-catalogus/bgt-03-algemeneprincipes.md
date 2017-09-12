@@ -211,7 +211,7 @@ De BGT stelt de volgende eisen aan de niveauwaarden:
     dat uit meerdere etages bestaat, krijgt in principe één niveau toegekend.
 -   Open, bovengrondse waterdelen hebben altijd het niveau 0.
 
-![](media/534386cc70f99077872a407cf0c6b1e1.png)
+![](../afbeeldingen-opmaak/bgt-fig3-vincent-van-gogh-de-brug-bij-langlois.png)
 
 Figuur 3: Vincent van Gogh – De brug bij Langlois (1888)
 
@@ -250,7 +250,7 @@ De BGT-ID wordt bepaald bij het ontstaan van het object en blijft behouden als h
 
 Objecten uit de BAG hebben in de BAG-registratie een unieke identificatiecode. Voor deze objecten neemt de BGT de identificatiecode op als attribuut ‘identificatieBAG’.
 
-![](media/b83f6fdb90ef8ae4c723207a7090086e.png)
+![](../afbeeldingen-opmaak/bgt-fig4-vincent-van-gogh-het-gele-huis.png)
 
 Figuur 4: Vincent van Gogh – Het gele huis (1888)
 
@@ -288,11 +288,11 @@ De BGT hanteert de volgende regels voor object- en versiehistorie (zie ook parag
     2.  Als een situatie wijzigt door het opknippen van een object of het samenvoegen van (delen van) een object met (delen) van één of meer andere objecten, ontstaan nieuwe objecten.
 
 
-![](media/fig-uitsluitend-wijzigingen-in-geometrie.png)
+![](../afbeeldingen-opmaak/bgt-fig5-uitsluitend-wijzigingen-in-geometrie.png)
 
 Figuur 5: Uitsluitend wijzigingen in geometrie: dezelfde ID’s, nieuwe versies
 
-![](media/fig-wijziging-door-samenvoegen-of-splitsen.png)
+![](../afbeeldingen-opmaak/bgt-fig6-wijziging-door-samenvoegen-of-splitsen.png)
 
 Figuur 6: Wijziging door samenvoegen of splitsen: nieuwe, gewijzigde en vervallen objecten
 
@@ -336,6 +336,6 @@ In het geval dat niet-gestrookte bogen voorkomen in de vlakgeometrie van BGT-obj
 
 In onderstaande figuur zijn bij de objectafbakening van het terreindeel de plaatsbepalingspunten 1 t/m 10 gebruikt. Bij het wegdeel zijn bij de objectafbakening de plaatsbepalingspunten 6 t/m 16 gebruikt.
 
-![](media/5d7d8015dfdeac027c7b1bf19669bc54.emf)
+![](../afbeeldingen-opmaak/bgt-fig7-bgt-objecten-en-plaatsbepalingspunten.emf)
 
 Figuur 7: BGT-objecten en plaatsbepalingspunten
