@@ -336,6 +336,6 @@ In het geval dat niet-gestrookte bogen voorkomen in de vlakgeometrie van BGT-obj
 
 In onderstaande figuur zijn bij de objectafbakening van het terreindeel de plaatsbepalingspunten 1 t/m 10 gebruikt. Bij het wegdeel zijn bij de objectafbakening de plaatsbepalingspunten 6 t/m 16 gebruikt.
 
-![Figuur 7: BGT-objecten en plaatsbepalingspunten](../afbeeldingen-opmaak/bgt-fig7-objecten-en-plaatsbepalingspunten.emf)
+![Figuur 7: BGT-objecten en plaatsbepalingspunten](../afbeeldingen-opmaak/bgt-fig7-objecten-en-plaatsbepalingspunten.png)
 
 _Figuur 7: BGT-objecten en plaatsbepalingspunten_
