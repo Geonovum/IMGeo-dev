@@ -1,4 +1,4 @@
-# 5 Teksten
+# Teksten
 
 Visualisatie is geen onderdeel van het BGT-informatiemodel, maar een apart aspect. Deze gegevenscatalogus bevat de objectdefinities. De visualisatie van deze objecten wordt beschreven in het document Visualisatieregels BGT en IMGeo. In deze gegevenscatalogus worden dan ook geen uitspraken gedaan over hoe de producten van de BGT er uit moeten zien.
 
@@ -6,11 +6,11 @@ Alleen over de visualisatie van teksten wordt in deze gegevenscatalogus iets gez
 
 In de BGT worden teksten opgenomen voor visualisatie en oriëntatie. Waar deze teksten zijn opgenomen, worden zij vergezeld van een geometriepunt en eventuele rotatie. Deze teksten betreffen namen van openbare ruimten en een nummeraanduidingreeks bij panden.
 
-![BGT visualisatie namen](media/2246f72e43b403281a04a5a9b6f9b1bf.png)
+![BGT visualisatie namen](https://raw.githubusercontent.com/adbgnm/spiegel/master/standaarden/catalogus/media/2246f72e43b403281a04a5a9b6f9b1bf.png)
 
 Figuur 9: Visualisatie van openbare ruimtenamen op de BGT achtergrondkaart
 
-## 5.1 Namen
+## Namen
 
 In de visualisatie van de BGT worden namen gepresenteerd van alle openbare ruimten, zoals gedefinieerd in de BAG. Dit is bedoeld ter oriëntatie. Een naam van een openbare ruimte kan meerdere malen worden gepresenteerd. Dit heeft te maken met het gebruik binnen het schaalbereik van 1:500 tot 1:5.000. Als een openbare ruimte een lengte heeft van meer dan 300 meter, dan is het noodzakelijk om de naam vaker af te beelden.
 
@@ -18,11 +18,11 @@ Strikt genomen is het niet bekend waar een openbare ruimte van de BAG is gelegen
 
 De visualisatie van een openbare ruimtenaam vindt plaats door de coördinaten van het midden (centrum) van de tekst vast te leggen, evenals de rotatie van de tekst ten opzichte van de normale tekstrichting. De normale tekstrichting is van links naar rechts oftewel, in een kaartbeeld met de noordrichting aan de bovenzijde, van west naar oost. Voor namen van wegen, waterlopen en spoorbanen dient de rotatiehoek te worden vastgelegd, zodat de naam met de richting van de weg, waterloop of spoorbaan mee kan worden gevisualiseerd. De naam wordt geautomatiseerd uit de BAG overgenomen.
 
-## 5.2 Nummeraanduidingen
+## Nummeraanduidingen
 
 In de visualisatie van de BGT worden nummeraanduidingen gepresenteerd, die horen bij panden, zoals gedefinieerd in de BAG voor de verblijfsobjecten in die panden. Dit is bedoeld ter oriëntatie.
 
-![BGT visualisatie huisnummers](media/a32c2e8fc4bbc9bb2f1bb6522c0e1976.png)
+![BGT visualisatie huisnummers](https://raw.githubusercontent.com/adbgnm/spiegel/master/standaarden/catalogus/media/a32c2e8fc4bbc9bb2f1bb6522c0e1976.png)
 
 Figuur 10: Visualisatie van nummeraanduidingen op de BGT hoofdthema kaart
 
