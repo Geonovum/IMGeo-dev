@@ -19,7 +19,7 @@ Brandgangen, met een openbaar karakter en waarvan de breedte \>0,90 m bedraagt, 
 
 Grasklinkers (open klinkers, groenstenen) kunnen voorkomen als verhardingssoort van parkeervlakken. Voor de BGT is dan het fysiek voorkomen daarvan: open verharding. Wanneer ze als strookverharding voor komen langs wegdelen behoren tot de berm (ondersteunend wegdeel) waar ze in liggen.
 
-![Figuur 12: Voorbeeld van weg- en terreindelen](../afbeelding-opmaak/bgt-fig12-afbakening-weg-terrein.jpg)
+![Voorbeeld van weg- en terreindelen](../afbeelding-opmaak/bgt-fig-afbakening-weg-terrein.jpg)
 
 _Figuur 12: Voorbeeld van weg- en terreindelen_
 
@@ -180,7 +180,7 @@ In meren wordt een streefpeil beheerd door bemalen en/of spuien. Als de ligging 
 
 Hier geldt onderstaand stroomdiagram. Als kant water de begrenzing van objecten vormt, geldt dat dit een presentatie is van het laagst mogelijke streefpeil ter plaatse. Als de horizontale afstand tussen waterlijn en de bovenkant van een herkenbare insteek 1m of meer bedraagt dan ontstaat in de BGT een ondersteunend waterdeel van het type oever/slootkant.
 
-![Figuur 13: Stroomdiagram begrenzing waterlopen en -vlakken](../afbeeldingen-opmaak/bgt-fig13-stroomdiagram-waterlopen-watervlakken.jpg)
+![Stroomdiagram begrenzing waterlopen en -vlakken](../afbeeldingen-opmaak/bgt-fig-stroomdiagram-waterlopen-watervlakken.jpg)
 
 _Figuur 13: Stroomdiagram begrenzing waterlopen en -vlakken_
 
@@ -257,14 +257,8 @@ Ligt het object met de hoogste hiërarchie onder de overbrugging dan is de uitwe
 Voorbeelden zonder rij-ijzer of voeg in de overbrugging zijn:
 
 -   Op de overbrugging loopt een weg (rijbaan lokale weg) met een fietspad.
-    Eronder loopt een weg (rijbaan autoweg). De uitwerking is dan volgens B,
-    omdat de functie van de weg onder de overbrugging eerder in de tabel met
-    functies van wegen staat.
--   Op de overbrugging loopt een weg (rijbaan lokale weg, gesloten verharding)
-    met een fietspad. Er onder loopt een weg (rijbaan lokale weg, open
-    verharding). De uitwerking is dan volgens C, omdat de functie van de wegen
-    gelijk is, maar de weg op de overbrugging staat eerder in de tabel met
-    fysiek voorkomen van wegen.
+    Eronder loopt een weg (rijbaan autoweg). De uitwerking is dan volgens B, omdat de functie van de weg onder de overbrugging eerder in de tabel met functies van wegen staat.
+-   Op de overbrugging loopt een weg (rijbaan lokale weg, gesloten verharding) met een fietspad. Er onder loopt een weg (rijbaan lokale weg, open verharding). De uitwerking is dan volgens C, omdat de functie van de wegen gelijk is, maar de weg op de overbrugging staat eerder in de tabel met fysiek voorkomen van wegen.
 
 ### Niveau-aanduiding
 
