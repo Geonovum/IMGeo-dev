@@ -6,7 +6,7 @@ Alleen over de visualisatie van teksten wordt in deze gegevenscatalogus iets gez
 
 In de BGT worden teksten opgenomen voor visualisatie en oriëntatie. Waar deze teksten zijn opgenomen, worden zij vergezeld van een geometriepunt en eventuele rotatie. Deze teksten betreffen namen van openbare ruimten en een nummeraanduidingreeks bij panden.
 
-![Figuur 9: Visualisatie van openbare ruimtenamen op de BGT achtergrondkaart](../afbeeldingen-opmaak/bgt-fig9-visualisatie-namen.png)
+![Visualisatie van openbare ruimtenamen op de BGT achtergrondkaart](../afbeeldingen-opmaak/bgt-fig-visualisatie-namen.png)
 
 _Figuur 9: Visualisatie van openbare ruimtenamen op de BGT achtergrondkaart_
 
@@ -22,7 +22,7 @@ De visualisatie van een openbare ruimtenaam vindt plaats door de coördinaten va
 
 In de visualisatie van de BGT worden nummeraanduidingen gepresenteerd, die horen bij panden, zoals gedefinieerd in de BAG voor de verblijfsobjecten in die panden. Dit is bedoeld ter oriëntatie.
 
-![Figuur 10: Visualisatie van nummeraanduidingen op de BGT hoofdthema kaart](../afbeeldingen-opmaak/bgt-fig10-visualisatie-huisnummers.png)
+![Visualisatie van nummeraanduidingen op de BGT hoofdthema kaart](../afbeeldingen-opmaak/bgt-fig-visualisatie-huisnummers.png)
 
 _Figuur 10: Visualisatie van nummeraanduidingen op de BGT hoofdthema kaart_
 
