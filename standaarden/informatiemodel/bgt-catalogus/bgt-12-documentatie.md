@@ -1,4 +1,4 @@
-# 12 Documentatie
+# Documentatie
 
 De gebruikte documentatie bij het samenstellen van deze BGT Gegevenscatalogus
 is, in volgorde van publicatiedatum:
