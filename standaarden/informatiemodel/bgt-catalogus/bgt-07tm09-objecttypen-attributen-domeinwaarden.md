@@ -1,10 +1,8 @@
-Objecttypen
-===========
+# Objecttypen
 
 De objecttypen worden hieronder besproken.
 
-Objecttype: IMGeo-Object
-------------------------
+# Objecttype: IMGeo-Object
 
 | **Naam objecttype**               | IMGeo-Object                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -22,8 +20,7 @@ Objecttype: IMGeo-Object
 | **Overzicht associaties**         |                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **Overzicht attributen**          | \<\<BGT\>\>objectBeginTijd [1-1]<br />\<\<BGT\>\>objectEindTijd [0-1]<br />\<\<BGT\>\>identificatie [1-1]<br />\<\<BGT\>\>tijdstipRegistratie [1-1]<br />\<\<BGT\>\>eindRegistratie [0-1]<br />\<\<BGT\>\>LV-publicatiedatum [0-1]<br />\<\<BGT\>\>bronhouder [1-1]<br />\<\<BGT\>\>inOnderzoek [1-1]<br />\<\<BGT\>\>relatieveHoogteligging [1-1]<br />\<\<BGT\>\>status [1-1]<br />plus-status [0-1] |
 
-Objecttype: Wegdeel
--------------------
+# Objecttype: Wegdeel
 
 | **Naam objecttype**               | Wegdeel                                                                                                                                                                                                   |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -41,8 +38,7 @@ Objecttype: Wegdeel
 | **Overzicht associaties**         | \<\<BGT\>\>kruinlijnWegdeel [0..1]<br />\<\<BGT\>\>geometrie2dWegdeel [1..1]<br />lod0SurfaceWegdeel [0..1]                                                                                           |
 | **Overzicht attributen**          | \<\<BGT\>\>bgt-functie [1-1]<br />\<\<BGT\>\>bgt-fysiekVoorkomen [1-1]<br />plus-functieWegdeel [0-1]<br />\<\<BGT\>\>\<\<voidable\>\>wegdeelOpTalud [1-1]<br />plus-fysiekVoorkomenWegdeel [0-1] |
 
-Objecttype: OndersteunendWegdeel
---------------------------------
+# Objecttype: OndersteunendWegdeel
 
 | **Naam objecttype**               | OndersteunendWegdeel                                                                                                                                                                                                                             |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -60,8 +56,7 @@ Objecttype: OndersteunendWegdeel
 | **Overzicht associaties**         | \<\<BGT\>\>geometrie2dOndersteunendWegdeel [1..1]<br />lod0SurfaceOndersteunendWegdeel [0..1]<br />\<\<BGT\>\>kruinlijnOndersteunendWegdeel [0..1]                                                                                           |
 | **Overzicht attributen**          | \<\<BGT\>\>bgt-functie [1-1]<br />\<\<BGT\>\>bgt-fysiekVoorkomen [1-1]<br />\<\<BGT\>\>\<\<voidable\>\>ondersteunendWegdeelOpTalud [1-1]<br />plus-functieOndersteunendWegdeel [0-1]<br />plus-fysiekVoorkomenOndersteunendWegdeel [0-1] |
 
-Objecttype: Spoor
------------------
+# Objecttype: Spoor
 
 | **Naam objecttype**               | Spoor                                                                                                                                          |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -79,8 +74,7 @@ Objecttype: Spoor
 | **Overzicht associaties**         | lod0CurveSpoor [0..1]<br />\<\<BGT\>\>geometrie2dSpoor [1..1]                                                                                |
 | **Overzicht attributen**          | \<\<BGT\>\>bgt-functie [1-1]<br />plus-functieSpoor [0-1]                                                                                    |
 
-Objecttype: OnbegroeidTerreindeel
----------------------------------
+# Objecttype: OnbegroeidTerreindeel
 
 | **Naam objecttype**               | OnbegroeidTerreindeel                                                                                                                                              |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -98,8 +92,7 @@ Objecttype: OnbegroeidTerreindeel
 | **Overzicht associaties**         | \<\<BGT\>\>kruinlijnOnbegroeidTerreindeel [0..1]<br />\<\<BGT\>\>geometrie2dOnbegroeidTerreindeel [1..1]                                                         |
 | **Overzicht attributen**          | \<\<BGT\>\>bgt-fysiekVoorkomen [1-1]<br />\<\<BGT\>\>\<\<voidable\>\>onbegroeidTerreindeelOpTalud [1-1]<br />plus-fysiekVoorkomen [0-1]                        |
 
-Objecttype: BegroeidTerreindeel
--------------------------------
+# Objecttype: BegroeidTerreindeel
 
 | **Naam objecttype**               | BegroeidTerreindeel                                                                                                                                            |
 |-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -117,8 +110,7 @@ Objecttype: BegroeidTerreindeel
 | **Overzicht associaties**         | lod0MultiSurfaceBegroeidTerreindeel [0..1]<br />\<\<BGT\>\>geometrie2dBegroeidTerreindeel [1..1]<br />\<\<BGT\>\>kruinlijnBegroeidTerreindeel [0..1]       |
 | **Overzicht attributen**          | \<\<BGT\>\>bgt-fysiekVoorkomen [1-1]<br />\<\<BGT\>\>\<\<voidable\>\>begroeidTerreindeelOpTalud [1-1]<br />plus-fysiekVoorkomen [0-1]                      |
 
-Objecttype: Waterdeel
----------------------
+# Objecttype: Waterdeel
 
 | **Naam objecttype**               | Waterdeel                                                                                                                                                                                                         |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -136,8 +128,7 @@ Objecttype: Waterdeel
 | **Overzicht associaties**         | \<\<BGT\>\>geometrie2dWaterdeel [1..1]                                                                                                                                                                            |
 | **Overzicht attributen**          | \<\<BGT\>\>bgt-type [1-1]<br />plus-type [0-1]                                                                                                                                                                  |
 
-Objecttype: OndersteunendWaterdeel
-----------------------------------
+# Objecttype: OndersteunendWaterdeel
 
 | **Naam objecttype**               | OndersteunendWaterdeel                                                                                |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -155,8 +146,7 @@ Objecttype: OndersteunendWaterdeel
 | **Overzicht associaties**         | \<\<BGT\>\>geometrie2dOndersteunendWaterdeel [1..1]                                                   |
 | **Overzicht attributen**          | \<\<BGT\>\>bgt-type [1-1]<br />plus-type [0-1]                                                      |
 
-Objecttype: Pand
-----------------
+# Objecttype: Pand
 
 | **Naam objecttype**               | Pand                                                                                                                                                                                         |
 |-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -174,8 +164,7 @@ Objecttype: Pand
 | **Overzicht associaties**         | \<\<BGT\>\>geometrie2dGrondvlak [1..1]                                                                                                                                                       |
 | **Overzicht attributen**          | \<\<BGT\>\>identificatieBAGPND [1-1]<br />\<\<BGT\>\>nummeraanduidingreeks [0-\*]                                                                                                          |
 
-Objecttype: OverigeConstructie
-------------------------------
+# Objecttype: OverigeConstructie
 
 | **Naam objecttype**               | OverigeConstructie                                                                                                                                                                                                                                                                                                              |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -193,8 +182,7 @@ Objecttype: OverigeConstructie
 | **Overzicht associaties**         | \<\<BGT\>\>geometrie2dOverigeConstructie [1..1]<br />lod0Geometry [0..1]<br />lod1Geometry [0..1]<br />lod2Geometry [0..1]<br />lod3Geometry [0..1]<br />lod0ImplicitRepresentation [0..1]<br />lod1ImplicitRepresentation [0..1]<br />lod2ImplicitRepresentation [0..1]<br />lod3ImplicitRepresentation [0..1] |
 | **Overzicht attributen**          |                                                                                                                                                                                                                                                                                                                                 |
 
-Objecttype: OverigBouwwerk
---------------------------
+# Objecttype: OverigBouwwerk
 
 | **Naam objecttype**               | OverigBouwwerk                                                                                         |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------|
@@ -212,8 +200,7 @@ Objecttype: OverigBouwwerk
 | **Overzicht associaties**         |                                                                                                        |
 | **Overzicht attributen**          | \<\<BGT\>\>bgt-type [1-1]<br />plus-type [0-1]                                                       |
 
-Objecttype: Overbruggingsdeel
------------------------------
+# Objecttype: Overbruggingsdeel
 
 | **Naam objecttype**               | Overbruggingsdeel                                                                                                                                                   |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -231,8 +218,7 @@ Objecttype: Overbruggingsdeel
 | **Overzicht associaties**         | lod0GeometrieOverbruggingsdeel [0..1]<br />\<\<BGT\>\>geometrie2dOverbruggingsdeel [1..1]                                                                         |
 | **Overzicht attributen**          | typeOverbruggingsdeel [0-1]<br />hoortBijTypeOverbrugging [0-1]<br />overbruggingIsBeweegbaar [0-1]                                                             |
 
-Objecttype: Tunneldeel
-----------------------
+# Objecttype: Tunneldeel
 
 | **Naam objecttype**               | Tunneldeel                                                                                                 |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------|
@@ -250,8 +236,7 @@ Objecttype: Tunneldeel
 | **Overzicht associaties**         | \<\<BGT\>\>geometrie2dTunneldeel [1..1]<br />lod0GeometrieTunneldeel [0..1]                              |
 | **Overzicht attributen**          |                                                                                                            |
 
-Objecttype: Kunstwerkdeel
--------------------------
+# Objecttype: Kunstwerkdeel
 
 | **Naam objecttype**               | Kunstwerkdeel                                                                                                               |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
@@ -269,8 +254,7 @@ Objecttype: Kunstwerkdeel
 | **Overzicht associaties**         |                                                                                                                             |
 | **Overzicht attributen**          | \<\<BGT\>\>bgt-type [1-1]<br />plus-type [0-1]                                                                            |
 
-Objecttype: Scheiding
----------------------
+# Objecttype: Scheiding
 
 | **Naam objecttype**               | Scheiding                                                     |
 |-----------------------------------|---------------------------------------------------------------|
@@ -288,8 +272,7 @@ Objecttype: Scheiding
 | **Overzicht associaties**         |                                                               |
 | **Overzicht attributen**          | \<\<BGT\>\>bgt-type [1-1]<br />plus-type [0-1]              |
 
-Objecttype: OngeclassificeerdObject
------------------------------------
+# Objecttype: OngeclassificeerdObject
 
 | **Naam objecttype**               | OngeclassificeerdObject                                                                                                                                                                                                                                                     |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -307,8 +290,7 @@ Objecttype: OngeclassificeerdObject
 | **Overzicht associaties**         | \<\<BGT\>\>geometrie2d [1..1]                                                                                                                                                                                                                                               |
 | **Overzicht attributen**          |                                                                                                                                                                                                                                                                             |
 
-Objecttype: FunctioneelGebied
------------------------------
+# Objecttype: FunctioneelGebied
 
 | **Naam objecttype**               | FunctioneelGebied                                                             |
 |-----------------------------------|-------------------------------------------------------------------------------|
@@ -326,8 +308,7 @@ Objecttype: FunctioneelGebied
 | **Overzicht associaties**         | \<\<BGT\>\>geometrie2dFunctioneelGebied [1..1]                                |
 | **Overzicht attributen**          | \<\<BGT\>\>bgt-type [1-1]<br />plus-type [0-1]<br />naam [0-1]            |
 
-Objecttype: OpenbareRuimteLabel
--------------------------------
+# Objecttype: OpenbareRuimteLabel
 
 | **Naam objecttype**               | OpenbareRuimteLabel                                                                                                                                                                        |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -345,8 +326,7 @@ Objecttype: OpenbareRuimteLabel
 | **Overzicht associaties**         |                                                                                                                                                                                            |
 | **Overzicht attributen**          | \<\<BGT\>\>identificatieBAGOPR [1-1]<br />\<\<BGT\>\>openbareRuimteNaam [1-1]<br />\<\<BGT\>\>openbareRuimteType [1-1]                                                                 |
 
-Objecttype: Plaatsbepalingspunt
--------------------------------
+# Objecttype: Plaatsbepalingspunt
 
 | **Naam objecttype**               | Plaatsbepalingspunt                                                                                                                                                                                                                |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -364,8 +344,7 @@ Objecttype: Plaatsbepalingspunt
 | **Overzicht associaties**         | \<\<BGT\>\>geometrie [1..1]                                                                                                                                                                                                        |
 | **Overzicht attributen**          | \<\<BGT\>\>identificatie [1-1]<br />\<\<BGT\>\>\<\<voidable\>\>nauwkeurigheid [1-1]<br />\<\<BGT\>\>datumInwinning [1-1]<br />\<\<BGT\>\>\<\<voidable\>\>inwinnendeInstantie [1-1]<br />\<\<BGT\>\>inwinningsmethode [1-1] |
 
-Samengestelde attributen
-------------------------
+## Samengestelde attributen
 
 ### Nummeraanduidingreeks
 
@@ -407,8 +386,7 @@ Samengestelde attributen
 | **Toelichting samengesteld attribuut** | Ten behoeve van visualisatie is opgenomen het geometriepunt en eventuele rotatie die gewenst is bij het tonen van de naam. |
 | **Overzicht attributen**               | \<\<BGT\>\>plaatsingspunt [1-1]<br />\<\<BGT\>\>hoek [1-1]                                                               |
 
-Beschrijving van de attributen en associaties
-=============================================
+# Beschrijving van de attributen en associaties
 
 Hieronder worden de attributen van de BGT-objecttypen besproken. Alleen de voor
 de BGT relevante attributen worden hier besproken. De overige attributen worden
@@ -1431,17 +1409,11 @@ Labelpositie
 | **Indicatie authentiek**         | Authentiek                                                                                            |
 | **Toelichting attribuut**        |                                                                                                       |
 
-Domeinwaarden
-=============
+# Domeinwaarden
 
-Hieronder volgt een specificatie van de domeinwaarden en hun definities voor de
-relevante attributen. De domeinwaarden bij een attribuut hebben een vaste
-volgorde. Deze volgorde geeft waar nodig een hiërarchie aan, die van belang is
-bij elkaar kruisende objecten, waarbij de eerstgenoemde domeinwaarde de
-belangrijkste is.
+Hieronder volgt een specificatie van de domeinwaarden en hun definities voor de relevante attributen. De domeinwaarden bij een attribuut hebben een vaste volgorde. Deze volgorde geeft waar nodig een hiërarchie aan, die van belang is bij elkaar kruisende objecten, waarbij de eerstgenoemde domeinwaarde de belangrijkste is.
 
-Status
-------
+## Status
 
 | bestaand | Situatie waarin het object wordt / kan worden gebruikt voor het doel waarvoor het is gebouwd / aangelegd. (bron: IMGEO 1.0) |
 |----------|-----------------------------------------------------------------------------------------------------------------------------|
