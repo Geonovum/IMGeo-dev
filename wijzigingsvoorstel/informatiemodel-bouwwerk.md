@@ -5,19 +5,27 @@
 ### Classificeren van panden
 
 #### Aanleiding
-
+De aanleiding voor deze wijziging is de aanpassing van 
 De volgende issues zijn aanleiding voor deze wijziging: 
 - #26 Verzoek tot het opnemen van type Pand in de BGT (5011)
 
 #### Huidige situatie (IMGeo 2.1.1): 
-In de BGT worden panden overgenomen vanuit de BAG. De BAG kent geen typering van het Pand toe, wel een gebruiksdoel op het niveau van 'bijeenkomstfunctie', 'woonfunctie' of 'kantoorfunctie' e.d.
+In de BGT worden panden overgenomen vanuit de BAG. De BAG kent geen typering van het Pand toe, wel een gebruiksdoel op het niveau van 'bijeenkomstfunctie', 'woonfunctie' of 'kantoorfunctie' e.d. IMGeo neemt het gebruiksdoel niet over van een Pand. In de BGT is geen informatie opgenomen over welke type Pand het betreft.
 
 #### Nieuwe situatie (IMGeo 3.0):
-In IMGeo 3.0 wordt aan het object Pand een bgt- en plus-type toegevoegd, vergelijkbaar met OverigBouwwerk.
+In IMGeo 3.0 wordt aan het object Pand een bgt- en plus-type toegevoegd, vergelijkbaar met OverigBouwwerk, met de volgende classificaties:
+
+| bgt-type | plus-type |
+| -------- | --------- |
+| windturbine |  |
+| overig | schuur |
+| overig | bunker  |
+| .. | ..  |
+
 
 #### Onderbouwing
-Reden 1.  
-Reden 2.
+Reden 1. Geen gegevensverlies uit BGT door BAG 2.0
+Reden 2. Betere aansluiting op BRT, die ook typeringen van Gebouwen kent.
 
 #### Impact
 N.t.b.
@@ -59,6 +67,8 @@ Applicaties van bronhouders en gebruikers dienen te worden aangepast (uitgebreid
 
 De volgende issues zijn aanleiding voor deze wijziging: 
 
+- #118 Welke classificatie krijgt een BGT-vlak onder een niet-BGT IMGeo-vlak? (4248)
+
 #### Huidige situatie (IMGeo 2.1.1): 
 Bepaalde typen overige bouwwerken behoren niet tot de verplichte BGT, en worden als inrichtende objecten opgenomen. Dit betekent dat onder het inrichtende overige bouwwerk een ander BGT object om een vlakdekkend opdelen BGT bestand te krijgen. Het gaat om de volgende objecttypen:
 
@@ -74,6 +84,7 @@ In IMGeo 3.0 worden volgende typen Overig Bouwwerk verplaats van inrichtende naa
 #### Aanleiding
 
 De volgende issues zijn aanleiding voor deze wijziging: 
+- #158 Typeringen overigbouwwerk uitbreiden
 
 #### Huidige situatie (IMGeo 2.1.1): 
 
