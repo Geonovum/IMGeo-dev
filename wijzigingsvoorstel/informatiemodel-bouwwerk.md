@@ -24,8 +24,8 @@ In IMGeo 3.0 wordt aan het object Pand een bgt- en plus-type toegevoegd, vergeli
 
 
 #### Onderbouwing
-Reden 1. Geen gegevensverlies uit BGT door BAG 2.0
-Reden 2. Betere aansluiting op BRT, die ook typeringen van Gebouwen kent.
+1. Geen gegevensverlies uit BGT door BAG 2.0
+2. Betere aansluiting op BRT, die ook typeringen van Gebouwen kent.
 
 #### Impact
 N.t.b.
