@@ -94,9 +94,9 @@ De volgende issues zijn aanleiding voor deze wijziging:
 
 #### Impact
 
-#### Gerelateerde issues
 
-De volgende issues worden met deze aanpassing opgelost:
+
+
 
 
 
