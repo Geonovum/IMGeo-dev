@@ -5,7 +5,7 @@
 ### Classificeren van panden
 
 #### Aanleiding
-De aanleiding voor deze wijziging is de aanpassing van 
+De aanleiding voor deze wijziging is o.a. de veranderingen in de objectafbakening in BAG 2.0.
 De volgende issues zijn aanleiding voor deze wijziging: 
 - #26 Verzoek tot het opnemen van type Pand in de BGT (5011)
 
