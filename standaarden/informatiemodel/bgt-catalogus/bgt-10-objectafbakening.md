@@ -104,6 +104,16 @@ Braakliggende grond in stedelijk gebied is een onbegroeid terreindeel met een fy
 
 Deze terreindelen worden eveneens ingedeeld naar fysiek voorkomen en ook hier wordt, indien noodzakelijk, een kruinlijn opgenomen.
 
+### Bos
+
+Om een terreindeel als loofbos af te bakenen dient het minimimum percentage loofboom groter dan of gelijk aan 90% te zijn.
+
+Om een terreindeel als naaldbos af te bakenen dient het minimum percentage naaldboom groter dan of gelijk aan 90 % te zijn.
+
+Om een terreindeel als gemengd bos af te bakenen dient het maximum percentage naaldboom en het maximum percentage loofboom kleiner dan 90% te zijn.
+
+Bij deze percentages worden het eventueel aanwezige onderhout en smalle stroken loof- en of naaldbos gelegen naast of als uitloper van het bos buiten beschouwing gelaten.
+
 ## Waterdeel en ondersteunend waterdeel
 
 De volgende paragrafen beschrijven op welke wijze land en water zijn gescheiden in de BGT.
