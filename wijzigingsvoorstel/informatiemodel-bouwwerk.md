@@ -2,7 +2,14 @@
 
 ## Bouwwerk: panden en overige bouwwerken.
 
-### Classificeren van panden
+Voor het thema Bouwwerken worden de volgende wijzigingen in IMGeo 3.0 voorgesteld:
+
+1. Toevoegen van een classificatie aan Pand
+2. Toevoegen van panddelen aan Pand
+3. Wijzigen van bepaalde typen OverigBouwwerk naar opdelende laag
+4. Toevoegen van classificaties aan OverigBouwwerk
+
+### Toevoegen van een classificatie aan Pand
 
 #### Aanleiding
 De aanleiding voor deze wijziging is o.a. de veranderingen in de objectafbakening in BAG 2.0.
@@ -24,13 +31,13 @@ In IMGeo 3.0 wordt aan het object Pand een bgt- en plus-type toegevoegd, vergeli
 
 
 #### Onderbouwing
-1. Geen gegevensverlies uit BGT door BAG 2.0
+1. Geen gegevensverlies uit BGT|IMGeo door BAG 2.0
 2. Betere aansluiting op BRT, die ook typeringen van Gebouwen kent.
 
 #### Impact
 N.t.b.
 
-### Uitbreiding van Pand met panddelen
+### Toevoegen van panddelen aan Pand
 
 #### Aanleiding
 
@@ -61,7 +68,7 @@ Het model van IMGeo wordt uitgebreid met een optioneel attribuut 'panddeel' met 
 <stuf-geo:panddeel StUF:noValue="geenWaarde" xsi:nil="true"/>
 Applicaties van bronhouders en gebruikers dienen te worden aangepast (uitgebreid) om informatie over panddelen te kunnen aanmaken of verwerken.
 
-### Bepaalde typen OverigBouwwerk naar opdelende laag
+### Wijzigen van bepaalde typen OverigBouwwerk naar opdelende laag
 
 #### Aanleiding
 
@@ -79,7 +86,7 @@ In IMGeo 3.0 worden volgende typen Overig Bouwwerk verplaats van inrichtende naa
 
 #### Impact
 
-### Uitbreiden van classificaties van OverigBouwwerk 
+### Toevoegen van classificaties aan OverigBouwwerk 
 
 #### Aanleiding
 
