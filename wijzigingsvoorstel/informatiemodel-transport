@@ -4,9 +4,9 @@
 
 Voor het thema Terrein worden de volgende wijzigingen in IMGeo 3.0 voorgesteld:
 
-1. Opnemen criteria (%) type boom voor afbakening bos
+1. Wijzigen naam, definitie en afbakeningsregels voor inrit
 
-### Opnemen criteria (%) type boom voor afbakening bos
+### Wijzigen naam, definitie en afbakeningsregels voor inrit
 
 #### Aanleiding
 Voor beheer worden inritten in de bebouwde kom (verharde stukjes die vanaf een wegdeel door een berm naar een erf lopen) vaak apart afgebakend.
@@ -22,7 +22,7 @@ De definitie van inrit is `Toegangswegen, oprijlanen en dergelijke met verkeersf
 #### Nieuwe situatie:
 In IMGeo 3.0 wordt `inrit` vervangen door andere term: `toegangsweg` met de volgende definitie: 
 
-> Toegangsweg: Een weg met verkeersfunctie die leidt naar afgelegen erven en terreinen. (bron: IMGEO 2.0)
+> Toegangsweg: Een weg met verkeersfunctie die leidt naar afgelegen erven en terreinen.
 
 In de afbakeningsregels wordt _afgelegen_ nader gespecificeerd door een minimale lengte voor een toegangsweg op te nemen:
 
@@ -36,7 +36,6 @@ De term 'afgelegen' in de definitie was niet nader gespecificeerd. Met het crite
 
 #### Impact
 N.t.b.
-
 
 ### Wordt niet opgelost:
 
