@@ -43,8 +43,8 @@ N.t.b.
 
 De volgende issues zijn aanleiding voor deze wijziging: 
 
-- #43 Dubbele en afwijkende bijhouding BGT-BAG (4929) 
-- #19 Onderbouw en overbouw opnemen in IMGeo (5021) 
+- [#19](/../../issues/19) Onderbouw en overbouw opnemen in IMGeo (5021) 
+- [#43](/../../issues/43) Dubbele en afwijkende bijhouding BGT-BAG (4929) 
 
 #### Huidige situatie (IMGeo 2.1.1): 
 In de BGT worden panden overgenomen vanuit de BAG maar met een eigen BGT-geometrie: geometrie op maaiveldniveau. 
@@ -74,7 +74,7 @@ Applicaties van bronhouders en gebruikers dienen te worden aangepast (uitgebreid
 
 De volgende issues zijn aanleiding voor deze wijziging: 
 
-- #118 Welke classificatie krijgt een BGT-vlak onder een niet-BGT IMGeo-vlak? (4248)
+- [#118](/../../issues/118) Welke classificatie krijgt een BGT-vlak onder een niet-BGT IMGeo-vlak? (4248)
 
 #### Huidige situatie (IMGeo 2.1.1): 
 Bepaalde typen overige bouwwerken behoren niet tot de verplichte BGT, en worden als inrichtende objecten opgenomen. Dit betekent dat onder het inrichtende overige bouwwerk een ander BGT object om een vlakdekkend opdelen BGT bestand te krijgen. Het gaat om de volgende objecttypen:
@@ -91,7 +91,7 @@ In IMGeo 3.0 worden volgende typen Overig Bouwwerk verplaats van inrichtende naa
 #### Aanleiding
 
 De volgende issues zijn aanleiding voor deze wijziging: 
-- #158 Typeringen overigbouwwerk uitbreiden
+- [#158](/../../issues/158) Typeringen overigbouwwerk uitbreiden
 
 #### Huidige situatie (IMGeo 2.1.1): 
 
