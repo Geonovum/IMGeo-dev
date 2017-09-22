@@ -14,7 +14,7 @@ Voor het thema Bouwwerken worden de volgende wijzigingen in IMGeo 3.0 voorgestel
 #### Aanleiding
 De aanleiding voor deze wijziging is o.a. de veranderingen in de objectafbakening in BAG 2.0.
 De volgende issues zijn aanleiding voor deze wijziging: 
-- [#26](//issues/26) Verzoek tot het opnemen van type Pand in de BGT (5011)
+- [#26](../../issues/26) Verzoek tot het opnemen van type Pand in de BGT (5011)
 
 #### Huidige situatie (IMGeo 2.1.1): 
 In de BGT worden panden overgenomen vanuit de BAG. De BAG kent geen typering van het Pand toe, wel een gebruiksdoel op het niveau van 'bijeenkomstfunctie', 'woonfunctie' of 'kantoorfunctie' e.d. IMGeo neemt het gebruiksdoel niet over van een Pand. In de BGT is geen informatie opgenomen over welke type Pand het betreft.
