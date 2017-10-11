@@ -14,6 +14,12 @@ De aanleiding voor deze wijziging is o.a. de veranderingen in de objectafbakenin
 De volgende issues zijn aanleiding voor deze wijziging: 
 - [#26](/../../issues/26) Verzoek tot het opnemen van type Pand in de BGT (5011)
 
+### Gebruikerswens (user story)
+
+ALS BGT <br />
+WIL IK een classificatie opnemen bij Panden voor o.a. windturbine <br />
+ZODAT IK geen gegevens verlies als gevolg van de wijzigingen in de objectafbakening door BAG 2.0.
+
 ### Huidige situatie (IMGeo 2.1.1): 
 In de BGT worden panden overgenomen vanuit de BAG. De BAG kent geen typering van het Pand toe, wel een gebruiksdoel op het niveau van 'bijeenkomstfunctie', 'woonfunctie' of 'kantoorfunctie' e.d. IMGeo neemt het gebruiksdoel niet over van een Pand. In de BGT is geen informatie opgenomen over welke type Pand het betreft.
 
@@ -27,12 +33,14 @@ In IMGeo 3.0 wordt aan het object Pand een bgt- en plus-type toegevoegd, vergeli
 | overig | bunker  |
 | .. | _TOP10NLclassifiaties_  |
 
-
 ### Onderbouwing
 1. Geen gegevensverlies uit BGT|IMGeo door BAG 2.0
 2. Betere aansluiting op BRT, die ook typeringen van Gebouwen kent.
 
 ### Impact
+N.t.b.
+
+### Business value 
 N.t.b.
 
 ## Toevoegen van panddelen aan Pand
@@ -43,6 +51,12 @@ De volgende issues zijn aanleiding voor deze wijziging:
 
 - [#19](/../../issues/19) Onderbouw en overbouw opnemen in IMGeo (5021) 
 - [#43](/../../issues/43) Dubbele en afwijkende bijhouding BGT-BAG (4929) 
+
+### Gebruikerswens (user story)
+
+ALS beheerder van gebouwen <br />
+WIL IK de over- en onderbouw van gebouwen op kunnen nemen in IMGeo <br />
+ZODAT IK deze gegevens bij bijzonder bouwvormen beschikbaar heb, en hieruit BAG-geometrie kan afleiden.
 
 ### Huidige situatie (IMGeo 2.1.1): 
 In de BGT worden panden overgenomen vanuit de BAG maar met een eigen BGT-geometrie: geometrie op maaiveldniveau. 
@@ -66,12 +80,21 @@ Het model van IMGeo wordt uitgebreid met een optioneel attribuut 'panddeel' met 
 <stuf-geo:panddeel StUF:noValue="geenWaarde" xsi:nil="true"/>
 Applicaties van bronhouders en gebruikers dienen te worden aangepast (uitgebreid) om informatie over panddelen te kunnen aanmaken of verwerken.
 
+### Business value
+N.t.b.
+
+
 ## Wijzigen van bepaalde typen OverigBouwwerk naar opdelende laag
 
 ### Aanleiding
 De volgende issues zijn aanleiding voor deze wijziging: 
-
 - [#118](/../../issues/118) Welke classificatie krijgt een BGT-vlak onder een niet-BGT IMGeo-vlak? (4248)
+
+### Gebruikerswens (user story)
+
+ALS gebruiker van de BGT (o.a. beheerder openbare ruimte)
+WIL IK dat objecten van relevante grootte en betekenis als opdelend worden opgenomen in de BGT (bijvoorbeeld schuur)
+ZODAT IK bij werken met bestek en kostprijsberekeningen voor beheer de juiste oppervlakte voor o.a. maaien en verharding hanteer.
 
 ### Huidige situatie (IMGeo 2.1.1): 
 Bepaalde typen overige bouwwerken behoren niet tot de verplichte BGT, en worden als inrichtende objecten opgenomen. Dit betekent dat onder het inrichtende overige bouwwerk een ander BGT object om een vlakdekkend opdelen BGT bestand te krijgen. Het gaat om de volgende objecttypen:
@@ -83,6 +106,9 @@ In IMGeo 3.0 worden volgende typen Overig Bouwwerk verplaats van inrichtende naa
 
 ### Impact
 
+### Business value
+
+
 ## Toevoegen van classificaties aan OverigBouwwerk 
 
 ### Aanleiding
@@ -90,18 +116,26 @@ In IMGeo 3.0 worden volgende typen Overig Bouwwerk verplaats van inrichtende naa
 De volgende issues zijn aanleiding voor deze wijziging: 
 - [#158](/../../issues/158) Typeringen overigbouwwerk uitbreiden
 
+### Gebruikerswens (user story)
+
+ALS BGT en BOR beheerder
+WIL IK extra classificaties in IMGeo opgenomen zien voor bouwwerken
+ZODAT IK met IMGeo beter aan kan sluiten op de eigen beheergegevens.
+
 ### Huidige situatie (IMGeo 2.1.1): 
+...
 
 ### Nieuwe situatie (IMGeo 3.0):
+...
 
 ### Onderbouwing
+...
 
 ### Impact
+...
 
-
-
-
-
+### Business value
+...
 
 
 ## Wordt niet opgelost:
