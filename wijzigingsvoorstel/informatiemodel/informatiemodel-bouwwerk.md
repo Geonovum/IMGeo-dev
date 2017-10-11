@@ -40,8 +40,6 @@ In IMGeo 3.0 wordt aan het object Pand een bgt- en plus-type toegevoegd, vergeli
 ### Impact
 N.t.b.
 
-### Business value 
-N.t.b.
 
 ## Toevoegen van panddelen aan Pand
 
@@ -106,8 +104,6 @@ In IMGeo 3.0 worden volgende typen Overig Bouwwerk verplaats van inrichtende naa
 
 ### Impact
 
-### Business value
-
 
 ## Toevoegen van classificaties aan OverigBouwwerk 
 
@@ -132,9 +128,6 @@ ZODAT IK met IMGeo beter aan kan sluiten op de eigen beheergegevens.
 ...
 
 ### Impact
-...
-
-### Business value
 ...
 
 
