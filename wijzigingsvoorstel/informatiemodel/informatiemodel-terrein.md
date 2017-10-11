@@ -10,7 +10,12 @@ Voor het thema Terrein worden de volgende wijzigingen in IMGeo 3.0 voorgesteld:
 ### Aanleiding
 In IMGeo zijn nu geen criteria opgenomen voor de afbakening van het type bos: loofbos, naaldbos of gemengd bos. 
 
-- [#61](https://github.com/Geonovum/IMGeo2018/issues/61) Opnemen criteria (%) voor type bos
+- [#161](https://github.com/Geonovum/IMGeo2018/issues/161) Opnemen criteria (%) voor type bos
+
+__User story__:
+ALS BGT bronhouder (en gebruiker)
+WIL IK duidelijke criteria op basis waarvan ik een type bos kan afbakenen
+ZODAT IK eenvoudiger en beter kan afbakenen, waardoor de kwaliteit en uniformiteit van de BGT toeneemt.
 
 ### Huidige situatie (IMGeo 2.1.1): 
 In IMGeo zijn nu de volgende definities opgenomen:
@@ -41,6 +46,8 @@ Met deze afbakeningsregels sluit BGT aan bij de afbakeningsregels van de BRT.
 
 ### Impact
 N.t.b.
+
+
 
 
 
