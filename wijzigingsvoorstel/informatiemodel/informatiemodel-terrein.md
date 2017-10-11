@@ -1,6 +1,4 @@
 
-** N.B. Dit is een concept-concept-concept van wijzigingen zonder enige status ** 
-
 # Terrein: begroeide en onbegroeide terreindelen.
 
 Voor het thema Terrein worden de volgende wijzigingen in IMGeo 3.0 voorgesteld:
@@ -12,7 +10,7 @@ Voor het thema Terrein worden de volgende wijzigingen in IMGeo 3.0 voorgesteld:
 ### Aanleiding
 In IMGeo zijn nu geen criteria opgenomen voor de afbakening van het type bos: loofbos, naaldbos of gemengd bos. 
 
-- [#61](/../../issues/61) Opnemen criteria (%) voor type bos
+- [#61](https://github.com/Geonovum/IMGeo2018/issues/61) Opnemen criteria (%) voor type bos
 
 ### Huidige situatie (IMGeo 2.1.1): 
 In IMGeo zijn nu de volgende definities opgenomen:
