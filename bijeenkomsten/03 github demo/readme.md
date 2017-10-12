@@ -20,7 +20,7 @@ De spelregels en afspraken voor de IMGeo2018 Github zijn:
 - Vragen en reageren buiten Github om kan altijd via de IMGeo helpdesk
 - De formele openbare consultatie wordt niet via de Github gehouden.
 
-De demo is terug te kijken via:
+De demo is terug te kijken via [deze video](https://github.com/Geonovum/IMGeo2018/blob/master/bijeenkomsten/03%20github%20demo/20171012-imgeo2018-github-demo.mp4?raw=true).
 
 <video width="320" height="240" controls>
   <source src="https://github.com/Geonovum/IMGeo2018/blob/master/bijeenkomsten/03%20github%20demo/20171012-imgeo2018-github-demo.mp4?raw=true" type="video/mp4">
