@@ -11,5 +11,18 @@ Hieronder vind je de inhoud van de demo en de belangrijkste links die er bij hor
 - Milestones - inhoud voorstel IMGeo 3.0: 	 https://github.com/Geonovum/IMGeo2018/milestones
 - Werkversies wijzigingsvoorstel en BGT|IMGeo standaarden: 	 https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/
 
-De demo is terug te kijken met de volgende video: 
+De spelregels en afspraken voor de IMGeo2018 Github zijn:
 
+- Geef Github accountnaam door aan de IMGeo helpdesk.
+- Maak nieuwe issues aan alleen in overleg met IMGeo helpdesk.
+- Reageer inhoudelijk op issues.
+- Tekstvoorstelen in issues of via pull request zijn altijd welkom.
+- Vragen en reageren buiten Github om kan altijd via de IMGeo helpdesk
+- De formele openbare consultatie wordt niet via de Github gehouden.
+
+De demo is terug te kijken via:
+
+<video width="320" height="240" controls>
+  <source src="https://github.com/Geonovum/IMGeo2018/blob/master/bijeenkomsten/03%20github%20demo/20171012-imgeo2018-github-demo.mp4?raw=true" type="video/mp4">
+Your browser does not support the video tag.
+</video>
