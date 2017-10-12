@@ -1,6 +1,6 @@
 # IMGeo2018 Github demo
 
-Op 12 oktober 2017 hebben we via join.me voor zo'n 40-50 geïnteresseerden een demo gegeven van de IMGeo2018 Github demo.
+Op 12 oktober 2017 hebben we via join.me voor zo'n 40-50 geïnteresseerden een demo gegeven van de IMGeo2018 Github.
 Doel was om iedereen wegwijs te maken in de online werkomgeving voor de nieuwe versie van IMGeo.
 
 Hieronder vind je de inhoud van de demo en de belangrijkste links die er bij horen.
