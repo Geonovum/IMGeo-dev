@@ -22,4 +22,3 @@ De spelregels en afspraken voor de IMGeo2018 Github zijn:
 
 De demo is terug te kijken via [deze video](https://github.com/Geonovum/IMGeo2018/blob/master/bijeenkomsten/03%20github%20demo/20171012-imgeo2018-github-demo.mp4?raw=true).
 
-<embed src="https://github.com/Geonovum/IMGeo2018/blob/master/bijeenkomsten/03%20github%20demo/20171012-imgeo2018-github-demo.mp4?raw=true" autostart="false" height="30" width="144" />
