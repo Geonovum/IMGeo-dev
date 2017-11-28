@@ -456,6 +456,7 @@ registratie, kan het object zowel voorkomen als bestaand object met een unieke
 identificatie en als nieuw object met een nieuw toegekende identificatie met de
 status: plan. Dit dient om mogelijke verwisseling van gerealiseerde en geplande
 informatie over dit object te voorkomen.
+Objecten met de status 'plan' bezitten geen plaatsbepalingspunten.
 
 IMGeo heeft niet als doel om de gehele levenscyclus van topografische objecten,
 van plan tot realisatie en sloop, exact vast te leggen. IMGeo biedt wel de
@@ -469,7 +470,7 @@ volgende werkwijze wordt daarbij gehanteerd:
 
 -   Als een planobject een volledig nieuw object in de werkelijkheid betreft,
     blijft na realisatie van de bouw/aanleg het object met dezelfde
-    identificatie bestaan. De status wijzigt van ‘plan’ naar ‘bestaand’.
+    identificatie bestaan. De status wijzigt van ‘plan’ naar ‘bestaand’. Vanaf dit moment zijn plaatsbepalingspunten voor dat object verplicht. 
 
 -   Als een planobject een geometriewijziging betreft van een bestaande object,
     worden de twee objecten verenigd, zodra de plangeometrie gerealiseerd is.
