@@ -427,7 +427,7 @@ Meetgegevens
 ------------
 
 Net als in de BGT worden bij optionele IMGeo objecten de plaatsbepalingspunten
-opgenomen.
+opgenomen. Uitgezonderd van deze regel zijn alle registratieve gebieden en alle geplande objecten.
 
 Identificatie en historie
 -------------------------
