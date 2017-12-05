@@ -53,6 +53,10 @@ Scheiding en Overbruggingsdeel).
 
 Macro-objecten zijn geen inhoud van de BGT; in het eigen beheersysteem kan men indien gewenst macro-objecten definiëren, die een clustering van BGT objecten bevatten. In het optionele deel van IMGeo kunnen deze worden uitgewisseld als Functioneel Gebied.
 
+## Maaiveld
+Met maaiveld bedoelt de BGT het oppervlak van de vaste aarde, daar waar de aarde niet bedekt is met water. Het maaiveld
+vormt de grens tussen de ondergrond en de bovengrond. Deze beschrijving is afkomstig van de Basisregistratie Ondergrond (BRO).
+
 ![Figuur 2: Johannes Vermeer - De Geograaf (1669)](../afbeeldingen-opmaak/bgt-fig-johannes-vermeer-de-geograaf.png)
 
 _Figuur 2: Johannes Vermeer - De Geograaf (1669)_
