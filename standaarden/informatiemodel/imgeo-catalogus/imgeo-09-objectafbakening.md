@@ -76,7 +76,7 @@ pilaren.
 
 ## Kunstwerkdeel
 
-IMGeo voegt enkele optionele kunstwerken toe. Dit zijn allemaal vlakobjecten.
+IMGeo voegt enkele optionele kunstwerken toe. Dit zijn allemaal vlakobjecten, met uitzondering duiker: deze heeft vlak- of lijngeometrie.
 
 ## Overbruggingsdeel
 
