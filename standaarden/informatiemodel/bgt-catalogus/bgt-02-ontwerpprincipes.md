@@ -40,18 +40,18 @@ De BGT is een tweedimensionale objectenverzameling. Om de stap naar 3D op een la
 
 Het informatiemodel BGT is bedoeld voor grootschalige toepassing (zie paragraaf 2.2). Het model bevat daarom bijvoorbeeld geen klasse Weg, maar alleen een klasse Wegdeel; geen Water maar Waterdeel, geen Terrein maar Begroeid- en Onbegroeid Terreindeel, geen Kunstwerk maar Kunstwerkdeel. Een object Weg, bijvoorbeeld de rijksweg A1, zou veel te omvangrijk zijn voor gebruik in een grootschalige toepassing. Om die reden wordt een weg opgeknipt in wegdelen, die een veel kleinere omvang hebben.
 
-Gebruikers kunnen echter voor het eigen werkproces behoefte hebben aan een clustering van BGT-objecten, die voor een specifieke situatie als één object moet fungeren: een macro- of superobject. Voorbeelden van macro-objecten zijn: 
+Gebruikers kunnen echter voor het eigen werkproces behoefte hebben aan een clustering van BGT-objecten en/of delen van objecten, die voor een specifieke situatie als één object moet fungeren: een macro- of superobject. Voorbeelden van macro-objecten zijn: 
 
 -   gebieden met een agrarische, natuur- of recreatiebestemming of een combinatie hiervan, bijvoorbeeld de Veluwe;
 -   rivieren, bijvoorbeeld de Rijn, Maas en IJssel;
 -   rijkswegen, bijvoorbeeld de A1 en A12.
 
-Ook voor een minder groot oppervlak kunnen geclusterde BGT-objecten als macro-object gewenst zijn. Denk bijvoorbeeld aan industrie- en rangeerterreinen en complexen, zoals Schiphol.
+Ook voor een minder groot oppervlak kunnen geclusterde BGT-objecten en/of delen van objecten als macro-object gewenst zijn. Denk bijvoorbeeld aan industrie- en rangeerterreinen en complexen, zoals Schiphol.
 
 Tot slot kunnen macro-objecten voor nog kleinere oppervlakten gewenst zijn, bijvoorbeeld een sluiscomplex. Voor gebruikers (beheerders) behoren tot een sluiscomplex onder meer panden, muren, kademuren, overbruggingen en sluisdeuren. Alleen de sluisdeuren komen expliciet in de BGT als kunstwerkdeel voor. De andere objecten en -typen worden in de BGT opgenomen onder andere klassen (Pand,
 Scheiding en Overbruggingsdeel).
 
-Macro-objecten zijn geen inhoud van de BGT; in het eigen beheersysteem kan men indien gewenst macro-objecten definiëren, die een clustering van BGT objecten bevatten. In het optionele deel van IMGeo kunnen deze worden uitgewisseld als Functioneel Gebied.
+Macro-objecten zijn geen inhoud van de BGT; in het eigen beheersysteem kan men indien gewenst macro-objecten definiëren, die een clustering van BGT objecten en/of delen van BGT-objecten bevatten. In het optionele deel van IMGeo kunnen deze worden uitgewisseld als Functioneel Gebied.
 
 ## Maaiveld
 Met maaiveld bedoelt de BGT het oppervlak van de vaste aarde, daar waar de aarde niet bedekt is met water. Het maaiveld
