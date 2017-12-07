@@ -10,6 +10,25 @@ Er is gekozen voor het decentraal bronhouderschap. Dit houdt in dat iedere bronh
 
 Bronhoudergrenzen vallen samen met objectbegrenzingen en ‘bewegen mee’ als er mutaties in de objectbegrenzingen optreden.
 
+# Panden en panddelen
+
+De BGT bevat als object pand die panden die ook als gerealiseerd pand in de BAG voorkomen.
+Met name vanuit beheeroogpunt gezien is het van belang dat er geen verschillen in geometrie bestaan tussen BGT- en BAG-panden.
+In de meeste gevallen geldt de grondvlakgeometrie (geometrie op maaiveldniveau) van het BGT-pand ook als buitenomtrek van het BAG-pad.
+
+Wanneer buitenomtrek en grondvlak op beide volgende twee (Inwinningsregels Pand 10.7.e.v.) wijzen van elkaar afwijken:
+1.	De horizontale afwijking ten opzichte van de situatie met het grondvlak bedraagt 1 m of meer, en
+2.	De hoogte van de over- en/of onderbouw bedraagt minimaal één verdieping.
+ontstaan er zogenaamde panddelen van dat pand in de BGT.
+
+Panddelen ontstaan dus uitsluitend bij een afwijkende over- en/of onderbouw van een pand. Er ontstaat dan één panddeel met als geometrie het grondvlak plus één panddeel voor elke afwijkende over-of onderbouw van dat BAG-pand. In voorkomende situaties bedraagt het minimum aantal panddelen van dat betreffende BAG-pand daarom twee. In principe geldt er geen maximum voor het aantal panddelen voor een BAG-pand.
+
+Elk panddeel van één BAG-pand bezit hetzelfde BAG-id als dat pand.
+
+Definitie panddeel:
+Een panddeel is een deel van een BAG-pand waarvan de geometrie volgens regelgeving afwijkt van de geometrie van het grondvlak en bestaat uit een zogenaamde over- of onderbouw of de grondvlaksituatie van dat BAG-pand.
+Voor de begrenzing van panddelen zie 10.7 e.v.
+
 # Ongeclassificeerd object
 
 In sommige gebieden is het tijdens de transitie naar de BGT moeilijk of onmogelijk om objecten te vormen en/of een bronhouder te benoemen. In deze gebieden wordt dan bestaande, lijngerichte geometrie opgewerkt tot een ongeclassificeerd object. De niet-geclassificeerde objecten die aan meerdere bronhouders grenzen, worden door de stichting SVB-BGT in overleg met de betreffende bronhouders verdeeld en toegewezen aan een van de aangrenzende bronhouders.
