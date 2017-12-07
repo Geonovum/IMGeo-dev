@@ -19,6 +19,7 @@ In de meeste gevallen geldt de grondvlakgeometrie (geometrie op maaiveldniveau) 
 Wanneer buitenomtrek en grondvlak op beide volgende twee (Inwinningsregels Pand 10.7.e.v.) wijzen van elkaar afwijken:
 1.	De horizontale afwijking ten opzichte van de situatie met het grondvlak bedraagt 1 m of meer, en
 2.	De hoogte van de over- en/of onderbouw bedraagt minimaal één verdieping.
+
 ontstaan er zogenaamde panddelen van dat pand in de BGT.
 
 Panddelen ontstaan dus uitsluitend bij een afwijkende over- en/of onderbouw van een pand. Er ontstaat dan één panddeel met als geometrie het grondvlak plus één panddeel voor elke afwijkende over-of onderbouw van dat BAG-pand. In voorkomende situaties bedraagt het minimum aantal panddelen van dat betreffende BAG-pand daarom twee. In principe geldt er geen maximum voor het aantal panddelen voor een BAG-pand.
