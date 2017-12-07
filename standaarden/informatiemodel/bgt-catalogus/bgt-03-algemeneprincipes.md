@@ -10,7 +10,7 @@ Er is gekozen voor het decentraal bronhouderschap. Dit houdt in dat iedere bronh
 
 Bronhoudergrenzen vallen samen met objectbegrenzingen en ‘bewegen mee’ als er mutaties in de objectbegrenzingen optreden.
 
-# Panden en panddelen
+# Pand en panddelen
 
 De BGT bevat als object pand die panden die ook als gerealiseerd pand in de BAG voorkomen.
 Met name vanuit beheeroogpunt gezien is het van belang dat er geen verschillen in geometrie bestaan tussen BGT- en BAG-panden.
