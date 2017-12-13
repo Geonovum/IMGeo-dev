@@ -22,12 +22,15 @@ Wanneer buitenomtrek en grondvlak op beide volgende twee (Inwinningsregels Pand 
 
 ontstaan er zogenaamde panddelen van dat pand in de BGT.
 
-Panddelen ontstaan dus uitsluitend bij een afwijkende over- en/of onderbouw van een pand. Er ontstaat dan één panddeel met als geometrie het grondvlak plus één panddeel voor elke afwijkende over-of onderbouw van dat BAG-pand. In voorkomende situaties bedraagt het minimum aantal panddelen van dat betreffende BAG-pand daarom twee. In principe geldt er geen maximum voor het aantal panddelen voor een BAG-pand.
+Panddelen ontstaan dus uitsluitend bij een afwijkende over- en/of onderbouw van een pand. Er ontstaat dan naast het pand met de grondvlakgeometrie één panddeel voor elke afwijkende over-of onderbouw van dat BAG-pand. In voorkomende situaties bedraagt het minimum aantal panddelen van één BGT-pand altijd twee. In principe geldt er geen maximum voor het aantal panddelen voor een BAG-pand.
 
-Elk panddeel van één BAG-pand bezit hetzelfde BAG-id als dat pand.
+De samengestelde contour van panddelen en het pand (grondvlakgeometrie) mag nooit groter zijn dan BAG-contour.
+De geometrie van een panddeel mag nooit volledig binnen de BGT maaiveldgeometrie vallen.
+
+Elk BGT-panddeel van één BGT-pand bezit hetzelfde BAG-id als dat BGT-pand.
 
 Definitie panddeel:
-Een panddeel is een deel van een BAG-pand waarvan de geometrie volgens regelgeving afwijkt van de geometrie van het grondvlak en bestaat uit een zogenaamde over- of onderbouw of de grondvlaksituatie van dat BAG-pand.
+Een panddeel is een deel van een BGT-pand waarvan de geometrie volgens regelgeving afwijkt van de geometrie van het grondvlak en bestaat uit een zogenaamde over- of onderbouw van dat BGT-pand.
 Voor de begrenzing van panddelen zie 10.7 e.v.
 
 # Ongeclassificeerd object
