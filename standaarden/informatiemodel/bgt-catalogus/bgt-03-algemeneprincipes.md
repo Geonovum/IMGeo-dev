@@ -35,7 +35,7 @@ Voor de begrenzing van panddelen zie 10.7 e.v.
 
 # Ongeclassificeerd object
 
-In sommige gebieden is het tijdens de transitie naar de BGT moeilijk of onmogelijk om objecten te vormen en/of een bronhouder te benoemen. In deze gebieden wordt dan bestaande, lijngerichte geometrie opgewerkt tot een ongeclassificeerd object. De niet-geclassificeerde objecten die aan meerdere bronhouders grenzen, worden door de stichting SVB-BGT in overleg met de betreffende bronhouders verdeeld en toegewezen aan een van de aangrenzende bronhouders.
+In sommige gebieden was het tijdens de transitie naar de BGT moeilijk of onmogelijk om objecten te vormen en/of een bronhouder te benoemen. In deze gebieden werd dan toenmalige lijngerichte geometrie opgewerkt tot een ongeclassificeerd object. De niet-geclassificeerde objecten die aan meerdere bronhouders grenzen, werden door de stichting SVB-BGT in overleg met de betreffende bronhouders verdeeld en toegewezen aan een van de aangrenzende bronhouders.
 
 Als in het beheerproces een terugmelding op dit object ontstaat, is de toegewezen bronhouder verantwoordelijk voor het eventueel daaruitvolgende bijhoudingstraject. Het object wordt in dit traject geclassificeerd overeenkomstig de geldende richtlijnen voor de BGT.
 
