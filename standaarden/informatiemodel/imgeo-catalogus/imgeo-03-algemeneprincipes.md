@@ -397,17 +397,10 @@ De objecten in het optionele deel van IMGeo zijn al dan niet topologisch
 gestructureerd (‘opdelend’).
 
 De optionele objecttypen van IMGeo zijn topologisch gestructureerd indien het
-een nadere detaillering betreft van de BGT objecten, zie daarvoor de tabel in de
+een nadere detaillering of een uitbreiding betreft van de BGT objecten, zie daarvoor de tabel in de
 vorige paragraaf.
 
-Het optionele deel van IMGeo is geen onderdeel van de topologische structuur
-indien het een uitbreiding van de populatie is (‘inrichtend’). Dit geldt
-bijvoorbeeld voor Overig bouwwerk: bunker en Kunstwerkdeel: keermuur. Deze
-objecten liggen ongeacht of ze een punt-, lijn- of vlakgeometrie hebben altijd
-boven of onder één of meer BGT objecten op maaiveldniveau. Een optioneel IMGeo
-object dat een vlakgeometrie heeft, bijvoorbeeld een wildrooster, maakt geen gat
-in het onderliggende BGT object, bijvoorbeeld een wegdeel of onbegroeid
-terreindeel.
+Het optionele deel van IMGeo is dus onderdeel van de topologische structuur indien het een object met vlakgeomtrie betreft. Uitgezonderd van deze regel zijn de functionele gebieden. De functionele gebieden zijn inrichtend en mogen overlappen met elkaar en met andere vlakobjecten van alle soorten.
 
 **Niveaus ongelijk aan 0**
 
@@ -416,12 +409,8 @@ Op deze niveaus zijn alle objecten niet topologisch gestructureerd.
 Niveauaanduidingen per object
 -----------------------------
 
-Alle inrichtende IMGeo objecten krijgen het niveaugetal toegekend dat bij het
-topologisch gestructureerde object, waarboven of onder het zich bevindt, is
-vastgelegd. Voorbeeld: de lantaarnpalen op een wegdeel dat zich bevindt op een
-brug en dus niveau 1 heeft, krijgen ook het niveaugetal 1 toegekend. Een
-wildrooster krijgt niveau 0, net als het wegdeel of terreindeel waar het op
-ligt.
+Alle IMGeo vlakobjecten krijgen het niveaugetal toegekend overeenkomstig de regelgeving in de BGT, zie daarvoor de BGT gevenscatalogus 3.8. Alle IMGeo punt- en lijnobjecten bezitten dezelkfde relatieve hoogte als het object, waarboven of onder het zich bevindt. Voorbeeld: de lantaarnpalen op een wegdeel dat zich bevindt op een
+brug en dus niveau 1 heeft, krijgen ook het niveaugetal 1 toegekend. Een putdeksel krijgt niveau 0, net als het wegdeel of terreindeel waar die in ligt.
 
 Meetgegevens
 ------------
