@@ -34,7 +34,7 @@ Als in een pand één en slechts één verblijfsobject voorkomt, dan wordt de nu
 
 Een speciaal geval treedt op als een pand op de grens van twee of meer openbare ruimten is gelegen en nummeraanduidingen daarbinnen bij meerdere openbare ruimten horen. In dit geval worden er meerdere (reeksen van) nummeraanduidingen afgebeeld overeenkomstig bovenstaande regels.
 
-De visualisatie van een nummeraanduidingreeks vindt plaats door de coördinaten van het midden (centrum) van de tekst vast te leggen, alsmede de rotatie, zie 5.3, van de tekst ten opzichte van de normale tekstrichting. Het coördinatenpunt van de nummeraanduidingreeks wordt circa 4 meter vanaf de voorgevel (‘straatzijde’) binnen het pand geplaatst.
+De visualisatie van een nummeraanduidingreeks vindt plaats door de coördinaten van het midden (centrum) van de tekst vast te leggen, alsmede de rotatie, zie 5.3, van de tekst ten opzichte van de normale tekstrichting. De normale tekstrichting is van links naar rechts oftewel, in een kaartbeeld met de noordrichting aan de bovenzijde, van west naar oost. Het coördinatenpunt van de nummeraanduidingreeks wordt circa 4 meter vanaf de voorgevel (‘straatzijde’) binnen het pand geplaatst.
 
 De nummeraanduidingreeks wordt geplaatst met een minimale rotatie ten opzichte van de tekstrichting, zodanig dat de nummeraanduidingreeks evenwijdig aan of haaks op de voorgevel staat. (zie Figuur 10).
 
