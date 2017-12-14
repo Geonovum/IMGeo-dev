@@ -114,7 +114,7 @@ Om een terreindeel als loofbos af te bakenen dient het minimimum percentage loof
 
 Om een terreindeel als naaldbos af te bakenen dient het minimum percentage naaldboom groter dan of gelijk aan 90 % te zijn.
 
-Om een terreindeel als gemengd bos af te bakenen dient het maximum percentage naaldboom en het maximum percentage loofboom kleiner dan 90% te zijn.
+Om een terreindeel als gemengd bos af te bakenen dient het maximum percentage naaldboom of het maximum percentage loofboom kleiner dan 90% te zijn.
 
 Bij deze percentages worden het eventueel aanwezige onderhout en smalle stroken loof- en of naaldbos gelegen naast of als uitloper van het bos buiten beschouwing gelaten.
 
