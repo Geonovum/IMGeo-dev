@@ -24,7 +24,7 @@ _Figuur 12: Voorbeeld van weg- en terreindelen_
 
 De kruinlijn moet bij het wegdeel worden opgenomen indien de helling een verhouding heeft van verticaal:horizontaal van 1:4 of steiler en het hoogteverschil \> 1 m bedraagt.
 
-Eén van de zijden van het wegdeel valt altijd samen met de kruinlijn, zijnde bovenkant talud. Het gedeelte van een object dat op het talud ligt, is altijd een apart begrensd vlak ten opzichte van het deel van het object dat niet op het talud ligt.
+Eén van de zijden van het wegdeel valt altijd samen met de kruinlijn, zijnde bovenkant talud. De coördinaten van de kruinlijn zijn identiek met die van de objectbegrenzing ter plaatse. Het gedeelte van een object dat op het talud ligt, is altijd een apart begrensd vlak ten opzichte van het deel van het object dat niet op het talud ligt.
 
 Als er meer dan een objecttype op een talud ligt, bevat alleen het hoogst gelegen object een kruinlijngeometrie.
 
@@ -64,7 +64,7 @@ De niet-wegdeel begrenzing van een begroeide berm met een aanliggend begroeid te
 
 Bij een naast een wegdeel liggend waterdeel geldt dat als de afstand tussen wegdeel en waterbegrenzing \>30 cm bedraagt, het deel daartussen als berm wordt opgenomen. Mogelijke waterbegrenzingen staan beschreven bij Waterdeel.
 
-De kruinlijn moet bij het ondersteunend wegdeel worden opgenomen indien de helling een verhouding heeft van verticaal:horizontaal van 1:4 of steiler en het hoogteverschil \>1m bedraagt. Eén van de zijden van het ondersteunend wegdeel valt altijd samen met de kruinlijn, zijnde bovenkant talud. Het gedeelte van een object dat op het talud ligt is altijd een apart begrensd vlak ten opzichte van het deel van het object dat niet op het talud ligt.
+De kruinlijn moet bij het ondersteunend wegdeel worden opgenomen indien de helling een verhouding heeft van verticaal:horizontaal van 1:4 of steiler en het hoogteverschil \>1m bedraagt. Eén van de zijden van het ondersteunend wegdeel valt altijd samen met de kruinlijn, zijnde bovenkant talud. De coördinaten van de kruinlijn zijn identiek met die van de objectbegrenzing ter plaatse. Het gedeelte van een object dat op het talud ligt is altijd een apart begrensd vlak ten opzichte van het deel van het object dat niet op het talud ligt.
 
 Als er meer dan een objecttype op een talud ligt, bevat alleen het hoogst gelegen object een kruinlijngeometrie.
 
@@ -88,7 +88,7 @@ Uitsparingen voor stedelijk groen in onbegroeid terrein van het type gesloten, o
 
 Het attribuut fysiek voorkomen geldt voor het gehele onbegroeide terreindeel. Een overgang van fysiek voorkomen is dus altijd ook een grens tussen twee onbegroeide terreindelen. Het gaat hierbij over het voorkomen waarmee het onbegroeide terreindeel overwegend is bedekt. Voor minimale stukjes met andere verharding hoeft geen apart onbegroeid terreindeel te worden gevormd.
 
-De kruinlijn moet bij het onbegroeid terreindeel worden opgenomen indien de helling een verhouding heeft van verticaal:horizontaal van 1:4 of steiler en het hoogteverschil \>1m bedraagt. Een van de zijden van het onbegroeid terreindeel valt altijd samen met de kruinlijn, zijnde bovenkant talud. Het gedeelte van een object dat op het talud ligt is altijd een apart begrensd vlak ten opzichte van het deel van het object dat niet op het talud ligt.
+De kruinlijn moet bij het onbegroeid terreindeel worden opgenomen indien de helling een verhouding heeft van verticaal:horizontaal van 1:4 of steiler en het hoogteverschil \>1m bedraagt. Een van de zijden van het onbegroeid terreindeel valt altijd samen met de kruinlijn, zijnde bovenkant talud. De coördinaten van de kruinlijn zijn identiek met die van de objectbegrenzing ter plaatse. Het gedeelte van een object dat op het talud ligt is altijd een apart begrensd vlak ten opzichte van het deel van het object dat niet op het talud ligt.
 
 Als er meer dan een objecttype op een talud ligt, bevat alleen het hoogst gelegen object een kruinlijngeometrie.
 
@@ -103,6 +103,10 @@ Braakliggende grond in stedelijk gebied is een onbegroeid terreindeel met een fy
 ### Indeling
 
 Deze terreindelen worden eveneens ingedeeld naar fysiek voorkomen en ook hier wordt, indien noodzakelijk, een kruinlijn opgenomen.
+
+### Regels voor opname
+
+De kruinlijn moet bij het begroeid terreindeel worden opgenomen indien de helling een verhouding heeft van verticaal:horizontaal van 1:4 of steiler en het hoogteverschil \>1m bedraagt. Een van de zijden van het onbegroeid terreindeel valt altijd samen met de kruinlijn, zijnde bovenkant talud. De coördinaten van de kruinlijn zijn identiek met die van de objectbegrenzing ter plaatse. Het gedeelte van een object dat op het talud ligt is altijd een apart begrensd vlak ten opzichte van het deel van het object dat niet op het talud ligt.
 
 ### Bos
 
