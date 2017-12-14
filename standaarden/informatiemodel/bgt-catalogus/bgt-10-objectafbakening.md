@@ -106,7 +106,7 @@ Deze terreindelen worden eveneens ingedeeld naar fysiek voorkomen en ook hier wo
 
 ### Regels voor opname
 
-De kruinlijn moet bij het begroeid terreindeel worden opgenomen indien de helling een verhouding heeft van verticaal:horizontaal van 1:4 of steiler en het hoogteverschil \>1m bedraagt. Een van de zijden van het onbegroeid terreindeel valt altijd samen met de kruinlijn, zijnde bovenkant talud. De coördinaten van de kruinlijn zijn identiek met die van de objectbegrenzing ter plaatse. Het gedeelte van een object dat op het talud ligt is altijd een apart begrensd vlak ten opzichte van het deel van het object dat niet op het talud ligt.
+De kruinlijn moet bij het begroeid terreindeel worden opgenomen indien de helling een verhouding heeft van verticaal:horizontaal van 1:4 of steiler en het hoogteverschil \>1m bedraagt. Een van de zijden van het begroeid terreindeel valt altijd samen met de kruinlijn, zijnde bovenkant talud. De coördinaten van de kruinlijn zijn identiek met die van de objectbegrenzing ter plaatse. Het gedeelte van een object dat op het talud ligt is altijd een apart begrensd vlak ten opzichte van het deel van het object dat niet op het talud ligt.
 
 ### Bos
 
