@@ -786,7 +786,7 @@ Plaatsbepalingspunt
 | **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\> \<\<voidable\>\>                                                                                      |
 | **Herkomst attribuut**           | BGT                                                                                                                                     |
 | **Code attribuut**               | 120.2                                                                                                                                   |
-| **Definitie attribuut**          | Gerealiseerde geometrische nauwkeurigheid van de geometrie van het object ten opzichte van de werkelijkheid, uitgedrukt in centimeters. |
+| **Definitie attribuut**          | Gerealiseerde geometrische nauwkeurigheid van het punt als het resultaat van het inwinnings- en verwerkingsproces, uitgedrukt in centimeters. |
 | **Waardetype attribuut**         | Integer                                                                                                                                 |
 | **Waardenverzameling**           |                                                                                                                                         |
 | **Multipliciteit**               | [1-1]                                                                                                                                   |
