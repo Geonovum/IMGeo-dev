@@ -18,8 +18,7 @@ FunctieWeg
 | baan voor vliegverkeer | Wegdeel uitsluitend bedoeld voor vliegverkeer. (bron: BGT)                                                                                                                                                       |
 | rijbaan autosnelweg    | Wegdeel dat onderdeel is van een weg uitsluitend bestemd voor snelverkeer en met gescheiden rijbanen en ongelijkvloerse kruisingen, daartoe aangeduid met het betreffende verkeersbord. (bron: BGT)              |
 | rijbaan autoweg        | Wegdeel dat onderdeel is van een weg uitsluitend bestemd voor snelverkeer, daartoe aangeduid met het betreffende verkeersbord. (bron: BGT)                                                                       |
-| rijbaan regionale weg  | Wegdeel dat onderdeel is van een weg die een verbinding vormt tussen bewoonde oorden of tussen wijken binnen een dorp of stad waarbij er een, meestal fysieke, scheiding is tussen langzaam verkeer en snelverkeer.
-. (bron: BGT+CROW)                                                                       |
+| rijbaan regionale weg  | Wegdeel dat onderdeel is van een weg die een verbinding vormt tussen bewoonde oorden of tussen wijken binnen een dorp of stad waarbij er een, meestal fysieke, scheiding is tussen langzaam verkeer en snelverkeer. (bron: BGT+CROW)                                                                       |
 | rijbaan lokale weg     | Wegdeel dat onderdeel is van een weg van lokaal belang. (bron: BGT)                                                                                                                                              |
 | fietspad               | Weg uitsluitend bestemd voor fietsers en/of bromfietsers en daartoe aangeduid met een blauw bord met daarop een wit rijwiel, of een blauw of zwart bord met daarop de tekst “FIETSPAD” of “RIJWIELPAD”. (bron: CROW)
                                             |
