@@ -345,12 +345,12 @@ worden hier genoemd.
 | **waarde**            | **definitie**      |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | benzine- / olieput    | Putdeksel die toegang geeft tot een benzine- of olietank ten behoeve van vullen, onderhoud of inspectie. (bron: IMGEO 1.0)                                       |
-| brandkraan / -put     | Op de drinkwaterleiding aangesloten kraan, of een put voor het plaatsen van een brandkraan, op of nabij de openbare weg, voor brandbestrijding. (bron: CROW)     |
-| drainageput           | Put welke toegang geeft naar een poreuze of geperforeerde buisleiding, aangebracht onder de grond om de afwatering van de grond te verbeteren. (bron: IMGEO 1.0) |
-| gasput                | Put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor gastransport. (bron: IMGEO 1.0)                                                      |
-| inspectie- / rioolput | Put die toegang geeft tot een (riool)leiding. (bron: IMGEO 1.0)                                                                                                  |
-| kolk                  | Op het riool aangesloten voorziening voor de opvang van hemel- en afvalwater afkomstig van erop aangesloten oppervlakken. (bron: CROW)                           |
-| waterleidingput       | Put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor watertransport. (bron: IMGEO 1.0)                                                    |
+| brandkraan / -put     | Op de drinkwaterleiding aangesloten kraan, of deksel van een put voor het plaatsen van een brandkraan, op of nabij de openbare weg, voor brandbestrijding. (bron: CROW)     |
+| drainageput           | Putdeksel welke toegang geeft naar een poreuze of geperforeerde buisleiding, aangebracht onder de grond om de afwatering van de grond te verbeteren. (bron: IMGEO 1.0) |
+| gasput                | Deksel van een put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor gastransport. (bron: IMGEO 1.0)                                                      |
+| inspectie- / rioolput | Deksel van een constructie die toegang geeft tot een rioolstelsel. (bron: CROW)                                                                                 |
+| kolk                  | Deksel van een ingegraven bak voor de opvang en afvoer van neerslag afkomstig van erop aangesloten oppervlakken. (bron: CROW)                           |
+| waterleidingput       | Deksel van een put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor watertransport. (bron: IMGEO 1.0)                                                    |
 
 ## TypeSensor
 
