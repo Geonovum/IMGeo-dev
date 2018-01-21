@@ -13,7 +13,7 @@ Actueel:
 |OverigBouwwerk       | bunker             |   1576          |                 60 |         
 |                     | voedersilo         |  16622          |                 98 |
 |                     | schuur             | 230877          |                261 |
-                      | niet-bgt&geenWaarde| 21807           |                103 |
+|                     | niet-bgt&geenWaarde| 21807           |                103 |
 |Kunstwerkdeel        | keermuur           |  1281           |                 73 |
 |                     | overkluizing       |     7           |                 4 |
 |                     | duiker             |  1770           |                58 |
