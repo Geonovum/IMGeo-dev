@@ -143,7 +143,7 @@ TypeKunstwerk
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | gemaal            | Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen. (bron: BGT)                                                               |
 | perron            | Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen. (bron: BGT)                 |
-| sluis             | Een kunstmatige, beweegbare waterkering die de verbinding tussen twee wateren kan afsluiten of openstellen en daartoe van deuren of schuiven is voorzien. (bron: BGT) |
+| sluisdeur             | Het beweegbare deel van een kunstmatige waterkering die de verbinding tussen twee wateren kan afsluiten of openstellen en daartoe van deuren of schuiven is voorzien. (bron: BGT) |
 | strekdam          | Constructie in het water ter verdediging van de kust/oever. (bron: IMGEO 1.0)                                                                                         |
 | steiger           | Vaste (niet drijvende) waterbouwkundige constructie voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen. (bron: IMGEO 1.0)   |
 | stuw              | Een constructie met een vaste drempel of een beweegbare klep, die dient om de waterstand boven- en benedenstrooms te regelen. (bron: BGT)                             |
