@@ -338,6 +338,7 @@ Als er afzonderlijke afmetingen van de mastvoeten bekend zijn, wordt elke mastvo
 Tot deze typen kunstwerkdelen behoren die objecten die niet tot een ander BGT-objecttype behoren. Dit betekent in de regel dat bij een gemaal de bakken waar het water door wordt geleid tot dat object behoren. Een pand waarin de pompen staan, vormt als pand inhoud van de BGT.
 
 Bij een sluiscomplex behoren alleen de sluisdeuren tot BGT-inhoud en bij een stuw uitsluitend de klep of schuif.
+Sluisdeuren worden in gesloten stand in het BGT-bestand opgenomen.
 
 De eventuele overige objecten zoals muren, kademuren, panden en overbruggingen vormen als zodanig inhoud van de BGT.
 
