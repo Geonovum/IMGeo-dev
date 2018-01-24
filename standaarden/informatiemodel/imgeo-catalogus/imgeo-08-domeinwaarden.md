@@ -132,7 +132,7 @@ worden hier genoemd.
 
 | **waarde**            | **definitie**      |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| bunker     | Een bunker is een militair verdedigingswerk dat een zekere mate van bescherming biedt tegen beschietingen en bombardementen. (bron: Wikipedia)       |
+| bunker     | Een bunker is een van oorsprong militair verdedigingswerk dat een zekere mate van bescherming bood tegen beschietingen en bombardementen. (bron: Wikipedia)       |
 
 | voedersilo | Opslagfaciliteit voor veevoer, bestaande uit een verticale container met een opening aan de onderkant. (bron: IMGEO)                                 |
 | schuur     | Een vrijstaand, al of niet prefab, niet-vergunningsplichtig bouwwerk dat gebruikt wordt om goederen in op te slaan en ook als werkruimte kan dienen. |

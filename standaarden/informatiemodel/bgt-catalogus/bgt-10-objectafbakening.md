@@ -222,6 +222,8 @@ Panddelen ontstaan dus uitsluitend bij een afwijkende over- en/of onderbouw van 
 
 De begrenzing van een panddeel wordt gevormd door de geometrie van het grondvlak en de van het grondvlak afwijkende geometrie dat daar aan grenst.
 
+Voor panden die in hun geheel boven water liggen, bijvoorbeeld een brugwachtershuis dat aan een brug hangt, geldt dat dit pand in de BGT voorkomt met een relatieve hoogte (rh) van één hoger dan het water waar het zich boven bevindt.
+
 Uitstulpingen in gevels, zoals steunberen, behoren tot de pandgeometrie als de afmetingen groter zijn dan 30x30cm. Als zij kleiner zijn, worden zij niet opgenomen (generalisatie). 
 Als zich op de hoeken van een gebouw uitstulpingen bevinden < 30 cm wordt de lijn die over de uiteinden van deze uitstulpingen loopt, beschouwd als gevellijn voor het pand.
 De gevel van erkers en schoorstenen, die meer dan 30 cm buiten de doorgaande gevellijn van de voorgevel liggen, behoren tot de geometrie van het pand.
@@ -249,6 +251,8 @@ Het afdak van de overkapping is eventueel IMGeo inhoud.
 ## Overbruggingsdeel
 
 ### Regels voor opname
+Er is sprake van een overbrugging wanneer een van de onderdelen bestaat uit een los dek dat op een bak en/of pijlers rust.
+Dit in tegenstelling tot een tunnel, die uit een gesloten kokerconstructie met een in- en uitgangt bestaat.
 
 Delen van overbruggingen worden in de BGT niet verder getypeerd. Zo worden zowel het brugdek als de pijler van een overbrugging in de BGT aangeduid als overbruggingsdeel.
 
@@ -292,6 +296,9 @@ In het BGT Objectenhandboek zijn voornoemde uitwerkingen A, B en C schematisch g
 
 ### Regels voor opname
 
+Er is sprake van een tunnel wanneer deze bestaat uit een gesloten kokerconstructie met een in- en een uitgang.
+Bij overbruggingsdelen zoals bijvoorbeeld een viaduct is er altijd sprake van een los dek dat op een bak en/of pijlers rust.
+
 De buitenste begrenzing van tunneldelen ligt onder het maaiveld en is niet zichtbaar. Opname daarvan in de BGT gebeurt aan de hand van beschikbare informatie, zoals bouwtekeningen. Dat geldt ook voor de in het tunneldeel gelegen wegdelen.
 
 Interieur van tunnels, zoals (scheidings)muren, trappen, vormen geen BGT-inhoud, omdat dit nadere invulling is van CityGML LOD1 en hoger. 
@@ -332,7 +339,8 @@ Als er afzonderlijke afmetingen van de mastvoeten bekend zijn, wordt elke mastvo
 
 Tot deze typen kunstwerkdelen behoren die objecten die niet tot een ander BGT-objecttype behoren. Dit betekent in de regel dat bij een gemaal de bakken waar het water door wordt geleid tot dat object behoren. Een pand waarin de pompen staan, vormt als pand inhoud van de BGT.
 
-Bij een sluiscomplex zullen alleen de sluisdeuren tot BGT-inhoud behoren en bij een stuw uitsluitend de klep of schuif.
+Bij een sluiscomplex behoren alleen de sluisdeuren tot BGT-inhoud en bij een stuw uitsluitend de klep of schuif.
+Sluisdeuren worden in gesloten stand in het BGT-bestand opgenomen.
 
 De eventuele overige objecten zoals muren, kademuren, panden en overbruggingen vormen als zodanig inhoud van de BGT.
 
