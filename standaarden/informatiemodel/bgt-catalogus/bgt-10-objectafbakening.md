@@ -124,33 +124,39 @@ De volgende paragrafen beschrijven op welke wijze land en water zijn gescheiden 
 
 ### Algemeen
 
-De BGT kent vier typen waterdeel:
-
--   zee;
--   waterloop;
--   watervlakte;
--   greppel, droge sloot.
+De BGT kent drie typen waterdeel:
+•	zee;
+•	waterloop;
+•	watervlakte.
 
 En twee typen ondersteunend waterdeel:
+•	oever, slootkant;
+•	slik.
 
--   oever, slootkant;
--   slik.
+Waterlopen hebben een specifiek attribuut –permanent watervoerend-. De defaultwaarde hiervan is 1. Desgewenst geeft de bronhouder hieraan de waarde 0: droog. In dat geval betreft het een objecttype dat voorheen bekend was als –droge sloot-.
 
-De kruinlijngeometrie wordt bij het ondersteunend waterdeel niet opgenomen. Impliciet is de – niet waterbegrenzing – van een oever altijd de hoogste kant ervan en is dan de kruinlijn.
+Ondersteunende waterdelen komen voor wanneer er sprake is van een talud dat een minimumwaarde voor de helling heeft van 1:4 èn de horizontale afstand tussen kant insteek èn waterlijn (c) minimaal 0,5 m bedraagt:
+
+ < afbeelding beslisboom ondersteunend waterdeel >
+
+Ondersteunende waterdelen van het type oever, slootkant bezitten een fysiek voorkomen waarvoor een van de volgende vier waarden geldt: gesloten verharding, open verharding, begroeid of onbegroeid.
+Zogenaamde natuurvriendelijke oevers bezitten een zodanige helling dat deze niet voldoen aan de eisen van 1:4 of steiler voor het talud. Dit zijn in de BGT daarom terreindelen met de bijbehorende typering.
+
+Oevers en slootkanten zijn de delen die enerzijds begrensd worden door de waterlijn en anderzijds door een kant insteek.
+
+De kruinlijngeometrie wordt bij het ondersteunend waterdeel niet opgenomen. Impliciet is de – niet-waterbegrenzing – van een oever altijd de hoogste kant.
 
 Voor de begrenzing van land en zee maakt de BGT onderscheid in de begrenzing langs de Noordzee enerzijds en die langs de Waddenzee en de Zuidwestelijke delta in Zeeland en Zuid-Holland anderzijds.
 
-Onder waterlopen vallen rivieren, kanalen, beken, sloten en grachten. 
+Onder waterlopen vallen rivieren, kanalen, beken, sloten en grachten.
 
 Watervlakten zijn meren, plassen, vennen en vijvers. Ook havens vallen in de regel hieronder.
-
-Greppels en droge sloten hebben een functie in de waterhuishouding.
-
-Oevers en slootkanten zijn de delen die enerzijds begrensd worden door de waterlijn en anderzijds door een kant insteek.
 
 Slikken zijn bij laagwater droogvallende delen. Zij komen uitsluitend voor in de Waddenzee en in de Zuidwestelijke delta.
 
 In het algemeen geldt dat zichtbare topografie altijd als begrenzing voorkomt, in de beschreven situaties aangevuld met niet of niet-altijd zichtbare topografische begrenzingen.
+
+Greppels ten behoeve van afwatering en drainagegeulen vormen geen inhoud van de BGT.
 
 ### Noordzee
 
