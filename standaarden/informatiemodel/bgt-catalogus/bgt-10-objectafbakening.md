@@ -197,11 +197,7 @@ In meren wordt een streefpeil beheerd door bemalen en/of spuien. Als de ligging 
 
 #### Overige waterlopen en -vlakken
 
-Hier geldt onderstaand stroomdiagram. Als kant water de begrenzing van objecten vormt, geldt dat dit een presentatie is van het laagst mogelijke streefpeil ter plaatse. Als de horizontale afstand tussen waterlijn en de bovenkant van een herkenbare insteek 1m of meer bedraagt dan ontstaat in de BGT een ondersteunend waterdeel van het type oever/slootkant.
-
-![Stroomdiagram begrenzing waterlopen en -vlakken](../afbeeldingen-opmaak/bgt-fig-stroomdiagram-waterlopen-watervlakken.jpg)
-
-_Figuur 13: Stroomdiagram begrenzing waterlopen en -vlakken_
+Als kant water de begrenzing van objecten vormt, geldt dat dit een presentatie is van het laagst mogelijke streefpeil ter plaatse. De fysieke begrenzing kan bestaan uit een object scheiding van het type kademuur of  walbescherming of damwand.
 
 # Pand en panddelen
 
