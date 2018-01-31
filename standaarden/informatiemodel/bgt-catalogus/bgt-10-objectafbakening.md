@@ -335,14 +335,20 @@ Als er geen afzonderlijke afmeting van de mastvoeten beschikbaar is, wordt elk h
 
 Als er afzonderlijke afmetingen van de mastvoeten bekend zijn, wordt elke mastvoet als multivlak van de hoogspanningsmast geclassificeerd wanneer de afmetingen van de mastvoet (rechthoekzijde of middellijn) ≥ 0,30 m bedraagt.
 
-#### Gemaal, sluis, stuw
+#### Gemaaldelen, sluisdeur, stuw
 
-Tot deze typen kunstwerkdelen behoren die objecten die niet tot een ander BGT-objecttype behoren. Dit betekent in de regel dat bij een gemaal de bakken waar het water door wordt geleid tot dat object behoren. Een pand waarin de pompen staan, vormt als pand inhoud van de BGT.
+Bij een gemaal worden de eventueel aanwezige bakken waar het water door wordt geleid als gemaaldeel opgenomen in de BGT. 
+De eventuele overige objecten zoals muren, kademuren, panden en overbruggingen vormen als zodanig inhoud van de BGT. Over al deze relevante BGT-objecten is het mogelijk om het, niet verplichte, IMGeo functioneel gebied gemaalcomplex op te nemen.
+Nadere typeringen van gemaal wordt beschouwd als beheerinformatie en niet opgenomen in de BGT.
 
-Bij een sluiscomplex behoren alleen de sluisdeuren tot BGT-inhoud en bij een stuw uitsluitend de klep of schuif.
-Sluisdeuren worden in gesloten stand in het BGT-bestand opgenomen.
+Bij een sluis behoren alleen de sluisdeuren, in gesloten stand, tot BGT-inhoud.
+De eventuele overige objecten zoals muren, kademuren, panden en overbruggingen vormen als zodanig inhoud van de BGT. Over al deze relevante BGT-objecten is het mogelijk om het, niet verplichte, IMGeo functioneel gebied sluiscomplex op te nemen.
+Nadere typeringen van sluis wordt beschouwd als beheerinformatie en niet opgenomen in de BGT.
+	
+Bij een stuw behoort uitsluitend de klep of schuif waarover het water kan stromen tot BGT-inhoud.
+De eventueel aanwezige bakken waar het water door wordt geleid, worden als stuwdeel opgenomen in de BGT. Eventuele overige objecten zoals muren, kademuren, panden en overbruggingen vormen als zodanig inhoud van de BGT. Over al deze relevante BGT-objecten is het mogelijk om het, niet verplichte, IMGeo functioneel gebied stuwcomplex op te nemen.
+Nadere typeringen van stuw wordt beschouwd als beheerinformatie en niet opgenomen in de BGT.
 
-De eventuele overige objecten zoals muren, kademuren, panden en overbruggingen vormen als zodanig inhoud van de BGT.
 
 ## Scheiding
 
