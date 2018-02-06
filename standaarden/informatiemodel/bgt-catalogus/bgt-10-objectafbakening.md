@@ -137,7 +137,7 @@ Waterlopen hebben een specifiek attribuut –permanent watervoerend-. De default
 
 Ondersteunende waterdelen komen voor wanneer er sprake is van een talud dat een minimumwaarde voor de helling heeft van 1:4 èn de horizontale afstand tussen kant insteek èn waterlijn (c) minimaal 0,5 m bedraagt:
 
- < afbeelding beslisboom ondersteunend waterdeel >
+ < afbeelding beslisboom ondersteunend waterdeel > zie https://github.com/Geonovum/IMGeo2018/commit/97c7a79716233d9b8f85b0bd72f2a074e5f3203e
 
 Ondersteunende waterdelen van het type oever, slootkant bezitten een fysiek voorkomen waarvoor een van de volgende vier waarden geldt: gesloten verharding, open verharding, begroeid of onbegroeid.
 Zogenaamde natuurvriendelijke oevers bezitten een zodanige helling dat deze niet voldoen aan de eisen van 1:4 of steiler voor het talud. Dit zijn in de BGT daarom terreindelen met de bijbehorende typering.
