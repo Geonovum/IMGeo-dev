@@ -225,6 +225,7 @@ Panddelen ontstaan dus uitsluitend bij een afwijkende over- en/of onderbouw van 
 De begrenzing van een panddeel wordt gevormd door de geometrie van het grondvlak en de van het grondvlak afwijkende geometrie dat daar aan grenst.
 
 Voor panden die in hun geheel boven water liggen, bijvoorbeeld een brugwachtershuis dat aan een brug hangt, geldt dat dit pand in de BGT voorkomt met een relatieve hoogte (rh) van één hoger dan het water waar het zich boven bevindt.
+Panden die gedeeltelijk boven water liggen krijgen voor elk deel dat dit betreft een panddeel met een relatieve hoogte (rh) van één hoger dan het water waar het panddeel zich boven bevindt.
 
 Uitstulpingen in gevels, zoals steunberen, behoren tot de pandgeometrie als de afmetingen groter zijn dan 30x30cm. Als zij kleiner zijn, worden zij niet opgenomen (generalisatie). 
 Als zich op de hoeken van een gebouw uitstulpingen bevinden < 30 cm wordt de lijn die over de uiteinden van deze uitstulpingen loopt, beschouwd als gevellijn voor het pand.
