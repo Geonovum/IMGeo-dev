@@ -205,7 +205,8 @@ Met tijdconsistentie wordt de juistheid van opvolgende gebeurtenissen (events) o
 
 Tijdgeldigheid is de geldigheid van de BGT-data voor de geregistreerde tijd in de registratie.
 
-Als tijdstip (datum en tijd) voor ontstaan, wijzigen en vervallen van objecten geldt het uitgangspunt dat hierbij de tijdzone voor Nederland, de Midden-Europese tijdzone, van kracht is.
+Als tijdstip (datum en tijd) voor ontstaan, wijzigen en vervallen van objecten geldt dat hierbij de tijdzone voor Nederland van kracht is: in de winter wordt de wintertijd aangehouden oftewel Midden-Europese Tijd (MET) en in de zomer wordt de zomertijd aangehouden oftewel Midden-Europese Zomertijd (MEZT). Om dubbele tijdstippen in de historie van een objcet te voorkomen, mag in de nacht van zomertijd naar wintertijd tussen 02.00 u MEZT en 0.20 u MET geen mutaties aan de BGT worden doorgevoerd.
+
 
 ## Thematische nauwkeurigheid
 
