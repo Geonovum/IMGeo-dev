@@ -3,7 +3,7 @@
 Op het IMGeo voorstel voor het opnemen van overbouw en onderbouw bij panden in de BGT zijn in totaal 135 reacties ontvangen. 
 Hieronder staat een samenvatting van de respons.
 
-### Vraag 1: Hoe vindt u deze wijziging?
+### Vraag 1. Hoe vindt u deze wijziging?
 
 Beantwoord: 128 Overgeslagen: 7
 
@@ -67,7 +67,7 @@ Een aantal respondenten zien het als grote inspanning, maar wel met
 kwaliteitsverbetering voor BAG en BGT. Een aantal respondenten zien dit als
 grote inspanning zonder toegevoegde waarde of voordelen.
 
-### Vraag 3 Indien bronhouder, kunt u de gegevens conform deze wijziging leveren?
+### Vraag 3. Indien bronhouder, kunt u de gegevens conform deze wijziging leveren?
 
 Beantwoord: 132 Overgeslagen: 3
 
@@ -82,7 +82,7 @@ in de eigen applicatie en kunnen (na omzetting) deze gegevens leveren. Aandacht
 wordt gevraagd voor automatische snijding van BGT en BAG geometrie om panddelen
 af te leiden.
 
-### Vraag 4 Indien gebruiker, kunt u de gegevens met deze wijziging beter gebruiken?
+### Vraag 4. Indien gebruiker, kunt u de gegevens met deze wijziging beter gebruiken?
 
 Beantwoord: 131 Overgeslagen: 4
 
