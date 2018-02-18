@@ -1,4 +1,4 @@
-## Opnemen overbouw en onderbouw bij panden in de BGT
+## Opnemen afbakeningscriteria voor bos
 
 Op het IMGeo voorstel voor het opnemen van afbakeningscriteria voor bos zijn in
 totaal 85 reacties ontvangen. Hieronder staat een samenvatting van de respons.
