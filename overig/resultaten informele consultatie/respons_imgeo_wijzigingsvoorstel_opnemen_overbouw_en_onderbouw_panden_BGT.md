@@ -1,7 +1,7 @@
-Respons IMGeo wijzigingsvoorstel: Opnemen overbouw en onderbouw bij panden in de BGT
-------------------------------------------------------------------------------------
+## Opnemen overbouw en onderbouw bij panden in de BGT
 
-Totaal aantal reacties: 135
+Op het IMGeo voorstel voor het opnemen van overbouw en onderbouw bij panden in de BGT zijn in totaal 135 reacties ontvangen. 
+Hieronder staat een samenvatting van de respons.
 
 ### Vraag 1: Hoe vindt u deze wijziging?
 
