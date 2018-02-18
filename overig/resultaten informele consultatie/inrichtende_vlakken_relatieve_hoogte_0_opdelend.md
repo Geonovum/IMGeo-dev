@@ -1,4 +1,4 @@
-**Inrichtende vlakken op relatieve hoogte 0 worden opdelend**
+## Inrichtende vlakken op relatieve hoogte 0 worden opdelend
 
 Op het IMGeo voorstel voor het opdelend worden van inrichtende vlakken op
 relatieve hoogte 0 zijn in totaal 111 reacties ontvangen. Hieronder staat een
