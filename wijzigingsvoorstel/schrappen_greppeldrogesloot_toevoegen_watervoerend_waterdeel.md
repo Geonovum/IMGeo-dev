@@ -1,4 +1,6 @@
-# Schrappen van type 'greppel, droge sloot' en toevoegen extra attribuut 'permanentWatervoerend' bij Waterdeel.
+# Schrappen van type 'greppel, droge sloot' en toevoegen extra attribuut 'permanentWatervoerend' bij Waterdeel
+
+Gerelateerde Github-issue(s): #55, #73 
 
 ## Wat is de huidige situatie?
 
