@@ -1,10 +1,10 @@
-# Aanpassing definities van functies van rijbanen en fietspad
+# Aanscherpen definities van rijbanen en fietspad
 
 Gerelateerde issue(s): [#11](https://github.com/Geonovum/IMGeo2018/issues/11)  
 
 ## Wat is de huidige situatie?
 
-In de BGT zijn de volgende classificaties en definities voor Wegdelen van het type rijbaan en fietspad opgenomen: 
+In de BGT zijn de volgende classificaties en definities voor Wegdelen opgenomen: 
 
 |bgt-functie | definities |
 |------------|------------|
@@ -15,7 +15,7 @@ In de BGT zijn de volgende classificaties en definities voor Wegdelen van het ty
 
 ## Wat wordt de nieuwe situatie?
 
-Het voorstel is om de volgende definities van classificaties van een Wegdeel aan te passen:
+Het voorstel is om de volgende definities van classificaties van een Wegdeel aan te scherpen:
 
 |bgt-functie | definities |
 |------------|------------|
