@@ -1,5 +1,6 @@
 # Aanpassen definitie 'oever/slootkant' en nieuwe afbakeningscriteria voor OndersteunendWaterdeel
 
+Gerelateerde issues: #76; 
 ## Wat is de huidige situatie?
 
 In de BGT is bij het type 'oever, slootkant' van een OndersteunendWaterdeel de volgende definitie opgenomen:
@@ -12,11 +13,13 @@ In de hoofdstuk 10 van de BGT gegevenscatalogus is voor de eisen van afbakening 
 
 ## Wat wordt de nieuwe situatie?
 
-Het voorstel is om de definitie van oever/slootkant als volgt op te nemen in de BGT 
+Het voorstel is om de definitie van oever/slootkant als volgt op te nemen in de BGT:
+
 “Oevers en slootkanten zijn de delen die enerzijds begrensd worden door de waterlijn of een zichtbare bodem en anderzijds door een kant insteek.”
 
 Voor de afbakening van oevers worden nieuwe afbakeningscriteria voorgesteld: 
-"Hierbij wordt uitgegaan van een hoogteverschil van het maaiveld en de waterlijn van 50cm of meer, een helling van 1 op 4 of steiler en een breedte van het ondersteunend waterdeel van tenminste 60cm."
+"Ondersteunende waterdelen komen voor wanneer er sprake is van een talud dat een minimumwaarde voor de helling heeft van 1:4 èn de horizontale afstand tussen kant insteek èn waterlijn (c) minimaal 0,5 m bedraagt"
+
 
 ## Waarom deze wijziging?
 
