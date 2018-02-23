@@ -1,4 +1,4 @@
-# Aanscherpen definities van rijbanen en fietspad
+# Aanscherpen definities van rijbanen en fietspad bij Wegdeel
 
 Gerelateerde issue(s): [#11](https://github.com/Geonovum/IMGeo2018/issues/11)  
 
