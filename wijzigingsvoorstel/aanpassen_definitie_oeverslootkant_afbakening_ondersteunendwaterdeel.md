@@ -33,3 +33,5 @@ Uit de BGT (peildatum: 13 januari) blijkt dat bijna elke bronhouder (399) onders
 75% van de totaal ongeveer 127.000 ondersteunende waterdelen van het type 'oever,slootkant' behoort tot de waterschappen; en ongeveer 20% van de ondersteunende waterdelen (ca. 23.000) heeft als bronhouder RWS. 
 
 Er is geen technische impact in de zin van schemawijziging of softwareaanpassing.
+
+Implementatie-afspraken/termijnen dienen nader te worden bepaald.
