@@ -16,6 +16,11 @@ of
 
 In het optionele deel van IMGeo mogen ook objecten die kleiner zijn worden opgenomen als OverigeScheiding
 
+"In de BGT worden scheidingen alleen vastgelegd als ze bepaalde minimum afmetingen hebben,
+die per type scheiding verschillen (zie deel I). In IMGeo kunnen scheidingen, die kleiner dan het
+BGT minimum zijn, worden opgenomen als objecttype ‘overige scheiding’. Deze kent dezelfde
+typen scheiding. "
+
 ## Wat wordt de nieuwe situatie?
 
 Het voorstel is Scheiding en Overige Scheiding samen te voegen tot het object Scheiding.
