@@ -25,8 +25,9 @@ typen scheiding. "
 
 Het voorstel is Scheiding en Overige Scheiding samen te voegen tot het object Scheiding.
 
-In de afbakeningsregels van de BGT wordt opgenomen dat een bronhouder tenminste moet opnemen die langer/breder/hoger zijn dan een bepaalde afmeting, bijvoorbeeld hek van meer dan 10 meter lengte en hoger dan 1 meter opnemen, 
-en in de afbakeningsregels van IMGeo+ wordt opgenomen dat bronhouder ook meer mag doen dan alleen BGT. 
+In de afbakeningsregels van de BGT wordt opgenomen dat een bronhouder tenminste moet opnemen een object dat voldoet aan de definitie van Scheiding als die langer/breder/hoger is dan een bepaalde afmeting, bijvoorbeeld hek van meer dan 10 meter lengte en hoger dan 1 meter opnemen
+
+In de afbakeningsregels van IMGeo+ wordt opgenomen dat bronhouder ook meer mag doen dan alleen BGT en dus ook objecten die voldoen aan de definitie van Scheiding die kleiner zijn een bepaalde minimale afmeting (vergelijkbaar met huidige afbakeningsregels voor overige scheiding).
 
 ## Waarom deze wijziging?
 
