@@ -8,10 +8,10 @@ Bij een OndersteunendWaterdeel wordt geen fysiek voorkomen opgenomen in IMGeo. H
 
 Het voorstel is om aan een OndersteuendWaterdeel een verplicht attribuut bgt-fysiekvoorkomen toe te voegen met als mogelijk classificaties:
 
-Begroeid: Ondersteunend waterdeel overwegend begroeid met vegetatie.
-Gesloten verharding: Ondersteunend waterdeel dat met een gesloten verharding is bedekt om de oever te beschermen tegen afkalven
-Open verharding: Ondersteunend waterdeel dat met een open verharding is bedekt om de oever te beschermen tegen afkalven
-Onbegroeid: Ondersteunend waterdeel nagenoeg niet begroeid met vegetatie
+- Begroeid: Ondersteunend waterdeel overwegend begroeid met vegetatie.
+- Gesloten verharding: Ondersteunend waterdeel dat met een gesloten verharding is bedekt om de oever te beschermen tegen afkalven
+- Open verharding: Ondersteunend waterdeel dat met een open verharding is bedekt om de oever te beschermen tegen afkalven
+- Onbegroeid: Ondersteunend waterdeel nagenoeg niet begroeid met vegetatie
 
 In de afbakeningsregels van ondersteund waterdeel wordt (nu) opgenomen dat:
 
