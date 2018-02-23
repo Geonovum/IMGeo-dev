@@ -1,5 +1,7 @@
 # Toevoegen fysiek voorkomen aan een OndersteunendWaterdeel
 
+Gerelateerde Github-issue(s): #76
+
 ## Wat is de huidige situatie?
 
 Bij een OndersteunendWaterdeel wordt geen fysiek voorkomen opgenomen in IMGeo. Het object OndersteunendWaterdeel heeft een verplicht attribuut bgt-functien en een optioneel attribuut plus-functie. 
