@@ -6,12 +6,13 @@ Het object Waterdeel in de BGT heeft de volgende definitie:
 
 "Kleinste functioneel onafhankelijk stukje water met gelijkblijvende, homogene eigenschappen en relaties dat er binnen het objecttype Water van NEN 3610 wordt onderscheiden en dat permanent met water bedekt is."
 
-met als classificatie
+met als één van de bgt-typen:
+
 "greppel, droge sloot: Een ten behoeve van de waterbeheersing gegraven geul die al dan niet met water bedekt is. (bron: IMGEO 1.0)" 
 
 ## Wat wordt de nieuwe situatie?
 
-Het object Waterdeel in de BGT heeft de volgende definitie: 
+Het voorstel is om de volgende definitie van Waterdeel te hanteren: 
 
 "Kleinste functioneel onafhankelijk stukje water met gelijkblijvende, homogene eigenschappen en relaties dat er binnen het objecttype Water van NEN 3610 wordt onderscheiden en dat meestal met water bedekt is." 
 
