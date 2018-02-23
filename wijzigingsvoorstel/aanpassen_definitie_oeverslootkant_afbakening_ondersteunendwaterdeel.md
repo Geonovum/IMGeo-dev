@@ -9,12 +9,13 @@ In de BGT is bij het type 'oever, slootkant' van een OndersteunendWaterdeel de v
 In de hoofdstuk 10 van de BGT gegevenscatalogus is voor de eisen van afbakening van ondersteunende waterdelen bij meren en waterlopen het volgende opgenomen:
 
 "Als de horizontale afstand tussen waterlijn en de bovenkant van een herkenbare insteek 1m of meer bedraagt dan ontstaat in de BGT een ondersteunend waterdeel van het type oever/slootkant."
+
 ## Wat wordt de nieuwe situatie?
 
 Het voorstel is om de definitie van oever/slootkant als volgt op te nemen in de BGT 
 “Oevers en slootkanten zijn de delen die enerzijds begrensd worden door de waterlijn of een zichtbare bodem en anderzijds door een kant insteek.”
 
-Voor de afbakening van oevers wordt het volgende voorgesteld: 
+Voor de afbakening van oevers worden nieuwe afbakeningscriteria voorgesteld: 
 "Hierbij wordt uitgegaan van een hoogteverschil van het maaiveld en de waterlijn van 50cm of meer, een helling van 1 op 4 of steiler en een breedte van het ondersteunend waterdeel van tenminste 60cm."
 
 ## Waarom deze wijziging?
