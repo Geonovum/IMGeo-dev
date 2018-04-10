@@ -21,7 +21,7 @@ praktijkrichtlijn bevat
 
 -   voorbeelden van enkele gecombineerde en bijzondere situaties.
 
-## Eisen en regels in de BGT\|IMGeo standaarden
+# Eisen en regels in de BGT\|IMGeo standaarden
 
 Een inrit is als (classificatie van een) object geen onderdeel van IMGeo.
 Inritten kunnen worden opgenomen in de eigen beheeromgeving, bijvoorbeeld
@@ -128,7 +128,7 @@ door naar vraag 3.
 
 ![](media/b1676a7ba84c65e3d68e8ca01f159c5c.png)
 
-## Voorbeelden van gecombineerde en bijzondere situaties
+# Voorbeelden van gecombineerde en bijzondere situaties
 
 Als een inrit een berm en een doorgaande weg doorkruist, of als een inrit
 meerdere doorgaande wegen doorkruist, dan gelden de hiërarchische
