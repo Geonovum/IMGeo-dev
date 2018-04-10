@@ -76,9 +76,9 @@ afbakenen van een inrit.
 
 ### Vraag 1. Is de inrit langer dan 30 meter?**
 
-<ja>JA</ja> Als de inrit langer is dan 30 meter, wordt de inrit afgebakend als **Wegdeel** met functie **toegangsweg**.
+<ja>JA </ja> Als de inrit langer is dan 30 meter, wordt de inrit afgebakend als **Wegdeel** met functie **toegangsweg**.
 
-<nee>NEE</nee> Als de inrit korter is dan 30 meter, ga door naar vraag 2.
+<nee>NEE </nee> Als de inrit korter is dan 30 meter, ga door naar vraag 2.
 
 **Voorbeeld**
 
