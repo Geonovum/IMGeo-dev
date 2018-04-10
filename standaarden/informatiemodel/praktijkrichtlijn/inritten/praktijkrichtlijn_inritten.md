@@ -90,18 +90,18 @@ afbakenen van een inrit.
 
 **Vraag 2 Doorkruist de inrit een weg, voetpad of fietspad?**
 
->   **JA** Als de inrit een weg, voetpad of fietspad doorkruist, dan wordt de
->   inrit afgebakend als **Wegdeel** met de functie van de weg (**rijbaan**),
->   **fietspad** of **voetpad** dat het doorkruist.
+   <ja>JA</ja> Als de inrit een weg, voetpad of fietspad doorkruist, dan wordt de
+   inrit afgebakend als **Wegdeel** met de functie van de weg (**rijbaan**),
+   **fietspad** of **voetpad** dat het doorkruist.
 
->   **NEE** Als de inrit geen doorgaande weg, voetpad of fietspad doorkruist, ga
->   door naar vraag 3.
+   <nee>NEE</nee> Als de inrit geen doorgaande weg, voetpad of fietspad doorkruist, ga
+   door naar vraag 3.
 
->   **Voorbeeld**
+   **Voorbeeld**
 
->   In onderstaand voorbeeld is de inrit korter dan 30 meter, en doorkruist de
->   inrit een voetpad. De inrit wordt afgebakend als Wegdeel met bgt-functie
->   ‘voetpad’.
+   In onderstaand voorbeeld is de inrit korter dan 30 meter, en doorkruist de
+   inrit een voetpad. De inrit wordt afgebakend als Wegdeel met bgt-functie
+   ‘voetpad’.
 
 ![](media/bf54cc4e336dcd67520faad77dadf865.png)
 
