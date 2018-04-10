@@ -5,14 +5,14 @@ var respecConfig = {
   publishDate: "2018-04-10",
   editors: [
     {
-      /*name: "Arnoud de Boer",*/
+      name: "Arnoud de Boer",
       company: "Geonovum",
       companyURL: "http://www.geonovum.nl/",
       mailto: "a.deboer@geonovum.nl",
       note: ""    
     },  
 	{
-      /*name: "Hans van Eekelen",*/
+      name: "Hans van Eekelen",
       company: "Geonovum",
       companyURL: "http://www.geonovum.nl/",
       mailto: "h.vaneekelen@geonovum.nl",
@@ -22,5 +22,7 @@ var respecConfig = {
   shortName: "IMGeo2018",
   pubDomain: "IMGeo2018",
   github: "https://github.com/Geonovum/IMGeo2018",
+  
+
   
 };
