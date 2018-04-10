@@ -1,15 +1,15 @@
 ja {
 color: green;
 font-weight: bold;
-display:block; 
-width: 50px;
+margin-right: 10px;
+
 }
 
 nee {
 color: red;
 font-weight: bold;
 display:block; 
-width: 50px;
+margin-right: 10px;
 }
 
 img {
