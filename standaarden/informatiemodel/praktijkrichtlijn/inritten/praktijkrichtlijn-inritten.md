@@ -65,37 +65,35 @@ in de waardenlijst FunctieWeg. Deze eis wordt toegepast bij vraag 2 van de
 beslisboom inritten bij het doorkruisen van meer dan één wegdeel van het type
 rijbaan, fietspad en/of voetpad (zie gecombineerde situaties).
 
-## Beslisboom inritten
+# Beslisboom inritten
 
 Hieronder wordt een beslisboom gepresenteerd die bronhouders kan helpen bij het
 afbakenen van een inrit.
 
 ![](media/1b6af6694dd8e07c291ac517fe0bc668.png)
 
-### Toelichting op de beslisboom**
+## Toelichting op de beslisboom**
 
 **Vraag 1. Is de inrit langer dan 30 meter?**
 
->   **JA** Als de inrit langer is dan 30 meter, wordt de inrit afgebakend als
->   **Wegdeel** met functie **toegangsweg**.
+<ja>JA</ja> Als de inrit langer is dan 30 meter, wordt de inrit afgebakend als **Wegdeel** met functie **toegangsweg**.
 
->   **NEE** Als de inrit korter is dan 30 meter, ga door naar vraag 2.
+<nee>NEE</nee> Als de inrit korter is dan 30 meter, ga door naar vraag 2.
 
->   **Voorbeeld**
+**Voorbeeld**
 
->   In onderstaand voorbeeld is de inrit langer dan 30 meter. De inrit wordt
->   afgebakend als Wegdeel met bgt-functie ‘toegangsweg’.
+In onderstaand voorbeeld is de inrit langer dan 30 meter. De inrit wordt afgebakend als Wegdeel met bgt-functie ‘toegangsweg’.
 
 ![](media/a877dc3dfbc273a0f66fd7811b9b1aad.png)
 
 **Vraag 2 Doorkruist de inrit een weg, voetpad of fietspad?**
 
-   <ja>JA</ja> Als de inrit een weg, voetpad of fietspad doorkruist, dan wordt de
-   inrit afgebakend als **Wegdeel** met de functie van de weg (**rijbaan**),
-   **fietspad** of **voetpad** dat het doorkruist.
+<ja>JA</ja> Als de inrit een weg, voetpad of fietspad doorkruist, dan wordt de
+inrit afgebakend als **Wegdeel** met de functie van de weg (**rijbaan**),
+**fietspad** of **voetpad** dat het doorkruist.
 
-   <nee>NEE</nee> Als de inrit geen doorgaande weg, voetpad of fietspad doorkruist, ga
-   door naar vraag 3.
+<nee>NEE</nee> Als de inrit geen doorgaande weg, voetpad of fietspad doorkruist, ga
+door naar vraag 3.
 
    **Voorbeeld**
 
@@ -107,26 +105,26 @@ afbakenen van een inrit.
 
 **Vraag 3 Is de inrit korter dan 6 meter?**
 
->   **JA** Als de inrit is korter dan 6 meter, dan wordt de inrit afgebakend als
->   OndersteunendWegdeel met functie ‘berm’.
+   <ja>JA</ja> Als de inrit is korter dan 6 meter, dan wordt de inrit afgebakend als
+   OndersteunendWegdeel met functie ‘berm’.
 
->   **NEE** Als de inrit langer is dan 6 meter, wordt de inrit afgebakend als
->   (On)BegroeidTerreindeel.
+   <nee>NEE</nee> Als de inrit langer is dan 6 meter, wordt de inrit afgebakend als
+   (On)BegroeidTerreindeel.
 
->   **Voorbeeld**
+   **Voorbeeld**
 
->   In onderstaand voorbeeld is de inrit korter dan 6 meter, en doorbreekt de
->   inrit geen rijbaan, fietspad en/of voetpad. De inrit wordt afgebakend als
->   Wegdeel met bgt-functie ‘berm’ en een eigen fysiek voorkomen.
+   In onderstaand voorbeeld is de inrit korter dan 6 meter, en doorbreekt de
+   inrit geen rijbaan, fietspad en/of voetpad. De inrit wordt afgebakend als
+   Wegdeel met bgt-functie ‘berm’ en een eigen fysiek voorkomen.
 
 ![](media/09f6fa11e8471b975785e22fb7f628f4.png)
 
->   **Voorbeeld**
+   **Voorbeeld**
 
->   In onderstaand voorbeeld is de inrit langer dan 6 meter en korter dan 30
->   meter, en doorbreekt de inrit geen rijbaan, fietspad en/of voetpad. De inrit
->   wordt afgebakend als BegroeidTerreindeel of OnbegroeidTerreindeel met een
->   eigen fysiek voorkomen.
+   In onderstaand voorbeeld is de inrit langer dan 6 meter en korter dan 30
+   meter, en doorbreekt de inrit geen rijbaan, fietspad en/of voetpad. De inrit
+   wordt afgebakend als BegroeidTerreindeel of OnbegroeidTerreindeel met een
+   eigen fysiek voorkomen.
 
 ![](media/b1676a7ba84c65e3d68e8ca01f159c5c.png)
 
@@ -136,19 +134,19 @@ Als een inrit een berm en een doorgaande weg doorkruist, of als een inrit
 meerdere doorgaande wegen doorkruist, dan gelden de hiërarchische
 afbakeningsregels conform de BGT catalogus 3.9.
 
->   **Voorbeeld**
+   **Voorbeeld**
 
->   In onderstaand voorbeeld is de inrit korter dan 30 meter en langer dan 6
->   meter, en doorkruist de inrit een berm en een voetpad. Deze inrit wordt
->   afgebakend als Wegdeel met bgt-functie ‘voetpad’.
+   In onderstaand voorbeeld is de inrit korter dan 30 meter en langer dan 6
+   meter, en doorkruist de inrit een berm en een voetpad. Deze inrit wordt
+   afgebakend als Wegdeel met bgt-functie ‘voetpad’.
 
 ![](media/7c063ef1c74ffb9ae23ac3a860019eb6.png)
 
->   **Voorbeeld**
+   **Voorbeeld**
 
->   In onderstaand voorbeeld is de inrit korter dan 30 meter en langer dan 6
->   meter, en doorkruist de inrit een fietspad en een voetpad. Deze inrit wordt
->   afgebakend als Wegdeel met bgt-functie ‘fietspad’.
+   In onderstaand voorbeeld is de inrit korter dan 30 meter en langer dan 6
+   meter, en doorkruist de inrit een fietspad en een voetpad. Deze inrit wordt
+   afgebakend als Wegdeel met bgt-functie ‘fietspad’.
 
 ![](media/2bcc597991e0ebf2f333ec34eb239907.png)
 
@@ -156,30 +154,30 @@ Als een inrit over een waterdeel loopt, dan wordt de inrit afgebakend met een
 Overbruggingsdeel op niveau 1 met daarop op dezelfde relatieve hoogte een
 OndersteunendWegdeel:berm met een eigen fysiekvoorkomen.
 
->   **Voorbeeld**
+   **Voorbeeld**
 
->   In onderstaand voorbeeld is de inrit korter dan 30 meter, en ligt de inrit
->   over het water. Deze inrit wordt afgebakend als Overbruggingsdeel.
+   In onderstaand voorbeeld is de inrit korter dan 30 meter, en ligt de inrit
+   over het water. Deze inrit wordt afgebakend als Overbruggingsdeel.
 
 ![](media/850b62ea5448565d95bd667caa8d0957.png)
 
 **Voorbeeld**
 
->   In onderstaand voorbeeld ligt de inrit op een (toegangs)dam. Als de inrit
->   korter dan 6 meter is, wordt de inrit afgebakend als OndersteunendWegdeel
->   met functie ‘berm’. Als de inrit langer dan 6 meter en korter dan 30 meter
->   is, wordt deze inrit afgebakend als BegroedTerreindeel of
->   OnbegroeidTerreindeel.
+   In onderstaand voorbeeld ligt de inrit op een (toegangs)dam. Als de inrit
+   korter dan 6 meter is, wordt de inrit afgebakend als OndersteunendWegdeel
+   met functie ‘berm’. Als de inrit langer dan 6 meter en korter dan 30 meter
+   is, wordt deze inrit afgebakend als BegroedTerreindeel of
+   OnbegroeidTerreindeel.
 
 ![](media/e2da1fb48bed498bb36378b38314562d.png)
 
 Hieronder volgen enkele foto’s van praktijksituaties.
 
->   **Voorbeeld**
+   **Voorbeeld**
 
->   In onderstaand voorbeelden is de inrit korter dan 30 meter en doorkruist de
->   inrit een voetpad en een groenstrook langs de rijbaan. Deze inrit wordt
->   afgebakend als Wegdeel met bgt-functie ‘voetpad’.
+   In onderstaand voorbeelden is de inrit korter dan 30 meter en doorkruist de
+   inrit een voetpad en een groenstrook langs de rijbaan. Deze inrit wordt
+   afgebakend als Wegdeel met bgt-functie ‘voetpad’.
 
 ![](media/642ca7a826b9c83ee7e39555facbe6c1.png)
 
@@ -187,17 +185,17 @@ Hieronder volgen enkele foto’s van praktijksituaties.
 
 **Voorbeeld**
 
->   In onderstaand voorbeeld is de inrit korter dan 6 meter en doorkruist de
->   inrit enkel de berm. Deze inrit wordt afgebakend als OndersteunendWegdeel
->   met bgt-functie ‘berm’ en een eigen fysiek voorkomen.
+   In onderstaand voorbeeld is de inrit korter dan 6 meter en doorkruist de
+   inrit enkel de berm. Deze inrit wordt afgebakend als OndersteunendWegdeel
+   met bgt-functie ‘berm’ en een eigen fysiek voorkomen.
 
 ![](media/e7dc8378b65086471c679480693f97cf.png)
 
 **Voorbeeld**
 
->   In onderstaand voorbeeld is de inrit langer dan 6 meter en korter dan 30
->   meter, en de inrit doorkruist geen rijbaan, voetpad, of fietspad. Deze inrit
->   wordt afgebakend als OnbegroeidTerreindeel met een bgt-fysiekvoorkomen ‘open
->   verharding’.
+   In onderstaand voorbeeld is de inrit langer dan 6 meter en korter dan 30
+   meter, en de inrit doorkruist geen rijbaan, voetpad, of fietspad. Deze inrit
+   wordt afgebakend als OnbegroeidTerreindeel met een bgt-fysiekvoorkomen ‘open
+   verharding’.
 
 ![](media/5ffde4ee599f9492dabfb1de6d122f43.png)
