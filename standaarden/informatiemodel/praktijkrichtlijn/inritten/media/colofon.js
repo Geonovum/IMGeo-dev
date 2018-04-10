@@ -15,7 +15,7 @@ var respecConfig = {
       /*name: "Hans van Eekelen",*/
       company: "Geonovum",
       companyURL: "http://www.geonovum.nl/",
-      mailto: "p.janssen@geonovum.nl",
+      mailto: "h.vaneekelen@geonovum.nl",
       note: ""    
     },  
   ],
