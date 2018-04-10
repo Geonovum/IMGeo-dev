@@ -72,9 +72,9 @@ afbakenen van een inrit.
 
 ![](media/1b6af6694dd8e07c291ac517fe0bc668.png)
 
-## Toelichting op de beslisboom**
+## Toelichting op de beslisboom
 
-**Vraag 1. Is de inrit langer dan 30 meter?**
+### Vraag 1. Is de inrit langer dan 30 meter?**
 
 <ja>JA</ja> Als de inrit langer is dan 30 meter, wordt de inrit afgebakend als **Wegdeel** met functie **toegangsweg**.
 
@@ -86,7 +86,7 @@ In onderstaand voorbeeld is de inrit langer dan 30 meter. De inrit wordt afgebak
 
 ![](media/a877dc3dfbc273a0f66fd7811b9b1aad.png)
 
-**Vraag 2 Doorkruist de inrit een weg, voetpad of fietspad?**
+### Vraag 2. Doorkruist de inrit een weg, voetpad of fietspad?**
 
 <ja>JA</ja> Als de inrit een weg, voetpad of fietspad doorkruist, dan wordt de
 inrit afgebakend als **Wegdeel** met de functie van de weg (**rijbaan**),
@@ -103,7 +103,7 @@ door naar vraag 3.
 
 ![](media/bf54cc4e336dcd67520faad77dadf865.png)
 
-**Vraag 3 Is de inrit korter dan 6 meter?**
+### Vraag 3 Is de inrit korter dan 6 meter?**
 
    <ja>JA</ja> Als de inrit is korter dan 6 meter, dan wordt de inrit afgebakend als
    OndersteunendWegdeel met functie ‘berm’.
