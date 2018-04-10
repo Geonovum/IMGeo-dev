@@ -1,4 +1,4 @@
-**Inleiding**
+# Inleiding
 
 In deze praktijkrichtlijn wordt verstaan onder een inrit (ofwel uitrit):
 
@@ -21,7 +21,7 @@ praktijkrichtlijn bevat
 
 -   voorbeelden van enkele gecombineerde en bijzondere situaties.
 
-**Eisen en regels in de BGT\|IMGeo standaarden**
+## Eisen en regels in de BGT\|IMGeo standaarden
 
 Een inrit is als (classificatie van een) object geen onderdeel van IMGeo.
 Inritten kunnen worden opgenomen in de eigen beheeromgeving, bijvoorbeeld
@@ -65,14 +65,14 @@ in de waardenlijst FunctieWeg. Deze eis wordt toegepast bij vraag 2 van de
 beslisboom inritten bij het doorkruisen van meer dan één wegdeel van het type
 rijbaan, fietspad en/of voetpad (zie gecombineerde situaties).
 
-**Beslisboom inritten**
+## Beslisboom inritten
 
 Hieronder wordt een beslisboom gepresenteerd die bronhouders kan helpen bij het
 afbakenen van een inrit.
 
 ![](media/1b6af6694dd8e07c291ac517fe0bc668.png)
 
-**Toelichting op de beslisboom**
+### Toelichting op de beslisboom**
 
 **Vraag 1. Is de inrit langer dan 30 meter?**
 
@@ -130,7 +130,7 @@ afbakenen van een inrit.
 
 ![](media/b1676a7ba84c65e3d68e8ca01f159c5c.png)
 
-**Voorbeelden van gecombineerde en bijzondere situaties**
+## Voorbeelden van gecombineerde en bijzondere situaties**
 
 Als een inrit een berm en een doorgaande weg doorkruist, of als een inrit
 meerdere doorgaande wegen doorkruist, dan gelden de hiërarchische
