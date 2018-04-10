@@ -2,10 +2,10 @@
 
 In deze praktijkrichtlijn wordt verstaan onder een inrit (ofwel uitrit):
 
--   de ingang voor voertuigen vanaf een openbaar toegankelijk wegdeel.
+-   de ingang voor voertuigen vanaf een openbaar toegankelijk wegdeel, en/of
 
 -   een uitgang voor voertuigen van een pand of terreindeel naar een openbaar
-    toegankelijk wegdeel, en/of
+    toegankelijk wegdeel.
 
 Een inrit of uitrit vormt in feite de verbinding tussen een pand of terreindeel
 en de openbare weg. In deze praktijkrichtlijn wordt zowel een inrit als uitrit
