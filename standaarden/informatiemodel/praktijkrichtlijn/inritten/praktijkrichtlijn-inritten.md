@@ -88,11 +88,11 @@ In onderstaand voorbeeld is de inrit langer dan 30 meter. De inrit wordt afgebak
 
 ### Vraag 2. Doorkruist de inrit een weg, voetpad of fietspad?**
 
-<ja>JA</ja> Als de inrit een weg, voetpad of fietspad doorkruist, dan wordt de
+<ja>JA </ja> Als de inrit een weg, voetpad of fietspad doorkruist, dan wordt de
 inrit afgebakend als **Wegdeel** met de functie van de weg (**rijbaan**),
 **fietspad** of **voetpad** dat het doorkruist.
 
-<nee>NEE</nee> Als de inrit geen doorgaande weg, voetpad of fietspad doorkruist, ga
+<nee>NEE </nee> Als de inrit geen doorgaande weg, voetpad of fietspad doorkruist, ga
 door naar vraag 3.
 
    **Voorbeeld**
@@ -105,10 +105,10 @@ door naar vraag 3.
 
 ### Vraag 3 Is de inrit korter dan 6 meter?**
 
-   <ja>JA</ja> Als de inrit is korter dan 6 meter, dan wordt de inrit afgebakend als
+   <ja>JA </ja> Als de inrit is korter dan 6 meter, dan wordt de inrit afgebakend als
    OndersteunendWegdeel met functie ‘berm’.
 
-   <nee>NEE</nee> Als de inrit langer is dan 6 meter, wordt de inrit afgebakend als
+   <nee>NEE </nee> Als de inrit langer is dan 6 meter, wordt de inrit afgebakend als
    (On)BegroeidTerreindeel.
 
    **Voorbeeld**
