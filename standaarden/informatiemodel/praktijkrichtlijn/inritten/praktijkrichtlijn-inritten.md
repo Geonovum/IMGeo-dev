@@ -128,7 +128,7 @@ door naar vraag 3.
 
 ![](media/b1676a7ba84c65e3d68e8ca01f159c5c.png)
 
-## Voorbeelden van gecombineerde en bijzondere situaties**
+## Voorbeelden van gecombineerde en bijzondere situaties
 
 Als een inrit een berm en een doorgaande weg doorkruist, of als een inrit
 meerdere doorgaande wegen doorkruist, dan gelden de hiërarchische
