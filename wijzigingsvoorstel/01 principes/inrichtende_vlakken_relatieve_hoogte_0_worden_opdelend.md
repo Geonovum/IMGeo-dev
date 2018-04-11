@@ -1,5 +1,5 @@
 
-### Inrichtende vlakken op relatieve hoogte 0 worden opdelend
+<h3>Inrichtende vlakken op relatieve hoogte 0 worden opdelend</h3>
   
 Gerelateerde Github-issue(s): [\#16](https://github.com/Geonovum/IMGeo2018/issues/16), [\#96](https://github.com/Geonovum/IMGeo2018/issues/96), [\#118](https://github.com/Geonovum/IMGeo2018/issues/118), [\#173](https://github.com/Geonovum/IMGeo2018/issues/173).  
   
