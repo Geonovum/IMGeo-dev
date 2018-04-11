@@ -64,9 +64,9 @@ De kan handmatig/softwarematig door bronhouder worden doorgevoerd, of de mogelij
 de BGT-keten (BRAVO/LV-BGT) door te voeren.  
 
 Het implementatie-advies is als volgt:
-Stap 1. Stel een werkafspraak op dat inrichtende vlakobjecten op een ander niveau dan maaiveld worden gelegd, hetzij via een eenmalige centrale conversie, danwel via een regulier mutatieproces door bronhouders. 
-Stap 2. Pas de controles op toplogische regels in de software van bronhouders en BGT keten aan. 
-Stap 3. Laat bronhouders de inrichtende vlakobjecten naar maaiveldniveau muteren, waarbij inrichtende vlakobjecten een gat maken in het onderliggende of bovenliggede object op maaiveld. Gebruik om de voortgang te moniteren het kwalititeitsdashboard.
+1. Stel een werkafspraak op dat inrichtende vlakobjecten op een ander niveau dan maaiveld worden gelegd, hetzij via een eenmalige centrale conversie, danwel via een regulier mutatieproces door bronhouders. 
+2. Pas de controles op toplogische regels in de software van bronhouders en BGT keten aan. 
+3. Laat bronhouders de inrichtende vlakobjecten naar maaiveldniveau muteren, waarbij inrichtende vlakobjecten een gat maken in het onderliggende of bovenliggede object op maaiveld. Gebruik om de voortgang te moniteren het kwalititeitsdashboard.
 
 
 Implementatie-afspraken/termijnen dienen nader te worden bepaald.
