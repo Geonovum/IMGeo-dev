@@ -1,9 +1,17 @@
 ja {
 color: green;
 font-weight: bold;
+margin-right: 10px;
+
 }
 
 nee {
 color: red;
 font-weight: bold;
+margin-right: 10px;
 }
+
+img {
+ width: 50%; 
+}
+
