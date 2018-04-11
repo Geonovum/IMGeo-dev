@@ -78,3 +78,39 @@ BAG,WOZ, NWB, BRK, BRT) en zo mogelijk bijgesteld voor goede samenhang tussen de
 basisregistraties. Vervolgens wordt de impact bepaald op de geraakte
 basisregistraties, en worden afspraken gemaakt over een gezamenlijke
 implementatie van dit voorstel.
+
+Leeswijzer
+----------
+
+In dit wijzigingsvoorstel zijn de voorstellen gegroepeerd per type onderdeel van
+de BGT\|IMGeo standaarden:
+
+-   In principes worden de voorstellen beschreven voor aanpassing van eisen en
+    regels in de ontwerp- of algemene principes van IMGeo.
+
+-   In objecttypen worden voorstellen beschreven voor het samenvoegen, wijzigen
+    of toevoegen van objecttypen.
+
+-   In attributen worden voorstellen beschreven het toevoegen, wijzigen of
+    verwijderen van kenmerken van objecten.
+
+-   In domeinwaarden worden voorstellen beschreven voor het toevoegen, hernoemen
+    of verwijderen van domeinwaarden aan waardenlijsten, of het aanpassen van
+    definities van domeinwaarden.
+
+-   In afbakeningsregels worden voorstellen beschreven voor aanscherpen van
+    eisen en regels voor opname en afbakening van objecten, o.a. door
+    duidelijkere afbakeningscriteria en meer toelichting in de vorm van
+    bijvoorbeeld beslisbomen.
+
+De voorstellen per type onderdeel worden in de volgorde van opname van de
+objecttypen in de BGT en IMGeo catalogus beschreven. Dus eerst de voorstellen
+voor BGT met volgorde Wegdeel, OndersteunendWegdeel, etc.) en vervolgens de
+voorstellen voor IMGeo.
+
+In bijlage 1. Is een overzichtstabel opgenomen met de voorstellen en
+gerelateerde issues.
+
+In bijlage 2. zijn twee overzichtstabellen opgenomen van de objecttypen,
+attributen en domeinwaarden van IMGeo na het overnemen van de voorstellen: één
+met samenvoegen van objecten, en één zonder samenvoegen van objecten.
