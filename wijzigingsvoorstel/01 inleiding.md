@@ -1,8 +1,6 @@
-Inleiding
-=========
+# Inleiding
 
-Waarom dit wijzigingsvoorstel?
-------------------------------
+## Waarom dit wijzigingsvoorstel?
 
 De laatste versie van IMGeo is gepubliceerd in juli 2013. In 2014 is besloten om
 de BGT\|IMGeo standaarden te bevriezen om de transitie niet te verstoren.
@@ -33,8 +31,7 @@ De opdracht was als volgt:
 -   bepaal -waar zover mogelijk- de impact van de voorstellen met onderscheid
     tussen impact op alleen IMGeo en impact op ook andere basisregistraties.
 
-Hoe is dit wijzigingsvoorstel tot stand gekomen?
-------------------------------------------------
+## Hoe is dit wijzigingsvoorstel tot stand gekomen?
 
 De volgende activiteiten zijn uitgevoerd om te komen tot dit wijzigingsvoorstel.
 
@@ -52,8 +49,7 @@ Werkgroep IMGeo
 
 -   Informele consultaties
 
-Wanneer wordt de voorstellen gerealiseerd?
-------------------------------------------
+## Wanneer worden de voorstellen gerealiseerd?
 
 Dit is de meeste gestelde vraag, en er is geen eenduidig antwoord op. Het
 wijzigingsvoorstel met het wensbeeld voor IMGeo wordt voor de zomer van 2018
