@@ -3,7 +3,7 @@ Inrichtende vlakken op relatieve hoogte 0 worden opdelend
   
 Gerelateerde Github-issue(s): [\#16](https://github.com/Geonovum/IMGeo2018/issues/16), [\#96](https://github.com/Geonovum/IMGeo2018/issues/96), [\#118](https://github.com/Geonovum/IMGeo2018/issues/118), [\#173](https://github.com/Geonovum/IMGeo2018/issues/173).  
   
-*Wat is de huidige situatie?*  
+### Wat is de huidige situatie?*  
 In paragraaf 3.3 van de IMGeo gegevenscatalogus staat het volgende:  
   
 De optionele objecttypen van IMGeo zijn topologisch gestructureerd indien het
