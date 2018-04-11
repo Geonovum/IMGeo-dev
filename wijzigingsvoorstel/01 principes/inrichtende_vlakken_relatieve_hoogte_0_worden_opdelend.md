@@ -2,7 +2,8 @@
   
 Gerelateerde Github-issue(s): [\#16](https://github.com/Geonovum/IMGeo2018/issues/16), [\#96](https://github.com/Geonovum/IMGeo2018/issues/96), [\#118](https://github.com/Geonovum/IMGeo2018/issues/118), [\#173](https://github.com/Geonovum/IMGeo2018/issues/173).  
   
-**Wat is de huidige situatie?*  
+**Wat is de huidige situatie?**
+
 In paragraaf 3.3 van de IMGeo gegevenscatalogus staat het volgende:  
   
 De optionele objecttypen van IMGeo zijn topologisch gestructureerd indien het
@@ -16,6 +17,7 @@ heeft, bijvoorbeeld een wildrooster, maakt geen gat in het onderliggende BGT
 object, bijvoorbeeld een wegdeel of onbegroeid terreindeel.  
   
 **Wat wordt de nieuwe situatie?**  
+
 In paragraaf 3.3 van de IMGeo gegevenscatalogus wordt het volgende gewijzigd:  
   
 De optionele objecttypen van IMGeo zijn topologisch gestructureerd indien het
@@ -27,6 +29,7 @@ zijn inrichtend en mogen overlappen met elkaar en met andere vlakobjecten van
 alle soorten.  
   
 **Waarom deze wijziging?** 
+
 Bronhouders ervaren het als lastig om onder een inrichtend vlak op relatieve
 hoogte 0 een opdelend vlak te moeten leggen. Gebruikers (bijvoorbeeld
 groenbeheerders) hebben aangegeven dat zij o.a. hagen en schuren in de opdelende
@@ -60,6 +63,7 @@ gebieden, meedoen in de controle op topologische structuur.
 Deze wijziging raakt als zodanig niet aan de andere basisregistraties, omdat de regels voor vlakdekkendheid (topologische structuur) een BGT-eigen principe is.
 
 **Wat is het implementatieadvies?**
+
 De kan handmatig/softwarematig door bronhouder worden doorgevoerd, of de mogelijkheid kan onderzocht worden om dit centraal in
 de BGT-keten (BRAVO/LV-BGT) door te voeren.  
 
