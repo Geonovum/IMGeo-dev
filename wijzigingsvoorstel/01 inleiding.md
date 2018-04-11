@@ -23,15 +23,15 @@ gebruiken.
 
 De opdracht was als volgt:
 
-\- breng de wensen in beeld voor de optimalisatie van IMGeo op de korte termijn,
-en doorontwikkeling van IMGeo in samenhang met andere basisregistraties voor de
-lange(re) termijn.
+-   breng de wensen in beeld voor de optimalisatie van IMGeo op de korte
+    termijn, en doorontwikkeling van IMGeo in samenhang met andere
+    basisregistraties voor de lange(re) termijn.
 
-\- consulteer het wijzigingsvoorstel voor IMGeo met het werkveld middels een
-formele consultatie
+-   consulteer het wijzigingsvoorstel voor IMGeo met het werkveld middels een
+    formele consultatie
 
-\- bepaal -waar zover mogelijk- de impact van de voorstellen met onderscheid
-tussen impact op alleen IMGeo en impact op ook andere basisregistraties.
+-   bepaal -waar zover mogelijk- de impact van de voorstellen met onderscheid
+    tussen impact op alleen IMGeo en impact op ook andere basisregistraties.
 
 Hoe is dit wijzigingsvoorstel tot stand gekomen?
 ------------------------------------------------
@@ -75,6 +75,6 @@ Voorstellen die ook andere basisregistraties raken worden meegenomen in het
 programma van Doorontwikkeling basisregistraties in samenhang. De inhoud van
 deze voorstellen wordt eerst afgestemd met andere basisregistraties (o.a.
 BAG,WOZ, NWB, BRK, BRT) en zo mogelijk bijgesteld voor goede samenhang tussen de
-basisregistraties. Vervolgens wordt de impact bepaald op de betreffende
+basisregistraties. Vervolgens wordt de impact bepaald op de geraakte
 basisregistraties, en worden afspraken gemaakt over een gezamenlijke
 implementatie van dit voorstel.
