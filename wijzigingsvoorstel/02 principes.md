@@ -1,2 +1,4 @@
-Dit wordt het wijzigingsvoorstel met een overzicht van alle wijzigingen in IMGeo
-3.0 t.o.v. de vorige versie (2.1.1).
+# Principes
+
+In dit hoofdstuk worden de voorstellen beschreven voor aanpassing van eisen en regels in de ontwerp- of algemene principes van IMGeo. 
+
