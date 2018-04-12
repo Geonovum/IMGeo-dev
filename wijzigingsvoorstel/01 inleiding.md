@@ -77,8 +77,16 @@ implementatie van dit voorstel.
 
 Leeswijzer
 ----------
+In hoofdstuk 2. is een overzichtstabel opgenomen met de voorstellen en
+gerelateerde issues.
 
-In dit wijzigingsvoorstel zijn de voorstellen gegroepeerd per type onderdeel van
+In hoofdstuk 3. zijn twee overzichtstabellen opgenomen van de objecttypen,
+attributen en domeinwaarden van IMGeo na het overnemen van de voorstellen: één
+met samenvoegen van objecten, en één zonder samenvoegen van objecten.
+
+In hoofdstuk 4 tot en met 8 wordt een volledige omschrijving van de voorstellen met huidige situatie, nieuwe situatie, argumentatie en erwachte impact, en implementatieadvies.
+
+De voorstellen gegroepeerd per type onderdeel van
 de BGT\|IMGeo standaarden:
 
 -   In principes worden de voorstellen beschreven voor aanpassing van eisen en
@@ -103,10 +111,3 @@ De voorstellen per type onderdeel worden in de volgorde van opname van de
 objecttypen in de BGT en IMGeo catalogus beschreven. Dus eerst de voorstellen
 voor BGT met volgorde Wegdeel, OndersteunendWegdeel, etc.) en vervolgens de
 voorstellen voor IMGeo.
-
-In bijlage 1. Is een overzichtstabel opgenomen met de voorstellen en
-gerelateerde issues.
-
-In bijlage 2. zijn twee overzichtstabellen opgenomen van de objecttypen,
-attributen en domeinwaarden van IMGeo na het overnemen van de voorstellen: één
-met samenvoegen van objecten, en één zonder samenvoegen van objecten.
