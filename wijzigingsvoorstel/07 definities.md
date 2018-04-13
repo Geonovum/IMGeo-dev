@@ -36,13 +36,18 @@ definities.
 
 **Gerelateerde voorstellen** Geen.
 
+## Aanpassen definitie inrit/toegangsweg bij Wegdeel
+
+**Gerelateerde issue(s)**
+
+
+
 Aanpassen definitie ‘oever/slootkant’ bij OndersteunendWaterdeel
 ----------------------------------------------------------------
 
 
 
-Aanpassen definitie inrit/toegangsweg bij Wegdeel
--------------------------------------------------
+
 
 Aanpassen definities duiker bij Kunstwerkdeel en brug bij Overbruggingsdeel
 ---------------------------------------------------------------------------
