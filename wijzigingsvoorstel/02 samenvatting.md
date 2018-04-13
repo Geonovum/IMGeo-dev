@@ -1,5 +1,8 @@
-Samenvatting voorstellen
-========================
+Samenvatting
+============
+
+Voorstellen
+-----------
 
 Hieronder volgt een samenvatting van de voorstellen voor IMGeo.
 
@@ -65,8 +68,8 @@ Hieronder volgt een samenvatting van de voorstellen voor IMGeo.
 |                                                                                                                                           |                   |                                                                                                   |                                                                                                                   |
 |                                                                                                                                           |                   |                                                                                                   |                                                                                                                   |
 
-Overzichtstabel IMGeo
----------------------
+IMGeo-objecten, attributen en domeinwaarden
+-------------------------------------------
 
 Overzichtstabel IMGeo objecten, attributen en domeinwaarden na overnemen
 voorstellen.
