@@ -7,7 +7,7 @@ body {
 blockquote {
  font-family:  'Esteban', serif;
  font-style: italic;
- border-color: none; !important
+ border: none; !important
 }
 
 blockquote:before {
