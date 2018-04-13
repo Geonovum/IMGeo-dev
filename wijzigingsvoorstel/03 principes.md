@@ -22,10 +22,10 @@ gegevenscatalogus het volgende te wijzigen:
 > indien het een nadere detaillering betreft van de BGT objecten, *of een
 > uitbreiding van de populatie betreft voor de volgende objecten*
 >
->   *OverigBouwwerk: bunker, schuur*
->   *Kunstwerkdeel: keermuur, overkluizing, duiker, faunavoorziening, vispassage, bodemval, coupure, ponton, voorde*
->   *OverigeScheiding: muur, kademuur*
->   *Weginrichtingselement: boomspiegel, wildrooster, rooster*
+>   *OverigBouwwerk: bunker, schuur*<br />
+>   *Kunstwerkdeel: keermuur, overkluizing, duiker, faunavoorziening, vispassage, bodemval, coupure, ponton, voorde* <br />
+>   *OverigeScheiding: muur, kademuur* <br />
+>   *Weginrichtingselement: boomspiegel, wildrooster, rooster* <br />
 >
 > Het optionele deel van IMGeo is geen onderdeel van de topologische structuur
 > indien het een uitbreiding van de populatie *betreft voor de overige objecten.*
