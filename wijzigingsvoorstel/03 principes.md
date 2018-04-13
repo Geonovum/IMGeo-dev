@@ -13,15 +13,7 @@ Github-issue(s):* [\#16](https://github.com/Geonovum/IMGeo2018/issues/16), [\#
 **Huidige situatie** In paragraaf 3.3 van de IMGeo gegevenscatalogus staat het
 volgende:
 
-“De optionele objecttypen van IMGeo zijn topologisch gestructureerd indien het
-een nadere detaillering betreft van de BGT objecten. Het optionele deel van
-IMGeo is geen onderdeel van de topologische structuur indien het een uitbreiding
-van de populatie is (‘inrichtend’). Dit geldt bijvoorbeeld voor Overig bouwwerk:
-bunker en Kunstwerkdeel: keermuur. Deze objecten liggen ongeacht of ze een
-punt-, lijn- of vlakgeometrie hebben altijd boven of onder één of meer BGT
-objecten op maaiveldniveau. Een optioneel IMGeo object dat een vlakgeometrie
-heeft, bijvoorbeeld een wildrooster, maakt geen gat in het onderliggende BGT
-object, bijvoorbeeld een wegdeel of onbegroeid terreindeel.”
+> "De optionele objecttypen van IMGeo zijn topologisch gestructureerd indien het een nadere detaillering betreft van de BGT objecten. Het optionele deel van IMGeo is geen onderdeel van de topologische structuur indien het een uitbreiding van de populatie is (‘inrichtend’). Dit geldt bijvoorbeeld voor Overig bouwwerk: bunker en Kunstwerkdeel: keermuur. Deze objecten liggen ongeacht of ze een punt-, lijn- of vlakgeometrie hebben altijd boven of onder één of meer BGT objecten op maaiveldniveau. Een optioneel IMGeo object dat een vlakgeometrie heeft, bijvoorbeeld een wildrooster, maakt geen gat in het onderliggende BGT object, bijvoorbeeld een wegdeel of onbegroeid terreindeel.” 
 
 **Nieuwe situatie** Het voorstel is om in paragraaf 3.3 van de IMGeo
 gegevenscatalogus het volgende te wijzigen:
