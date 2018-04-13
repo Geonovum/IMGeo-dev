@@ -20,12 +20,12 @@ gegevenscatalogus het volgende te wijzigen:
 
 > “De optionele objecttypen van IMGeo zijn topologisch gestructureerd (‘opdelend’)
 > indien het een nadere detaillering betreft van de BGT objecten, **of een
-> uitbreiding van de populatie betreft voor de volgende objecten
+> uitbreiding van de populatie betreft voor de volgende objecten**
 >
->   OverigBouwwerk: bunker, schuur<br />
->   Kunstwerkdeel: keermuur, overkluizing, duiker, faunavoorziening, vispassage, bodemval, coupure, ponton, voorde* <br />
->   *OverigeScheiding: muur, kademuur <br />
->   Weginrichtingselement: boomspiegel, wildrooster, rooster <br />**
+>  **OverigBouwwerk: bunker, schuur<br />**
+>  **Kunstwerkdeel: keermuur, overkluizing, duiker, faunavoorziening, vispassage, bodemval, coupure, ponton, voorde** <br />
+>   **OverigeScheiding: muur, kademuur** <br />
+>   **Weginrichtingselement: boomspiegel, wildrooster, rooster <br />**
 >
 > Het optionele deel van IMGeo is geen onderdeel van de topologische structuur
 > indien het een uitbreiding van de populatie **betreft voor de overige objecten.**
