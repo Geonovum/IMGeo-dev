@@ -6,7 +6,7 @@ definities.
 
 ## Aanpassen definities van rijbanen en fietspad bij Wegdeel
 
-Gerelateerde issue(s): [#11](https://github.com/Geonovum/IMGeo2018/issues/11)  
+**Gerelateerde issue(s)** [#11](https://github.com/Geonovum/IMGeo2018/issues/11)  
 
 **Huidige situatie** In de BGT zijn de volgende classificaties en definities voor Wegdelen opgenomen: 
 
