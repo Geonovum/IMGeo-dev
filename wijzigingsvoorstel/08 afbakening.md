@@ -13,27 +13,16 @@ Opnemen van afbakeningsregels voor bos
 **Gerelateerde issue(s)**
 [\#161](https://github.com/Geonovum/IMGeo2018/issues/161)
 
-**Huidige situatie** In BGT gegevenscatalogus paragraaf 9.8 staat in de
-definitie van loofbos, gemengd bos, en naaldbos als classificatie van een
-Begroeidterreindeel de zinsnede ‘een dusdanige aantal’. In de afbakeningsregels
-wordt ‘dusdanige aantal’ niet nader gespecificeerd met criteria als
-aantallen/percentages.
+**Huidige situatie** In BGT gegevenscatalogus paragraaf 9.8 staat in de definitie van loofbos, gemengd bos, en naaldbos als classificatie van een Begroeidterreindeel de zinsnede ‘een dusdanige aantal’. In de afbakeningsregels wordt ‘dusdanige aantal’ niet nader gespecificeerd met criteria als aantallen/percentages.
 
-**Nieuwe situatie** In de BGT gegevenscatalogus hoofdstuk 10 worden
-afbakeningsregels voor bos toegevoegd:
+**Nieuwe situatie** In de BGT gegevenscatalogus hoofdstuk 10 worden afbakeningsregels voor bos toegevoegd:
 
-*“Om een terreindeel als loofbos af te bakenen dient het minimimum percentage
-loofboom groter dan of gelijk aan 90% te zijn.”*
-
-*“Om een terreindeel als naaldbos af te bakenen dient het minimum percentage
-naaldboom groter dan of gelijk aan 90 % te zijn.”*
-
-*“Om een terreindeel als gemengd bos af te bakenen dient het maximum percentage
-naaldboom of het maximum percentage loofboom kleiner dan 90% te zijn.”*
-
-*“Bij deze percentages worden het eventueel aanwezige onderhout en smalle
+> Om een terreindeel als loofbos af te bakenen dient het minimimum percentage loofboom groter dan of gelijk aan 90% te zijn.
+> Om een terreindeel als naaldbos af te bakenen dient het minimum percentage naaldboom groter dan of gelijk aan 90 % te zijn.
+> Om een terreindeel als gemengd bos af te bakenen dient het maximum percentage naaldboom of het maximum percentage loofboom kleiner dan 90% te zijn.
+> Bij deze percentages worden het eventueel aanwezige onderhout en smalle
 stroken loof- en of naaldbos gelegen naast of als uitloper van het bos buiten
-beschouwing gelaten.”*
+beschouwing gelaten.
 
 **Onderbouwing** Met deze afbakeningscriteria kunnen bronhouders eenduidig en
 uniform een classificatie loofbos, gemengd bos of naaldbos toekennen aan een
@@ -46,14 +35,10 @@ de BRT af te leiden uit de BGT.
 
 -   *Verplicht/niet verplicht:* dit betreft een wijziging in het verplichte deel
     van IMGeo.
-
 -   *Software:* er is geen aanpassing van de software nodig.
-
 -   *Dataconversie:* bestaande gegevens hoeven niet te worden geconverteerd.
-
 -   *Inwinning:* bronhouders dienen bermen na te lopen om vast te stellen of
     deze aan de nieuwe afbakeningsregels voldoen.
-
 -   *Samenhang basisregistraties:* er is geen impact voor andere
     basisregistraties voorzien; IMGeo past met dit voorstel aan op de BRT.
 
@@ -62,7 +47,6 @@ bepaald t.a.v. wanneer bronhouders hun bestaande gegevens hebben gecontroleerd
 en aangepast conform de nieuwe afbakeningsregels.
 
 Het volgende kan daarbij onderzocht worden:
-
 -   Het confronteren van bossen in de BRT met de huidige objecten bos in de .
     Objecten die niet een overeenkomstige classificatie hebben kunnen in het
     kwaliteitsdashboard aan de werkvoorraad van de bronhouders worden
