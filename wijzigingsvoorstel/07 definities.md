@@ -30,10 +30,11 @@ definities.
 - Software: er is geen aanpassing van de software nodig.
 - Dataconversie: bestaande gegevens hoeven niet worden geconverteerd.
 - Inwinning: bronhouders dienen de bestaande wegdelen na te lopen om vast te stellen of deze aan de nieuwe definities voldoen.
-- Andere basisregistraties: er is geen impact voor andere basisregistraties voorzien; IMGeo past met dit voorstel aan op de andere registraties en systematieken.
+- Samenhang basisregistraties: er is geen impact voor andere basisregistraties voorzien; IMGeo past met dit voorstel aan op de andere registraties en systematieken.
 
 **Implementatie-advies** Implementatie-afspraken/termijnen dienen nader te worden bepaald t.a.v. wanneer bronhouders hun bestaande gegevens hebben gecontroleerd en aangepast conform de nieuwe definities.
 
+**Gerelateerde voorstellen** Geen.
 
 Aanpassen definitie ‘oever/slootkant’ bij OndersteunendWaterdeel
 ----------------------------------------------------------------
