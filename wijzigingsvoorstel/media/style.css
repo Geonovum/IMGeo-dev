@@ -13,8 +13,7 @@ blockquote {
 blockquote:before {
     display: block;
     height: 0;
-    content: "“";
-    margin-left: -.95em;
+    content: "“";    
     font: italic 400%/1 Esteban, serif;
     color: #999;
 }
