@@ -8,7 +8,7 @@ blockquote {
  margin-left: -.095em;
  font-family:  'Esteban', serif;
  font-style: italic;
- border: none; !important
+ border-style: none; !important
 }
 
 blockquote:before {
