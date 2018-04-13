@@ -21,32 +21,20 @@ gebruiken.
 
 De opdracht was als volgt:
 
--   breng de wensen in beeld voor de optimalisatie van IMGeo op de korte
-    termijn, en doorontwikkeling van IMGeo in samenhang met andere
-    basisregistraties voor de lange(re) termijn.
-
--   consulteer het wijzigingsvoorstel voor IMGeo met het werkveld middels een
-    formele consultatie
-
--   bepaal -waar zover mogelijk- de impact van de voorstellen met onderscheid
-    tussen impact op alleen IMGeo en impact op ook andere basisregistraties.
+- breng de wensen in beeld voor de optimalisatie van IMGeo op de korte termijn, en doorontwikkeling van IMGeo in samenhang met andere
+    basisregistraties voor de lange(re) termijn. 
+- consulteer het wijzigingsvoorstel voor IMGeo met het werkveld middels een formele consultatie
+- bepaal -waar zover mogelijk- de impact van de voorstellen met onderscheid tussen impact op alleen IMGeo en impact op ook andere basisregistraties.
 
 ## Hoe is dit wijzigingsvoorstel tot stand gekomen?
 
 De volgende activiteiten zijn uitgevoerd om te komen tot dit wijzigingsvoorstel.
 
 -   Oproepen tot indienen verbetersuggesties
-
 -   Afstemmen met domeinen en andere registraties
-
 -   Structureren en categoriseren meldingen
-
-Werkgroep IMGeo
-
 -   Thema werksessies
-
 -   Schetsen van oplossingsrichtingen
-
 -   Informele consultaties
 
 ## Wanneer worden de voorstellen gerealiseerd?
@@ -75,37 +63,20 @@ basisregistraties. Vervolgens wordt de impact bepaald op de geraakte
 basisregistraties, en worden afspraken gemaakt over een gezamenlijke
 implementatie van dit voorstel.
 
-Leeswijzer
-----------
-In hoofdstuk 2. is een overzichtstabel opgenomen met de voorstellen en
-gerelateerde issues.
+## Leeswijzer
+In hoofdstuk 2. is een overzichtstabel opgenomen met de voorstellen en gerelateerde issues, alsook een overzichtstabel met objecttypen, attributen en domeinwaarden in IMGeo het doorvoeren van alle voorstellen.
 
-In hoofdstuk 3. zijn twee overzichtstabellen opgenomen van de objecttypen,
-attributen en domeinwaarden van IMGeo na het overnemen van de voorstellen: één
-met samenvoegen van objecten, en één zonder samenvoegen van objecten.
+In hoofdstuk 3 tot en met 10 wordt een volledige omschrijving van de voorstellen met huidige situatie, nieuwe situatie, argumentatie en verwachte impact, en implementatieadvies.
 
-In hoofdstuk 4 tot en met 8 wordt een volledige omschrijving van de voorstellen met huidige situatie, nieuwe situatie, argumentatie en erwachte impact, en implementatieadvies.
+De voorstellen gegroepeerd per type onderdeel van de BGT\|IMGeo standaarden:
 
-De voorstellen gegroepeerd per type onderdeel van
-de BGT\|IMGeo standaarden:
-
--   In principes worden de voorstellen beschreven voor aanpassing van eisen en
-    regels in de ontwerp- of algemene principes van IMGeo.
-
--   In objecttypen worden voorstellen beschreven voor het samenvoegen, wijzigen
-    of toevoegen van objecttypen.
-
--   In attributen worden voorstellen beschreven het toevoegen, wijzigen of
-    verwijderen van kenmerken van objecten.
-
--   In domeinwaarden worden voorstellen beschreven voor het toevoegen, hernoemen
-    of verwijderen van domeinwaarden aan waardenlijsten, of het aanpassen van
-    definities van domeinwaarden.
-
--   In afbakeningsregels worden voorstellen beschreven voor aanscherpen van
-    eisen en regels voor opname en afbakening van objecten, o.a. door
-    duidelijkere afbakeningscriteria en meer toelichting in de vorm van
-    bijvoorbeeld beslisbomen.
+- In principes worden de voorstellen beschreven voor aanpassing van eisen en regels in de ontwerp- of algemene principes van IMGeo.
+- In objecttypen worden voorstellen beschreven voor het samenvoegen, wijzigen of toevoegen van objecttypen.
+- In attributen worden voorstellen beschreven het toevoegen, wijzigen of verwijderen van kenmerken van objecten.
+- In domeinwaarden worden voorstellen beschreven voor het toevoegen, hernoemen of verwijderen van domeinwaarden aan waardenlijsten, of het aanpassen van definities van domeinwaarden.
+- In Definities worden voorstellen beschreven voor het aanpassen of opnemen van definities van concepten, attributen of domeinwaarden.
+- In afbakening worden voorstellen beschreven voor aanscherpen van eisen en regels voor opname en afbakening van objecten, o.a. door
+    duidelijkere afbakeningscriteria en meer toelichting in de vorm van bijvoorbeeld beslisbomen.
 
 De voorstellen per type onderdeel worden in de volgorde van opname van de
 objecttypen in de BGT en IMGeo catalogus beschreven. Dus eerst de voorstellen
