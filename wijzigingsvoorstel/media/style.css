@@ -1,3 +1,13 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat|Esteban);
+
+body {
+ font-family:  'Montserrat', sans-serif;
+}
+
+blockquote {
+ font-family:  'Esteban', serif;
+}
+
 img {
   max-width: 100%;
 }
