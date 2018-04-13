@@ -8,6 +8,7 @@ blockquote {
  margin-left: -.095em;
  font-family:  'Esteban', serif;
  font-style: italic;
+ border-color: transparent; !important
  border-style: none; !important
 }
 
@@ -15,7 +16,7 @@ blockquote:before {
     display: block;
     height: 0;
     content: "“";   
-    margin-left: -0.2em;
+    margin-left: -0.95em;
     font: italic 400%/1 Esteban, serif;
     color: #999;
 }
