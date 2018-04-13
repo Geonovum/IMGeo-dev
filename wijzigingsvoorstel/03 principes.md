@@ -23,8 +23,8 @@ objecten op maaiveldniveau. Een optioneel IMGeo object dat een vlakgeometrie
 heeft, bijvoorbeeld een wildrooster, maakt geen gat in het onderliggende BGT
 object, bijvoorbeeld een wegdeel of onbegroeid terreindeel.”
 
-**Voorstel** In paragraaf 3.3 van de IMGeo gegevenscatalogus wordt het volgende
-gewijzigd:
+**Nieuwe situatie** Het voorstel is om in paragraaf 3.3 van de IMGeo
+gegevenscatalogus het volgende te wijzigen:
 
 “De optionele objecttypen van IMGeo zijn topologisch gestructureerd (‘opdelend’)
 indien het een nadere detaillering betreft van de BGT objecten, *of een
@@ -52,9 +52,14 @@ overlappen met elkaar en met andere vlakobjecten van alle soorten.*”
 onder een inrichtend vlak op relatieve hoogte 0 een opdelend vlak te moeten
 leggen. Gebruikers (bijvoorbeeld groenbeheerders) hebben aangegeven dat zij o.a.
 hagen en schuren in de opdelende laag willen hebben voor het beter kunnen
-opstellen van onderhoudsbestekken en kostenramingen.
+opstellen van onderhoudsbestekken en kostenramingen. Met dit voorstel blijft het
+bestand dat uit de LV komt landsdekkend gevuld: als bronhouder geen
+IMGeo+-objecten levert zal op de plek van deze objecten het terrein doorlopen;
+als bronhouder wel opdelende IMGeo+-objecten levert doen die mee in de
+topologische structuur.
 
-**Impact** De impact van deze wijziging is relatief ‘**groot**’:
+**Impact** De impact van deze wijziging wordt ingeschat op ‘*groot tot zeer
+groot*’:
 
 -   *Software:* de controles op de topologische structuur in de LV-BGT en
     bronhoudersoftware dienen aangepast conform bovenstaande omschrijving.
