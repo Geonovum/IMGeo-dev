@@ -6,6 +6,16 @@ body {
 
 blockquote {
  font-family:  'Esteban', serif;
+ border-color: none;
+}
+
+blockquote:before {
+    display: block;
+    height: 0;
+    content: "“";
+    margin-left: -.95em;
+    font: italic 400%/1 Esteban, serif;
+    color: #999;
 }
 
 img {
