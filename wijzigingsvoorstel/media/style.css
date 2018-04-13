@@ -5,11 +5,11 @@ body {
 }
 
 blockquote {
- text-indent: 20px;
- font-family:  'Esteban', serif;
+ margin-left: 20px !important;
+ font-family:  'Esteban', serif !important;
  font-style: italic;
- border-color: transparent; !important
- border-style: none; !important
+ border-color: transparent !important;
+ border-style: none !important;
 }
 
 blockquote:before {
