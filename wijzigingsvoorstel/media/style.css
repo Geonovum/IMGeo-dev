@@ -5,7 +5,7 @@ body {
 }
 
 blockquote {
- font:  'Esteban', serif;
+ font-family:  'Esteban', serif;
  font-style: italic;
  border-color: none; !important
 }
