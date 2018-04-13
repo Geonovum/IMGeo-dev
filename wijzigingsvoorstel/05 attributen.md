@@ -1,2 +1,20 @@
-Dit wordt het wijzigingsvoorstel met een overzicht van alle wijzigingen in IMGeo
-3.0 t.o.v. de vorige versie (2.1.1).
+Attributen
+==========
+
+Dit hoofdstuk geeft een toelichting op de voorstellen voor het onderdeel
+attributen.
+
+Toevoegen overbouw en onderbouw aan Pand en OverigBouwwerk
+----------------------------------------------------------
+
+Toevoegen fysiek voorkomen aan een OndersteunendWaterdeel
+---------------------------------------------------------
+
+Toevoegen extra attribuut 'permanentWatervoerend' bij Waterdeel
+---------------------------------------------------------------
+
+Toevoegen type aan Pand
+-----------------------
+
+Opnemen extra eisen aan rotatiehoeken van labels
+------------------------------------------------
