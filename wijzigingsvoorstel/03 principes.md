@@ -29,24 +29,17 @@ gegevenscatalogus het volgende te wijzigen:
 > “De optionele objecttypen van IMGeo zijn topologisch gestructureerd (‘opdelend’)
 > indien het een nadere detaillering betreft van de BGT objecten, *of een
 > uitbreiding van de populatie betreft voor de volgende objecten*
-
+>
 >   *OverigBouwwerk: bunker, schuur*
-
->   *Kunstwerkdeel: keermuur, overkluizing, duiker, faunavoorziening,
->   vispassage, bodemval, coupure, ponton, voorde*
-
+>   *Kunstwerkdeel: keermuur, overkluizing, duiker, faunavoorziening, vispassage, bodemval, coupure, ponton, voorde*
 >   *OverigeScheiding: muur, kademuur*
-
 >   *Weginrichtingselement: boomspiegel, wildrooster, rooster*
-
+>
 > Het optionele deel van IMGeo is geen onderdeel van de topologische structuur
 > indien het een uitbreiding van de populatie *betreft voor de overige objecten.*
 >(‘inrichtend’). Deze objecten liggen ongeacht of ze een punt-, lijn- of
 > vlakgeometrie hebben altijd boven of onder één of meer BGT objecten op
-> maaiveldniveau.
-
-> *De registratieve en functionele gebieden zijn altijd inrichtend en mogen
-overlappen met elkaar en met andere vlakobjecten van alle soorten.*”
+> maaiveldniveau. *De registratieve en functionele gebieden zijn altijd inrichtend en mogen overlappen met elkaar en met andere vlakobjecten van alle soorten.*”
 
 **Onderbouwing** Bronhouders ervaren het in bepaalde situaties als lastig om
 onder een inrichtend vlak op relatieve hoogte 0 een opdelend vlak te moeten
