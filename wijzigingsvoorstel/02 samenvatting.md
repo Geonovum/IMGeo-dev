@@ -5,7 +5,7 @@ Hieronder volgt een samenvatting van de voorstellen voor IMGeo.
 
 | **Omschrijving**                                                                          | **Betreft onderdeel** | **Heeft relatie met voorstel(len)**                                                               | **Gerelateerde issues** |
 |-------------------------------------------------------------------------------------------|-----------------------|---------------------------------------------------------------------------------------------------|-------------------------|
-| Opnemen inrichtende bouwwerken, kunstwerken, en scheidingen in de topologische structuur  | Principes             |                                                                                                   | \#16, \#161             |
+| Opnemen inrichtende bouwwerken, kunstwerken, en scheidingen in de topologische structuur  | Principes             | **Toevoegen haag**                                                                                | \#16, \#161             |
 | Toevoegen regels voor objecten buiten dekking BGT in IMGeo+                               | Principes             |                                                                                                   |                         |
 |                                                                                           |                       |                                                                                                   |                         |
 | Samenvoegen Scheiding en OverigeScheiding tot Scheiding                                   | Objecttypen           | Toevoegen overbouw en onderbouw bij panden en overigebouwwerken in de BGT Toevoegen type aan Pand |                         |
