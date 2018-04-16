@@ -4,50 +4,6 @@ Definities
 Dit hoofdstuk geeft een toelichting op de voorstellen voor het onderdeel
 definities.
 
-Opnemen definitie ‘maaiveld’ in BGT catalogus
----------------------------------------------
-
-**Gerelateerde issue(s)**
-[\#156](https://github.com/Geonovum/IMGeo2018/issues/156)  
-
-*Gerelateerde voorstellen n.v.t.*
-
-**Huidige situatie** In de BGT catalogus komt de term ‘maaiveld’ voor zonder
-definitie of nadere toelichting.
-
-**Nieuwe situatie** Het voorstel is om in de BGT catalogus in het hoofdstuk
-Ontwerpprincipes de volgende definitie van ‘maaiveld’ op te nemen:
-
-*“Het oppervlak van de vaste aarde, daar waar de aarde niet bedekt is met
-water.*  
-*Het maaiveld vormt de grens tussen de ondergrond en de bovengrond. (bron:
-BRO).”*
-
-**Onderbouwing** *Maaiveld komt regelmatig als term terug in de BGT, maar wordt
-nergens uitgelegd. Op deze manier wordt expliciet gemaakt wat in BGT context
-onder het maaiveld wordt verstaan.*
-
-**Impact** De impact van deze wijziging is 'zeer laag':
-
--   *Verplicht/niet verplicht:* Dit betreft een wijziging in het verplichte deel
-    van IMGeo.
-
--   *Software:* er is geen aanpassing van de software nodig.
-
--   *Dataconversie:* er is geen dataconversie nodig.
-
--   *Inwinning:* naar verwachting hoeven er geen gegevens door bronhouders
-    ingewonnen te worden. Het betreft een verandering van topologische regels op
-    bestaande gegevens.
-
--   *Samenhang basisregistraties:* er is geen impact voor andere
-    basisregistraties voorzien; IMGeo past met dit voorstel aan op de definitie
-    van de Basisregistratie Ondergrond (BRO).
-
-**Implementatie-advies** n.v.t.
-
-**Gerelateerde voorstellen**
-
 Aanpassen definities van rijbanen en fietspad bij Wegdeel
 ---------------------------------------------------------
 
@@ -142,16 +98,16 @@ Aanpassen definitie inrit/toegangsweg bij Wegdeel
 -   Opnemen afbakeningsregels voor toegangsweg en inrit
 
 **Huidige situatie** In de BGT komt de functie 'inrit' voor bij een Wegdeel met
-de volgende definitie:  
-  
+de volgende definitie:
+
 *"Toegangswegen oprijlanen en dergelijke met verkeersfunctie die leiden naar
-afgelegen erven en terreinen."*  
-  
+afgelegen erven en terreinen."*
+
 **Nieuwe situatie** Het voorstel is om met het hernoemen van functie 'inrit'
 naar ‘toegangsweg’ de definitie als volgt aan te passen:
 
-*"Een wegdeel die leidt naar afgelegen erven en terreinen."*  
-  
+*"Een wegdeel die leidt naar afgelegen erven en terreinen."*
+
 **Onderbouwing** Met dit voorstel wordt de definitie in lijn gebracht met de
 hernoeming van ‘inrit’ naar ‘toegangsweg’.
 
@@ -182,11 +138,5 @@ Aanpassen definitie opslagtank bij OverigBouwwerk
 Aanpassen definitie faunavoorziening bij Kunstwerkdeel
 ------------------------------------------------------
 
-Opnemen definitie maaiveld in BGT catalogus
--------------------------------------------
-
-2.8 Maaiveld
-------------
-
-Het oppervlak van de vaste aarde, daar waar de aarde niet bedekt is met water.  
-Het maaiveld vormt de grens tussen de ondergrond en de bovengrond. (bron: BRO).
+Aanpassen definitie put(deksel) bij Put
+---------------------------------------

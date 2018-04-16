@@ -7,6 +7,62 @@ definities.
 Aanpassen afbakeningsregels voor OndersteunendWaterdeel
 -------------------------------------------------------
 
+Gerelateerde
+Github-issue(s): [\#76](https://github.com/Geonovum/IMGeo2018/issues/76)   
+  
+*Wat is de huidige situatie?*  
+  
+In de BGT is bij het type 'oever, slootkant' van een OndersteunendWaterdeel de
+volgende definitie opgenomen:  
+  
+"De strook land die in direct contact staat met water, inclusief het gebied
+tussen de hoogwaterlijn en laagwaterlijn. (bron: Inspire)"  
+  
+In de hoofdstuk 10 van de BGT gegevenscatalogus is voor de eisen van afbakening
+van ondersteunende waterdelen bij meren en waterlopen het volgende opgenomen:  
+  
+"Als de horizontale afstand tussen waterlijn en de bovenkant van een herkenbare
+insteek 1m of meer bedraagt dan ontstaat in de BGT een ondersteunend waterdeel
+van het type oever/slootkant."  
+  
+  
+*Wat wordt de nieuwe situatie?*  
+  
+Het voorstel is om de definitie van oever/slootkant als volgt op te nemen in de
+BGT:  
+  
+*“Oevers en slootkanten zijn de delen die enerzijds begrensd worden door de
+waterlijn of een zichtbare bodem en anderzijds door een kant insteek.”*  
+  
+Voor de afbakening van oevers worden nieuwe afbakeningscriteria voorgesteld:   
+  
+*"Ondersteunende waterdelen komen voor wanneer er sprake is van een talud dat
+een minimumwaarde voor de helling heeft van 1:4 èn de horizontale afstand tussen
+kant insteek èn waterlijn (c) minimaal 0,5 m bedraagt"*  
+  
+Een beslisboom
+is [hier](https://github.com/Geonovum/IMGeo2018/raw/master/standaarden/informatiemodel/bgt-catalogus/Waterkant.pdf) te
+downloaden.  
+  
+*Waarom deze wijziging?*  
+  
+Met deze afbakeningsregels sluit de BGT beter aan op de afbakeningsregels van de
+waterwereld (IMWA).  
+  
+*Wat is de impact van deze wijziging?*  
+  
+Het betreft een wijziging in de definities van de BGT. Bronhouders dienen hun
+gegevens te controleren en/of aan te passen conform de nieuwe definities.  
+  
+Uit de BGT (peildatum: 13 januari) blijkt dat bijna elke bronhouder (399)
+ondersteunende waterdelen heeft. 75% van de totaal ongeveer 127.000
+ondersteunende waterdelen van het type 'oever,slootkant' behoort tot de
+waterschappen; en ongeveer 20% van de ondersteunende waterdelen (ca. 23.000)
+heeft als bronhouder RWS.  
+  
+Er is geen technische impact in de zin van schemawijziging of
+softwareaanpassing.
+
 Opnemen van afbakeningsregels voor bos
 --------------------------------------
 
@@ -178,6 +234,8 @@ afgebakend als Terreindeel (Begroeid of Onbegroeid).
 
 ![Beslisboom bermen](media/44d2691dc17339ebab7fc8ba64ede4e1.png)
 
+Beslisboom bermen
+
 [beslisboom
 bermen](https://github.com/Geonovum/IMGeo2018/raw/master/issues/beslisboom-bermen.png) 
 
@@ -228,20 +286,20 @@ Github-issue(s):** [\#61](https://github.com/Geonovum/IMGeo2018/issues/61). 
 relatieve hoogte 0. Voor panden wordt de maaiveldgeometrie opgenomen wat
 impliceert dat een pand ook een relatieve hoogte 0 heeft. Onduidelijkheid
 bestaat hoe een pand boven water moet worden afgebakend, en welke relatieve
-hoogte deze moet krijgen.  
-  
+hoogte deze moet krijgen.
+
 **Nieuwe situatie** Het voorstel is om a*an* de afbakeningsregels voor Pand het
-volgende toe te voegen:  
-  
+volgende toe te voegen:
+
 *“Voor panden die in hun geheel boven water liggen, bijvoorbeeld een
 brugwachtershuis dat aan een brug hangt, geldt dat dit pand in de BGT voorkomt
 met een relatieve hoogte (rh) van één hoger dan het water waar het zich boven
-bevindt.”*  
-  
+bevindt.”*
+
 **Onderbouwing** Met deze wijziging worden regels toegevoegd aan de afbakening
 van panden boven water, waardoor afbakening door bronhouders gemakkelijker en
-uniformer wordt.  
-  
+uniformer wordt.
+
 **Impact** De impact van dit voorstel wordt ingeschat op ‘**laag**‘:
 
 -   *Verplicht/niet verplicht:* dit betreft een wijziging in het verplichte deel
@@ -274,27 +332,27 @@ Github-issue(s)** [\#12](https://github.com/Geonovum/IMGeo2018/issues/12). 
 **Huidige situatie** In de BGT wordt onderscheid gemaakt tussen object
 Overbruggingsdeel van het type viaduct en het object Tunneldeel. Bij bronhouders
 zijn er onduidelijkheden en interpretatieverschillen wanneer een situatie als
-Overbruggingsdeel en wanneer als Tunneldeel moet worden afgebakend.  
-  
+Overbruggingsdeel en wanneer als Tunneldeel moet worden afgebakend.
+
 **Nieuwe situatie** Voor de afbakening van Overbruggingsdeel en Tunneldeel
-worden extra afbakeningsregels gegeven:  
-  
+worden extra afbakeningsregels gegeven:
+
 “Overbruggingsdeel:  
 - Er is sprake van een overbrugging wanneer een van de onderdelen bestaat uit
 een los dek dat op een bak en/of pijlers rust.  
 - Dit in tegenstelling tot een tunnel, die uit een gesloten kokerconstructie met
-een in- en uitgangt bestaat.”  
-  
+een in- en uitgangt bestaat.”
+
 “Tunneldeel:  
 - Er is sprake van een tunnel wanneer deze bestaat uit een gesloten
 kokerconstructie met een in- en een uitgang.  
 - Bij overbruggingsdelen zoals bijvoorbeeld een viaduct is er altijd sprake van
-een los dek dat op een bak en/of pijlers rust.”  
-  
+een los dek dat op een bak en/of pijlers rust.”
+
 **Onderbouwing** Met deze wijziging worden meer eisen opgelegd aan de afbakening
 van overbruggingsdeel en tunneldeel, waardoor afbakening door bronhouders
-gemakkelijker en uniformer wordt.  
-  
+gemakkelijker en uniformer wordt.
+
 **Impact** De impact van dit voorstel wordt ingeschat op ‘laag tot zeer laag’:
 
 -   *Verplicht/niet verplicht:* dit betreft een wijziging in het verplichte deel
@@ -331,40 +389,40 @@ Github-issue(s)** [\#37](https://github.com/Geonovum/IMGeo2018/issues/37), [\#
 -   Hernoemen ‘sluis’ naar ‘sluisdeur’.
 
 **Huidige situatie** In de BGT catalogus worden de volgende afbakeningsregels
-voor gemaal, sluis en stuw gegeven:  
-  
+voor gemaal, sluis en stuw gegeven:
+
 *Tot deze typen kunstwerkdelen behoren die objecten die niet tot een ander
 BGT-objecttype behoren. Dit betekent in de regel dat bij een gemaal de bakken
 waar het water door wordt geleid tot dat object behoren. Een pand waarin de
-pompen staan, vormt als pand inhoud van de BGT.*  
-  
+pompen staan, vormt als pand inhoud van de BGT.*
+
 *Bij een sluiscomplex behoren alleen de sluisdeuren tot BGT-inhoud en bij een
 stuw uitsluitend de klep of schuif.*  
-*Sluisdeuren worden in gesloten stand in het BGT-bestand opgenomen.*  
-  
+*Sluisdeuren worden in gesloten stand in het BGT-bestand opgenomen.*
+
 **Nieuwe situatie** Het voorstel is om de volgende afbakeningsregels voor
-gemaal, sluis en stuw in de BGT gegevenscatalogus op te nemen:  
-  
+gemaal, sluis en stuw in de BGT gegevenscatalogus op te nemen:
+
 *Bij een gemaal worden de eventueel aanwezige bakken waar het water door wordt
-geleid als gemaaldeel opgenomen in de BGT. *  
-  
+geleid als gemaaldeel opgenomen in de BGT. *
+
 *De eventuele overige objecten zoals muren, kademuren, panden en overbruggingen
 vormen als zodanig inhoud van de BGT. Over al deze relevante BGT-objecten is het
 mogelijk om het, niet verplichte, IMGeo functioneel gebied gemaalcomplex op te
 nemen.*  
 *Nadere typeringen van gemaal wordt beschouwd als beheerinformatie en niet
-opgenomen in de BGT.*  
-  
+opgenomen in de BGT.*
+
 *Bij een sluis behoren alleen de sluisdeuren, in gesloten stand, tot
-BGT-inhoud.*  
-  
+BGT-inhoud.*
+
 *De eventuele overige objecten zoals muren, kademuren, panden en overbruggingen
 vormen als zodanig inhoud van de BGT. Over al deze relevante BGT-objecten is het
 mogelijk om het, niet verplichte, IMGeo functioneel gebied sluiscomplex op te
 nemen.*  
 *Nadere typeringen van sluis wordt beschouwd als beheerinformatie en niet
-opgenomen in de BGT.*  
-  
+opgenomen in de BGT.*
+
 *Bij een stuw behoort uitsluitend de klep of schuif waarover het water kan
 stromen tot BGT-inhoud.*  
 *De eventueel aanwezige bakken waar het water door wordt geleid, worden als
@@ -373,11 +431,11 @@ panden en overbruggingen vormen als zodanig inhoud van de BGT. Over al deze
 relevante BGT-objecten is het mogelijk om het, niet verplichte, IMGeo
 functioneel gebied stuwcomplex op te nemen.*  
 *Nadere typeringen van stuw wordt beschouwd als beheerinformatie en niet
-opgenomen in de BGT.*  
-  
+opgenomen in de BGT.*
+
 **Onderbouwing** Met deze afbakeningsregels sluit de BGT beter aan op de
-afbakeningsregels van de waterwereld (IMWA).  
-  
+afbakeningsregels van de waterwereld (IMWA).
+
 **Impact** De impact van dit voorstel wordt ingeschat op ‘**laag tot zeer
 laag**’:
 
@@ -417,8 +475,8 @@ Github-issue(s)** [\#14](https://github.com/Geonovum/IMGeo2018/issues/14), [\#
 Scheiding.
 
 Bij bronhouders zijn er onduidelijkheden en interpretatieverschillen wanneer een
-situatie met welk type Scheiding moet worden afgebakend.  
-  
+situatie met welk type Scheiding moet worden afgebakend.
+
 **Nieuwe situatie** Het voorstel is om de volgende beslisboom op te nemen in de
 BGT catalogus voor de afbakening van Scheidingen van het type ‘muur’,
 ‘kademuur’, ‘keermuur’, ‘damwand’, en ‘dam’.
@@ -427,8 +485,8 @@ N.B. toevoegen beslisboom
 
 **Onderbouwing** Met deze wijziging worden meer eisen opgelegd aan de afbakening
 van overbruggingsdeel en tunneldeel, waardoor afbakening door bronhouders
-gemakkelijker en uniformer wordt.  
-  
+gemakkelijker en uniformer wordt.
+
 **Impact** De impact van dit voorstel wordt ingeschat op ‘laag tot zeer laag’:
 
 -   *Verplicht/niet verplicht:* dit betreft een wijziging in het verplichte deel
