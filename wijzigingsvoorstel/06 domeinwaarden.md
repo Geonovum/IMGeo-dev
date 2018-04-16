@@ -279,8 +279,7 @@ alle typen van kunstwerdeel die voorkomen in de openbare ruimte. Vanuit
 bronhouders en leveranciers, en de aansluiting met IMBOR is de wens geuit om
 deze classificaties op te nemen in IMGeo. 
 
-Uitbreiden van typen bij Bord
------------------------------
+### typen bij Bord
 
 Gerelateerde
 Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
