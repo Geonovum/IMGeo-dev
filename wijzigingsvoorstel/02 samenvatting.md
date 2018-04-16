@@ -75,3 +75,47 @@ Overzichtstabel IMGeo objecten, attributen en domeinwaarden na overnemen
 voorstellen.
 
 ![](media/2d6b0edd13502093c2cead3fe5d4daa2.png)
+
+Implementatie-advies
+--------------------
+
+In zijn algemeenheid geldt het volgende implementatie-advies
+
+**Ontwerpprincipes**
+
+**Objecttypen**
+
+**Samenvoegen objecttypen**
+
+Nieuwe schema,
+
+implementeren en bestaande gegevens
+
+**Attributen**
+
+**Uitbreiden** Nieuwe
+
+Verplicht, dan centraal op default-waarde ‘transitie’ zetten
+
+Niet-verplicht
+
+**Uitbreiden domeinwaarden**
+
+**Hernoemen domeinwaarden**
+
+eenmalig centraal omzetten, centrale BGT keten over op nieuwe domeinwaarden;
+overgangsperiode normaliseren oude naar nieuwe , na overgangsperiode alleen nog
+nieuwe waarde accepteren
+
+Verwijderen:
+
+Werkafspraak met bronhouders dat zij omclassificeren, danwel indien mogelijk
+centraal omzetten.
+
+Nieuwe domeinwaardenlijsten implementeren, keten open op nieuwe versie als alle
+bronhouders op nieuwe software zitten.
+
+**Definities en afbakeningsregels**
+
+Bronhouders controleren nieuwe afbakeningsregels en definities tegen bestaande
+populatie van objecten

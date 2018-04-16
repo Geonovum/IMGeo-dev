@@ -10,25 +10,23 @@ Toevoegen 'verkeersdrempel' aan rijbaan auto(snel)weg en fietspad van Wegdeel
 Gerelateerde
 Github-issue(s): [\#18](https://github.com/Geonovum/IMGeo2018/issues/18).   
   
-*Wat is de huidige situatie?*  
-In IMGeo komt de plus-functie 'verkeerdrempel' voor bij bgt-functies 'rijbaan
-regionale weg' en 'rijbaan lokale weg'. Een plus-functie is een nadere
-detaillering van een bgt-functie, vergelijkbaar met bgt-fysiekvoorkomen
-'gesloten verharding' en plus-fysiekvoorkomen 'asfalt'.  
+**Huidige situatie** In IMGeo komt de plus-functie 'verkeerdrempel' voor bij
+bgt-functies 'rijbaan regionale weg' en 'rijbaan lokale weg'. Een plus-functie
+is een nadere detaillering van een bgt-functie, vergelijkbaar met
+bgt-fysiekvoorkomen 'gesloten verharding' en plus-fysiekvoorkomen 'asfalt'.  
   
-*Wat wordt de nieuwe situatie?*  
-In IMGeo wordt verkeerdrempel als plus-functie toegevoegd aan de bgt-functies
-'rijbaan autosnelweg', 'rijbaan autoweg' en 'fietspad'. Zie voor meer informatie
-de [concept-tabel in
+**Nieuwe situatie** In IMGeo wordt verkeerdrempel als plus-functie toegevoegd
+aan de bgt-functies 'rijbaan autosnelweg', 'rijbaan autoweg' en 'fietspad'. Zie
+voor meer informatie de [concept-tabel in
 Github](https://github.com/Geonovum/IMGeo2018/raw/master/wijzigingsvoorstel/media/20180328_IMGeo2018_classificaties_concept_wijzigingsvoorstel.xlsx)voor
 objecten, classificaties en geometrietypen.   
   
-*Waarom deze wijziging?*  
-Verkeersdrempels komen ook voor op autosnelwegen, autowegen en fietspaden. Om
-die reden is het verzoek ingediend om verkeerdrempel als plus-functie ook toe te
-voegen aan die functies.  
+**Onderbouwing** Verkeersdrempels komen ook voor op autosnelwegen, autowegen en
+fietspaden. Om die reden is het verzoek ingediend om verkeerdrempel als
+plus-functie ook toe te voegen aan die functies.  
   
-*Wat is de impact?*  
+**Impact**
+
 Dit voorstel betreft een uitbreiding van functies in het optionele deel van
 IMGeo. De impact is naar verwachting zeer laag.  
   
@@ -38,60 +36,112 @@ Uitbreiden van fysieke voorkomens bij Wegdeel
 ---------------------------------------------
 
 Gerelateerde
-Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#113](https://github.com/Geonovum/IMGeo2018/issues/113), [\#117](https://github.com/Geonovum/IMGeo2018/issues/117), [\#173](https://github.com/Geonovum/IMGeo2018/issues/173).   
+Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),  [\#117](https://github.com/Geonovum/IMGeo2018/issues/117).   
   
-*Wat is de huidige situatie?*  
-In de BGT hebben een Wegdeel, Ondersteunend Wegdeel, BegroeidTerreindeel en
-OnbegroeidTerreindeel een verzameling van typen/classificaties voor de kenmerken
-bgt- en plus-fysiekvoorkomen.   
+**Huidige situatie** In IMGeo heeft een Wegdeel een verzameling van typen
+verharding voor het fysieke voorkomen. Deze lijst is echter niet compleet voor
+alle typen verharding die voorkomen in de openbare ruimte.  
   
-*Wat wordt de nieuwe situatie?*  
-Het voorstel is om in IMGeo de classificaties voor bgt- en plus-fysiekvoorkomen
-als volgt uit te breiden of te hernoemen:  
-  
-Wegdeel:   
-- Het plus-fysiekvoorkomen bij 'gesloten verharding wordt uitgebreid met 'hout',
-'metaal' en 'kunststof'.  
-- Het plus-fysiekvoorkomen 'boomschors' bij 'onverhard' wordt hernoemd naar
-'houtsnippers'.  
-- Het plus-fysiekvoorkomen bij 'onverhard' wordt uitgebreid met 'gras'.  
-  
-OndersteunendWegdeel:  
-- Het plus-fysiekvoorkomen 'boomschors' bij 'onverhard' wordt hernoemd naar
-'houtsnippers'.  
-  
-OnbegroeidTerreindeel:  
-- Het plus-fysiekvoorkomen 'boomschors' bij 'onverhard' wordt hernoemd naar
-'houtsnippers'.  
-- Het bgt-fysiekvoorkomen 'zand' wordt hernoemd naar 'zandvlakte'.  
-  
-BegroeidTerreindeel:  
-- Het plus-fysiekvoorkomen bij 'groenvoorziening' wordt uitgebreid met 'haag'.  
-  
-Zie voor meer informatie de [concept-tabel in
-Github](https://github.com/Geonovum/IMGeo2018/raw/master/wijzigingsvoorstel/media/20180328_IMGeo2018_classificaties_concept_wijzigingsvoorstel.xlsx) voor
-objecten, classificaties en geometrietypen.   
-  
-*Waarom deze wijziging?*  
-De classificaties voor plus-fysiekvoorkomen bij Wegdeel waren niet volledig voor
-alle toegepaste materialen (houten bruggetjes)en worden dus uitgebreid. De term
-'houtsnippers' is een generiekere term die in o.a. Beheer Openbare Ruimte (BOR)
-wordt toegepast i.p.v. 'boomschors'. 'Gras' als fysievoorkomen bij een Wegdeel
-komt o.a. voor bij een spoorbaan/trambaan.  Bij OnbegroeidTerreindeel kwam
-'zand' als classificatie zowel voor als plus-fysiekvoorkomen bij 'onverhard' en
-als bgt-fysiekvoorkomen; dit is niet consistent. Voor hagen is de wens om onder
-een VegatatieObject 'haag' een groenvoorzieningvlak met nadere typering haag te
-leggen in de opdelende vlakkenlaag.  
-  
-*Wat is de impact?*  
-Dit voorstel betreft een zowel een uitbreiding in classificaties als een
-hernoeming van verplichte en niet-verplichte classificaties. Voor eerste
-categorie zal de impact laag zijn, voor de tweede categorie zal de impact groter
-zijn omdat bestaande classificaties  dienen te worden omgezet (automatisch
-centraal in de BGT keten of via natuurlijk mutatieproces bij bronhouder).
+**Nieuwe situatie** Het voorstel is om in IMGeo de domeinwaarden voor het
+fysieke voorkomen van Wegdeel als volgt uit te breiden
 
-Hernoemen ‘boomschors’ naar ‘houtsnippers’ bij Wegdeel
-------------------------------------------------------
+-   Het plus-fysiekvoorkomen bij 'gesloten verharding wordt uitgebreid met
+    'hout', 'metaal' en 'kunststof'.
+
+hout
+
+metaal
+
+kunststof
+
+-   Het plus-fysiekvoorkomen bij 'onverhard' wordt uitgebreid met 'gras'.
+
+gras
+
+**Onderbouwing**  
+De classificaties voor plus-fysiekvoorkomen bij Wegdeel waren niet volledig voor
+alle toegepaste materialen (bijv. houten bruggetjes) en worden om die reden dus
+uitgebreid om beter aan te sluiten bij de praktijk. 'Gras' als fysieke voorkomen
+bij een Wegdeel komt o.a. voor bij een spoorbaan/trambaan. 
+
+**Impact** De impact van deze wijziging wordt ingeschat op ‘laag tot zeer laag’:
+
+-   *Verplicht/niet verplicht:* Dit betreft een wijziging in het niet-verplichte
+    deel van IMGeo.
+
+-   *Software:* er is aanpassing van de software nodig als gevolg van nieuwe
+    domeinwaardenlijsten.
+
+-   *Dataconversie:* bestaande gegevens hoeven niet te worden geconverteerd.
+
+-   *Inwinning:* bronhouders mogen de nieuwe typen verhardingen inwinnen en de
+    gegevens aanleveren aan de LV-BGT, dit is echter niet verplicht.
+
+-   *Samenhang basisregistraties:* er is geen impact voor andere
+    basisregistraties voorzien.
+
+**Implementatie-advies** Het advies is om de nieuwe domeinwaardenlijsten te
+implementeren in de software van bronhouders en BGT keten.
+
+Implementatie-afspraken dienen nader te worden bepaald.
+
+Hernoemen ‘boomschors’ naar ‘houtsnippers’ bij Wegdeel, OndersteunendWegdeel en OnbegroeidTerreindeel
+-----------------------------------------------------------------------------------------------------
+
+**Gerelateerde
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
+
+**Gerelateerde voorstel(len)** n.v.t.  
+
+
+**Huidige situatie** In IMGeo hebben een Wegdeel, OndersteunendWegdeel, en
+OnbegroeidTerreindeel een plus-fysiekvoorkomen ‘boomschors’ als nadere
+detaillering van het bgt-fysiekvoorkomen ‘onverhard’.
+
+**Nieuwe situatie** Het voorstel is om in IMGeo de term ‘boomschors’ te
+hernoemen naar ‘houtsnippers’ als plus-fysiekvoorkomen van Wegdeel,
+OndersteunendWegdeel en OnbegroeidTerreindeel.
+
+**Onderbouwing** De term 'houtsnippers' is een generiekere term die in o.a.
+Beheer Openbare Ruimte (BOR) wordt toegepast i.p.v. 'boomschors'.  
+  
+**Impact** De impact van dit voorstel wordt ingeschat op relatief ‘*laag*’.
+
+-   *Verplicht/niet verplicht:* Dit betreft een wijziging in het niet-verplichte
+    deel van IMGeo.
+
+-   *Software:* er is aanpassing van de software nodig door het beschikbaar
+    komen van nieuwe domeinwaardenlijsten.
+
+-   *Dataconversie:* bestaande gegevens dienen te worden geconverteerd.
+    Wegdelen, ondersteunende wegdelen en onbegroeide terreindelen met
+    plus-fysiekvookorkomen ‘boomschors’ dienen te worden omgeclassificieerd naar
+    ‘houtsnippers’.
+
+-   *Inwinning:* bronhouders hoeven geen gegevens opnieuw in te winnen.
+
+-   *Samenhang basisregistraties:* er is geen impact voor andere
+    basisregistraties voorzien.
+
+**Implementatie-advies** Het advies is om na implementatie van de nieuwe
+domeinwaardenlijsten in de centrale BGT ketensystemen:
+
+1.  Op enig moment centraal een dataconversie te doen, waarbij objecten Wegdeel,
+    OndersteunendWegdeel en OnbegroeidTerreindeel met plus-fysiekvoorkomen
+    ‘boomschors’ ‘plusinrit’ worden hernoemd naar ‘toegangsweg’. Gebruikers
+    krijgen vanaf dat moment enkel het nieuwe fysieke voorkomen ‘houtsnippers’
+    geleverd.
+
+2.  Een overgangsperiode (bijvoorbeeld ½ jaar) af te spreken waarin bronhouders
+    objecten met zowel het oude fysieke voorkomen ‘boomschors’ als het nieuwe
+    fysieke voorkomen ‘houtsnippers’ mogen aanleveren.
+
+3.  Leveringen met daarin objecten met het oude fysieke voorkomen ‘boomschors’
+    bij het innameportaal te normaliseren naar het nieuwe fysieke voorkomen
+    ‘houtsnippers’.
+
+4.  Na de overgangsperiode enkel leveringen met het nieuwe fysieke voorkomen
+    ‘houtsnippers’ te accepteren in de BGT keten.
 
 Hernoemen bgt-functie ‘inrit’ naar ‘toegangsweg’ bij Wegdeel
 ------------------------------------------------------------
@@ -158,81 +208,359 @@ gerelateerde voorstellen worden ingevoerd.
 Verplaatsen functies 'voetgangersgebied'en 'woonerf' van Wegdeel naar FunctioneelGebied
 ---------------------------------------------------------------------------------------
 
-Gerelateerde
-Github-issue(s): [\#167](https://github.com/Geonovum/IMGeo2018/issues/167).   
+**Gerelateerde
+Github-issue(s)** [\#167](https://github.com/Geonovum/IMGeo2018/issues/167).   
   
-*Wat is de huidige situatie?*  
-In de BGT heeft een Wegdeel de bgt-functies 'voetgangersgebied' en 'woonerf'.   
+**Huidige situatie** In IMGeo heeft een Wegdeel de bgt-functies
+'voetgangersgebied' en 'woonerf'. 
+
+**Nieuwe situatie** Het voorstel is om in IMGeo de bgt-functies
+'voetgangersgebied' en 'woonerf' bij een Wegdeel te schrappen, en toe te voegen
+als plus-typen bij Functioneel Gebied.    
   
-*Wat wordt de nieuwe situatie?*  
-Het voorstel is om in IMGeo de bgt-functies 'voetgangersgebied' en 'woonerf' bij
-een Wegdeel te schrappen, en toe te voegen als plus-typen bij Functioneel
-Gebied. Zie voor meer informatie de [concept-tabel in
-Github](https://github.com/Geonovum/IMGeo2018/raw/master/wijzigingsvoorstel/media/20180328_IMGeo2018_classificaties_concept_wijzigingsvoorstel.xlsx) voor
-objecten, classificaties en geometrietypen.   
-  
-*Waarom deze wijziging?*  
+**Onderbouwing**  
 De functies "voetgangersgebied" en "woonerf" zijn niet duidelijk gedefinieerd.
 Zo zijn er voetgangersgebieden, waar soms ook vrachtwagens rijden om de winkels
 te bevoorraden en is er wel een duidelijke rijbaan aangelegd. Met borden wordt
 dan een voetgangerszone aangeduid. Dat geldt ook voor woonerven. De begrenzing
 is nogal afhankelijk van de plaatsing van de borden en van verkeersbesluiten.   
   
-*Wat is de impact?*  
-Dit voorstel betreft een wijziging in verplichte functies van de BGT. De
-betreffende Wegdelen dienen omgeclassificeerd te worden naar 'voetpad' voor
-bijvoorbeeld 'voetgangersgebied' of 'rijbaan lokale weg' en/of 'voetpad' voor
-'woonerf'.   
-  
-Implementatie-afspraken dienen nader te worden bepaald.
+**Impact** De impact van deze wijziging wordt ingeschat op ‘laag tot gemiddeld’:
+
+-   *Verplicht/niet verplicht:* Dit betreft een wijziging in het verplichte deel
+    van IMGeo.
+
+-   *Software:* er is aanpassing van de software nodig als gevolg van nieuwe
+    domeinwaardenlijsten.
+
+-   *Dataconversie:* bestaande gegevens dienen te worden geconverteerd zodanig
+    dat bestaande wegdelen met bgt-functie ‘voetgangersgebied’ of ‘woonerf’
+    worden omgezet naar een wegdeel met een andere functie.
+
+-   *Inwinning:* bronhouders dienen de bestaande wegdelen na te lopen om vast te
+    stellen naar welke andere functie een voetgangersgebied en woonerf moet
+    worden omgezet.
+
+-   *Samenhang basisregistraties:* er is geen impact voor andere
+    basisregistraties voorzien; IMGeo past met dit voorstel aan op de andere
+    registraties en systematieken.
+
+**Implementatie-advies** Het implementatieadvies is als volgt:
+
+1.  Stel een werkafspraak op dat wegdelen met bgt-functie ‘voetgangersgebied’ en
+    ‘woonerf’ omgezet worden naar een wegdeel met een andere type. Onderzoek
+    daarbij of deze conversie via een eenmalige centrale conversie in LV-BGT of
+    BRAVO mogelijk is, anders via regulier mutatieproces door bronhouders.
+
+2.  Pas de software van bronhouders en BGT keten aan op de nieuwe
+    domeinwaardenlijsten.
+
+3.  Laat bronhouders de objecten van Stap 1 muteren van inrichtend naar
+    opdelend, waarbij de betreffende objecten een gat maken in het onderliggende
+    of bovenliggede object op maaiveld. Gebruik eventueel om de voortgang te
+    moniteren het kwalititeitsdashboard.
+
+Implementatie-afspraken/termijnen dienen nader te worden bepaald.
 
 Toevoegen 'rammelstrook' en 'rabatstrook' aan 'berm' van OndersteunendWegdeel
 -----------------------------------------------------------------------------
 
-Gerelateerde
-Github-issue(s): [\#106](https://github.com/Geonovum/IMGeo2018/issues/18).   
+**Gerelateerde
+Github-issue(s)** [\#106](https://github.com/Geonovum/IMGeo2018/issues/18).
+
+**Gerelateerde voorstel(len)** n.v.t.   
   
-*Wat is de huidige situatie?*  
-In IMGeo heeft een OndersteunendWegdeel onder meer als bgt-functie 'berm' met
-definitie 'Een strook grond langs een weg of spoorweg.' Een berm kan niet nader
-verbijzonderd worden.  
+**Huidige situatie** In IMGeo heeft een OndersteunendWegdeel onder meer als
+bgt-functie 'berm' met definitie 'Een strook grond langs een weg of spoorweg.'
+Een berm kan niet nader verbijzonderd worden.  
   
-*Wat wordt de nieuwe situatie?*  
-In IMGeo wordt plus-functie 'rabatstrook' en 'rammelstrook' toegevoegd aan
-bgt-functie 'berm' van een OndersteunendWegdeel met de volgende definities:  
+**Nieuwe situatie** In IMGeo wordt een plus-functie 'rabatstrook' en
+'rammelstrook' toegevoegd aan bgt-functie 'berm' van een OndersteunendWegdeel
+met de volgende definities:
+
+>   **rammelstrook** Een verkeersmaatregel bestaande uit een strook met ribbels
+>   op de weg.   
+>   **rabatstrook** Een kantstrook, van ander materiaal en/of in een afstekende
+>   kleur, langs het verharde wegdek.
+
+**Onderbouwing** Vanuit verschillende bronhouders en wegbeheerders, en de
+aansluiting met IMBOR komt de wens om rammelstrook en rabatstrook op te nemen in
+IMGeo.  
   
-**rammelstrook** Een verkeersmaatregel bestaande uit een strook met ribbels op
-de weg.   
-**rabatstrook** Een kantstrook, van ander materiaal en/of in een afstekende
-kleur, langs het verharde wegdek.  
-  
-*Waarom deze wijziging?*  
-Vanuit verschillende bronhouders en wegbeheerders, en de aansluiting met IMBOR
-komt de wens om rammelstrook en rabatstrook op te nemen in IMGeo.  
-  
-*Wat is de impact?*  
-Dit voorstel betreft een uitbreiding van functies in het optionele deel van
-IMGeo. De impact is naar verwachting zeer laag.  
-  
+**Impact** De impact van deze wijziging wordt ingeschat op ‘laag tot zeer laag’:
+
+-   *Verplicht/niet verplicht:* Dit betreft een wijziging in het niet-verplichte
+    deel van IMGeo.
+
+-   *Software:* er is aanpassing van de software nodig als gevolg van nieuwe
+    domeinwaardenlijsten.
+
+-   *Dataconversie:* bestaande gegevens hoeven niet te worden geconverteerd.
+
+-   *Inwinning:* bronhouders mogen de rammelstroken en rabatstroken inwinnen en
+    de gegevens aanleveren aan de LV-BGT, dit is echter niet verplicht.
+
+-   *Samenhang basisregistraties:* er is geen impact voor andere
+    basisregistraties voorzien.
+
+**Implementatie-advies** Het advies is om de nieuwe domeinwaardenlijsten te
+implementeren in de software van bronhouders en BGT keten.
+
 Implementatie-afspraken dienen nader te worden bepaald.
 
-Uitbreiden van fysieke voorkomens bij OndersteunendWegdeel
-----------------------------------------------------------
+Hernoemen ‘boomschors’ naar ‘houtsnippers’ bij Wegdeel, OndersteunendWegdeel en OnbegroeidTerreindeel
+-----------------------------------------------------------------------------------------------------
 
-Hernoemen ‘boomschors’ naar ‘houtsnippers’ bij OndersteunendWegdeel
--------------------------------------------------------------------
+Gerelateerde
+Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70).   
+  
+**Huidige situatie** In de BGT hebben een Wegdeel, Ondersteunend Wegdeel,
+BegroeidTerreindeel en OnbegroeidTerreindeel een verzameling van
+typen/classificaties voor de kenmerken bgt- en plus-fysiekvoorkomen.   
+  
+**Nieuwe situatie** Het voorstel is om in IMGeo de classificaties voor bgt- en
+plus-fysiekvoorkomen als volgt uit te breiden of te hernoemen:  
+  
+Wegdeel:   
+- Het plus-fysiekvoorkomen bij 'gesloten verharding wordt uitgebreid met 'hout',
+'metaal' en 'kunststof'.  
+- Het plus-fysiekvoorkomen 'boomschors' bij 'onverhard' wordt hernoemd naar
+'houtsnippers'.  
+- Het plus-fysiekvoorkomen bij 'onverhard' wordt uitgebreid met 'gras'.  
+  
+OndersteunendWegdeel:  
+- Het plus-fysiekvoorkomen 'boomschors' bij 'onverhard' wordt hernoemd naar
+'houtsnippers'.  
+  
+OnbegroeidTerreindeel:  
+- Het plus-fysiekvoorkomen 'boomschors' bij 'onverhard' wordt hernoemd naar
+'houtsnippers'.  
+- Het bgt-fysiekvoorkomen 'zand' wordt hernoemd naar 'zandvlakte'.  
+  
+BegroeidTerreindeel:  
+- Het plus-fysiekvoorkomen bij 'groenvoorziening' wordt uitgebreid met 'haag'.  
+  
+Zie voor meer informatie de [concept-tabel in
+Github](https://github.com/Geonovum/IMGeo2018/raw/master/wijzigingsvoorstel/media/20180328_IMGeo2018_classificaties_concept_wijzigingsvoorstel.xlsx) voor
+objecten, classificaties en geometrietypen.   
+  
+*Waarom deze wijziging?*  
+De classificaties voor plus-fysiekvoorkomen bij Wegdeel waren niet volledig voor
+alle toegepaste materialen (houten bruggetjes)en worden dus uitgebreid. De term
+'houtsnippers' is een generiekere term die in o.a. Beheer Openbare Ruimte (BOR)
+wordt toegepast i.p.v. 'boomschors'. 'Gras' als fysievoorkomen bij een Wegdeel
+komt o.a. voor bij een spoorbaan/trambaan.  Bij OnbegroeidTerreindeel kwam
+'zand' als classificatie zowel voor als plus-fysiekvoorkomen bij 'onverhard' en
+als bgt-fysiekvoorkomen; dit is niet consistent. Voor hagen is de wens om onder
+een VegatatieObject 'haag' een groenvoorzieningvlak met nadere typering haag te
+leggen in de opdelende vlakkenlaag.  
+  
+*Wat is de impact?*  
+Dit voorstel betreft een zowel een uitbreiding in classificaties als een
+hernoeming van verplichte en niet-verplichte classificaties. Voor eerste
+categorie zal de impact laag zijn, voor de tweede categorie zal de impact groter
+zijn omdat bestaande classificaties  dienen te worden omgezet (automatisch
+centraal in de BGT keten of via natuurlijk mutatieproces bij bronhouder).
 
 Uitbreiden van fysieke voorkomens bij BegroeidTerreindeel
 ---------------------------------------------------------
 
+Gerelateerde
+Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#113](https://github.com/Geonovum/IMGeo2018/issues/113), [\#117](https://github.com/Geonovum/IMGeo2018/issues/117), [\#173](https://github.com/Geonovum/IMGeo2018/issues/173).   
+  
+  
+BegroeidTerreindeel:  
+- Het plus-fysiekvoorkomen bij 'groenvoorziening' wordt uitgebreid met 'haag'.  
+  
+Zie voor meer informatie de [concept-tabel in
+Github](https://github.com/Geonovum/IMGeo2018/raw/master/wijzigingsvoorstel/media/20180328_IMGeo2018_classificaties_concept_wijzigingsvoorstel.xlsx) voor
+objecten, classificaties en geometrietypen.   
+  
+*Waarom deze wijziging?*  
+De classificaties voor plus-fysiekvoorkomen bij Wegdeel waren niet volledig voor
+alle toegepaste materialen (houten bruggetjes)en worden dus uitgebreid. De term
+'houtsnippers' is een generiekere term die in o.a. Beheer Openbare Ruimte (BOR)
+wordt toegepast i.p.v. 'boomschors'. 'Gras' als fysievoorkomen bij een Wegdeel
+komt o.a. voor bij een spoorbaan/trambaan.  Bij OnbegroeidTerreindeel kwam
+'zand' als classificatie zowel voor als plus-fysiekvoorkomen bij 'onverhard' en
+als bgt-fysiekvoorkomen; dit is niet consistent. Voor hagen is de wens om onder
+een VegatatieObject 'haag' een groenvoorzieningvlak met nadere typering haag te
+leggen in de opdelende vlakkenlaag.  
+  
+*Wat is de impact?*  
+Dit voorstel betreft een zowel een uitbreiding in classificaties als een
+hernoeming van verplichte en niet-verplichte classificaties. Voor eerste
+categorie zal de impact laag zijn, voor de tweede categorie zal de impact groter
+zijn omdat bestaande classificaties  dienen te worden omgezet (automatisch
+centraal in de BGT keten of via natuurlijk mutatieproces bij bronhouder).
+
 Hernoemen fysieke voorkomens bij BegroeidTerreindeel
 ----------------------------------------------------
+
+Gerelateerde
+Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#113](https://github.com/Geonovum/IMGeo2018/issues/113), [\#117](https://github.com/Geonovum/IMGeo2018/issues/117), [\#173](https://github.com/Geonovum/IMGeo2018/issues/173).   
+  
+*Wat is de huidige situatie?*  
+In de BGT hebben een Wegdeel, Ondersteunend Wegdeel, BegroeidTerreindeel en
+OnbegroeidTerreindeel een verzameling van typen/classificaties voor de kenmerken
+bgt- en plus-fysiekvoorkomen.   
+  
+*Wat wordt de nieuwe situatie?*  
+Het voorstel is om in IMGeo de classificaties voor bgt- en plus-fysiekvoorkomen
+als volgt uit te breiden of te hernoemen:  
+  
+Wegdeel:   
+- Het plus-fysiekvoorkomen bij 'gesloten verharding wordt uitgebreid met 'hout',
+'metaal' en 'kunststof'.  
+- Het plus-fysiekvoorkomen 'boomschors' bij 'onverhard' wordt hernoemd naar
+'houtsnippers'.  
+- Het plus-fysiekvoorkomen bij 'onverhard' wordt uitgebreid met 'gras'.  
+  
+OndersteunendWegdeel:  
+- Het plus-fysiekvoorkomen 'boomschors' bij 'onverhard' wordt hernoemd naar
+'houtsnippers'.  
+  
+OnbegroeidTerreindeel:  
+- Het plus-fysiekvoorkomen 'boomschors' bij 'onverhard' wordt hernoemd naar
+'houtsnippers'.  
+- Het bgt-fysiekvoorkomen 'zand' wordt hernoemd naar 'zandvlakte'.  
+  
+BegroeidTerreindeel:  
+- Het plus-fysiekvoorkomen bij 'groenvoorziening' wordt uitgebreid met 'haag'.  
+  
+Zie voor meer informatie de [concept-tabel in
+Github](https://github.com/Geonovum/IMGeo2018/raw/master/wijzigingsvoorstel/media/20180328_IMGeo2018_classificaties_concept_wijzigingsvoorstel.xlsx) voor
+objecten, classificaties en geometrietypen.   
+  
+*Waarom deze wijziging?*  
+De classificaties voor plus-fysiekvoorkomen bij Wegdeel waren niet volledig voor
+alle toegepaste materialen (houten bruggetjes)en worden dus uitgebreid. De term
+'houtsnippers' is een generiekere term die in o.a. Beheer Openbare Ruimte (BOR)
+wordt toegepast i.p.v. 'boomschors'. 'Gras' als fysievoorkomen bij een Wegdeel
+komt o.a. voor bij een spoorbaan/trambaan.  Bij OnbegroeidTerreindeel kwam
+'zand' als classificatie zowel voor als plus-fysiekvoorkomen bij 'onverhard' en
+als bgt-fysiekvoorkomen; dit is niet consistent. Voor hagen is de wens om onder
+een VegatatieObject 'haag' een groenvoorzieningvlak met nadere typering haag te
+leggen in de opdelende vlakkenlaag.  
+  
+*Wat is de impact?*  
+Dit voorstel betreft een zowel een uitbreiding in classificaties als een
+hernoeming van verplichte en niet-verplichte classificaties. Voor eerste
+categorie zal de impact laag zijn, voor de tweede categorie zal de impact groter
+zijn omdat bestaande classificaties  dienen te worden omgezet (automatisch
+centraal in de BGT keten of via natuurlijk mutatieproces bij bronhouder).
 
 Uitbreiden van fysieke voorkomens bij OnbegroeidTerreindeel
 -----------------------------------------------------------
 
-Hernoemen fysieke voorkomen bij OnbegroeidTerreindeel
------------------------------------------------------
+Gerelateerde
+Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#113](https://github.com/Geonovum/IMGeo2018/issues/113), [\#117](https://github.com/Geonovum/IMGeo2018/issues/117), [\#173](https://github.com/Geonovum/IMGeo2018/issues/173).   
+  
+*Wat is de huidige situatie?*  
+In de BGT hebben een Wegdeel, Ondersteunend Wegdeel, BegroeidTerreindeel en
+OnbegroeidTerreindeel een verzameling van typen/classificaties voor de kenmerken
+bgt- en plus-fysiekvoorkomen.   
+  
+*Wat wordt de nieuwe situatie?*  
+Het voorstel is om in IMGeo de classificaties voor bgt- en plus-fysiekvoorkomen
+als volgt uit te breiden of te hernoemen:  
+  
+Wegdeel:   
+- Het plus-fysiekvoorkomen bij 'gesloten verharding wordt uitgebreid met 'hout',
+'metaal' en 'kunststof'.  
+- Het plus-fysiekvoorkomen 'boomschors' bij 'onverhard' wordt hernoemd naar
+'houtsnippers'.  
+- Het plus-fysiekvoorkomen bij 'onverhard' wordt uitgebreid met 'gras'.  
+  
+OndersteunendWegdeel:  
+- Het plus-fysiekvoorkomen 'boomschors' bij 'onverhard' wordt hernoemd naar
+'houtsnippers'.  
+  
+OnbegroeidTerreindeel:  
+- Het plus-fysiekvoorkomen 'boomschors' bij 'onverhard' wordt hernoemd naar
+'houtsnippers'.  
+- Het bgt-fysiekvoorkomen 'zand' wordt hernoemd naar 'zandvlakte'.  
+  
+BegroeidTerreindeel:  
+- Het plus-fysiekvoorkomen bij 'groenvoorziening' wordt uitgebreid met 'haag'.  
+  
+Zie voor meer informatie de [concept-tabel in
+Github](https://github.com/Geonovum/IMGeo2018/raw/master/wijzigingsvoorstel/media/20180328_IMGeo2018_classificaties_concept_wijzigingsvoorstel.xlsx) voor
+objecten, classificaties en geometrietypen.   
+  
+*Waarom deze wijziging?*  
+De classificaties voor plus-fysiekvoorkomen bij Wegdeel waren niet volledig voor
+alle toegepaste materialen (houten bruggetjes)en worden dus uitgebreid. De term
+'houtsnippers' is een generiekere term die in o.a. Beheer Openbare Ruimte (BOR)
+wordt toegepast i.p.v. 'boomschors'. 'Gras' als fysievoorkomen bij een Wegdeel
+komt o.a. voor bij een spoorbaan/trambaan.  Bij OnbegroeidTerreindeel kwam
+'zand' als classificatie zowel voor als plus-fysiekvoorkomen bij 'onverhard' en
+als bgt-fysiekvoorkomen; dit is niet consistent. Voor hagen is de wens om onder
+een VegatatieObject 'haag' een groenvoorzieningvlak met nadere typering haag te
+leggen in de opdelende vlakkenlaag.  
+  
+*Wat is de impact?*  
+Dit voorstel betreft een zowel een uitbreiding in classificaties als een
+hernoeming van verplichte en niet-verplichte classificaties. Voor eerste
+categorie zal de impact laag zijn, voor de tweede categorie zal de impact groter
+zijn omdat bestaande classificaties  dienen te worden omgezet (automatisch
+centraal in de BGT keten of via natuurlijk mutatieproces bij bronhouder).
+
+Hernoemen ‘zand’ naar ‘zandvlakte’ bij fysieke voorkomen van OnbegroeidTerreindeel
+----------------------------------------------------------------------------------
+
+Gerelateerde
+Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#113](https://github.com/Geonovum/IMGeo2018/issues/113), [\#117](https://github.com/Geonovum/IMGeo2018/issues/117), [\#173](https://github.com/Geonovum/IMGeo2018/issues/173).   
+  
+*Wat is de huidige situatie?*  
+In de BGT hebben een Wegdeel, Ondersteunend Wegdeel, BegroeidTerreindeel en
+OnbegroeidTerreindeel een verzameling van typen/classificaties voor de kenmerken
+bgt- en plus-fysiekvoorkomen.   
+  
+*Wat wordt de nieuwe situatie?*  
+Het voorstel is om in IMGeo de classificaties voor bgt- en plus-fysiekvoorkomen
+als volgt uit te breiden of te hernoemen:  
+  
+Wegdeel:   
+- Het plus-fysiekvoorkomen bij 'gesloten verharding wordt uitgebreid met 'hout',
+'metaal' en 'kunststof'.  
+- Het plus-fysiekvoorkomen 'boomschors' bij 'onverhard' wordt hernoemd naar
+'houtsnippers'.  
+- Het plus-fysiekvoorkomen bij 'onverhard' wordt uitgebreid met 'gras'.  
+  
+OndersteunendWegdeel:  
+- Het plus-fysiekvoorkomen 'boomschors' bij 'onverhard' wordt hernoemd naar
+'houtsnippers'.  
+  
+OnbegroeidTerreindeel:  
+- Het plus-fysiekvoorkomen 'boomschors' bij 'onverhard' wordt hernoemd naar
+'houtsnippers'.  
+- Het bgt-fysiekvoorkomen 'zand' wordt hernoemd naar 'zandvlakte'.  
+  
+BegroeidTerreindeel:  
+- Het plus-fysiekvoorkomen bij 'groenvoorziening' wordt uitgebreid met 'haag'.  
+  
+Zie voor meer informatie de [concept-tabel in
+Github](https://github.com/Geonovum/IMGeo2018/raw/master/wijzigingsvoorstel/media/20180328_IMGeo2018_classificaties_concept_wijzigingsvoorstel.xlsx) voor
+objecten, classificaties en geometrietypen.   
+  
+*Waarom deze wijziging?*  
+De classificaties voor plus-fysiekvoorkomen bij Wegdeel waren niet volledig voor
+alle toegepaste materialen (houten bruggetjes)en worden dus uitgebreid. De term
+'houtsnippers' is een generiekere term die in o.a. Beheer Openbare Ruimte (BOR)
+wordt toegepast i.p.v. 'boomschors'. 'Gras' als fysievoorkomen bij een Wegdeel
+komt o.a. voor bij een spoorbaan/trambaan.  Bij OnbegroeidTerreindeel kwam
+'zand' als classificatie zowel voor als plus-fysiekvoorkomen bij 'onverhard' en
+als bgt-fysiekvoorkomen; dit is niet consistent. Voor hagen is de wens om onder
+een VegatatieObject 'haag' een groenvoorzieningvlak met nadere typering haag te
+leggen in de opdelende vlakkenlaag.  
+  
+*Wat is de impact?*  
+Dit voorstel betreft een zowel een uitbreiding in classificaties als een
+hernoeming van verplichte en niet-verplichte classificaties. Voor eerste
+categorie zal de impact laag zijn, voor de tweede categorie zal de impact groter
+zijn omdat bestaande classificaties  dienen te worden omgezet (automatisch
+centraal in de BGT keten of via natuurlijk mutatieproces bij bronhouder).
 
 Verwijderen ‘greppel/droge sloot’ bij Waterdeel
 -----------------------------------------------

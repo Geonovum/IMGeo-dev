@@ -10,7 +10,7 @@ Opnemen definitie ‘maaiveld’ in BGT catalogus
 **Gerelateerde issue(s)**
 [\#156](https://github.com/Geonovum/IMGeo2018/issues/156)  
 
-*Gerelateerde voorstellen n.v.t.*
+**Gerelateerde voorstellen** n.v.t.
 
 **Huidige situatie** In de BGT catalogus komt de term ‘maaiveld’ voor zonder
 definitie of nadere toelichting.
@@ -45,8 +45,6 @@ onder het maaiveld wordt verstaan.*
     van de Basisregistratie Ondergrond (BRO).
 
 **Implementatie-advies** n.v.t.
-
-**Gerelateerde voorstellen**
 
 Opnemen inrichtende bouwwerken, kunstwerken, en scheidingen in de topologische structuur
 ----------------------------------------------------------------------------------------
