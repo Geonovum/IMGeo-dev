@@ -7,13 +7,39 @@ domeinwaarden.
 Toevoegen of uitbreiden
 -----------------------
 
-Plus-functie van Wegdeel
-------------------------
+In deze paragraaf staan de voorstellen voor het toevoegen en uitbreiden van
+domeinwaarden. De impact en het implementatie-advies wordt generiek beschreven:
 
-### 'verkeersdrempel' aan rijbaan auto(snel)weg en fietspad 
+**Impact** De impact van het toevoegen en uitbreiden van domeinwaarden wordt
+ingeschat op relatief ‘laag’:
 
-Gerelateerde
-Github-issue(s): [\#18](https://github.com/Geonovum/IMGeo2018/issues/18). 
+-   *Verplicht/niet verplicht:* Het betreft een uitbreiding of toevoeging in het
+    verplicht (bgt-)of niet-verplichte (plus-) deel van IMGeo.
+
+-   *Software:* er is aanpassing van de software nodig als gevolg van nieuwe
+    domeinwaardenlijsten.
+
+-   *Dataconversie:* bestaande gegevens hoeven niet te worden geconverteerd.
+
+-   *Inwinning:* voor bgt-classificaties moeten bronhouders de gegevens inwinnen
+    en aanleveren aan de LV-BGT, dit is verplicht. Voor plus-classificaties
+    mogen bronhouders de gegevens inwinnen en aanleveren aan de LV-BGT, dit is
+    niet verplicht.
+
+-   *Samenhang basisregistraties:* er is geen impact voor andere
+    basisregistraties voorzien.
+
+**Implementatie-advies** Het advies is om de nieuwe domeinwaardenlijsten te
+implementeren in de software van bronhouders en BGT keten. Met betreffende
+bronhouders dienen afspraken gemaakt te worden wanneer zij de nieuwe typen
+uiterlijk geleverd kunnen hebben.
+
+### Plus-functie van Wegdeel
+
+#### 'verkeersdrempel' aan rijbaan auto(snel)weg en fietspad 
+
+**Gerelateerde Github-issue(s)**
+[\#18](https://github.com/Geonovum/IMGeo2018/issues/18). 
 
 **Huidige situatie** In IMGeo komt de plus-functie 'verkeerdrempel' voor bij
 bgt-functies 'rijbaan regionale weg' en 'rijbaan lokale weg'. Een plus-functie
@@ -30,15 +56,7 @@ objecten, classificaties en geometrietypen. 
 fietspaden. Om die reden is het verzoek ingediend om verkeerdrempel als
 plus-functie ook toe te voegen aan die functies.
 
-**Impact**
-
-Dit voorstel betreft een uitbreiding van functies in het optionele deel van
-IMGeo. De impact is naar verwachting zeer laag.
-
-Implementatie-afspraken dienen nader te worden bepaald.
-
-Fysieke voorkomens bij Wegdeel
-------------------------------
+### Fysieke voorkomens bij Wegdeel
 
 Gerelateerde
 Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),  [\#117](https://github.com/Geonovum/IMGeo2018/issues/117). 
@@ -53,23 +71,23 @@ fysieke voorkomen van Wegdeel als volgt uit te breiden
 -   Het plus-fysiekvoorkomen bij 'gesloten verharding’ wordt uitgebreid met
     'hout', 'metaal' en 'kunststof'.
 
-###  ‘hout’ bij ‘gesloten verharding’
+####  ‘hout’ bij ‘gesloten verharding’
 
 >   *hout:* Gesloten verharding bestaande uit bijvoorbeeld planken of balken van
 >   hout.
 
-### ‘metaal’ bij ‘gesloten verharding’
+#### ‘metaal’ bij ‘gesloten verharding’
 
 >   *metaal:* Gesloten verharding bestaande uit materiaal van metaal.
 
-### ‘kunststof’ bij ‘gesloten verharding’
+#### ‘kunststof’ bij ‘gesloten verharding’
 
 >   *kunststof:* Synthetisch vervaardigd materiaal dat als verharding dient
 >   zoals kunstgras of kunststof toplagen op atletiekbanen.
 
 -   Het plus-fysiekvoorkomen bij 'onverhard' wordt uitgebreid met 'gras'.
 
-### ‘gras’ bij ‘onverhard’
+#### ‘gras’ bij ‘onverhard’
 
 >   *gras*: Onverhard met vegetatie bestaande uit grassen en/of grasachtigen.
 
@@ -79,29 +97,7 @@ alle toegepaste materialen (bijv. houten bruggetjes) en worden om die reden dus
 uitgebreid om beter aan te sluiten bij de praktijk. 'Gras' als fysieke voorkomen
 bij een Wegdeel komt o.a. voor bij een spoorbaan/trambaan. 
 
-**Impact** De impact van deze wijziging wordt ingeschat op ‘laag tot zeer laag’:
-
--   *Verplicht/niet verplicht:* Dit betreft een wijziging in het niet-verplichte
-    deel van IMGeo.
-
--   *Software:* er is aanpassing van de software nodig als gevolg van nieuwe
-    domeinwaardenlijsten.
-
--   *Dataconversie:* bestaande gegevens hoeven niet te worden geconverteerd.
-
--   *Inwinning:* bronhouders mogen de nieuwe typen verhardingen inwinnen en de
-    gegevens aanleveren aan de LV-BGT, dit is echter niet verplicht.
-
--   *Samenhang basisregistraties:* er is geen impact voor andere
-    basisregistraties voorzien.
-
-**Implementatie-advies** Het advies is om de nieuwe domeinwaardenlijsten te
-implementeren in de software van bronhouders en BGT keten.
-
-Implementatie-afspraken dienen nader te worden bepaald.
-
-Functies van OndersteunendWegdeel
----------------------------------
+### Functies van OndersteunendWegdeel
 
 **Gerelateerde
 Github-issue(s)** [\#106](https://github.com/Geonovum/IMGeo2018/issues/18).
@@ -116,12 +112,12 @@ Een berm kan niet nader verbijzonderd worden.
 'rammelstrook' toegevoegd aan bgt-functie 'berm' van een OndersteunendWegdeel
 met de volgende definities:
 
-### 'rammelstrook' bij 'berm' 
+#### 'rammelstrook' bij 'berm' 
 
 >   **rammelstrook** Een verkeersmaatregel bestaande uit een strook met ribbels
 >   op de weg. 
 
-### 'rabatstrook' bij 'berm' 
+#### 'rabatstrook' bij 'berm' 
 
 >   **rabatstrook** Een kantstrook, van ander materiaal en/of in een afstekende
 >   kleur, langs het verharde wegdek.
@@ -130,207 +126,7 @@ met de volgende definities:
 aansluiting met IMBOR komt de wens om rammelstrook en rabatstrook op te nemen in
 IMGeo.
 
-**Impact** De impact van deze wijziging wordt ingeschat op ‘laag tot zeer laag’:
-
--   *Verplicht/niet verplicht:* Dit betreft een wijziging in het niet-verplichte
-    deel van IMGeo.
-
--   *Software:* er is aanpassing van de software nodig als gevolg van nieuwe
-    domeinwaardenlijsten.
-
--   *Dataconversie:* bestaande gegevens hoeven niet te worden geconverteerd.
-
--   *Inwinning:* bronhouders mogen de rammelstroken en rabatstroken inwinnen en
-    de gegevens aanleveren aan de LV-BGT, dit is echter niet verplicht.
-
--   *Samenhang basisregistraties:* er is geen impact voor andere
-    basisregistraties voorzien.
-
-**Implementatie-advies** Het advies is om de nieuwe domeinwaardenlijsten te
-implementeren in de software van bronhouders en BGT keten.
-Implementatie-afspraken dienen nader te worden bepaald.
-
-Hernoemen
----------
-
-### ‘boomschors’ naar ‘houtsnippers’ bij Wegdeel, OndersteunendWegdeel en OnbegroeidTerreindeel
-
-**Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
-
-**Gerelateerde voorstel(len)** n.v.t.
-
-**Huidige situatie** In IMGeo hebben een Wegdeel, OndersteunendWegdeel, en
-OnbegroeidTerreindeel als nadere detaillering van het bgt-fysiekvoorkomen
-‘onverhard’ een plus-fysiekvoorkomen ‘boomschors’ met de volgende definitie:
-
-*boomschors* Onverhard met als deklaag boomschors
-
-**Nieuwe situatie** Het voorstel is om in IMGeo de term ‘boomschors’ te
-hernoemen naar ‘houtsnippers’ als plus-fysiekvoorkomen van Wegdeel,
-OndersteunendWegdeel en OnbegroeidTerreindeel met de volgende definitie
-
-*houtsnippers* Onverhard met als deklaag **houtsnippers of** boomschors
-
-**Onderbouwing** De term 'houtsnippers' is een generiekere term die in o.a.
-Beheer Openbare Ruimte (BOR) wordt toegepast i.p.v. 'boomschors'.
-
-**Impact** De impact van dit voorstel wordt ingeschat op relatief ‘*laag*’.
-
--   *Verplicht/niet verplicht:* Dit betreft een wijziging in het niet-verplichte
-    deel van IMGeo.
-
--   *Software:* er is aanpassing van de software nodig door het beschikbaar
-    komen van nieuwe domeinwaardenlijsten.
-
--   *Dataconversie:* bestaande gegevens dienen te worden geconverteerd.
-    Wegdelen, ondersteunende wegdelen en onbegroeide terreindelen met
-    plus-fysiekvookorkomen ‘boomschors’ dienen te worden omgeclassificieerd naar
-    ‘houtsnippers’.
-
--   *Inwinning:* bronhouders hoeven geen gegevens opnieuw in te winnen.
-
--   *Samenhang basisregistraties:* er is geen impact voor andere
-    basisregistraties voorzien.
-
-**Implementatie-advies** Het advies is om na implementatie van de nieuwe
-domeinwaardenlijsten in de centrale BGT ketensystemen:
-
-1.  Op enig moment centraal een dataconversie te doen, waarbij objecten Wegdeel,
-    OndersteunendWegdeel en OnbegroeidTerreindeel met plus-fysiekvoorkomen
-    ‘boomschors’ ‘plusinrit’ worden hernoemd naar ‘toegangsweg’. Gebruikers
-    krijgen vanaf dat moment enkel het nieuwe fysieke voorkomen ‘houtsnippers’
-    geleverd.
-
-2.  Een overgangsperiode (bijvoorbeeld ½ jaar) af te spreken waarin bronhouders
-    objecten met zowel het oude fysieke voorkomen ‘boomschors’ als het nieuwe
-    fysieke voorkomen ‘houtsnippers’ mogen aanleveren.
-
-3.  Leveringen met daarin objecten met het oude fysieke voorkomen ‘boomschors’
-    bij het innameportaal te normaliseren naar het nieuwe fysieke voorkomen
-    ‘houtsnippers’.
-
-4.  Na de overgangsperiode enkel leveringen met het nieuwe fysieke voorkomen
-    ‘houtsnippers’ te accepteren in de BGT keten.
-
-### ‘inrit’ naar ‘toegangsweg’ bij Wegdeel
-
-**Gerelateerde issue(s)**
-[\#126](https://github.com/Geonovum/IMGeo2018/issues/126)
-
-**Gerelateerde voorstel(len):**
-
--   Hernoemen bgt-functie ‘inrit’ naar ‘toegangsweg’ bij Wegdeel
-
--   Opnemen afbakeningsregels voor toegangsweg en inrit
-
-**Huidige situatie** In de BGT komt de functie 'inrit' voor bij een Wegdeel met
-de volgende definitie:
-
-*"Toegangswegen oprijlanen en dergelijke met verkeersfunctie die leiden naar
-afgelegen erven en terreinen."*
-
-**Nieuwe situatie** Het voorstel is om met het hernoemen van functie 'inrit'
-naar ‘toegangsweg’ de definitie als volgt aan te passen:
-
-*"Een wegdeel die leidt naar afgelegen erven en terreinen."*
-
-**Onderbouwing** Door het hernoemen van 'inrit' naar 'toegangsweg' wordt de
-verwarring met de term ‘inrit’ vanuit beheer voorkomen.
-
-**Impact** De impact van dit voorstel wordt ingeschat op relatief ‘*groot*’.
-
--   *Verplicht/niet verplicht:* Dit betreft een wijziging in het verplichte deel
-    van IMGeo.
-
--   *Software:* er is aanpassing van de software nodig door het beschikbaar
-    komen van nieuwe domeinwaardenlijsten.
-
--   *Dataconversie:* bestaande gegevens dienen te worden geconverteerd. Wegdelen
-    met functie ‘inrit’ dienen te worden omgeclassificeerd naar ‘toegangsweg’
-
--   *Inwinning:* zie voorstel Opnemen afbakeningsregels voor toegangsweg en
-    inrit
-
--   *Samenhang basisregistraties:* er is geen impact voor andere
-    basisregistraties voorzien.
-
-**Implementatie-advies** Het advies is om
-
-1.  Op enig moment centraal een dataconversie te doen, waarbij Wegdelen met
-    functie ‘inrit’ worden hernoemd naar ‘toegangsweg’. Gebruikers krijgen vanaf
-    dat moment enkel de nieuwe functie ‘toegangsweg’ geleverd.
-
-2.  Een overgangsperiode (bijvoorbeeld ½ jaar) af te spreken waarin bronhouders
-    zowel volgens de oude functie ‘inrit’ als de nieuwe functie ‘toegangsweg’
-    mogen aanleveren.
-
-3.  Leveringen met daarin Wegdelen met de oude functie ‘inrit’ bij het
-    innameportaal te normaliseren naar de nieuwe functie ‘toegangsweg’.
-
-4.  na de overgangsperiode enkel leveringen met de nieuwe functie ‘toegangsweg’
-    te accepteren in de BGT keten.
-
-Zie ook de gerelateerde voorstellen. Dit voorstel alleen doorvoeren als ook de
-gerelateerde voorstellen worden ingevoerd.
-
-### functies 'voetgangersgebied'en 'woonerf' van Wegdeel naar FunctioneelGebied
-
-**Gerelateerde
-Github-issue(s)** [\#167](https://github.com/Geonovum/IMGeo2018/issues/167). 
-
-**Huidige situatie** In IMGeo heeft een Wegdeel de bgt-functies
-'voetgangersgebied' en 'woonerf'. 
-
-**Nieuwe situatie** Het voorstel is om in IMGeo de bgt-functies
-'voetgangersgebied' en 'woonerf' bij een Wegdeel te schrappen, en toe te voegen
-als plus-typen bij Functioneel Gebied.  
-
-**Onderbouwing**  
-De functies "voetgangersgebied" en "woonerf" zijn niet duidelijk gedefinieerd.
-Zo zijn er voetgangersgebieden, waar soms ook vrachtwagens rijden om de winkels
-te bevoorraden en is er wel een duidelijke rijbaan aangelegd. Met borden wordt
-dan een voetgangerszone aangeduid. Dat geldt ook voor woonerven. De begrenzing
-is nogal afhankelijk van de plaatsing van de borden en van verkeersbesluiten. 
-
-**Impact** De impact van deze wijziging wordt ingeschat op ‘laag tot gemiddeld’:
-
--   *Verplicht/niet verplicht:* Dit betreft een wijziging in het verplichte deel
-    van IMGeo.
-
--   *Software:* er is aanpassing van de software nodig als gevolg van nieuwe
-    domeinwaardenlijsten.
-
--   *Dataconversie:* bestaande gegevens dienen te worden geconverteerd zodanig
-    dat bestaande wegdelen met bgt-functie ‘voetgangersgebied’ of ‘woonerf’
-    worden omgezet naar een wegdeel met een andere functie.
-
--   *Inwinning:* bronhouders dienen de bestaande wegdelen na te lopen om vast te
-    stellen naar welke andere functie een voetgangersgebied en woonerf moet
-    worden omgezet.
-
--   *Samenhang basisregistraties:* er is geen impact voor andere
-    basisregistraties voorzien; IMGeo past met dit voorstel aan op de andere
-    registraties en systematieken.
-
-**Implementatie-advies** Het implementatieadvies is als volgt:
-
-1.  Stel een werkafspraak op dat wegdelen met bgt-functie ‘voetgangersgebied’ en
-    ‘woonerf’ omgezet worden naar een wegdeel met een andere type. Onderzoek
-    daarbij of deze conversie via een eenmalige centrale conversie in LV-BGT of
-    BRAVO mogelijk is, anders via regulier mutatieproces door bronhouders.
-
-2.  Pas de software van bronhouders en BGT keten aan op de nieuwe
-    domeinwaardenlijsten.
-
-3.  Laat bronhouders de objecten van Stap 1 muteren van inrichtend naar
-    opdelend, waarbij de betreffende objecten een gat maken in het onderliggende
-    of bovenliggede object op maaiveld. Gebruik eventueel om de voortgang te
-    moniteren het kwalititeitsdashboard. Implementatie-afspraken/termijnen
-    dienen nader te worden bepaald.
-
-Uitbreiden fysieke voorkomens met ‘haag’ bij BegroeidTerreindeel
-----------------------------------------------------------------
+### Fysieke voorkomens bij BegroeidTerreindeel
 
 **Gerelateerde
 Github-issue(s):** [\#173](https://github.com/Geonovum/IMGeo2018/issues/173). 
@@ -341,146 +137,28 @@ met nadere detailleringen.
 **Nieuwe situatie** Het voorstel is om het plus-fysiekvoorkomen ‘haag’ toe te
 voegen als nadere detaillering van ‘groenvoorziening’.
 
+#### haag
+
 >   haag: Groenvak in de openbare ruimte met beplanting, zijnde haag.
 
 **Onderbouwing** Voor hagen is vanuit beheer openbare ruimte de wens om onder
 een VegatatieObject 'haag' een groenvoorzieningvlak met nadere typering haag te
 leggen.
 
-**Impact** De impact van deze wijziging wordt ingeschat op ‘laag tot zeer laag’:
+### typen voor Pand
 
--   *Verplicht/niet verplicht:* Dit betreft een wijziging in het niet-verplichte
-    deel van IMGeo.
+Gerelateerd voorstel:
 
--   *Software:* er is aanpassing van de software nodig als gevolg van nieuwe
-    domeinwaardenlijsten.
+### typen bij OverigBouwwerk
 
--   *Dataconversie:* bestaande gegevens hoeven niet te worden geconverteerd.
+**Gerelateerde
+Github-issue(s)** [\#17](https://github.com/Geonovum/IMGeo2018/issues/17), [\#22](https://github.com/Geonovum/IMGeo2018/issues/22), [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#87](https://github.com/Geonovum/IMGeo2018/issues/87), [\#158](https://github.com/Geonovum/IMGeo2018/issues/158), [\#174](https://github.com/Geonovum/IMGeo2018/issues/174). 
 
--   *Inwinning:* bronhouders mogen de groenvoorzieningen bestaande uit hagen
-    inwinnen en de gegevens aanleveren aan de LV-BGT, dit is echter niet
-    verplicht.
+**Gerelateerde voorstel(len)**
 
--   *Samenhang basisregistraties:* er is geen impact voor andere
-    basisregistraties voorzien.
+-   inrichtend naar vlak;
 
-**Implementatie-advies** Het advies is om de nieuwe domeinwaardenlijsten te
-implementeren in de software van bronhouders en BGT keten.
-Implementatie-afspraken dienen nader te worden bepaald.
-
-Hernoemen fysieke voorkomen ‘zand’ naar ‘zandvlakte’ bij OnbegroeidTerreindeel
-------------------------------------------------------------------------------
-
-**Gerelateerde Github-issue(s): **
-[\#113](https://github.com/Geonovum/IMGeo2018/issues/113) 
-
-**Gerelateerde voorstel(len)** n.v.t.
-
-**Huidige situatie** In IMGeo heeft OnbegroeidTerreindeel het fysieke voorkomen
-‘zand’ zowel zelfstandig als bgt-type en als nadere detaillering van ‘onverhard’
-voor. Dit is niet consistent en geeft onduidelijkheid en
-interpretatieverschillen bij bronhouders.
-
-**Nieuwe situatie** Het voorstel is om in IMGeo het bgt-type ‘zand’ te hernoemen
-naar ‘zand**vlakte**’. De definitie blijft ongewijzigd.
-
-**Onderbouwing** Met deze wijziging wordt IMGeo consistenter, waarmee de
-afbakening voor bronhouders eenvoudiger en gemakkelijker wordt, en daarmee de
-BGT uniformer.
-
-**Impact** De impact van dit voorstel wordt ingeschat op relatief ‘*laag*’.
-
--   *Verplicht/niet verplicht:* Dit betreft een wijziging in het verplichte deel
-    van IMGeo.
-
--   *Software:* er is aanpassing van de software nodig door het beschikbaar
-    komen van nieuwe domeinwaardenlijsten.
-
--   *Dataconversie:* bestaande gegevens dienen te worden geconverteerd.
-    OnbegroeideTerreindelen met bgt-fysiekvoorkomen ‘zand’ dienen te worden
-    omgeclassificeerd naar ‘zandvlakte’
-
--   *Inwinning:* bronhouders hoeven naar verwachting geen extra gegevens in te
-    winnen.
-
--   *Samenhang basisregistraties:* er is geen impact voor andere
-    basisregistraties voorzien.
-
-**Implementatie-advies** Het advies is om
-
-1.  Op enig moment centraal een dataconversie te doen, OnbegroeideTerreindelen
-    met bgt-fysiekvoorkomen ‘zand’ worden omgezet naar ‘zandvlakte’. Gebruikers
-    krijgen vanaf dat moment enkel de nieuwe functie ‘zandvlakte’ geleverd.
-
-2.  Een overgangsperiode (bijvoorbeeld ½ jaar) af te spreken waarin bronhouders
-    zowel volgens het oude fysieke voorkomen ‘zand’ als het nieuwe fysieke
-    voorkomen ‘zandvlakte’ mogen aanleveren.
-
-3.  Leveringen met daarin OnbegroeideTerreindelen met het oude
-    bgt-fysiekvoorkomen ‘zand’ bij het innameportaal te normaliseren naar het
-    nieuwe bgt-fysiekvoorkomen ‘zandvlakte’.
-
-4.  na de overgangsperiode enkel leveringen met het nieuwe bgt-fysiekvoorkomen
-    ‘zandvlakte’ te accepteren in de BGT keten.
-
-Verwijderen ‘greppel/droge sloot’ bij Waterdeel
------------------------------------------------
-
-**Gerelateerde Github-issue(s)** 
-[\#73](https://github.com/Geonovum/IMGeo2018/issues/73)
-
-Gerelateerde voorstel(len):
-
--   Aanpassen definitie Waterdeel
-
--   Waterdeel uitbreiden met attibruut ‘permanentWatervoerend’.
-
-**Huidige situatie** In IMGeo heeft Waterdeel o.a. het type ‘greppel/droge
-sloot’ met de volgende definitie
-
->   "greppel, droge sloot: Een ten behoeve van de waterbeheersing gegraven geul
->   die al dan niet met water bedekt is. (bron: IMGEO 1.0)"
-
-**Nieuwe situatie** Het voorstel is om het type 'greppel, droge sloot' te laten
-vervallen bij bgt-type van het object Waterdeel.
-
-**Onderbouwing** Vanuit een voorstel namens de waterschappen komt naar voren
-dat:
-
->   "Er is geen wens of behoefte om afwateringsgreppels of drainagegeulen in
->   o.a. weilanden vast te leggen in de BGT. Zowel de waterschappen als ook EZ
->   geven aan dat het niet wenselijk is deze op te nemen in de BGT. Met de
->   beslisboom van ondersteunende waterdelen en de aanscherping op de
->   oever/slootkant vallen deze greppels buiten de karteerregels. Ze zijn veelal
->   niet dieper dan 50cm, waardoor geen ondersteunend waterdeel ontstaat."
-
-**Impact**
-
-Het betreft een wijziging in de classificaties en afbakeningsregels van de BGT.
-
-In de BGT (peildatum:13 januari) zitten ruim 293.000 objecten Waterdeel met type
-'greppel, droge sloot' behorend bij 339 verschillende bronhouders. 293.000
-waarvan ongeveer 60.000 (20%) van de waterschappen. Deze objecten dienen
-omgeclassificeerd te worden volgens de nieuwe afbakeningsregels.
-
-Er is technische impact in de vorm van schemawijziging (extra verplicht
-attribuut met default waarde) en softwareaanpassing. Huidige data dient
-geconverteerd te worden.
-
-Implementatie-afspraken/termijnen dienen nader te worden bepaald.
-
-Opnemen typen voor Pand
------------------------
-
-Gerelateerd voorstel
-
-Uitbreiden van typen bij OverigBouwwerk
----------------------------------------
-
-Gerelateerde
-Github-issue(s): [\#17](https://github.com/Geonovum/IMGeo2018/issues/17), [\#22](https://github.com/Geonovum/IMGeo2018/issues/22), [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#87](https://github.com/Geonovum/IMGeo2018/issues/87), [\#158](https://github.com/Geonovum/IMGeo2018/issues/158), [\#174](https://github.com/Geonovum/IMGeo2018/issues/174). 
-
-Gerelateerde voorstel(len): inrichtend naar vlak; samenvoegen Pand en OBW
+-   samenvoegen Pand en OBW
 
 **Huidige situatie** In de IMGeo heeft OverigBouwwerk een verzameling van
 typen/classificaties voor het kenmerk bgt- en plus-type. 
@@ -488,21 +166,47 @@ typen/classificaties voor het kenmerk bgt- en plus-type. 
 **Nieuwe situatie** Het voorstel is om in IMGeo de classificaties voor plus-type
 bij OverigBouwwerk uit te breiden met de volgende definities:
 
->   **sleufsilo** Opslagfaciliteit bestaande uit een betonnen vloer met betonnen
->   zijwanden.  
+#### sleufsilo
+
+>   **Sleufsilo** Opslagfaciliteit bestaande uit een betonnen vloer met betonnen
+>   zijwanden.
+
+#### parkeergarage
+
 >   **parkeergarage** Een bouwwerk waar automobilisten (meestal) overdekt hun
->   auto\`s kunnen parkeren.  
->   **strandtent** Een demontabel bouwwerk op het strand.  
+>   auto\`s kunnen parkeren.
+
+#### strandtent
+
+>   **strandtent** Een demontabel bouwwerk op het strand.
+
+#### woonboot
+
 >   **woonboot** Een voor bewoning bestemde boot dat is geplaatst op een
->   ligplaats, en dat in zijn geheel of in delen kan worden verplaatst.  
+>   ligplaats, en dat in zijn geheel of in delen kan worden verplaatst.
+
+#### woonwagen
+
 >   **woonwagen** Een voor bewoning bestemd bouwwerk dat is geplaatst op een
->   standplaats en dat in zijn geheel of in delen kan worden verplaatst.  
->   **tribune** Oplopende rij zitplaatsen voor het publiek.  
+>   standplaats en dat in zijn geheel of in delen kan worden verplaatst.
+
+#### tribune
+
+>   **tribune** Oplopende rij zitplaatsen voor het publiek.
+
+#### dugout
+
 >   **dugout** Overdekte ruimte aan de zijkant van een sportveld waar de
->   trainer, (reserve)spelers en verzorgers kunnen zitten tijdens een wedstrijd.  
+>   trainer, (reserve)spelers en verzorgers kunnen zitten tijdens een wedstrijd.
+
+#### infiltratiereservoir
+
 >   **infiltratiereservoir**: Een reservoir met waterdoorlatende wanden voor de
 >   tijdelijke berging van hemelwater, waarbij het hemelwater door middel van
->   infiltratie door de wanden kan worden afgevoerd.    
+>   infiltratie door de wanden kan worden afgevoerd.
+
+#### zuiveringsreservoir
+
 >   **zuiveringsreservoir** Een reservoir voor het zuiveren van afvalwater.
 
 **Onderbouwing** De classificaties voor plus-type bij OverigBouwwerk waren niet
@@ -510,14 +214,7 @@ volledig voor alle typen bouwwerken die voorkomen in de openbare ruimte. Vanuit
 bronhouders en leveranciers, en de aansluiting met IMBOR is de wens geuit om
 deze classificaties op te nemen in IMGeo.
 
-**Impact**  
-Dit voorstel betreft een uitbreiding van niet-verplichte classificaties, en de
-impact zal om die reden laag zijn.
-
-Implementatie-afspraken dienen nader te worden bepaald.
-
-Uitbreiden van typen bij Kunstwerkdeel
---------------------------------------
+### typen bij Kunstwerkdeel
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
@@ -531,7 +228,7 @@ te breiden.
 
 Het volgende type wordt toegevoegd aan de domeinwaardenlijst typeKunstwerkdeel:
 
-### dam
+#### dam
 
 >   *dam* (Lijn of Vlak): Dwars op het water opgeworpen waterbouwkundige
 >   constructie om water te keren, te beheersen, te leiden of te verdelen.
@@ -539,40 +236,39 @@ Het volgende type wordt toegevoegd aan de domeinwaardenlijst typeKunstwerkdeel:
 De volgende typen worden toegevoegd aan de domeinwaardenlijst
 typeKunstwerkdeelPlus:
 
-### perkoenenrij
+#### perkoenenrij
 
 >   *perkoenenrij* (Lijn): Rij rondhouten palen van dennen- of eikenhout. 
 
-infiltratiekrat
----------------
+#### infiltratiekrat
 
 >   *infiltratie *(Vlak): Een krat met waterdoorlatende wanden bestemd voor de
 >   inzameling van hemelwater, waarbij het hemelwater door middel van
 >   infiltratie door de wanden kan worden afgevoerd.
 
-### hellingbaan
+#### hellingbaan
 
 >   *hellingbaan* (Vlak): Constructiedeel, bestaande uit een beloopbare en
 >   berijdbare helling inclusief de bijbehorende bordessen, voor het overbruggen
 >   van hoogteverschillen vlak.
 
-### overstortconstructie
+#### overstortconstructie
 
 >   *overstortconstructie *(Vlak): Een constructie voorzien van een
 >   overstortdrempel met een ontworpen drempelbreedte en -hoogte. 
 
-### grindkoffer
+#### grindkoffer
 
 >   *grindkoffer* (Vlak): 'Ondergrondse infiltratievoorziening waarbij grind
 >   wordt ingegraven in de grond en dat ervoor zorgt dat hemelwater wordt
 >   geïnfiltreerd zonder dat de bodem dichtslibt.
 
-### watertrap
+#### watertrap
 
 >   *watertrap* (Lijn of Vlak): Trapvormige constructie in een waterloop,
 >   bedoeld als sierelement om het water over naar beneden te laten stromen.
 
-### groeiplaatsinrichting
+#### groeiplaatsinrichting
 
 >   *groeiplaatsinrichting* (Vlak): Eén of meer voorzieningen, ondergronds of op
 >   maaiveld, onder of rond een boom met als doel het verbeteren van de
@@ -585,95 +281,51 @@ alle typen van kunstwerdeel die voorkomen in de openbare ruimte. Vanuit
 bronhouders en leveranciers, en de aansluiting met IMBOR is de wens geuit om
 deze classificaties op te nemen in IMGeo. 
 
-**Impact** Dit voorstel betreft een uitbreiding van verplichte en
-niet-verplichte classificaties en geometrietypen: impact voor eerste categorie
-is hoger dan voor de tweede categorie.
-
-Hernoemen van typen bij Kunstwerkdeel
--------------------------------------
-
-Gerelateerde
-Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
-
-Gerelateerde voorstel(len): inrichtend naar vlak;
-
-**Huidige situatie** In IMGeo heeft Kunstwerkdeel o.a. de volgende typen:
-
-gemaal
-
-sluis
-
-duiker
-
-**Nieuwe situatie** Het voorstel is om in IMGeo de volgende typen van
-Kunstwerkdeel te hernoemen:
-
--   bgt-type 'gemaal' wordt hernoemd naar 'gemaal**deel**'
-
--   bgt-type 'sluis' wordt hernoemd naar 'sluis**deur**'
-
--   plus-type 'duiker' wordt hernoemd naar 'duiker**deel**' 
-
-en definitie als volgt aan te passen:
-
-gemaaldeel Een **deel van** een kunstwerk in principe bedoeld om water van een
-laag peil naar een hoog peil te brengen.
-
-sluisdeur
-
-duikerdeel
-
-Een kunstmatige, beweegbare waterkering die de verbinding tussen twee wateren
-kan afsluiten of openstellen en daartoe van deuren of schuiven is voorzien.
-(bron: BGT)
-
-Dwars op het water opgeworpen waterbouwkundige constructie om water te keren, te
-beheersen, te leiden of te verdelen.
-
-een deel van een Kunstwerk voor de waterhuishouding, bestaande uit een
-kokervormige constructie aangebracht onder een weg of spoorweg of in een dam.
-
-**Onderbouwing** Sluis wordt hernoemd omdat in de BGT alleen de sluisdeur wordt
-opgenomen; het sluiscomplex kan middels een Functioneel Gebied 'sluiscomplex'
-worden opgenomen. 
-
-Verwijderen ‘vispassage’ bij Kunstwerdeel
------------------------------------------
-
-Gerelateerde
-Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
-
-\- plus-type '**vispassage**' wordt geschrapt.
-
-**Onderbouwing** Vispassage wordt geschrapt omdat dit een verbijzondering is van
-bgt-type faunavoorziening.
-
 Uitbreiden van typen bij Bord
 -----------------------------
 
 Gerelateerde
 Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
 
-*Huidige situatie*  
-In de IMGeo heeft Bord een verzameling van typen/classificaties voor het kenmerk
-bgt- en plus-type. 
+**Huidige situatie** In de IMGeo heeft Bord een verzameling van
+typen/classificaties voor het kenmerk bgt- en plus-type. 
 
 *Nieuwe situatie*  
 Het voorstel is om in IMGeo de classificaties voor plus-type bij Bord uit te
-breiden met de volgende definities:
+breiden met de volgende typen en definities, allen met geometrietype ‘Punt’:
 
->   **grensbord** Een bord welke de toegang of uitgang aangeeft tot de provincie
->   dan wel tot bijzondere streken of gemeenten.  
->   **kunstwerknaambord** Bord of plaat bevestigd op of bij een kunstwerk met
->   daarop de naam van het kunstwerk.  
->   **mottobord** Een bord met daarop specifieke motto informatie, zoals
->   bijvoorbeeld snelheidsacties  
->   **pictogram** Symbool of afbeelding dat de plaats inneemt van een tekst, het
->   gebruik ervan wordt daarom ook beeldtaal genoemd.  
->   **klok** Punt Een object waarop de tijd kan worden afgelezen  
->   **dynamisch informatiepaneel** Elektronisch paneel dat, afhankelijk van de
+#### grensbord
+
+>   *grensbord* Een bord welke de toegang of uitgang aangeeft tot de provincie
+>   dan wel tot bijzondere streken of gemeenten.
+
+#### kunstwerknaambord
+
+>   *kunstwerknaambord* Bord of plaat bevestigd op of bij een kunstwerk met
+>   daarop de naam van het kunstwerk.
+
+#### mottobord
+
+>   *mottobord* Een bord met daarop specifieke motto informatie, zoals
+>   bijvoorbeeld snelheidsacties
+
+#### pictogram
+
+>   *pictogram* Symbool of afbeelding dat de plaats inneemt van een tekst, het
+>   gebruik ervan wordt daarom ook beeldtaal genoemd.
+
+#### klok
+
+>   *klok:* Een object waarop de tijd kan worden afgelezen.
+
+#### dynamisch informatiepaneel
+
+>   *dynamisch informatiepaneel* Elektronisch paneel dat, afhankelijk van de
 >   (verkeers)situatie, een aanwijzing kan geven aan de weggebruiker, meestal om
->   hem te helpen de meest optimale route naar de bestemming te kiezen.  
+>   hem te helpen de meest optimale route naar de bestemming te kiezen.
+
+#### hondenbeleidsbord
+
 >   **hondenbeleidsbord** Bord dat uiting geeft aan het hondenbeleid. Typen
 >   borden zijn o.a. hondenlosloopterrein (losloopgebied), verbodsgebied,
 >   hondenspeelplaats en honden aan de lijn.
@@ -683,24 +335,18 @@ voor alle typen borden die voorkomen in de openbare ruimte. Vanuit bronhouders
 en leveranciers, en de aansluiting met IMBOR is de wens geuit om deze
 classificaties op te nemen in IMGeo.
 
-**Impact**  
-Dit voorstel betreft een uitbreiding van niet-verplichte classificaties, en de
-impact zal om die reden laag zijn.
-
-Implementatie-afspraken dienen nader te worden bepaald.
-
-Uitbreiden van typen bij Gebouwinstallatie
-------------------------------------------
+typen bij Gebouwinstallatie
+---------------------------
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#160](https://github.com/Geonovum/IMGeo2018/issues/160).
 
-*Huidige situatie* In de IMGeo heeft Gebouwinstallatie een verzameling van
+**Huidige situatie** In de IMGeo heeft Gebouwinstallatie een verzameling van
 typen.
 
-*Nieuwe situatie*  
-Het voorstel is om in IMGeo de classificaties voor plus-type bij
-Gebouwinstallatie, Installatie, Kast, Mast en Put uit te breiden:
+**Nieuwe situatie** Het voorstel is om in IMGeo de classificaties voor plus-type
+bij Gebouwinstallatie uit te breiden met de volgende typen en definities, allen
+met geometrietype ‘Punt’:
 
 Gebouwinstallatie:   
 **- lift** Installatie voor verticaal transport van personen of goederen
@@ -735,50 +381,178 @@ en Put waren niet volledig voor alle typen die voorkomen in de openbare ruimte.
 Vanuit bronhouders en leveranciers, en de aansluiting met IMBOR is de wens geuit
 om deze classificaties op te nemen in IMGeo.
 
-*Impact*  
-Dit voorstel betreft een uitbreiding van niet-verplichte classificaties, en de
-impact zal om die reden laag zijn. Geometrietypen bij deze objecttypen blijven
-ongewijzigd.
+Typen bij Installatie
+---------------------
 
-Uitbreiden Installatie
-----------------------
+**Gerelateerde
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#160](https://github.com/Geonovum/IMGeo2018/issues/160).
+
+**Huidige situatie** In de IMGeo heeft Gebouwinstallatie een verzameling van
+typen.
+
+**Nieuwe situatie** Het voorstel is om in IMGeo de classificaties voor plus-type
+bij Bord uit te breiden met de volgende typen en definities, allen met
+geometrietype ‘Punt’:
+
+Gebouwinstallatie:   
+**- lift** Installatie voor verticaal transport van personen of goederen
+
+Installatie:   
+**- brandblusinstallatie** Installatie voor het bestrijden van brand. 
+
+Kast:   
+**- centrale verdeelkast** Een verdeelinrichting, verdeelkast of groepenkast is
+de plek van waaruit de elektrische energie beveiligd en verdeeld wordt over de
+elektrische installatie in een gebouw.  
+- **beregeningskast** Een regel- en voedingskast voor het bedienen van de
+beregeningsinstallatie.
+
+Mast:  
+- **uitkijktoren** Hoge en smalle constructie voor het observeren van de
+omgeving (wild, bosbrand, verdrinkingsgevaar zwemmers e.d.).
+
+Put:   
+- **beerput** Deksel van een put, bestemd voor het tijdelijk opslaan van
+vuilwater en voor een gedeeltelijke biologische afbraak van het vuilwater.  
+- **fauna-inspectieput** Deksel van een put op ondergrondse faunavoorziening met
+als doel inspectie van de voorziening mogeljk te maken.
+
+Zie voor meer informatie de [concept-tabel in
+Github](https://github.com/Geonovum/IMGeo2018/raw/master/wijzigingsvoorstel/media/20180328_IMGeo2018_classificaties_concept_wijzigingsvoorstel.xlsx) voor
+objecten, classificaties en geometrietypen. 
+
+*Onderbouwing*  
+De classificaties voor plus-type bij Gebouwinstallatie, Installatie, Kast, Mast
+en Put waren niet volledig voor alle typen die voorkomen in de openbare ruimte.
+Vanuit bronhouders en leveranciers, en de aansluiting met IMBOR is de wens geuit
+om deze classificaties op te nemen in IMGeo.
 
 Uitbreiden van typen bij Kast
 -----------------------------
 
+**Gerelateerde
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#160](https://github.com/Geonovum/IMGeo2018/issues/160).
+
+**Huidige situatie** In de IMGeo heeft Gebouwinstallatie een verzameling van
+typen.
+
+**Nieuwe situatie** Het voorstel is om in IMGeo de classificaties voor plus-type
+bij Bord uit te breiden met de volgende typen en definities, allen met
+geometrietype ‘Punt’:
+
+Gebouwinstallatie:   
+**- lift** Installatie voor verticaal transport van personen of goederen
+
+Installatie:   
+**- brandblusinstallatie** Installatie voor het bestrijden van brand. 
+
+Kast:   
+**- centrale verdeelkast** Een verdeelinrichting, verdeelkast of groepenkast is
+de plek van waaruit de elektrische energie beveiligd en verdeeld wordt over de
+elektrische installatie in een gebouw.  
+- **beregeningskast** Een regel- en voedingskast voor het bedienen van de
+beregeningsinstallatie.
+
+Mast:  
+- **uitkijktoren** Hoge en smalle constructie voor het observeren van de
+omgeving (wild, bosbrand, verdrinkingsgevaar zwemmers e.d.).
+
+Put:   
+- **beerput** Deksel van een put, bestemd voor het tijdelijk opslaan van
+vuilwater en voor een gedeeltelijke biologische afbraak van het vuilwater.  
+- **fauna-inspectieput** Deksel van een put op ondergrondse faunavoorziening met
+als doel inspectie van de voorziening mogeljk te maken.
+
+Zie voor meer informatie de [concept-tabel in
+Github](https://github.com/Geonovum/IMGeo2018/raw/master/wijzigingsvoorstel/media/20180328_IMGeo2018_classificaties_concept_wijzigingsvoorstel.xlsx) voor
+objecten, classificaties en geometrietypen. 
+
+*Onderbouwing*  
+De classificaties voor plus-type bij Gebouwinstallatie, Installatie, Kast, Mast
+en Put waren niet volledig voor alle typen die voorkomen in de openbare ruimte.
+Vanuit bronhouders en leveranciers, en de aansluiting met IMBOR is de wens geuit
+om deze classificaties op te nemen in IMGeo.
+
 Uitbreiden van typen bij Mast
 -----------------------------
+
+**Gerelateerde
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#160](https://github.com/Geonovum/IMGeo2018/issues/160).
+
+**Huidige situatie** In de IMGeo heeft Gebouwinstallatie een verzameling van
+typen.
+
+**Nieuwe situatie** Het voorstel is om in IMGeo de classificaties voor plus-type
+bij Mast uit te breiden met de volgende typen en definities, allen met
+geometrietype ‘Punt’:
+
+#### uitkijktoren
+
+>   *uitkijktoren* Hoge en smalle constructie voor het observeren van de
+>   omgeving (wild, bosbrand, verdrinkingsgevaar zwemmers e.d.).
+
+**Onderbouwing** De classificaties voor plus-type bij Gebouwinstallatie,
+Installatie, Kast, Mast en Put waren niet volledig voor alle typen die voorkomen
+in de openbare ruimte. Vanuit bronhouders en leveranciers, en de aansluiting met
+IMBOR is de wens geuit om deze classificaties op te nemen in IMGeo.
 
 Uitbreiden van typen bij Put
 ----------------------------
 
-Uitbreiden van typen bij Paal
------------------------------
+**Gerelateerde
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#160](https://github.com/Geonovum/IMGeo2018/issues/160).
 
-Gerelateerde
-Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#81](https://github.com/Geonovum/IMGeo2018/issues/81)
+**Huidige situatie** In de IMGeo heeft Gebouwinstallatie een verzameling van
+typen.
 
-*Huidige situatie*  
-In de IMGeo heeft Paal een verzameling van typen/classificaties voor het kenmerk
-bgt- en plus-type. 
+**Nieuwe situatie** Het voorstel is om in IMGeo de classificaties voor plus-type
+bij Put uit te breiden met de volgende typen en definities, allen met
+geometrietype ‘Punt’:
+
+#### beerput
+
+>   *beerput:* Deksel van een put, bestemd voor het tijdelijk opslaan van
+>   vuilwater en voor een gedeeltelijke biologische afbraak van het vuilwater.
+
+#### fauna-inspectieput
+
+>   *fauna-inspectieput:* Deksel van een put op ondergrondse faunavoorziening
+>   met als doel inspectie van de voorziening mogeljk te maken.
+
+**Onderbouwing** De classificaties voor plus-type bij Put waren niet volledig
+voor alle typen die voorkomen in de openbare ruimte. Vanuit bronhouders en
+leveranciers, en de aansluiting met IMBOR is de wens geuit om deze
+classificaties op te nemen in IMGeo.
+
+typen bij Paal
+--------------
+
+**Gerelateerde
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#81](https://github.com/Geonovum/IMGeo2018/issues/81)
+
+**Huidige situatie** In de IMGeo heeft Paal een verzameling van
+typen/classificaties voor het kenmerk bgt- en plus-type. 
 
 *Nieuwe situatie*  
 Het voorstel is om in IMGeo de classificaties voor plus-type bij Paal uit te
-breiden met de volgende definities:
+breiden met de volgende typen en definities, allen met geometrietype ‘Punt’:
 
-**hondenpoeppaal** Paal met daarop een bord voor het aangeven van de grens van
-een uitlaatplaats waar een hond zijn behoefte kan mag doen waarbij geen
-opruimplicht bestaat.  
-**strandpaal** Paal op het strand of in de duinen, geplaatst als hulpmiddel bij
-het uitvoeren van metingen.  
-**reflectorpaal** Paal langs de weg, met name in bochten, waarop een
-reflecterende plaat gemonteerd is met daarop een geleiding die vroegtijdig
-informatie verstrekt over het volgende weggedeelte.  
-**sensorpaal** Paal uitgerust met een sensor  
-**voorzieningenpaal** Paal voorzien van een briefkast en aansluitingen voor
-elektra, telefoon en water.  
-**hoogtebegrenzer** Een hoogtebegrenzer zorgt ervoor dat te hoge en/of te zware
-voertuigen niet verder rijden waar de toegang voor hen niet gewenst is.
+hondenpoeppaal
+
+>   **hondenpoeppaal** Paal met daarop een bord voor het aangeven van de grens
+>   van een uitlaatplaats waar een hond zijn behoefte kan mag doen waarbij geen
+>   opruimplicht bestaat.  
+>   **strandpaal** Paal op het strand of in de duinen, geplaatst als hulpmiddel
+>   bij het uitvoeren van metingen.  
+>   **reflectorpaal** Paal langs de weg, met name in bochten, waarop een
+>   reflecterende plaat gemonteerd is met daarop een geleiding die vroegtijdig
+>   informatie verstrekt over het volgende weggedeelte.  
+>   **sensorpaal** Paal uitgerust met een sensor  
+>   **voorzieningenpaal** Paal voorzien van een briefkast en aansluitingen voor
+>   elektra, telefoon en water.  
+>   **hoogtebegrenzer** Een hoogtebegrenzer zorgt ervoor dat te hoge en/of te
+>   zware voertuigen niet verder rijden waar de toegang voor hen niet gewenst
+>   is.
 
 Voorts is het voorstel om 'praatpaal' te hernoemen naar **meldpaal** met als
 definitie 'Paal met daarin een installatie bedoeld om te kunnen communiceren op
@@ -799,9 +573,6 @@ Dit voorstel betreft vooral een uitbreiding van niet-verplichte classificaties,
 en de impact zal om die reden laag zijn. Voor het hernoemen van praatpaal naar
 meldpaal is de impact hoger; data dient ofwel centraal automatisch of via
 natuurlijk mutatieverloop te worden omgeclassificeerd. 
-
-Hernoemen praatpaal naar meldpaal bij Paal
-------------------------------------------
 
 Uitbreiden van typen bij Straatmeubilair
 ----------------------------------------
@@ -952,5 +723,339 @@ impact zal om die reden laag zijn. Hernoemen van meerpaal/-stoel heeft grotere
 impact: classificaties dienen ofwel centraal automatisch ofwel via natuurlijk
 mutatieproces te worden omgezet.
 
-Verwijderen ‘historie’ als plus-status
---------------------------------------
+Hernoemen
+---------
+
+**Impact** De impact van dit voorstel wordt ingeschat op relatief ‘*laag*’.
+
+-   *Verplicht/niet verplicht:* Dit betreft een wijziging in het niet-verplichte
+    deel van IMGeo.
+
+-   *Software:* er is aanpassing van de software nodig door het beschikbaar
+    komen van nieuwe domeinwaardenlijsten.
+
+-   *Dataconversie:* bestaande gegevens dienen te worden geconverteerd.
+    Wegdelen, ondersteunende wegdelen en onbegroeide terreindelen met
+    plus-fysiekvookorkomen ‘boomschors’ dienen te worden omgeclassificieerd naar
+    ‘houtsnippers’.
+
+-   *Inwinning:* bronhouders hoeven geen gegevens opnieuw in te winnen.
+
+-   *Samenhang basisregistraties:* er is geen impact voor andere
+    basisregistraties voorzien.
+
+**Implementatie-advies** Het advies is om na implementatie van de nieuwe
+domeinwaardenlijsten in de centrale BGT ketensystemen:
+
+1.  Op enig moment centraal een dataconversie te doen, waarbij objecten Wegdeel,
+    OndersteunendWegdeel en OnbegroeidTerreindeel met plus-fysiekvoorkomen
+    ‘boomschors’ ‘plusinrit’ worden hernoemd naar ‘toegangsweg’. Gebruikers
+    krijgen vanaf dat moment enkel het nieuwe fysieke voorkomen ‘houtsnippers’
+    geleverd.
+
+2.  Een overgangsperiode (bijvoorbeeld ½ jaar) af te spreken waarin bronhouders
+    objecten met zowel het oude fysieke voorkomen ‘boomschors’ als het nieuwe
+    fysieke voorkomen ‘houtsnippers’ mogen aanleveren.
+
+3.  Leveringen met daarin objecten met het oude fysieke voorkomen ‘boomschors’
+    bij het innameportaal te normaliseren naar het nieuwe fysieke voorkomen
+    ‘houtsnippers’.
+
+4.  Na de overgangsperiode enkel leveringen met het nieuwe fysieke voorkomen
+    ‘houtsnippers’ te accepteren in de BGT keten.
+
+### ‘boomschors’ naar ‘houtsnippers’ bij Wegdeel, OndersteunendWegdeel en OnbegroeidTerreindeel
+
+**Gerelateerde
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
+
+**Gerelateerde voorstel(len)** n.v.t.
+
+**Huidige situatie** In IMGeo hebben een Wegdeel, OndersteunendWegdeel, en
+OnbegroeidTerreindeel als nadere detaillering van het bgt-fysiekvoorkomen
+‘onverhard’ een plus-fysiekvoorkomen ‘boomschors’ met de volgende definitie:
+
+*boomschors* Onverhard met als deklaag boomschors
+
+**Nieuwe situatie** Het voorstel is om in IMGeo de term ‘boomschors’ te
+hernoemen naar ‘houtsnippers’ als plus-fysiekvoorkomen van Wegdeel,
+OndersteunendWegdeel en OnbegroeidTerreindeel met de volgende definitie
+
+*houtsnippers* Onverhard met als deklaag **houtsnippers of** boomschors
+
+**Onderbouwing** De term 'houtsnippers' is een generiekere term die in o.a.
+Beheer Openbare Ruimte (BOR) wordt toegepast i.p.v. 'boomschors'.
+
+###  ‘inrit’ naar ‘toegangsweg’ bij Wegdeel
+
+**Gerelateerde issue(s)**
+[\#126](https://github.com/Geonovum/IMGeo2018/issues/126)
+
+**Gerelateerde voorstel(len):**
+
+-   Hernoemen bgt-functie ‘inrit’ naar ‘toegangsweg’ bij Wegdeel
+
+-   Opnemen afbakeningsregels voor toegangsweg en inrit
+
+**Huidige situatie** In de BGT komt de functie 'inrit' voor bij een Wegdeel met
+de volgende definitie:
+
+*"Toegangswegen oprijlanen en dergelijke met verkeersfunctie die leiden naar
+afgelegen erven en terreinen."*
+
+**Nieuwe situatie** Het voorstel is om met het hernoemen van functie 'inrit'
+naar ‘toegangsweg’ de definitie als volgt aan te passen:
+
+*"Een wegdeel die leidt naar afgelegen erven en terreinen."*
+
+**Onderbouwing** Door het hernoemen van 'inrit' naar 'toegangsweg' wordt de
+verwarring met de term ‘inrit’ vanuit beheer voorkomen.
+
+**Impact** De impact van dit voorstel wordt ingeschat op relatief ‘*groot*’.
+
+-   *Verplicht/niet verplicht:* Dit betreft een wijziging in het verplichte deel
+    van IMGeo.
+
+-   *Software:* er is aanpassing van de software nodig door het beschikbaar
+    komen van nieuwe domeinwaardenlijsten.
+
+-   *Dataconversie:* bestaande gegevens dienen te worden geconverteerd. Wegdelen
+    met functie ‘inrit’ dienen te worden omgeclassificeerd naar ‘toegangsweg’
+
+-   *Inwinning:* zie voorstel Opnemen afbakeningsregels voor toegangsweg en
+    inrit
+
+-   *Samenhang basisregistraties:* er is geen impact voor andere
+    basisregistraties voorzien.
+
+**Implementatie-advies** Het advies is om
+
+1.  Op enig moment centraal een dataconversie te doen, waarbij Wegdelen met
+    functie ‘inrit’ worden hernoemd naar ‘toegangsweg’. Gebruikers krijgen vanaf
+    dat moment enkel de nieuwe functie ‘toegangsweg’ geleverd.
+
+2.  Een overgangsperiode (bijvoorbeeld ½ jaar) af te spreken waarin bronhouders
+    zowel volgens de oude functie ‘inrit’ als de nieuwe functie ‘toegangsweg’
+    mogen aanleveren.
+
+3.  Leveringen met daarin Wegdelen met de oude functie ‘inrit’ bij het
+    innameportaal te normaliseren naar de nieuwe functie ‘toegangsweg’.
+
+4.  na de overgangsperiode enkel leveringen met de nieuwe functie ‘toegangsweg’
+    te accepteren in de BGT keten.
+
+Zie ook de gerelateerde voorstellen. Dit voorstel alleen doorvoeren als ook de
+gerelateerde voorstellen worden ingevoerd.
+
+### functies 'voetgangersgebied'en 'woonerf' van Wegdeel naar FunctioneelGebied
+
+**Gerelateerde
+Github-issue(s)** [\#167](https://github.com/Geonovum/IMGeo2018/issues/167). 
+
+**Huidige situatie** In IMGeo heeft een Wegdeel de bgt-functies
+'voetgangersgebied' en 'woonerf'. 
+
+**Nieuwe situatie** Het voorstel is om in IMGeo de bgt-functies
+'voetgangersgebied' en 'woonerf' bij een Wegdeel te schrappen, en toe te voegen
+als plus-typen bij Functioneel Gebied.  
+
+**Onderbouwing**  
+De functies "voetgangersgebied" en "woonerf" zijn niet duidelijk gedefinieerd.
+Zo zijn er voetgangersgebieden, waar soms ook vrachtwagens rijden om de winkels
+te bevoorraden en is er wel een duidelijke rijbaan aangelegd. Met borden wordt
+dan een voetgangerszone aangeduid. Dat geldt ook voor woonerven. De begrenzing
+is nogal afhankelijk van de plaatsing van de borden en van verkeersbesluiten. 
+
+**Impact** De impact van deze wijziging wordt ingeschat op ‘laag tot gemiddeld’:
+
+-   *Verplicht/niet verplicht:* Dit betreft een wijziging in het verplichte deel
+    van IMGeo.
+
+-   *Software:* er is aanpassing van de software nodig als gevolg van nieuwe
+    domeinwaardenlijsten.
+
+-   *Dataconversie:* bestaande gegevens dienen te worden geconverteerd zodanig
+    dat bestaande wegdelen met bgt-functie ‘voetgangersgebied’ of ‘woonerf’
+    worden omgezet naar een wegdeel met een andere functie.
+
+-   *Inwinning:* bronhouders dienen de bestaande wegdelen na te lopen om vast te
+    stellen naar welke andere functie een voetgangersgebied en woonerf moet
+    worden omgezet.
+
+-   *Samenhang basisregistraties:* er is geen impact voor andere
+    basisregistraties voorzien; IMGeo past met dit voorstel aan op de andere
+    registraties en systematieken.
+
+**Implementatie-advies** Het implementatieadvies is als volgt:
+
+1.  Stel een werkafspraak op dat wegdelen met bgt-functie ‘voetgangersgebied’ en
+    ‘woonerf’ omgezet worden naar een wegdeel met een andere type. Onderzoek
+    daarbij of deze conversie via een eenmalige centrale conversie in LV-BGT of
+    BRAVO mogelijk is, anders via regulier mutatieproces door bronhouders.
+
+2.  Pas de software van bronhouders en BGT keten aan op de nieuwe
+    domeinwaardenlijsten.
+
+3.  Laat bronhouders de objecten van Stap 1 muteren van inrichtend naar
+    opdelend, waarbij de betreffende objecten een gat maken in het onderliggende
+    of bovenliggede object op maaiveld. Gebruik eventueel om de voortgang te
+    moniteren het kwalititeitsdashboard. Implementatie-afspraken/termijnen
+    dienen nader te worden bepaald.
+
+### ‘zand’ naar ‘zandvlakte’ bij OnbegroeidTerreindeel
+
+**Gerelateerde Github-issue(s): **
+[\#113](https://github.com/Geonovum/IMGeo2018/issues/113) 
+
+**Gerelateerde voorstel(len)** n.v.t.
+
+**Huidige situatie** In IMGeo heeft OnbegroeidTerreindeel het fysieke voorkomen
+‘zand’ zowel zelfstandig als bgt-type en als nadere detaillering van ‘onverhard’
+voor. Dit is niet consistent en geeft onduidelijkheid en
+interpretatieverschillen bij bronhouders.
+
+**Nieuwe situatie** Het voorstel is om in IMGeo het bgt-type ‘zand’ te hernoemen
+naar ‘zand**vlakte**’. De definitie blijft ongewijzigd.
+
+**Onderbouwing** Met deze wijziging wordt IMGeo consistenter, waarmee de
+afbakening voor bronhouders eenvoudiger en gemakkelijker wordt, en daarmee de
+BGT uniformer.
+
+**Impact** De impact van dit voorstel wordt ingeschat op relatief ‘*laag*’.
+
+-   *Verplicht/niet verplicht:* Dit betreft een wijziging in het verplichte deel
+    van IMGeo.
+
+-   *Software:* er is aanpassing van de software nodig door het beschikbaar
+    komen van nieuwe domeinwaardenlijsten.
+
+-   *Dataconversie:* bestaande gegevens dienen te worden geconverteerd.
+    OnbegroeideTerreindelen met bgt-fysiekvoorkomen ‘zand’ dienen te worden
+    omgeclassificeerd naar ‘zandvlakte’
+
+-   *Inwinning:* bronhouders hoeven naar verwachting geen extra gegevens in te
+    winnen.
+
+-   *Samenhang basisregistraties:* er is geen impact voor andere
+    basisregistraties voorzien.
+
+**Implementatie-advies** Het advies is om
+
+1.  Op enig moment centraal een dataconversie te doen, OnbegroeideTerreindelen
+    met bgt-fysiekvoorkomen ‘zand’ worden omgezet naar ‘zandvlakte’. Gebruikers
+    krijgen vanaf dat moment enkel de nieuwe functie ‘zandvlakte’ geleverd.
+
+2.  Een overgangsperiode (bijvoorbeeld ½ jaar) af te spreken waarin bronhouders
+    zowel volgens het oude fysieke voorkomen ‘zand’ als het nieuwe fysieke
+    voorkomen ‘zandvlakte’ mogen aanleveren.
+
+3.  Leveringen met daarin OnbegroeideTerreindelen met het oude
+    bgt-fysiekvoorkomen ‘zand’ bij het innameportaal te normaliseren naar het
+    nieuwe bgt-fysiekvoorkomen ‘zandvlakte’.
+
+4.  na de overgangsperiode enkel leveringen met het nieuwe bgt-fysiekvoorkomen
+    ‘zandvlakte’ te accepteren in de BGT keten.
+
+Hernoemen van typen bij Kunstwerkdeel
+-------------------------------------
+
+Gerelateerde
+Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
+
+Gerelateerde voorstel(len): inrichtend naar vlak;
+
+**Huidige situatie** In IMGeo heeft Kunstwerkdeel o.a. de volgende typen:
+
+gemaal
+
+sluis
+
+duiker
+
+**Nieuwe situatie** Het voorstel is om in IMGeo de volgende typen van
+Kunstwerkdeel te hernoemen:
+
+-   bgt-type 'gemaal' wordt hernoemd naar 'gemaal**deel**'
+
+-   bgt-type 'sluis' wordt hernoemd naar 'sluis**deur**'
+
+-   plus-type 'duiker' wordt hernoemd naar 'duiker**deel**' 
+
+en definitie als volgt aan te passen:
+
+gemaaldeel Een **deel van** een kunstwerk in principe bedoeld om water van een
+laag peil naar een hoog peil te brengen.
+
+sluisdeur
+
+duikerdeel
+
+Een kunstmatige, beweegbare waterkering die de verbinding tussen twee wateren
+kan afsluiten of openstellen en daartoe van deuren of schuiven is voorzien.
+(bron: BGT)
+
+Dwars op het water opgeworpen waterbouwkundige constructie om water te keren, te
+beheersen, te leiden of te verdelen.
+
+een deel van een Kunstwerk voor de waterhuishouding, bestaande uit een
+kokervormige constructie aangebracht onder een weg of spoorweg of in een dam.
+
+**Onderbouwing** Sluis wordt hernoemd omdat in de BGT alleen de sluisdeur wordt
+opgenomen; het sluiscomplex kan middels een Functioneel Gebied 'sluiscomplex'
+worden opgenomen. 
+
+Hernoemen praatpaal naar meldpaal bij Paal
+------------------------------------------
+
+Voorts is het voorstel om 'praatpaal' te hernoemen naar **meldpaal** met als
+definitie 'Paal met daarin een installatie bedoeld om te kunnen communiceren op
+afstand met een centrale locatie.'
+
+Verwijderen 
+------------
+
+### ‘greppel/droge sloot’ bij Waterdeel
+
+**Gerelateerde Github-issue(s)** 
+[\#73](https://github.com/Geonovum/IMGeo2018/issues/73)
+
+Gerelateerde voorstel(len):
+
+-   Aanpassen definitie Waterdeel
+
+-   Waterdeel uitbreiden met attibruut ‘permanentWatervoerend’.
+
+**Huidige situatie** In IMGeo heeft Waterdeel o.a. het type ‘greppel/droge
+sloot’ met de volgende definitie
+
+>   "greppel, droge sloot: Een ten behoeve van de waterbeheersing gegraven geul
+>   die al dan niet met water bedekt is. (bron: IMGEO 1.0)"
+
+**Nieuwe situatie** Het voorstel is om het type 'greppel, droge sloot' te laten
+vervallen bij bgt-type van het object Waterdeel.
+
+**Onderbouwing** Vanuit een voorstel namens de waterschappen komt naar voren
+dat:
+
+>   "Er is geen wens of behoefte om afwateringsgreppels of drainagegeulen in
+>   o.a. weilanden vast te leggen in de BGT. Zowel de waterschappen als ook EZ
+>   geven aan dat het niet wenselijk is deze op te nemen in de BGT. Met de
+>   beslisboom van ondersteunende waterdelen en de aanscherping op de
+>   oever/slootkant vallen deze greppels buiten de karteerregels. Ze zijn veelal
+>   niet dieper dan 50cm, waardoor geen ondersteunend waterdeel ontstaat."
+
+**Impact**
+
+Verwijderen ‘vispassage’ bij Kunstwerdeel
+-----------------------------------------
+
+Gerelateerde
+Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
+
+\- plus-type '**vispassage**' wordt geschrapt.
+
+**Onderbouwing** Vispassage wordt geschrapt omdat dit een verbijzondering is van
+bgt-type faunavoorziening.
+
+ ‘historie’ als plus-status
+---------------------------
