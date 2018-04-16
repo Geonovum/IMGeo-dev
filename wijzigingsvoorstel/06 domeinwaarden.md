@@ -26,8 +26,9 @@ ingeschat op relatief ‘laag’:
     mogen bronhouders de gegevens inwinnen en aanleveren aan de LV-BGT, dit is
     niet verplicht.
 
--   *Samenhang basisregistraties:* er is geen impact voor andere
-    basisregistraties voorzien.
+-   *Samenhang basisregistraties:* er is een impact voor andere
+    basisregistraties voorzien voor de volgende objecten ‘Pand’ en
+    ‘OverigBouwwerk’.
 
 **Implementatie-advies** Het advies is om de nieuwe domeinwaardenlijsten te
 implementeren in de software van bronhouders en BGT keten. Met betreffende
@@ -605,8 +606,7 @@ volledig voor alle typen straatmeubilair die voorkomen in de openbare ruimte.
 Vanuit bronhouders en leveranciers, en de aansluiting met IMBOR is de wens geuit
 om deze classificaties op te nemen in IMGeo.
 
-Typen van Waterinrichtingselement
----------------------------------
+### Typen van Waterinrichtingselement
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#159](https://github.com/Geonovum/IMGeo2018/issues/159)
@@ -635,8 +635,7 @@ voor alle typen die voorkomen in de openbare ruimte. Vanuit bronhouders en
 leveranciers, en de aansluiting met IMBOR is de wens geuit om deze
 classificaties op te nemen in IMGeo. 
 
-Typen van weginrichtingselement
--------------------------------
+### Typen van weginrichtingselement
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
@@ -704,7 +703,8 @@ classificaties op te nemen in IMGeo. 
 Hernoemen
 ---------
 
-**Impact** De impact van dit voorstel wordt ingeschat op relatief ‘*laag*’.
+**Impact** De impact van dit voorstel wordt ingeschat op relatief ‘*gemiddeld
+tot hoog*’.
 
 -   *Verplicht/niet verplicht:* Dit betreft een wijziging in het niet-verplichte
     deel van IMGeo.
