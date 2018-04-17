@@ -231,6 +231,8 @@ Beslisboom bermen
 
 Beslisboom bermen
 
+Beslisboom bermen
+
 [beslisboom
 bermen](https://github.com/Geonovum/IMGeo2018/raw/master/issues/beslisboom-bermen.png) 
 
@@ -311,6 +313,77 @@ uniformer wordt.
 -   *Samenhang basisregistraties:* er is geen impact voor andere
     basisregistraties voorzien; de eisen t.a.v. maaiveldniveau en topologie zijn
     BGT-eigen principes en raken als zodanig niet aan de BAG.
+
+**Implementatie-advies** Implementatie-afspraken/termijnen dienen nader te
+worden bepaald t.a.v. wanneer bronhouders hun bestaande gegevens hebben
+gecontroleerd en aangepast conform de nieuwe afbakeningsregels.
+
+Opnemen afbakeningsregels overbouw en onderbouw
+-----------------------------------------------
+
+**Gerelateerde
+Github-issue(s)** [\#19](https://github.com/Geonovum/IMGeo2018/issues/19), [\#43](https://github.com/Geonovum/IMGeo2018/issues/43)
+
+**Gerelateerde voorstel(len)**
+
+\- Toevoegen overbouw en onderbouw aan Pand en OverigBouwwerk 
+
+**Huidige situatie** Bij een Pand en OverigBouwwerk in de BGT wordt de
+grondvlakgeometrie opgenomen. De grondvlakgeometrie is waar de ‘footprint’ van
+het pand de ondergrond raakt. Overbouw en onderbouw kunnen nu niet opgenomen
+worden bij een Pand en OverigBouwwerk in de BGT.  
+  
+**Nieuwe situatie** In IMGeo wordt Pand en OverigBouwwerk uitgebreid met
+overbouw en onderbouw voor het opnemen van uitstekende delen van een bouwwerk
+welke boven of onder de grondvlakgeometrie liggen. De volgende afbakeningsregels
+worden opgenomen in de BGT catalogus die gelden voor opname van overbouw en
+onderbouw bij een Pand en OverigBouwwerk:
+
+>   Wanneer buitenomtrek en grondvlak op beide volgende twee wijzen van elkaar
+>   afwijken:  
+>     
+>   -          De horizontale afwijking ten opzichte van de situatie met het
+>   grondvlak bedraagt 1 m of meer;  
+>   -          De hoogte van de over- en/of onderbouw bedraagt minimaal één
+>   verdieping.  
+>     
+>   ontstaat er voor uitstekende delen van het bouwwerk een eigen geometrie voor
+>   de overbouw of onderbouw van dat bouwwerk.  
+>     
+>   Er ontstaat dan één Pand of OverigBouwwerk met als geometrie het grondvlak
+>   (rh = 0) plus één of meer panddelen voor elke afwijkende over- of onderbouw
+>   van dat BAG-pand. 
+
+>   De begrenzing van de geometrie van overbouw of onderbouw wordt gevormd door
+>   de geometrie van het grondvlak en de van het grondvlak afwijkende geometrie
+>   dat daar aan grenst.
+
+**Onderbouwing** Meerdere bronhouders en gebruikers hebben het verzoek gedaan om
+overbouw en onderbouw op te nemen in IMGeo.
+
+Door het opnemen van alleen overbouw en onderbouw dat aan minimale afmetingen
+voor uitsteek en hoogte voldoet, wordt de BGT niet vervuild met kleine
+uitstekende delen zoals dakgoten en wordt de inwinlast voor bronhouders beperkt
+(immers minder objecten).
+
+**Impact** De impact van dit voorstel wordt ingeschat op relatief ‘hoog‘:
+
+-   *Verplicht/niet verplicht:* dit betreft een wijziging in het verplichte deel
+    van IMGeo.
+
+-   *Software:* er is een aanpassing van de software nodig (zie gerelateerd
+    voorstel).
+
+-   *Dataconversie:* bestaande gegevens hoeven niet worden geconverteerd.
+
+-   *Inwinning:* bronhouders dienen de huidige populatie van bouwwerken na te
+    lopen om vast te stellen of deze objecten overbouw of onderbouw hebben. Voor
+    optionele typen voor OverigBouwwerk geldt de verplichting van het opnemen
+    van overbouw en onderbouw niet.
+
+-   *Samenhang basisregistraties:* er is een relatie met de basisregistraties
+    BAG en WOZ. WOZ heeft panddelen en BAG heeft eisen voor
+    bovenaanzichtgeometrie. Afstemming hiermee is noodzakelijk.
 
 **Implementatie-advies** Implementatie-afspraken/termijnen dienen nader te
 worden bepaald t.a.v. wanneer bronhouders hun bestaande gegevens hebben

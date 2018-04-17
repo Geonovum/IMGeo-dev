@@ -27,8 +27,9 @@ ingeschat op relatief ‘laag’:
     niet verplicht.
 
 -   *Samenhang basisregistraties:* er is een impact voor andere
-    basisregistraties voorzien voor de volgende objecten ‘Pand’ en
-    ‘OverigBouwwerk’.
+    basisregistraties voorzien waar het de objecten ‘Pand’ en ‘OverigBouwwerk’
+    betreft: hier is een relatie met de WOZ en de BAG; afstemming is
+    noodzakelijk.
 
 **Implementatie-advies** Het advies is om de nieuwe domeinwaardenlijsten te
 implementeren in de software van bronhouders en BGT keten. Met betreffende
@@ -37,7 +38,7 @@ uiterlijk geleverd kunnen hebben.
 
 ### Functies van Wegdeel
 
-#### 'verkeersdrempel' bij rijbaan auto(snel)weg en fietspad 
+#### 'verkeersdrempel' bij rijbaan auto(snel)weg en fietspad
 
 **Gerelateerde Github-issue(s)**
 [\#18](https://github.com/Geonovum/IMGeo2018/issues/18). 
@@ -71,7 +72,7 @@ fysieke voorkomen van Wegdeel als volgt uit te breiden
 
 -   Het plus-fysiekvoorkomen bij 'onverhard' wordt uitgebreid met 'gras'.
 
-####  ‘hout’ bij ‘gesloten verharding’
+#### ‘hout’ bij ‘gesloten verharding’
 
 >   *hout:* Gesloten verharding bestaande uit bijvoorbeeld planken of balken van
 >   hout.
@@ -85,7 +86,7 @@ fysieke voorkomen van Wegdeel als volgt uit te breiden
 >   *kunststof:* Synthetisch vervaardigd materiaal dat als verharding dient
 >   zoals kunstgras of kunststof toplagen op atletiekbanen.
 
-####  ‘gras’ bij ‘onverhard’
+#### ‘gras’ bij ‘onverhard’
 
 >   *gras*: Onverhard met vegetatie bestaande uit grassen en/of grasachtigen.
 
@@ -110,12 +111,12 @@ Een berm kan niet nader verbijzonderd worden.
 'rammelstrook' toegevoegd aan bgt-functie 'berm' van een OndersteunendWegdeel
 met de volgende definities:
 
-#### 'rammelstrook' bij 'berm' 
+#### 'rammelstrook' bij 'berm'
 
 >   **rammelstrook** Een verkeersmaatregel bestaande uit een strook met ribbels
 >   op de weg. 
 
-#### 'rabatstrook' bij 'berm' 
+#### 'rabatstrook' bij 'berm'
 
 >   **rabatstrook** Een kantstrook, van ander materiaal en/of in een afstekende
 >   kleur, langs het verharde wegdek.
@@ -143,9 +144,97 @@ voegen als nadere detaillering van ‘groenvoorziening’.
 een VegatatieObject 'haag' een groenvoorzieningvlak met nadere typering ‘haag’
 te leggen.
 
+### Fysiek voorkomens bij OndersteunendWaterdeel
+
+**Gerelateerde Github-issue(s)**
+
+**Gerelateerde voorstel(len)**
+
+**Huidige situatie** In IMGeo wordt bij een OndersteunendWaterdeel niet het
+fysieke voorkomen vastgelegd.
+
+**Nieuwe situatie** Het voorstel is om het fysieke voorkomen aan
+OndersteunendWaterdeel toe te voegen (zie gerelateerd voorstel) met de volgende
+classificaties:
+
+-   bgt-fysiekvoorkomen: ‘gesloten verharding’, ‘open verharding’, ‘begroeid’ en
+    ‘onbegroeid’.
+
+-   plus-fysiekvoorkomen ‘basaltblokken’ als nadere detaillering van ‘open
+    verharding’.
+
+#### gesloten verharding
+
+*gesloten verharding:* Verharding bestaande uit een materiaal dat niet
+verwijderbaar is zonder definitieve destructie zoals bijvoorbeeld bitumen cement
+of kunststof.
+
+#### open verharding
+
+*open verharding:* Verharding gevormd door in verband aangebrachte elementen van
+beperkte afmetingen zoals bijvoorbeeld klinkers en tegels.
+
+#### begroeid
+
+*begroeid:* Ondersteunend waterdeel waar aaneengesloten vegetatie aanwezig is,
+bijvoorbeeld planten, mos, en/of gras- en kruidachtigen.
+
+#### onbegroeid
+
+*onbegroeid:* Ondersteunend waterdeel waar geen verharding of aaneengesloten
+vegetatie aanwezig is.
+
+#### basaltblokken
+
+*basaltblokken: verharding van blokken bestaande uit zwart vulkanisch gesteente
+(basalt).*
+
+**Onderbouwing** Met deze wijziging sluit IMGeo beter aan op de
+informatiebehoefte vanuit waterbeheer.
+
 ### typen voor Pand
 
-Gerelateerd voorstel:
+**Gerelateerde Github-issue(s)** 
+
+**Gerelateerde voorstel(len)**
+
+-   toevoegen type aan Pand;
+
+-   samenvoegen Pand en OBW;
+
+**Huidige situatie** In IMGeo wordt bij een Pand niet het type vastgelegd.
+
+**Nieuwe situatie** Het voorstel is om het type aan Pand toe te voegen (zie
+gerelateerd voorstel) met de volgende classificaties:
+
+-   bgt-type: ‘windturbine’.
+
+-   plus-type: ‘schuur’, ‘bunker’ , ‘kas, warenhuis’.
+
+#### windturbine
+
+*windturbine*: Turbine waarin winddruk omgezet wordt in mechanische energie.
+
+#### schuur
+
+*schuur:* Een vrijstaand al of niet prefab niet-vergunningsplichtig bouwwerk dat
+gebruikt wordt om goederen in op te slaan en ook als werkruimte kan dienen.
+
+#### bunker
+
+*bunker:* Een bunker is een van oorsprong militair verdedigingswerk dat een
+zekere mate van bescherming biedt tegen beschietingen en bombardementen.
+
+#### kas, warenhuis
+
+*kas, warenhuis:* Voornamelijk uit glas opgebouwde overbouwing van de grond.
+(herkomst BRT)
+
+**Onderbouwing** Met deze wijziging wordt het gegevensverlies als gevolg van de
+nieuwe afbakeningregels van BAG 2.0 opgevangen: windturbine, schuur en bunker
+zijn nu als zodanig herkenbaar als een geclassificeerd OverigBouwwerk in de
+BGT\|IMGeo, maar met BAG 2.0 zouden deze objecten een Pand zonder classificatie
+kunnen worden. Vanuit RVO is de wens geuit om kassen op te nemen in de IMGeo.
 
 ### typen bij OverigBouwwerk
 
@@ -280,10 +369,72 @@ alle typen van kunstwerdeel die voorkomen in de openbare ruimte. Vanuit
 bronhouders en leveranciers, en de aansluiting met IMBOR is de wens geuit om
 deze classificaties op te nemen in IMGeo. 
 
+### typen bij Functioneel Gebied
+
+**Gerelateerde Github-issue(s)** 
+
+**Gerelateerde voorstel(len)** Sluis, sluisdeur, kunstwerk
+
+**Huidige situatie** In IMGeo heeft een FunctioneelGebied een verzameling van
+typen.
+
+**Nieuwe situatie** Het voorstel is om in IMGeo de plus-classificaties voor
+FunctioneelGebied uit te breiden met de volgende typen en definities, allen met
+geometrietype ‘Multivlak’:
+
+#### gemaalcomplex
+
+>   *gemaalcomplex:* Gebied of complex met alle bij een gemaal behorende
+>   gronden, inrichtingen en bouwwerken.
+
+#### sluiscomplex
+
+>   *sluiscomplex:* Gebied of complex met alle bij een sluis behorende gronden,
+>   inrichtingen en bouwwerken.
+
+#### stuwcomplex
+
+>   *Stuwcomplex:* Gebied of complex met alle bij een stuw behorende gronden,
+>   inrichtingen en bouwwerken.
+
+#### aansluiting
+
+>   aansluiting
+
+#### knooppunt
+
+>   knooppunt:
+
+#### kruispunt
+
+>   kruispunt:
+
+#### zone
+
+>   zone:
+
+#### Halteplaats
+
+>   Halteplaats
+
+#### Transferium
+
+>   Transferium
+
+**Onderbouwing** Gemaalcomplex, sluiscomplex en stuwcomplex worden toegevoegd
+als gevolg van het wijzigingen van gemaal naar gemaaldeel, sluis naar sluisdeur
+en stuw naar stuwdeel. Met deze typen kan een clustering van objecten
+plaatsvinden middels een FunctioneelGebied om complexen af te bakenen.
+
+De overige uitbreidingen zijn verzoeken vanuit de aansluiting van het
+Informatiemodel Wegen en Verkeer (IMWV) en Informatiemodel Beheer Openbare
+Ruimte (IMBOR) op IMGeo. Deze typen ontbraken in IMGeo en zijn nodig voor een
+goede aansluiting van de modellen.
+
 ### typen bij Bord
 
-Gerelateerde
-Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
+**Gerelateerde
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
 
 **Huidige situatie** In de IMGeo heeft Bord een verzameling van
 typen/classificaties voor het kenmerk bgt- en plus-type. 
@@ -835,7 +986,7 @@ naar ‘gemaaldeel’ met de volgende definitie:
 
 **Onderbouwing**
 
-###  ‘sluis’ naar ‘sluisdeur’ bij Kunstwerkdeel
+### ‘sluis’ naar ‘sluisdeur’ bij Kunstwerkdeel
 
 **Gerelateerde Github-issue(s)**
 
@@ -891,7 +1042,7 @@ afstand met een centrale locatie.'
 nagelvast met de grond verbonden constructie in de openbare ruimte, bedoeld als
 speelmateriaal voor kinderen of voor het beoefenen van een sport.'
 
-### ‘fietsenrek’ en ‘fietsenkluis’ naar ‘fietsparkeervoorziening’ bij Straatmeubilair 
+### ‘fietsenrek’ en ‘fietsenkluis’ naar ‘fietsparkeervoorziening’ bij Straatmeubilair
 
 oorts is het voorstel om de volgende classificatie te hernoemen met definities:
 
@@ -1006,5 +1157,5 @@ Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
 **Onderbouwing** Vispassage wordt geschrapt omdat dit een verbijzondering is van
 bgt-type faunavoorziening.
 
- ‘historie’ als plus-status
----------------------------
+‘historie’ als plus-status
+--------------------------

@@ -1,4 +1,5 @@
 Wijzigen geometrietypen bij Kunstwerkdeel
+-----------------------------------------
 
 Gerelateerde
 Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
@@ -23,11 +24,12 @@ naar **Multivlak**geometrie.
 - plus-type 'faunavoorziening' wijzigt van Vlak naar **Punt of Vlak** geometrie.
 
 Uitbreiden geometrietypen bij Kunstwerkdeel
+-------------------------------------------
 
-Gerelateerde
-Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
+Gerelateerde Github-issue(s)
+[\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
 
-Gerelateerde voorstel(len): inrichtend naar vlak;
+Gerelateerde voorstel(len) inrichtend naar vlak;
 
 **Huidige situatie** In de IMGeo heeft Kunstwerkdeel een verzameling van typen
 
