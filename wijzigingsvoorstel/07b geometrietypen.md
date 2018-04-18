@@ -47,3 +47,8 @@ naar **Multivlak**geometrie.
 - plus-type 'duiker' wordt hernoemd naar '**duikerdeel**'.   
 - plus-type '**vispassage**' wordt geschrapt.  
 - plus-type 'faunavoorziening' wijzigt van Vlak naar **Punt of Vlak** geometrie.
+
+portaal wordt multipunt
+-----------------------
+
+\#33, \#99

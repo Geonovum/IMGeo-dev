@@ -2,7 +2,9 @@ Domeinwaarden
 =============
 
 Dit hoofdstuk geeft een toelichting op de voorstellen voor het onderdeel
-domeinwaarden.
+domeinwaarden. Het betreft hier zowel voorstellen voor uitbreiding van het model
+met nieuwe objectclassificaties (toevoegen), als aanpassing of uitsplitsing van
+bestaande objectclassificaties (hernoemen, verplaatsen, verwijderen).
 
 Toevoegen of uitbreiden
 -----------------------
@@ -55,10 +57,39 @@ aan de bgt-functies 'rijbaan autosnelweg', 'rijbaan autoweg' en 'fietspad'.
 fietspaden. Om die reden is het verzoek ingediend om verkeerdrempel als
 plus-functie ook toe te voegen aan die functies.
 
+#### ‘trailerhelling’ bij ‘rijbaan lokale weg’
+
+**Gerelateerde Github-issue(s)**
+
+**Gerelateerde voorstel(len)**
+
+**Huidige situatie** In IMGeo komt de plus-functie 'verkeerdrempel' voor bij
+bgt-functies 'rijbaan regionale weg' en 'rijbaan lokale weg'. Een plus-functie
+is een nadere detaillering van een bgt-functie, vergelijkbaar met
+bgt-fysiekvoorkomen 'gesloten verharding' en plus-fysiekvoorkomen 'asfalt'.
+
+**Nieuwe situatie** In IMGeo wordt ‘trailerhelling’ as plus-functie toegevoegd
+aan de bgt-functie 'rijbaan lokale weg’, met de volgende definitie:
+
+>   *trailerhelling:* Een trailerhelling (ook wel slipway genoemd) is een
+>   helling aan het water waardoor schepen en boten in en uit het water kunnen
+>   worden gelaten.
+
+**Onderbouwing** Een trailerhelling is van belang voor de veiligheidsdiensten om
+te weten waar zij hun reddingsboot te water kunnen laten. Deze gegevens zijn
+veelal al beschikbaar bij gemeenten.
+
+####  ‘trailerhelling’ bij rijbaan lokale weg’
+
+**Gerelateerde Github-issue(s)**
+
+**Gerelateerde voorstel(len)**
+
 ### Fysieke voorkomens bij Wegdeel
 
 Gerelateerde
-Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),  [\#117](https://github.com/Geonovum/IMGeo2018/issues/117). 
+Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
+[\#117](https://github.com/Geonovum/IMGeo2018/issues/117), \#194 
 
 **Huidige situatie** In IMGeo heeft een Wegdeel een verzameling van typen
 verharding voor het fysieke voorkomen. Deze lijst is echter niet compleet voor
@@ -99,17 +130,24 @@ bij een Wegdeel komt o.a. voor bij een spoorbaan/trambaan. 
 ### Functies van OndersteunendWegdeel
 
 **Gerelateerde
-Github-issue(s)** [\#106](https://github.com/Geonovum/IMGeo2018/issues/18).
+Github-issue(s)** [\#106](https://github.com/Geonovum/IMGeo2018/issues/18),
+\#170, \#194
 
 **Gerelateerde voorstel(len)** n.v.t. 
 
-**Huidige situatie** In IMGeo heeft een OndersteunendWegdeel onder meer als
-bgt-functie 'berm' met definitie 'Een strook grond langs een weg of spoorweg.'
-Een berm kan niet nader verbijzonderd worden.
+**Huidige situatie** In IMGeo heeft een OndersteunendWegdeel de functie 'berm'
+en ‘verkeerseiland’ met de volgende definities:
+
+berm: 'Een strook grond langs een weg of spoorweg.’
+
+En een ‘verkeerseiland’ met als
+
+Een berm en verkeerseiland kan niet nader verbijzonderd worden.
 
 **Nieuwe situatie** In IMGeo wordt een plus-functie 'rabatstrook' en
-'rammelstrook' toegevoegd aan bgt-functie 'berm' van een OndersteunendWegdeel
-met de volgende definities:
+'rammelstrook' toegevoegd aan bgt-functie 'berm', en plus-functie ‘verhoging’ en
+‘wegmarkering’ toegevoegd aan bgt-functie ‘verkeerseiland’ van een
+OndersteunendWegdeel met de volgende definities:
 
 #### 'rammelstrook' bij 'berm'
 
@@ -121,6 +159,16 @@ met de volgende definities:
 >   **rabatstrook** Een kantstrook, van ander materiaal en/of in een afstekende
 >   kleur, langs het verharde wegdek.
 
+#### ‘verhoging’ bij verkeerseiland
+
+verhoging: verkeerseiland dat is uitgevoerd als verhoging, bijvoorbeeld een
+vluchtheuvel.
+
+#### ‘wegmarkering’ bij ‘verkeerseiland’
+
+wegmarkering: Verkeerseiland dat is uitgevoerd als wegmarkering, bijvoorbeeld
+een verkeersdruppel.
+
 **Onderbouwing** Vanuit verschillende bronhouders en wegbeheerders, en de
 aansluiting met IMBOR komt de wens om rammelstrook en rabatstrook op te nemen in
 IMGeo.
@@ -128,7 +176,8 @@ IMGeo.
 ### Fysieke voorkomens bij BegroeidTerreindeel
 
 **Gerelateerde
-Github-issue(s):** [\#173](https://github.com/Geonovum/IMGeo2018/issues/173). 
+Github-issue(s):** [\#173](https://github.com/Geonovum/IMGeo2018/issues/173),
+\#194. 
 
 **Huidige situatie** In IMGeo heeft een BegroeidTerreindeel fysiek voorkomens
 met nadere detailleringen.
@@ -213,22 +262,23 @@ gerelateerd voorstel) met de volgende classificaties:
 
 #### windturbine
 
-*windturbine*: Turbine waarin winddruk omgezet wordt in mechanische energie.
+>   *windturbine*: Turbine waarin winddruk omgezet wordt in mechanische energie.
 
 #### schuur
 
-*schuur:* Een vrijstaand al of niet prefab niet-vergunningsplichtig bouwwerk dat
-gebruikt wordt om goederen in op te slaan en ook als werkruimte kan dienen.
+>   *schuur:* Een vrijstaand al of niet prefab niet-vergunningsplichtig bouwwerk
+>   dat gebruikt wordt om goederen in op te slaan en ook als werkruimte kan
+>   dienen.
 
 #### bunker
 
-*bunker:* Een bunker is een van oorsprong militair verdedigingswerk dat een
-zekere mate van bescherming biedt tegen beschietingen en bombardementen.
+>   *bunker:* Een bunker is een van oorsprong militair verdedigingswerk dat een
+>   zekere mate van bescherming biedt tegen beschietingen en bombardementen.
 
 #### kas, warenhuis
 
-*kas, warenhuis:* Voornamelijk uit glas opgebouwde overbouwing van de grond.
-(herkomst BRT)
+>   *kas, warenhuis:* Voornamelijk uit glas opgebouwde overbouwing van de grond.
+>   (herkomst BRT)
 
 **Onderbouwing** Met deze wijziging wordt het gegevensverlies als gevolg van de
 nieuwe afbakeningregels van BAG 2.0 opgevangen: windturbine, schuur en bunker
@@ -239,7 +289,8 @@ kunnen worden. Vanuit RVO is de wens geuit om kassen op te nemen in de IMGeo.
 ### typen bij OverigBouwwerk
 
 **Gerelateerde
-Github-issue(s)** [\#17](https://github.com/Geonovum/IMGeo2018/issues/17), [\#22](https://github.com/Geonovum/IMGeo2018/issues/22), [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#87](https://github.com/Geonovum/IMGeo2018/issues/87), [\#158](https://github.com/Geonovum/IMGeo2018/issues/158), [\#174](https://github.com/Geonovum/IMGeo2018/issues/174). 
+Github-issue(s)** [\#17](https://github.com/Geonovum/IMGeo2018/issues/17), [\#22](https://github.com/Geonovum/IMGeo2018/issues/22), [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#87](https://github.com/Geonovum/IMGeo2018/issues/87), [\#158](https://github.com/Geonovum/IMGeo2018/issues/158), [\#174](https://github.com/Geonovum/IMGeo2018/issues/174),
+\#194. 
 
 **Gerelateerde voorstel(len)**
 
@@ -304,7 +355,7 @@ deze classificaties op te nemen in IMGeo.
 ### typen bij Kunstwerkdeel
 
 **Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), \#194
 
 **Gerelateerde voorstel(len)** inrichtend naar vlak;
 
@@ -371,7 +422,7 @@ deze classificaties op te nemen in IMGeo. 
 
 ### typen bij Functioneel Gebied
 
-**Gerelateerde Github-issue(s)** 
+**Gerelateerde Github-issue(s)**  \#194
 
 **Gerelateerde voorstel(len)** Sluis, sluisdeur, kunstwerk
 
@@ -413,13 +464,18 @@ geometrietype ‘Multivlak’:
 
 >   zone:
 
-#### Halteplaats
+#### halteplaats
 
 >   Halteplaats
 
-#### Transferium
+#### transferium
 
 >   Transferium
+
+#### opstelpunt open water
+
+>   *opstelpunt open water:* Een plaats waar een brandweervoertuig opgesteld kan
+>   worden om open water te tappen.
 
 **Onderbouwing** Gemaalcomplex, sluiscomplex en stuwcomplex worden toegevoegd
 als gevolg van het wijzigingen van gemaal naar gemaaldeel, sluis naar sluisdeur
@@ -428,13 +484,14 @@ plaatsvinden middels een FunctioneelGebied om complexen af te bakenen.
 
 De overige uitbreidingen zijn verzoeken vanuit de aansluiting van het
 Informatiemodel Wegen en Verkeer (IMWV) en Informatiemodel Beheer Openbare
-Ruimte (IMBOR) op IMGeo. Deze typen ontbraken in IMGeo en zijn nodig voor een
-goede aansluiting van de modellen.
+Ruimte (IMBOR) op IMGeo. Opstelpunt open water is een wens vanuit de
+veiligheidsregio’s. Deze typen ontbraken in IMGeo en zijn nodig voor een goede
+aansluiting van de modellen.
 
 ### typen bij Bord
 
 **Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), \#194
 
 **Huidige situatie** In de IMGeo heeft Bord een verzameling van
 typen/classificaties voor het kenmerk bgt- en plus-type. 
@@ -487,7 +544,7 @@ classificaties op te nemen in IMGeo.
 ### typen bij Gebouwinstallatie
 
 **Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), \#194
 
 **Gerelateerde voorstel(len)** Inrichtend naar opdelend
 
@@ -511,7 +568,7 @@ classificaties op te nemen in IMGeo.
 ### Typen bij Installatie
 
 **Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), \#194
 
 **Gerelateerde voorstel(len)** n.v.t.
 
@@ -532,8 +589,8 @@ classificaties op te nemen in IMGeo.
 
 ### typen bij Kast
 
-**Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
+**Gerelateerde Github-issue(s)** \#70,
+[\#184](https://github.com/Geonovum/IMGeo2018/issues/184), \#194
 
 **Gerelateerde voorstel(len)** n.v.t.
 
@@ -554,6 +611,11 @@ geometrietype ‘Punt’:
 >   *beregeningskast*: Een regel- en voedingskast voor het bedienen van de
 >   beregeningsinstallatie.
 
+#### PLC-kast
+
+>   *PLC-kast:* Een kast met daarin een PLC (Programmable Logic Controler) voor
+>   het aansturen van o.a. kunstwerken (gemalen, stuwen, afsluitmiddelen etc.).
+
 **Onderbouwing** De classificaties voor plus-type bij Kast waren niet volledig
 voor alle typen die voorkomen in de openbare ruimte. Vanuit bronhouders en
 leveranciers, en de aansluiting met IMBOR is de wens geuit om deze
@@ -562,7 +624,8 @@ classificaties op te nemen in IMGeo.
 ### typen bij Mast
 
 **Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#160](https://github.com/Geonovum/IMGeo2018/issues/160).
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#160](https://github.com/Geonovum/IMGeo2018/issues/160),
+\#194
 
 **Huidige situatie** In de IMGeo heeft Mast een verzameling van typen.
 
@@ -609,7 +672,8 @@ classificaties op te nemen in IMGeo.
 ### typen bij Paal
 
 **Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#81](https://github.com/Geonovum/IMGeo2018/issues/81)
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#81](https://github.com/Geonovum/IMGeo2018/issues/81),
+\#194
 
 **Huidige situatie** In de IMGeo heeft Paal een verzameling van typen. 
 
@@ -657,7 +721,8 @@ classificaties op te nemen in IMGeo.
 ### typen bij Straatmeubilair
 
 **Gerelateerde
-Github-issue(s)** [\#7](https://github.com/Geonovum/IMGeo2018/issues/7), [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#100](https://github.com/Geonovum/IMGeo2018/issues/100)
+Github-issue(s)** [\#7](https://github.com/Geonovum/IMGeo2018/issues/7), [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#100](https://github.com/Geonovum/IMGeo2018/issues/100),
+\#194
 
 **Huidige situatie** In de IMGeo heeft Straatmeubilair een verzameling van
 typen.
@@ -760,7 +825,8 @@ om deze classificaties op te nemen in IMGeo.
 ### Typen van Waterinrichtingselement
 
 **Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#159](https://github.com/Geonovum/IMGeo2018/issues/159)
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#159](https://github.com/Geonovum/IMGeo2018/issues/159),
+\#194
 
 **Gerelateerde voorstel(len)** ‘meerpaal’ naar ‘meerpaal/-stoel’ bij
 Waterinrichtingselement
@@ -789,7 +855,7 @@ classificaties op te nemen in IMGeo. 
 ### Typen van weginrichtingselement
 
 **Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), \#194
 
 **Gerelateerde voorstel(len)** n.v.t.
 
@@ -1032,11 +1098,31 @@ naar ‘duikerdeel’ met de volgende definitie:
 
 ### ‘praatpaal’ naar ‘meldpaal’ bij Paal
 
+**Gerelateerde Github-issue(s)** \#194
+
+**Gerelateerde voorstel(len)**
+
+**Huidige situatie**
+
+**Nieuwe situatie**
+
+**Nieuwe situatie**
+
 Voorts is het voorstel om 'praatpaal' te hernoemen naar **meldpaal** met als
 definitie 'Paal met daarin een installatie bedoeld om te kunnen communiceren op
 afstand met een centrale locatie.'
 
-### ‘speelvoorziening’ naar ‘speel-/sportvoorziening’ bij Straatmeubilair 
+**Onderbouwing**
+
+###  ‘speelvoorziening’ naar ‘speel-/sportvoorziening’ bij Straatmeubilair 
+
+**Gerelateerde Github-issue(s)** , \#194
+
+**Gerelateerde voorstel(len)**
+
+**Huidige situatie**
+
+**Nieuwe situatie**
 
 **speel-/sportvoorziening** i.p.v. speelvoorziening met definitie* '*Aard en
 nagelvast met de grond verbonden constructie in de openbare ruimte, bedoeld als
@@ -1044,7 +1130,13 @@ speelmateriaal voor kinderen of voor het beoefenen van een sport.'
 
 ### ‘fietsenrek’ en ‘fietsenkluis’ naar ‘fietsparkeervoorziening’ bij Straatmeubilair
 
-oorts is het voorstel om de volgende classificatie te hernoemen met definities:
+**Gerelateerde Github-issue(s)** , \#194
+
+**Gerelateerde voorstel(len)**
+
+**Huidige situatie**
+
+**Nieuwe situatie**
 
 **fietsparkeervoorziening** i.p.v. fietsenrek en fietsenkluis met definitie 'Een
 duurzaam verankerd rek in de openbare ruimte voor het stallen van fietsen'.
@@ -1053,6 +1145,15 @@ Voor fietsparkeervoorziening kan een nadere detaillering in IMBOR worden
 opgenomen, bijvoorbeeld fietsenkluis, fietsrek, fietsbeugel, fietsabri e.d.
 
 ### ‘meerpaal’ naar ‘meerpaal/-stoel’ bij Waterinrichtingselement
+
+**Gerelateerde
+Github-issue(s)** [\#39](https://github.com/Geonovum/IMGeo2018/issues/39)
+
+**Gerelateerde voorstel(len)**
+
+**Huidige situatie**
+
+**Nieuwe situatie**
 
 Voorts is het voorstel om meerpaal te hernoemen naar **meerpaal/-stoel.**
 
@@ -1068,8 +1169,12 @@ Github-issue(s)** [\#167](https://github.com/Geonovum/IMGeo2018/issues/167). 
 'voetgangersgebied' en 'woonerf'. 
 
 **Nieuwe situatie** Het voorstel is om in IMGeo de bgt-functies
-'voetgangersgebied' en 'woonerf' bij een Wegdeel te schrappen, en toe te voegen
-als plus-typen bij Functioneel Gebied.  
+'voetgangersgebied' en 'woonerf' te verplaatsen van object Wegdeel naar
+FunctioneelGebied.
+
+Deze wijziging is dus een combinatie van het laten vervallen ‘voetgangersgebied’
+en ‘woonerf’ bij Wegdeel en het uitbreiden van FunctioneelGebied met typen
+‘voetgangergebied’ en ‘woonerf’.
 
 **Onderbouwing** De functies "voetgangersgebied" en "woonerf" zijn niet
 duidelijk gedefinieerd. Zo zijn er voetgangersgebieden, waar soms ook
@@ -1146,8 +1251,8 @@ dat:
 
 **Impact**
 
-Verwijderen ‘vispassage’ bij Kunstwerdeel
------------------------------------------
+‘vispassage’ bij Kunstwerkdeel
+------------------------------
 
 Gerelateerde
 Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)

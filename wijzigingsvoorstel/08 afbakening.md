@@ -2,13 +2,36 @@ Afbakening
 ==========
 
 Dit hoofdstuk geeft een toelichting op de voorstellen voor het onderdeel
-definities.
+Afbakening. Het betreft voorstellen voor het aanscherpen van inwinningsregels.
+
+**Impact** De impact van dit voorstel wordt ingeschat op relatief ‘**hoog**’.
+
+-   *Verplicht/niet verplicht:* dit betreft een wijziging in het verplichte deel
+    van IMGeo.
+
+-   *Software:* er is geen aanpassing van de software nodig.
+
+-   *Dataconversie:* bestaande gegevens hoeven niet te worden geconverteerd.
+
+-   *Inwinning:* bronhouders dienen de huidige populatie van ondersteunende
+    waterdelen na te lopen om vast te stellen of deze objecten aan de nieuwe
+    afbakeningsregels voldoen.
+
+-   *Samenhang basisregistraties:* er is geen impact voor andere
+    basisregistraties voorzien; IMGeo past met dit voorstel aan op de
+    systematiek vanuit waterbeheer (IMWA).
+
+**Implementatieadvies** Implementatie-afspraken/termijnen dienen nader te worden
+bepaald t.a.v. wanneer bronhouders hun bestaande gegevens hebben gecontroleerd
+en aangepast conform de nieuwe afbakeningsregels.
 
 Aanpassen afbakeningsregels voor OndersteunendWaterdeel
 -------------------------------------------------------
 
 **Gerelateerde
-Github-issue(s)** [\#76](https://github.com/Geonovum/IMGeo2018/issues/76) 
+Github-issue(s)** [\#](https://github.com/Geonovum/IMGeo2018/issues/50)50,
+[\#74](https://github.com/Geonovum/IMGeo2018/issues/74),
+[\#76](https://github.com/Geonovum/IMGeo2018/issues/76) 
 
 **Gerelateerde voorstel(len)** n.v.t.
 
@@ -227,12 +250,6 @@ afgebakend als Terreindeel (Begroeid of Onbegroeid).
 
 ![Beslisboom bermen](media/44d2691dc17339ebab7fc8ba64ede4e1.png)
 
-Beslisboom bermen
-
-Beslisboom bermen
-
-Beslisboom bermen
-
 [beslisboom
 bermen](https://github.com/Geonovum/IMGeo2018/raw/master/issues/beslisboom-bermen.png) 
 
@@ -240,8 +257,8 @@ bermen](https://github.com/Geonovum/IMGeo2018/raw/master/issues/beslisboom-berme
 afbakening van bermen in de BGT uniformer en eenvoudiger. Met de 6 meter-eis
 stemt de BGT af op de BRT.
 
-**Impact** De impact van dit voorstel wordt ingeschat op ‘**groot tot zeer
-groot**‘:
+**Impact** De impact van dit voorstel wordt ingeschat op ‘*groot tot zeer
+groot*‘:
 
 -   *Verplicht/niet verplicht:* dit betreft een wijziging in het verplichte deel
     van IMGeo.
@@ -331,8 +348,8 @@ Github-issue(s)** [\#19](https://github.com/Geonovum/IMGeo2018/issues/19), [\#
 **Huidige situatie** Bij een Pand en OverigBouwwerk in de BGT wordt de
 grondvlakgeometrie opgenomen. De grondvlakgeometrie is waar de ‘footprint’ van
 het pand de ondergrond raakt. Overbouw en onderbouw kunnen nu niet opgenomen
-worden bij een Pand en OverigBouwwerk in de BGT.  
-  
+worden bij een Pand en OverigBouwwerk in de BGT.
+
 **Nieuwe situatie** In IMGeo wordt Pand en OverigBouwwerk uitgebreid met
 overbouw en onderbouw voor het opnemen van uitstekende delen van een bouwwerk
 welke boven of onder de grondvlakgeometrie liggen. De volgende afbakeningsregels
@@ -340,16 +357,16 @@ worden opgenomen in de BGT catalogus die gelden voor opname van overbouw en
 onderbouw bij een Pand en OverigBouwwerk:
 
 >   Wanneer buitenomtrek en grondvlak op beide volgende twee wijzen van elkaar
->   afwijken:  
->     
->   -          De horizontale afwijking ten opzichte van de situatie met het
+>   afwijken:
+
+>   \-          De horizontale afwijking ten opzichte van de situatie met het
 >   grondvlak bedraagt 1 m of meer;  
 >   -          De hoogte van de over- en/of onderbouw bedraagt minimaal één
->   verdieping.  
->     
+>   verdieping.
+
 >   ontstaat er voor uitstekende delen van het bouwwerk een eigen geometrie voor
->   de overbouw of onderbouw van dat bouwwerk.  
->     
+>   de overbouw of onderbouw van dat bouwwerk.
+
 >   Er ontstaat dan één Pand of OverigBouwwerk met als geometrie het grondvlak
 >   (rh = 0) plus één of meer panddelen voor elke afwijkende over- of onderbouw
 >   van dat BAG-pand. 
@@ -525,6 +542,11 @@ laag**’:
 worden bepaald t.a.v. wanneer bronhouders hun bestaande gegevens hebben
 gecontroleerd en aangepast conform de nieuwe afbakeningsregels.
 
+Opnemen afbakeningsregels voor tunneldeel en duiker
+---------------------------------------------------
+
+Altijd een niveau lager dan 0, want geen open water.
+
 Opnemen extra afbakeningsregels voor onderscheid tussen muur, kademuur, en keermuur
 -----------------------------------------------------------------------------------
 
@@ -575,6 +597,14 @@ gemakkelijker en uniformer wordt.
 worden bepaald t.a.v. wanneer bronhouders hun bestaande gegevens hebben
 gecontroleerd en aangepast conform de nieuwe afbakeningsregels.
 
+Toevoegen regels voor remmingswerk en geleidewerk
+-------------------------------------------------
+
+[\#38](https://github.com/Geonovum/IMGeo2018/issues/38)
+
+Remmingswerk, geleidewerk afbakenen op de zijde waar het scheepvaartkaart langs vaart.
+--------------------------------------------------------------------------------------
+
 Toelichten samenvallen coördinaten kruinlijn en objectbegrenzing
 ----------------------------------------------------------------
 
@@ -598,42 +628,6 @@ Toelichten samenvallen functionele gebieden en objectgrenzen
 
 **Gerelateerde
 Github-issue(s)** [\#119](https://github.com/Geonovum/IMGeo2018/issues/119)
-
-**Gerelateerde voorstellen**
-
-**Huidige situatie**
-
-**Nieuwe situatie**
-
-**Onderbouwing**
-
-**Impact**
-
-**Implementatie-advies**
-
-Opnemen afbakeningsregels voor indeling van particuliere en bedrijventerreinen
-------------------------------------------------------------------------------
-
-**Gerelateerde
-Github-issue(s)** [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)
-
-**Gerelateerde voorstellen**
-
-**Huidige situatie**
-
-**Nieuwe situatie**
-
-**Onderbouwing**
-
-**Impact**
-
-**Implementatie-advies**
-
-Opnemen afbakeningsregels voor minimale en maximale afmetingen van objecten
----------------------------------------------------------------------------
-
-**Gerelateerde
-Github-issue(s)** [\#103](https://github.com/Geonovum/IMGeo2018/issues/103), [\#125](https://github.com/Geonovum/IMGeo2018/issues/125)
 
 **Gerelateerde voorstellen**
 
