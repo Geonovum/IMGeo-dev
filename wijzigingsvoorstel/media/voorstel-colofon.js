@@ -2,7 +2,7 @@ var respecConfig = {
   specStatus: "GN-WV",
   specType: "IM",
   //canonicalURI: "WV",
-  publishDate: "2017-09-12",
+  publishDate: "2018-04-19",
   editors: [
     {
       name: "Arnoud de Boer",
@@ -17,7 +17,14 @@ var respecConfig = {
     companyURL: "http://www.geonovum.nl/",
     mailto: "h.vaneekelen@geonovum.nl",
     note: "" 
-    }
+    },
+    {
+      name: "Silvy Horbach",
+      company: "SVB-BGT",
+      companyURL: "http://www.svbbgt.nl/",
+      mailto: "silvyhorbach@svb-bgt.nl",
+      note: ""    
+    },
   ],
   //shortName: "shortname",
   pubDomain: "https://www.geonovum.nl",
