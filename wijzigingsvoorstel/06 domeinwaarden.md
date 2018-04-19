@@ -79,7 +79,7 @@ aan de bgt-functie 'rijbaan lokale weg’, met de volgende definitie:
 te weten waar zij hun reddingsboot te water kunnen laten. Deze gegevens zijn
 veelal al beschikbaar bij gemeenten.
 
-####  ‘trailerhelling’ bij rijbaan lokale weg’
+#### ‘trailerhelling’ bij rijbaan lokale weg’
 
 **Gerelateerde Github-issue(s)**
 
@@ -1075,6 +1075,20 @@ naar ‘sluisdeur’ met de volgende definitie:
 opgenomen; het sluiscomplex kan middels een Functioneel Gebied 'sluiscomplex'
 worden opgenomen. 
 
+### ‘stuw’ naar ‘stuwdeel’ bij Kunstwerkdeel
+
+**Gerelateerde Github-issue(s)**
+
+**Gerelateerde voorstel(len)**
+
+**Huidige situatie** In IMGeo komt ‘stuw’ voor als type bij Kunstwerkdeel met de
+volgende definitie:
+
+**Nieuwe situatie** Het voorstel is om in IMGeo het type ‘stuw’ te hernoemen
+naar ‘stuw’ met de volgende definitie:
+
+**Onderbouwing**
+
 ### ‘duiker’ naar ‘duikerdeel’ bij Kunstwerkdeel
 
 **Gerelateerde Github-issue(s)** 
@@ -1114,7 +1128,7 @@ afstand met een centrale locatie.'
 
 **Onderbouwing**
 
-###  ‘speelvoorziening’ naar ‘speel-/sportvoorziening’ bij Straatmeubilair 
+### ‘speelvoorziening’ naar ‘speel-/sportvoorziening’ bij Straatmeubilair 
 
 **Gerelateerde Github-issue(s)** , \#194
 

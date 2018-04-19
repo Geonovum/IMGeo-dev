@@ -265,7 +265,7 @@ worden bepaald t.a.v. wanneer bronhouders de gegevens hebben nagelopen.
 Toevoegen extra regels voor rotatiehoeken van labels
 ----------------------------------------------------
 
-**Gerelateerde Github-issue(s)**
+**Gerelateerde Github-issue(s)** *\#3*
 
 **Gerelateerde voorstel(len)**
 
@@ -300,7 +300,8 @@ rotatiehoek van huisnummers de volgende extra regels op te nemen:
 >   de voorgevel mee kan worden gevisualiseerd, waarbij de kleinste rotatie
 >   wordt gekozen ten opzichte van de normale tekstrichting.** Het
 >   coördinatenpunt van de nummeraanduidingreeks wordt circa 4 meter vanaf de
->   voorgevel (‘straatzijde’) binnen het pand geplaatst.
+>   voorgevel (‘straatzijde’) binnen het pand geplaatst. **Elke
+>   nummeraanduidingreeks van een Pand wordt eenmaal afgebeeld.**
 
 Bij de regels voor het attribuut ‘rotatiehoek’ in hoofdstuk 8 Attributen wordt
 het volgende toevoegd:
