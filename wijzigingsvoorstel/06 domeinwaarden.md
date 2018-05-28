@@ -445,32 +445,45 @@ geometrietype ‘Multivlak’:
 
 #### stuwcomplex
 
->   *Stuwcomplex:* Gebied of complex met alle bij een stuw behorende gronden,
+>   *stuwcomplex:* Gebied of complex met alle bij een stuw behorende gronden,
 >   inrichtingen en bouwwerken.
 
 #### aansluiting
 
->   aansluiting
+>   *aansluiting*: Ongelijkvloers kruispunt van een nationale stroomweg en een
+>   niet-nationale stroomweg (bijvoorbeeld Haarlemmermeeraansluiting of een
+>   halfklaverbladaansluiting) of tussen twee regionale stroomwegen onderling,
+>   of tussen een regionale en een gebiedsontsluitin
 
 #### knooppunt
 
->   knooppunt:
+>   *knooppunt*: Ongelijkvloers kruispunt van (regionale) stroomwegen,
+>   bijvoorbeeld vormgegeven als klaverblad-, ster- of turbineknooppunt. Twee
+>   regionale stroomwegen of een regionale stroomweg en een nationale stroomweg
+>   kunnen onderling een knooppunt vormen. Verkeer kan
 
 #### kruispunt
 
->   kruispunt:
+>   *kruispunt*: Ontmoeting van wegen waar het verkeer van weg mag wisselen. Dit
+>   geldt zowel voor het gemotoriseerd verkeer als voor het langzaam verkeer.
+>   Voorbeelden zijn: een gelijkwaardig kruispunt, een voorrangskruispunt, een
+>   geregeld ruispunt en een (turbo)rotonde.
 
 #### zone
 
->   zone:
+>   *zone:* Verkeerskundige afbakening van een gebied
 
 #### halteplaats
 
->   Halteplaats
+>   *halteplaats*: Eenvoudige stopplaats voor voertuigen van het openbaar
+>   vervoer.
 
 #### transferium
 
->   Transferium
+>   *transferium*: Voorziening voor het overstappen tussen vervoersmodaliteiten,
+>   die zodanig is gesitueerd en ingericht dat een verplaatsing met meerdere
+>   vervoersmodaliteiten aantrekkelijker is dan dezelfde verplaatsing met de
+>   auto.
 
 #### opstelpunt open water
 
@@ -852,7 +865,7 @@ voor alle typen die voorkomen in de openbare ruimte. Vanuit bronhouders en
 leveranciers, en de aansluiting met IMBOR is de wens geuit om deze
 classificaties op te nemen in IMGeo. 
 
-### Typen van weginrichtingselement
+### Typen van Weginrichtingselement
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), \#194
