@@ -52,7 +52,7 @@ In IMGeo zijn waterlopen en watervlakten nader te classificeren.
 
 In IMGeo kunnen inrichtingselementen, die op en in het water voorkomen, worden opgenomen met het objecttype waterinrichtingselement.
 
--   Van remmingswerk, geleidewerk en vuilvang wordt de lijngeometrie opgenomen.
+-   Van remmingswerk, geleidewerk en vuilvang wordt de lijngeometrie opgenomen waarbij voor remmingswerk en geleidewerk geldt dat deze worden ingewonnen aan die zijde waar de scheepvaart langs vaart.
 -   Van betonning, meerpaal en hoogtemerk wordt de puntgeometrie opgenomen.
 
 Het objecttype functioneel gebied kent op het gebied van de waterhuishouding de classificaties ‘kering’ als BGT inhoud, en in het optionele deel ‘waterbergingsgebied’ en ‘infrastructuur waterstaatswerken’. Zie de paragraaf
@@ -110,7 +110,7 @@ Dit zijn bomen en hagen. Bomen worden opgenomen als puntobject. Hagen worden opg
 ## Inrichtingselementen
 
 Weginrichtingselementen kunnen punt-, lijn- of vlakobjecten zijn.
-Waterinrichtingselementen kunnen lijn- of puntobjecten zijn. De regels voor deze inrichtingselementen zijn opgenomen in 9.2 en 9.5.
+Waterinrichtingselementen kunnen lijn- of puntobjecten zijn. De regels voor deze inrichtingselementen zijn opgenomen in 9.2 en 9.6.
 
 De overige inrichtingselementen zoals bakken, palen, borden, etc. worden in alle gevallen opgenomen als puntobject, behalve in de categorie sensor de detectielus, die als lijnobject wordt opgenomen.
 
