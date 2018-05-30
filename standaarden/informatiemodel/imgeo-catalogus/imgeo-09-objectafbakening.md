@@ -58,12 +58,9 @@ In IMGeo kunnen inrichtingselementen, die op en in het water voorkomen, worden o
 Het objecttype functioneel gebied kent op het gebied van de waterhuishouding de classificaties ‘kering’ als BGT inhoud, en in het optionele deel ‘waterbergingsgebied’ en ‘infrastructuur waterstaatswerken’. Zie de paragraaf
 over functioneel gebied voor meer informatie.
 
-## Pand en gebouwinstallatie
+## Gebouwinstallatie
 
-Uitstulpingen in gevels van panden zijn alleen BGT inhoud als ze groter zijn dan 30 cm.
-
-Kleinere uitstulpingen, kunnen, indien ze aan de definitie van het objecttype Gebouwinstallatie voldoen, in IMGeo worden opgenomen. Gebouwinstallaties zijn
-aan het pand verbonden toegangstrappen, luifels en bordessen. Overige uitstulpingen kleiner dan 30 cm worden niet in IMGeo opgenomen.
+Gebouwinstallaties zijn aan het pand verbonden toegangstrappen, luifels en bordessen. Luifels worden opgenomen indien ze breder zijn dan 1 m vanaf de gevel.
 
 ## Overig bouwwerk
 
