@@ -4,7 +4,7 @@ Niet opgelost of uitgesteld
 Niet opgelost
 -------------
 
-De volgende meldingen op het informatiemodel worden niet opgelost:
+De volgende verbetersuggesties voor het informatiemodel worden niet gehonoreerd:
 
 | [\#49](https://github.com/Geonovum/IMGeo2018/issues/49)   | Onderscheiden molgoot bij wegdeel (4938)                                                       | Voor beheer mag molgoot apart afgebakend worden als apart wegdeel geleverd worden. Als zodanig niet herkenbaar in LV-BGT. Molgoten zijn lijnobjecten met vaste breedte afhankelijk van gootelement.                                                                                                                                                                                                                                                                                                                                                                 |
 |-----------------------------------------------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
