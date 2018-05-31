@@ -128,7 +128,7 @@ TypeOverigBouwwerk
 | overkapping | Een afzonderlijk staande overdekking rustend op kolommen. (bron: BGT)                                                                             |
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | open loods  | Niet verplaatsbaar licht gebouw met een open gevel, bestemd als berg- of werkplaats of als tijdelijk onderdak voor andere doeleinden. (bron: BGT) |
-| opslagtank  | Opslagfaciliteit voor vloeistoffen. Alleen bovengrondse opslagtanks worden opgenomen. (bron: BGT)                                                 |
+| opslagtank  | Opslagfaciliteit voor vloeistoffen of gassen. Alleen bovengrondse opslagtanks worden opgenomen. (bron: BGT)                                                 |
 | bezinkbak   | Een gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening. (bron: BGT)                           |
 | windturbine | Turbine waarin winddruk omgezet wordt in mechanische energie. (bron: BGT)                                                                         |
 | lage trafo  | Bouwwerk waarin transformator(en) zijn geplaatst voor elektriciteitsvoorziening. (bron: BGT)                                                      |

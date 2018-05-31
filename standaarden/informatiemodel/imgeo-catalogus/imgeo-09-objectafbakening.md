@@ -52,18 +52,15 @@ In IMGeo zijn waterlopen en watervlakten nader te classificeren.
 
 In IMGeo kunnen inrichtingselementen, die op en in het water voorkomen, worden opgenomen met het objecttype waterinrichtingselement.
 
--   Van remmingswerk, geleidewerk en vuilvang wordt de lijngeometrie opgenomen.
+-   Van remmingswerk, geleidewerk en vuilvang wordt de lijngeometrie opgenomen waarbij voor remmingswerk en geleidewerk geldt dat deze worden ingewonnen aan die zijde waar de scheepvaart langs vaart.
 -   Van betonning, meerpaal en hoogtemerk wordt de puntgeometrie opgenomen.
 
 Het objecttype functioneel gebied kent op het gebied van de waterhuishouding de classificaties ‘kering’ als BGT inhoud, en in het optionele deel ‘waterbergingsgebied’ en ‘infrastructuur waterstaatswerken’. Zie de paragraaf
 over functioneel gebied voor meer informatie.
 
-## Pand en gebouwinstallatie
+## Gebouwinstallatie
 
-Uitstulpingen in gevels van panden zijn alleen BGT inhoud als ze groter zijn dan 30 cm.
-
-Kleinere uitstulpingen, kunnen, indien ze aan de definitie van het objecttype Gebouwinstallatie voldoen, in IMGeo worden opgenomen. Gebouwinstallaties zijn
-aan het pand verbonden toegangstrappen, luifels en bordessen. Overige uitstulpingen kleiner dan 30 cm worden niet in IMGeo opgenomen.
+Gebouwinstallaties zijn aan het pand verbonden toegangstrappen, luifels en bordessen. Luifels worden opgenomen indien ze breder zijn dan 1 m vanaf de gevel.
 
 ## Overig bouwwerk
 
@@ -110,7 +107,7 @@ Dit zijn bomen en hagen. Bomen worden opgenomen als puntobject. Hagen worden opg
 ## Inrichtingselementen
 
 Weginrichtingselementen kunnen punt-, lijn- of vlakobjecten zijn.
-Waterinrichtingselementen kunnen lijn- of puntobjecten zijn. De regels voor deze inrichtingselementen zijn opgenomen in 9.2 en 9.5.
+Waterinrichtingselementen kunnen lijn- of puntobjecten zijn. De regels voor deze inrichtingselementen zijn opgenomen in 9.2 en 9.6.
 
 De overige inrichtingselementen zoals bakken, palen, borden, etc. worden in alle gevallen opgenomen als puntobject, behalve in de categorie sensor de detectielus, die als lijnobject wordt opgenomen.
 
