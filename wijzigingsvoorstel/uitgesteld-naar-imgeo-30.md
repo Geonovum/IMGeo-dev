@@ -1,5 +1,5 @@
-Uitgesteld naar IMGeo 3.0
-=========================
+Uitgewerkte voorstellen, uitgesteld naar IMGeo 3.0
+==================================================
 
 De volgende voorstellen zijn al wel uitgewerkt voor IMGeo, maar worden
 uitgesteld naar een volgende versie van IMGeo (3.0). Deze voorstellen zullen
