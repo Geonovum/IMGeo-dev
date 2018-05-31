@@ -10,8 +10,6 @@ Opnemen definitie ‘maaiveld’
 **Gerelateerde issue(s)**
 [\#156](https://github.com/Geonovum/IMGeo2018/issues/156)  
 
-**Gerelateerde voorstellen** n.v.t.
-
 **Huidige situatie** In de BGT catalogus komt de term ‘maaiveld’ voor zonder
 definitie of nadere toelichting.
 
@@ -51,8 +49,6 @@ Opnemen regels voor indeling van particuliere terreinen
 
 **Gerelateerde
 Github-issue(s)** [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)
-
-**Gerelateerde voorstellen** n.v.t.
 
 **Huidige situatie** In de BGT gegevenscatalogus paragraaf 2.4 Dekking staat het
 volgende:
@@ -100,8 +96,6 @@ Opnemen regels voor objecten buiten Nederland
 **Gerelateerde
 Github-issue(s)** [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)
 
-**Gerelateerde voorstellen** n.v.t.
-
 **Huidige situatie** In de BGT gegevenscatalogus paragraaf 2.4 Dekking staat het
 volgende:
 
@@ -145,11 +139,9 @@ Opnemen regels voor plaatsing en draaiing van labels
 
 **Gerelateerde Github-issue(s)** *\#3*
 
-**Gerelateerde voorstel(len)**
-
 **Huidige situatie** In hoofdstuk 5 van de BGT catalogus worden de volgende
-eisen gesteld aan de plaatsing en rotering rotatiehoeken van een
-Nummeraanduidingreeks bij een Pand of tekst van een OpenbareRuimteLabel
+eisen gesteld aan de plaatsing en draaiing van een Nummeraanduidingreeks bij een
+Pand of tekst van een OpenbareRuimteLabel
 
 >   De visualisatie van een openbare ruimtenaam vindt plaats door de coördinaten
 >   van het midden (centrum) van de tekst vast te leggen, evenals de rotatie van
@@ -196,11 +188,9 @@ het volgende toevoegd:
 
 >   Bereik (min/max) : [-90, +90], waarbij [270,360] niet gelijk is aan [-90,0].
 
-**Onderbouwing** Met dit voorstel wordt duidelijkheid gegeven aan bronhouders
-hoe huisnummers gedraaid moeten worden ten opzichte van de gevel, en aan
-softwareleveranciers welke waarden van rotatiehoeken technisch zijn toegestaan
-conform de huidige werkafspraak. In de praktijk zullen huisnummers dus een
-draaiing hebben tussen -45 en +45 graden.
+**Onderbouwing** Met dit voorstel wordt duidelijkheid gegeven hoe huisnummers
+gepresenteerd dienen te worden in de BGT. In de praktijk zullen huisnummers dus
+een draaiing hebben tussen -45 en +45 graden.
 
 **Impact** De impact van deze wijziging wordt ingeschat op relatief ‘*hoog*’:
 
@@ -212,25 +202,23 @@ draaiing hebben tussen -45 en +45 graden.
 
 -   *Dataconversie:* er is geen dataconversie nodig.
 
--   *Inwinning:* bronhouders dienen te controleren of er de huisnummers juist
-    zijn gedraaid. Juiste rotatiehoeken zijn met software af te leiden uit de
-    geometrie van panden.
+-   *Inwinning:* huisnummers moeten gecontroleerd worden op juiste plaatsing en
+    draaiing.
 
 -   *Samenhang basisregistraties:* er is geen impact voor andere
     basisregistraties voorzien.
 
 **Implementatie-advies** Implementatie-afspraken/termijnen dienen nader te
-worden bepaald t.a.v. wanneer bronhouders de gegevens hebben nagelopen.
-Eventueel kwaliteitsdashboard inzetten om ‘te veel’ gedraaide huisnummers te
-localiseren.
+worden bepaald t.a.v. wanneer de gegevens zijn gecontroleerd. Juiste
+rotatiehoeken zijn met software automatisch af te leiden uit de geometrie van
+panden. Eventueel kwaliteitsdashboard inzetten om ‘te veel’ gedraaide
+huisnummers te localiseren.
 
 Opnemen regels voor panden boven water
 --------------------------------------
 
 **Gerelateerde
 Github-issue(s):** [\#61](https://github.com/Geonovum/IMGeo2018/issues/61). 
-
-**Gerelateerde voorstellen** Geen
 
 **Huidige situatie** In de BGT wordt in principe waterdeel opgenomen met
 relatieve hoogte 0. Voor panden wordt de maaiveldgeometrie opgenomen wat
@@ -277,11 +265,8 @@ Verduidelijken regels voor gemaal, sluisdeur en stuw
 **Gerelateerde
 Github-issue(s)** [\#37](https://github.com/Geonovum/IMGeo2018/issues/37), [\#72](https://github.com/Geonovum/IMGeo2018/issues/72) 
 
-**Gerelateerde voorstellen**
-
--   Uitbreiden van typen bij FunctioneelGebied
-
--   Hernoemen ‘sluis’ naar ‘sluisdeur’.
+**Gerelateerde voorstellen** Uitbreiden van typen bij FunctioneelGebied en
+Hernoemen ‘sluis’ naar ‘sluisdeur’.
 
 **Huidige situatie** In de BGT catalogus worden de volgende afbakeningsregels
 voor gemaal, sluis en stuw gegeven:
@@ -358,8 +343,6 @@ Opnemen afbakeningsregels voor tunneldeel en duiker
 **Gerelateerde
 Github-issue(s)** [\#62](https://github.com/Geonovum/IMGeo2018/issues/62)
 
-**Gerelateerde voorstellen** Geen
-
 **Huidige situatie** In het objectenhandboek wordt bij
 [tunneldeel](http://imgeo.geostandaarden.nl/def/imgeo-object/tunneldeel/tunneldeel)
 en
@@ -418,8 +401,6 @@ Schrappen minimale afmetingen voor afbakening BGT Scheiding
 
 **Gerelateerde
 Github-issue(s):** [\#28](https://github.com/Geonovum/IMGeo2018/issues/28) 
-
-**Gerelateerde voorstel(len): **n.v.t.
 
 **Huidige situatie** In de BGT moet een object Scheiding worden opgenomen en in
 IMGeo mag optioneel een OverigeScheiding worden opgenomen.
@@ -540,8 +521,6 @@ Schrappen inwinregel voor plantvakken kleiner dan 5m2
 **Gerelateerde
 Github-issue(s):** [\#198](https://github.com/Geonovum/IMGeo2018/issues/198) 
 
-**Gerelateerde voorstel(len): **n.v.t.
-
 **Huidige situatie** In de afbakeningsregels bij Wegdeel in de BGT catalogus
 wordt gesteld dat
 
@@ -589,8 +568,6 @@ Aanpassen definities van rijbanen en fietspad bij Wegdeel
 
 **Gerelateerde issue(s)**
 [\#11](https://github.com/Geonovum/IMGeo2018/issues/11)  
-
-**Gerelateerde voorstel(len)** n.v.t.
 
 **Huidige situatie** In de BGT zijn de volgende classificaties en definities
 voor Wegdelen opgenomen:
@@ -718,8 +695,6 @@ Aanpassen definitie bunker
 **Gerelateerde Github-issue(s)**
 [\#183](https://github.com/Geonovum/IMGeo2018/issues/183)
 
-**Gerelateerde voorstel(len)** n.v.t.
-
 **Huidige situatie** In IMGeo komt het plus-type ‘bunker’ bij een OverigBouwwerk
 voor met de volgende definitie:
 
@@ -758,8 +733,6 @@ Aanpassen definitie nauwkeurigheid bij Plaatsbepalingspunt
 
 **Gerelateerde Github-issue(s)**
 [\#114](https://github.com/Geonovum/IMGeo2018/issues/114)
-
-**Gerelateerde voorstel(len)** n.v.t.
 
 **Huidige situatie** In de BGT catalogus wordt volgende definitie voor het
 attribuut ‘nauwkeurigheid’ van een Plaatsbepalingspunt gegeven.
