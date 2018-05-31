@@ -1,7 +1,19 @@
+Overige voorstellen
+===================
+
+De volgende voorstellen worden apart toegelicht, waarbij het BGT werkveld om
+extra input te leveren door het aandragen
+
+Inrichtend/vrijwillig naar opdelend/verplicht
+---------------------------------------------
+
 **Huidige situatie**
 
-In de BGT komt de functie 'inrit' voor bij een Wegdeel met de volgende
-definitie:  
+Inritten
+--------
+
+**Huidige situatie** In de BGT komt de functie 'inrit' voor bij een Wegdeel met
+de volgende definitie:  
   
 *"Toegangswegen oprijlanen en dergelijke met verkeersfunctie die leiden naar
 afgelegen erven en terreinen."*  
@@ -14,9 +26,7 @@ gebouw door bijna alle bronhouders opgenomen in de BGT. 
 Op BGT-niveau is het niet de bedoeling om de korte inritten als ‘inrit’ af te
 bakenen. Voor beheer openbare ruimte zijn de korte inritten wel relevant.
 
-**Oplossingsrichtingen**
-
-De volgende opties worden voorgelegd voor inritten in IMGeo:
+**Nieuwe situatie** De volgende opties worden voorgelegd voor inritten in IMGeo:
 
 **Optie 1.** Geen aanpassing van het informatiemodel. Wel wordt strenger
 toegezien op de hierarchische regels van IMGeo dat inritten die over een
@@ -65,3 +75,8 @@ Aan de bgt-functies ‘rijbaan regionale weg’ en ‘rijbaan lokale weg’ word
 voetpad en/of fietspad doorkruisen worden afgebakend als ‘rijbaan regionale weg:
 inrit’ langs regionale wegen, en als ‘rijbaan lokale weg: inrit’ langs lokale
 wegen.
+
+Bermen
+------
+
+Optie 1. Geen aanpassing
