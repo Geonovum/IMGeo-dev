@@ -4,7 +4,7 @@ Hernoemen of schrappen van domeinwaarden
 De volgende voorstellen betreffen het hernoemen of schrappen van domeinwaarden
 in IMGeo.
 
-### Hernoemen ‘boomschors’ naar ‘houtsnippers’ 
+### Hernoemen ‘boomschors’ naar ‘houtsnippers’
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
@@ -26,10 +26,8 @@ Beheer Openbare Ruimte (BOR) wordt toegepast i.p.v. 'boomschors'.
 
 ### Hernoemen ‘zand’ naar ‘zandvlakte’
 
-**Gerelateerde Github-issue(s): **
+**Gerelateerde Github-issue(s) **
 [\#113](https://github.com/Geonovum/IMGeo2018/issues/113) 
-
-**Gerelateerde voorstel(len)** n.v.t.
 
 **Huidige situatie** In IMGeo heeft OnbegroeidTerreindeel het fysieke voorkomen
 ‘zand’ zowel zelfstandig als bgt-type en als nadere detaillering van ‘onverhard’
@@ -95,7 +93,7 @@ Het geometrietype van ‘gemaaldeel’ wordt aangepast van ‘Vlak’ naar ‘Mu
 **Onderbouwing** Met deze aanpassing sluit de BGT beter aan op de
 afbakeningsregels van de waterwereld (IMWA).
 
-### Hernoemen ‘stuw’ naar ‘stuwdeel’ en wijzigen geometrie naar MultiVlak 
+### Hernoemen ‘stuw’ naar ‘stuwdeel’ en wijzigen geometrie naar MultiVlak
 
 **Gerelateerde Github-issue(s)**
 [\#37](https://github.com/Geonovum/IMGeo2018/issues/37),
@@ -122,7 +120,7 @@ Het geometrietype van ‘stuwdeel’ wordt aangepast van ‘Vlak’ naar ‘Mult
 **Onderbouwing** Met deze aanpassing sluit de BGT beter aan op de
 afbakeningsregels van de waterwereld (IMWA).
 
-### Hernoemen ‘duiker’ naar ‘duikerdeel’ en wijzigen geometrie naar MultiVlak 
+### Hernoemen ‘duiker’ naar ‘duikerdeel’ en wijzigen geometrie naar MultiVlak
 
 **Gerelateerde Github-issue(s) **
 [\#37](https://github.com/Geonovum/IMGeo2018/issues/37),
@@ -150,7 +148,8 @@ afbakeningsregels van de waterwereld (IMWA).
 
 ### Hernoemen ‘praatpaal’ naar ‘meldpaal’ bij Paal
 
-**Gerelateerde Github-issue(s)** \#194
+**Gerelateerde
+Github-issue(s)** [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In IMGeo komt ‘praatpaal’ als type van Paal voor met de
 volgende definitie:
@@ -166,9 +165,10 @@ communiceren met een centrale meldkamer. In IMGeo worden deze geaggreerd tot é�
 algemeen object ‘meldpaal’. Met deze aanpassing sluiten IMGeo en IMBOR op elkaar
 aan.
 
-### Hernoemen ‘speelvoorziening’ naar ‘speel-/sportvoorziening’ 
+### Hernoemen ‘speelvoorziening’ naar ‘speel-/sportvoorziening’
 
-**Gerelateerde Github-issue(s)** , \#194
+**Gerelateerde
+Github-issue(s)** [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In IMGeo komt ‘speelvoorziening’ als type van
 Straatmeubilair voor met de volgende definitie:
@@ -188,9 +188,10 @@ In IMGeo worden deze geaggreerd tot één algemeen object
 ‘speel-/sportvoorziening’. Met deze aanpassing sluiten IMGeo en IMBOR op elkaar
 aan.
 
-### Hernoemen ‘fietsenrek’ en ‘fietsenkluis’ naar ‘fietsparkeervoorziening’ 
+### Hernoemen ‘fietsenrek’ en ‘fietsenkluis’ naar ‘fietsparkeervoorziening’
 
-**Gerelateerde Github-issue(s)** , \#194
+**Gerelateerde
+Github-issue(s)** [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In IMGeo komen ‘fietsenrek’ en ‘fietsenkluis’ als type van
 Straatmeubilair voor met de volgende definitie:
@@ -238,7 +239,7 @@ De **impact** en het **implementatieadvies** voor het hernoemen van
 domeinwaarden is generiek als volgt te beschrijven:
 
 **Impact** De impact van de voorstellen voor hernoemen van domeinwaarden wordt
-ingeschat op relatief ‘*gemiddeld tot hoog*’.
+ingeschat op relatief ‘*hoog*’.
 
 -   *Verplicht/niet verplicht:* Dit betreft een wijziging in het niet-verplichte
     deel van IMGeo.
@@ -285,7 +286,7 @@ domeinwaardenlijsten in de centrale BGT ketensystemen:
 ### Verplaatsen 'voetgangersgebied'en 'woonerf' van Wegdeel naar FunctioneelGebied
 
 **Gerelateerde
-Github-issue(s)** [\#167](https://github.com/Geonovum/IMGeo2018/issues/167). 
+Github-issue(s)** [\#167](https://github.com/Geonovum/IMGeo2018/issues/167) 
 
 **Huidige situatie** In IMGeo heeft een Wegdeel de bgt-functies
 'voetgangersgebied' en 'woonerf'. 
@@ -305,7 +306,7 @@ rijbaan aangelegd. Met borden wordt dan een voetgangerszone aangeduid. Dat geldt
 ook voor woonerven. De begrenzing is nogal afhankelijk van de plaatsing van de
 borden en van verkeersbesluiten. 
 
-**Impact** De impact van deze wijziging wordt ingeschat op ‘laag tot gemiddeld’:
+**Impact** De impact van deze wijziging wordt ingeschat op ‘hoog’:
 
 -   *Verplicht/niet verplicht:* Dit betreft een wijziging in het verplichte deel
     van IMGeo.
@@ -345,7 +346,7 @@ Verwijderen ‘vispassage’ bij Kunstwerkdeel
 ------------------------------------------
 
 **Gerelateerde
-Github-issue(s):** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
+Github-issue(s)** [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In IMGeo komt ‘vispassage’ als type van Kunstwerkdeel voor
 met de volgende definitie:
@@ -357,7 +358,7 @@ te laten vervallen.
 het type ‘faunavoorziening’. In IMBOR komen nadere detailleringen van
 faunavoorziening voor.
 
-**Impact** De impact van deze wijziging wordt ingeschat op ‘laag tot gemiddeld’:
+**Impact** De impact van deze wijziging wordt ingeschat op ‘hoog’:
 
 -   *Verplicht/niet verplicht:* Dit betreft een wijziging in het optionele deel
     van IMGeo.
@@ -385,7 +386,7 @@ faunavoorziening voor.
 --------------------------
 
 **Gerelateerde
-Github-issue(s):** [\#2](https://github.com/Geonovum/IMGeo2018/issues/2)
+Github-issue(s)** [\#2](https://github.com/Geonovum/IMGeo2018/issues/2)
 
 **Huidige situatie** In IMGeo komt ‘historie’ als plus-status bij een object
 voor met de volgende definitie:
@@ -400,7 +401,7 @@ uit de domeinwaardenlijst StatusPlus.
 object-eindtijd. Historie is daardoor een overbodige waarde. In de BGT keten
 wordt nu nergens status ‘historie’ toegepast bij objecten met een eindtijd.
 
-**Impact** De impact van deze wijziging wordt ingeschat op ‘laag tot gemiddeld’:
+**Impact** De impact van deze wijziging wordt ingeschat op ‘laag’:
 
 -   *Verplicht/niet verplicht:* Dit betreft een wijziging in het optionele deel
     van IMGeo.

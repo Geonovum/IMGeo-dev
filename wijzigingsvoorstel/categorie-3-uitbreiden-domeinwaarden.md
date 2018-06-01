@@ -9,7 +9,7 @@ domeinwaarden.
 #### 'verkeersdrempel' bij rijbaan auto(snel)weg en fietspad
 
 **Gerelateerde Github-issue(s)**
-[\#18](https://github.com/Geonovum/IMGeo2018/issues/18). 
+[\#18](https://github.com/Geonovum/IMGeo2018/issues/18) 
 
 **Huidige situatie** In IMGeo komt de plus-functie 'verkeerdrempel' voor bij
 bgt-functies 'rijbaan regionale weg' en 'rijbaan lokale weg'. Een plus-functie
@@ -45,9 +45,10 @@ veelal al beschikbaar bij gemeenten.
 
 ### Fysieke voorkomens bij Wegdeel
 
-Gerelateerde
-Github-issue(s): [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
-[\#117](https://github.com/Geonovum/IMGeo2018/issues/117), \#194 
+**Gerelateerde
+Github-issue(s):** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
+[\#117](https://github.com/Geonovum/IMGeo2018/issues/117),
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194) 
 
 **Huidige situatie** In IMGeo heeft een Wegdeel een verzameling van typen
 verharding voor het fysieke voorkomen. Deze lijst is echter niet compleet voor
@@ -89,7 +90,8 @@ bij een Wegdeel komt o.a. voor bij een spoorbaan/trambaan. 
 
 **Gerelateerde
 Github-issue(s)** [\#106](https://github.com/Geonovum/IMGeo2018/issues/18),
-\#170, \#194
+[\#170](https://github.com/Geonovum/IMGeo2018/issues/170),
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In IMGeo heeft een OndersteunendWegdeel de functie 'berm'
 en ‘verkeerseiland’ met de volgende definities:
@@ -135,7 +137,7 @@ IMGeo.
 
 **Gerelateerde
 Github-issue(s):** [\#173](https://github.com/Geonovum/IMGeo2018/issues/173),
-\#194. 
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194) 
 
 **Huidige situatie** In IMGeo heeft een BegroeidTerreindeel fysiek voorkomens
 met nadere detailleringen.
@@ -151,7 +153,7 @@ voegen als nadere detaillering van ‘groenvoorziening’.
 
 **Gerelateerde
 Github-issue(s)** [\#17](https://github.com/Geonovum/IMGeo2018/issues/17), [\#22](https://github.com/Geonovum/IMGeo2018/issues/22), [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#87](https://github.com/Geonovum/IMGeo2018/issues/87), [\#158](https://github.com/Geonovum/IMGeo2018/issues/158), [\#174](https://github.com/Geonovum/IMGeo2018/issues/174),
-\#194. 
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194) 
 
 **Huidige situatie** In de IMGeo heeft OverigBouwwerk een verzameling van
 typen/classificaties voor het kenmerk bgt- en plus-type. 
@@ -210,7 +212,8 @@ deze classificaties op te nemen in IMGeo.
 ### typen bij Kunstwerkdeel
 
 **Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), \#194
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In IMGeo heeft Kunstwerkdeel een verzameling van typen.
 
@@ -245,7 +248,8 @@ deze classificaties op te nemen in IMGeo. 
 
 ### typen bij Functioneel Gebied
 
-**Gerelateerde Github-issue(s)**  \#194
+**Gerelateerde Github-issue(s)** 
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Gerelateerde voorstel(len)** Sluis, sluisdeur, kunstwerk
 
@@ -271,7 +275,7 @@ geometrietype ‘Multivlak’:
 >   *stuwcomplex:* Gebied of complex met alle bij een stuw behorende gronden,
 >   inrichtingen en bouwwerken.
 
-#### opvangzone 
+#### opvangzone
 
 >   *opvangzone:* Oppervlak, waarop de gebruiker terecht komt, na vallen door de
 >   valruimte. De opvangzone is het gebied rondom een speeltoestel waar
@@ -328,7 +332,8 @@ aansluiting van de modellen.
 ### typen bij Bord
 
 **Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), \#194
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In de IMGeo heeft Bord een verzameling van
 typen/classificaties voor het kenmerk bgt- en plus-type. 
@@ -381,7 +386,8 @@ classificaties op te nemen in IMGeo.
 ### typen bij Gebouwinstallatie
 
 **Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), \#194
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In de IMGeo heeft Gebouwinstallatie een verzameling van
 typen.
@@ -403,7 +409,8 @@ classificaties op te nemen in IMGeo.
 ### Typen bij Installatie
 
 **Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), \#194
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In de IMGeo heeft Installatie een verzameling van typen.
 
@@ -439,8 +446,10 @@ classificaties op te nemen in IMGeo.
 
 ### typen bij Kast
 
-**Gerelateerde Github-issue(s)** \#70,
-[\#184](https://github.com/Geonovum/IMGeo2018/issues/184), \#194
+**Gerelateerde
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
+[\#184](https://github.com/Geonovum/IMGeo2018/issues/184),
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In de IMGeo heeft Kast een verzameling van typen.
 
@@ -473,7 +482,7 @@ classificaties op te nemen in IMGeo.
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#160](https://github.com/Geonovum/IMGeo2018/issues/160),
-\#194
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In de IMGeo heeft Mast een verzameling van typen.
 
@@ -495,7 +504,7 @@ classificaties op te nemen in IMGeo.
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#81](https://github.com/Geonovum/IMGeo2018/issues/81),
-\#194
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In de IMGeo heeft Paal een verzameling van typen. 
 
@@ -544,7 +553,7 @@ classificaties op te nemen in IMGeo.
 
 **Gerelateerde
 Github-issue(s)** [\#7](https://github.com/Geonovum/IMGeo2018/issues/7), [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#100](https://github.com/Geonovum/IMGeo2018/issues/100),
-\#194
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In de IMGeo heeft Straatmeubilair een verzameling van
 typen.
@@ -663,7 +672,7 @@ om deze classificaties op te nemen in IMGeo.
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#159](https://github.com/Geonovum/IMGeo2018/issues/159),
-\#194
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In de IMGeo heeft Waterinrichtingselement een verzameling
 van typen.
@@ -700,7 +709,8 @@ classificaties op te nemen in IMGeo. 
 ### Typen van Weginrichtingselement
 
 **Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), \#194
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In de IMGeo heeft Weginrichtingselement een verzameling van
 typen.
@@ -746,7 +756,8 @@ classificaties op te nemen in IMGeo. 
 ### Typen van Vegatieobject
 
 **Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), \#194
+Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In de IMGeo heeft Vegetatieobject een verzameling van
 typen.
@@ -756,11 +767,13 @@ bij VegetatieObject uit te breiden met de volgende typen en definities:
 
 #### Klimplant
 
-klimplant (Punt):
+>   *klimplant (Punt):* Plant met buigzame stengels die zich op diverse manieren
+>   aan muren, bomen of constructies hecht en zodoende omhoog klimt.
 
 #### Solitaire plant
 
-solitaire plant (Punt):
+>   *solitaire plant (Punt):* Plant, heester of siergras, te beheren als
+>   solitair beplantingselement.
 
 **Onderbouwing**  
 De classificaties voor plus-type bij Weginrichtingselement waren niet volledig

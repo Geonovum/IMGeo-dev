@@ -59,7 +59,7 @@ en aangepast conform de nieuwe afbakeningsregels.
 Opnemen regels voor onderscheid tussen naaldbos, loofbos en gemengd bos
 -----------------------------------------------------------------------
 
-**Gerelateerde issue(s)**
+**Gerelateerde Github-issue(s)**
 [\#161](https://github.com/Geonovum/IMGeo2018/issues/161)
 
 **Huidige situatie** In BGT gegevenscatalogus paragraaf 9.8 staat in de
@@ -116,7 +116,7 @@ Opnemen regels voor onderscheid tussen viaduct en tunneldeel
 ------------------------------------------------------------
 
 **Gerelateerde
-Github-issue(s)** [\#12](https://github.com/Geonovum/IMGeo2018/issues/12). 
+Github-issue(s)** [\#12](https://github.com/Geonovum/IMGeo2018/issues/12) 
 
 **Huidige situatie** In de BGT wordt onderscheid gemaakt tussen object
 Overbruggingsdeel van het type viaduct en het object Tunneldeel. Bij bronhouders
@@ -167,7 +167,7 @@ Opnemen extra afbakeningsregels voor onderscheid tussen muur, kademuur, en keerm
 
 **Gerelateerde
 Github-issue(s)** [\#14](https://github.com/Geonovum/IMGeo2018/issues/14), [\#30](https://github.com/Geonovum/IMGeo2018/issues/30),
-[\#69](https://github.com/Geonovum/IMGeo2018/issues/69).
+[\#69](https://github.com/Geonovum/IMGeo2018/issues/69)
 
 **Huidige situatie** In de BGT wordt onderscheid gemaakt tussen type ‘muur’,
 ‘kademuur’, ‘keermuur’, ‘damwand’, en ‘dam’ (zie gerelateerd voorstel) van
@@ -297,8 +297,8 @@ kleine uitstulpingen van minder dan 30 cm opgelost.
 worden bepaald t.a.v. wanneer bronhouders hun bestaande gegevens hebben
 gecontroleerd en aangepast conform de nieuwe afbakeningsregels.
 
-Aanpassen definitie ‘oever/slootkant’ 
---------------------------------------
+Aanpassen definitie ‘oever/slootkant’
+-------------------------------------
 
 **Gerelateerde
 Github-issue(s)** [\#76](https://github.com/Geonovum/IMGeo2018/issues/76) 
@@ -394,11 +394,10 @@ gemakkelijker en uniformer wordt.
 worden bepaald t.a.v. wanneer bronhouders hun bestaande gegevens hebben
 gecontroleerd en aangepast conform de nieuwe definities.
 
-Aanpassen definitie opslagtank 
--------------------------------
+Aanpassen definitie opslagtank
+------------------------------
 
-**Gerelateerde
-Github-issue(s)** [\#190](https://github.com/Geonovum/IMGeo2018/issues/190)
+**Gerelateerde Github-issue(s)** \#190
 
 **Huidige situatie** In de BGT komt een ‘opslagtank’ als type van OverigBouwwerk
 met de volgende definitie voor:

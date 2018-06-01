@@ -137,7 +137,8 @@ worden bepaald t.a.v. wanneer bronhouders de gegevens hebben nagelopen.
 Opnemen regels voor plaatsing en draaiing van labels
 ----------------------------------------------------
 
-**Gerelateerde Github-issue(s)** *\#3*
+**Gerelateerde Github-issue(s)**
+[\#3](https://github.com/Geonovum/IMGeo2018/issues/3)
 
 **Huidige situatie** In hoofdstuk 5 van de BGT catalogus worden de volgende
 eisen gesteld aan de plaatsing en draaiing van een Nummeraanduidingreeks bij een
@@ -192,7 +193,7 @@ het volgende toevoegd:
 gepresenteerd dienen te worden in de BGT. In de praktijk zullen huisnummers dus
 een draaiing hebben tussen -45 en +45 graden.
 
-**Impact** De impact van deze wijziging wordt ingeschat op relatief ‘*hoog*’:
+**Impact** De impact van deze wijziging wordt ingeschat op relatief ‘*laag*’:
 
 -   *Verplicht/niet verplicht:* Dit betreft een wijziging in het verplichte deel
     van IMGeo.
@@ -203,7 +204,7 @@ een draaiing hebben tussen -45 en +45 graden.
 -   *Dataconversie:* er is geen dataconversie nodig.
 
 -   *Inwinning:* huisnummers moeten gecontroleerd worden op juiste plaatsing en
-    draaiing.
+    draaiing. Dit kan grotendeels geautomatiseerd met software.
 
 -   *Samenhang basisregistraties:* er is geen impact voor andere
     basisregistraties voorzien.
@@ -218,7 +219,7 @@ Opnemen regels voor panden boven water
 --------------------------------------
 
 **Gerelateerde
-Github-issue(s):** [\#61](https://github.com/Geonovum/IMGeo2018/issues/61). 
+Github-issue(s):** [\#61](https://github.com/Geonovum/IMGeo2018/issues/61) 
 
 **Huidige situatie** In de BGT wordt in principe waterdeel opgenomen met
 relatieve hoogte 0. Voor panden wordt de maaiveldgeometrie opgenomen wat
@@ -316,8 +317,7 @@ gemaal, sluis en stuw in de BGT gegevenscatalogus op te nemen:
 **Onderbouwing** Met deze afbakeningsregels sluit de BGT beter aan op de
 afbakeningsregels van de waterwereld (IMWA).
 
-**Impact** De impact van dit voorstel wordt ingeschat op ‘**laag tot zeer
-laag**’:
+**Impact** De impact van dit voorstel wordt ingeschat op ‘laag tot zeer laag’:
 
 -   *Verplicht/niet verplicht:* dit betreft een wijziging in het verplichte deel
     van IMGeo.
@@ -398,6 +398,7 @@ laag**’:
 **Implementatie-advies** n.v.t.
 
 Schrappen minimale afmetingen voor afbakening BGT Scheiding
+-----------------------------------------------------------
 
 **Gerelateerde
 Github-issue(s):** [\#28](https://github.com/Geonovum/IMGeo2018/issues/28) 
@@ -488,7 +489,7 @@ Onderscheid tussen twee objecten Scheiding en OverigScheiding is wel nodig voor
 bijvoorbeeld het opnemen van draadraster en faunaraster en scheidingen tussen
 percelen.
 
-**Impact** De impact van dit voorstel wordt ingeschat op relatief ‘*hoog*’.
+**Impact** De impact van dit voorstel wordt ingeschat op relatief ‘*gemiddeld*’.
 
 -   *Verplicht/niet verplicht:* Dit betreft een wijziging in het verplichte deel
     van IMGeo.
@@ -689,8 +690,8 @@ sluiscomplex.
 
 **Implementatie-advies**
 
-Aanpassen definitie bunker 
----------------------------
+Aanpassen definitie bunker
+--------------------------
 
 **Gerelateerde Github-issue(s)**
 [\#183](https://github.com/Geonovum/IMGeo2018/issues/183)
@@ -774,8 +775,6 @@ Aanpassen definitie put(deksel) bij Put
 **Gerelateerde Github-issue(s)**
 [\#92](https://github.com/Geonovum/IMGeo2018/issues/92)
 
-**Gerelateerde voorstel(len)** n.v.t.
-
 **Huidige situatie** In de IMGeo komen o.a. de volgende classificaties met
 definities van Put voor.
 
@@ -849,8 +848,6 @@ Toelichten samenvallen coördinaten kruinlijn en objectbegrenzing
 **Gerelateerde
 Github-issue(s)** [\#36](https://github.com/Geonovum/IMGeo2018/issues/36), [\#175](https://github.com/Geonovum/IMGeo2018/issues/175)
 
-**Gerelateerde voorstellen** Geen
-
 **Huidige situatie** In hoofdstuk 10 van de BGT catalogus is bij de regels voor
 opname van kruinlijnen bij een wegdeel (10.1.2), ondersteunend wegdeel (10.2.2)
 en onbegroeid terreindeel (10.4.2) de volgende zinsnede opgenomen.
@@ -899,8 +896,6 @@ Toelichten samenvallen functionele gebieden en objectgrenzen
 **Gerelateerde
 Github-issue(s)** [\#119](https://github.com/Geonovum/IMGeo2018/issues/119)
 
-**Gerelateerde voorstellen** Geen
-
 **Huidige situatie** In hoofdstuk 2 van de BGT catalogus wordt beschreven dat
 BGT objecten kunnen worden geclusterd in een macro-object (ofwel Functioneel
 Gebied).
@@ -947,8 +942,6 @@ Toelichten geen plaatsbepalingspunten bij planinformatie, OngeclassificeerdObjec
 **Gerelateerde
 Github-issue(s)** [\#79](https://github.com/Geonovum/IMGeo2018/issues/79),
 [\#124](https://github.com/Geonovum/IMGeo2018/issues/124)
-
-**Gerelateerde voorstellen** Geen
 
 **Huidige situatie** In de IMGeo catalogus in paragraaf 3.5 Meetgegevens is de
 volgende zinsnede opgenomen:
@@ -1002,8 +995,6 @@ Toelichten Nederlandse tijdzone met zomer/wintertijd
 **Gerelateerde
 Github-issue(s)** [\#13](https://github.com/Geonovum/IMGeo2018/issues/13)
 
-**Gerelateerde voorstellen** Geen
-
 **Huidige situatie** In de BGT catalogus wordt in het 4.5.3 Tijdgeldigheid het
 volgende beschreven:
 
@@ -1047,8 +1038,6 @@ Tekstuele aanpassing relatieve i.p.v. interne precisie
 
 **Gerelateerde
 Github-issue(s)** [\#142](https://github.com/Geonovum/IMGeo2018/issues/142)
-
-**Gerelateerde voorstellen** Geen
 
 **Huidige situatie** In de BGT catalogus in paragraaf 4.2 wordt het volgende
 beschreven:
