@@ -82,7 +82,7 @@ Overzichtstabel IMGeo 2.2
 Onderstaande tabel toont een overzicht van de objecttypen, attributen en
 domeinwaarden van IMGeo 2.2, na overnemen voorstellen in dit wijzigingsvoorstel.
 
-![](media/7ff905b481c9e6df8834ab0069eee856.png)
+![](media/2b618c305b8529d1e3d37c70adfdac1d.wmf)
 
 Impact
 ------
