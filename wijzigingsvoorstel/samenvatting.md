@@ -2,6 +2,7 @@ Samenvatting
 ============
 
 Voorstellen
+-----------
 
 Hieronder volgt een lijst met de voorstellen voor IMGeo in dit
 wijzigingsvoorstel, en de gerelateerde issue(s).
@@ -81,7 +82,7 @@ Overzichtstabel IMGeo 2.2
 Onderstaande tabel toont een overzicht van de objecttypen, attributen en
 domeinwaarden van IMGeo 2.2, na overnemen voorstellen in dit wijzigingsvoorstel.
 
-![](media/a742c62fe2bed49e47e47546ecfe4194.wmf)
+![](media/7ff905b481c9e6df8834ab0069eee856.png)
 
 Impact
 ------
