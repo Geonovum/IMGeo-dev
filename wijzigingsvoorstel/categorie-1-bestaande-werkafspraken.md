@@ -772,10 +772,14 @@ niet juist om hiervoor relatieve precisie toe te passen.
 Aanpassen definitie put(deksel) bij Put
 ---------------------------------------
 
-*Wijziging t.o.v. vorige versie:*
+\<wijziging\>
+
+Wijziging t.o.v. vorige versie:
 
 Tekstueel is het volgende in de definitie aangepast: 'tot een rioolstelsel' is
 vervangen door 'tot een riool'.
+
+\</wijziging\>
 
 **Gerelateerde Github-issue(s)**
 [\#92](https://github.com/Geonovum/IMGeo2018/issues/92)
