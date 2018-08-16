@@ -1003,7 +1003,6 @@ Aanpassen definitie put(deksel) bij Put
 
 <wijziging>
 
-Wijziging t.o.v. vorige versie:
 
 Tekstueel is de definitie van inspectie- / rioolput als volgt aangepast: 'tot
 een rioolstelsel' is vervangen door 'tot een riool'.
