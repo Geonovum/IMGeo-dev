@@ -774,11 +774,11 @@ Aanpassen definitie put(deksel) bij Put
 
 \<wijziging\>
 
-Wijziging t.o.v. vorige versie:
+```Wijziging t.o.v. vorige versie:
 
 Tekstueel is het volgende in de definitie aangepast: 'tot een rioolstelsel' is
 vervangen door 'tot een riool'.
-
+```
 \</wijziging\>
 
 **Gerelateerde Github-issue(s)**
