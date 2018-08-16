@@ -313,7 +313,6 @@ OndersteunendWaterdeel de volgende definitie opgenomen:
 volgt op te nemen in de BGT:
 
 >   “Oevers en slootkanten zijn de delen die enerzijds begrensd worden door de
->   waterlijn of een zichtbare bodem en anderzijds door een kant insteek.”
 
 **Onderbouwing** Met aanpassen van de definitie sluit de BGT beter aan op de
 definities zoals gehanteerd vanuit waterbeheer (IMWA).
@@ -348,8 +347,8 @@ Github-issue(s)** [\#176](https://github.com/Geonovum/IMGeo2018/issues/176)
 Overbruggingsdeel brug en Kunstwerkdeel duiker: 
 
 >   duiker: Kunstwerk voor de waterhuishouding, bestaande uit een kokervormige
->   constructie aangebracht onder een weg of spoorweg of in een dam. (bron:
->   CROW)
+>   constructie aangebracht onder een weg of spoorweg of in een dam of ander
+>   terreindeel. (bron: CROW)
 
 >   brug: Kunstwerk over een watervlakte of waterloop, bestaande uit een brugdek
 >   gesteund door pijlers en/of landhoofden. (bron: CROW) 
