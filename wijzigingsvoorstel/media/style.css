@@ -21,13 +21,18 @@ blockquote:before {
     color: #999;
 }
 
+wijziging:before {
+    
+content: "Wijziging(en) t.o.v. vorige versie <br /><br />:";
+
+}
+
 wijziging {
     
     border-color: #eee;
     background-color: #ccc;
-    
-    
-    
+    font-style: italic;  
+    font-family:  'Esteban', serif !important;
 }
 
 img {
