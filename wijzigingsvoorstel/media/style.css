@@ -21,6 +21,15 @@ blockquote:before {
     color: #999;
 }
 
+wijziging {
+    
+    border-color: #eee;
+    background-color: #ccc;
+    
+    
+    
+}
+
 img {
   max-width: 100%;
 }
