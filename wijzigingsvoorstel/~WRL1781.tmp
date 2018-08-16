@@ -772,11 +772,6 @@ niet juist om hiervoor relatieve precisie toe te passen.
 Aanpassen definitie put(deksel) bij Put
 ---------------------------------------
 
-*Wijziging t.o.v. vorige versie:*
-
-Tekstueel is het volgende in de definitie aangepast: 'tot een rioolstelsel' is
-vervangen door 'tot een riool'.
-
 **Gerelateerde Github-issue(s)**
 [\#92](https://github.com/Geonovum/IMGeo2018/issues/92)
 
@@ -817,7 +812,7 @@ dat het de deksel van de put betreft:
 >   ondergrondse leidingenstelsel voor gastransport.
 
 >   inspectie- / rioolput: **Deksel van een constructie** die toegang geeft tot
->   een riool.
+>   een riool**stelsel**.
 
 >   kolk: **Deksel van een ingegraven bak** voor de opvang **en afvoer van
 >   neerslag** afkomstig van erop aangesloten oppervlakken. (bron: CROW)
