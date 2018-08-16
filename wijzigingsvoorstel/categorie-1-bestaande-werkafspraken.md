@@ -1003,11 +1003,19 @@ Aanpassen definitie put(deksel) bij Put
 
 <wijziging>
 
+```Wijziging t.o.v. vorige versie:
 
+<<<<<<< HEAD
 Tekstueel is de definitie van inspectie- / rioolput als volgt aangepast: 'tot
 een rioolstelsel' is vervangen door 'tot een riool'.
 
 </wijziging>
+=======
+Tekstueel is het volgende in de definitie aangepast: 'tot een rioolstelsel' is
+vervangen door 'tot een riool'.
+```
+\</wijziging\>
+>>>>>>> c716efba16b90f107c8f62bec2fb53c5993d36dc
 
 **Gerelateerde Github-issue(s)**
 [\#92](https://github.com/Geonovum/IMGeo2018/issues/92)
