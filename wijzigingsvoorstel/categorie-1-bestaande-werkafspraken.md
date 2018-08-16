@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Bestaande werkafspraken en praktijk opnemen in het model
 ========================================================
 
@@ -52,7 +51,7 @@ Opnemen regels voor indeling van particuliere terreinen
 
 Wijziging t.o.v. vorige versie:
 
-Tekstueel is de toegevoegde paragraaf aangepast: deze informatie voorziet is
+- Tekstueel is de toegevoegde paragraaf aangepast: deze informatie voorziet is
 aangepast naar deze informatie noodzakelijk is’, de zinsneden ‘in een betere of
 zelfs noodzakelijke’ en ‘Denk daarbij bijv. aan de inzet van hulpdiensten maar
 ook de dienstverlening door netbeheerders dat deels een wettelijke taak is.’
@@ -106,18 +105,16 @@ Opnemen regels voor objecten buiten Nederland
 
 <wijziging>
 
-Wijziging t.o.v. vorige versie:
-
-Tekstueel wordt aan de paragraaf de volgende zinsnede toegevoegd: ‘maar kunnen
+- Tekstueel wordt aan de paragraaf de volgende zinsnede toegevoegd: ‘maar kunnen
 wel in IMGeo worden opgenomen.’
 
-In de IMGeo-catalogus wordt aan paragraaf 1.4 Inhoud de volgende zinsnede
+- In de IMGeo-catalogus wordt aan paragraaf 1.4 Inhoud de volgende zinsnede
 toegevoegd.
 
-Objecten, die geheel buiten Nederland liggen én in beheer zijn bij bronhouder,
+- Objecten, die geheel buiten Nederland liggen én in beheer zijn bij bronhouder,
 kunnen worden opgenomen in IMGeo.
 
-De onderbouwing is hierop als volgt aangepast: ‘Vanuit beheer is er behoefte aan
+- De onderbouwing is hierop als volgt aangepast: ‘Vanuit beheer is er behoefte aan
 informatie over objecten die geheel buiten Nederland liggen, denk aan
 puntobjecten in vlakobjecten die over de grens heen gaan. Om die reden worden
 objecten die geheel buiten Nederland en in beheer zijn bij bronhouder tot
@@ -181,20 +178,20 @@ worden bepaald t.a.v. wanneer bronhouders de gegevens hebben nagelopen.
 Opnemen regels voor plaatsing en draaiing van labels
 ----------------------------------------------------
 
-**<wijziging>**
+<wijziging>
 
-Tekstueel is in ‘Het coördinatenpunt van de nummeraanduidingreeks wordt circa 4
+- Tekstueel is in ‘Het coördinatenpunt van de nummeraanduidingreeks wordt circa 4
 meter vanaf de voorgevel (‘straatzijde’) binnen het pand geplaatst.’ de zinsnede
 ‘zo mogelijk’ toegevoegd.
 
-In de onderbouwing is toegevoegd: ‘als deze met minimale rotatie ten opzichte
+- In de onderbouwing is toegevoegd: ‘als deze met minimale rotatie ten opzichte
 van de normale leesrichting worden geplaatst. Technisch wordt nu afgedwongen
 door dat de waarde van de rotatiehoek van een label tussen -90 en + 90 ligt.
 Deze eis is als (technische) regel opgenomen bij het attribuut ‘rotatiehoek’ in
 hoofdstuk 8. Immers deze regels voor rotatiehoek gelden ook voor openbare ruimte
 labels.’
 
-Voor de opmaak van een nummeraanduidingreeks worden de eisen/regels uit de
+- Voor de opmaak van een nummeraanduidingreeks worden de eisen/regels uit de
 werkafspraak Nummeraanduidingreeksen toegevoegd aan de toelichting van het
 attribuut nummeraanduidingreeks.
 
@@ -366,9 +363,7 @@ Verduidelijken regels voor gemaal, sluisdeur en stuw
 
 <wijziging>
 
-Wijziging t.o.v. vorige versie:
-
-Tekstueel is het volgende aangepast: ‘Bij een stuw behoort uitsluitend de klep
+- Tekstueel is het volgende aangepast: ‘Bij een stuw behoort uitsluitend de klep
 of schuif waarover het water kan stromen tot BGT-inhoud. De eventueel aanwezige
 bakken waar het water door wordt geleid, worden als stuwdeel opgenomen in de
 BGT.’ Is vervangen door ‘Bij een stuw behoort de klep of schuif waarover het
@@ -515,15 +510,13 @@ Schrappen minimale afmetingen voor afbakening BGT Scheiding
 
 <wijziging>
 
-Wijziging t.o.v. vorige versie:
-
-De presentatievorm was niet juist/onduidelijk: de vetgedrukte tekst moest
+- De presentatievorm was niet juist/onduidelijk: de vetgedrukte tekst moest
 doorgehaalde tekst zijn. Dit is aangepast.
 
-Voorstel aangepast dat alleen de minimale afmeting voor lengte van muren en
+- Voorstel aangepast dat alleen de minimale afmeting voor lengte van muren en
 hekken wordt geschrapt. Minimale afmeting voor hoogte blijft gehandhaafd.
 
-Aan de onderbouwing is de analyse van muren toegevoegd. Verder is opgesomd wat
+- Aan de onderbouwing is de analyse van muren toegevoegd. Verder is opgesomd wat
 het voorstel van het schrappen van de minimale afmeting voor hoogte t.o.v. de
 overige huidige afbakeningsregels betekent voor het onderscheid tussen Scheiding
 en OverigeScheiding met betrekking tot populatie en mogelijke domeinwaarden.
@@ -573,18 +566,18 @@ Scheiding de tekst als volgt.
 >   scheidingen worden onderbrekingen van \<1m genegeerd. Doorgangen worden
 >   gezien als integraal onderdeel van de scheiding.
 
->   Scheidingen van het type hek die \<strike\>een minimale lengte van 10m
->   en\</strike\> een minimale hoogte van 1m hebben, worden vastgelegd.
+>   Scheidingen van het type hek die <strike>een minimale lengte van 10m
+>   en</strike> een minimale hoogte van 1m hebben, worden vastgelegd.
 
 >   Scheidingen van de typen kademuur en walbescherming worden opgenomen aan de
->   bovenzijde aan de waterkant. \<strike\>Kademuren breder dan 30cm worden
+>   bovenzijde aan de waterkant. <strike>Kademuren breder dan 30cm worden
 >   ingewonnen als vlakobject; de omtrek van het object aan de bovenzijde wordt
->   dan vastgelegd.\</strike\>
+>   dan vastgelegd.</strike>
 
->   Scheidingen van het type muur \<strike\> met een minimale lengte van 1m en
+>   Scheidingen van het type muur <strike> met een minimale lengte van 1m en
 >   met een minimale breedte van 30cm worden opgenomen. Een muur smaller dan
 >   30cm wordt als lijnobject vastgelegd, een bredere muur als vlakobject
->   Muren\</strike\> met een minimale hoogte van 50cm worden vastgelegd.
+>   Muren</strike> met een minimale hoogte van 50cm worden vastgelegd.
 
 >   In terreinen met een fysiek voorkomen ‘erf’ worden alleen die scheidingen
 >   opgenomen die direct aan de straatzijde zijn gelegen.
@@ -601,11 +594,11 @@ OverigeScheiding het volgende aangepast:
 >   ze bepaalde minimum afmeting hebben, die per type scheiding verschillen (zie
 >   deel I). In IMGeo kunnen scheidingen van het type hek en muur, die kleiner
 >   dan het BGT minimum zijn, worden opgenomen als objecttype ‘overige
->   scheiding’. \<strike\>Deze kent dezelfde typen scheiding.\</strike\> De
+>   scheiding’. <strike>Deze kent dezelfde typen scheiding. </strike> De
 >   populatie van Overige Scheiding bestaat uit: · Scheidingen van type hek en
 >   muur die niet voldoen aan de BGT minimummaat; · scheidingen in terrein met
 >   fysiek voorkomen ‘erf’ die niet aan de straatzijde gelegen zijn. IMGeo muren
->   \<strike\>en kademuren\</strike\> van breder dan 30 cm worden als vlakobject
+>   <strike>en kademuren</strike> van breder dan 30 cm worden als vlakobject
 >   vastgelegd; smallere muren worden als lijnobject vastgelegd.
 
 De minimale afmetingen (breedte) voor het opnemen van een scheiding als lijn of
@@ -707,7 +700,7 @@ Schrappen inwinregel voor plantvakken kleiner dan 5m2
 
 <wijziging>
 
-N.a.v. verbetersuggesties/opmerkingen op dit voorstel en het voorstel over
+- N.a.v. verbetersuggesties/opmerkingen op dit voorstel en het voorstel over
 ‘inrichtend/opdelend’ is een nieuw voorstel ‘het veplaatsen van ‘boomspiegel’
 van Weginrichtingselement naar subtype van groenvoorziening van
 ‘Weginrichtingselement’ ontstaan.
@@ -764,15 +757,13 @@ Aanpassen definities van rijbanen en fietspad bij Wegdeel
 
 <wijziging>
 
-Tekstueel zijn de definitie van rijbaan autosnelweg, rijbaan autoweg en fietspad
+- Tekstueel zijn de definitie van rijbaan autosnelweg, rijbaan autoweg en fietspad
 aangepast: ‘daartoe aangeduid’ is vervangen door ‘daartoe veelal aangeduid’.
 Reden hiervoor is dat niet elk wegdeel zal worden aangeduid met een
 verkeersbord.
 
-De volgende afbakeningsregel wordt toegevoegd voor uitsluiting van
-fietssuggestiestroken:
-
-‘In de BGT worden fietssuggestiesstroken niet als fietspad opgenomen.’
+- De volgende afbakeningsregel wordt toegevoegd voor uitsluiting van
+fietssuggestiestroken: ‘In de BGT worden fietssuggestiesstroken niet als fietspad opgenomen.’
 
 </wijziging>
 
@@ -860,14 +851,12 @@ Aanpassen definitie sluis(deur)
 
 <wijziging>
 
-Wijziging t.o.v. vorige versie:
-
-Tekstueel is de definitie van sluisdeur aangepast met toevoeging van de zinsnede
+- Tekstueel is de definitie van sluisdeur aangepast met toevoeging van de zinsnede
 ‘of de beweegbare delen’ en vervangen van de zinsnede ‘en daartoe van deuren of
 schuiven is voorzien.‘ door ‘Het beweegbare deel of de beweegbare delen kunnen
 deur(en) of schuif(ven) zijn.’
 
-Bij Inwinning onder kopje Impact is de tekst aangepast. Deze tekst was
+- Bij Inwinning onder kopje Impact is de tekst aangepast. Deze tekst was
 abusievelijk gekopieerd van impact/inwinning voor wegdeel en is nu omgezet naar
 impact/inwinning voor sluis(deur).
 
@@ -1004,19 +993,10 @@ Aanpassen definitie put(deksel) bij Put
 
 <wijziging>
 
-```Wijziging t.o.v. vorige versie:
-
-<<<<<<< HEAD
-Tekstueel is de definitie van inspectie- / rioolput als volgt aangepast: 'tot
+- Tekstueel is de definitie van inspectie- / rioolput als volgt aangepast: 'tot
 een rioolstelsel' is vervangen door 'tot een riool'.
 
 </wijziging>
-=======
-Tekstueel is het volgende in de definitie aangepast: 'tot een rioolstelsel' is
-vervangen door 'tot een riool'.
-```
-\</wijziging\>
->>>>>>> c716efba16b90f107c8f62bec2fb53c5993d36dc
 
 **Gerelateerde Github-issue(s)**
 [\#92](https://github.com/Geonovum/IMGeo2018/issues/92)
@@ -1187,12 +1167,10 @@ Toelichten geen plaatsbepalingspunten bij planinformatie, OngeclassificeerdObjec
 
 <wijziging>
 
-Wijziging t.o.v. vorige versie:
-
-De gerelateerde issue(s) waren niet juist en volledig: \#79, \#124 is vervangen
+- De gerelateerde issue(s) waren niet juist en volledig: \#79, \#124 is vervangen
 door \#79, \#120 en \#134.
 
-Aan tekst is toegevoegd dat uitgezonderd van plaatsbepalingspunten zijn de
+- Aan tekst is toegevoegd dat uitgezonderd van plaatsbepalingspunten zijn de
 coördinaten van functionele gebieden en labels.
 
 </wijziging>
@@ -1266,9 +1244,7 @@ Toelichten Nederlandse tijdzone met zomer/wintertijd
 
 <wijziging>
 
-Wijziging t.o.v. de versie:
-
-De tekst over tijdgeldigheid en tijdzone is nu 1:1 gelijk met de beschrijving
+- De tekst over tijdgeldigheid en tijdzone is nu 1:1 gelijk met de beschrijving
 van de huidige BAG-catalogus (2.0 -1 juli 2018).
 
 </wijziging>
@@ -1407,9 +1383,7 @@ Opnemen regels voor indeling van particuliere terreinen
 
 <wijziging>
 
-Wijziging t.o.v. vorige versie:
-
-Tekstueel is de toegevoegde paragraaf aangepast: deze informatie voorziet is
+- Tekstueel is de toegevoegde paragraaf aangepast: deze informatie voorziet is
 aangepast naar deze informatie noodzakelijk is’, de zinsneden ‘in een betere of
 zelfs noodzakelijke’ en ‘Denk daarbij bijv. aan de inzet van hulpdiensten maar
 ook de dienstverlening door netbeheerders dat deels een wettelijke taak is.’
@@ -1463,18 +1437,14 @@ Opnemen regels voor objecten buiten Nederland
 
 <wijziging>
 
-Wijziging t.o.v. vorige versie:
-
-Tekstueel wordt aan de paragraaf de volgende zinsnede toegevoegd: ‘maar kunnen
+- Tekstueel wordt aan de paragraaf de volgende zinsnede toegevoegd: ‘maar kunnen
 wel in IMGeo worden opgenomen.’
 
-In de IMGeo-catalogus wordt aan paragraaf 1.4 Inhoud de volgende zinsnede
-toegevoegd.
+- In de IMGeo-catalogus wordt aan paragraaf 1.4 Inhoud de volgende zinsnede
+toegevoegd: 'Objecten, die geheel buiten Nederland liggen én in beheer zijn bij bronhouder,
+kunnen worden opgenomen in IMGeo.'
 
-Objecten, die geheel buiten Nederland liggen én in beheer zijn bij bronhouder,
-kunnen worden opgenomen in IMGeo.
-
-De onderbouwing is hierop als volgt aangepast: ‘Vanuit beheer is er behoefte aan
+- De onderbouwing is hierop als volgt aangepast: ‘Vanuit beheer is er behoefte aan
 informatie over objecten die geheel buiten Nederland liggen, denk aan
 puntobjecten in vlakobjecten die over de grens heen gaan. Om die reden worden
 objecten die geheel buiten Nederland en in beheer zijn bij bronhouder tot
@@ -1538,20 +1508,20 @@ worden bepaald t.a.v. wanneer bronhouders de gegevens hebben nagelopen.
 Opnemen regels voor plaatsing en draaiing van labels
 ----------------------------------------------------
 
-**<wijziging>**
+<wijziging>
 
-Tekstueel is in ‘Het coördinatenpunt van de nummeraanduidingreeks wordt circa 4
+- Tekstueel is in ‘Het coördinatenpunt van de nummeraanduidingreeks wordt circa 4
 meter vanaf de voorgevel (‘straatzijde’) binnen het pand geplaatst.’ de zinsnede
 ‘zo mogelijk’ toegevoegd.
 
-In de onderbouwing is toegevoegd: ‘als deze met minimale rotatie ten opzichte
+- In de onderbouwing is toegevoegd: ‘als deze met minimale rotatie ten opzichte
 van de normale leesrichting worden geplaatst. Technisch wordt nu afgedwongen
 door dat de waarde van de rotatiehoek van een label tussen -90 en + 90 ligt.
 Deze eis is als (technische) regel opgenomen bij het attribuut ‘rotatiehoek’ in
 hoofdstuk 8. Immers deze regels voor rotatiehoek gelden ook voor openbare ruimte
 labels.’
 
-Voor de opmaak van een nummeraanduidingreeks worden de eisen/regels uit de
+- Voor de opmaak van een nummeraanduidingreeks worden de eisen/regels uit de
 werkafspraak Nummeraanduidingreeksen toegevoegd aan de toelichting van het
 attribuut nummeraanduidingreeks.
 
@@ -1723,9 +1693,7 @@ Verduidelijken regels voor gemaal, sluisdeur en stuw
 
 <wijziging>
 
-Wijziging t.o.v. vorige versie:
-
-Tekstueel is het volgende aangepast: ‘Bij een stuw behoort uitsluitend de klep
+- Tekstueel is het volgende aangepast: ‘Bij een stuw behoort uitsluitend de klep
 of schuif waarover het water kan stromen tot BGT-inhoud. De eventueel aanwezige
 bakken waar het water door wordt geleid, worden als stuwdeel opgenomen in de
 BGT.’ Is vervangen door ‘Bij een stuw behoort de klep of schuif waarover het
@@ -1872,15 +1840,13 @@ Schrappen minimale afmetingen voor afbakening BGT Scheiding
 
 <wijziging>
 
-Wijziging t.o.v. vorige versie:
-
-De presentatievorm was niet juist/onduidelijk: de vetgedrukte tekst moest
+- De presentatievorm was niet juist/onduidelijk: de vetgedrukte tekst moest
 doorgehaalde tekst zijn. Dit is aangepast.
 
-Voorstel aangepast dat alleen de minimale afmeting voor lengte van muren en
+- Voorstel aangepast dat alleen de minimale afmeting voor lengte van muren en
 hekken wordt geschrapt. Minimale afmeting voor hoogte blijft gehandhaafd.
 
-Aan de onderbouwing is de analyse van muren toegevoegd. Verder is opgesomd wat
+- Aan de onderbouwing is de analyse van muren toegevoegd. Verder is opgesomd wat
 het voorstel van het schrappen van de minimale afmeting voor hoogte t.o.v. de
 overige huidige afbakeningsregels betekent voor het onderscheid tussen Scheiding
 en OverigeScheiding met betrekking tot populatie en mogelijke domeinwaarden.
@@ -2055,16 +2021,13 @@ Ofwel het voorstel komt neer op:
     OverigeScheiding zijn opgenomen, maar met deze regel als Scheiding moeten
     worden opgenomen in de BGT.
 
-2.  Onderzoek daarbij of deze conversie via een eenmalige centrale conversie in
-    LV-BGT of BRAVO mogelijk is, anders via regulier mutatieproces door
-    bronhouders. Gebruik om de voortgang te monitoren het kwalititeitsdashboard.
 
 Schrappen inwinregel voor plantvakken kleiner dan 5m2
 -----------------------------------------------------
 
 <wijziging>
 
-N.a.v. verbetersuggesties/opmerkingen op dit voorstel en het voorstel over
+- N.a.v. verbetersuggesties/opmerkingen op dit voorstel en het voorstel over
 ‘inrichtend/opdelend’ is een nieuw voorstel ‘het veplaatsen van ‘boomspiegel’
 van Weginrichtingselement naar subtype van groenvoorziening van
 ‘Weginrichtingselement’ ontstaan.
@@ -2121,15 +2084,13 @@ Aanpassen definities van rijbanen en fietspad bij Wegdeel
 
 <wijziging>
 
-Tekstueel zijn de definitie van rijbaan autosnelweg, rijbaan autoweg en fietspad
+- Tekstueel zijn de definitie van rijbaan autosnelweg, rijbaan autoweg en fietspad
 aangepast: ‘daartoe aangeduid’ is vervangen door ‘daartoe veelal aangeduid’.
 Reden hiervoor is dat niet elk wegdeel zal worden aangeduid met een
 verkeersbord.
 
-De volgende afbakeningsregel wordt toegevoegd voor uitsluiting van
-fietssuggestiestroken:
-
-‘In de BGT worden fietssuggestiesstroken niet als fietspad opgenomen.’
+- De volgende afbakeningsregel wordt toegevoegd voor uitsluiting van
+fietssuggestiestroken: ‘In de BGT worden fietssuggestiesstroken niet als fietspad opgenomen.’
 
 </wijziging>
 
@@ -2217,14 +2178,12 @@ Aanpassen definitie sluis(deur)
 
 <wijziging>
 
-Wijziging t.o.v. vorige versie:
-
-Tekstueel is de definitie van sluisdeur aangepast met toevoeging van de zinsnede
+- Tekstueel is de definitie van sluisdeur aangepast met toevoeging van de zinsnede
 ‘of de beweegbare delen’ en vervangen van de zinsnede ‘en daartoe van deuren of
 schuiven is voorzien.‘ door ‘Het beweegbare deel of de beweegbare delen kunnen
 deur(en) of schuif(ven) zijn.’
 
-Bij Inwinning onder kopje Impact is de tekst aangepast. Deze tekst was
+- Bij Inwinning onder kopje Impact is de tekst aangepast. Deze tekst was
 abusievelijk gekopieerd van impact/inwinning voor wegdeel en is nu omgezet naar
 impact/inwinning voor sluis(deur).
 
@@ -2361,19 +2320,10 @@ Aanpassen definitie put(deksel) bij Put
 
 <wijziging>
 
-```Wijziging t.o.v. vorige versie:
-
-<<<<<<< HEAD
-Tekstueel is de definitie van inspectie- / rioolput als volgt aangepast: 'tot
+- Tekstueel is de definitie van inspectie- / rioolput als volgt aangepast: 'tot
 een rioolstelsel' is vervangen door 'tot een riool'.
 
 </wijziging>
-=======
-Tekstueel is het volgende in de definitie aangepast: 'tot een rioolstelsel' is
-vervangen door 'tot een riool'.
-```
-\</wijziging\>
->>>>>>> c716efba16b90f107c8f62bec2fb53c5993d36dc
 
 **Gerelateerde Github-issue(s)**
 [\#92](https://github.com/Geonovum/IMGeo2018/issues/92)
@@ -2544,12 +2494,10 @@ Toelichten geen plaatsbepalingspunten bij planinformatie, OngeclassificeerdObjec
 
 <wijziging>
 
-Wijziging t.o.v. vorige versie:
-
-De gerelateerde issue(s) waren niet juist en volledig: \#79, \#124 is vervangen
+- De gerelateerde issue(s) waren niet juist en volledig: \#79, \#124 is vervangen
 door \#79, \#120 en \#134.
 
-Aan tekst is toegevoegd dat uitgezonderd van plaatsbepalingspunten zijn de
+- Aan tekst is toegevoegd dat uitgezonderd van plaatsbepalingspunten zijn de
 coördinaten van functionele gebieden en labels.
 
 </wijziging>
