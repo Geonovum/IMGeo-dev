@@ -115,10 +115,6 @@ de bronhouders worden toegevoegd.
 Opnemen regels voor onderscheid tussen viaduct en tunneldeel
 ------------------------------------------------------------
 
-**Wijziging t.o.v. vorige versie** Tekstueel is aan de afbakeningsregel voor
-tunnel de zinsnede ‘gesloten kokerconstructie’ vervangen door ‘overwegend
-gesloten kokerconstructie’.
-
 **Gerelateerde
 Github-issue(s)** [\#12](https://github.com/Geonovum/IMGeo2018/issues/12) 
 
@@ -133,12 +129,12 @@ worden extra afbakeningsregels gegeven:
 >   “Overbruggingsdeel:  
 >   - Er is sprake van een overbrugging wanneer een van de onderdelen bestaat
 >   uit een los dek dat op een bak en/of pijlers rust.  
->   - Dit in tegenstelling tot een tunnel, die uit een overwegend gesloten
->   kokerconstructie met een in- en uitgang bestaat.”
+>   - Dit in tegenstelling tot een tunnel, die uit een gesloten kokerconstructie
+>   met een in- en uitgangt bestaat.”
 
 >   “Tunneldeel:  
->   - Er is sprake van een tunnel wanneer deze bestaat uit een overwegend
->   gesloten kokerconstructie met een in- en een uitgang.  
+>   - Er is sprake van een tunnel wanneer deze bestaat uit een gesloten
+>   kokerconstructie met een in- en een uitgang.  
 >   - Bij overbruggingsdelen zoals bijvoorbeeld een viaduct is er altijd sprake
 >   van een los dek dat op een bak en/of pijlers rust.”
 
@@ -169,47 +165,26 @@ gecontroleerd en aangepast conform de nieuwe afbakeningsregels.
 Opnemen extra afbakeningsregels voor onderscheid tussen muur, kademuur, en keermuur
 -----------------------------------------------------------------------------------
 
-*Wijziging t.o.v. vorige versie ‘dam’ is geschrapt uit de beslisboom en als
-uitbreiding van typen bij Kunstwerkdeel. Gegeven de hiërarchische
-toewijzigingsregels van IMGeo (eerst Terreindeel, daarna Kunstwerkdeel) zal dam
-als Terreindeel worden afgebakend en niet als Kunstwerkdeel.*
-
-*De vragen in de beslisboom zijn duidelijker uitgeschreven.*
-
-*Een afbakeningsregel voor ‘damwand’ wordt toegevoegd dat deze inclusief
-deksloof wordt afgebakend. De deksloof wordt niet apart afgebakend, bijvoorbeeld
-als kademuur.*
-
-*De onderbouwing was abusievelijk opgenomen van viaduct en tunneldeel en is
-gewijzigd naar muur, kademuur, keermuur, alsook damwand en strekdam*
-
 **Gerelateerde
 Github-issue(s)** [\#14](https://github.com/Geonovum/IMGeo2018/issues/14), [\#30](https://github.com/Geonovum/IMGeo2018/issues/30),
 [\#69](https://github.com/Geonovum/IMGeo2018/issues/69)
 
 **Huidige situatie** In de BGT wordt onderscheid gemaakt tussen type ‘muur’,
-‘kademuur’ van Scheiding en ‘keermuur’, ‘strekdam’, ‘damwand’ van Kunstwerkdeel.
+‘kademuur’, ‘keermuur’, ‘damwand’, en ‘dam’ (zie gerelateerd voorstel) van
+Scheiding.
 
 Bij bronhouders zijn er onduidelijkheden en interpretatieverschillen wanneer een
-situatie met welk type Scheiding of Kunstwerkdeel moet worden afgebakend.
+situatie met welk type Scheiding moet worden afgebakend.
 
 **Nieuwe situatie** Het voorstel is om de volgende beslisboom op te nemen in de
 BGT catalogus voor de afbakening van Scheidingen van het type ‘muur’,
-‘kademuur’, ‘keermuur’, ‘damwand’, en ‘strekdam’.
+‘kademuur’, ‘keermuur’, ‘damwand’, en ‘dam’.
 
-![](media/8579806fb776a782ef3b4609d8463e79.png)
-
-Voor ‘damwand’ wordt de volgende afbakeningsregel toegevoegd aan de BGT
-catalogus:
-
->   Indien een deksloof aanwezig op de damwand, wordt deze meegenomen in de
->   afbakening van damwand, en niet afzonderlijk afgebakend.
+![](media/653b4a72a0ea4fa596355dfe91d3fc4f.jpg)
 
 **Onderbouwing** Met deze wijziging worden meer eisen opgelegd aan de afbakening
-van muur, kademuur, keermuur, alsook damwand en strekdam, waardoor afbakening
-door bronhouders gemakkelijker en uniformer wordt. Voor de BGT is het niet de
-bedoeling om de deksloof op een damwand apart af te bakenen, bijvoorbeeld als
-kademuur.
+van overbruggingsdeel en tunneldeel, waardoor afbakening door bronhouders
+gemakkelijker en uniformer wordt.
 
 **Impact** De impact van dit voorstel wordt ingeschat op ‘laag tot zeer laag’:
 
@@ -325,9 +300,12 @@ gecontroleerd en aangepast conform de nieuwe afbakeningsregels.
 Aanpassen definitie ‘oever/slootkant’
 -------------------------------------
 
-*Wijziging t.o.v. vorige versie Tekstueel is de definitie als volgt aangepast:
-de zinsnede ‘de delen’ is vervangen door ‘stroken of gebieden met een functie
-voor waterbeheersing’.*
+\<wijziging\>
+
+Tekstueel is de definitie als volgt aangepast: de zinsnede ‘de delen’ is
+vervangen door ‘stroken of gebieden met een functie voor waterbeheersing’.
+
+\</wijziging\>
 
 **Gerelateerde
 Github-issue(s)** [\#76](https://github.com/Geonovum/IMGeo2018/issues/76) 
@@ -371,11 +349,14 @@ gecontroleerd en aangepast conform de nieuwe definities.
 Aanpassen definities duiker en brug
 -----------------------------------
 
-*Wijziging t.o.v. vorige versie Aan de definitie van ‘duiker’ is de zinsnede ‘of
-ander terreindeel’ toegevoegd en de zinsnede ‘*niet de gehele waterbreedte
-beslaand en’ is geschrapt.’*.*
+\<wijziging\>
 
-*Tekstueel is in de definitie van ‘brug’ ‘losliggend’ vervangen door ‘apart’.*
+Wijziging t.o.v. vorige versie:
+
+Aan de definitie van ‘duiker’ is de volgende zinsnede toegevoegd: ‘of ander
+terreindeel’**.**
+
+\</wijziging\>
 
 **Gerelateerde
 Github-issue(s)** [\#176](https://github.com/Geonovum/IMGeo2018/issues/176)
@@ -384,8 +365,8 @@ Github-issue(s)** [\#176](https://github.com/Geonovum/IMGeo2018/issues/176)
 Overbruggingsdeel brug en Kunstwerkdeel duiker: 
 
 >   duiker: Kunstwerk voor de waterhuishouding, bestaande uit een kokervormige
->   constructie aangebracht onder een weg of spoorweg of in een dam. (bron:
->   CROW)
+>   constructie aangebracht onder een weg of spoorweg of in een dam of ander
+>   terreindeel. (bron: CROW)
 
 >   brug: Kunstwerk over een watervlakte of waterloop, bestaande uit een brugdek
 >   gesteund door pijlers en/of landhoofden. (bron: CROW) 
@@ -398,13 +379,13 @@ afgebakend, bijvoorbeeld bij een waco.
 BGT aan te passen:
 
 >   duiker: Kunstwerk voor de waterhuishouding, bestaande uit
->   een **gesloten** kokervormige constructie **met een in- en
->   uitstroomopening,** aangebracht onder een weg of spoorweg of in een dam **of
->   ander terreindeel**. (bron: CROW) 
+>   een **gesloten** kokervormige constructie **met een in- en uitstroomopening,
+>   niet de gehele waterbreedte beslaand en** aangebracht onder een weg of
+>   spoorweg of in een dam. (bron: CROW) 
 
->   brug: Kunstwerk over een watervlakte of waterloop, bestaande uit een apart,
->   al of niet beweegbaar brugdek gesteund door pijlers en/of landhoofden.
->   (bron: CROW) 
+>   brug: Kunstwerk over een watervlakte of waterloop, bestaande uit
+>   een losliggend, al of niet beweegbaar brugdek gesteund door pijlers en/of
+>   landhoofden. (bron: CROW) 
 
 **Onderbouwing** Met deze nieuwe definities worden eenduidiger wanneer een
 object een duiker is, en wanneer een brug, waardoor afbakening door bronhouders
