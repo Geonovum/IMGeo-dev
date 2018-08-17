@@ -47,11 +47,11 @@ onder het maaiveld wordt verstaan.*
 Opnemen regels voor indeling van particuliere terreinen
 -------------------------------------------------------
 
-*Wijziging t.o.v. vorige versie Tekstueel is de toegevoegde paragraaf aangepast:
+<small>**Wijziging t.o.v. vorige versie** Tekstueel is de toegevoegde paragraaf aangepast:
 deze informatie voorziet is aangepast naar deze informatie noodzakelijk is’, de
 zinsneden ‘in een betere of zelfs noodzakelijke’ en ‘Denk daarbij bijv. aan de
 inzet van hulpdiensten maar ook de dienstverlening door netbeheerders dat deels
-een wettelijke taak is.’ zijn geschrapt.*
+een wettelijke taak is.’ zijn geschrapt.</small>
 
 **Gerelateerde
 Github-issue(s)** [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)
