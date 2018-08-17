@@ -7,6 +7,13 @@ extra criteria.
 Aanpassen regels voor afbakenings oever/slootkant
 -------------------------------------------------
 
+**Wijziging(en) t.o.v. vorige versie** De beslisboom, afbeelding en tekst zijn
+consistent met elkaar gemaakt: de afbakeningsregel is voluit uitgeschreven met
+alle minimum afmetingen vanuit de beslisboom. De afbeelding is minder
+technisch/wiskundig gemaakt. In de beslisboom zijn de vragen voluit geschreven,
+en zijn bij ‘NEE, geen ondersteunendWaterdeel’ de zinsneden vanaf ‘maar …’
+geschrapt.
+
 **Gerelateerde
 Github-issue(s)** [\#50](https://github.com/Geonovum/IMGeo2018/issues/50),
 [\#74](https://github.com/Geonovum/IMGeo2018/issues/74),
@@ -23,17 +30,24 @@ volgende opgenomen:
 **Nieuwe situatie** Het voorstel is om de afbakeningscriteria van
 OndersteunendWaterdeel voor oevers, slootkant al volgt te wijzigen:
 
->   "Ondersteunende waterdelen komen voor wanneer er sprake is van een talud dat
->   een minimumwaarde voor de helling heeft van 1:4 èn de horizontale afstand
->   tussen kant insteek èn waterlijn (c) minimaal 0,5 m bedraagt"
+>   “Als tussen waterlijn en de bovenkant van een herkenbare insteek de
+>   verticale afstand (ofwel: hoogte oever) minimaal 0,5 meter is, de steilheid
+>   (*H/Br*) 1:4 of meer bedraagt, en de horizontale afstand (ofwel: breedte
+>   oever) 0,6 meter of meer bedraagt, dan ontstaat in de BGT een ondersteunend
+>   waterdeel van het type oever/slootkant."
+
+![](media/ffe5c6b57f74ee5722e7aed60a239a57.png)
 
 De volgende beslisboom wordt toegevoegd aan de afbakeningsregels voor
 OndersteunendWaterdeel:
 
-![](media/4b4488f5823e9d91091dca0aaeb7e57d.png)
+![](media/7da6ee08559a3d1e0ee4105182055a7e.png)
 
 **Onderbouwing** Met deze afbakeningsregels sluit de BGT beter aan op de
-afbakening van oevers vanuit waterbeheer (IMWA).
+afbakening van oevers vanuit waterbeheer. De horizontale afstand wijzigt van 1
+meter naar 60 centimeter, voorts worden er twee extra regels voor steilheid en
+verticale afstand toegevoegd, o.a. voor (uitsluiting van) afbakening natuurlijke
+vriendelijke oevers.
 
 **Impact** De impact van dit voorstel wordt ingeschat op relatief ‘**hoog**’.
 
@@ -115,7 +129,7 @@ de bronhouders worden toegevoegd.
 Opnemen regels voor onderscheid tussen viaduct en tunneldeel
 ------------------------------------------------------------
 
-**Wijziging t.o.v. vorige versie** Tekstueel is aan de afbakeningsregel voor
+**Wijziging(en) t.o.v. vorige versie** Tekstueel is aan de afbakeningsregel voor
 tunnel de zinsnede ‘gesloten kokerconstructie’ vervangen door ‘overwegend
 gesloten kokerconstructie’.
 
@@ -169,19 +183,19 @@ gecontroleerd en aangepast conform de nieuwe afbakeningsregels.
 Opnemen extra afbakeningsregels voor onderscheid tussen muur, kademuur, en keermuur
 -----------------------------------------------------------------------------------
 
-*Wijziging t.o.v. vorige versie ‘dam’ is geschrapt uit de beslisboom en als
-uitbreiding van typen bij Kunstwerkdeel. Gegeven de hiërarchische
+**Wijziging(en) t.o.v. vorige versie** ‘dam’ is geschrapt uit de beslisboom en
+als uitbreiding van typen bij Kunstwerkdeel. Gegeven de hiërarchische
 toewijzigingsregels van IMGeo (eerst Terreindeel, daarna Kunstwerkdeel) zal dam
-als Terreindeel worden afgebakend en niet als Kunstwerkdeel.*
+als Terreindeel worden afgebakend en niet als Kunstwerkdeel.
 
-*De vragen in de beslisboom zijn duidelijker uitgeschreven.*
+De vragen in de beslisboom zijn duidelijker uitgeschreven.
 
-*Een afbakeningsregel voor ‘damwand’ wordt toegevoegd dat deze inclusief
-deksloof wordt afgebakend. De deksloof wordt niet apart afgebakend, bijvoorbeeld
-als kademuur.*
+Een afbakeningsregel voor ‘damwand’ wordt toegevoegd dat deze inclusief deksloof
+wordt afgebakend. De deksloof wordt niet apart afgebakend, bijvoorbeeld als
+kademuur.
 
-*De onderbouwing was abusievelijk opgenomen van viaduct en tunneldeel en is
-gewijzigd naar muur, kademuur, keermuur, alsook damwand en strekdam*
+De onderbouwing was abusievelijk opgenomen van viaduct en tunneldeel en is
+gewijzigd naar muur, kademuur, keermuur, alsook damwand en strekdam
 
 **Gerelateerde
 Github-issue(s)** [\#14](https://github.com/Geonovum/IMGeo2018/issues/14), [\#30](https://github.com/Geonovum/IMGeo2018/issues/30),
@@ -325,9 +339,9 @@ gecontroleerd en aangepast conform de nieuwe afbakeningsregels.
 Aanpassen definitie ‘oever/slootkant’
 -------------------------------------
 
-*Wijziging t.o.v. vorige versie Tekstueel is de definitie als volgt aangepast:
-de zinsnede ‘de delen’ is vervangen door ‘stroken of gebieden met een functie
-voor waterbeheersing’.*
+**Wijziging(en) t.o.v. vorige versie** Tekstueel is de definitie als volgt
+aangepast: de zinsnede ‘de delen’ is vervangen door ‘stroken of gebieden met een
+functie voor waterbeheersing’.
 
 **Gerelateerde
 Github-issue(s)** [\#76](https://github.com/Geonovum/IMGeo2018/issues/76) 
@@ -371,9 +385,9 @@ gecontroleerd en aangepast conform de nieuwe definities.
 Aanpassen definities duiker en brug
 -----------------------------------
 
-*Wijziging t.o.v. vorige versie Aan de definitie van ‘duiker’ is de zinsnede ‘of
-ander terreindeel’ toegevoegd en de zinsnede ‘*niet de gehele waterbreedte
-beslaand en’ is geschrapt.’*.*
+**Wijziging(en) t.o.v. vorige versie** Aan de definitie van ‘duiker’ is de
+zinsnede ‘of ander terreindeel’ toegevoegd en de zinsnede ‘niet de gehele
+waterbreedte beslaand en’ is geschrapt.’**.**
 
 *Tekstueel is in de definitie van ‘brug’ ‘losliggend’ vervangen door ‘apart’.*
 
