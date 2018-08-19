@@ -449,13 +449,8 @@ wordt nu nergens status ‘historie’ toegepast bij objecten met een eindtijd.
 
 **Implementatie-advies** n.v.t.
 
-Wijzigen geometrietype ‘gemaal’, ‘stuw’ en ‘duiker’ naar multivlak
-------------------------------------------------------------------
-
-Hieronder volgen enkele voorstellen voor het wijzigen van het geometrietype voor
-‘gemaal’, ‘stuw’, ‘duiker’ van ‘… Vlak’ naar ‘…MultiVlak’.
-
-### Wijzigen geometrie ‘gemaal’ van ‘vlak’ naar ’multivlak’
+Wijzigen geometrie ‘gemaal’ van ‘vlak’ naar ’multivlak’
+-------------------------------------------------------
 
 **Wijziging(en) t.o.v. vorige versie** Hernoemen van ‘gemaaldeel’ naar ‘gemaal’
 wordt geschrapt, wijziging van geometrietype van ‘Vlak’ naar ‘Multivlak’ blijft
@@ -486,7 +481,8 @@ multivlak mag ook één vlak bevatten. Alle delen van het kunstwerk gevat in é�
 multivlak hebben dezelfde relatieve hoogte. Met deze aanpassing sluit de BGT
 beter aan op de afbakeningsregels van de waterwereld (IMWA).
 
-### Wijzigen geometrie ‘stuw’ van ‘Lijn of Vlak’ naar ’Lijn of MultiVlak’
+Wijzigen geometrie ‘stuw’ van ‘Lijn of Vlak’ naar ’Lijn of MultiVlak’
+---------------------------------------------------------------------
 
 **Wijziging(en) t.o.v. vorige versie** Hernoemen van ‘stuwdeel’ naar ‘stuw’
 wordt geschrapt, wijziging van geometrietype van ‘Lijn of Vlak’ naar ‘Lijn of
@@ -520,7 +516,8 @@ kunstwerk gevat in één multivlak hebben dezelfde relatieve hoogte. Met deze
 aanpassing sluit de BGT beter aan op de afbakeningsregels van de waterwereld
 (IMWA).
 
-### Wijzigen geometrie ‘duiker’ van ‘Lijn of Vlak’ naar ’Lijn of Multivlak’
+Wijzigen geometrie ‘duiker’ van ‘Lijn of Vlak’ naar ’Lijn of Multivlak’
+-----------------------------------------------------------------------
 
 **Wijziging(en) t.o.v. vorige versie** Hernoemen van ‘duikerdeel’ naar ‘duiker’
 wordt geschrapt, wijziging van geometrietype van ‘Lijn of Vlak’ naar ‘Lijn of

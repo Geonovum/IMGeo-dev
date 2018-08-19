@@ -82,6 +82,10 @@ Overzichtstabel IMGeo 2.2
 Onderstaande tabel toont een overzicht van de objecttypen, attributen en
 domeinwaarden van IMGeo 2.2, na overnemen voorstellen in dit wijzigingsvoorstel.
 
+![](media/f75d4c2c4e559002377c669f6369386b.jpg)
+
+![](media/e1f845b0f3ed72cc62d2ee52c35700fe.jpg)
+
 Impact
 ------
 
@@ -154,6 +158,6 @@ basisregistraties.
 | [Verwijderen ‘vispassage’ bij Kunstwerkdeel](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#verwijderen-vispassage-bij-kunstwerkdeel)                                                                                                                                    | hoog               | IMGeo+        | ja       | ja            | nee       | nee               |
 | [‘historie’ als plus-status](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#-historie-als-plus-status)                                                                                                                                                                   | laag               | IMGeo+        | ja       | ja            | nee       | nee               |
 | **Voorstellen met keuze-opties**                                                                                                                                                                                                                                                   |                    |               |          |               |           |                   |
-| [Inrichtend/vrijwillig naar opdelend/verplicht](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#inrichtend-vrijwillig-naar-opdelend-verplicht)                                                                                                                            | n.t.b.             | n.t.b.        | n.t.b.   | n.t.b.        | n.t.b.    | nee               |
-| [Inritten](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#inritten)                                                                                                                                                                                                      | n.t.b.             | n.t.b.        | n.t.b.   | n.t.b.        | n.t.b.    | nee               |
-| [Bermen](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#bermen)                                                                                                                                                                                                          | n.t.b.             | n.t.b.        | n.t.b.   | n.t.b.        | n.t.b.    | nee               |
+| [Inrichtend/vrijwillig naar opdelend/verplicht](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#inrichtend-vrijwillig-naar-opdelend-verplicht)                                                                                                                            |                    |               |          |               |           | nee               |
+| [Inritten](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#inritten)                                                                                                                                                                                                      |                    |               |          |               |           | nee               |
+| [Bermen](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#bermen)                                                                                                                                                                                                          |                    |               |          |               |           | nee               |
