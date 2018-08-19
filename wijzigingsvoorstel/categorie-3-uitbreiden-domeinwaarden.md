@@ -4,6 +4,90 @@ Uitbreiden domeinwaarden
 Dit hoofdstuk geeft een toelichting op de voorstellen voor het onderdeel
 domeinwaarden.
 
+**Wijziging(en) t.o.v. vorige versie**
+
+Het plus-fysiekvoorkomen bij 'open verharding’ van OnbegroeidTerreindeel is
+uitgebreid met 'natuursteen', 'basalt', 'steenbestorting' en ‘steenmatras’.
+
+Het plus-type bij Weginrichtingselement is uitgebreid met ‘geleidestrook’.
+
+Het plus-type van FunctioneelGebied is uitgebreid met ‘zuiveringscomplex’,
+‘waterwingebied’ en ‘stiltegebied’.
+
+Het plus-fysiekvoorkomen ‘hout’ bij Wegdeel is toegevoegd aan ‘open verharding’
+i.p.v. ‘gesloten verharding’.
+
+Het plus-fysiekvoorkomen ‘gras’ bij Wegdeel is hernoemd naar ‘gras- en
+kruidachtigen’.
+
+Het geometrietype van ‘band’ bij Weginrichtingselement is gewijzigd van ‘punt’
+naar ‘lijn’.
+
+Het plus-type ‘parkeerautomaat’ bij Straatmeubilair is geschrapt.
+Parkeerautomaat is een subtype van ‘betaalautomaat’.
+
+De plus-typen ‘verhoging’ en ‘wegmarkering’ bij ‘verkeerseiland’ van
+OndersteunendWegdeel zijn hernoemd naar ‘vluchtheuvel’ en ‘verkeersdruppel’.
+
+De beschrijving van huidige situatie was abusievelijk van ‘verkeersdrempel’ en
+is aangepast.
+
+Het plus-type ‘blok’ is verplaatst van Weginrichtingselement naar
+Straatmeubilair.
+
+Het plus-type ‘seinlicht’ is verplaatst van Straatmeubilair naar
+Waterinrichtingselement.
+
+Het plus-type ‘bermplank’ is verplaatst van Straatmeubilair naar
+Weginrichtingselement.
+
+Het plus-type ‘hondenpoeppaal’ en ‘hondenbeleidsbord’ zijn geschrapt bij Paal en
+Bord. Deze objecten zijn een subtype van ‘verkeersbordpaal’ en ‘verkeersbord’.
+
+Het plustype ‘haag’ bij ‘groenvoorziening’ van Begroeidterreindeel is hernoemd
+naar ‘haagvak’.
+
+Het plus-type ‘halteplaats’ bij FunctioneelGebied is geschrapt. Plustype
+‘bushalte’ wordt hernoemd naar ‘halteplaats’.
+
+Het plus-type ‘opvangzone’ bij Functioneelgebied is hernoemd naar
+‘valondergrond’.
+
+Bij plus-type ‘aansluiting’, ‘knooppunt’, ‘kruispunt’ en ‘zone’ van
+FunctioneelGebied is de prefix ‘verkeers’ toegevoegd.
+
+De definitie van plus-type ‘vlonder’ bij Kunstwerkdeel is aangepast om
+onderscheid te maken tussen steiger voor laden/lossen grote schepen, en vlonder
+voor pleziervaart en sportvisserij.
+
+Het plus-type ‘zuiveringsreservoir’ bij Kunstwerkdeel is geschrapt.
+‘zuiveringsreservoir’ overlapt namelijk met ‘bezinkbak’.
+
+De plus-functies ‘rammelstrook’ en ‘rabatstrook’ zijn verplaatst van
+OndersteunendWegdeel naar Weginrichtingselement.
+
+Het plus-type ‘lift’ is verplaatst van Gebouwinstallatie naar Installatie.
+
+De definitie van ‘verkeersdrempel’ is aangepast zodat deze past bij fietspad.
+
+Het plus-type ‘klimplant’ bij VegetatieObject is geschrapt. Een klimplant is een
+verbijzondering van een ‘solitaire plant’.
+
+Het bgt-type ‘dam’ bij Kunstwerkdeel is geschrapt. Gegeven de hiërarchische
+toewijzigingsregels van IMGeo (eerst Terreindeel, daarna Kunstwerkdeel) zal dam
+als Terreindeel worden afgebakend en niet als Kunstwerkdeel.
+
+In definitie van ‘kunststof’ bij ‘gesloten verharding’ van Wegdeel is zinsnede
+‘op atletiekbaan' geschrapt.
+
+De plus-typen ‘grensbord’ en kunstwerknaambord bij Bord zijn geschrapt. Dit zijn
+verbijzonderingen van ‘verkeersbord’.
+
+Het plus-type ‘faunaverblijfplaats’ is toegevoegd aan Straatmeubilair.
+
+Het plus-type ‘mottobord’ bij Bord is geschrapt. Dit is een verbijzondering van
+‘informatiebord’.
+
 ### Functies van Wegdeel
 
 #### 'verkeersdrempel' bij rijbaan auto(snel)weg en fietspad
@@ -19,6 +103,11 @@ bgt-fysiekvoorkomen 'gesloten verharding' en plus-fysiekvoorkomen 'asfalt'.
 **Nieuwe situatie** In IMGeo wordt verkeerdrempel als plus-functie toegevoegd
 aan de bgt-functies 'rijbaan autosnelweg', 'rijbaan autoweg' en 'fietspad'.
 
+De definitie van ‘verkeerdrempel’ wordt aangepast:
+
+>   Verhoging in een wegdeel, bedoeld om het verkeer met een lagere snelheid te
+>   laten.
+
 **Onderbouwing** Verkeersdrempels komen ook voor op autosnelwegen, autowegen en
 fietspaden. Om die reden is het verzoek ingediend om verkeerdrempel als
 plus-functie ook toe te voegen aan die functies.
@@ -27,10 +116,9 @@ plus-functie ook toe te voegen aan die functies.
 
 **Gerelateerde Github-issue(s)**
 
-**Huidige situatie** In IMGeo komt de plus-functie 'verkeerdrempel' voor bij
-bgt-functies 'rijbaan regionale weg' en 'rijbaan lokale weg'. Een plus-functie
-is een nadere detaillering van een bgt-functie, vergelijkbaar met
-bgt-fysiekvoorkomen 'gesloten verharding' en plus-fysiekvoorkomen 'asfalt'.
+**Huidige situatie** In IMGeo heeft een Wegdeel een verzameling van functies.
+Deze lijst is echter niet compleet voor alle functies die voorkomen in de
+openbare ruimte.
 
 **Nieuwe situatie** In IMGeo wordt ‘trailerhelling’ as plus-functie toegevoegd
 aan de bgt-functie 'rijbaan lokale weg’, met de volgende definitie:
@@ -58,76 +146,62 @@ alle typen verharding die voorkomen in de openbare ruimte.
 fysieke voorkomen van Wegdeel als volgt uit te breiden
 
 -   Het plus-fysiekvoorkomen bij 'gesloten verharding’ wordt uitgebreid met
-    'hout', 'metaal' en 'kunststof'.
+    'metaal' en 'kunststof'.
+
+-   Het plus-fysiekvoorkomen bij 'open verharding’ wordt uitgebreid met 'hout'.
 
 -   Het plus-fysiekvoorkomen bij 'onverhard' wordt uitgebreid met 'gras'.
 
-#### ‘hout’ bij ‘gesloten verharding’
-
->   *hout:* Gesloten verharding bestaande uit bijvoorbeeld planken of balken van
->   hout.
-
-#### ‘metaal’ bij ‘gesloten verharding’
+####  ‘metaal’ bij ‘gesloten verharding’
 
 >   *metaal:* Gesloten verharding bestaande uit materiaal van metaal.
 
 #### ‘kunststof’ bij ‘gesloten verharding’
 
 >   *kunststof:* Synthetisch vervaardigd materiaal dat als verharding dient
->   zoals kunstgras of kunststof toplagen op atletiekbanen.
+>   zoals kunstgras of kunststof toplagen.
 
-#### ‘gras’ bij ‘onverhard’
+#### ‘hout’ bij ‘open verharding’
 
->   *gras*: Onverhard met vegetatie bestaande uit grassen en/of grasachtigen.
+>   *hout:* Open verharding bestaande uit bijvoorbeeld planken of balken van
+>   hout.
+
+####  ‘gras- en kruidachtigen’ bij ‘onverhard’
+
+>   *gras- en kruidachtigen*: Onverhard met vegetatie bestaande uit grassen
+>   en/of grasachtigen.
 
 **Onderbouwing**  
 De classificaties voor plus-fysiekvoorkomen bij Wegdeel waren niet volledig voor
 alle toegepaste materialen (bijv. houten bruggetjes) en worden om die reden dus
-uitgebreid om beter aan te sluiten bij de praktijk. 'Gras' als fysieke voorkomen
-bij een Wegdeel komt o.a. voor bij een spoorbaan/trambaan. 
+uitgebreid om beter aan te sluiten bij de praktijk. 'Gras- en kruidachtigen' als
+fysieke voorkomen bij een Wegdeel komt o.a. voor bij een spoorbaan voor tram. 
 
 ### Functies van OndersteunendWegdeel
 
 **Gerelateerde
-Github-issue(s)** [\#106](https://github.com/Geonovum/IMGeo2018/issues/18),
-[\#170](https://github.com/Geonovum/IMGeo2018/issues/170),
-[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
+Github-issue(s)** [\#170](https://github.com/Geonovum/IMGeo2018/issues/170)
 
-**Huidige situatie** In IMGeo heeft een OndersteunendWegdeel de functie 'berm'
-en ‘verkeerseiland’ met de volgende definities:
-
->   *berm:* Een strook grond langs een weg of spoorweg.
+**Huidige situatie** In IMGeo heeft een OndersteunendWegdeel de functie
+‘verkeerseiland’ met de volgende definities:
 
 >   *verkeerseiland:* Ondersteunend wegdeel van beperkte omvang, uitgevoerd als
 >   verhoging of wegmarkering, dat wordt omsloten door wegdelen en ten doel
 >   heeft verkeersstromen te scheiden.
 
-Een berm en verkeerseiland kan niet nader verbijzonderd worden.
+Een verkeerseiland kan niet nader verbijzonderd worden.
 
-**Nieuwe situatie** In IMGeo wordt een plus-functie 'rabatstrook' en
-'rammelstrook' toegevoegd aan bgt-functie 'berm', en plus-functie ‘verhoging’ en
-‘wegmarkering’ toegevoegd aan bgt-functie ‘verkeerseiland’ van een
+**Nieuwe situatie** Het voorstel is om plus-functie ‘vluchtheuvel’ en
+‘verkeersdruppel’ toe te voegen aan bgt-functie ‘verkeerseiland’ van een
 OndersteunendWegdeel met de volgende definities:
 
-#### 'rammelstrook' bij 'berm'
+####  ‘vluchtheuvel’ bij verkeerseiland
 
->   *rammelstrook* Een verkeersmaatregel bestaande uit een strook met ribbels op
->   de weg. 
+>   *vluchtheuvel:* Verkeerseiland dat is uitgevoerd als verhoging.
 
-#### 'rabatstrook' bij 'berm'
+#### ‘verkeersdruppel’ bij ‘verkeerseiland’
 
->   *rabatstrook:* Een kantstrook, van ander materiaal en/of in een afstekende
->   kleur, langs het verharde wegdek.
-
-#### ‘verhoging’ bij verkeerseiland
-
->   *verhoging:* Verkeerseiland dat is uitgevoerd als verhoging, bijvoorbeeld
->   een vluchtheuvel.
-
-#### ‘wegmarkering’ bij ‘verkeerseiland’
-
->   *wegmarkering:* Verkeerseiland dat is uitgevoerd als wegmarkering,
->   bijvoorbeeld een verkeersdruppel.
+>   *verkeersdruppel:* Verkeerseiland dat is uitgevoerd als wegmarkering.
 
 **Onderbouwing** Vanuit verschillende bronhouders en wegbeheerders, en de
 aansluiting met IMBOR komt de wens om rammelstrook en rabatstrook op te nemen in
@@ -145,9 +219,41 @@ met nadere detailleringen.
 **Nieuwe situatie** Het voorstel is om het plus-fysiekvoorkomen ‘haag’ toe te
 voegen als nadere detaillering van ‘groenvoorziening’.
 
-#### haag
+#### ‘haagvak’ bij groenvoorziening
 
->   *haag:* Groenvak in de openbare ruimte met beplanting, zijnde haag.
+>   *haagvak:* Groenvak in de openbare ruimte met beplanting, zijnde haag.
+
+### Fysieke voorkomens bij OnbegroeidTerreindeel
+
+**Gerelateerde
+Github-issue(s):** [\#173](https://github.com/Geonovum/IMGeo2018/issues/173),
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194) 
+
+**Huidige situatie** In IMGeo heeft een OnbegroeidTerreindeel fysiek voorkomens
+met nadere detailleringen.
+
+**Nieuwe situatie** Het voorstel is om in IMGeo de domeinwaarden voor het
+fysieke voorkomen van OnbegroeidTerreindeel als volgt uit te breiden:
+
+-   Het plus-fysiekvoorkomen bij 'open verharding’ wordt uitgebreid met
+    'natuursteen', 'basalt', 'steenbestorting' en ‘steenmatras’.
+
+#### natuursteen bij ‘open verharding’
+
+>   *natuursteen:* Groenvak in de openbare ruimte met beplanting, zijnde haag.
+
+#### basalt bij ‘open verharding’
+
+>   *basalt:* Groenvak in de openbare ruimte met beplanting, zijnde haag.
+
+#### steenbestorting bij ‘open verharding’
+
+>   *steenbestorting:* Open verharding bestaande uit onregelmatige stukken
+>   steen.
+
+#### steenmatras bij ‘open verharding’
+
+>   *steenmatras:* Open verharding bestaande uit doorgroeibare stenen elementen.
 
 ### typen bij OverigBouwwerk
 
@@ -200,16 +306,17 @@ bij OverigBouwwerk uit te breiden met de volgende definities:
 >   tijdelijke berging van hemelwater, waarbij het hemelwater door middel van
 >   infiltratie door de wanden kan worden afgevoerd.
 
-#### zuiveringsreservoir
-
->   *zuiveringsreservoir: *Een reservoir voor het zuiveren van afvalwater.
-
 **Onderbouwing** De classificaties voor plus-type bij OverigBouwwerk waren niet
 volledig voor alle typen bouwwerken die voorkomen in de openbare ruimte. Vanuit
 bronhouders en leveranciers, en de aansluiting met IMBOR is de wens geuit om
 deze classificaties op te nemen in IMGeo.
 
 ### typen bij Kunstwerkdeel
+
+*Wijziging t.o.v. vorige versie ‘dam’ is geschrapt als uitbreiding van typen bij
+Kunstwerkdeel. Gegeven de hiërarchische toewijzigingsregels van IMGeo (eerst
+Terreindeel, daarna Kunstwerkdeel) zal dam als Terreindeel worden afgebakend en
+niet als Kunstwerkdeel.*
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
@@ -219,13 +326,6 @@ Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
 
 **Nieuwe situatie** Het voorstel is om in IMGeo de typen voor Kunstwerkdeel uit
 te breiden.
-
-Het volgende type wordt toegevoegd aan de domeinwaardenlijst typeKunstwerkdeel:
-
-#### dam
-
->   *dam* (Lijn of Vlak): Dwars op het water opgeworpen waterbouwkundige
->   constructie om water te keren, te beheersen, te leiden of te verdelen.
 
 De volgende typen worden toegevoegd aan de domeinwaardenlijst
 typeKunstwerkdeelPlus:
@@ -238,8 +338,8 @@ typeKunstwerkdeelPlus:
 
 #### vlonder
 
->   *vlonder (Vlak):* Smalle houten brug of een kleine aanlegsteiger, vaak niet
->   meer dan 1 of 2 planken breed; voor langzaam verkeer.
+>   *vlonder (Vlak):* Smalle houten brug voor voetgangers of fietsers, of een
+>   kleine (aanleg)steiger voor bijvoorbeeld pleziervaart en sportvisserij.
 
 **Onderbouwing** De classificaties voor Kunstwerkdeel waren niet volledig voor
 alle typen van kunstwerdeel die voorkomen in de openbare ruimte. Vanuit
@@ -275,43 +375,53 @@ geometrietype ‘Multivlak’:
 >   *stuwcomplex:* Gebied of complex met alle bij een stuw behorende gronden,
 >   inrichtingen en bouwwerken.
 
-#### opvangzone
+#### zuiveringscomplex
 
->   *opvangzone:* Oppervlak, waarop de gebruiker terecht komt, na vallen door de
->   valruimte. De opvangzone is het gebied rondom een speeltoestel waar
+>   *zuiveringscomplex:* Gebied of complex met alle bij een
+>   waterzuiveringsinstallatie behorende gronden, inrichtingen en bouwwerken.
+
+#### waterwingebied
+
+>   *waterwingebied:* Gebied waar waterwinning plaatsvindt ten behoeve van
+>   drinkwater door onttrekking van grondwater.
+
+#### stiltegebied
+
+>   *stiltegebied:* Gebied is een milieubeschermingsgebied waarin de geluiden
+>   van flora en fauna overheersen..
+
+#### valondergrond
+
+>   *valondergrond:* Oppervlak, waarop de gebruiker terecht komt, na vallen door
+>   de valruimte. De opvangzone is het gebied rondom een speeltoestel waar
 >   bodemmateriaal met schokdempende eigenschappen moet liggen. De vereiste
 >   afmetingen van de opvangzone zijn afhankelijk van de vrije valhoogte van het
 >   speeltoestel.
 
-#### aansluiting
+#### verkeersaansluiting
 
 >   *aansluiting*: Ongelijkvloers kruispunt van een nationale stroomweg en een
 >   niet-nationale stroomweg (bijvoorbeeld Haarlemmermeeraansluiting of een
 >   halfklaverbladaansluiting) of tussen twee regionale stroomwegen onderling,
 >   of tussen een regionale en een gebiedsontsluitin
 
-#### knooppunt
+#### verkeersknooppunt
 
 >   *knooppunt*: Ongelijkvloers kruispunt van (regionale) stroomwegen,
 >   bijvoorbeeld vormgegeven als klaverblad-, ster- of turbineknooppunt. Twee
 >   regionale stroomwegen of een regionale stroomweg en een nationale stroomweg
 >   kunnen onderling een knooppunt vormen. Verkeer kan
 
-#### kruispunt
+#### verkeerskruispunt
 
 >   *kruispunt*: Ontmoeting van wegen waar het verkeer van weg mag wisselen. Dit
 >   geldt zowel voor het gemotoriseerd verkeer als voor het langzaam verkeer.
 >   Voorbeelden zijn: een gelijkwaardig kruispunt, een voorrangskruispunt, een
 >   geregeld ruispunt en een (turbo)rotonde.
 
-#### zone
+#### verkeerszone
 
 >   *zone:* Verkeerskundige afbakening van een gebied.
-
-#### halteplaats
-
->   *halteplaats*: Eenvoudige stopplaats voor voertuigen van het openbaar
->   vervoer.
 
 #### opstelpunt open water
 
@@ -342,21 +452,6 @@ typen/classificaties voor het kenmerk bgt- en plus-type. 
 bij Bord uit te breiden met de volgende typen en definities, allen met
 geometrietype ‘Punt’:
 
-#### grensbord
-
->   *grensbord:* Een bord welke de toegang of uitgang aangeeft tot de provincie
->   dan wel tot bijzondere streken of gemeenten.
-
-#### kunstwerknaambord
-
->   *kunstwerknaambord:* Bord of plaat bevestigd op of bij een kunstwerk met
->   daarop de naam van het kunstwerk.
-
-#### mottobord
-
->   *mottobord:* Een bord met daarop specifieke motto informatie, zoals
->   bijvoorbeeld snelheidsacties
-
 #### pictogram
 
 >   *pictogram:* Symbool of afbeelding dat de plaats inneemt van een tekst, het
@@ -385,28 +480,14 @@ classificaties op te nemen in IMGeo.
 
 ### typen bij Gebouwinstallatie
 
-**Gerelateerde
-Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
-[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
-
-**Huidige situatie** In de IMGeo heeft Gebouwinstallatie een verzameling van
-typen.
-
-**Nieuwe situatie** Het voorstel is om in IMGeo de classificaties voor plus-type
-bij Gebouwinstallatie uit te breiden met de volgende typen en definities, allen
-met geometrietype ‘Vlak’:
-
-#### lift
-
->   *lift*: Installatie voor verticaal transport van personen of goederen
-
-**Onderbouwing**  
-De classificaties voor plus-type bij Gebouwinstallatie waren niet volledig voor
-alle typen die voorkomen in de openbare ruimte. Vanuit bronhouders en
-leveranciers, en de aansluiting met IMBOR is de wens geuit om deze
-classificaties op te nemen in IMGeo.
+**Wijziging t.o.v. vorige versie** Voorstel voor uitbreiding Gebouwinstallatie
+met lift is geschrapt. Voorstel is om lift op te nemen bij Installatie. Reden:
+lift in een gebouw behoort tot het pand of overig bouwwerk en is daarmee geen
+apart af te bakenen object ‘aan een gebouw’.
 
 ### Typen bij Installatie
+
+**Wijziging t.o.v. vorige versie** De volgende typen zijn toegevoegd: lift.
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
@@ -438,6 +519,10 @@ geometrietype ‘Punt’:
 >   *tunnelventilatie:* Installatie om uitlaatgassen te verdrijven.
 >   Tunnelventilatie kan geschieden door de algemene luchtstroom in tunnelbuizen
 >   of met mechanische ventilatie.
+
+#### lift
+
+>   *lift*: Installatie voor verticaal transport van personen of goederen
 
 **Onderbouwing** De classificaties voor plus-type bij Installatie waren niet
 volledig voor alle typen die voorkomen in de openbare ruimte. Vanuit bronhouders
@@ -570,11 +655,6 @@ met geometrietype ‘Punt’:
 
 >   *pergola*: Constructie ter ondersteuning van de groei van planten. 
 
-#### parkeerautomaat
-
->   *parkeerautomaat*: Verkoopautomaat die op straat of in een parkeergarage
->   staat waar men parkeerbelasting moet betalen om te parkeren.
-
 #### informatiezuil
 
 >   *informatiezuil*: Zuil waarop informatie geraadpleegd kan worden.
@@ -622,12 +702,6 @@ met geometrietype ‘Punt’:
 >   *klimijzer:* Ingestorte stalen of aluminium staven in een beton- of
 >   baksteenconstructie die gebruikt worden als ladderconstructie.
 
-#### bermplank
-
->   *bermplank*: Benaming voor opstaande borden (of betonnen platen) langs de
->   rijbanen van verkeerswegen dienende om die banen duidelijk te markeren, inz.
->   bij donker weer.
-
 #### AED
 
 >   *AED*: Apparaat om te reanimeren, zijnde een Automatische externe
@@ -653,15 +727,22 @@ met geometrietype ‘Punt’:
 >   *markeringspaal:* Paal om een specifiek gebied of specifieke locatie te
 >   markeren.
 
-#### seinlicht
-
->   *seinlicht:* Kunstmatige lichtbron waarmee de doorvaart van kunstwerken
->   wordt gereguleerd.
-
 #### veiligheidsvoorziening
 
 >   *veiligheidsvoorziening:* Voorziening ter bevordering van de veiligheid van
 >   personen in de openbare ruimte.
+
+#### blok
+
+>   *blok* Blokvormig element, meestal van beton of steen, bedoeld om een
+>   openbare ruimte te verfraaien, achterliggende gebieden te beschermen of te
+>   dienen als zit- of speelelement.
+
+#### faunaverblijfplaats
+
+>   *faunaverblijfplaats* Blokvormig element, meestal van beton of steen,
+>   bedoeld om een openbare ruimte te verfraaien, achterliggende gebieden te
+>   beschermen of te dienen als zit- of speelelement.
 
 **Onderbouwing** De classificaties voor plus-type bij Straatmeubilair waren niet
 volledig voor alle typen straatmeubilair die voorkomen in de openbare ruimte.
@@ -683,6 +764,11 @@ bij Waterinrichtingselement uit te breiden met de volgende typen en definities:
 #### navigatielicht
 
 >   *navigatielicht* (Punt): Lichtsein t.b.v. de navigatie voor scheepvaart
+
+#### seinlicht
+
+>   *seinlicht:* Kunstmatige lichtbron waarmee de doorvaart van kunstwerken
+>   wordt gereguleerd.
 
 #### lichtbaken
 
@@ -710,6 +796,7 @@ classificaties op te nemen in IMGeo. 
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
+[\#106](https://github.com/Geonovum/IMGeo2018/issues/106),
 [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
 
 **Huidige situatie** In de IMGeo heeft Weginrichtingselement een verzameling van
@@ -720,17 +807,11 @@ bij Weginrichtingselement uit te breiden met de volgende typen en definities:
 
 #### band
 
->   *band *(Punt, lijn of vlak) Element dat de scheiding verzorgt tussen een
->   rijbaan en het meestal hoger gelegen object. Maakt deel uit van een
->   wegconstructie en voorkomt dat water en vuil van de weg in de bermen,
->   tuinen, of huizen terechtkomt. Voorkomt tevens dat motorvoertuigen op het
->   hoger gelegen object rijden.
-
-#### blok
-
->   *blok* (Punt of Vlak) Blokvormig element, meestal van beton of steen,
->   bedoeld om een openbare ruimte te verfraaien, achterliggende gebieden te
->   beschermen of te dienen als zit- of speelelement.
+>   *band *(lijn) Element dat de scheiding verzorgt tussen een rijbaan en het
+>   meestal hoger gelegen object. Maakt deel uit van een wegconstructie en
+>   voorkomt dat water en vuil van de weg in de bermen, tuinen, of huizen
+>   terechtkomt. Voorkomt tevens dat motorvoertuigen op het hoger gelegen object
+>   rijden.
 
 #### actieve wegmarkering
 
@@ -746,6 +827,28 @@ bij Weginrichtingselement uit te breiden met de volgende typen en definities:
 >   afscherming van een obstakel, die botsingsenergie kan absorberen en daardoor
 >   bij aanrijding voertuigen met zo weinig mogelijk schade van richting doet
 >   veranderen of tot stilstand brengt.
+
+#### geleidestrook
+
+>   *geleidestrook *(lijn)** **een speciaal aangelegde baan plaveisel met een
+>   afwijkende structuur die er toe dient om blinden en slechtzienden te helpen
+>   de juiste weg te volgen doordat zij zich hiermee kunnen oriënteren.
+
+#### 'rammelstrook' bij 'berm'
+
+>   *Rammelstrook (lijn)* Een verkeersmaatregel bestaande uit een strook met
+>   ribbels op de weg. 
+
+#### 'rabatstrook' bij 'berm'
+
+>   *rabatstrook* (*vlak*) Een kantstrook, van ander materiaal en/of in een
+>   afstekende kleur, langs het verharde wegdek.
+
+#### bermplank
+
+>   *bermplank*: Benaming voor opstaande borden (of betonnen platen) langs de
+>   rijbanen van verkeerswegen dienende om die banen duidelijk te markeren, inz.
+>   bij donker weer.
 
 **Onderbouwing**  
 De classificaties voor plus-type bij Weginrichtingselement waren niet volledig
@@ -764,11 +867,6 @@ typen.
 
 **Nieuwe situatie** Het voorstel is om in IMGeo de classificaties voor plus-type
 bij VegetatieObject uit te breiden met de volgende typen en definities:
-
-#### Klimplant
-
->   *klimplant (Punt):* Plant met buigzame stengels die zich op diverse manieren
->   aan muren, bomen of constructies hecht en zodoende omhoog klimt.
 
 #### Solitaire plant
 

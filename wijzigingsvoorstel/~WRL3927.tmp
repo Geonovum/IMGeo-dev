@@ -1,27 +1,10 @@
-#### Hernoemen bushalte naar halteplaats.
-
-#### halteplaats
-
->   *halteplaats*: Eenvoudige stopplaats voor voertuigen van het openbaar
->   vervoer.
-
-‘Waterbak Verplaatsen van ‘bezinkbak’ en ‘bassin’ naar plus
-===========================================================
-
-Samenvoegen ‘bezinkbak’ en ‘bassin’ tot bgt-type ‘waterbak’, .
-==============================================================
-
 Hernoemen of schrappen van domeinwaarden
 ========================================
 
 De volgende voorstellen betreffen het hernoemen of schrappen van domeinwaarden
 in IMGeo.
 
-### Hernoemen ‘boomschors’ naar ‘boomschors / houtsnippers’
-
-**Wijziging(en) t.o.v. vorige versie** ‘houtsnippers’ is hernoemd naar
-‘boomschors/ houtsnippers’. Beide termen worden gebruikt vanuit beheer. In IMGeo
-worden deze aggregeerd tot één classificatie.
+### Hernoemen ‘boomschors’ naar ‘houtsnippers’
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
@@ -36,12 +19,10 @@ OnbegroeidTerreindeel als nadere detaillering van het bgt-fysiekvoorkomen
 hernoemen naar ‘houtsnippers’ als plus-fysiekvoorkomen van Wegdeel,
 OndersteunendWegdeel en OnbegroeidTerreindeel met de volgende definitie
 
-*boomschors/ houtsnippers* Onverhard met als deklaag boomschors **of
-houtsnippers.**
+*houtsnippers* Onverhard met als deklaag **houtsnippers of** boomschors
 
-**Onderbouwing** Zowel de term 'houtsnippers' als ‘boomschors’ worden gebruikt
-in o.a. Beheer Openbare Ruimte (BOR). In IMGeo worden deze aggregeerd tot één
-classificatie.
+**Onderbouwing** De term 'houtsnippers' is een generiekere term die in o.a.
+Beheer Openbare Ruimte (BOR) wordt toegepast i.p.v. 'boomschors'.
 
 ### Hernoemen ‘zand’ naar ‘zandvlakte’
 
@@ -86,7 +67,7 @@ naar ‘sluisdeur’ met de volgende definitie:
 opgenomen; het sluiscomplex kan middels een Functioneel Gebied 'sluiscomplex'
 worden opgenomen. 
 
-### Wijzigen geometrie ‘gemaal’ naar MultiVlak
+### Hernoemen ‘gemaal’ naar ‘gemaaldeel’ en wijzigen geometrie naar MultiVlak
 
 **Gerelateerde Github-issue(s)**
 [\#37](https://github.com/Geonovum/IMGeo2018/issues/37),
@@ -112,7 +93,7 @@ Het geometrietype van ‘gemaaldeel’ wordt aangepast van ‘Vlak’ naar ‘Mu
 **Onderbouwing** Met deze aanpassing sluit de BGT beter aan op de
 afbakeningsregels van de waterwereld (IMWA).
 
-### Wijzigen geometrie ‘stuw’ naar MultiVlak
+### Hernoemen ‘stuw’ naar ‘stuwdeel’ en wijzigen geometrie naar MultiVlak
 
 **Gerelateerde Github-issue(s)**
 [\#37](https://github.com/Geonovum/IMGeo2018/issues/37),
@@ -139,7 +120,7 @@ Het geometrietype van ‘stuwdeel’ wordt aangepast van ‘Vlak’ naar ‘Mult
 **Onderbouwing** Met deze aanpassing sluit de BGT beter aan op de
 afbakeningsregels van de waterwereld (IMWA).
 
-### Wijzigen geometrie ‘duiker’ naar MultiVlak
+### Hernoemen ‘duiker’ naar ‘duikerdeel’ en wijzigen geometrie naar MultiVlak
 
 **Gerelateerde Github-issue(s) **
 [\#37](https://github.com/Geonovum/IMGeo2018/issues/37),
