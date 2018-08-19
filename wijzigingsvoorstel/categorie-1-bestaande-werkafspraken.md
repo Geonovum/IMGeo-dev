@@ -47,11 +47,11 @@ onder het maaiveld wordt verstaan.*
 Opnemen regels voor indeling van particuliere terreinen
 -------------------------------------------------------
 
-<small>**Wijziging t.o.v. vorige versie** Tekstueel is de toegevoegde paragraaf aangepast:
-deze informatie voorziet is aangepast naar deze informatie noodzakelijk is’, de
-zinsneden ‘in een betere of zelfs noodzakelijke’ en ‘Denk daarbij bijv. aan de
-inzet van hulpdiensten maar ook de dienstverlening door netbeheerders dat deels
-een wettelijke taak is.’ zijn geschrapt.</small>
+**Wijziging(en) t.o.v. vorige versie** Tekstueel is de toegevoegde paragraaf
+aangepast: deze informatie voorziet is aangepast naar deze informatie
+noodzakelijk is’, de zinsneden ‘in een betere of zelfs noodzakelijke’ en ‘Denk
+daarbij bijv. aan de inzet van hulpdiensten maar ook de dienstverlening door
+netbeheerders dat deels een wettelijke taak is.’ zijn geschrapt.
 
 **Gerelateerde
 Github-issue(s)** [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)
@@ -97,16 +97,16 @@ en terreinen kunnen hebben aangeleverd.
 Opnemen regels voor objecten buiten Nederland
 ---------------------------------------------
 
-*Wijziging t.o.v. vorige versie Tekstueel wordt aan de paragraaf de volgende
-zinsnede toegevoegd: ‘maar kunnen wel in IMGeo worden opgenomen.’*
+**Wijziging(en) t.o.v. vorige versie** Tekstueel wordt aan de paragraaf de
+volgende zinsnede toegevoegd: ‘maar kunnen wel in IMGeo worden opgenomen.’
 
-*In de IMGeo-catalogus wordt aan paragraaf 1.4 Inhoud de volgende zinsnede
+In de IMGeo-catalogus wordt aan paragraaf 1.4 Inhoud de volgende zinsnede
 toegevoegd ‘Objecten, die geheel buiten Nederland liggen én in beheer zijn bij
 bronhouder, kunnen worden opgenomen in IMGeo.’ De onderbouwing is hierop als
 volgt aangepast: ‘Vanuit beheer is er behoefte aan informatie over objecten die
 geheel buiten Nederland liggen, denk aan puntobjecten in vlakobjecten die over
 de grens heen gaan. Om die reden worden objecten die geheel buiten Nederland en
-in beheer zijn bij bronhouder tot IMGeo-inhoud gerekend.’*
+in beheer zijn bij bronhouder tot IMGeo-inhoud gerekend.’
 
 **Gerelateerde
 Github-issue(s)** [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)
@@ -164,20 +164,20 @@ worden bepaald t.a.v. wanneer bronhouders de gegevens hebben nagelopen.
 Opnemen regels voor plaatsing en draaiing van labels
 ----------------------------------------------------
 
-*Wijziging t.o.v. vorige versie Tekstueel is in ‘Het coördinatenpunt van de
-nummeraanduidingreeks wordt circa 4 meter vanaf de voorgevel (‘straatzijde’)
-binnen het pand geplaatst.’ de zinsnede ‘zo mogelijk’ toegevoegd.*
+**Wijziging(en) t.o.v. vorige versie** Tekstueel is in ‘Het coördinatenpunt van
+de nummeraanduidingreeks wordt circa 4 meter vanaf de voorgevel (‘straatzijde’)
+binnen het pand geplaatst.’ de zinsnede ‘zo mogelijk’ toegevoegd.
 
-*In de onderbouwing is toegevoegd: ‘als deze met minimale rotatie ten opzichte
+In de onderbouwing is toegevoegd: ‘als deze met minimale rotatie ten opzichte
 van de normale leesrichting worden geplaatst. Technisch wordt nu afgedwongen
 door dat de waarde van de rotatiehoek van een label tussen -90 en + 90 ligt.
 Deze eis is als (technische) regel opgenomen bij het attribuut ‘rotatiehoek’ in
 hoofdstuk 8. Immers deze regels voor rotatiehoek gelden ook voor openbare ruimte
-labels.’*
+labels.’
 
-*Voor de opmaak van een nummeraanduidingreeks worden de eisen/regels uit de
+Voor de opmaak van een nummeraanduidingreeks worden de eisen/regels uit de
 werkafspraak Nummeraanduidingreeksen toegevoegd aan de toelichting van het
-attribuut nummeraanduidingreeks.*
+attribuut nummeraanduidingreeks.
 
 **Gerelateerde Github-issue(s)**
 [\#3](https://github.com/Geonovum/IMGeo2018/issues/3)
@@ -343,12 +343,12 @@ gecontroleerd en aangepast conform de nieuwe afbakeningsregels.
 Verduidelijken regels voor gemaal, sluisdeur en stuw
 ----------------------------------------------------
 
-*Wijziging t.o.v. vorige versie Tekstueel is het volgende aangepast: ‘Bij een
-stuw behoort uitsluitend de klep of schuif waarover het water kan stromen tot
-BGT-inhoud. De eventueel aanwezige bakken waar het water door wordt geleid,
+**Wijziging(en) t.o.v. vorige versie** Tekstueel is het volgende aangepast: ‘Bij
+een stuw behoort uitsluitend de klep of schuif waarover het water kan stromen
+tot BGT-inhoud. De eventueel aanwezige bakken waar het water door wordt geleid,
 worden als stuwdeel opgenomen in de BGT.’ Is vervangen door ‘Bij een stuw
 behoort de klep of schuif waarover het water kan stromen tot BGT-inhoud, alsook
-de eventueel aanwezige bakken waar het water door wordt geleid.’*
+de eventueel aanwezige bakken waar het water door wordt geleid.’
 
 **Gerelateerde
 Github-issue(s)** [\#37](https://github.com/Geonovum/IMGeo2018/issues/37), [\#72](https://github.com/Geonovum/IMGeo2018/issues/72) 
@@ -486,16 +486,17 @@ laag**’:
 Schrappen minimale afmetingen voor afbakening BGT Scheiding
 -----------------------------------------------------------
 
-*Wijziging t.o.v. vorige versie De presentatievorm was niet juist/onduidelijk:
-de vetgedrukte tekst moest doorgehaalde tekst zijn. Dit is aangepast.*
+**Wijziging(en) t.o.v. vorige versie** De presentatievorm was niet
+juist/onduidelijk: de vetgedrukte tekst moest doorgehaalde tekst zijn. Dit is
+aangepast.
 
-*Voorstel aangepast dat alleen de minimale afmeting voor lengte van muren en
-hekken wordt geschrapt. Minimale afmeting voor hoogte blijft gehandhaafd.*
+Voorstel aangepast dat alleen de minimale afmeting voor lengte van muren en
+hekken wordt geschrapt. Minimale afmeting voor hoogte blijft gehandhaafd.
 
-*Aan de onderbouwing is de analyse van muren toegevoegd. Verder is opgesomd wat
+Aan de onderbouwing is de analyse van muren toegevoegd. Verder is opgesomd wat
 het voorstel van het schrappen van de minimale afmeting voor hoogte t.o.v. de
 overige huidige afbakeningsregels betekent voor het onderscheid tussen Scheiding
-en OverigeScheiding met betrekking tot populatie en mogelijke domeinwaarden.*
+en OverigeScheiding met betrekking tot populatie en mogelijke domeinwaarden.
 
 **Gerelateerde
 Github-issue(s):** [\#28](https://github.com/Geonovum/IMGeo2018/issues/28) 
@@ -531,32 +532,27 @@ In hoofdstuk 10 van de BGT catalogus wordt bij de afbakeningsregels voor
 Scheiding de tekst als volgt.
 
 >   Scheidingen worden als lijnobject vastgelegd als de breedte kleiner is dan
->   30cm**.**
-
->   Bij scheidingen breder dan 30cm moet de buitenomtrek waar het object de
->   grond raakt worden ingewonnen en vastgelegd als vlakgeometrie.
+>   30cm**.** Bij scheidingen breder dan 30cm moet de buitenomtrek waar het
+>   object de grond raakt worden ingewonnen en vastgelegd als vlakgeometrie.
 
 >   Een scheiding wordt vastgelegd waar het object de ondergrond raakt. In de
 >   scheidingen worden onderbrekingen van \<1m genegeerd. Doorgangen worden
 >   gezien als integraal onderdeel van de scheiding.
 
->   Scheidingen van het type hek die een minimale lengte van 10m en een minimale
->   hoogte van 1m hebben, worden vastgelegd.
+>   Scheidingen van het type hek die een minimale hoogte van 1m hebben, worden
+>   vastgelegd.
 
 >   Scheidingen van de typen kademuur en walbescherming worden opgenomen aan de
->   bovenzijde aan de waterkant. Kademuren breder dan 30cm worden ingewonnen als
->   vlakobject; de omtrek van het object aan de bovenzijde wordt dan vastgelegd.
+>   bovenzijde aan de waterkant. Kademuren die als vlakobject worden ingewonnen
+>   wordt de omtrek van het object aan de bovenzijde vastgelegd.
 
->   Scheidingen van het type muur met een minimale lengte van 1m en met een
->   minimale breedte van 30cm worden opgenomen. Een muur smaller dan 30cm wordt
->   als lijnobject vastgelegd, een bredere muur als vlakobject Muren met een
->   minimale hoogte van 50cm worden vastgelegd.
+>   Muren met een minimale hoogte van 50cm worden vastgelegd.
 
 >   In terreinen met een fysiek voorkomen ‘erf’ worden alleen die scheidingen
 >   opgenomen die direct aan de straatzijde zijn gelegen.
 
-In hoofdstuk 9 van de IMGeo catalogus wordt bij de afbakeningsregels voor
-OverigeScheiding het volgende aangepast:
+In hoofdstuk 9 van de IMGeo catalogus blijft de tekst bij de afbakeningsregels
+voor OverigeScheiding:
 
 >   IMGeo kent naast de BGT typen scheiding ook draadraster en faunaraster.
 >   Bovendien zijn heggen/hagen in IMGeo vertegenwoordigd, zij het niet als
@@ -567,12 +563,11 @@ OverigeScheiding het volgende aangepast:
 >   ze bepaalde minimum afmeting hebben, die per type scheiding verschillen (zie
 >   deel I). In IMGeo kunnen scheidingen van het type hek en muur, die kleiner
 >   dan het BGT minimum zijn, worden opgenomen als objecttype ‘overige
->   scheiding’. Deze kent dezelfde typen scheiding. De populatie van Overige
->   Scheiding bestaat uit: · Scheidingen van type hek en muur die niet voldoen
->   aan de BGT minimummaat; · scheidingen in terrein met fysiek voorkomen ‘erf’
->   die niet aan de straatzijde gelegen zijn. IMGeo muren en kademuren van
->   breder dan 30 cm worden als vlakobject vastgelegd; smallere muren worden als
->   lijnobject vastgelegd.
+>   scheiding’. De populatie van Overige Scheiding bestaat uit: · Scheidingen
+>   van type hek en muur die niet voldoen aan de BGT minimummaat; · scheidingen
+>   in terrein met fysiek voorkomen ‘erf’ die niet aan de straatzijde gelegen
+>   zijn. IMGeo muren en kademuren van breder dan 30 cm worden als vlakobject
+>   vastgelegd; smallere muren worden als lijnobject vastgelegd.
 
 De minimale afmetingen (breedte) voor het opnemen van een scheiding als lijn of
 vlak wordt niet gewijzigd.
@@ -671,10 +666,10 @@ Ofwel het voorstel komt neer op:
 Schrappen inwinregel voor plantvakken kleiner dan 5m2
 -----------------------------------------------------
 
-*Wijziging t.o.v. vorige versie N.a.v. verbetersuggesties/opmerkingen op dit
-voorstel en het voorstel over ‘inrichtend/opdelend’ is een nieuw voorstel ‘het
-veplaatsen van ‘boomspiegel’ van Weginrichtingselement naar subtype van
-groenvoorziening van ‘Weginrichtingselement’ ontstaan.*
+**Wijziging(en) t.o.v. vorige versie** N.a.v. verbetersuggesties/opmerkingen op
+dit voorstel en het voorstel over ‘inrichtend/opdelend’ is een nieuw voorstel
+‘het veplaatsen van ‘boomspiegel’ van Weginrichtingselement naar subtype van
+groenvoorziening van ‘Weginrichtingselement’ ontstaan.
 
 **Gerelateerde
 Github-issue(s):** [\#198](https://github.com/Geonovum/IMGeo2018/issues/198) 
@@ -724,10 +719,10 @@ laag**’:
 Aanpassen definities van rijbanen en fietspad bij Wegdeel
 ---------------------------------------------------------
 
-*Wijzigingen t.o.v. vorige versie Tekstueel zijn de definitie van rijbaan
+**Wijziging(en) t.o.v. vorige versie** Tekstueel zijn de definitie van rijbaan
 autosnelweg, rijbaan autoweg en fietspad aangepast: ‘daartoe aangeduid’ is
 vervangen door ‘daartoe veelal aangeduid’. Reden hiervoor is dat niet elk
-wegdeel zal worden aangeduid met een verkeersbord.*
+wegdeel zal worden aangeduid met een verkeersbord.
 
 Een afbakeningsregel is toegevoegd voor expliciete uitsluiting van
 fietssuggestiestroken als BGT fietspad.
@@ -814,10 +809,10 @@ gecontroleerd en aangepast conform de nieuwe definities.
 Aanpassen definitie sluis(deur)
 -------------------------------
 
-*Wijziging(en) t.o.v. vorige versie Tekstueel is de definitie van sluisdeur
+**Wijziging(en) t.o.v. vorige versie** Tekstueel is de definitie van sluisdeur
 aangepast met toevoeging van de zinsnede ‘of de beweegbare delen’ en vervangen
 van de zinsnede ‘en daartoe van deuren of schuiven is voorzien.‘ door ‘Het
-beweegbare deel of de beweegbare delen kunnen deur(en) of schuif(ven) zijn.’*
+beweegbare deel of de beweegbare delen kunnen deur(en) of schuif(ven) zijn.’
 
 Bij Inwinning onder kopje Impact is de tekst aangepast. Deze tekst was
 abusievelijk gekopieerd van impact/inwinning voor wegdeel en is nu omgezet naar
@@ -868,7 +863,7 @@ sluiscomplex.
     voorzien; IMGeo past met dit voorstel aan op de andere registraties en
     systematieken.
 
-**Implementatie-advies**
+**Implementatie-advies** n.v.t.
 
 Aanpassen definitie bunker
 --------------------------
@@ -894,8 +889,9 @@ opgenomen in IMGeo.
 
 **Impact** De impact van dit voorstel wordt ingeschat op relatief 'laag':
 
--   Verplicht/niet verplicht: Dit betreft een wijziging in het optionele deel
-    van IMGeo.
+-   Verplicht/niet verplicht: Dit betreft een wijziging in het verplichte deel
+    van IMGeo (uitgaande van voorstel dat bunker ‘verplichte/opdelende’ BGT
+    wordt).
 
 -   Software: er is geen aanpassing van de software nodig.
 
@@ -952,9 +948,10 @@ niet juist om hiervoor relatieve precisie toe te passen.
 Aanpassen definitie put(deksel) bij Put
 ---------------------------------------
 
-*Wijziging(en) t.o.v. vorige versie Tekstueel is de definitie van inspectie- /
-rioolput als volgt aangepast: 'tot een rioolstelsel' is vervangen door 'tot een
-riool'.*
+**Wijziging(en) t.o.v. vorige versie** Tekstueel is de definitie van inspectie-
+/ rioolput als volgt aangepast: 'tot een rioolstelsel' is vervangen door 'tot
+een riool'. Bij ‘brandkraan /-put is de zinsnede toegevoegd: ‘of het aansluiten
+van een brandslang’.
 
 **Gerelateerde Github-issue(s)**
 [\#92](https://github.com/Geonovum/IMGeo2018/issues/92)
@@ -962,31 +959,32 @@ riool'.*
 **Huidige situatie** In de IMGeo komen o.a. de volgende classificaties met
 definities van Put voor.
 
-brandkraan / -put: Op de drinkwaterleiding aangesloten kraan, of een put voor
-het plaatsen van een brandkraan, op of nabij de openbare weg, voor
-brandbestrijding.
+>   brandkraan / -put: Op de drinkwaterleiding aangesloten kraan, of een put
+>   voor het plaatsen van een brandkraan, op of nabij de openbare weg, voor
+>   brandbestrijding.
 
-drainageput: Put welke toegang geeft naar een poreuze of geperforeerde
-buisleiding, aangebracht onder de grond om de afwatering van de grond te
-verbeteren.
+>   drainageput: Put welke toegang geeft naar een poreuze of geperforeerde
+>   buisleiding, aangebracht onder de grond om de afwatering van de grond te
+>   verbeteren.
 
-gasput: Put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel
-voor gastransport.
+>   gasput: Put met afsluitkraan ten behoeve van het ondergrondse
+>   leidingenstelsel voor gastransport.
 
-inspectie- / rioolput: Put die toegang geeft tot een (riool)leiding.
+>   inspectie- / rioolput: Put die toegang geeft tot een (riool)leiding.
 
-kolk: Op het riool aangesloten voorziening voor de opvang van hemel- en
-afvalwater afkomstig van erop aangesloten oppervlakken.
+>   kolk: Op het riool aangesloten voorziening voor de opvang van hemel- en
+>   afvalwater afkomstig van erop aangesloten oppervlakken.
 
-waterleidingput: Put met afsluitkraan ten behoeve van het ondergrondse
-leidingenstelsel voor watertransport.
+>   waterleidingput: Put met afsluitkraan ten behoeve van het ondergrondse
+>   leidingenstelsel voor watertransport.
 
 **Nieuwe situatie** Het voorstel is om in deze definities zodanig aan te passen
 dat het de deksel van de put betreft:
 
 >   brandkraan / -put: Op de drinkwaterleiding aangesloten kraan, of **deksel
->   van** een put voor het plaatsen van een brandkraan, op of nabij de openbare
->   weg, voor brandbestrijding. (bron: CROW)
+>   van** een put voor het plaatsen van een brandkraan **of het aansluiten van
+>   een brandslang**’, op of nabij de openbare weg, voor brandbestrijding.
+>   (bron: CROW)
 
 >   drainageput: Put**deksel** welke toegang geeft naar een poreuze of
 >   geperforeerde buisleiding, aangebracht onder de grond om de afwatering van
@@ -1123,11 +1121,11 @@ geclusterde object
 Toelichten geen plaatsbepalingspunten bij planinformatie, OngeclassificeerdObject, functionele gebieden, labels en registratieve gebieden
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-*Wijziging t.o.v. vorige versie De gerelateerde issue(s) waren niet juist en
-volledig: \#79, \#124 is vervangen door \#79, \#120 en \#134.*
+**Wijziging(en) t.o.v. vorige versie** De gerelateerde issue(s) waren niet juist
+en volledig: \#79, \#124 is vervangen door \#79, \#120 en \#134.
 
-*Aan tekst is toegevoegd dat uitgezonderd van plaatsbepalingspunten zijn de
-coördinaten van functionele gebieden en labels.*
+Aan tekst is toegevoegd dat uitgezonderd van plaatsbepalingspunten zijn de
+coördinaten van functionele gebieden en labels.
 
 **Gerelateerde
 Github-issue(s)** [\#79](https://github.com/Geonovum/IMGeo2018/issues/79),
@@ -1196,8 +1194,9 @@ software in de BGT keten werkt al volgens deze regels.
 Toelichten Nederlandse tijdzone met zomer/wintertijd
 ----------------------------------------------------
 
-*Wijziging t.o.v. vorige versie De tekst over tijdgeldigheid en tijdzone is nu
-1:1 gelijk met de beschrijving van de huidige BAG-catalogus (2.0 -1 juli 2018).*
+**Wijziging(en) t.o.v. vorige versie** De tekst over tijdgeldigheid en tijdzone
+is nu 1:1 gelijk met de beschrijving van de huidige BAG-catalogus (2.0 -1 juli
+2018).
 
 **Gerelateerde
 Github-issue(s)** [\#13](https://github.com/Geonovum/IMGeo2018/issues/13)
@@ -1251,18 +1250,18 @@ Github-issue(s)** [\#142](https://github.com/Geonovum/IMGeo2018/issues/142)
 **Huidige situatie** In de BGT catalogus in paragraaf 4.2 wordt het volgende
 beschreven:
 
-De positionele nauwkeurigheid van een object wordt beschreven op het niveau van
-het objecttype. Hiermee wordt aan elk object binnen dat objecttype een
-nauwkeurigheidseis gesteld. De BGT hanteert voor het beschrijven van de
-positionele nauwkeurigheid de **zogenaamde interne precisie, ook bekend onder de
-naam relatieve precisie**.
+>   De positionele nauwkeurigheid van een object wordt beschreven op het niveau
+>   van het objecttype. Hiermee wordt aan elk object binnen dat objecttype een
+>   nauwkeurigheidseis gesteld. De BGT hanteert voor het beschrijven van de
+>   positionele nauwkeurigheid de **zogenaamde interne precisie, ook bekend
+>   onder de naam relatieve precisie**.
 
 **Nieuwe situatie** Het voorstel is om deze tekst als volgt aan te passen:
 
-De positionele nauwkeurigheid van een object wordt beschreven op het niveau van
-het objecttype. Hiermee wordt aan elk object binnen dat objecttype een
-nauwkeurigheidseis gesteld. De BGT hanteert voor het beschrijven van de
-positionele nauwkeurigheid **de relatieve precisie**.
+>   De positionele nauwkeurigheid van een object wordt beschreven op het niveau
+>   van het objecttype. Hiermee wordt aan elk object binnen dat objecttype een
+>   nauwkeurigheidseis gesteld. De BGT hanteert voor het beschrijven van de
+>   positionele nauwkeurigheid **de relatieve precisie**.
 
 **Onderbouwing** Met deze aanpassing wordt de tekst verkort en dus duidelijker.
 

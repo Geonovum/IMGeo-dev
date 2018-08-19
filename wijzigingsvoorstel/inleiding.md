@@ -183,8 +183,8 @@ nemen.
 Tijdens informatiebijeenkomsten lichten we de consultatie toe. Wij doen dat bij
 het Gemeentelijk Geoberaad (GGB) en we organiseren sessies voor
 provinciale/waterschaps/landelijke bronhouders, softwareleveranciers en
-gebruikers. Data van de informatiebijeenkomsten:  
-  
+gebruikers. Data van de informatiebijeenkomsten:
+
 7 juni  [Voorjaarsbijeenkomst GGB-Zuid](http://svb-bgt.nl/Agenda/996444.aspx) \|
 Eindhoven  
 14 juni [Voorjaarsbijeenkomst GGB-West](http://svb-bgt.nl/Agenda/996445.aspx) \|

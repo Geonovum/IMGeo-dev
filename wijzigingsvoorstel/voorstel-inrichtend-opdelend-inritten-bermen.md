@@ -216,7 +216,8 @@ en bereikbaarheid, en dus voor de afbakening van fietspad en voetpad moet komen.
 Om die reden wordt inrit in de domeinwaardenlijst FunctieWegdeel geplaatst boven
 fietspad en onder rijbaan lokale weg.
 
-**Impact** De impact van dit voorstel wordt ingeschat op relatief ‘gemiddeld’:
+**Impact** De impact van dit voorstel wordt ingeschat op relatief ‘gemiddeld tot
+laag’:
 
 -   *Verplicht/niet verplicht:* Het betreft verplichte BGT.
 

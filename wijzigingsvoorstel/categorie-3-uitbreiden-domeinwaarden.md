@@ -4,93 +4,12 @@ Uitbreiden domeinwaarden
 Dit hoofdstuk geeft een toelichting op de voorstellen voor het onderdeel
 domeinwaarden.
 
-**Wijziging(en) t.o.v. vorige versie**
-
-Het plus-fysiekvoorkomen bij 'open verharding’ van OnbegroeidTerreindeel is
-uitgebreid met 'natuursteen', 'basalt', 'steenbestorting' en ‘steenmatras’.
-
-Het plus-type bij Weginrichtingselement is uitgebreid met ‘geleidestrook’.
-
-Het plus-type van FunctioneelGebied is uitgebreid met ‘zuiveringscomplex’,
-‘waterwingebied’ en ‘stiltegebied’.
-
-Het plus-fysiekvoorkomen ‘hout’ bij Wegdeel is toegevoegd aan ‘open verharding’
-i.p.v. ‘gesloten verharding’.
-
-Het plus-fysiekvoorkomen ‘gras’ bij Wegdeel is hernoemd naar ‘gras- en
-kruidachtigen’.
-
-Het geometrietype van ‘band’ bij Weginrichtingselement is gewijzigd van ‘punt’
-naar ‘lijn’.
-
-Het plus-type ‘parkeerautomaat’ bij Straatmeubilair is geschrapt.
-Parkeerautomaat is een subtype van ‘betaalautomaat’.
-
-De plus-typen ‘verhoging’ en ‘wegmarkering’ bij ‘verkeerseiland’ van
-OndersteunendWegdeel zijn hernoemd naar ‘vluchtheuvel’ en ‘verkeersdruppel’.
-
-De beschrijving van huidige situatie was abusievelijk van ‘verkeersdrempel’ en
-is aangepast.
-
-Het plus-type ‘blok’ is verplaatst van Weginrichtingselement naar
-Straatmeubilair.
-
-Het plus-type ‘seinlicht’ is verplaatst van Straatmeubilair naar
-Waterinrichtingselement.
-
-Het plus-type ‘bermplank’ is verplaatst van Straatmeubilair naar
-Weginrichtingselement.
-
-Het plus-type ‘hondenpoeppaal’ en ‘hondenbeleidsbord’ zijn geschrapt bij Paal en
-Bord. Deze objecten zijn een subtype van ‘verkeersbordpaal’ en ‘verkeersbord’.
-
-Het plustype ‘haag’ bij ‘groenvoorziening’ van Begroeidterreindeel is hernoemd
-naar ‘haagvak’.
-
-Het plus-type ‘halteplaats’ bij FunctioneelGebied is geschrapt. Plustype
-‘bushalte’ wordt hernoemd naar ‘halteplaats’.
-
-Het plus-type ‘opvangzone’ bij Functioneelgebied is hernoemd naar
-‘valondergrond’.
-
-Bij plus-type ‘aansluiting’, ‘knooppunt’, ‘kruispunt’ en ‘zone’ van
-FunctioneelGebied is de prefix ‘verkeers’ toegevoegd.
-
-De definitie van plus-type ‘vlonder’ bij Kunstwerkdeel is aangepast om
-onderscheid te maken tussen steiger voor laden/lossen grote schepen, en vlonder
-voor pleziervaart en sportvisserij.
-
-Het plus-type ‘zuiveringsreservoir’ bij Kunstwerkdeel is geschrapt.
-‘zuiveringsreservoir’ overlapt namelijk met ‘bezinkbak’.
-
-De plus-functies ‘rammelstrook’ en ‘rabatstrook’ zijn verplaatst van
-OndersteunendWegdeel naar Weginrichtingselement.
-
-Het plus-type ‘lift’ is verplaatst van Gebouwinstallatie naar Installatie.
-
-De definitie van ‘verkeersdrempel’ is aangepast zodat deze past bij fietspad.
-
-Het plus-type ‘klimplant’ bij VegetatieObject is geschrapt. Een klimplant is een
-verbijzondering van een ‘solitaire plant’.
-
-Het bgt-type ‘dam’ bij Kunstwerkdeel is geschrapt. Gegeven de hiërarchische
-toewijzigingsregels van IMGeo (eerst Terreindeel, daarna Kunstwerkdeel) zal dam
-als Terreindeel worden afgebakend en niet als Kunstwerkdeel.
-
-In definitie van ‘kunststof’ bij ‘gesloten verharding’ van Wegdeel is zinsnede
-‘op atletiekbaan' geschrapt.
-
-De plus-typen ‘grensbord’ en kunstwerknaambord bij Bord zijn geschrapt. Dit zijn
-verbijzonderingen van ‘verkeersbord’.
-
-Het plus-type ‘faunaverblijfplaats’ is toegevoegd aan Straatmeubilair.
-
-Het plus-type ‘mottobord’ bij Bord is geschrapt. Dit is een verbijzondering van
-‘informatiebord’.
-
-### Functies van Wegdeel
+### functies van Wegdeel
 
 #### 'verkeersdrempel' bij rijbaan auto(snel)weg en fietspad
+
+**Wijziging(en) t.o.v. vorige versie** De definitie van ‘verkeersdrempel’ is
+aangepast zodat deze past bij fietspad.
 
 **Gerelateerde Github-issue(s)**
 [\#18](https://github.com/Geonovum/IMGeo2018/issues/18) 
@@ -114,6 +33,11 @@ plus-functie ook toe te voegen aan die functies.
 
 #### ‘trailerhelling’ bij ‘rijbaan lokale weg’
 
+**Wijziging(en) t.o.v. vorige versie**
+
+De beschrijving van huidige situatie was abusievelijk van ‘verkeersdrempel’ en
+is aangepast.
+
 **Gerelateerde Github-issue(s)**
 
 **Huidige situatie** In IMGeo heeft een Wegdeel een verzameling van functies.
@@ -131,7 +55,16 @@ aan de bgt-functie 'rijbaan lokale weg’, met de volgende definitie:
 te weten waar zij hun reddingsboot te water kunnen laten. Deze gegevens zijn
 veelal al beschikbaar bij gemeenten.
 
-### Fysieke voorkomens bij Wegdeel
+### fysieke voorkomens bij Wegdeel
+
+**Wijziging(en) t.o.v. vorige versie** Het plus-fysiekvoorkomen ‘hout’ bij
+Wegdeel is toegevoegd aan ‘open verharding’ i.p.v. ‘gesloten verharding’.
+
+Het plus-fysiekvoorkomen ‘gras’ bij Wegdeel is hernoemd naar ‘gras- en
+kruidachtigen’.
+
+In definitie van ‘kunststof’ bij ‘gesloten verharding’ van Wegdeel is zinsnede
+‘op atletiekbaan' geschrapt.
 
 **Gerelateerde
 Github-issue(s):** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
@@ -177,7 +110,14 @@ alle toegepaste materialen (bijv. houten bruggetjes) en worden om die reden dus
 uitgebreid om beter aan te sluiten bij de praktijk. 'Gras- en kruidachtigen' als
 fysieke voorkomen bij een Wegdeel komt o.a. voor bij een spoorbaan voor tram. 
 
-### Functies van OndersteunendWegdeel
+### functies van OndersteunendWegdeel
+
+**Wijziging(en) t.o.v. vorige versie** De plus-typen ‘verhoging’ en
+‘wegmarkering’ bij ‘verkeerseiland’ van OndersteunendWegdeel zijn hernoemd naar
+‘vluchtheuvel’ en ‘verkeersdruppel’.
+
+De plus-functies ‘rammelstrook’ en ‘rabatstrook’ zijn verplaatst van
+OndersteunendWegdeel naar Weginrichtingselement.
 
 **Gerelateerde
 Github-issue(s)** [\#170](https://github.com/Geonovum/IMGeo2018/issues/170)
@@ -207,23 +147,12 @@ OndersteunendWegdeel met de volgende definities:
 aansluiting met IMBOR komt de wens om rammelstrook en rabatstrook op te nemen in
 IMGeo.
 
-### Fysieke voorkomens bij BegroeidTerreindeel
+### fysieke voorkomens bij OnbegroeidTerreindeel
 
-**Gerelateerde
-Github-issue(s):** [\#173](https://github.com/Geonovum/IMGeo2018/issues/173),
-[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194) 
+**Wijziging(en) t.o.v. vorige versie**
 
-**Huidige situatie** In IMGeo heeft een BegroeidTerreindeel fysiek voorkomens
-met nadere detailleringen.
-
-**Nieuwe situatie** Het voorstel is om het plus-fysiekvoorkomen ‘haag’ toe te
-voegen als nadere detaillering van ‘groenvoorziening’.
-
-#### ‘haagvak’ bij groenvoorziening
-
->   *haagvak:* Groenvak in de openbare ruimte met beplanting, zijnde haag.
-
-### Fysieke voorkomens bij OnbegroeidTerreindeel
+Het plus-fysiekvoorkomen bij 'open verharding’ van OnbegroeidTerreindeel is
+uitgebreid met 'natuursteen', 'basalt', 'steenbestorting' en ‘steenmatras’.
 
 **Gerelateerde
 Github-issue(s):** [\#173](https://github.com/Geonovum/IMGeo2018/issues/173),
@@ -255,7 +184,30 @@ fysieke voorkomen van OnbegroeidTerreindeel als volgt uit te breiden:
 
 >   *steenmatras:* Open verharding bestaande uit doorgroeibare stenen elementen.
 
+### fysieke voorkomens bij BegroeidTerreindeel
+
+**Wijziging(en) t.o.v. vorige versie** Het plustype ‘haag’ bij
+‘groenvoorziening’ van Begroeidterreindeel is hernoemd naar ‘haagvak’.
+
+**Gerelateerde
+Github-issue(s):** [\#173](https://github.com/Geonovum/IMGeo2018/issues/173),
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194) 
+
+**Huidige situatie** In IMGeo heeft een BegroeidTerreindeel fysiek voorkomens
+met nadere detailleringen.
+
+**Nieuwe situatie** Het voorstel is om het plus-fysiekvoorkomen ‘haag’ toe te
+voegen als nadere detaillering van ‘groenvoorziening’.
+
+#### ‘haagvak’ bij groenvoorziening
+
+>   *haagvak:* Groenvak in de openbare ruimte met beplanting, zijnde haag.
+
 ### typen bij OverigBouwwerk
+
+**Wijziging(en) t.o.v. vorige versie** Het plus-type ‘zuiveringsreservoir’ bij
+OverigBouwwerk is geschrapt. ‘zuiveringsreservoir’ overlapt namelijk met
+‘bezinkbak’.
 
 **Gerelateerde
 Github-issue(s)** [\#17](https://github.com/Geonovum/IMGeo2018/issues/17), [\#22](https://github.com/Geonovum/IMGeo2018/issues/22), [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#87](https://github.com/Geonovum/IMGeo2018/issues/87), [\#158](https://github.com/Geonovum/IMGeo2018/issues/158), [\#174](https://github.com/Geonovum/IMGeo2018/issues/174),
@@ -313,10 +265,14 @@ deze classificaties op te nemen in IMGeo.
 
 ### typen bij Kunstwerkdeel
 
-*Wijziging t.o.v. vorige versie ‘dam’ is geschrapt als uitbreiding van typen bij
-Kunstwerkdeel. Gegeven de hiërarchische toewijzigingsregels van IMGeo (eerst
+**Wijziging t.o.v. vorige versie** Het bgt-type ‘dam’ bij Kunstwerkdeel is
+geschrapt. Gegeven de hiërarchische toewijzigingsregels van IMGeo (eerst
 Terreindeel, daarna Kunstwerkdeel) zal dam als Terreindeel worden afgebakend en
-niet als Kunstwerkdeel.*
+niet als Kunstwerkdeel.
+
+De definitie van plus-type ‘vlonder’ bij Kunstwerkdeel is aangepast om
+onderscheid te maken tussen steiger voor laden/lossen grote schepen, en vlonder
+voor pleziervaart en sportvisserij.
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
@@ -347,6 +303,19 @@ bronhouders en leveranciers, en de aansluiting met IMBOR is de wens geuit om
 deze classificaties op te nemen in IMGeo. 
 
 ### typen bij Functioneel Gebied
+
+**Wijziging(en) t.o.v. vorige versie** Het plus-type van FunctioneelGebied is
+uitgebreid met ‘zuiveringscomplex’, ‘waterwingebied’, ‘stiltegebied’ en
+‘snellaadstation’.
+
+Het plus-type ‘halteplaats’ bij FunctioneelGebied is geschrapt. Plustype
+‘bushalte’ wordt hernoemd naar ‘halteplaats’.
+
+Het plus-type ‘opvangzone’ bij Functioneelgebied is hernoemd naar
+‘valondergrond’.
+
+Bij plus-type ‘aansluiting’, ‘knooppunt’, ‘kruispunt’ en ‘zone’ van
+FunctioneelGebied is de prefix ‘verkeers’ toegevoegd.
 
 **Gerelateerde Github-issue(s)** 
 [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
@@ -428,6 +397,12 @@ geometrietype ‘Multivlak’:
 >   *opstelpunt open water:* Een plaats waar een brandweervoertuig opgesteld kan
 >   worden om open water te tappen.
 
+#### snellaadstation
+
+>   *snellaadstation:* Infrastructuurelement, doorgaans langs autosnelwegen, dat
+>   in elektrische energie voorziet om elektrische plug-invoertuigen op te laden
+>   in een relatief korte tijd.
+
 **Onderbouwing** Gemaalcomplex, sluiscomplex en stuwcomplex worden toegevoegd
 als gevolg van het wijzigingen van gemaal naar gemaaldeel, sluis naar sluisdeur
 en stuw naar stuwdeel. Met deze typen kan een clustering van objecten
@@ -440,6 +415,16 @@ veiligheidsregio’s. Deze typen ontbraken in IMGeo en zijn nodig voor een goede
 aansluiting van de modellen.
 
 ### typen bij Bord
+
+**Wijziging(en) t.o.v. vorige versie** Het plus-type ‘hondenpoeppaal’ en
+‘hondenbeleidsbord’ zijn geschrapt bij Paal en Bord. Deze objecten zijn een
+subtype van ‘verkeersbordpaal’ en ‘verkeersbord’.
+
+De plus-typen ‘grensbord’ en kunstwerknaambord bij Bord zijn geschrapt. Dit zijn
+verbijzonderingen van ‘verkeersbord’.
+
+Het plus-type ‘mottobord’ bij Bord is geschrapt. Dit is een verbijzondering van
+‘informatiebord’.
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
@@ -467,12 +452,6 @@ geometrietype ‘Punt’:
 >   (verkeers)situatie, een aanwijzing kan geven aan de weggebruiker, meestal om
 >   hem te helpen de meest optimale route naar de bestemming te kiezen.
 
-#### hondenbeleidsbord
-
->   *hondenbeleidsbord:* Bord dat uiting geeft aan het hondenbeleid. Typen
->   borden zijn o.a. hondenlosloopterrein (losloopgebied), verbodsgebied,
->   hondenspeelplaats en honden aan de lijn.
-
 **Onderbouwing** De classificaties voor plus-type bij Bord waren niet volledig
 voor alle typen borden die voorkomen in de openbare ruimte. Vanuit bronhouders
 en leveranciers, en de aansluiting met IMBOR is de wens geuit om deze
@@ -480,14 +459,17 @@ classificaties op te nemen in IMGeo.
 
 ### typen bij Gebouwinstallatie
 
-**Wijziging t.o.v. vorige versie** Voorstel voor uitbreiding Gebouwinstallatie
-met lift is geschrapt. Voorstel is om lift op te nemen bij Installatie. Reden:
-lift in een gebouw behoort tot het pand of overig bouwwerk en is daarmee geen
-apart af te bakenen object ‘aan een gebouw’.
+**Wijziging(en) t.o.v. vorige versie** Het plus-type ‘lift’ is verplaatst van
+Gebouwinstallatie naar Installatie. Reden: lift in een gebouw behoort tot het
+pand of overig bouwwerk en is daarmee geen apart af te bakenen object ‘aan een
+gebouw’.
 
 ### Typen bij Installatie
 
-**Wijziging t.o.v. vorige versie** De volgende typen zijn toegevoegd: lift.
+**Wijziging(en) t.o.v. vorige versie** Het plus-type ‘lift’ is verplaatst van
+Gebouwinstallatie naar Installatie.
+
+Het plus-type ‘brandblusinstallatie’ van Installatie is geschrapt.
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
@@ -498,10 +480,6 @@ Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
 **Nieuwe situatie** Het voorstel is om in IMGeo de classificaties voor plus-type
 bij Installatie uit te breiden met de volgende typen en definities, allen met
 geometrietype ‘Punt’:
-
-#### brandblusinstallatie
-
->   *brandblusinstallatie:* Installatie voor het bestrijden van brand. 
 
 #### beregeningsinstallatie
 
@@ -531,6 +509,9 @@ classificaties op te nemen in IMGeo.
 
 ### typen bij Kast
 
+**Wijziging(en) t.o.v. vorige versie** Het plus-type ‘pompkast’ is toegevoegd
+aan Kast.
+
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
 [\#184](https://github.com/Geonovum/IMGeo2018/issues/184),
@@ -557,6 +538,11 @@ geometrietype ‘Punt’:
 
 >   *PLC-kast:* Een kast met daarin een PLC (Programmable Logic Controler) voor
 >   het aansturen van o.a. kunstwerken (gemalen, stuwen, afsluitmiddelen etc.).
+
+#### pompkast
+
+>   *pompkast:* Een kast met daarin een installatie bedoeld om water van een
+>   laag peil naar een hoog peil te brengen.
 
 **Onderbouwing** De classificaties voor plus-type bij Kast waren niet volledig
 voor alle typen die voorkomen in de openbare ruimte. Vanuit bronhouders en
@@ -587,6 +573,12 @@ classificaties op te nemen in IMGeo.
 
 ### typen bij Paal
 
+**Wijziging(en) t.o.v. vorige versie** Het plus-type ‘hondenpoeppaal’ en
+‘hondenbeleidsbord’ zijn geschrapt bij Paal en Bord. Deze objecten zijn een
+subtype van ‘verkeersbordpaal’ en ‘verkeersbord’.
+
+Het plus-type ‘vlaggenmast’ is toegevoegd aan Paal.
+
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#81](https://github.com/Geonovum/IMGeo2018/issues/81),
 [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
@@ -596,12 +588,6 @@ Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#
 **Nieuwe situatie** Het voorstel is om in IMGeo de classificaties voor plus-type
 bij Paal uit te breiden met de volgende typen en definities, allen met
 geometrietype ‘Punt’:
-
-#### hondenpoeppaal
-
->   *hondenpoeppaal: *Paal met daarop een bord voor het aangeven van de grens
->   van een uitlaatplaats waar een hond zijn behoefte kan mag doen waarbij geen
->   opruimplicht bestaat.
 
 #### strandpaal
 
@@ -629,12 +615,66 @@ geometrietype ‘Punt’:
 >   zware voertuigen niet verder rijden waar de toegang voor hen niet gewenst
 >   is.
 
+#### vlaggenmast
+
+>   *vlaggenmast*: Paal waaraan een vlag bevestigd kan worden.
+
 **Onderbouwing** De classificaties voor plus-type bij Paal waren niet volledig
 voor alle typen palen die voorkomen in de openbare ruimte. Vanuit bronhouders en
 leveranciers, en de aansluiting met IMBOR is de wens geuit om deze
 classificaties op te nemen in IMGeo.
 
+### typen bij Put
+
+**Wijziging(en) t.o.v. vorige versie** De plus-typen ‘beerput’ en
+‘fauna-inspectieput’ waren niet bij Put in de tekst opgenomen, maar wel in de
+IMGeo 2.2 overzichtstabel met domeinwaarden.
+
+**Gerelateerde
+Github-issue(s)** [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
+
+**Huidige situatie** In de IMGeo heeft Put een verzameling van typen. 
+
+**Nieuwe situatie** Het voorstel is om in IMGeo de classificaties voor plus-type
+bij Put uit te breiden met de volgende typen en definities, allen met
+geometrietype ‘Punt’:
+
+#### beerput
+
+>   *beerput:* Deksel van een put, bestemd voor het tijdelijk opslaan van
+>   vuilwater en voor een gedeeltelijke biologische afbraak van het vuilwater.
+
+#### fauna-inspectieput
+
+>   *fauna-inspectieput:* Deksel van een put op ondergrondse faunavoorziening
+>   met als doel inspectie van de voorziening mogeljk te maken.
+
+**Onderbouwing** De classificaties voor plus-type bij Put waren niet volledig
+voor alle typen palen die voorkomen in de openbare ruimte. Vanuit bronhouders en
+leveranciers, en de aansluiting met IMBOR is de wens geuit om deze
+classificaties op te nemen in IMGeo.
+
 ### typen bij Straatmeubilair
+
+**Wijziging(en) t.o.v. vorige versie**
+
+Het plus-type ‘parkeerautomaat’ bij Straatmeubilair is geschrapt.
+Parkeerautomaat is een subtype van ‘betaalautomaat’.
+
+Het plus-type ‘blok’ is verplaatst van Weginrichtingselement naar
+Straatmeubilair.
+
+Het plus-type ‘seinlicht’ is verplaatst van Straatmeubilair naar
+Waterinrichtingselement.
+
+Het plus-type ‘bermplank’ bij Straatmeubilair. Dit is komt overeen met
+‘reflectorpaal’ bij Paal.
+
+Het plus-type ‘faunaverblijfplaats’ en ‘stormanker’ is toegevoegd aan
+Straatmeubilair.
+
+Het plus-type ‘markeringspaal’ en ‘veiligheidsvoorziening’ bij Straatmeubilair
+zijn geschrapt.
 
 **Gerelateerde
 Github-issue(s)** [\#7](https://github.com/Geonovum/IMGeo2018/issues/7), [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#100](https://github.com/Geonovum/IMGeo2018/issues/100),
@@ -722,21 +762,17 @@ met geometrietype ‘Punt’:
 >   *dispenser*: Een voorziening voor het verstrekken van bepaalde hulpmiddelen
 >   (bijvoorbeeld hondenpoepzakjes)
 
-#### markeringspaal
-
->   *markeringspaal:* Paal om een specifiek gebied of specifieke locatie te
->   markeren.
-
-#### veiligheidsvoorziening
-
->   *veiligheidsvoorziening:* Voorziening ter bevordering van de veiligheid van
->   personen in de openbare ruimte.
-
 #### blok
 
 >   *blok* Blokvormig element, meestal van beton of steen, bedoeld om een
 >   openbare ruimte te verfraaien, achterliggende gebieden te beschermen of te
 >   dienen als zit- of speelelement.
+
+#### stormanker
+
+>   *stormanker* Een voorziening aangebracht in de verharding voor het
+>   vastzetten en beveiligen van objecten (bijvoorbeeld marktkramen) tegen harde
+>   wind.
 
 #### faunaverblijfplaats
 
@@ -750,6 +786,11 @@ Vanuit bronhouders en leveranciers, en de aansluiting met IMBOR is de wens geuit
 om deze classificaties op te nemen in IMGeo.
 
 ### Typen van Waterinrichtingselement
+
+**Wijziging(en) t.o.v. vorige versie** Het plus-type ‘seinlicht’ is verplaatst
+van Straatmeubilair naar Waterinrichtingselement.
+
+Het plus-type ‘watertrap’ is toegevoegd aan Waterinrichtingselement
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70), [\#159](https://github.com/Geonovum/IMGeo2018/issues/159),
@@ -767,8 +808,8 @@ bij Waterinrichtingselement uit te breiden met de volgende typen en definities:
 
 #### seinlicht
 
->   *seinlicht:* Kunstmatige lichtbron waarmee de doorvaart van kunstwerken
->   wordt gereguleerd.
+>   *seinlicht* (Punt)*:* Kunstmatige lichtbron waarmee de doorvaart van
+>   kunstwerken wordt gereguleerd.
 
 #### lichtbaken
 
@@ -786,6 +827,11 @@ bij Waterinrichtingselement uit te breiden met de volgende typen en definities:
 >   *drijvende oever:* (Punt of Lijn) Drijvende constructie met beplanting langs
 >   oevers waar geen natuurlijke oever mogelijk is (stenen of stalen wanden).
 
+#### watertrap
+
+>   *watertrap* (Punt): Trapvormige constructie in een waterloop, bedoeld als
+>   sierelement om het water over naar beneden te laten stromen.
+
 **Onderbouwing**  
 De classificaties voor plus-type bij Waterinrichtingselement waren niet volledig
 voor alle typen die voorkomen in de openbare ruimte. Vanuit bronhouders en
@@ -793,6 +839,18 @@ leveranciers, en de aansluiting met IMBOR is de wens geuit om deze
 classificaties op te nemen in IMGeo. 
 
 ### Typen van Weginrichtingselement
+
+**Wijziging(en) t.o.v. vorige versie** Het plus-type bij Weginrichtingselement
+is uitgebreid met ‘geleidestrook’.
+
+Het geometrietype van ‘band’ bij Weginrichtingselement is gewijzigd van ‘punt’
+naar ‘lijn’.
+
+Het plus-type ‘blok’ is verplaatst van Weginrichtingselement naar
+Straatmeubilair.
+
+De plus-functies ‘rammelstrook’ en ‘rabatstrook’ zijn verplaatst van
+OndersteunendWegdeel naar Weginrichtingselement.
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
@@ -834,21 +892,15 @@ bij Weginrichtingselement uit te breiden met de volgende typen en definities:
 >   afwijkende structuur die er toe dient om blinden en slechtzienden te helpen
 >   de juiste weg te volgen doordat zij zich hiermee kunnen oriënteren.
 
-#### 'rammelstrook' bij 'berm'
+#### 'rammelstrook'
 
 >   *Rammelstrook (lijn)* Een verkeersmaatregel bestaande uit een strook met
 >   ribbels op de weg. 
 
-#### 'rabatstrook' bij 'berm'
+#### 'rabatstrook'
 
 >   *rabatstrook* (*vlak*) Een kantstrook, van ander materiaal en/of in een
 >   afstekende kleur, langs het verharde wegdek.
-
-#### bermplank
-
->   *bermplank*: Benaming voor opstaande borden (of betonnen platen) langs de
->   rijbanen van verkeerswegen dienende om die banen duidelijk te markeren, inz.
->   bij donker weer.
 
 **Onderbouwing**  
 De classificaties voor plus-type bij Weginrichtingselement waren niet volledig
@@ -857,6 +909,10 @@ leveranciers, en de aansluiting met IMBOR is de wens geuit om deze
 classificaties op te nemen in IMGeo. 
 
 ### Typen van Vegatieobject
+
+**Wijziging(en) t.o.v. vorige versie** Het plus-type ‘klimplant’ bij
+VegetatieObject is geschrapt. Een klimplant is een verbijzondering van een
+‘solitaire plant’.
 
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70),
@@ -868,7 +924,7 @@ typen.
 **Nieuwe situatie** Het voorstel is om in IMGeo de classificaties voor plus-type
 bij VegetatieObject uit te breiden met de volgende typen en definities:
 
-#### Solitaire plant
+#### solitaire plant
 
 >   *solitaire plant (Punt):* Plant, heester of siergras, te beheren als
 >   solitair beplantingselement.

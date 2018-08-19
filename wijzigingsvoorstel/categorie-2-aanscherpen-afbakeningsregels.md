@@ -447,7 +447,11 @@ gecontroleerd en aangepast conform de nieuwe definities.
 Aanpassen definitie opslagtank
 ------------------------------
 
-**Gerelateerde Github-issue(s)** \#190
+**Wijziging(en) t.o.v. vorige versie** Definitie is uitgebreid met ‘of energie’,
+t.b.v. opnemen van de zogenaamde ‘buurtbatterij’ als opslagtank.
+
+**Gerelateerde
+Github-issue(s)** [\#190](https://github.com/Geonovum/IMGeo2018/issues/90)
 
 **Huidige situatie** In de BGT komt een ‘opslagtank’ als type van OverigBouwwerk
 met de volgende definitie voor:
@@ -458,11 +462,11 @@ met de volgende definitie voor:
 **Nieuwe situatie** Het voorstel is om de definitie ‘opslagtank’ in de BGT aan
 te passen:
 
-opslagtank: Opslagfaciliteit voor vloeistoffen **of gassen**. Alleen
-bovengrondse opslagtanks worden opgenomen.
+>   opslagtank: Opslagfaciliteit voor vloeistoffen **of gassen of energie**.
+>   Alleen bovengrondse opslagtanks worden opgenomen.
 
 **Onderbouwing** In de huidige BGT is de definitie van opslagtank beperkt tot
-vloeistoffen. Met deze aanpassing wordt de toepassing van opslagtank inIMGeo
+vloeistoffen. Met deze aanpassing wordt de toepassing van opslagtank in IMGeo
 verruimt.
 
 **Impact** De impact van dit voorstel wordt ingeschat op relatief ‘laag’.
