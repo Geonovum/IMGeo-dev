@@ -2,7 +2,7 @@ var respecConfig = {
   specStatus: "GN-CV",
   specType: "IM",
   //canonicalURI: "WV",
-  publishDate: "2018-06-01",
+  publishDate: "2018-08-20",
   editors: [
     {
       name: "Arnoud de Boer",
