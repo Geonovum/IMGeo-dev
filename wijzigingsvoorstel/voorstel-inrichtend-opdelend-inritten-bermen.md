@@ -56,7 +56,8 @@ Het betreft de volgende objecten:
 
 >   Weginrichtingselement: **wildrooster, rooster**
 
-Deze vlakobjecten worden dus opdelend, maar daarmee ook verplichte BGT-inhoud.
+Deze vlakobjecten worden dus opdelend *indien op relatieve hoogte 0*, maar
+daarmee ook verplichte BGT-inhoud.
 
 Dit betekent voor het model dat deze domeinwaarden zullen verplaatsen van een
 plus-waardelijst (bijv. OverigBouwwerkPlus) naar een bgt-waardelijst (bijv.
@@ -199,16 +200,16 @@ De werkgroep IMGeo heeft zich nogmaals gebogen over alle reacties:
 -   Er een duidelijke behoefte is aan informatie over inritten, ongeacht de
     lengte en/of breedte.
 
--   Inritten geven aan waar toegang tot een perceel is, in het kader van
-    bereikbaarheid moet het niet uitmaken of. Essentie van de informatie is:
-    hier loopt een weg naar een perceel/erf en dus eventueel een bedrijf,
-    woonhuis, fabriek e.d. Voor o.a. hulpdiensten is dit relevante informatie.
+-   Inritten geven aan waar toegang tot een perceel is in het kader van
+    bereikbaarheid. Essentie van de informatie is: hier loopt een weg naar een
+    perceel/erf en dus eventueel een bedrijf, woonhuis, fabriek e.d. Voor o.a.
+    hulpdiensten is dit relevante informatie.
 
--   Een inrit dat een fietspad of voetpad is begaanbaar voor zowel gemotoriseerd
-    verkeer, als voor fietsers en voetgangers begaanbaar. Als inritten over een
-    fietspad/voetpad door de hierarchische toewijzigingsregels als zodanig niet
-    herkenbaar zijn, is niet bekend dat op die plek met een motorvoertuig een
-    perceel/erf bereikt kan worden.
+-   Een inrit dat een fietspad of voetpad doorkruist is begaanbaar voor zowel
+    gemotoriseerd verkeer, als voor fietsers en voetgangers. Als inritten over
+    een fietspad/voetpad door de hierarchische toewijzigingsregels als zodanig
+    niet herkenbaar zijn, is niet bekend dat op die plek met een motorvoertuig
+    een perceel/erf bereikt kan worden.
 
 Conclusie is dat inrit ongeacht lengte of breedte als inrit herkenbaar moet
 zijn, en dat deze belangrijk is voor verschillende gebruikers voor o.a. beheer

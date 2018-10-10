@@ -6,10 +6,6 @@ in IMGeo, en/of wijzigen geometrietypen binnen de huidige structuur van IMGeo.
 
 ### Hernoemen ‘boomschors’ naar ‘boomschors / houtsnippers’
 
-**Wijziging(en) t.o.v. vorige versie** ‘houtsnippers’ is hernoemd naar
-‘boomschors/ houtsnippers’. Beide termen worden gebruikt vanuit beheer. In IMGeo
-worden deze aggregeerd tot één classificatie.
-
 **Gerelateerde
 Github-issue(s)** [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)
 
@@ -41,17 +37,38 @@ voor. Dit is niet consistent en geeft onduidelijkheid en
 interpretatieverschillen bij bronhouders.
 
 **Nieuwe situatie** Het voorstel is om in IMGeo het bgt-type ‘zand’ te hernoemen
-naar ‘zand**vlakte**’. De definitie blijft ongewijzigd.
+naar ‘zand**vlakte**’met de volgende definitie:
+
+>   *zandvlakte* een vlak, onbegroeid gebied waarvan de bodem uit zand bestaat.
 
 **Onderbouwing** Met deze wijziging wordt IMGeo consistenter, waarmee de
 afbakening voor bronhouders eenvoudiger en gemakkelijker wordt, en daarmee de
 BGT uniformer. Het betreft hier de combinatie van ‘zandvlakte’ met optionele
 plus-typen ‘strand en strandwal’ en ‘zandverstuiving’.
 
-### Hernoemen ‘sluis’ naar ‘sluisdeur’ bij Kunstwerkdeel, wijzigen geometrietype naar ‘Lijn of Vlak’.
+### Hernoemen ‘puin’ naar ‘steenbestorting’
 
-**Wijziging(en) t.o.v. versie** Geometrietype van ‘sluisdeur’ wordt uitgebreid
-met ‘Lijn’.
+**Gerelateerde Github-issue(s)**
+[\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
+
+**Huidige situatie** In IMGeo komt ‘puin’ voor als plus-fysiekvoorkomen van
+‘half verhard’ voor bij Wegdeel, OndersteunendWegdeel en OnbegroeidTerreindeel
+met de volgende definitie:
+
+>   *puin* Puin is afvalmateriaal dat bestaat uit losse brokstukken, grotendeels
+>   bestaande uit stenen en beton, van gesloopte of ingestorte gebouwen,
+>   viaducten, bruggen en andere objecten. (bron: Wikipedia)
+
+**Nieuwe situatie** Het voorstel is om in IMGeo het plus-fysiekvoorkomen ‘puin’
+te hernoemen naar ‘steenbestorting’ met de volgende definitie:
+
+>   *steenbestorting* Open verharding bestaande uit onregelmatige stukken steen
+>   of beton. (bron: BGT)
+
+**Onderbouwing** Steenbestorting is de meer specifieke term vanuit o.a. beheer
+openbare ruimte.
+
+### Hernoemen ‘sluis’ naar ‘sluisdeur’ bij Kunstwerkdeel, wijzigen geometrietype naar ‘Lijn of Vlak’.
 
 **Gerelateerde Github-issue(s)**
 [\#72](https://github.com/Geonovum/IMGeo2018/issues/72)
@@ -81,10 +98,6 @@ opgenomen; het sluiscomplex kan middels een Functioneel Gebied 'sluiscomplex'
 worden opgenomen. 
 
 ### Hernoemen ‘bushalte’ naar ‘halteplaats’ bij FunctioneelGebied
-
-**Wijziging(en) t.o.v. vorige versie** Het plus-type ‘halteplaats’ bij
-FunctioneelGebied is geschrapt. Plustype ‘bushalte’ wordt hernoemd naar
-‘halteplaats’.
 
 **Gerelateerde Github-issue(s)** *opmerking uit eerste ronde consultatie*
 
@@ -144,10 +157,6 @@ In IMGeo worden deze geaggreerd tot één algemeen object
 aan.
 
 ### Hernoemen ‘fietsenrek’ en ‘fietsenkluis’ naar ‘fietsparkeervoorziening’
-
-**Wijziging(en) t.o.v. vorige versie** De definitie van fietsparkeervoorziening
-is aangepast: zinsnede ‘verankerd rek’ is aangepast naar ‘verankerde
-voorziening’ en ‘parkeren’ is toegevoegd.
 
 **Gerelateerde
 Github-issue(s)** [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
@@ -303,11 +312,6 @@ borden en van verkeersbesluiten. 
 Verplaatsen ‘boomspiegel’ van Weginrichtingselement naar plus-fysiekvoorkomen van BegroeidTerreindeel:groenvoorziening
 ----------------------------------------------------------------------------------------------------------------------
 
-**Wijziging(en) t.o.v. vorige versie** Dit voorstel is toegevoegd n.a.v. de
-input op het voorstel over verschuiven van ‘inrichtend/vrijwillig’ naar
-‘opdelend/verplicht’ voor boomspiegel, alsook n.a.v. het schrappen van de
-inwinregel voor plantvakkean kleiner dan 5m2.
-
 **Gerelateerde
 Github-issue(s):** [\#198](https://github.com/Geonovum/IMGeo2018/issues/198) 
 
@@ -366,10 +370,6 @@ vlakgeometrie.
 
 Verplaatsen ‘vispassage’ naar plus-type van ‘faunavoorziening’ bij Kunstwerkdeel
 --------------------------------------------------------------------------------
-
-**Wijziging(en) t.o.v. vorige versie ‘**vispassage’ als type bij Kunstwerkdeel
-wordt niet geschrapt, maar wordt nadere detaillering (plus-type) van het
-verplicht/opdelend te maken type ‘faunavoorziening’ van Kunstwerkdeel.
 
 **Gerelateerde
 Github-issue(s)** [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)
@@ -452,10 +452,6 @@ wordt nu nergens status ‘historie’ toegepast bij objecten met een eindtijd.
 Wijzigen geometrie ‘gemaal’ van ‘vlak’ naar ’multivlak’
 -------------------------------------------------------
 
-**Wijziging(en) t.o.v. vorige versie** Hernoemen van ‘gemaaldeel’ naar ‘gemaal’
-wordt geschrapt, wijziging van geometrietype van ‘Vlak’ naar ‘Multivlak’ blijft
-gehandhaafd. Definitie van gemaal is hierop aangepast.
-
 **Gerelateerde Github-issue(s)**
 [\#37](https://github.com/Geonovum/IMGeo2018/issues/37),
 [\#72](https://github.com/Geonovum/IMGeo2018/issues/72)
@@ -483,10 +479,6 @@ beter aan op de afbakeningsregels van de waterwereld (IMWA).
 
 Wijzigen geometrie ‘stuw’ van ‘Lijn of Vlak’ naar ’Lijn of MultiVlak’
 ---------------------------------------------------------------------
-
-**Wijziging(en) t.o.v. vorige versie** Hernoemen van ‘stuwdeel’ naar ‘stuw’
-wordt geschrapt, wijziging van geometrietype van ‘Lijn of Vlak’ naar ‘Lijn of
-Multivlak’ blijft gehandhaafd. Definitie van stuw is hierop aangepast.
 
 **Gerelateerde Github-issue(s)**
 [\#37](https://github.com/Geonovum/IMGeo2018/issues/37),
@@ -518,10 +510,6 @@ aanpassing sluit de BGT beter aan op de afbakeningsregels van de waterwereld
 
 Wijzigen geometrie ‘duiker’ van ‘Lijn of Vlak’ naar ’Lijn of Multivlak’
 -----------------------------------------------------------------------
-
-**Wijziging(en) t.o.v. vorige versie** Hernoemen van ‘duikerdeel’ naar ‘duiker’
-wordt geschrapt, wijziging van geometrietype van ‘Lijn of Vlak’ naar ‘Lijn of
-Multivlak’ blijft gehandhaafd. Definitie van duiker is hierop aangepast.
 
 **Gerelateerde Github-issue(s) **
 [\#37](https://github.com/Geonovum/IMGeo2018/issues/37),

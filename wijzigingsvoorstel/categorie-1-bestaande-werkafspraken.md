@@ -47,12 +47,6 @@ onder het maaiveld wordt verstaan.*
 Opnemen regels voor indeling van particuliere terreinen
 -------------------------------------------------------
 
-**Wijziging(en) t.o.v. vorige versie** Tekstueel is de toegevoegde paragraaf
-aangepast: deze informatie voorziet is aangepast naar deze informatie
-noodzakelijk is’, de zinsneden ‘in een betere of zelfs noodzakelijke’ en ‘Denk
-daarbij bijv. aan de inzet van hulpdiensten maar ook de dienstverlening door
-netbeheerders dat deels een wettelijke taak is.’ zijn geschrapt.
-
 **Gerelateerde
 Github-issue(s)** [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)
 
@@ -71,7 +65,7 @@ volgende:
 
 **Onderbouwing** Met deze toevoeging is ook het mogelijk om particuliere en
 bedrijventerreinen nader in te delen. Dit ten behoeve van de inzet van
-hulpdiensten en de dienstverlening door netbeheerds.
+hulpdiensten en de dienstverlening door netbeheerders.
 
 **Impact** De impact van deze wijziging wordt ingeschat op relatief ‘*laag*’:
 
@@ -96,17 +90,6 @@ en terreinen kunnen hebben aangeleverd.
 
 Opnemen regels voor objecten buiten Nederland
 ---------------------------------------------
-
-**Wijziging(en) t.o.v. vorige versie** Tekstueel wordt aan de paragraaf de
-volgende zinsnede toegevoegd: ‘maar kunnen wel in IMGeo worden opgenomen.’
-
-In de IMGeo-catalogus wordt aan paragraaf 1.4 Inhoud de volgende zinsnede
-toegevoegd ‘Objecten, die geheel buiten Nederland liggen én in beheer zijn bij
-bronhouder, kunnen worden opgenomen in IMGeo.’ De onderbouwing is hierop als
-volgt aangepast: ‘Vanuit beheer is er behoefte aan informatie over objecten die
-geheel buiten Nederland liggen, denk aan puntobjecten in vlakobjecten die over
-de grens heen gaan. Om die reden worden objecten die geheel buiten Nederland en
-in beheer zijn bij bronhouder tot IMGeo-inhoud gerekend.’
 
 **Gerelateerde
 Github-issue(s)** [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)
@@ -164,21 +147,6 @@ worden bepaald t.a.v. wanneer bronhouders de gegevens hebben nagelopen.
 Opnemen regels voor plaatsing en draaiing van labels
 ----------------------------------------------------
 
-**Wijziging(en) t.o.v. vorige versie** Tekstueel is in ‘Het coördinatenpunt van
-de nummeraanduidingreeks wordt circa 4 meter vanaf de voorgevel (‘straatzijde’)
-binnen het pand geplaatst.’ de zinsnede ‘zo mogelijk’ toegevoegd.
-
-In de onderbouwing is toegevoegd: ‘als deze met minimale rotatie ten opzichte
-van de normale leesrichting worden geplaatst. Technisch wordt nu afgedwongen
-door dat de waarde van de rotatiehoek van een label tussen -90 en + 90 ligt.
-Deze eis is als (technische) regel opgenomen bij het attribuut ‘rotatiehoek’ in
-hoofdstuk 8. Immers deze regels voor rotatiehoek gelden ook voor openbare ruimte
-labels.’
-
-Voor de opmaak van een nummeraanduidingreeks worden de eisen/regels uit de
-werkafspraak Nummeraanduidingreeksen toegevoegd aan de toelichting van het
-attribuut nummeraanduidingreeks.
-
 **Gerelateerde Github-issue(s)**
 [\#3](https://github.com/Geonovum/IMGeo2018/issues/3)
 
@@ -217,7 +185,7 @@ rotatiehoek van huisnummers de volgende extra regels op te nemen:
 >   nummeraanduidingreeks van een Pand wordt eenmaal afgebeeld.**
 
 Bij de regels voor het attribuut ‘rotatiehoek’ in hoofdstuk 8 Attributen wordt
-het volgende toevoegd:
+het volgende toegevoegd:
 
 >   Voor de rotatiehoek van een label van een BGT\|IMGeo object gelden de
 >   volgende eigenschappen en eisen:
@@ -293,7 +261,7 @@ nummeraanduidingreeksen](https://www.geonovum.nl/uploads/documents/20150716_BGT-
 worden bepaald t.a.v. wanneer de gegevens zijn gecontroleerd. Juiste
 rotatiehoeken zijn met software automatisch af te leiden uit de geometrie van
 panden. Eventueel kwaliteitsdashboard inzetten om ‘te veel’ gedraaide
-huisnummers te localiseren.
+huisnummers te lokaliseren.
 
 Opnemen regels voor panden boven water
 --------------------------------------
@@ -342,13 +310,6 @@ gecontroleerd en aangepast conform de nieuwe afbakeningsregels.
 
 Verduidelijken regels voor gemaal, sluisdeur en stuw
 ----------------------------------------------------
-
-**Wijziging(en) t.o.v. vorige versie** Tekstueel is het volgende aangepast: ‘Bij
-een stuw behoort uitsluitend de klep of schuif waarover het water kan stromen
-tot BGT-inhoud. De eventueel aanwezige bakken waar het water door wordt geleid,
-worden als stuwdeel opgenomen in de BGT.’ Is vervangen door ‘Bij een stuw
-behoort de klep of schuif waarover het water kan stromen tot BGT-inhoud, alsook
-de eventueel aanwezige bakken waar het water door wordt geleid.’
 
 **Gerelateerde
 Github-issue(s)** [\#37](https://github.com/Geonovum/IMGeo2018/issues/37), [\#72](https://github.com/Geonovum/IMGeo2018/issues/72) 
@@ -400,8 +361,8 @@ gemaal, sluis en stuw in de BGT gegevenscatalogus op te nemen:
 >   Nadere typeringen van stuw wordt beschouwd als beheerinformatie en niet
 >   opgenomen in de BGT.
 
-**Onderbouwing** Met deze afbakeningsregels sluit de BGT beter aan op de
-afbakeningsregels van de waterwereld (IMWA).
+**Onderbouwing** Met deze afbakeningsregels sluit de BGT beter aan op behoeften
+voor afbakening van gemalen, stuwen en sluizen vanuit diverse waterschappen..
 
 **Impact** De impact van dit voorstel wordt ingeschat op ‘laag tot zeer laag’:
 
@@ -485,18 +446,6 @@ laag**’:
 
 Schrappen minimale afmetingen voor afbakening BGT Scheiding
 -----------------------------------------------------------
-
-**Wijziging(en) t.o.v. vorige versie** De presentatievorm was niet
-juist/onduidelijk: de vetgedrukte tekst moest doorgehaalde tekst zijn. Dit is
-aangepast.
-
-Voorstel aangepast dat alleen de minimale afmeting voor lengte van muren en
-hekken wordt geschrapt. Minimale afmeting voor hoogte blijft gehandhaafd.
-
-Aan de onderbouwing is de analyse van muren toegevoegd. Verder is opgesomd wat
-het voorstel van het schrappen van de minimale afmeting voor hoogte t.o.v. de
-overige huidige afbakeningsregels betekent voor het onderscheid tussen Scheiding
-en OverigeScheiding met betrekking tot populatie en mogelijke domeinwaarden.
 
 **Gerelateerde
 Github-issue(s):** [\#28](https://github.com/Geonovum/IMGeo2018/issues/28) 
@@ -666,11 +615,6 @@ Ofwel het voorstel komt neer op:
 Schrappen inwinregel voor plantvakken kleiner dan 5m2
 -----------------------------------------------------
 
-**Wijziging(en) t.o.v. vorige versie** N.a.v. verbetersuggesties/opmerkingen op
-dit voorstel en het voorstel over ‘inrichtend/opdelend’ is een nieuw voorstel
-‘het veplaatsen van ‘boomspiegel’ van Weginrichtingselement naar subtype van
-groenvoorziening van ‘Weginrichtingselement’ ontstaan.
-
 **Gerelateerde
 Github-issue(s):** [\#198](https://github.com/Geonovum/IMGeo2018/issues/198) 
 
@@ -688,7 +632,7 @@ In IMGeo wordt de mogelijkheid geboden om deze kleine plantvakken op te nemen:
 >   ‘begroeid terreindeel groenvoorziening’.
 
 **Nieuwe situatie** Het voorstel is om de inwinregel voor kleine plantvakken te
-schrappen. Bovenstaande zinsnedes worden verwijderd uit het informatiemodel.
+schrappen. Bovenstaande zinsnede worden verwijderd uit het informatiemodel.
 
 **Onderbouwing** Uit analyse blijkt dat in de BGT (peildatum: 22 maart 2018)
 445.253 begroeid terreindelen met fysiek-voorkomen ‘groenvoorziening’ van 424
@@ -718,14 +662,6 @@ laag**’:
 
 Aanpassen definities van rijbanen en fietspad bij Wegdeel
 ---------------------------------------------------------
-
-**Wijziging(en) t.o.v. vorige versie** Tekstueel zijn de definitie van rijbaan
-autosnelweg, rijbaan autoweg en fietspad aangepast: ‘daartoe aangeduid’ is
-vervangen door ‘daartoe veelal aangeduid’. Reden hiervoor is dat niet elk
-wegdeel zal worden aangeduid met een verkeersbord.
-
-Een afbakeningsregel is toegevoegd voor expliciete uitsluiting van
-fietssuggestiestroken als BGT fietspad.
 
 **Gerelateerde issue(s)**
 [\#11](https://github.com/Geonovum/IMGeo2018/issues/11)  
@@ -757,23 +693,24 @@ van een Wegdeel aan te scherpen:
 
 >   rijbaan autosnelweg: Wegdeel dat onderdeel is van een weg uitsluitend
 >   bestemd voor snelverkeer en met gescheiden rijbanen en ongelijkvloerse
->   kruisingen, daartoe veelal aangeduid met het betreffende verkeersbord
->   **G01**. (bron: BGT)
+>   kruisingen. **Het wegdeel maakt onderdeel uit van een weg, welke veelal is
+>   aangeduid met het betreffende verkeersbord G01.** (bron: BGT)
 
 >   rijbaan autoweg: Wegdeel dat onderdeel is van een weg uitsluitend bestemd
->   voor snelverkeer, daartoe veelal aangeduid met het betreffende verkeersbord
->   **G03**. (bron: BGT)
+>   voor snelverkeer**. Het wegdeel maakt onderdeel uit van een weg, welke
+>   veelal is aangeduid met het betreffende verkeersbord G03.** (bron: BGT)
 
 >   rijbaan regionale weg: Wegdeel dat onderdeel is van een weg die een
 >   verbinding vormt tussen bewoonde oorden of tussen wijken binnen een dorp of
 >   stad **waarbij er een, meestal fysieke, scheiding is tussen langzaam verkeer
 >   en snelverkeer.** (bron: BGT+CROW)
 
->   fietspad: Weg **of strook van een weg** uitsluitend bestemd voor fietsers
->   en/of bromfietsers en daartoe veelal aangeduid met een blauw bord met daarop
->   een wit rijwiel **(bord G11 of G12a)**, een blauw of zwart bord met daarop
->   de tekst “FIETSPAD” of “RIJWIELPAD” **(bord G13)**, **of een wit
->   rijwielsymbool op een strook oranjekleurige verharding.** (bron: CROW)
+>   fietspad: Wegdeel dat uitsluitend bestemd is voor fietsers en/of
+>   bromfietsers. **Het Wegdeel maakt onderdeel uit van een weg welke veelal is
+>   aangeduid met een blauw bord met daarop een wit rijwiel (bord G11 of G12a),
+>   een blauw of zwart bord met daarop de tekst “FIETSPAD” of “RIJWIELPAD” (bord
+>   G13), of een wit rijwielsymbool op een strook oranjekleurige verharding.**
+>   (bron: CROW)
 
 In Hoofdstuk 10 van de afbakeningsregels voor wegdelen wordt bij Regels voor
 opname toegevoegd.
@@ -800,7 +737,7 @@ vallen buiten de definitie; fietssuggestiestroken hebben geen wettelijke status.
 
 -   Samenhang basisregistraties: er is geen impact voor andere basisregistraties
     voorzien; IMGeo past met dit voorstel aan op de andere registraties en
-    systematieken.
+    systematiek.
 
 **Implementatie-advies** Implementatie-afspraken/termijnen dienen nader te
 worden bepaald t.a.v. wanneer bronhouders hun bestaande gegevens hebben
@@ -808,15 +745,6 @@ gecontroleerd en aangepast conform de nieuwe definities.
 
 Aanpassen definitie sluis(deur)
 -------------------------------
-
-**Wijziging(en) t.o.v. vorige versie** Tekstueel is de definitie van sluisdeur
-aangepast met toevoeging van de zinsnede ‘of de beweegbare delen’ en vervangen
-van de zinsnede ‘en daartoe van deuren of schuiven is voorzien.‘ door ‘Het
-beweegbare deel of de beweegbare delen kunnen deur(en) of schuif(ven) zijn.’
-
-Bij Inwinning onder kopje Impact is de tekst aangepast. Deze tekst was
-abusievelijk gekopieerd van impact/inwinning voor wegdeel en is nu omgezet naar
-impact/inwinning voor sluis(deur).
 
 **Gerelateerde
 Github-issue(s)** [\#72](https://github.com/Geonovum/IMGeo2018/issues/72)
@@ -834,7 +762,7 @@ voor met de volgende definitie:
 **Nieuwe situatie** Het voorstel is om met het hernoemen van ‘sluis’ naar
 ‘sluisdeur’ de definitie als volgt aan te passen:
 
->   sluis**deur** = Het beweegbare deel of de bewegbare delen van een
+>   sluis**deur** = Het beweegbare deel of de beweegbare delen van een
 >   kunstmatige waterkering die de verbinding tussen twee wateren kan afsluiten
 >   of openstellen. Het beweegbare deel of de beweegbare delen kunnen deur(en)
 >   of schuif(ven) zijn. (bron: BGT)
@@ -861,7 +789,7 @@ sluiscomplex.
 
 -   Samenhang basisregistraties: er is geen impact voor andere basisregistraties
     voorzien; IMGeo past met dit voorstel aan op de andere registraties en
-    systematieken.
+    systematiek.
 
 **Implementatie-advies** n.v.t.
 
@@ -948,11 +876,6 @@ niet juist om hiervoor relatieve precisie toe te passen.
 Aanpassen definitie put(deksel) bij Put
 ---------------------------------------
 
-**Wijziging(en) t.o.v. vorige versie** Tekstueel is de definitie van inspectie-
-/ rioolput als volgt aangepast: 'tot een rioolstelsel' is vervangen door 'tot
-een riool'. Bij ‘brandkraan /-put is de zinsnede toegevoegd: ‘of het aansluiten
-van een brandslang’.
-
 **Gerelateerde Github-issue(s)**
 [\#92](https://github.com/Geonovum/IMGeo2018/issues/92)
 
@@ -1032,20 +955,21 @@ Github-issue(s)** [\#36](https://github.com/Geonovum/IMGeo2018/issues/36), [\#
 
 **Huidige situatie** In hoofdstuk 10 van de BGT catalogus is bij de regels voor
 opname van kruinlijnen bij een wegdeel (10.1.2), ondersteunend wegdeel (10.2.2)
-en onbegroeid terreindeel (10.4.2) de volgende zinsnede opgenomen.
+en onbegroeid terreindeel (10.4.2) de volgende zinsnede opgenomen. Bijvoorbeeld:
 
->   Eén van de zijden van het ondersteunend wegdeel valt altijd samen met de
->   kruinlijn, zijnde bovenkant talud.
+>   Eén van de zijden van het wegdeel valt altijd samen met de kruinlijn, zijnde
+>   bovenkant talud.
 
 **Nieuwe situatie** Het voorstel is om de zinsnede uit te breiden met de
 volgende tekst:
 
->   Een van de zijden van het begroeid terreindeel valt altijd samen met de
->   kruinlijn, zijnde bovenkant talud. **De coördinaten van de kruinlijn zijn
->   identiek met die van de objectbegrenzing ter plaatse.**
+>   Een van de zijden van het wegdeel valt altijd samen met de kruinlijn, zijnde
+>   bovenkant talud. **De coördinaten van de kruinlijn zijn identiek met die van
+>   de objectbegrenzing ter plaatse.**
 
-Ook wordt de tekst over afbakening van kruinlijnen opgenomen bij
-begroeidterreindeel (10.5).
+De zinsnede wordt ook toegevoegd aan ondersteunend wegdeel en onbegroeid
+terreindeel, alsook wordt de gehele tekst over afbakening van kruinlijnen
+opgenomen bij begroeid terreindeel (10.5).
 
 **Onderbouwing** Voor bronhouders en softwareleveranciers was de term
 ‘samenvallen’ lange tijd onduidelijk of dit betekende dat coördinaten van een
@@ -1121,12 +1045,6 @@ geclusterde object
 Toelichten geen plaatsbepalingspunten bij planinformatie, OngeclassificeerdObject, functionele gebieden, labels en registratieve gebieden
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-**Wijziging(en) t.o.v. vorige versie** De gerelateerde issue(s) waren niet juist
-en volledig: \#79, \#124 is vervangen door \#79, \#120 en \#134.
-
-Aan tekst is toegevoegd dat uitgezonderd van plaatsbepalingspunten zijn de
-coördinaten van functionele gebieden en labels.
-
 **Gerelateerde
 Github-issue(s)** [\#79](https://github.com/Geonovum/IMGeo2018/issues/79),
 [\#120](https://github.com/Geonovum/IMGeo2018/issues/120),
@@ -1159,7 +1077,7 @@ en in de IMGeo catalogus de volgende tekst toe voegen
 >   registratieve gebieden en alle geplande objecten.**
 
 Ook wordt aan de BGT catalogus in paragraaf 3.12.1 Plaatsbepalingspunt de
-volgende tekst toegevoegd over plaatsbepalingspunten bij ongeclassificeerde
+volgende tekst toegevoegd over plaatsbepalingspunten bij geclassificeerde
 objecten:
 
 >   Een ongeclassificeerd object bezit impliciet plaatsbepalingspunten, immers
@@ -1170,7 +1088,7 @@ objecten:
 >   ongeclassificeerde object.
 
 **Onderbouwing** Planinformatie en registratieve gebieden zijn niet in te meten
-en hebben logischerwijs du sook geen plaatsbepalingspunten. Voor
+en hebben logischerwijs dus ook geen plaatsbepalingspunten. Voor
 ongeclassificeerde objecten is niet duidelijk of / hoe deze objecten
 plaatsbepalingspunten hebben. Dit voorstel neemt deze onduidelijkheden weg. De
 software in de BGT keten werkt al volgens deze regels.
@@ -1194,10 +1112,6 @@ software in de BGT keten werkt al volgens deze regels.
 Toelichten Nederlandse tijdzone met zomer/wintertijd
 ----------------------------------------------------
 
-**Wijziging(en) t.o.v. vorige versie** De tekst over tijdgeldigheid en tijdzone
-is nu 1:1 gelijk met de beschrijving van de huidige BAG-catalogus (2.0 -1 juli
-2018).
-
 **Gerelateerde
 Github-issue(s)** [\#13](https://github.com/Geonovum/IMGeo2018/issues/13)
 
@@ -1213,9 +1127,9 @@ verduidelijken:
 
 >   Tijdgeldigheid is de geldigheid van de BGT-gegevens overeenkomstig de
 >   geregistreerde datum en tijd in de registratie. Voor het ontstaan, wijzigen
->   en vervallen van objecten geldt de Nederlandse wetelijke tijd . Daarbij
->   wordt in de winter de wintertijd aangehouden, ofewel Midden-Europese Tijd,
->   en in de zomer de zomertijd, ofewel Midden-Europese Zomertijd. Om dubbele
+>   en vervallen van objecten geldt de Nederlandse wettelijke tijd . Daarbij
+>   wordt in de winter de wintertijd aangehouden, oftewel Midden-Europese Tijd,
+>   en in de zomer de zomertijd, oftewel Midden-Europese Zomertijd. Om dubbele
 >   tijdstippen te voorkomen mag in de nacht van zomertijd naar wintertijd
 >   (ofwel de nacht van zaterdag op zondag in het laatste weekend van oktober
 >   wanneer de klok een uur teruggaat ) geen tijdstip worden toegekend aan

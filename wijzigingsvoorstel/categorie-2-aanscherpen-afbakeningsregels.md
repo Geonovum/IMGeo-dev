@@ -7,13 +7,6 @@ extra criteria.
 Aanpassen regels voor afbakenings oever/slootkant
 -------------------------------------------------
 
-**Wijziging(en) t.o.v. vorige versie** De beslisboom, afbeelding en tekst zijn
-consistent met elkaar gemaakt: de afbakeningsregel is voluit uitgeschreven met
-alle minimum afmetingen vanuit de beslisboom. De afbeelding is minder
-technisch/wiskundig gemaakt. In de beslisboom zijn de vragen voluit geschreven,
-en zijn bij ‘NEE, geen ondersteunendWaterdeel’ de zinsneden vanaf ‘maar …’
-geschrapt.
-
 **Gerelateerde
 Github-issue(s)** [\#50](https://github.com/Geonovum/IMGeo2018/issues/50),
 [\#74](https://github.com/Geonovum/IMGeo2018/issues/74),
@@ -129,10 +122,6 @@ de bronhouders worden toegevoegd.
 Opnemen regels voor onderscheid tussen viaduct en tunneldeel
 ------------------------------------------------------------
 
-**Wijziging(en) t.o.v. vorige versie** Tekstueel is aan de afbakeningsregel voor
-tunnel de zinsnede ‘gesloten kokerconstructie’ vervangen door ‘overwegend
-gesloten kokerconstructie’.
-
 **Gerelateerde
 Github-issue(s)** [\#12](https://github.com/Geonovum/IMGeo2018/issues/12) 
 
@@ -182,20 +171,6 @@ gecontroleerd en aangepast conform de nieuwe afbakeningsregels.
 
 Opnemen extra afbakeningsregels voor onderscheid tussen muur, kademuur, en keermuur
 -----------------------------------------------------------------------------------
-
-**Wijziging(en) t.o.v. vorige versie** ‘dam’ is geschrapt uit de beslisboom en
-als uitbreiding van typen bij Kunstwerkdeel. Gegeven de hiërarchische
-toewijzigingsregels van IMGeo (eerst Terreindeel, daarna Kunstwerkdeel) zal dam
-als Terreindeel worden afgebakend en niet als Kunstwerkdeel.
-
-De vragen in de beslisboom zijn duidelijker uitgeschreven.
-
-Een afbakeningsregel voor ‘damwand’ wordt toegevoegd dat deze inclusief deksloof
-wordt afgebakend. De deksloof wordt niet apart afgebakend, bijvoorbeeld als
-kademuur.
-
-De onderbouwing was abusievelijk opgenomen van viaduct en tunneldeel en is
-gewijzigd naar muur, kademuur, keermuur, alsook damwand en strekdam
 
 **Gerelateerde
 Github-issue(s)** [\#14](https://github.com/Geonovum/IMGeo2018/issues/14), [\#30](https://github.com/Geonovum/IMGeo2018/issues/30),
@@ -339,10 +314,6 @@ gecontroleerd en aangepast conform de nieuwe afbakeningsregels.
 Aanpassen definitie ‘oever/slootkant’
 -------------------------------------
 
-**Wijziging(en) t.o.v. vorige versie** Tekstueel is de definitie als volgt
-aangepast: de zinsnede ‘de delen’ is vervangen door ‘stroken of gebieden met een
-functie voor waterbeheersing’.
-
 **Gerelateerde
 Github-issue(s)** [\#76](https://github.com/Geonovum/IMGeo2018/issues/76) 
 
@@ -384,12 +355,6 @@ gecontroleerd en aangepast conform de nieuwe definities.
 
 Aanpassen definities duiker en brug
 -----------------------------------
-
-**Wijziging(en) t.o.v. vorige versie** Aan de definitie van ‘duiker’ is de
-zinsnede ‘of ander terreindeel’ toegevoegd en de zinsnede ‘niet de gehele
-waterbreedte beslaand en’ is geschrapt.’**.**
-
-*Tekstueel is in de definitie van ‘brug’ ‘losliggend’ vervangen door ‘apart’.*
 
 **Gerelateerde
 Github-issue(s)** [\#176](https://github.com/Geonovum/IMGeo2018/issues/176)
@@ -446,9 +411,6 @@ gecontroleerd en aangepast conform de nieuwe definities.
 
 Aanpassen definitie opslagtank
 ------------------------------
-
-**Wijziging(en) t.o.v. vorige versie** Definitie is uitgebreid met ‘of energie’,
-t.b.v. opnemen van de zogenaamde ‘buurtbatterij’ als opslagtank.
 
 **Gerelateerde
 Github-issue(s)** [\#190](https://github.com/Geonovum/IMGeo2018/issues/90)
