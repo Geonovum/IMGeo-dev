@@ -49,3 +49,8 @@ thead {
    border-color: #eee;
   background-color: #ccc;
 }
+
+#nieuwe-subclassificatie table {
+	
+	font-size: 0.8em;
+}
