@@ -51,11 +51,18 @@ thead {
 }
 
 #nieuwe-subclassificaties table {
-	
 	font-size: 0.7em;
-
+	font-style: none;
 }
 
 #nieuwe-subclassificaties td {
 	vertical-align: top;
 }
+
+#nieuwe-subclassificaties td:first-child {
+	font-weight: bold;
+}
+
+#nieuwe-subclassificaties td:nth-child(2) {
+    font-style: italic;
+}	
