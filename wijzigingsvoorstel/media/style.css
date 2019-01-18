@@ -48,28 +48,28 @@ table, td, th {
 
 th:first-child {
 	font-style: italic;
-	font-size: 0.7em!important;
+	font-size: 0.85em!important;
 }
 
 
 thead {
   border-color: #eee;
   background-color: #ccc;
+  font-size: 0.85em !important;
 }
 
 table {
-	font-size: 0.7em !important;
 	font-style: normal;
 }
 
 td {
 	vertical-align: top;
-	font-size: 0.8em !important;
+	font-size: 0.9em !important;
 	font-style: normal;
 }
 
 td:first-child {
 	font-style: italic;
-	font-size: 0.7em!important;
+	font-size: 0.85em!important;
 }
 
