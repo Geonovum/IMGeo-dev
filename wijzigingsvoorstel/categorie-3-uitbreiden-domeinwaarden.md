@@ -1,12 +1,3 @@
-Inhoud
-======
-
-Opnemen van bestaande werkafspraken en verduidelijken van bestaande spelregels
-------------------------------------------------------------------------------
-
-Aanscherpen van afbakeningsregels met nieuwe criteria
------------------------------------------------------
-
 Uitbreiden van het model met subclassificaties
 ----------------------------------------------
 
@@ -99,15 +90,7 @@ Uitbreiden van het model met subclassificaties
 |                                              | *rabatstrook*                             | *Een kantstrook, van ander materiaal en/of in een afstekende kleur, langs het verharde wegdek.*                                                                                                                                                                                                              |                       |             |
 | *Vegetatieobject: typePlus*                  | *solitaire plant *                        | *Plant, heester of siergras, te beheren als solitair beplantingselement.*                                                                                                                                                                                                                                    |                       |             |
 
-*Uitbreiden met bestaande subclassificaties ‘als subtype van’*
+Bestaande subclassificaties ‘als subtype van’ classificatie.
+------------------------------------------------------------
 
-*Verkeersdrempel bij rijbaan autosnelweg, rijbaan autoweg en fietspad*
-
-Hernoemen, herindelen en schrappen van subclassificaties
---------------------------------------------------------
-
-Wijzigen van geometrietypen van subclassificaties
--------------------------------------------------
-
-Verschuiven van objecten van vrijwillige naar verplichte inhoud
----------------------------------------------------------------
+-   *Verkeersdrempel bij rijbaan autosnelweg, rijbaan autoweg en fietspad*
