@@ -1,129 +1,5 @@
-Managementsamenvatting
-======================
-
-Doel en resultaat
------------------
-
-IMGeo 2.2 is een nieuwe geoptimaliseerde versie van het informatiemodel Geografie (IMGeo) door 
------------------------------------------------------------------------------------------------
-
-1.  afbakeningsregels aan te scherpen zodat de BGT uniformer voor afnemers en
-    makkelijker maakbaar voor bronhouders wordt.
-
-2.  het model uit te breiden met ontbrekende subclassificaties (domeinwaarden)
-    zodat sectoren (IMBOR, OOV) volledig kunnen aansluiten op IMGeo.
-
-Het resultaat van IMGeo 2.2 is een goed bruikbare registratie met grootschalige
-topografie voor Nederland en daarvoor moet de BGT\|IMGeo+ uniform zijn en passen
-bij de behoeften van gebruikers. Met IMGeo 2.2 wordt/worden
-
-1.  Landelijke gebruikers beter bediend met een uniforme(re) BGT door de
-    spelregels van de BGT beter uit te leggen aan bronhouder waardoor zij
-    eenvoudiger en beter BGT kunnen inwinnen en bijhouden. Deze verduidelijking
-    en uniformering draagt bij aan onder meer de automatische generalisatie van
-    BGT naar BRT.
-
-2.  Nutsbedrijven en veiligsheidssector beter bediend door meer volledige en
-    uniforme inhoud van de BGT, die aansluit bij de informatiebehoefte voor het
-    uitvoeren van wettelijk geregelde dienstverlening.
-
-3.  Het proces van beheer openbare ruimte bij waterschappen, provincies,
-    gemeenten en andere organisaties beter ondersteund door IMGeo te laten
-    aansluiten op de behoeften voor inhoud en afbakening vanuit die sectoren.
-
-4.  Een volledige aansluiting van IMBOR op IMGeo gerealiseerd wat bijdraagt aan
-    de standaardisatie van BOR, en het efficiënter bijhouden van de BGT
-    (‘opbouwen vanuit beheer’).
-
-5.  (Het proces rondom de bijhouding van bouwwerken vereenvoudigd wat bijdraagt
-    aan het efficiënter bijhouden en de actualiteit van de BGT.)
-
-Inhoud
-------
-
-In het wijzigingsvoorstel IMGeo 2.2 worden voorstellen gedaan die betrekking
-hebben op:
-
-1.  het opnemen van bestaande werkafspraken of verduidelijken van bestaande
-    spelregels in het model;
-
-2.  Het aanscherpen van afbakeningsregels met nieuwe criteria;
-
-3.  Het uitbreiden van het model met een aantal nieuwe subclassificaties;
-
-4.  Het hernoemen en schrappen van subclassificaties;
-
-5.  Het wijzigen van geometrietypen van een beperkt aantal subclassificaties;
-
-6.  Het verschuiven van objecten van inrichtende/vrijwillige naar
-    opdelende/verplichte inhoud.
-
-Impact
-------
-
-De impact van IMGeo 2.2 voor de verschillende categorieën wijzigingen is als
-volgt:
-
-Categorie 1 heeft geen impact. Bronhouder dient al conform deze spelregels te
-werken.
-
-Categorie 2 heeft als impact een inwinlast voor bronhouders. Verwacht is dat
-bronhouders opnieuw moeten inwinnen en/of de huidige populatie van objecten
-moeten nalopen.
-
-Categorie 3, 4, 5, 6 en 7 hebben een technische IT-impact bestaande uit:
-
--   Aanpassen van de BGT-software om
-
-1.  nieuwe subclassificaties te kunnen inlezen en aanmaken (categorie 3).
-
-2.  vervallen subclassificaties niet meer te ondersteunen (categorie 4).
-
-3.  de nieuwe geometrietypen voor bepaalde subclassificaties te kunnen inlezen
-    en aanmaken (categorie 5).
-
-4.  de nieuwe topologische regels voor de nieuwe opdelende/verplichte objecten
-    te ondersteunen (categorie 6).
-
--   Repareren van data om:
-
-1.  vervallen subclassificaties om te zetten naar nieuwe subclassificaties
-    (categorie 4).
-
-2.  geometrie voor bepaalde subclassificaties om te zetten naar nieuwe
-    geometrietype (categorie 5).
-
-3.  inrichtende objecten om te zetten naar opdelende objecten (categorie 6).
-
-### Opnemen bestaande werkafspraken en verduidelijken bestaande spelregels
-
-| [Opnemen definitie ‘maaiveld’](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#opnemen-definitie-maaiveld-)                                                  | [\#156](https://github.com/Geonovum/IMGeo2018/issues/156)                                                        |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                       |                                                                                                                  |
-| [Opnemen regels voor objecten buiten Nederland](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#opnemen-regels-voor-objecten-buiten-nederland)               | [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)                                                            |
-| [Opnemen regels voor plaatsing en draaiing van labels](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#opnemen-regels-voor-plaatsing-en-draaiing-van-labels) | [\#3](https://github.com/Geonovum/IMGeo2018/issues/3)                                                            |
-| [Opnemen regels voor panden boven water](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#opnemen-regels-voor-panden-boven-water)                             | [\#61](https://github.com/Geonovum/IMGeo2018/issues/61)                                                          |
-| [Verduidelijken regels voor gemaal, sluisdeur en stuw](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#verduidelijken-regels-voor-gemaal-sluisdeur-en-stuw)  | [\#37](https://github.com/Geonovum/IMGeo2018/issues/37) [\#72](https://github.com/Geonovum/IMGeo2018/issues/72)  |
-| [Opnemen afbakeningsregels voor tunneldeel en duiker](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#opnemen-afbakeningsregels-voor-tunneldeel-en-duiker)   | [\#62](https://github.com/Geonovum/IMGeo2018/issues/62)                                                          |
-
-Aanscherpen van afbakeningsregels
-
-| [Opnemen regels voor indeling van particuliere terreinen](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#opnemen-regels-voor-indeling-van-particuliere-terreinen)                                                       | [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)                                                                                                                   |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Aanpassen regels voor afbakenings oever/slootkant](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#aanpassen-regels-voor-afbakenings-oever-slootkant)                                                                   | [\#50](https://github.com/Geonovum/IMGeo2018/issues/50) [\#74](https://github.com/Geonovum/IMGeo2018/issues/74) [\#76](https://github.com/Geonovum/IMGeo2018/issues/76) |
-| [Opnemen regels voor onderscheid tussen naaldbos, loofbos en gemengd bos](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#opnemen-regels-voor-onderscheid-tussen-naaldbos-loofbos-en-gemengd-bos)                        | [\#161](https://github.com/Geonovum/IMGeo2018/issues/161)                                                                                                               |
-| [Opnemen regels voor onderscheid tussen viaduct en tunneldeel](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#opnemen-regels-voor-onderscheid-tussen-viaduct-en-tunneldeel)                                             | [\#12](https://github.com/Geonovum/IMGeo2018/issues/12)                                                                                                                 |
-| [Opnemen extra afbakeningsregels voor onderscheid tussen muur, kademuur, en keermuur](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#opnemen-extra-afbakeningsregels-voor-onderscheid-tussen-muur-kademuur-en-keermuur) | [\#14](https://github.com/Geonovum/IMGeo2018/issues/14) [\#30](https://github.com/Geonovum/IMGeo2018/issues/30) [\#69](https://github.com/Geonovum/IMGeo2018/issues/69) |
-| [Toevoegen regels voor remmingswerk en geleidewerk](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#toevoegen-regels-voor-remmingswerk-en-geleidewerk)                                                                   | [\#38](https://github.com/Geonovum/IMGeo2018/issues/38)                                                                                                                 |
-| [Opnemen regels voor minimale breedte luifel](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#opnemen-regels-voor-minimale-breedte-luifel)                                                                               | [\#197](https://github.com/Geonovum/IMGeo2018/issues/197)                                                                                                               |
-| [Aanpassen definitie ‘oever/slootkant’](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#aanpassen-definitie-oever-slootkant-)                                                                                            | [\#76](https://github.com/Geonovum/IMGeo2018/issues/76)                                                                                                                 |
-| [Aanpassen definities duiker en brug](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#aanpassen-definities-duiker-en-brug)                                                                                               | [\#176](https://github.com/Geonovum/IMGeo2018/issues/176)                                                                                                               |
-| [Aanpassen definitie opslagtank](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#aanpassen-definitie-opslagtank-)                                                                                                        | [\#190](https://github.com/Geonovum/IMGeo2018/issues/190)                                                                                                               |
-
-Impact
-------
-
-De voorstellen
+Samenvatting
+============
 
 Voorstellen
 -----------
@@ -185,7 +61,7 @@ wijzigingsvoorstel, en de gerelateerde issue(s).
 | **Hernoemen of schrappen van domeinwaarden, wijzigen geometrietypen**                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [Hernoemen ‘boomschors’ naar ‘boomschors / houtsnippers’](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#hernoemen-boomschors-naar-boomschors-houtsnippers-)                                                                                                                                                                       | [\#70](https://github.com/Geonovum/IMGeo2018/issues/70)                                                                                                                                                                                                                                                                                                                                                         |
 | [Hernoemen ‘zand’ naar ‘zandvlakte’](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#hernoemen-zand-naar-zandvlakte-)                                                                                                                                                                                                               | [\#113](https://github.com/Geonovum/IMGeo2018/issues/113)                                                                                                                                                                                                                                                                                                                                                       |
-| [Hernoemen ‘puin’ naar ‘steenbestorting’](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#hernoemen-puin-naar-steenbestorting)                                                                                                                                                                                                      | [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)                                                                                                                                                                                                                                                                                                                                                      |
+| [Hernoemen ‘puin’ naar ‘steenbestorting’ ](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#hernoemen-puin-naar-steenbestorting)                                                                                                                                                                                                     | [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)                                                                                                                                                                                                                                                                                                                                                      |
 | [Hernoemen ‘sluis’ naar ‘sluisdeur’ bij Kunstwerkdeel, wijzigen geometrietype naar ‘Lijn of Vlak’.](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#hernoemen-sluis-naar-sluisdeur-bij-kunstwerkdeel-wijzigen-geometrietype-naar-lijn-of-vlak-)                                                                                     | [\#72](https://github.com/Geonovum/IMGeo2018/issues/72)                                                                                                                                                                                                                                                                                                                                                         |
 | [Hernoemen ‘bushalte’ naar ‘halteplaats’ bij FunctioneelGebied](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#hernoemen-bushalte-naar-halteplaats-bij-functioneelgebied)                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [Hernoemen ‘praatpaal’ naar ‘meldpaal’ bij Paal](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#hernoemen-praatpaal-naar-meldpaal-bij-paal)                                                                                                                                                                                        | [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)                                                                                                                                                                                                                                                                                                                                                      |
@@ -277,7 +153,7 @@ basisregistraties.
 | **Hernoemen of schrappen van domeinwaarden**                                                                                                                                                                                                                                                            |                    |               |          |               |           |                   |
 | [Hernoemen ‘boomschors’ naar ‘houtsnippers’](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#hernoemen-boomschors-naar-houtsnippers-)                                                                                                                                                          | hoog               | IMGeo+        | ja       | ja            | nee       | nee               |
 | [Hernoemen ‘zand’ naar ‘zandvlakte’](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#hernoemen-zand-naar-zandvlakte-)                                                                                                                                                                          | hoog               | BGT           | ja       | ja            | nee       | nee               |
-| [Hernoemen ‘puin’ naar ‘steenbestorting’](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#hernoemen-puin-naar-steenbestorting)                                                                                                                                                                 | hoog               | IMGeo+        | ja       | ja            | nee       | nee               |
+| [Hernoemen ‘puin’ naar ‘steenbestorting’ ](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#hernoemen-puin-naar-steenbestorting)                                                                                                                                                                | hoog               | IMGeo+        | ja       | ja            | nee       | nee               |
 | [Hernoemen ‘sluis’ naar ‘sluisdeur’ bij Kunstwerkdeel](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#hernoemen-sluis-naar-sluisdeur-bij-kunstwerkdeel)                                                                                                                                       | hoog               | BGT           | ja       | ja            | nee       | nee               |
 | [Hernoemen ‘bushalte’ naar ‘halteplaats’ bij FunctioneelGebied](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#hernoemen-bushalte-naar-halteplaats-bij-functioneelgebied)                                                                                                                     | hoog               | IMGeo+        | ja       | ja            | nee       | nee               |
 | [Hernoemen ‘praatpaal’ naar ‘meldpaal’ bij Paal](https://geonovum.github.io/IMGeo2018/wijzigingsvoorstel/#hernoemen-praatpaal-naar-meldpaal-bij-paal)                                                                                                                                                   | hoog               | IMGeo+        | ja       | ja            | nee       | nee               |
