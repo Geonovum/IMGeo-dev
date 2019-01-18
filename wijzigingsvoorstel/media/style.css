@@ -43,10 +43,17 @@ table, td, th {
   cell-padding: 0px;
   cell-spacing: 0px;
   border-color: #eee; 
+  border: 1px solid !important;
 }
 
+th:first-child {
+	font-style: italic;
+	font-size: 0.7em!important;
+}
+
+
 thead {
-   border-color: #eee;
+  border-color: #eee;
   background-color: #ccc;
 }
 
