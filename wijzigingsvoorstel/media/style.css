@@ -43,8 +43,10 @@ table, td, th {
   cell-padding: 0px !important;
   cell-spacing: 0px !important;
   border-color: #eee !important; 
-  /*border: 1px solid !important;*/
+  /*border-bottom: 1px solid !important;*/
 }
+
+
 
 th:first-child {
 	font-style: italic;
@@ -66,6 +68,7 @@ td {
 	vertical-align: top;
 	font-size: 0.9em !important;
 	font-style: normal;
+	border-bottom:1pt solid black;
 }
 
 td:first-child {
