@@ -23,10 +23,11 @@ definitie hierop aangepast.
 |                                                                           | fietsenkluis      | Een fietskluis is een kluis om een fiets in te bewaren, meestal ter voorkoming van diefstal of beschadiging.                                                                                        | fietsparkeervoorziening     | Een duurzaam verankerde voorziening in de openbare ruimte voor het parkeren en stallen van fietsen.                                                            | [\#194](https://github.com/Geonovum/IMGeo2018/issues/194) |
 | Waterinrichtingselement: typePlus                                         | meerpaal          | Paal voor een kade of in een haven waaraan een schip kan worden afgemeerd.                                                                                                                          | meerpaal**/-stoel**         | Paal **of samenstel van palen** voor een kade of in een haven waaraan een schip kan worden afgemeerd.                                                          | [\#39](https://github.com/Geonovum/IMGeo2018/issues/39)   |
 
-Toelichting:
+**Toelichting:**
 
-De overige classificaties zijn een uitbreiding voor de aansluiting van IMBOR op
-IMGeo.
+Het hernoemen van domeinwaarden wordt gedaan om beter te kunnen aansluiten bij
+de behoeften voor opname en afbakening voor o.a. beheer openbare ruimte, alsook
+voor de goede aansluiting van IMBOR op IMGeo.
 
 Herindelen domeinwaarden
 ------------------------
@@ -34,30 +35,24 @@ Herindelen domeinwaarden
 De volgende domeinwaarden worden aan heringedeeld naar een ander objecttype
 en/of attribuut.
 
-| IMGeo 2.1.1 (WAS): Objecttype | Codelijst | Bgt               | Plus        | IMGeo 2.2 (WORDT): Objecttype | codelijst       | Bgt              | Plus              | Github-issue                                               |
-|-------------------------------|-----------|-------------------|-------------|-------------------------------|-----------------|------------------|-------------------|------------------------------------------------------------|
-| Wegdeel                       | functie   | voetgangersgebied | \-          | FunctioneelGebied             | functie         | niet-bgt         | voetgangersgebied | [\#167](https://github.com/Geonovum/IMGeo2018/issues/167)  |
-| Wegdeel                       | functie   | woonerf           | \-          | FunctioneelGebied             | functie         | niet-bgt         | woonerf           | [\#167](https://github.com/Geonovum/IMGeo2018/issues/167)  |
-| Weginrichtingselement         | type      | niet-bgt          | boomspiegel | BegroeidTerreindeel           | fysiekVoorkomen | groenvoorizening | boomspiegel       | [\#198](https://github.com/Geonovum/IMGeo2018/issues/198)  |
-| Kunstwerkdeel                 | type      | vispassage        | \-          | Kunstwerkdeel                 | type            | faunavoorziening | vispassage        | [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194) |
+| IMGeo 2.1.1 (WAS): Objecttype   | Bgt                   | Plus            | IMGeo 2.2 (WORDT): Objecttype        | codelijst       | Bgt              | Plus                  | Github-issue                                               |
+|---------------------------------|-----------------------|-----------------|--------------------------------------|-----------------|------------------|-----------------------|------------------------------------------------------------|
+| Wegdeel: functie                | **voetgangersgebied** | \-              | FunctioneelGebied: type              | functie         | niet-bgt         | **voetgangersgebied** | [\#167](https://github.com/Geonovum/IMGeo2018/issues/167)  |
+| Wegdeel:functie                 | **woonerf**           | \-              | FunctioneelGebied: type              | functie         | niet-bgt         | **woonerf**           | [\#167](https://github.com/Geonovum/IMGeo2018/issues/167)  |
+| Weginrichtingselement: typePlus | niet-bgt              | **boomspiegel** | BegroeidTerreindeel: fysiekVoorkomen | fysiekVoorkomen | groenvoorizening | **boomspiegel**       | [\#198](https://github.com/Geonovum/IMGeo2018/issues/198)  |
+| Kunstwerkdeel: type             | **vispassage**        | \-              | Kunstwerkdeel: type                  | type            | faunavoorziening | **vispassage**        | [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194) |
 
 *Toelichting:*
 
-Voetgangersgebied en woonerf: De functies "voetgangersgebied" en "woonerf" zijn
-niet duidelijk gedefinieerd. Zo zijn er voetgangersgebieden, waar soms ook
-vrachtwagens rijden om de winkels te bevoorraden en is er wel een duidelijke
-rijbaan aangelegd. Met borden wordt dan een voetgangerszone aangeduid. Dat geldt
-ook voor woonerven. De begrenzing is nogal afhankelijk van de plaatsing van de
-borden en van verkeersbesluiten. 
+-   De functies "*voetgangersgebied*" en "*woonerf*" verplaatst van functie van
+    Wegdeel naar plus-type van FunctioneelGebied. "voetgangersgebied" en
+    "woonerf" zijn zoneringen en horen om die reden bij FunctioneelGebied thuis.
 
-Boomspiegel: Uit de eerste ronde van de formele consultatie komt het verzoek om
-‘boomspiegel’ opdelend te maken, maar niet verplicht. Tevens wordt opgemerkt bij
-het voorstel voor Schrappen inwinregel voor plantvakken kleiner dan 5m2 dat veel
-kleine plantvakken nu als boomspiegel zijn opgenomen, als gevolg van deze
-afbakeningsregel nu zijn opgenomen als boomspiegel. Voorstel tracht IMGeo
-consistent te maken. Ca. 12% van de ca. 60.000 boomspiegels in de LV zijn nu
-opgenomen met punt-geometrie. Deze moeten (handmatig) omgezet worden naar
-vlakgeometrie.
+-   Het plus-type ‘boomspiegel’ wordt verplaatst van Weginrichtingselement naar
+    plus-fysiekvoorkomen van een ‘groenvoorziening’ bij BegroeidTerreindeel.
+    Hiermee wordt tegemoet gekomen aan de wens vanuit beheer openbare ruimte dat
+    een boomspiegel in de opdelende lag kan worden opgenomen zonder dat er een
+    verplichting geldt om alle boomspiegels te moeten opnemen.
 
 Schrappen van domeinwaarden
 ---------------------------
@@ -89,9 +84,10 @@ van de domeinwaarde of de definitie van de domeinwaarde.
 
 *Toelichting:*
 
-Een stuw, duiker en gemaal bestaan veelal uit verschillende delen en de behoefte
-is om die reden het object als multivlak op te kunnen nemen, naast
-lijngeometrie. Een multivlak mag ook één vlak bevatten. Alle delen van het
-kunstwerk gevat in één multivlak hebben dezelfde relatieve hoogte. Met deze
-aanpassing sluit de BGT beter aan op de afbakeningsregels van de waterwereld
-(IMWA).
+-   Een sluisdeur is in bepaalde gevallen niet veel breder dan 30 cm en dient in
+    deze gevallen te worden afgebakend met lijngeometrie (Zie hoofdstuk 10 van
+    BGT catalogus over afbakeningsregels voor Kunstwerkdeel).
+
+-   Een stuw, duiker en gemaal bestaan veelal uit verschillende delen en met
+    deze herindeling van geometrietypen wordt tegemoet gekomen aan de wens
+    vanuit beheer openbare ruimte om alle delen in één object te kunnen opnemen.
