@@ -38,7 +38,7 @@ en/of attribuut.
 | IMGeo 2.1.1 (WAS): Objecttype   | Bgt                   | Plus            | IMGeo 2.2 (WORDT): Objecttype        | codelijst       | Bgt              | Plus                  | Github-issue(s)                                            |
 |---------------------------------|-----------------------|-----------------|--------------------------------------|-----------------|------------------|-----------------------|------------------------------------------------------------|
 | Wegdeel: functie                | **voetgangersgebied** | \-              | FunctioneelGebied: type              | functie         | niet-bgt         | **voetgangersgebied** | [\#167](https://github.com/Geonovum/IMGeo2018/issues/167)  |
-| Wegdeel:functie                 | **woonerf**           | \-              | FunctioneelGebied: type              | functie         | niet-bgt         | **woonerf**           | [\#167](https://github.com/Geonovum/IMGeo2018/issues/167)  |
+| Wegdeel: functie                | **woonerf**           | \-              | FunctioneelGebied: type              | functie         | niet-bgt         | **woonerf**           | [\#167](https://github.com/Geonovum/IMGeo2018/issues/167)  |
 | Weginrichtingselement: typePlus | niet-bgt              | **boomspiegel** | BegroeidTerreindeel: fysiekVoorkomen | fysiekVoorkomen | groenvoorizening | **boomspiegel**       | [\#198](https://github.com/Geonovum/IMGeo2018/issues/198)  |
 | Kunstwerkdeel: type             | **vispassage**        | \-              | Kunstwerkdeel: type                  | type            | faunavoorziening | **vispassage**        | [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194) |
 
