@@ -44,15 +44,19 @@ en/of attribuut.
 
 *Toelichting:*
 
--   De functies "*voetgangersgebied*" en "*woonerf*" verplaatst van functie van
+-   De functies ‘*voetgangersgebied’* en ‘*woonerf’* verplaatst van functie van
     Wegdeel naar plus-type van FunctioneelGebied. "voetgangersgebied" en
     "woonerf" zijn zoneringen en horen om die reden bij FunctioneelGebied thuis.
 
--   Het plus-type ‘boomspiegel’ wordt verplaatst van Weginrichtingselement naar
-    plus-fysiekvoorkomen van een ‘groenvoorziening’ bij BegroeidTerreindeel.
-    Hiermee wordt tegemoet gekomen aan de wens vanuit beheer openbare ruimte dat
-    een boomspiegel in de opdelende lag kan worden opgenomen zonder dat er een
-    verplichting geldt om alle boomspiegels te moeten opnemen.
+-   Het plus-type ‘*boomspiegel*’ wordt verplaatst van Weginrichtingselement
+    naar plus-fysiekvoorkomen van een ‘groenvoorziening’ bij
+    BegroeidTerreindeel. Hiermee wordt tegemoet gekomen aan de wens vanuit
+    beheer openbare ruimte dat een boomspiegel in de opdelende lag kan worden
+    opgenomen zonder dat er een verplichting geldt om alle boomspiegels te
+    moeten opnemen.
+
+-   Het type ‘*vispassage*’ is een verbijzondering van een faunavoorziening en
+    wordt om die reden verplaatst naar plus-type van Kunstwerkdeel.
 
 Schrappen van domeinwaarden
 ---------------------------
