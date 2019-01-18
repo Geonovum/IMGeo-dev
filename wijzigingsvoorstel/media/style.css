@@ -50,8 +50,12 @@ thead {
   background-color: #ccc;
 }
 
-#nieuwe-subclassificatie table {
+#nieuwe-subclassificaties table {
 	
-	font-size: 0.8em;
+	font-size: 0.7em;
+
+}
+
+#nieuwe-subclassificaties td {
 	vertical-align: top;
 }
