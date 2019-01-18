@@ -52,7 +52,7 @@ thead {
 
 #nieuwe-subclassificaties table {
 	font-size: 0.7em;
-	font-style: none;
+	font-style: normal;
 }
 
 #nieuwe-subclassificaties td {
@@ -60,9 +60,22 @@ thead {
 }
 
 #nieuwe-subclassificaties td:first-child {
-	font-weight: bold;
+	font-style: italic;
+	font-size: 0.8em;
 }
 
 #nieuwe-subclassificaties td:nth-child(2) {
-    font-style: italic;
+    font-weight: bold;	
+}	
+
+#nieuwe-subclassificaties td:nth-child(3) {
+    	font-style: normal;
+}	
+
+#nieuwe-subclassificaties td:nth-child(4) {
+    	font-style: normal;	
+}	
+
+#nieuwe-subclassificaties td:nth-child(5) {
+    	font-style: normal;
 }	
