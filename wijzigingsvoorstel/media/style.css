@@ -50,66 +50,19 @@ thead {
   background-color: #ccc;
 }
 
-#nieuwe-subclassificaties table {
-	font-size: 0.7em;
+table {
+	font-size: 0.7em !important;
 	font-style: normal;
 }
 
-#nieuwe-subclassificaties td {
+td {
 	vertical-align: top;
-}
-
-#nieuwe-subclassificaties td:first-child {
-	font-style: italic;
-	font-size: 0.8em;
-}
-
-#nieuwe-subclassificaties td:nth-child(2) {
-    font-weight: bold;	
-}	
-
-#nieuwe-subclassificaties td:nth-child(3) {
-    	font-style: normal;
-}	
-
-#nieuwe-subclassificaties td:nth-child(4) {
-    	font-style: normal;	
-}	
-
-#nieuwe-subclassificaties td:nth-child(5) {
-    	font-style: normal;
-}	
-
-
-
-
-#hernoemen-domeinwaarden table {
-	font-size: 0.7em;
+	font-size: 0.7em !important;
 	font-style: normal;
 }
 
-#hernoemen-domeinwaarden td {
-	vertical-align: top;
-}
-
-#hernoemen-domeinwaarden td:first-child {
+td:first-child {
 	font-style: italic;
-	font-size: 0.8em;
-}
-
-#hernoemen-domeinwaarden td:nth-child(2) {
-    font-weight: bold;	
-}	
-
-#hernoemen-domeinwaarden td:nth-child(3) {
-    	font-style: normal;
-}	
-
-#hernoemen-domeinwaarden td:nth-child(4) {
-    	font-style: normal;	
-}	
-
-#hernoemen-domeinwaarden td:nth-child(5) {
-    	font-style: normal;
+	font-size: 0.6em!important;
 }
 
