@@ -4,8 +4,169 @@ Aanscherpen afbakeningsregels met extra criteria
 De volgende voorstellen betreffen het aanscherpen van afbakeningsregels met
 extra criteria.
 
-Aanpassen regels voor afbakenings oever/slootkant
--------------------------------------------------
+|                                                                                          | **IMGeo 2.1.1 (WAS)**                                                                                                                                                                                                                                                                                                                                                                     | **IMGeo 2.2 (WORDT)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | **Github-issue**                                                                                                                                                           |
+|------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| OndersteunendWegdeel: **berm**                                                           | \-                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                            |
+| BegroeidTerreindeel: **naaldbos**, **loofbos** en **gemengd bos**                        | \-                                                                                                                                                                                                                                                                                                                                                                                        | Om een terreindeel als loofbos af te bakenen dient het minimimum percentage loofboom groter dan of gelijk aan 90% te zijn. Om een terreindeel als naaldbos af te bakenen dient het minimum percentage naaldboom groter dan of gelijk aan 90 % te zijn. Om een terreindeel als gemengd bos af te bakenen dient het maximum percentage naaldboom of het maximum percentage loofboom kleiner dan 90% te zijn. Bij deze percentages worden het eventueel aanwezige onderhout en smalle stroken loof- en of naaldbos gelegen naast of als uitloper van het bos buiten beschouwing gelaten. | [\#161](https://github.com/Geonovum/IMGeo2018/issues/161)                                                                                                                  |
+| OndersteunendWaterdeel: **oever/slootkant**                                              | Als de **horizontale afstand** tussen waterlijn en de bovenkant van een herkenbare **insteek 1m** of meer bedraagt dan ontstaat in de BGT een ondersteunend waterdeel van het type oever/slootkant.                                                                                                                                                                                       | Als tussen waterlijn en de bovenkant van een herkenbare insteek **de verticale afstand** (ofwel: hoogte oever) **minimaal 50 centimeter** is, **de steilheid (H/Br) 1:4 of meer** bedraagt, en de **horizontale afstand** (ofwel: breedte oever) **60 centimeter of meer** bedraagt, dan ontstaat in de BGT een ondersteunend waterdeel van het type oever/slootkant.                                                                                                                                                                                                                 | [\#50](https://github.com/Geonovum/IMGeo2018/issues/50), [\#74](https://github.com/Geonovum/IMGeo2018/issues/74), [\#76](https://github.com/Geonovum/IMGeo2018/issues/76)  |
+| Overbruggingsdeel: onderscheid viaduct en tunnel                                         | \-                                                                                                                                                                                                                                                                                                                                                                                        | Er is sprake van een overbrugging wanneer een van de onderdelen bestaat uit een los dek dat op een bak en/of pijlers rust.                                                                                                                                                                                                                                                                                                                                                                                                                                                            | [\#12](https://github.com/Geonovum/IMGeo2018/issues/12)                                                                                                                    |
+|                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                           | Dit in tegenstelling tot een tunnel, die uit een overwegend gesloten kokerconstructie met een in- en uitgang bestaat.”                                                                                                                                                                                                                                                                                                                                                                                                                                                                |                                                                                                                                                                            |
+| Tunneldeel: onderscheid viaduct en tunnel                                                | \-                                                                                                                                                                                                                                                                                                                                                                                        | Er is sprake van een tunnel wanneer deze bestaat uit een overwegend gesloten kokerconstructie met een in- en een uitgang.                                                                                                                                                                                                                                                                                                                                                                                                                                                             | [\#12](https://github.com/Geonovum/IMGeo2018/issues/12)                                                                                                                    |
+|                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                           | Bij overbruggingsdelen zoals bijvoorbeeld een viaduct is er altijd sprake van een los dek dat op een bak en/of pijlers rust.”                                                                                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                            |
+| Tunneldeel: relatieve hoogte                                                             | \-                                                                                                                                                                                                                                                                                                                                                                                        | 10.10.3 Relatieve hoogte                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                                                                                                                                                                            |
+| Kunstwerkdeel: relatieve hoogte duiker                                                   | \-                                                                                                                                                                                                                                                                                                                                                                                        | 9.9 Kunstwerkdeel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                            |
+| Scheiding: damwand                                                                       | \-                                                                                                                                                                                                                                                                                                                                                                                        | Indien een deksloof aanwezig op de damwand, wordt deze meegenomen in de afbakening van damwand, en niet afzonderlijk afgebakend.                                                                                                                                                                                                                                                                                                                                                                                                                                                      | [\#14](https://github.com/Geonovum/IMGeo2018/issues/14), [\#30](https://github.com/Geonovum/IMGeo2018/issues/30), [\#69](https://github.com/Geonovum/IMGeo2018/issues/69)  |
+| Waterinrichtingselement: geleidewerk, remmingswerk                                       | Van remmingswerk, geleidewerk en vuilvang wordt de lijngeometrie opgenomen.                                                                                                                                                                                                                                                                                                               | Van remmingswerk, geleidewerk en vuilvang wordt de lijngeometrie opgenomen **waarbij voor remmingswerk en geleidewerk geldt dat deze worden ingewonnen aan die zijde waar de scheepvaart langs vaart**.                                                                                                                                                                                                                                                                                                                                                                               | [\#38](https://github.com/Geonovum/IMGeo2018/issues/38)                                                                                                                    |
+| Gebouwinstallatie: luifel                                                                | Uitstulpingen in gevels van panden zijn alleen BGT inhoud als ze groter zijn dan 30 cm. Kleinere uitstulpingen, kunnen, indien ze aan de definitie van het objecttype Gebouwinstallatie voldoen, in IMGeo worden opgenomen. Gebouwinstallaties zijn aan het pand verbonden toegangstrappen, luifels en bordessen. Overige uitstulpingen kleiner dan 30 cm worden niet in IMGeo opgenomen. | Gebouwinstallaties zijn aan het pand verbonden toegangstrappen, luifels en bordessen. Luifels worden opgenomen indien ze breder zijn dan 1 m vanaf de gevel.                                                                                                                                                                                                                                                                                                                                                                                                                          | [\#197](https://github.com/Geonovum/IMGeo2018/issues/197)                                                                                                                  |
+| Scheiding en OverigeScheiding: **hek** en **muur**                                       | BGT catalogus                                                                                                                                                                                                                                                                                                                                                                             | BGT catalogus:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | [\#198](https://github.com/Geonovum/IMGeo2018/issues/198)                                                                                                                  |
+| Wegdeel, BegroeidTerreindeel, OnbegroeidTerreindeel: uitsparingen stedelijk groen \< 5m2 | *BGT catalogus:*                                                                                                                                                                                                                                                                                                                                                                          | *geen; regels worden geschrapt*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | [\#28](https://github.com/Geonovum/IMGeo2018/issues/28)                                                                                                                    |
+
+>   **Tunneldelen hebben altijd een relatieve hoogte lager dan 0.**
+
+>   In tunneldelen ligt of liggen altijd één of meer wegdelen. Deze wegdelen
+>   bezitten dezelfde aanduiding voor relatieve hoogte als het tunneldeel waarin
+>   zij liggen.
+
+>   **Duikers hebben altijd een relatieve hoogte lager dan 0.**
+
+>   IMGeo voegt enkele optionele kunstwerken toe. Dit zijn allemaal
+>   vlakobjecten.
+
+>   “Scheidingen worden als lijnobject vastgelegd als de breedte kleiner is dan
+>   30cm. Bij scheidingen breder dan 30cm moet de buitenomtrek waar het object
+>   de grond raakt worden ingewonnen en vastgelegd als vlakgeometrie. Een
+>   scheiding wordt vastgelegd waar het object de ondergrond raakt. In de
+>   scheidingen worden onderbrekingen van \< 1m genegeerd. Doorgangen worden
+>   gezien als integraal onderdeel van de scheiding. Scheidingen van het **type
+>   hek** die **een minimale lengte van 10m en een minimale hoogte van 1m**
+>   hebben, worden vastgelegd. Scheidingen van de typen kademuur en
+>   walbescherming worden opgenomen aan de bovenzijde aan de waterkant.
+>   Kademuren breder dan 30cm worden ingewonnen als vlakobject; de omtrek van
+>   het object aan de bovenzijde wordt dan vastgelegd. Scheidingen van het type
+>   **muur, met een minimale lengte van 1m en met een minimale breedte van
+>   30cm** worden opgenomen. Een muur smaller dan 30cm wordt als lijnobject
+>   vastgelegd, een bredere muur als vlakobject. **Muren met een minimale hoogte
+>   van 50cm worden vastgelegd.** In terreinen met een fysiek voorkomen ‘erf’
+>   worden alleen die scheidingen opgenomen die direct aan de straatzijde zijn
+>   gelegen.”
+
+IMGeo catalogus:
+
+>   “In de BGT worden **scheidingen** alleen vastgelegd als ze bepaalde minimum
+>   afmetingen hebben, die per type scheiding verschillen (zie deel I). In IMGeo
+>   kunnen scheidingen, die kleiner dan het BGT minimum zijn, worden opgenomen
+>   als objecttype ‘overige scheiding’. **Deze kent dezelfde typen scheiding**.”
+
+>   “Scheidingen worden als lijnobject vastgelegd als de breedte kleiner is dan
+>   30cm**.** Bij scheidingen breder dan 30cm moet de buitenomtrek waar het
+>   object de grond raakt worden ingewonnen en vastgelegd als vlakgeometrie.
+
+>   Een scheiding wordt vastgelegd waar het object de ondergrond raakt. In de
+>   scheidingen worden onderbrekingen van \<1m genegeerd. Doorgangen worden
+>   gezien als integraal onderdeel van de scheiding.
+
+>   Scheidingen van het type **hek die een minimale hoogte van 1m hebben**,
+>   worden vastgelegd.
+
+>   Scheidingen van de typen kademuur en walbescherming worden opgenomen aan de
+>   bovenzijde aan de waterkant. Kademuren die als vlakobject worden ingewonnen
+>   wordt de omtrek van het object aan de bovenzijde vastgelegd.
+
+>   **Muren met een minimale hoogte van 50cm worden vastgelegd.**
+
+>   In terreinen met een fysiek voorkomen ‘erf’ worden alleen die scheidingen
+>   opgenomen die direct aan de straatzijde zijn gelegen.
+
+IMGeo catalogus:
+
+>   In de BGT worden **scheidingen van het type hek en muur** alleen vastgelegd
+>   als ze bepaalde minimum afmeting hebben, die per type scheiding verschillen
+>   (zie deel I). In IMGeo kunnen scheidingen van het type hek en muur, die
+>   kleiner dan het BGT minimum zijn, worden opgenomen als objecttype ‘overige
+>   scheiding’. **De populatie van Overige Scheiding bestaat uit: · Scheidingen
+>   van type hek en muur die niet voldoen aan de BGT minimummaat; · scheidingen
+>   in terrein met fysiek voorkomen ‘erf’ die niet aan de straatzijde gelegen
+>   zijn.**
+
+>   “Uitsparingen in wegdelen, meestal van het type voetpad, voor stedelijk
+>   groen worden niet afzonderlijk geregistreerd indien \<5 m2 . Het wegdeel
+>   wordt daarbij geacht door te lopen.”
+
+*IMGeo catalogus:*
+
+>   “In de BGT worden uitsparingen in wegdelen voor stedelijk groen niet apart
+>   ingewonnen indien \< 5 m2. In IMGeo kunnen deze worden opgenomen als
+>   ‘begroeid terreindeel groenvoorziening’.”
+
+Toelichting:
+
+-   *Berm:*
+
+*Naaldbos, loofbos, gemengd bos:* De percentages zijn gebaseerd op de
+afbakeningscriteria voor bos in de Basisregistratie Topografie (BRT). Met deze
+wijziging sluiten BGT en BRT beter op elkaar aan wat bijdraagt aan de
+geautomatiseerde generalisatie van BRT uit BGT.
+
+*Oever/slootkant:*
+
+Met deze nieuwe afbakeningsregels sluit de BGT beter aan op de behoeften voor
+beheer openbare ruimte van waterschappen. De aanvullende eisen worden nader
+toegelicht in een technische afbeelding en een beslisboom.
+
+![](media/ffe5c6b57f74ee5722e7aed60a239a57.png)
+
+![](media/7da6ee08559a3d1e0ee4105182055a7e.png)
+
+*Tunneldeel/overbruggingsdeel*
+
+Scheiding en OverigeScheiding:
+
+Uit analyse van de BGT-gegevens lijkt dat bronhouders massaal de regels voor
+opname in de BGT catalogus en IMGeo catalogus niet opvolgen t.a.v de minimale
+afmetingen voor de lengte van type ‘hek’ en ‘muur’ voor Scheiding en
+OverigeScheiding. De minimale afmetingen voor lengte van hek en muur worden
+daarom geschrapt.
+
+Onderscheid tussen twee objecten Scheiding en OverigScheiding blijft wel nodig
+voor bijvoorbeeld het opnemen van draadraster en faunaraster en scheidingen
+tussen percelen. Om die reden kan OverigeScheiding als objecttype niet geschrapt
+worden.
+
+Het voorstel voor aanscherpen afbakeningsregels komt dan neer op dat:
+
+Een hek hoger dan 1 meter is een BGT Scheiding; een hek lager dan 1 meter is een
+IMGeo OverigeScheiding.
+
+Een muur hoger dan 50cm is een BGT Scheiding; een muur lager dan 50cm is een
+IMGeo OverigeScheiding
+
+Elke kademuur, damwand, geluidscherm, walbescherming wordt voor de BGT
+ingewonnen als Scheiding onafhankelijk van lengte, hoogte of breedte. Deze
+objecten kunnen dus niet voorkomen als OverigeScheiding o.b.v. bovenstaande
+criteria.
+
+Alleen muur en hek kunnen voorkomen als typen van OverigeScheiding als niet aan
+de minimale hoogte voor Scheiding wordt voldaan.
+
+Elke (overige) scheiding met breedte meer dan 30 cm heeft vlakgeometrie; elke
+(overige) scheiding met een breedte kleiner dan 30 cm heeft lijngeometrie.
+
+Een hek of muur tussen perceel en openbare ruimte wordt als BGT Scheiding
+opgenomen indien aan de minimale afmetingen wordt voldaan voor de hoogte, dus
+minimaal 1 meter hoog voor hek en minimaal 50 cm hoog voor muur.
+
+-   Scheidingen tussen percelen worden altijd als IMGeo OverigeScheiding
+    opgenomen.
+
+-   Onderscheid tussen twee objecten Scheiding en OverigScheiding blijft wel
+    nodig voor bijvoorbeeld het opnemen van draadraster en faunaraster en
+    scheidingen tussen percelen. Om die reden kan OverigeScheiding als
+    objecttype niet geschrapt worden.
+
+*Uitsparingen stedelijk groen:* Uit analyse van BGT-gegevens blijkt dat
+bronhouders massaal kleine plantvakken (=kleiner dan 5m2) als
+begroeidTerreindeel opnemen. Het vasthouden aan deze inwinregel voor kleine
+plantvakken lijkt dus niet zinvol.
 
 **Gerelateerde
 Github-issue(s)** [\#50](https://github.com/Geonovum/IMGeo2018/issues/50),

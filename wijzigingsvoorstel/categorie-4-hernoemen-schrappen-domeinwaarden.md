@@ -1,11 +1,12 @@
-Hernoemen, herindelen of schrappen van domeinwaarden en geometrietypen
-======================================================================
+Herindelen van subclassificaties en geometrietypen van objecten
+===============================================================
 
-De volgende voorstellen betreffen het hernoemen of schrappen van domeinwaarden
-in IMGeo, en/of wijzigen geometrietypen binnen de huidige structuur van IMGeo.
+De volgende voorstellen betreffen het hernoemen, herindelen of schrappen van
+domeinwaarden in IMGeo, en/of herindelen van geometrietypen binnen de huidige
+structuur van IMGeo.
 
-Hernoemen domeinwaarden
------------------------
+Hernoemen en samenvoegen van subclassificaties
+----------------------------------------------
 
 De volgende domeinwaarden worden hernoemd, en in sommige gevallen wordt de
 definitie hierop aangepast.
@@ -29,55 +30,88 @@ Het hernoemen van domeinwaarden wordt gedaan om beter te kunnen aansluiten bij
 de behoeften voor opname en afbakening voor o.a. beheer openbare ruimte, alsook
 voor de goede aansluiting van IMBOR op IMGeo.
 
-Herindelen domeinwaarden
-------------------------
+Verplaatsen van subclassificaties naar een ander object of attribuut.
+---------------------------------------------------------------------
 
-De volgende domeinwaarden worden aan heringedeeld naar een ander objecttype
-en/of attribuut.
+De volgende domeinwaarden worden heringedeeld naar een ander objecttype en/of
+attribuut.
 
-| IMGeo 2.1.1 (WAS): Objecttype   | Bgt                   | Plus            | IMGeo 2.2 (WORDT): Objecttype        | codelijst       | Bgt              | Plus                  | Github-issue(s)                                            |
-|---------------------------------|-----------------------|-----------------|--------------------------------------|-----------------|------------------|-----------------------|------------------------------------------------------------|
-| Wegdeel: functie                | **voetgangersgebied** | \-              | FunctioneelGebied: type              | functie         | niet-bgt         | **voetgangersgebied** | [\#167](https://github.com/Geonovum/IMGeo2018/issues/167)  |
-| Wegdeel: functie                | **woonerf**           | \-              | FunctioneelGebied: type              | functie         | niet-bgt         | **woonerf**           | [\#167](https://github.com/Geonovum/IMGeo2018/issues/167)  |
-| Weginrichtingselement: typePlus | niet-bgt              | **boomspiegel** | BegroeidTerreindeel: fysiekVoorkomen | fysiekVoorkomen | groenvoorizening | **boomspiegel**       | [\#198](https://github.com/Geonovum/IMGeo2018/issues/198)  |
-| Kunstwerkdeel: type             | **vispassage**        | \-              | Kunstwerkdeel: type                  | type            | faunavoorziening | **vispassage**        | [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194) |
+| IMGeo 2.1.1 (WAS): Objecttype   | bgt                   | plus                 | IMGeo 2.2 (WORDT): Objecttype        | bgt                  | plus                  | Github-issue(s)                                                                                                                                                               |
+|---------------------------------|-----------------------|----------------------|--------------------------------------|----------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Wegdeel: functie                | **voetgangersgebied** | \-                   | FunctioneelGebied: type              | niet-bgt             | **voetgangersgebied** | [\#167](https://github.com/Geonovum/IMGeo2018/issues/167)                                                                                                                     |
+| Wegdeel: functie                | **woonerf**           | \-                   | FunctioneelGebied: type              | niet-bgt             | **woonerf**           | [\#167](https://github.com/Geonovum/IMGeo2018/issues/167)                                                                                                                     |
+| Weginrichtingselement: typePlus | niet-bgt              | **boomspiegel**      | BegroeidTerreindeel: fysiekVoorkomen | groenvoorizening     | **boomspiegel**       | [\#198](https://github.com/Geonovum/IMGeo2018/issues/198)                                                                                                                     |
+| Kunstwerkdeel: type             | niet-bgt              | **keermuur**         | Kunstwerkdeel: type                  | **keermuur**         | **-**                 |                                                                                                                                                                               |
+| Kunstwerkdeel: type             | niet-bgt              | **faunavoorziening** | Kunstwerkdeel: type                  | **faunavoorziening** | **-**                 |                                                                                                                                                                               |
+| Kunstwerkdeel: type             | **vispassage**        | \-                   | Kunstwerkdeel: type                  | faunavoorziening     | **vispassage**        | [\#194](https://github.com/Geonovum/IMGeo2018/issues/#194)                                                                                                                    |
+| OverigBouwwerk: type            | niet-bgt              | **bunker**           | OverigBouwwerk: type                 | **bunker**           | **-**                 | [\#96](https://github.com/Geonovum/IMGeo2018/issues/96), [\#118](https://github.com/Geonovum/IMGeo2018/issues/118)                                                            |
+| GebouwInstallatie: type         | niet-bgt              | **bordes**           | GebouwInstallatie: type              | **bordes**           | **-**                 | [\#96](https://github.com/Geonovum/IMGeo2018/issues/96), [\#118](https://github.com/Geonovum/IMGeo2018/issues/118), [\#174](https://github.com/Geonovum/IMGeo2018/issues/174) |
+| Weginrichtingselement: type     | niet-bgt              | **wildrooster**      | Weginrichtingselement: type          | **wildrooster**      | **-**                 | [\#96](https://github.com/Geonovum/IMGeo2018/issues/96), [\#118](https://github.com/Geonovum/IMGeo2018/issues/118)                                                            |
+| Weginrichtingselement: type     | niet-bgt              | **rooster**          | Weginrichtingselement: type          | **rooster**          | **-**                 | [\#96](https://github.com/Geonovum/IMGeo2018/issues/96), [\#118](https://github.com/Geonovum/IMGeo2018/issues/118)                                                            |
+| OverigeScheiding                | niet-bgt              | **geluidscherm**     | Scheiding                            | **geluidscherm**     |                       |                                                                                                                                                                               |
+| OverigeScheiding                | niet-bgt              | **kademuur**         | Scheiding                            | **kademuur**         |                       |                                                                                                                                                                               |
+| OverigeScheiding                | niet-bgt              | **damwand**          | Scheiding                            | **damwand**          |                       |                                                                                                                                                                               |
+| OverigeScheiding                | niet-bgt              | **walbescherming**   | Scheiding                            | **walbescherming**   |                       |                                                                                                                                                                               |
 
 *Toelichting:*
 
 -   De functies ‘*voetgangersgebied’* en ‘*woonerf’* verplaatst van functie van
     Wegdeel naar plus-type van FunctioneelGebied. "voetgangersgebied" en
     "woonerf" zijn zoneringen en horen om die reden bij FunctioneelGebied thuis.
+    **Deze objecten verschuiven daarmee van de opdelende/verplichte laag naar de
+    inrichtende/vrijwillige laag**; het gat dat eventueel ontstaat moet opgevuld
+    worden met opdelende objecten.
 
 -   Het plus-type ‘*boomspiegel*’ wordt verplaatst van Weginrichtingselement
     naar plus-fysiekvoorkomen van een ‘groenvoorziening’ bij
     BegroeidTerreindeel. Hiermee wordt tegemoet gekomen aan de wens vanuit
-    beheer openbare ruimte dat een boomspiegel in de opdelende lag kan worden
+    beheer openbare ruimte dat een boomspiegel in de opdelende lag *kan* worden
     opgenomen zonder dat er een verplichting geldt om alle boomspiegels te
     moeten opnemen.
+
+-   De typen ‘bunker’, ‘keermuur’, ‘faunavoorziening’, ‘bordes’, ‘wildrooster’
+    en ‘rooster’ worden verplaatst van de codelijst voor bgt-type naar de
+    codelijst voor plus-type. **Deze vlakobjecten verschuiven daarmee van de
+    inrichtende/vrijwillige laag naar de opdelende/verplichte laag.** Als deze
+    objecten vlakgeometrie hebben, maken zij een gat in de onderliggende
+    wegdelen, terreindelen en/of waterdelen (wildrooster en rooster kunnen ook
+    met punt of lijn-geometrie worden afgebakend).
 
 -   Het type ‘*vispassage*’ is een verbijzondering van een faunavoorziening en
     wordt om die reden verplaatst naar plus-type van Kunstwerkdeel.
 
-Schrappen van domeinwaarden
----------------------------
+-   Uit de aangescherpte afbakeningsregels voor Scheiding en OverigeScheiding
+    volgt dat alleen ‘hek’ en ‘muur’ zinvolle waarden zijn voor
+    OverigeScheiding, immers redelijkerwijs zullen geluidscherm, kademuur,
+    damwand en geluidscherm niet als perceelscheiding voorkomen, en hiervoor
+    geldt geen hoogtecriterium, dus deze objecten zijn altijd een BGT Scheiding.
+
+Schrappen van subclassificaties
+-------------------------------
 
 De volgende domeinwaarde wordt geschrapt in IMGeo:
 
-| IMGeo 2.1.1 (WAS): Objecttype | Codelijst    | waarde     | definitie                                                           | Github-issue(s)                                       |
-|-------------------------------|--------------|------------|---------------------------------------------------------------------|-------------------------------------------------------|
-| Alle objecttypen              | *statusPlus* | *historie* | Situatie waarin het geregistreerde object fysiek niet meer bestaat. | [\#2](https://github.com/Geonovum/IMGeo2018/issues/2) |
+| IMGeo 2.1.1 (WAS): Objecttype | Codelijst    | waarde           | definitie                                                           | Github-issue(s)                                       |
+|-------------------------------|--------------|------------------|---------------------------------------------------------------------|-------------------------------------------------------|
+| Alle objecttypen              | *statusPlus* | *historie*       | Situatie waarin het geregistreerde object fysiek niet meer bestaat. | [\#2](https://github.com/Geonovum/IMGeo2018/issues/2) |
+| OverigeScheiding              | *typePlus*   | *geluidscherm*   |                                                                     |                                                       |
+| OverigeScheiding              | *typePlus*   | *kademuur*       |                                                                     |                                                       |
+| OverigeScheiding              | *typePlus*   | *damwand*        |                                                                     |                                                       |
+| OverigeScheiding              | *typePlus*   | *walbescherming* |                                                                     |                                                       |
 
-Toelichting:
+**Toelichting:**
 
 -   Een object in IMGeo (en BGT) vervalt door het vermelden van de
     object-eindtijd. Historie is daardoor een overbodige waarde. In de BGT keten
     wordt nu nergens status ‘historie’ toegepast bij objecten met een eindtijd.
 
-Herindelen geometrietypen
--------------------------
+Aanpassen geometrietypen binnen huidige structuur
+-------------------------------------------------
 
-De volgende geometrietypen worden gewijzigd n.a.v. een aanpassing van de naam
-van de domeinwaarde of de definitie van de domeinwaarde.
+De volgende geometrietypen worden aangepast binnen de huidige structuur van
+IMGeo, d.w.z. dat deze geometrietypen technisch al zijn toegestaan bij de
+objecttypen maar deze combinatie van geometrietype en domeinwaarde nu
+functioneel worden uitgesloten in de BGT\|IMGeo catalogi.
 
 | **Objecttype: codelijst** | **IMGeo 2.1.1 (WAS)** |                                                                                                                                                          |              | **IMGeo 2.2 (WORDT)** |                                                                                                                                                                                                                          |                       | Github-issue(s)                                                                                                  |
 |---------------------------|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|------------------------------------------------------------------------------------------------------------------|

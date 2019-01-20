@@ -1,8 +1,179 @@
-Bestaande werkafspraken en praktijk opnemen in het model
-========================================================
+Verduidelijken bestaande spelregels en opnemen werkafspraken in het model
+=========================================================================
 
-De volgende voorstellen betreffen het opnemen van bestaande werkafspraken en
+De volgende voorstellen betreffen het verduikelijken van het model met
+aanvullende tekst en voorbeelden, en het opnemen van bestaande werkafspraken en
 praktijk in het model.
+
+### Bestaande werkafspraken
+
+De volgende werkafspraken worden in het model opgenomen:
+
+| Onderwerp                                                 | Verduidelijking                                                                                                                                                                                                                                                                                                                                                                                                                                      | Github-issue                                                                                                                                                              |
+|-----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Toevoegen definitie ‘maaiveld’                            | In de ontwerpprincipes van de BGT catalogus wordt de volgende zinsnede opgenomen: *Maaiveld is het het oppervlak van de vaste aarde, daar waar de aarde niet bedekt is met water.*                                                                                                                                                                                                                                                                   | [\#156](https://github.com/Geonovum/IMGeo2018/issues/156)                                                                                                                 |
+|                                                           | *Het maaiveld vormt de grens tussen de ondergrond en de bovengrond. (bron: BRO).”*                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                           |
+| De indeling van particuliere terreinen                    | Aan de tekst in paragraaf 2.4 Dekking van de BGT catalogus: “De BGT wordt landsdekkend beheerd voor het grondgebied van Nederland binnen de gemeentegrenzen. Daartoe behoren ook industriële complexen, zoals Schiphol, de Hoogovens en Europoort.” wordt als verduidelijking toegevoegd: *Dit geldt voor alle particuliere terreinen waar deze informatie noodzakelijk is voor wettelijk geregelde dienstverlening door bronhouders en gebruikers”* | [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)                                                                                                                     |
+| Opnemen van objecten buiten Nederland                     | Aan de tekst in paragraaf 2.4 Dekking van de BGT catalogus: “De BGT wordt landsdekkend beheerd voor het grondgebied van Nederland binnen de gemeentegrenzen.” wordt toegevoegd:                                                                                                                                                                                                                                                                      | [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)                                                                                                                     |
+| Plaatsing en draaiing van labels                          | In hoofdstuk 5 van de BGT catalogus worden de volgende eisen en regels (vetgedrukt) nader toegelicht:                                                                                                                                                                                                                                                                                                                                                |                                                                                                                                                                           |
+| Regels voor panden boven water                            | Aan de tekst in paragraaf 10.7 Pand van de BGT catalogus wordt de volgende tekst toegevoegd: “Voor panden die in hun geheel boven water liggen, bijvoorbeeld een brugwachtershuis dat aan een brug hangt, geldt dat dit pand in de BGT voorkomt met een relatieve hoogte (rh) van één hoger dan het water waar het zich boven bevindt.”                                                                                                              | [\#61](https://github.com/Geonovum/IMGeo2018/issues/61)                                                                                                                   |
+| Afbakening van gemaal, sluis en stuw                      | De tekst in paragraaf 10.11.2.2Gemaal, sluis, stuw van de BGT catalogus:                                                                                                                                                                                                                                                                                                                                                                             | [\#37](https://github.com/Geonovum/IMGeo2018/issues/37), [\#72](https://github.com/Geonovum/IMGeo2018/issues/72)                                                          |
+| Onderscheid muur, keermuur, kademuur, strekdam en damwand | Het onderscheid tussen muur, keermuur, kademuur, strekdam en damwand wordt in paragraaf 10.12 van de BGT catalogus verduidelijkt met onderstaande beslisboom:                                                                                                                                                                                                                                                                                        | [\#14](https://github.com/Geonovum/IMGeo2018/issues/14), [\#30](https://github.com/Geonovum/IMGeo2018/issues/30), [\#69](https://github.com/Geonovum/IMGeo2018/issues/69) |
+| Relatieve hoogte van tunneldeel en duiker                 | In de regels voor relatieve hoogte voor tunneldeel in de BGT catalogus wordt de zinsnede toegevoegd:                                                                                                                                                                                                                                                                                                                                                 | [\#62](https://github.com/Geonovum/IMGeo2018/issues/62)                                                                                                                   |
+
+>   *“Ten behoeve van beheer door bronhouders kunnen objecten die deels buiten
+>   de landsgrens liggen in hun geheel worden opgenomen in de BGT. Wanneer
+>   daarbuiten meer informatie benodigd is, het gehele object ligt dus buiten
+>   Nederland, wordt deze informatie niet als BGT inhoud beschouwd, maar kunnen
+>   wel in IMGeo worden opgenomen.”*
+
+In de tekst in paragraaf 1.4 van de IMGeo catalogus wordt opgenomen:
+
+>   *“Objecten, die geheel buiten Nederland liggen én in beheer zijn bij
+>   bronhouder, kunnen worden opgenomen in IMGeo.”*
+
+>   “De visualisatie van een nummeraanduidingreeks vindt plaats door de
+>   coördinaten van het midden (centrum) van de tekst vast te leggen, alsmede de
+>   rotatie van de tekst ten opzichte van de normale tekstrichting. **De normale
+>   tekstrichting is van links naar rechts oftewel, in een kaartbeeld met de
+>   noordrichting aan de bovenzijde, van west naar oost. Voor huisnummers dient
+>   de rotatiehoek te worden vastgelegd, zodat het nummer haaks of eenwijdig aan
+>   de voorgevel mee kan worden gevisualiseerd, waarbij de kleinste rotatie
+>   wordt gekozen ten opzichte van de normale tekstrichting.** Het
+>   coördinatenpunt van de nummeraanduidingreeks wordt zo mogelijk circa 4 meter
+>   vanaf de voorgevel (‘straatzijde’) binnen het pand geplaatst. **Elke
+>   nummeraanduidingreeks van een Pand wordt eenmaal afgebeeld.”**
+
+>   “Tot deze typen kunstwerkdelen behoren die objecten die niet tot een ander
+>   BGT-objecttype behoren. Dit betekent in de regel dat bij een gemaal de
+>   bakken waar het water door wordt geleid tot dat object behoren. Een pand
+>   waarin de pompen staan, vormt als pand inhoud van de BGT.
+
+>   Bij een sluiscomplex behoren alleen de sluisdeuren tot BGT-inhoud en bij een
+>   stuw uitsluitend de klep of schuif.  
+>   Sluisdeuren worden in gesloten stand in het BGT-bestand opgenomen.”
+
+wordt vervangen door:
+
+>   “Bij een gemaal worden de eventueel aanwezige bakken waar het water door
+>   wordt geleid als gemaal opgenomen in de BGT. 
+
+>   De eventuele overige objecten zoals muren, kademuren, panden en
+>   overbruggingen vormen als zodanig inhoud van de BGT. Over al deze relevante
+>   BGT-objecten is het mogelijk om het, niet verplichte, IMGeo functioneel
+>   gebied gemaalcomplex op te nemen.  
+>   Nadere typeringen van gemaal wordt beschouwd als beheerinformatie en niet
+>   opgenomen in de BGT.
+
+>   Bij een sluis behoren alleen de sluisdeuren, in gesloten stand, tot
+>   BGT-inhoud.
+
+>   De eventuele overige objecten zoals muren, kademuren, panden en
+>   overbruggingen vormen als zodanig inhoud van de BGT. Over al deze relevante
+>   BGT-objecten is het mogelijk om het, niet verplichte, IMGeo functioneel
+>   gebied sluiscomplex op te nemen.  
+>   Nadere typeringen van sluis wordt beschouwd als beheerinformatie en niet
+>   opgenomen in de BGT.
+
+>   Bij een stuw behoort de klep of schuif waarover het water kan stromen tot
+>   BGT-inhoud, alsook de eventueel aanwezige bakken waar het water door wordt
+>   geleid. Eventuele overige objecten zoals muren, kademuren, panden en
+>   overbruggingen vormen als zodanig inhoud van de BGT. Over al deze relevante
+>   BGT-objecten is het mogelijk om het, niet verplichte, IMGeo functioneel
+>   gebied stuwcomplex op te nemen.  
+>   Nadere typeringen van stuw wordt beschouwd als beheerinformatie en niet
+>   opgenomen in de BGT.”
+
+![](media/8579806fb776a782ef3b4609d8463e79.png)
+
+>   “Tunneldelen hebben altijd een relatieve hoogte lager dan 0.”
+
+>   en in de regels voor relatieve hoogte voor duiker in de IMGeo catalogus:
+
+>   “Duikers hebben altijd een relatieve hoogte lager dan 0.”
+
+Toelichting:
+
+-   *Indeling van particuliere terreinen:* Met deze toevoeging is ook het
+    mogelijk om particuliere en bedrijventerreinen nader in te delen. Dit ten
+    behoeve van de inzet van hulpdiensten en de dienstverlening door
+    netbeheerders.
+
+-   *Opnemen van objecten buiten Nederland:* Met deze verduidelijking hoeven
+    bronhouders niet actief op de landgrens, en worden objecten die geheel
+    buiten Nederland liggen (‘eilandjes’) uitgesloten in de dekking van de BGT.
+    Dit is vergelijkbaar met het principe van bronhoudergrenzen: bronhouders
+    knippen niet actief op de gemeentegrens, maar op de grens waar
+    objectkenmerken veranderen. Vanuit beheer is er behoefte aan informatie over
+    objecten die geheel buiten Nederland liggen, denk aan puntobjecten in
+    vlakobjecten die over de grens heen gaan. Om die reden worden objecten die
+    geheel buiten Nederland en in beheer zijn bij bronhouder tot IMGeo-inhoud
+    gerekend.
+
+-   *Relatieve hoogte van tunneldeel en duiker:* In het objectenhandboek wordt
+    bij
+    [tunneldeel](http://imgeo.geostandaarden.nl/def/imgeo-object/tunneldeel/tunneldeel)
+    en
+    [duiker](http://imgeo.geostandaarden.nl/def/imgeo-object/kunstwerkdeel/duiker-niet-bgt)
+    toegelicht dat deze altijd onder maaiveld liggen en dus een relatieve hoogte
+    kleiner dan 0 hebben. In de huidige catalogus is dit nergens expliciet
+    vastgelegd.
+
+### Bestaande werkafspraken
+
+De volgende werkafspraken worden in het model opgenomen:
+
+| Rotatiehoek | De eisen en regels voor rotatiehoek in de werkafspraak Nummeraanduidingreeksen worden opgenomen in de regels van attribuutsoort hoek in H9 van de BGT catalogus: |
+|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+>   *Voor de rotatiehoek van een label van een BGT\|IMGeo object gelden de
+>   volgende eigenschappen en eisen:*
+
+>   *Eenheid : booggraad; één booggraad is een 360ste deel van een cirkelomtrek*
+
+>   *Oriëntering : met de klok mee (positief) t.o.v. normale tekstrichting
+>   (horizontaal = 0 graden; voor een kaart die noord georiënteerd is.)*
+
+>   *Decimale precisie : 1 (= 1 cijfer achter de komma, ofwel 1/10 booggraad)*
+
+>   *Bereik (min/max) : [-90, +90], waarbij [270,360] niet gelijk is aan
+>   [-90,0].*
+
+[\#3](https://github.com/Geonovum/IMGeo2018/issues/3)
+
+| Patroon nummeraanduidingreeks | De eisen en regels voor rotatiehoek in de werkafspraak Nummeraanduidingreeksen worden opgenomen in de tekst van paragraaf 5.2 van de BGT catalogus: | [\#3](https://github.com/Geonovum/IMGeo2018/issues/3) |   |   |   |   |   |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|---|---|---|---|---|
+
+
+>   *Voor de opmaak van een nummeraanduidingreeks dient zo veel mogelijk
+>   onderstaand patroon toegepast te worden.*
+
+>   *{huisnummer}{huisletter}/{huisnummertoevoeging}-{huisnummer}{huisletter}/{huisnummertoevoeging}*
+
+>   *waarin*
+
+>   *{huisnummer} een nummer van 1 tot 99999 (regex {0-9}[1-5]) {huisletter} een
+>   hoofdletter of kleine letter (regex {a-zA-Z}[0-1]) {huisnummertoevoeging} 0
+>   tot 4 alfanumeriek karakter (regex {0-9a-zA-Z}[0-4])*
+
+>   *en verder*
+
+>   *Geen scheidingsteken tussen huisnummer en huisletter, dus geen koppelteken
+>   (-) en geen spatie.*
+
+>   *Scheidingsteken tussen huisnummer+huisletter en huisnummertoevoeging is een
+>   forward slash (/).*
+
+>   *Nummeraanduidingen (=combinatie van huisnummer, huisletter en/of
+>   huisnummertoevoeging) worden gescheiden door een koppelteken (-).*
+
+>   *Dus bijvoorbeeld: 33, 33A, 33/1, 33-37, 33A-33F, 33/1-33/20, 33A/1–33A/20,
+>   33A/1A-33A/3F.*
+
+Toelichting:
+
+Relatieve hoogte tunneldeel en duiker
 
 Opnemen definitie ‘maaiveld’
 ----------------------------
@@ -225,7 +396,7 @@ aan de toelichting/regels van het attribuut ‘nummeraanduidingreeks’ in Hoofd
 >   Nummeraanduidingen (=combinatie van huisnummer, huisletter en/of
 >   huisnummertoevoeging) worden gescheiden door een koppelteken (-).
 
->   Dus bijvoorbeeld: 33, 33A, 33/1, 33-37, 33A-33F, 33/1-33/20, 33A/133A/20,
+>   Dus bijvoorbeeld: 33, 33A, 33/1, 33-37, 33A-33F, 33/1-33/20, 33A/1–33A/20,
 >   33A/1A-33A/3F.
 
 **Onderbouwing** Met dit voorstel wordt duidelijkheid gegeven hoe huisnummers
