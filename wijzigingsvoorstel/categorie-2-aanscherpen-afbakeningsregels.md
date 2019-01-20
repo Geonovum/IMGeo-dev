@@ -6,7 +6,7 @@ extra criteria.
 
 |                                                                                          | **IMGeo 2.1.1 (WAS)**                                                                                                                                                                                                                                                                                                                                                                     | **IMGeo 2.2 (WORDT)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | **Github-issue**                                                                                                                                                           |
 |------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| OndersteunendWegdeel: **berm**                                                           | \-                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                            |
+| OndersteunendWegdeel: **berm**                                                           | \-                                                                                                                                                                                                                                                                                                                                                                                        | *‘Een terreindeel langs een weg dat niet breder is dan 25 meter gemeten t.o.v. de kant van de weg en met verharding of begroeiing conform de fysieke voorkomens van OndersteunendWegdeel wordt in de BGT opgenomen als berm.’*                                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                                            |
 | BegroeidTerreindeel: **naaldbos**, **loofbos** en **gemengd bos**                        | \-                                                                                                                                                                                                                                                                                                                                                                                        | Om een terreindeel als loofbos af te bakenen dient het minimimum percentage loofboom groter dan of gelijk aan 90% te zijn. Om een terreindeel als naaldbos af te bakenen dient het minimum percentage naaldboom groter dan of gelijk aan 90 % te zijn. Om een terreindeel als gemengd bos af te bakenen dient het maximum percentage naaldboom of het maximum percentage loofboom kleiner dan 90% te zijn. Bij deze percentages worden het eventueel aanwezige onderhout en smalle stroken loof- en of naaldbos gelegen naast of als uitloper van het bos buiten beschouwing gelaten. | [\#161](https://github.com/Geonovum/IMGeo2018/issues/161)                                                                                                                  |
 | OndersteunendWaterdeel: **oever/slootkant**                                              | Als de **horizontale afstand** tussen waterlijn en de bovenkant van een herkenbare **insteek 1m** of meer bedraagt dan ontstaat in de BGT een ondersteunend waterdeel van het type oever/slootkant.                                                                                                                                                                                       | Als tussen waterlijn en de bovenkant van een herkenbare insteek **de verticale afstand** (ofwel: hoogte oever) **minimaal 50 centimeter** is, **de steilheid (H/Br) 1:4 of meer** bedraagt, en de **horizontale afstand** (ofwel: breedte oever) **60 centimeter of meer** bedraagt, dan ontstaat in de BGT een ondersteunend waterdeel van het type oever/slootkant.                                                                                                                                                                                                                 | [\#50](https://github.com/Geonovum/IMGeo2018/issues/50), [\#74](https://github.com/Geonovum/IMGeo2018/issues/74), [\#76](https://github.com/Geonovum/IMGeo2018/issues/76)  |
 | Overbruggingsdeel: onderscheid viaduct en tunnel                                         | \-                                                                                                                                                                                                                                                                                                                                                                                        | Er is sprake van een overbrugging wanneer een van de onderdelen bestaat uit een los dek dat op een bak en/of pijlers rust.                                                                                                                                                                                                                                                                                                                                                                                                                                                            | [\#12](https://github.com/Geonovum/IMGeo2018/issues/12)                                                                                                                    |
@@ -100,24 +100,32 @@ IMGeo catalogus:
 
 Toelichting:
 
--   *Berm:*
+-   *Berm:* Met de afbakeningsregel mag een berm ook smaller zijn dan 25 meter.
+    De minimale breedte voor een berm wordt bepaald door de bronhouder (bijv.
+    vanuit groenbeheer of wegbeheer). Een terreindeel langs een wegdeel smaller
+    dan 25 meter wordt dus in principe opgenomen als berm, als de verharding of
+    begroeiing matcht met de fysieke voorkomens van OndersteunendWegdeel. Als er
+    geen berm aanwezig is naast een weg of spoorweg, dan wordt geen berm
+    opgenomen. Bredere terreindelen en terreindelen die niet voldoen aan de
+    fysieke voorkomens van OndersteunendWegdeel (bijv. bos, bouwland of grasland
+    agrarisch) worden als BegroeidTerreindeel of OnbegroeidTerreindeel
+    afgebakend.
 
-*Naaldbos, loofbos, gemengd bos:* De percentages zijn gebaseerd op de
-afbakeningscriteria voor bos in de Basisregistratie Topografie (BRT). Met deze
-wijziging sluiten BGT en BRT beter op elkaar aan wat bijdraagt aan de
-geautomatiseerde generalisatie van BRT uit BGT.
+-   *Naaldbos, loofbos, gemengd bos:* De percentages zijn gebaseerd op de
+    afbakeningscriteria voor bos in de Basisregistratie Topografie (BRT). Met
+    deze wijziging sluiten BGT en BRT beter op elkaar aan wat bijdraagt aan de
+    geautomatiseerde generalisatie van BRT uit BGT.
 
-*Oever/slootkant:*
-
-Met deze nieuwe afbakeningsregels sluit de BGT beter aan op de behoeften voor
-beheer openbare ruimte van waterschappen. De aanvullende eisen worden nader
-toegelicht in een technische afbeelding en een beslisboom.
+-   *Oever/slootkant:* Met deze nieuwe afbakeningsregels sluit de BGT beter aan
+    op de behoeften voor beheer openbare ruimte van waterschappen. De
+    aanvullende eisen worden nader toegelicht in een technische afbeelding en
+    een beslisboom.
 
 ![](media/ffe5c6b57f74ee5722e7aed60a239a57.png)
 
 ![](media/7da6ee08559a3d1e0ee4105182055a7e.png)
 
-*Tunneldeel/overbruggingsdeel*
+*Tunneldeel/overbruggingsdeel:*
 
 Scheiding en OverigeScheiding:
 
