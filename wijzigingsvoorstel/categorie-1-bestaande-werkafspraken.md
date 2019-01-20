@@ -5,17 +5,14 @@ De volgende voorstellen betreffen het verduikelijken van het model met
 aanvullende tekst en voorbeelden, en het opnemen van bestaande werkafspraken en
 praktijk in het model.
 
-Bestaande werkafspraken
------------------------
-
-De volgende werkafspraken worden in het model opgenomen:
-
 | Onderwerp                                                                                                                      | Samenvatting                                                                                                                                                                                                                                                                                                                                                                                          | Github-issue(s)                                                                                                                                                               |
 |--------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Opnemen definitie ‘maaiveld’                                                                                                   | In de ontwerpprincipes van de BGT catalogus wordt een definitie van maaiveld toegevoegd.                                                                                                                                                                                                                                                                                                              | [\#156](https://github.com/Geonovum/IMGeo2018/issues/156)                                                                                                                     |
 | De indeling van particuliere terreinen                                                                                         | Ten aanzien van de dekking van de BGT wordt toegelicht dat dat alle particulieren terreinen nader ingedeeld moeten worden, waar deze informatie noodzakelijk is voor wettelijk geregelde dienstverlening door bronhouders en gebruikers”                                                                                                                                                              | [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)                                                                                                                         |
 | Opnemen van objecten buiten Nederland                                                                                          | Ten aanzien van de dekking van de BGT wordt toegelicht dat de BGT tenminste landsdekkend binnen de landsgrens beheerd moet worden, maar dat bronhouders objecten die deels buiten de landgrens in zijn geheel mogen opnemen in de BGT. Objecten, die geheel buiten Nederland liggen én in beheer zijn bij bronhouder, kunnen worden opgenomen in IMGeo                                                | [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)                                                                                                                         |
-| Plaatsing en draaiing van labels                                                                                               | Ten aanzien van teksten op de kaart wordt toegelicht dat elke nummeraanduidingreeks eenmaal op de kaart geplaatst wordt, en dat een nummeraanduiding haaks of evenwijdig aan de voorgevel wordt gevisualiseerd met de minimale rotatiehoek ten opzicht van de normale leesrichting (horizontaal).                                                                                                     |                                                                                                                                                                               |
+| Plaatsing en draaiing van nummeraanduidingen                                                                                   | Ten aanzien van teksten op de kaart wordt toegelicht dat elke nummeraanduidingreeks eenmaal op de kaart geplaatst wordt, en dat een nummeraanduiding haaks of evenwijdig aan de voorgevel wordt gevisualiseerd met de minimale rotatiehoek ten opzicht van de normale leesrichting (horizontaal).                                                                                                     | [\#3](https://github.com/Geonovum/IMGeo2018/issues/3)                                                                                                                         |
+| Rotatiehoek labels                                                                                                             | De eisen en regels van o.a. eenheid, decimale precisie, oriëntering voor rotatiehoek in de werkafspraak Nummeraanduidingreeksen worden opgenomen in de regels van attribuutsoort hoek                                                                                                                                                                                                                 | [\#3](https://github.com/Geonovum/IMGeo2018/issues/3)                                                                                                                         |
+| Patroon reeksen van nummeraanduidingen                                                                                         | Het patroon voor het samenstellen van reeksen van nummeraanduidingen in de werkafspraak Nummeraanduidingreeksen wordt opgenomen in de regels over teksten op de kaart                                                                                                                                                                                                                                 | [\#3](https://github.com/Geonovum/IMGeo2018/issues/3)                                                                                                                         |
 | Regels voor panden boven water                                                                                                 | In de afbakeningsregels voor panden wordt toegelicht hoe panden die (deels) boven water liggen worden afgebakend.                                                                                                                                                                                                                                                                                     | [\#61](https://github.com/Geonovum/IMGeo2018/issues/61)                                                                                                                       |
 | Afbakening van gemaal, sluis en stuw                                                                                           | De afbakeningsregels voor gemaal, sluis en stuw worden verduidelijkt met extra toelichting en regels.                                                                                                                                                                                                                                                                                                 | [\#37](https://github.com/Geonovum/IMGeo2018/issues/37), [\#72](https://github.com/Geonovum/IMGeo2018/issues/72)                                                              |
 | Onderscheid muur, keermuur, kademuur, strekdam en damwand                                                                      | Het onderscheid tussen muur, keermuur, kademuur, strekdam en damwand wordt verduidelijkt met een beslisboom.                                                                                                                                                                                                                                                                                          | [\#14](https://github.com/Geonovum/IMGeo2018/issues/14), [\#30](https://github.com/Geonovum/IMGeo2018/issues/30), [\#69](https://github.com/Geonovum/IMGeo2018/issues/69)     |
@@ -107,6 +104,55 @@ In hoofdstuk 5 van de BGT catalogus worden de volgende eisen en regels
 >   coördinatenpunt van de nummeraanduidingreeks wordt zo mogelijk circa 4 meter
 >   vanaf de voorgevel (‘straatzijde’) binnen het pand geplaatst. **Elke
 >   nummeraanduidingreeks van een Pand wordt eenmaal afgebeeld.”**
+
+### Rotatiehoek labels
+
+>   De eisen en regels voor rotatiehoek in de werkafspraak
+>   Nummeraanduidingreeksen worden opgenomen in de regels van attribuutsoort
+>   hoek in H9 van de BGT catalogus:
+
+>   *Voor de rotatiehoek van een label van een BGT\|IMGeo object gelden de
+>   volgende eigenschappen en eisen:*
+
+>   *Eenheid : booggraad; één booggraad is een 360ste deel van een cirkelomtrek*
+
+>   *Oriëntering : met de klok mee (positief) t.o.v. normale tekstrichting
+>   (horizontaal = 0 graden; voor een kaart die noord georiënteerd is.)*
+
+>   *Decimale precisie : 1 (= 1 cijfer achter de komma, ofwel 1/10 booggraad)*
+
+*Bereik (min/max) : [-90, +90], waarbij [270,360] niet gelijk is aan [-90,0].*
+
+### Patroon reeksen van nummeraanduidingen
+
+>   De eisen en regels voor rotatiehoek in de werkafspraak
+>   Nummeraanduidingreeksen worden opgenomen in de tekst van paragraaf 5.2 van
+>   de BGT catalogus:
+
+>   *Voor de opmaak van een nummeraanduidingreeks dient zo veel mogelijk
+>   onderstaand patroon toegepast te worden.*
+
+>   *{huisnummer}{huisletter}/{huisnummertoevoeging}-{huisnummer}{huisletter}/{huisnummertoevoeging}*
+
+>   *waarin*
+
+>   *{huisnummer} een nummer van 1 tot 99999 (regex {0-9}[1-5]) {huisletter} een
+>   hoofdletter of kleine letter (regex {a-zA-Z}[0-1]) {huisnummertoevoeging} 0
+>   tot 4 alfanumeriek karakter (regex {0-9a-zA-Z}[0-4])*
+
+>   *en verder*
+
+>   *Geen scheidingsteken tussen huisnummer en huisletter, dus geen koppelteken
+>   (-) en geen spatie.*
+
+>   *Scheidingsteken tussen huisnummer+huisletter en huisnummertoevoeging is een
+>   forward slash (/).*
+
+>   *Nummeraanduidingen (=combinatie van huisnummer, huisletter en/of
+>   huisnummertoevoeging) worden gescheiden door een koppelteken (-).*
+
+>   *Dus bijvoorbeeld: 33, 33A, 33/1, 33-37, 33A-33F, 33/1-33/20, 33A/1–33A/20,
+>   33A/1A-33A/3F.*
 
 ### Regels voor panden boven water
 
