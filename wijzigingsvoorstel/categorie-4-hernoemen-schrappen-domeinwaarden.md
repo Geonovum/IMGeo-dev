@@ -48,10 +48,10 @@ attribuut.
 | GebouwInstallatie: type         | niet-bgt              | **bordes**           | GebouwInstallatie: type              | **bordes**           | **-**                 | [\#96](https://github.com/Geonovum/IMGeo2018/issues/96), [\#118](https://github.com/Geonovum/IMGeo2018/issues/118), [\#174](https://github.com/Geonovum/IMGeo2018/issues/174) |
 | Weginrichtingselement: type     | niet-bgt              | **wildrooster**      | Weginrichtingselement: type          | **wildrooster**      | **-**                 | [\#96](https://github.com/Geonovum/IMGeo2018/issues/96), [\#118](https://github.com/Geonovum/IMGeo2018/issues/118)                                                            |
 | Weginrichtingselement: type     | niet-bgt              | **rooster**          | Weginrichtingselement: type          | **rooster**          | **-**                 | [\#96](https://github.com/Geonovum/IMGeo2018/issues/96), [\#118](https://github.com/Geonovum/IMGeo2018/issues/118)                                                            |
-| OverigeScheiding                | niet-bgt              | **geluidscherm**     | Scheiding                            | **geluidscherm**     |                       |                                                                                                                                                                               |
-| OverigeScheiding                | niet-bgt              | **kademuur**         | Scheiding                            | **kademuur**         |                       |                                                                                                                                                                               |
-| OverigeScheiding                | niet-bgt              | **damwand**          | Scheiding                            | **damwand**          |                       |                                                                                                                                                                               |
-| OverigeScheiding                | niet-bgt              | **walbescherming**   | Scheiding                            | **walbescherming**   |                       |                                                                                                                                                                               |
+| OverigeScheiding                | niet-bgt              | **geluidscherm**     | Scheiding                            | **geluidscherm**     |                       | [\#198](https://github.com/Geonovum/IMGeo2018/issues/198)                                                                                                                     |
+| OverigeScheiding                | niet-bgt              | **kademuur**         | Scheiding                            | **kademuur**         |                       | [\#198](https://github.com/Geonovum/IMGeo2018/issues/198)                                                                                                                     |
+| OverigeScheiding                | niet-bgt              | **damwand**          | Scheiding                            | **damwand**          |                       | [\#198](https://github.com/Geonovum/IMGeo2018/issues/198)                                                                                                                     |
+| OverigeScheiding                | niet-bgt              | **walbescherming**   | Scheiding                            | **walbescherming**   |                       | [\#198](https://github.com/Geonovum/IMGeo2018/issues/198)                                                                                                                     |
 
 *Toelichting:*
 
@@ -91,13 +91,9 @@ Schrappen van subclassificaties
 
 De volgende domeinwaarde wordt geschrapt in IMGeo:
 
-| IMGeo 2.1.1 (WAS): Objecttype | Codelijst    | waarde           | definitie                                                           | Github-issue(s)                                       |
-|-------------------------------|--------------|------------------|---------------------------------------------------------------------|-------------------------------------------------------|
-| Alle objecttypen              | *statusPlus* | *historie*       | Situatie waarin het geregistreerde object fysiek niet meer bestaat. | [\#2](https://github.com/Geonovum/IMGeo2018/issues/2) |
-| OverigeScheiding              | *typePlus*   | *geluidscherm*   |                                                                     |                                                       |
-| OverigeScheiding              | *typePlus*   | *kademuur*       |                                                                     |                                                       |
-| OverigeScheiding              | *typePlus*   | *damwand*        |                                                                     |                                                       |
-| OverigeScheiding              | *typePlus*   | *walbescherming* |                                                                     |                                                       |
+| IMGeo 2.1.1 (WAS): Objecttype | Codelijst    | waarde     | definitie                                                           | Github-issue(s)                                       |
+|-------------------------------|--------------|------------|---------------------------------------------------------------------|-------------------------------------------------------|
+| Alle objecttypen              | *statusPlus* | *historie* | Situatie waarin het geregistreerde object fysiek niet meer bestaat. | [\#2](https://github.com/Geonovum/IMGeo2018/issues/2) |
 
 **Toelichting:**
 
