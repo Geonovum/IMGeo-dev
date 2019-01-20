@@ -5,13 +5,14 @@ De volgende voorstellen betreffen het verduikelijken van het model met
 aanvullende tekst en voorbeelden, en het opnemen van bestaande werkafspraken en
 praktijk in het model.
 
-### Bestaande werkafspraken
+Bestaande werkafspraken
+-----------------------
 
 De volgende werkafspraken worden in het model opgenomen:
 
 | Onderwerp                                                 | Verduidelijking                                                                                                                                                                                                                                                                                                                                                                                                                                      | Github-issue                                                                                                                                                              |
 |-----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Toevoegen definitie ‘maaiveld’                            | In de ontwerpprincipes van de BGT catalogus wordt de volgende zinsnede opgenomen: *Maaiveld is het het oppervlak van de vaste aarde, daar waar de aarde niet bedekt is met water.*                                                                                                                                                                                                                                                                   | [\#156](https://github.com/Geonovum/IMGeo2018/issues/156)                                                                                                                 |
+| Opnemen definitie ‘maaiveld’                              | In de ontwerpprincipes van de BGT catalogus wordt de volgende zinsnede opgenomen: *Maaiveld is het het oppervlak van de vaste aarde, daar waar de aarde niet bedekt is met water.*                                                                                                                                                                                                                                                                   | [\#156](https://github.com/Geonovum/IMGeo2018/issues/156)                                                                                                                 |
 |                                                           | *Het maaiveld vormt de grens tussen de ondergrond en de bovengrond. (bron: BRO).”*                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                           |
 | De indeling van particuliere terreinen                    | Aan de tekst in paragraaf 2.4 Dekking van de BGT catalogus: “De BGT wordt landsdekkend beheerd voor het grondgebied van Nederland binnen de gemeentegrenzen. Daartoe behoren ook industriële complexen, zoals Schiphol, de Hoogovens en Europoort.” wordt als verduidelijking toegevoegd: *Dit geldt voor alle particuliere terreinen waar deze informatie noodzakelijk is voor wettelijk geregelde dienstverlening door bronhouders en gebruikers”* | [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)                                                                                                                     |
 | Opnemen van objecten buiten Nederland                     | Aan de tekst in paragraaf 2.4 Dekking van de BGT catalogus: “De BGT wordt landsdekkend beheerd voor het grondgebied van Nederland binnen de gemeentegrenzen.” wordt toegevoegd:                                                                                                                                                                                                                                                                      | [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)                                                                                                                     |
@@ -94,16 +95,20 @@ wordt vervangen door:
 
 Toelichting:
 
+-   *Opnemen definitie maaiveld:* Maaiveld komt regelmatig als term terug in de
+    BGT, maar wordt nergens uitgelegd. Op deze manier wordt expliciet gemaakt
+    wat in BGT context onder het maaiveld wordt verstaan.
+
 -   *Indeling van particuliere terreinen:* Met deze toevoeging is ook het
     mogelijk om particuliere en bedrijventerreinen nader in te delen. Dit ten
     behoeve van de inzet van hulpdiensten en de dienstverlening door
     netbeheerders.
 
--   *Opnemen van objecten buiten Nederland:* Met deze verduidelijking hoeven
-    bronhouders niet actief op de landgrens, en worden objecten die geheel
-    buiten Nederland liggen (‘eilandjes’) uitgesloten in de dekking van de BGT.
-    Dit is vergelijkbaar met het principe van bronhoudergrenzen: bronhouders
-    knippen niet actief op de gemeentegrens, maar op de grens waar
+-   *Regels voor opname van objecten buiten Nederland:* Met deze verduidelijking
+    hoeven bronhouders niet actief op de landgrens, en worden objecten die
+    geheel buiten Nederland liggen (‘eilandjes’) uitgesloten in de dekking van
+    de BGT. Dit is vergelijkbaar met het principe van bronhoudergrenzen:
+    bronhouders knippen niet actief op de gemeentegrens, maar op de grens waar
     objectkenmerken veranderen. Vanuit beheer is er behoefte aan informatie over
     objecten die geheel buiten Nederland liggen, denk aan puntobjecten in
     vlakobjecten die over de grens heen gaan. Om die reden worden objecten die
@@ -173,7 +178,12 @@ De volgende werkafspraken worden in het model opgenomen:
 
 Toelichting:
 
-Relatieve hoogte tunneldeel en duiker
+Rotatiehoek: In de praktijk zullen huisnummers dus een draaiing hebben tussen
+-45 en +45 graden, als deze met minimale rotatie ten opzichte van de normale
+leesrichting worden geplaatst. Technisch wordt nu afgedwongen door dat de waarde
+van de rotatiehoek van een label tussen -90 en + 90 ligt. Deze eis is als
+(technische) regel opgenomen bij het attribuut ‘rotatiehoek’ in hoofdstuk 8.
+Immers deze regels voor rotatiehoek gelden ook voor openbare ruimte labels.
 
 Opnemen definitie ‘maaiveld’
 ----------------------------
