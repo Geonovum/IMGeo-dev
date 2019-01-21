@@ -53,14 +53,14 @@ hebben op:
 
 4.  Herindeling van subclassificaties en geometrietypen van objecten zijnde
 
-    1.  het hernoemen (en samenvoegen) van subclassificaties
+    -   A. het hernoemen (en samenvoegen) van subclassificaties
 
-    2.  het verplaatsen van subclassificaties naar een ander object, attribuut
-        of codelijst (bgt/plus)
+    -   B. het verplaatsen van subclassificaties naar een ander object,
+        attribuut of codelijst (bgt/plus)
 
-    3.  het schrappen van subclassificaties
+    -   C. het schrappen van subclassificaties
 
-    4.  het aanpassen van geometrietypen binnen de huidige structuur.
+    -   D. het aanpassen van geometrietypen binnen de huidige structuur.
 
 Impact
 ------
