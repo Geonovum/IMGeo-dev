@@ -7,7 +7,6 @@ praktijk in het model.
 
 | Onderwerp                                                                                                                      | Samenvatting                                                                                                                                                                                                                                                                                                                                           | Github-issue(s)                                                                                                                                                               |
 |--------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| De indeling van particuliere terreinen                                                                                         | Ten aanzien van de dekking van de BGT wordt toegelicht dat dat alle particulieren terreinen nader ingedeeld moeten worden, waar deze informatie noodzakelijk is voor wettelijk geregelde dienstverlening door bronhouders en gebruikers”                                                                                                               | [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)                                                                                                                         |
 | Opnemen van objecten buiten Nederland                                                                                          | Ten aanzien van de dekking van de BGT wordt toegelicht dat de BGT tenminste landsdekkend binnen de landsgrens beheerd moet worden, maar dat bronhouders objecten die deels buiten de landgrens in zijn geheel mogen opnemen in de BGT. Objecten, die geheel buiten Nederland liggen én in beheer zijn bij bronhouder, kunnen worden opgenomen in IMGeo | [\#9](https://github.com/Geonovum/IMGeo2018/issues/9)                                                                                                                         |
 | Plaatsing en draaiing van nummeraanduidingen                                                                                   | Ten aanzien van teksten op de kaart wordt toegelicht dat elke nummeraanduidingreeks eenmaal op de kaart geplaatst wordt, en dat een nummeraanduiding haaks of evenwijdig aan de voorgevel wordt gevisualiseerd met de minimale rotatiehoek ten opzicht van de normale leesrichting (horizontaal).                                                      | [\#3](https://github.com/Geonovum/IMGeo2018/issues/3)                                                                                                                         |
 | Rotatiehoek labels                                                                                                             | De eisen en regels van o.a. eenheid, decimale precisie, oriëntering voor rotatiehoek in de werkafspraak Nummeraanduidingreeksen worden opgenomen in de regels van attribuutsoort hoek                                                                                                                                                                  | [\#3](https://github.com/Geonovum/IMGeo2018/issues/3)                                                                                                                         |
@@ -21,28 +20,11 @@ praktijk in het model.
 | Definities rijbanen en fietspad                                                                                                | De definities van rijbanen en fietspad worden uitgebreid met de verkeerskundige aanduidingen (verkeersborden en symbolen) en fysieke kenmerken (scheiding en kleur asfalt). Fietssuggestiestroken worden uitgesloten.                                                                                                                                  | [\#11](https://github.com/Geonovum/IMGeo2018/issues/11)                                                                                                                       |
 | Definitie bunker                                                                                                               | De definitie van ‘bunker’ wordt aangepast naar ‘van oorsprong’ militair verdedingswerk.                                                                                                                                                                                                                                                                | [\#183](https://github.com/Geonovum/IMGeo2018/issues/183)                                                                                                                     |
 | Definitie Put                                                                                                                  | De definitie van subclassificaties van Put worden aangepast naar ‘deksel van een put’ in plaats van de gehele put betreffend.                                                                                                                                                                                                                          | [\#92](https://github.com/Geonovum/IMGeo2018/issues/92)                                                                                                                       |
-| samenvallen coördinaten kruinlijn en objectbegrenzing                                                                          | Het samenvallen van coördinaten van kruinlijn en objectbegrenzing wordt nader toegelicht dat coördinaten identiek moeten zijn.                                                                                                                                                                                                                         | [\#36](https://github.com/Geonovum/IMGeo2018/issues/36), [\#175](https://github.com/Geonovum/IMGeo2018/issues/175)                                                            |
-| samenvallen functionele gebieden en objectgrenzen                                                                              | In de afbakeningsregels wordt toegelicht dat de grens van een functioneel gebied niet persé samenvalt met de grens van de objecten die geclusterd worden.                                                                                                                                                                                              | [\#119](https://github.com/Geonovum/IMGeo2018/issues/119)                                                                                                                     |
+| Samenvallen coördinaten kruinlijn en objectbegrenzing                                                                          | Het samenvallen van coördinaten van kruinlijn en objectbegrenzing wordt nader toegelicht dat coördinaten identiek moeten zijn.                                                                                                                                                                                                                         | [\#36](https://github.com/Geonovum/IMGeo2018/issues/36), [\#175](https://github.com/Geonovum/IMGeo2018/issues/175)                                                            |
+| Samenvallen functionele gebieden en objectgrenzen                                                                              | In de afbakeningsregels wordt toegelicht dat de grens van een functioneel gebied niet persé samenvalt met de grens van de objecten die geclusterd worden.                                                                                                                                                                                              | [\#119](https://github.com/Geonovum/IMGeo2018/issues/119)                                                                                                                     |
 | Geen plaatsbepalingspunten bij planinformatie, OngeclassificeerdObject, functionele gebieden, labels en registratieve gebieden | Voor planinformatie, ongeclassificeerde objecten. functionele en registratieve gebieden en labels wordt toegelicht dat deze objecten geen (eigen) plaatsbepalingspunten.                                                                                                                                                                               | [\#79](https://github.com/Geonovum/IMGeo2018/issues/79), [\#120](https://github.com/Geonovum/IMGeo2018/issues/120), [\#134](https://github.com/Geonovum/IMGeo2018/issues/134) |
 | Nederlandse tijdzone met zomer/wintertijd                                                                                      | De tekst over Nederlandse tijd en tijdzone wordt nader toegelicht met toepassing van de tijdzones voor zomer- en wintertijd.                                                                                                                                                                                                                           | [\#13](https://github.com/Geonovum/IMGeo2018/issues/13)                                                                                                                       |
 | Interne vs. relatieve precisie                                                                                                 | In de BGT catalogus in paragraaf 4.2 wordt de term ‘interne precisie’ geschrapt.                                                                                                                                                                                                                                                                       | [\#142](https://github.com/Geonovum/IMGeo2018/issues/142)                                                                                                                     |
-
-### Indeling van particuliere terreinen
-
-Aan de tekst in paragraaf 2.4 Dekking van de BGT catalogus:
-
->   “De BGT wordt landsdekkend beheerd voor het grondgebied van Nederland binnen
->   de gemeentegrenzen. Daartoe behoren ook industriële complexen, zoals
->   Schiphol, de Hoogovens en Europoort.”
-
-wordt als verduidelijking toegevoegd:
-
->   Dit geldt voor alle particuliere terreinen waar deze informatie noodzakelijk
->   is voor wettelijk geregelde dienstverlening door bronhouders en gebruikers”
-
-Met deze toevoeging is ook het mogelijk om particuliere en bedrijventerreinen
-nader in te delen. Dit ten behoeve van de inzet van hulpdiensten en de
-dienstverlening door netbeheerders.
 
 ### Regels voor opname van objecten buiten Nederland:
 
@@ -96,27 +78,33 @@ In hoofdstuk 5 van de BGT catalogus worden de volgende eisen en regels
 
 ### Rotatiehoek labels
 
->   De eisen en regels voor rotatiehoek in de werkafspraak
->   Nummeraanduidingreeksen worden opgenomen in de regels van attribuutsoort
->   hoek in H9 van de BGT catalogus:
+De eisen en regels voor rotatiehoek in de werkafspraak Nummeraanduidingreeksen
+worden opgenomen in de regels van attribuutsoort hoek in H9 van de BGT
+catalogus:
 
->   *Voor de rotatiehoek van een label van een BGT\|IMGeo object gelden de
->   volgende eigenschappen en eisen:*
+>   Voor de rotatiehoek van een label van een BGT\|IMGeo object gelden de
+>   volgende eigenschappen en eisen:
 
->   *Eenheid : booggraad; één booggraad is een 360ste deel van een cirkelomtrek*
+>   Eenheid : booggraad; één booggraad is een 360ste deel van een cirkelomtrek
 
->   *Oriëntering : met de klok mee (positief) t.o.v. normale tekstrichting
->   (horizontaal = 0 graden; voor een kaart die noord georiënteerd is.)*
+>   Oriëntering : met de klok mee (positief) t.o.v. normale tekstrichting
+>   (horizontaal = 0 graden; voor een kaart die noord georiënteerd is.)
 
->   *Decimale precisie : 1 (= 1 cijfer achter de komma, ofwel 1/10 booggraad)*
+>   Decimale precisie : 1 (= 1 cijfer achter de komma, ofwel 1/10 booggraad)
 
-*Bereik (min/max) : [-90, +90], waarbij [270,360] niet gelijk is aan [-90,0].*
+>   Bereik (min/max) : [-90, +90], waarbij [270,360] niet gelijk is aan [-90,0].
+
+In de praktijk zullen huisnummers dus een draaiing hebben tussen -45 en +45
+graden, als deze met minimale rotatie ten opzichte van de normale leesrichting
+worden geplaatst. Technisch wordt nu afgedwongen door dat de waarde van de
+rotatiehoek van een label tussen -90 en + 90 ligt. Deze eis is als (technische)
+regel opgenomen bij het attribuut ‘rotatiehoek’ in hoofdstuk 8. Immers deze
+regels voor rotatiehoek gelden ook voor openbare ruimte labels.
 
 ### Patroon reeksen van nummeraanduidingen
 
->   De eisen en regels voor rotatiehoek in de werkafspraak
->   Nummeraanduidingreeksen worden opgenomen in de tekst van paragraaf 5.2 van
->   de BGT catalogus:
+De eisen en regels voor rotatiehoek in de werkafspraak Nummeraanduidingreeksen
+worden opgenomen in de tekst van paragraaf 5.2 van de BGT catalogus:
 
 >   *Voor de opmaak van een nummeraanduidingreeks dient zo veel mogelijk
 >   onderstaand patroon toegepast te worden.*
@@ -155,7 +143,7 @@ toegevoegd:
 
 ### Afbakening van gemaal, sluis en stuw
 
-De tekst in paragraaf 10.11.2.2Gemaal, sluis, stuw van de BGT catalogus:
+De tekst in paragraaf 10.11.2.2 Gemaal, sluis, stuw van de BGT catalogus:
 
 >   “Tot deze typen kunstwerkdelen behoren die objecten die niet tot een ander
 >   BGT-objecttype behoren. Dit betekent in de regel dat bij een gemaal de
@@ -227,12 +215,12 @@ opnameregels van Tunneldeel:
 
 ### Onderscheid duiker en brug
 
-De
+De definitie van duiker wordt verduidelijkt tot:
 
 >   duiker: Kunstwerk voor de waterhuishouding, bestaande uit
->   een *gesloten* kokervormige constructie *met een in- en
->   uitstroomopening,* aangebracht onder een weg of spoorweg of in een dam *of
->   ander terreindeel*. (bron: CROW) 
+>   een **gesloten** kokervormige constructie met **een in- en
+>   uitstroomopening**, aangebracht onder een weg of spoorweg of in een dam of
+>   **ander terreindeel**. (bron: CROW) 
 
 ### Relatieve hoogte van tunneldeel en duiker
 
@@ -333,19 +321,19 @@ In hoofdstuk 10 van de BGT catalogus worden bij de regels voor opname van
 kruinlijnen bij een wegdeel (10.1.2), ondersteunend wegdeel (10.2.2) en
 onbegroeid terreindeel (10.4.2) de volgende zinsneden (vetgedrukt) toegevoegd:
 
-“Een van de zijden van het wegdeel valt altijd samen met de kruinlijn, zijnde
-bovenkant talud. **De coördinaten van de kruinlijn zijn identiek met die van de
-objectbegrenzing ter plaatse.”**
+>   “Een van de zijden van het wegdeel valt altijd samen met de kruinlijn,
+>   zijnde bovenkant talud. **De coördinaten van de kruinlijn zijn identiek met
+>   die van de objectbegrenzing ter plaatse.”**
 
 ### Samenvallen functionele gebieden en objectbegrenzing
 
 In hoofdstuk 2 van de BGT catalogus wordt de volgende zinsnede (vetgedrukt)
 toegevoegd:
 
-“Macro-objecten zijn geen inhoud van de BGT; in het eigen beheersysteem kan men
-indien gewenst macro-objecten definiëren, die een clustering van BGT objecten
-**en/of delen van BGT-objecten** bevatten. In het optionele deel van IMGeo
-kunnen deze worden uitgewisseld als Functioneel Gebied.”
+>   “Macro-objecten zijn geen inhoud van de BGT; in het eigen beheersysteem kan
+>   men indien gewenst macro-objecten definiëren, die een clustering van BGT
+>   objecten **en/of delen van BGT-objecten** bevatten. In het optionele deel
+>   van IMGeo kunnen deze worden uitgewisseld als Functioneel Gebied.”
 
 Geen plaatsbepalingspunten bij planinformatie, OngeclassificeerdObject, functionele gebieden, labels en registratieve gebieden
 ------------------------------------------------------------------------------------------------------------------------------
@@ -356,7 +344,7 @@ In de BGT catalogus worden de volgende zinsnede (vetgedrukt) toegevoegd:
 >   van deze regel zijn coördinaten van functionele gebieden en labels van
 >   nummeraanduidingreeksen en openbare ruimtenamen.
 
->   en in de IMGeo catalogus:
+en in de IMGeo catalogus:
 
 >   Net als in de BGT worden bij optionele IMGeo objecten de
 >   plaatsbepalingspunten opgenomen. Uitgezonderd van deze regel zijn alleen
@@ -383,74 +371,22 @@ al volgens deze regels.
 
 De tekst in paragraaf 4.5.3 van de BGT catalogus wordt als volgt verduidelijkt:
 
-Voor het ontstaan, wijzigen en vervallen van objecten geldt de Nederlandse
-**wettelijke** tijd . **Daarbij wordt in de winter de wintertijd aangehouden,
-oftewel Midden-Europese Tijd, en in de zomer de zomertijd, oftewel
-Midden-Europese Zomertijd. Om dubbele tijdstippen te voorkomen mag in de nacht
-van zomertijd naar wintertijd (ofwel de nacht van zaterdag op zondag in het
-laatste weekend van oktober wanneer de klok een uur teruggaat ) geen tijdstip
-worden toegekend aan (versies van) objecten.**
+>   Voor het ontstaan, wijzigen en vervallen van objecten geldt de Nederlandse
+>   **wettelijke** tijd . **Daarbij wordt in de winter de wintertijd
+>   aangehouden, oftewel Midden-Europese Tijd, en in de zomer de zomertijd,
+>   oftewel Midden-Europese Zomertijd. Om dubbele tijdstippen te voorkomen mag
+>   in de nacht van zomertijd naar wintertijd (ofwel de nacht van zaterdag op
+>   zondag in het laatste weekend van oktober wanneer de klok een uur teruggaat
+>   ) geen tijdstip worden toegekend aan (versies van) objecten.**
 
 ### Interne vs. relatieve precisie
 
-Bestaande werkafspraken
------------------------
+In de tekst in paragraaf 4.2 van de BGT catalogus:
 
-De volgende werkafspraken worden in het model opgenomen:
+>   De positionele nauwkeurigheid van een object wordt beschreven op het niveau
+>   van het objecttype. Hiermee wordt aan elk object binnen dat objecttype een
+>   nauwkeurigheidseis gesteld. De BGT hanteert voor het beschrijven van de
+>   positionele nauwkeurigheid de zogenaamde interne precisie, ook bekend onder
+>   de naam relatieve precisie.
 
-| Rotatiehoek | De eisen en regels voor rotatiehoek in de werkafspraak Nummeraanduidingreeksen worden opgenomen in de regels van attribuutsoort hoek in H9 van de BGT catalogus: |
-|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-
->   *Voor de rotatiehoek van een label van een BGT\|IMGeo object gelden de
->   volgende eigenschappen en eisen:*
-
->   *Eenheid : booggraad; één booggraad is een 360ste deel van een cirkelomtrek*
-
->   *Oriëntering : met de klok mee (positief) t.o.v. normale tekstrichting
->   (horizontaal = 0 graden; voor een kaart die noord georiënteerd is.)*
-
->   *Decimale precisie : 1 (= 1 cijfer achter de komma, ofwel 1/10 booggraad)*
-
->   *Bereik (min/max) : [-90, +90], waarbij [270,360] niet gelijk is aan
->   [-90,0].*
-
-[\#3](https://github.com/Geonovum/IMGeo2018/issues/3)
-
-| Patroon nummeraanduidingreeks | De eisen en regels voor rotatiehoek in de werkafspraak Nummeraanduidingreeksen worden opgenomen in de tekst van paragraaf 5.2 van de BGT catalogus: | [\#3](https://github.com/Geonovum/IMGeo2018/issues/3) |   |   |   |   |   |
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|---|---|---|---|---|
-
-
->   *Voor de opmaak van een nummeraanduidingreeks dient zo veel mogelijk
->   onderstaand patroon toegepast te worden.*
-
->   *{huisnummer}{huisletter}/{huisnummertoevoeging}-{huisnummer}{huisletter}/{huisnummertoevoeging}*
-
->   *waarin*
-
->   *{huisnummer} een nummer van 1 tot 99999 (regex {0-9}[1-5]) {huisletter} een
->   hoofdletter of kleine letter (regex {a-zA-Z}[0-1]) {huisnummertoevoeging} 0
->   tot 4 alfanumeriek karakter (regex {0-9a-zA-Z}[0-4])*
-
->   *en verder*
-
->   *Geen scheidingsteken tussen huisnummer en huisletter, dus geen koppelteken
->   (-) en geen spatie.*
-
->   *Scheidingsteken tussen huisnummer+huisletter en huisnummertoevoeging is een
->   forward slash (/).*
-
->   *Nummeraanduidingen (=combinatie van huisnummer, huisletter en/of
->   huisnummertoevoeging) worden gescheiden door een koppelteken (-).*
-
->   *Dus bijvoorbeeld: 33, 33A, 33/1, 33-37, 33A-33F, 33/1-33/20, 33A/1–33A/20,
->   33A/1A-33A/3F.*
-
-Toelichting:
-
-Rotatiehoek: In de praktijk zullen huisnummers dus een draaiing hebben tussen
--45 en +45 graden, als deze met minimale rotatie ten opzichte van de normale
-leesrichting worden geplaatst. Technisch wordt nu afgedwongen door dat de waarde
-van de rotatiehoek van een label tussen -90 en + 90 ligt. Deze eis is als
-(technische) regel opgenomen bij het attribuut ‘rotatiehoek’ in hoofdstuk 8.
-Immers deze regels voor rotatiehoek gelden ook voor openbare ruimte labels.
+wordt de term interne precisie geschrapt en vervangen door relatieve precisie
