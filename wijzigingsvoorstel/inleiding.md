@@ -75,7 +75,7 @@ Categorie 2 heeft als impact een inwinlast voor bronhouders. Verwacht is dat
 bronhouders opnieuw moeten inwinnen en/of de huidige populatie van objecten
 moeten nalopen.
 
-Categorie 3 en 4 hebben een technische IT-impact bestaande uit
+Categorie 3 en 4 hebben een beperkte technische IT-impact bestaande uit
 
 Aanpassen van de BGT-software om
 
@@ -102,6 +102,10 @@ Repareren van data om:
 
 -   geometrie voor bepaalde subclassificaties om te zetten naar nieuwe
     geometrietype (categorie 4d).
+
+De voorstellen voor IMGeo 2.2 passen binnen de huidige structuur van IMGeo: er
+is geen nieuw berichtschema nodig, de impact blijft naar inschatting beperkt tot
+nieuwe domeinwaardenlijsten en aanpassing van enige topologische business rules.
 
 Overzichtstabel IMGeo 2.2
 -------------------------
