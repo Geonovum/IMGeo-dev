@@ -26,7 +26,8 @@ praktijk in het model.
 | Nederlandse tijdzone met zomer/wintertijd                                                                                      | De tekst over Nederlandse tijd en tijdzone wordt nader toegelicht met toepassing van de tijdzones voor zomer- en wintertijd.                                                                                                                                                                                                                           | [\#13](https://github.com/Geonovum/IMGeo2018/issues/13)                                                                                                                       |
 | Interne vs. relatieve precisie                                                                                                 | In de BGT catalogus in paragraaf 4.2 wordt de term ‘interne precisie’ geschrapt.                                                                                                                                                                                                                                                                       | [\#142](https://github.com/Geonovum/IMGeo2018/issues/142)                                                                                                                     |
 
-### Regels voor opname van objecten buiten Nederland:
+Regels voor opname van objecten buiten Nederland
+------------------------------------------------
 
 Aan de tekst in paragraaf 2.4 Dekking van de BGT catalogus:
 
@@ -59,7 +60,8 @@ IMGeo-inhoud gerekend.
 In hoofdstuk 5 van de BGT catalogus worden de volgende eisen en regels
 (vetgedrukt) nader toegelicht:
 
-### Plaatsing en draaiing van nummeraanduidingen
+Plaatsing en draaiing van nummeraanduidingen
+--------------------------------------------
 
 In hoofdstuk 5 van de BGT catalogus worden de volgende eisen en regels
 (vetgedrukt) nader toegelicht: 
@@ -76,7 +78,8 @@ In hoofdstuk 5 van de BGT catalogus worden de volgende eisen en regels
 >   vanaf de voorgevel (‘straatzijde’) binnen het pand geplaatst. **Elke
 >   nummeraanduidingreeks van een Pand wordt eenmaal afgebeeld.”**
 
-### Rotatiehoek labels
+Rotatiehoek labels
+------------------
 
 De eisen en regels voor rotatiehoek in de werkafspraak Nummeraanduidingreeksen
 worden opgenomen in de regels van attribuutsoort hoek in H9 van de BGT
@@ -101,7 +104,8 @@ rotatiehoek van een label tussen -90 en + 90 ligt. Deze eis is als (technische)
 regel opgenomen bij het attribuut ‘rotatiehoek’ in hoofdstuk 8. Immers deze
 regels voor rotatiehoek gelden ook voor openbare ruimte labels.
 
-### Patroon reeksen van nummeraanduidingen
+Patroon reeksen van nummeraanduidingen
+--------------------------------------
 
 De eisen en regels voor rotatiehoek in de werkafspraak Nummeraanduidingreeksen
 worden opgenomen in de tekst van paragraaf 5.2 van de BGT catalogus:
@@ -131,7 +135,8 @@ worden opgenomen in de tekst van paragraaf 5.2 van de BGT catalogus:
 >   *Dus bijvoorbeeld: 33, 33A, 33/1, 33-37, 33A-33F, 33/1-33/20, 33A/1–33A/20,
 >   33A/1A-33A/3F.*
 
-### Regels voor panden boven water
+Regels voor panden boven water
+------------------------------
 
 Aan de tekst in paragraaf 10.7 Pand van de BGT catalogus wordt de volgende tekst
 toegevoegd:
@@ -141,7 +146,8 @@ toegevoegd:
 >   voorkomt met een relatieve hoogte (rh) van één hoger dan het water waar het
 >   zich boven bevindt.”
 
-### Afbakening van gemaal, sluis en stuw
+Afbakening van gemaal, sluis en stuw
+------------------------------------
 
 De tekst in paragraaf 10.11.2.2 Gemaal, sluis, stuw van de BGT catalogus:
 
@@ -185,7 +191,8 @@ wordt vervangen door:
 >   Nadere typeringen van stuw wordt beschouwd als beheerinformatie en niet
 >   opgenomen in de BGT.”
 
-### Onderscheid muur, keermuur, kademuur, strekdam en damwand:
+Onderscheid muur, keermuur, kademuur, strekdam en damwand:
+----------------------------------------------------------
 
 Het onderscheid tussen muur, keermuur, kademuur, strekdam en damwand wordt in
 paragraaf 10.12 van de BGT catalogus verduidelijkt met de volgende beslisboom.
@@ -213,7 +220,8 @@ opnameregels van Tunneldeel:
 >   Bij overbruggingsdelen zoals bijvoorbeeld een viaduct is er altijd sprake
 >   van een los dek dat op een bak en/of pijlers rust.”
 
-### Onderscheid duiker en brug
+Onderscheid duiker en brug
+--------------------------
 
 De definitie van duiker wordt verduidelijkt tot:
 
@@ -222,7 +230,8 @@ De definitie van duiker wordt verduidelijkt tot:
 >   uitstroomopening**, aangebracht onder een weg of spoorweg of in een dam of
 >   **ander terreindeel**. (bron: CROW) 
 
-### Relatieve hoogte van tunneldeel en duiker
+Relatieve hoogte van tunneldeel en duiker
+-----------------------------------------
 
 In de regels voor relatieve hoogte voor tunneldeel in de BGT catalogus wordt de
 zinsnede toegevoegd:
@@ -237,7 +246,8 @@ In het objectenhandboek wordt bij tunneldeel en duiker toegelicht dat deze
 altijd onder maaiveld liggen en dus een relatieve hoogte kleiner dan 0 hebben.
 In de huidige catalogus is dit nergens expliciet vastgelegd.
 
-### Definities rijbanen en fietspad
+Definities rijbanen en fietspad
+-------------------------------
 
 De volgende definities van subclassificaties van een Wegdeel worden aangevuld
 met de volgende verduidelijking (vetgedrukt):
@@ -274,7 +284,8 @@ fietsstrook (oranjekleurige strook verharding met een fietssymbool) ook als
 fietspad worden afgebakend. Fietssuggestiestroken (zonder fietssymbool) vallen
 buiten de definitie; fietssuggestiestroken hebben geen wettelijke status.
 
-### Definitie bunker
+Definitie bunker
+----------------
 
 De definitie van ‘bunker’ wordt aangevuld met de volgende zinsnede (vetgedrukt):
 
@@ -284,7 +295,8 @@ De definitie van ‘bunker’ wordt aangevuld met de volgende zinsnede (vetgedru
 Met de huidige definitie zou verwarring kunnen ontstaan dat alleen de bunkers
 die in gebruik zijn als militair verdedingswerk mogen worden opgenomen in IMGeo.
 
-### Definities putten
+Definities putten
+-----------------
 
 De definities van de volgende subclassificaties worden aangevuld met de volgende
 zinsneden (vetgedrukt):
@@ -315,7 +327,8 @@ put terwijl IMGeo in principe alleen het deksel opneemt, niet het onderliggende
 object. Dit conflicteert met de regels/definities die RIONED hanteert bij deze
 objecten. De nieuwe definities lossen dit conflict op.
 
-### Samenvallen kruinlijn en objectbegrenzing
+Samenvallen kruinlijn en objectbegrenzing
+-----------------------------------------
 
 In hoofdstuk 10 van de BGT catalogus worden bij de regels voor opname van
 kruinlijnen bij een wegdeel (10.1.2), ondersteunend wegdeel (10.2.2) en
@@ -325,7 +338,8 @@ onbegroeid terreindeel (10.4.2) de volgende zinsneden (vetgedrukt) toegevoegd:
 >   zijnde bovenkant talud. **De coördinaten van de kruinlijn zijn identiek met
 >   die van de objectbegrenzing ter plaatse.”**
 
-### Samenvallen functionele gebieden en objectbegrenzing
+Samenvallen functionele gebieden en objectbegrenzing
+----------------------------------------------------
 
 In hoofdstuk 2 van de BGT catalogus wordt de volgende zinsnede (vetgedrukt)
 toegevoegd:
@@ -367,7 +381,8 @@ objecten is niet duidelijk of / hoe deze objecten plaatsbepalingspunten hebben.
 Dit voorstel neemt deze onduidelijkheden weg. De software in de BGT keten werkt
 al volgens deze regels.
 
-### Nederlandse tijdzone met zomer/wintertijd
+Nederlandse tijdzone met zomer/wintertijd
+-----------------------------------------
 
 De tekst in paragraaf 4.5.3 van de BGT catalogus wordt als volgt verduidelijkt:
 
@@ -379,7 +394,8 @@ De tekst in paragraaf 4.5.3 van de BGT catalogus wordt als volgt verduidelijkt:
 >   zondag in het laatste weekend van oktober wanneer de klok een uur teruggaat
 >   ) geen tijdstip worden toegekend aan (versies van) objecten.**
 
-### Interne vs. relatieve precisie
+Interne vs. relatieve precisie
+------------------------------
 
 In de tekst in paragraaf 4.2 van de BGT catalogus:
 
