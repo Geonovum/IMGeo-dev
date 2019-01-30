@@ -12,14 +12,14 @@ blockquote {
  border-style: none !important;
 }
 
-blockquote:before {
+/*blockquote:before {
     display: block;
     height: 0;
     content: "“";   
     margin-left: -0.95em;
     font: italic 400%/1 Esteban, serif;
     color: #999;
-}
+}*/
 
 wijziging:before {
     
