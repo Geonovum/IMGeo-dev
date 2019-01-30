@@ -14,5 +14,6 @@ standaarden:
 
 Overige openstaande verbetersuggesties worden in een volgende ronde voor een
 nieuwe versie van IMGeo behandeld. Een actueel overzicht van de openstaande
-meldingen op de BGT\|IMGeo standaarden staat op
+meldingen op de BGT\|IMGeo standaarden staat op de [Github van
+IMGeo](https://github.com/Geonovum/IMGeo2018/issues).
 <https://github.com/Geonovum/IMGeo2018/issues>
