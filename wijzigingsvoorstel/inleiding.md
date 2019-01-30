@@ -35,9 +35,6 @@ bij de behoeften van gebruikers. Met IMGeo 2.2 wordt/worden
     de standaardisatie van BOR, en het efficiënter bijhouden van de BGT
     (‘opbouwen vanuit beheer’).
 
--   (Het proces rondom de bijhouding van bouwwerken vereenvoudigd wat bijdraagt
-    aan het efficiënter bijhouden en de actualiteit van de BGT.)
-
 Inhoud
 ------
 
