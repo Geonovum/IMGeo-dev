@@ -83,7 +83,8 @@ Basisregistratie Topografie (BRT). Met deze wijziging sluiten BGT en BRT beter
 op elkaar aan wat bijdraagt aan de geautomatiseerde generalisatie van BRT uit
 BGT.
 
-### Indeling van particuliere terreinen
+Indeling van particuliere terreinen
+-----------------------------------
 
 Aan de tekst in paragraaf 2.4 Dekking van de BGT catalogus:
 
