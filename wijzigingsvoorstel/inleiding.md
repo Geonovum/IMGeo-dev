@@ -107,6 +107,8 @@ nieuwe domeinwaardenlijsten en aanpassing van enige topologische business rules.
 Overzichtstabel IMGeo 2.2
 -------------------------
 
+De objectenstructuur in IMGeo 2.2 is als volgt:
+
 Onderstaande tabel toont een overzicht van de objecttypen, attributen en
 domeinwaarden van IMGeo 2.2, na overnemen voorstellen in dit wijzigingsvoorstel.
 
