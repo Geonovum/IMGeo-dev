@@ -70,8 +70,8 @@ attribuut.
     moeten opnemen.
 
 -   De typen ‘bunker’, ‘keermuur’, ‘faunavoorziening’, ‘bordes’, ‘wildrooster’
-    en ‘rooster’ worden verplaatst van de codelijst voor bgt-type naar de
-    codelijst voor plus-type. **Deze vlakobjecten verschuiven daarmee van de
+    en ‘rooster’ worden verplaatst van de codelijst voor plus-type naar de
+    codelijst voor bgt-type. **Deze vlakobjecten verschuiven daarmee van de
     inrichtende/vrijwillige laag naar de opdelende/verplichte laag.** Als deze
     objecten vlakgeometrie hebben, maken zij een gat in de onderliggende
     wegdelen, terreindelen en/of waterdelen (wildrooster en rooster kunnen ook
