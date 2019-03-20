@@ -29,7 +29,7 @@ FunctieWeg
 | voetgangersgebied      | Wegdeel alleen voor het gebruik door voetgangers, waarbij het door voetgangers te gebruiken gebied de volle breedte van de weg beslaat en het gebied een nadrukkelijk openbaar karakter heeft. (bron: IMGEO 1.0) |
 | inrit                  | Toegangswegen, oprijlanen en dergelijke met verkeersfunctie die leiden naar afgelegen erven en terreinen. (bron: IMGEO 2.0)                                                                                      |
 | woonerf                | Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie. (bron: IMGEO 1.0)                                                                              |
-| transitie              | De waarde is tijdens transitie niet bekend. (bron: BGT)                                                                                                                                                          |
+|
 
 FysiekVoorkomenWeg
 ------------------
@@ -39,7 +39,7 @@ FysiekVoorkomenWeg
 | open verharding     | Verharding gevormd door in verband aangebrachte elementen van beperkte afmetingen, zoals bijvoorbeeld klinkers en tegels. (bron: IMGEO 1.0)                        |
 | half verhard        | Verharding bestaande uit een door verdichting gebonden materiaal, of onsamenhangend materiaal. (bron: BGT)                                                         |
 | onverhard           | Wegdelen waar geen verharding of aaneengesloten vegetatie aanwezig is. (bron: IMGEO 1.0)                                                                           |
-| transitie           | De waarde is tijdens transitie niet bekend. (bron: BGT)                                                                                                            |
+|
 
 FunctieOndersteunendWegdeel
 ---------------------------
@@ -47,7 +47,7 @@ FunctieOndersteunendWegdeel
 | verkeerseiland | Ondersteunend wegdeel van beperkte omvang, uitgevoerd als verhoging of wegmarkering, dat wordt omsloten door wegdelen en ten doel heeft verkeersstromen te scheiden. (bron: CROW) |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | berm           | Een strook grond langs een weg of spoorweg. (bron: BGT)                                                                                                                           |
-| transitie      | De waarde is tijdens transitie niet bekend. (bron: BGT)                                                                                                                           |
+|
 
 FysiekVoorkomenOndersteunendWegdeel
 -----------------------------------
@@ -58,7 +58,6 @@ FysiekVoorkomenOndersteunendWegdeel
 | half verhard        | Verharding bestaande uit een door verdichting gebonden materiaal, of onsamenhangend materiaal. (bron: BGT)                                                   |
 | onverhard           | Wegdelen waar geen verharding of aaneengesloten vegetatie aanwezig is. (bron: BGT)                                                                           |
 | groenvoorziening    | Terreindeel met aangelegde beplanting, meestal gras, heesters of struiken. (bron: BGT)                                                                       |
-| transitie           | De waarde is tijdens transitie niet bekend. (bron: BGT)                                                                                                      |
 
 FunctieSpoor
 ------------
@@ -67,7 +66,6 @@ FunctieSpoor
 |-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | sneltram  | Spoor voor een boven- danwel ondergrondse interlokale tram met een vrije baan. (bron: BGT)                                                                                            |
 | tram      | Spoor voor een railvoertuig voor personenvervoer voor de korte afstand. (bron: BGT)                                                                                                   |
-| transitie | De waarde is tijdens transitie niet bekend. (bron: BGT)                                                                                                                               |
 | niet-bgt  | Het object is geen BGT object. (bron: BGT 1.1)                                                                                                                                        |
 
 FysiekVoorkomenOnbegroeidTerrein
@@ -80,7 +78,6 @@ FysiekVoorkomenOnbegroeidTerrein
 | half verhard        | Verharding bestaande uit een door verdichting gebonden materiaal, of onsamenhangend materiaal. (bron: BGT)                                                                        |
 | onverhard           | Terreindeel waar geen verharding of aaneengesloten vegetatie aanwezig is, niet zijnde zand. Braakliggend valt hier wel onder. (bron: IMGEO 1.0)                                   |
 | zand                | Terreindeel dat grotendeels bedekt is met zand. (bron: BGT)                                                                                                                       |
-| transitie           | De waarde is tijdens transitie niet bekend. (bron: BGT)                                                                                                                           |
 
 FysiekVoorkomenBegroeidTerrein
 ------------------------------
@@ -102,7 +99,7 @@ FysiekVoorkomenBegroeidTerrein
 | bouwland           | Terreindeel in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. (bron: BGT)                                                                           |
 | grasland agrarisch | Terreindeel met een vegetatie bestaande uit grassen en of grasachtigen, en met de in graslanden voorkomende kruiden, zijnde cultuurgrasland dat in gebruik is voor de veeteelt, bijvoorbeeld als weiland of als hooiland. (bron: BGT) |
 | groenvoorziening   | Terreindeel met aangelegde beplanting, meestal gras, heesters of struiken. (bron: BGT)                                                                                                                                                |
-| transitie          | De waarde is tijdens transitie niet bekend. (bron: BGT)                                                                                                                                                                               |
+
 
 TypeWater
 ---------
@@ -112,7 +109,7 @@ TypeWater
 | waterloop            | Een voor de waterbeheersing bestemde geul die meestal permanent water bevat (zoals rivier, kanaal, beek, sloot, gracht). (bron: BGT) |
 | watervlakte          | Alle oppervlakken die vrij permanent met zoet water zijn bedekt. (zoals meer, plas, ven, vijver). (bron: IMGEO 1.0)                  |
 | greppel, droge sloot | Een ten behoeve van de waterbeheersing gegraven geul die al dan niet met water bedekt is. (bron: IMGEO 1.0)                          |
-| transitie            | De waarde is tijdens transitie niet bekend. (bron: BGT)                                                                              |
+
 
 TypeOndersteunendWaterdeel
 --------------------------
@@ -120,7 +117,7 @@ TypeOndersteunendWaterdeel
 | oever, slootkant | De strook land die in direct contact staat met water, inclusief het gebied tussen de hoogwaterlijn en laagwaterlijn. (bron: Inspire) |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | slik             | Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt. (bron: aquo)                                    |
-| transitie        | De waarde is tijdens transitie niet bekend. (bron: BGT)                                                                              |
+
 
 TypeOverigBouwwerk
 ------------------
@@ -133,7 +130,7 @@ TypeOverigBouwwerk
 | windturbine | Turbine waarin winddruk omgezet wordt in mechanische energie. (bron: BGT)                                                                         |
 | lage trafo  | Bouwwerk waarin transformator(en) zijn geplaatst voor elektriciteitsvoorziening. (bron: BGT)                                                      |
 | bassin      | Waterbak, zoals een zwembad of een dok. (bron: BGT)                                                                                               |
-| transitie   | De waarde is tijdens transitie niet bekend. (bron: BGT)                                                                                           |
+
 | niet-bgt    | Het object is geen BGT object. (bron: BGT 1.1)                                                                                                    |
 
 TypeKunstwerk
@@ -147,7 +144,7 @@ TypeKunstwerk
 | strekdam          | Constructie in het water ter verdediging van de kust/oever. (bron: IMGEO 1.0)                                                                                         |
 | steiger           | Vaste (niet drijvende) waterbouwkundige constructie voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen. (bron: IMGEO 1.0)   |
 | stuw              | Een constructie met een vaste drempel of een beweegbare klep, die dient om de waterstand boven- en benedenstrooms te regelen. (bron: BGT)                             |
-| transitie         | De waarde is tijdens transitie niet bekend. (bron: BGT)                                                                                                               |
+
 | niet-bgt          | Het object is geen BGT object. (bron: BGT 1.1)                                                                                                                        |
 
 TypeScheiding
@@ -160,7 +157,7 @@ TypeScheiding
 | damwand        | Een grondkerende constructie die bestaat uit een verticaal in de grond geplaatste wand. (bron: BGT)                               |
 | walbescherming | Een nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur. (bron: IMGEO 1.0) |
 | hek            | Een hekwerk of schutting, typisch ten behoeve van erfafscheiding. (bron: BGT)                                                     |
-| transitie      | De waarde is tijdens transitie niet bekend. (bron: BGT)                                                                           |
+
 | niet-bgt       | Het object is geen BGT object. (bron: BGT 1.1)                                                                                    |
 
 TypeOpenbareRuimte
@@ -194,7 +191,6 @@ Inwinningsmethode
 | scannen          | De geometrie is geautomatiseerd van analoog naar digitale informatie omgezet. (bron: BGT)              |
 | bouwtekening     | De geometrie is van een bouwtekening afgeleid. (bron: BGT)                                             |
 | geconstrueerd    | De geometrie is in een GIS of CAD systeem geconstrueerd. (bron: BGT)                                   |
-| transitie        | De gebruikte inwinningsmethode is tijdens transitie niet bekend. (bron: BGT)                           |
 
 VoidReasonValue
 ---------------
