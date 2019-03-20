@@ -272,24 +272,6 @@ De objecttypen worden hieronder besproken.
 | **Overzicht associaties**         |                                                               |
 | **Overzicht attributen**          | \<\<BGT\>\>bgt-type [1-1]<br />plus-type [0-1]              |
 
-# Objecttype: OngeclassificeerdObject
-
-| **Naam objecttype**               | OngeclassificeerdObject                                                                                                                                                                                                                                                     |
-|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                    | \<\<featureType\>\> \<\<objecttype\>\> \<\<BGT\>\>                                                                                                                                                                                                                          |
-| **Herkomst objecttype**           | BGT                                                                                                                                                                                                                                                                         |
-| **Code objecttype**               | 900                                                                                                                                                                                                                                                                         |
-| **Definitie objecttype**          | Object waarvoor geen bronhouder aangewezen is en/of dat niet nader is geclassificeerd.                                                                                                                                                                                      |
-| **Herkomst definitie objecttype** | BGT                                                                                                                                                                                                                                                                         |
-| **Datum opname objecttype**       |                                                                                                                                                                                                                                                                             |
-| **Subtype van**                   | \_CityObject, IMGeo-Object                                                                                                                                                                                                                                                  |
-| **Toelichting objecttype**        | Bedoeld voor objecten waarvoor geen BGT bronhouder is, zoals slivers tussen sloot en akker, natuurterreinen, sloten niet op de legger, terrein waar niemand toegang toe heeft, etc. Het object doet mee in de topologische structuur en komt alleen voor op maaiveldniveau. |
-| **Unieke aanduiding objecttype**  | Identificatie.                                                                                                                                                                                                                                                              |
-| **Populatie**                     |                                                                                                                                                                                                                                                                             |
-| **Kwaliteitsbegrip**              |                                                                                                                                                                                                                                                                             |
-| **Overzicht associaties**         | \<\<BGT\>\>geometrie2d [1..1]                                                                                                                                                                                                                                               |
-| **Overzicht attributen**          |                                                                                                                                                                                                                                                                             |
-
 # Objecttype: FunctioneelGebied
 
 | **Naam objecttype**               | FunctioneelGebied                                                             |
@@ -1051,18 +1033,6 @@ Scheiding
 | **Indicatie formele historie**   | Ja                                    |
 | **Indicatie authentiek**         | Authentiek                            |
 | **Toelichting attribuut**        |                                       |
-
-OngeclassificeerdObject
------------------------
-
-### Associatie: geometrie2d
-
-| **Definitie**      | Vlakgeometrie. |
-|--------------------|----------------|
-| **Doelklasse**     | GM\_Surface    |
-| **Multipliciteit** | [1..1]         |
-| **Stereotype**     | \<\<BGT\>\>    |
-| **Toelichting**    |                |
 
 FunctioneelGebied
 -----------------
