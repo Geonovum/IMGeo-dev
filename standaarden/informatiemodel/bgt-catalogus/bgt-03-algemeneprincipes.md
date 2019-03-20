@@ -168,8 +168,7 @@ Het BGT-informatiemodel beschrijft het geometrietype als een associatie van een 
 |                            | walbescherming                 | Lijn                   |
 |                            | hek                            | Lijn                   |
 |                            |                                |                        |
-| *Ongeclassificeerd object* | Ongeclassificeerd Object       | Vlak                   |
-|                            |                                |                        |
+| 
 | *Functioneel Gebied*       | kering                         | Vlak                   |
 
 N.B. Functionele gebieden doen, in tegenstelling tot alle andere BGT-vlakobjecten, niet mee in de topologische structuur. Zij liggen als het ware als een overlay over andere BGT-objecten. Bij de kering kan het bijvoorbeeld gaan om dijken die zijn samengesteld uit terreindelen en wegdelen.
