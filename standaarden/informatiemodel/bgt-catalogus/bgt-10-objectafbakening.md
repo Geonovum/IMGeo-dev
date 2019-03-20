@@ -376,10 +376,3 @@ Scheidingen van het type muur, met een minimale lengte van 1m en met een minimal
 
 In terreinen met een fysiek voorkomen ‘erf’ worden alleen die scheidingen opgenomen die direct aan de straatzijde zijn gelegen.
 
-## Ongeclassificeerd object
-
-Om tijdens de transitie naar de BGT het probleem van de zogenoemde ‘weesobjecten’ op te vangen, is het ongeclassificeerd object geïntroduceerd. Dit is een extra objecttype als klasse op het hoogste niveau.
-
-Het kan terrein of water zijn en het doet mee aan de topologische structuur op niveau 0.
-
-Zodra er een terugmelding op dit object ontstaat, moet het worden geclassificeerd overeenkomstig de geldende BGT-regels.
