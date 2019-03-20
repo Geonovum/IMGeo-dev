@@ -664,17 +664,7 @@ Scheiding
 | **Indicatie authentiek**         | Authentiek                            |
 | **Toelichting attribuut**        |                                       |
 
-OngeclassificeerdObject
------------------------
 
-### Associatie: geometrie2d
-
-| **Definitie**      | Vlakgeometrie. |
-|--------------------|----------------|
-| **Doelklasse**     | GM\_Surface    |
-| **Multipliciteit** | [1..1]         |
-| **Stereotype**     | \<\<BGT\>\>    |
-| **Toelichting**    |                |
 
 FunctioneelGebied
 -----------------
@@ -811,7 +801,7 @@ Plaatsbepalingspunt
 | **Indicatie materiële historie** | Nee                                                                                                                                                  |
 | **Indicatie formele historie**   | Nee                                                                                                                                                  |
 | **Indicatie authentiek**         | Authentiek                                                                                                                                           |
-| **Toelichting attribuut**        | Als de inwinningsdatum van het punt tijdens transitie onbekend is, moet hier de datum van de transitie (gelijk aan objectBeginTijd) worden ingevuld. |
+| **Toelichting attribuut**        |
 
 ### inwinnendeInstantie
 
