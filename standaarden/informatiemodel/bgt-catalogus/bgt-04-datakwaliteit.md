@@ -79,7 +79,7 @@ Omdat de BGT bestaat uit een verzameling objecten wordt in de tabel per object e
 |                          | Walbescherming | 18                                  | 60                                                          | ≥ 10                                    |
 |                          | Hek            | 18                                  | 60                                                          | ≥ 10                                    |
 |                          |                |                                     |                                                             |                                         |
-| Ongeclassificeerd object |                |                                     |                                                             |                                         |
+
 |                          |                |                                     |                                                             |                                         |
 | Functioneel gebied       | Kering         | 18                                  | 60                                                          | ≥ 10                                    |
 
@@ -106,75 +106,6 @@ Als men punten over grotere afstand met elkaar wil vergelijken, moet men rekenin
 ## Volledigheid
 
 Onder volledigheid verstaat men de mate waarin BGT-objecten die in werkelijkheid voorkomen in het bestand zijn opgenomen. Voor alle vlakobjecten op maaiveldniveau in de BGT geldt per bronhouder een volledigheidseis van 100%. Voor alle overige objecten geldt een volledigheidseis van 98%. Het percentage heeft betrekking op het aantal objecten per bronhouder. Daarnaast geldt dat op maaiveldniveau de objecten samen 100% dekkend zijn (zie paragraaf 2.4 en 3.7).
-
-### Volledigheid objectkenmerken tijdens transitie
-
-Tijdens fase 1 van de realisatie van de BGT, de transitie[^2], moeten de objecten opgenomen worden inclusief hun geometrie en hun hoofdklasse (de klassen genoemd in het semantisch gegevensmodel in hoofdstuk 6). Voor de objecttypen is in het informatiemodel ook een aantal kenmerken beschreven. Deze kenmerken hoeven tijdens de transitie nog niet allemaal ingevuld te worden. Voor alle objecttypen geldt het volgende.
-
-[^2]: De transitie loopt van 1 januari 2013 tot en met 31 december 2015.
-
-| Kenmerk                    | Verplicht tijdens transitie ja/nee     | Toelichting                                                                                                                                                                                                                          |
-|----------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **objectBegintijd**        | ja                                     | Optioneel in het informatiemodel (dit komt door de informatietechnische integratie met CityGML), maar moet ook in de transitie verplicht ingevuld worden. Inhoud is dan de datum waarop het object tijdens de transitie is gevormd. |
-| **objectEindtijd**         | nee                                    | Optioneel. Een actueel object heeft geen eindtijd.                                                                                                                                                                                  |
-| **identificatie**          | ja                                     | Ook in de transitie verplicht. Dit kenmerk is essentieel voor een objectregistratie.                                                                                                                                                |
-| **tijdstipRegistratie**    | ja                                     | Ook in de transitie verplicht. Van elk objectversie moet bekend zijn wanneer die is opgenomen bij de bronhouder. Als een object voor het eerst wordt gevormd tijdens transitie is dit gelijk aan de objectBeginTijd.                |
-| **eindregistratie**        | nee                                    | Optioneel. Een actuele versie van een object heeft geen eindtijd.                                                                                                                                                                   |
-| **LV-publicatiedatum**     | nee                                    | Optioneel. Dit kenmerk wordt gevuld in de Landelijke Voorziening.                                                                                                                                                                   |
-| **bronhouder**             | ja                                     | Verplicht. Dit gegeven is nodig in de objectregistratie. De bronhoudertabel wordt in de Landelijke Voorziening beheerd                                                                                                              |
-| **inOnderzoek**            | ja                                     | Is een ja/nee veld, verplicht: standaard kan men deze op ‘nee’ zetten.                                                                                                                                                              |
-| **relatieveHoogteligging** | ja                                     | Verplicht. Dit gegevens is nodig om controles op landsdekkendheid te doen.                                                                                                                                                          |
-| **status**                 | ja                                     | Is verplicht: standaard op ‘bestaand’ zetten.                                                                                                                                                                                       |
-| **geometrie2d[\*]**        | ja                                     | Is verplicht. Tijdens de transitie moeten minstens de objecten opgenomen worden met hun geometrie.                                                                                                                                  |
-
-De nadere classificaties met codelijsten hebben allemaal een waarde ‘transitie’ meegekregen. Dit betekent: de waarde is tijdens transitie niet bekend.
-
-Voor Plaatsbepalingspunt geldt bovendien:
-
-| Kenmerk                 | Verplicht tijdens transitie ja/nee     | Toelichting                                                                                                                                                                                                          |
-|-------------------------|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **nauwkeurigheid**      | Nee                                    | Indien niet bekend, de minimale toegestane kwaliteit voor de nauwkeurigheid in de gegevensverzameling invullen. Indien dit ook niet bekend is kan een void waarde worden ingevuld met als reden: ‘waarde onbekend’. |
-| **datumInwinning**      | Nee                                    | Indien niet bekend, hetzelfde invullen als bij tijdstipRegistratie van het object.                                                                                                                                  |
-| **inwinningsmethode**   | nee                                    | Indien niet bekend, ‘transitie’ invullen (de gebruikte inwinningsmethode is tijdens transitie niet bekend)                                                                                                          |
-| **inwinnendeInstantie** | nee                                    | Indien dit niet bekend is kan een void waarde worden ingevuld met als reden: ‘waarde onbekend’.                                                                                                                     |
-
-Voor Wegdeel, OndersteunendWegdeel, OnbegroeidTerreindeel, Begroeid Terreindeel
-geldt bovendien:
-
-| Kenmerk           | Verplicht tijdens transitie ja/nee     | Toelichting                                                                                                                                                                                                                                                                                                 |
-|-------------------|----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **[\*]opTalud**   | nee                                    | Indien dit niet bekend is kan een void waarde worden ingevuld met als reden: ‘waarde onbekend’.                                                                                                                                                                                                            |
-| **kruinlijn[\*]** | nee                                    | Als het object geen kruinlijn heeft, wordt dit kenmerk opgenomen met een void waarde en als reden ‘geen waarde’. Als, in de transitie, onbekend is of het object al dan niet een kruinlijn heeft, wordt het kenmerk wel opgevoerd en kan een void waarde worden ingevuld met als reden: ‘waarde onbekend’. |
-
-Voor Pand geldt bovendien:
-
-| Kenmerk                 | Verplicht tijdens transitie ja/nee     | Toelichting                                                       |
-|-------------------------|----------------------------------------|-------------------------------------------------------------------|
-| **identificatieBagPND** | ja                                     | Attribuut is verplicht om de relatie met de BAG te kunnen leggen. |
-
-Voor OpenbareRuimteLabel geldt bovendien:
-
-| Kenmerk                 | Verplicht tijdens transitie ja/nee     | Toelichting                                                                                                                                       |
-|-------------------------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| **identificatieBAGOPR** | ja                                     | Attribuut is verplicht om de relatie met de BAG te kunnen leggen.                                                                                |
-| **openbareRuimteNaam**  | ja                                     | Verplicht incl. plaatsingspunt en evt. rotatie, het tonen van de straatnamen op de kaart is de enige reden dat OpenbareRuimteNaam in de BGT zit. |
-| **openbareRuimteType**  | ja                                     | Is verplicht, nodig voor visualisatie.                                                                                                           |
-
-#### Void waarden
-
-Tijdens de transitie moet onderscheid gemaakt kunnen worden tussen kenmerken die echt geen waarde hebben (bijvoorbeeld: object heeft geen kruinlijn, het is een plat vlak) en kenmerken waarvan nog niet bekend is of het wel of niet een waarde heeft in de werkelijkheid, omdat men nog in de transitie is.
-
-Om dit onderscheid te kunnen maken wordt de void waarde geïntroduceerd. In het informatiemodel wordt aangegeven welke kenmerken met een void waarde kunnen worden ingevuld, namelijk met het stereotype \<\<voidable\>\>.
-
-Als een kenmerk \<\<voidable\>\> is, kan men het vullen met een void of null waarde. Dit gaat altijd gepaard met de reden waarom de waarde ontbreekt. De mogelijke redenen zijn conform NEN 3610:2011:
-
--   geenWaarde
--   nietOndersteund
--   waardeOnbekend
--   vastgesteldOnbekend
--   nietGeautoriseerd
-
-Tijdens transitie kiest men dan de waarde ‘waardeOnbekend’.
 
 ## Logische consistentie
 

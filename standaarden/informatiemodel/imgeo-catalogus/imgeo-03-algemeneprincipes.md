@@ -223,8 +223,6 @@ vermelding: niet-bgt in de kolom BGT classificatie.
 |                                                             | niet-bgt                       | draadraster                                | Lijn                   |
 |                                                             | niet-bgt                       | faunaraster                                | Lijn                   |
 |                                                             |                                |                                            |                        |
-| **Ongeclassificeerd object**                                |                                |                                            | Vlak                   |
-|                                                             |                                |                                            |                        |
 | **Functioneel Gebied**                                      | *Type:*                        |                                            |                        |
 |                                                             | kering                         |                                            | Vlak                   |
 |                                                             | niet-bgt                       | bedrijvigheid                              | Vlak                   |
