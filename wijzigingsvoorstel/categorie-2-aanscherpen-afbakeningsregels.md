@@ -297,9 +297,17 @@ vervangen door:
 Geleidewerk en remmingswerk inwinnen aan zijde scheepvaart
 ----------------------------------------------------------
 
-In paragraaf 9.6 Waterdeel en waterinrichtingselement wordt tekst uitgebreid met
-de volgende zinsnede:
+In paragraaf 9.6 Waterdeel en waterinrichtingselement van de IMGeo catalogus
+wordt tekst uitgebreid met de volgende zinsnede:
 
 >   Van remmingswerk, geleidewerk en vuilvang wordt de lijngeometrie opgenomen
 >   waarbij voor remmingswerk en geleidewerk geldt dat deze worden ingewonnen
 >   aan die zijde waar de scheepvaart langs vaart.
+
+Schrappen ‘afgelegen’ in definitie inrit
+----------------------------------------
+
+In paragraaf 9.2 FunctieWeg wordt de definitie van ‘inrit’:
+
+>   Toegangswegen, oprijlanen en dergelijke met verkeersfunctie die leiden naar
+>   erven en terreinen.
