@@ -2,9 +2,11 @@ Herindelen bouwwerken in de BGT
 ===============================
 
 **Gerelateerde issue(s)**
+[\#26](https://github.com/Geonovum/IMGeo2018/issues/26),
+[\#146](https://github.com/Geonovum/IMGeo2018/issues/146)
 
-Het voorstel is om de omgang met gebouwen in de BGT op de volgende punten te
-wijzigen.
+Het voorstel is om de omgang met gebouwen en overigebouwwerken in de BGT op de
+volgende punten te wijzigen.
 
 **Huidige situatie** In de BGT wordt het pand zijn van een gebouw vastgelegd op
 het hoogste niveau van het model, namelijk in een aparte objectklasse PAND. In
@@ -54,7 +56,9 @@ Een GEBOUWDEEL heeft de volgende subclassificaties:
 
 >   bgt-type: overkapping, open loods, opslagtank, windturbine
 
->   plus-type: schuur, bunker, voedersilo
+>   plus-type: schuur, bunker, voedersilo, woonboot (IMGeo 2.2), woonwagen
+>   (IMGeo 2.2), strandtent (IMGeo 2.2), dugout (IMGeo 2.2), parkeergarage
+>   (IMGeo 2.2), tribune (IMGeo 2.2)
 
 Objecten die geen gebouwdeel zijn worden opgenomen als OVERIGBOUWWERK, waarbij
 de definitie van OVERIGBOUWERK wordt aangepast naar:
@@ -66,7 +70,7 @@ OVERIGBOUWWERK heeft de volgende subclassificaties:
 
 >   bgt-type: bezinkbak, lage trafo, bassin,
 
->   plus-type: -
+>   plus-type: sleufsilo (IMGeo 2.2), infiltratiereservoir (IMGeo 2.2)
 
 De definities van classificaties blijven ongewijzigd ten opzichte van de huidige
 situatie.
@@ -117,3 +121,7 @@ Na software aanpassen op nieuw berichtschema, volgt centrale dataconversie.
 Er moet nader onderzocht te worden of de dataconversie met behoud van ID kan
 worden uitgevoerd om bestaande koppelingen in achterliggende registraties te
 behouden.
+
+De werkafspraak Panden en OverigeBouwwerken in BGT door BAG 2.0
+(<https://www.geonovum.nl/over-geonovum/actueel/werkafspraak-panden-en-overigebouwwerken-in-bgt-door-bag-20>)
+kan na implementatie komen te vervallen.
