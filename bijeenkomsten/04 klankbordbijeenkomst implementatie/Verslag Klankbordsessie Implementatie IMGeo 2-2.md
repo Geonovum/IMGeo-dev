@@ -148,9 +148,7 @@ o.a. het volgende werd opgemerkt:
     datum over op de nieuwe versie, indien dat niet wordt gehaald kunnen
     bepaalde objecten tijdelijk niet meer worden uitgewisseld waarbij opgemerkt
     wordt dat een mutatiestop van 2 maanden niet erg is (overige objecten die
-    niet geraakt worden IMGeo 2.2 kunnen wel geleverd blijven worden).
-
-   Verschillende modelvarianten moeten tijdens de overgangsperiode ondersteund
+    niet geraakt worden IMGeo 2.2 kunnen wel geleverd blijven worden).  Verschillende modelvarianten moeten tijdens de overgangsperiode ondersteund
    worden door de keten. Er zijn twee overgangsmomenten: moment waarop IMGeo
   2.1.1 en IMGeo 2.2 worden ondersteund, en moment waarop alleen IMGeo 2.2
    wordt ondersteund. Tijdens periode met twee versies in de keten zou een
