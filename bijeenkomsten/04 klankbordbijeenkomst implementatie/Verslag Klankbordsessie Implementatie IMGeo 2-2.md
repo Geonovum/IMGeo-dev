@@ -150,14 +150,14 @@ o.a. het volgende werd opgemerkt:
     wordt dat een mutatiestop van 2 maanden niet erg is (overige objecten die
     niet geraakt worden IMGeo 2.2 kunnen wel geleverd blijven worden).
 
->   Verschillende modelvarianten moeten tijdens de overgangsperiode ondersteund
->   worden door de keten. Er zijn twee overgangsmomenten: moment waarop IMGeo
->   2.1.1 en IMGeo 2.2 worden ondersteund, en moment waarop alleen IMGeo 2.2
->   wordt ondersteund. Tijdens periode met twee versies in de keten zou een
->   centrale voorziening als scheidsrechter/coördinator de conversie moeten
->   verzorgen dat IMGeo 2.2-objecten worden teruggezet naar IMGeo2.1.1 voor
->   bronhouders die nog niet over zijn op de nieuwe versie en vice versa. Er
->   wordt gepleit voor breed certificeren (incl. BRAVO) en ketentesten.
+   Verschillende modelvarianten moeten tijdens de overgangsperiode ondersteund
+   worden door de keten. Er zijn twee overgangsmomenten: moment waarop IMGeo
+  2.1.1 en IMGeo 2.2 worden ondersteund, en moment waarop alleen IMGeo 2.2
+   wordt ondersteund. Tijdens periode met twee versies in de keten zou een
+  centrale voorziening als scheidsrechter/coördinator de conversie moeten
+   verzorgen dat IMGeo 2.2-objecten worden teruggezet naar IMGeo2.1.1 voor
+  bronhouders die nog niet over zijn op de nieuwe versie en vice versa. Er
+   wordt gepleit voor breed certificeren (incl. BRAVO) en ketentesten.
 
 Afspraken en vervolg
 --------------------
