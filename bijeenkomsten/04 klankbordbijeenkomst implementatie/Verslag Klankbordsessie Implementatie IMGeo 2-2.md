@@ -162,6 +162,17 @@ o.a. het volgende werd opgemerkt:
 
 Afspraken en vervolg
 --------------------
+Het eindbeeld dat is ontstaan na de terugkoppeling uit de subgroepen is dat een groot deel van de afbakeningsvoorstellen goed zijn door te voeren:
+
+- Wel werk, maar te overzien
+- Zoveel mogelijk in reguliere bijhouding
+- Zoveel mogelijk (op verzoek van BH) centraal signaleren
+- Eventueel met hulp van andere bronhouder doen
+ 
+Nader uitzoekwerk wordt gedaan naar de voorstellen die raken aan: 
+
+- definities van ‘berm’, ‘inrit’, ‘oever/slootkant
+- het IT proces van de implementatie
 
 De werkgroep Productie-impact imgeo 2.2 die de impactuitvraag coördineert en het
 concept-implementatievoorstel voorbereidt zal de input van de
