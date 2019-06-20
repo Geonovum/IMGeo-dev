@@ -266,77 +266,8 @@ Dit voorstel draagt bij aan
 
 opmerking: Onderscheid tussen twee objecten Scheiding en OverigScheiding blijft wel nodig voor bijvoorbeeld het opnemen van draadraster en faunaraster en scheidingen tussen percelen. Om die reden kan OverigeScheiding als objecttype niet geschrapt worden.
 
-### Kleinere minimale afmetingen voor oever/slootkant
-
-**Wat was de oude regel?**
-
-**Wat wordt de nieuwe regel?**
-ntb
-
-**Wat moet je doen?**
-
-**Wat moet je niet doen?**
-
-**Wie moeten het doen?**
-
-**Hoe moet je dat doen?**
-
-**Waar moet je opletten?**
-
-**Om hoeveel objecten gaat het?**
-
-Bronhouder \| Aantal \| Punten \| Vlakken
-
-**Wanneer moet het klaar zijn?**
-
-Uiterlijk maanden na vaststelling werkafspraak.
-
-**Waarom doen we dit?**
-
-Dit voorstel draagt bij aan
-
-### Schrappen afgelegen in definitie inrit
-
-**Wat was de oude regel?**
-Toegangswegen, oprijlanen en dergelijke met verkeersfunctie die leiden naar
-afgelegen erven en terreinen.
-
-**Wat wordt de nieuwe regel?**
-In de definitie van inrit wordt de zinsnede ‘afgelegen’ geschrapt.
-
-**Wat moet je doen?**
-alle inritten afbakenen die voldoen aan de nieuwe regel. waarbij de definitie van inrit nog vastgesteld moet worden.
-(manier van afbakening volgens wysiwyg?)
-
-**Wat moet je niet doen?**
 
 
-**Wie moeten het doen?**
-bronhouders die nog geen inritten als dusdanig opgenomen hadden. bronhouders die inritten op de nieuwe manier opgenomen hebben, hoeven geen controle hierop uit te voeren.
-
-**Hoe moet je dat doen?**
-
-
-**Waar moet je opletten?**
-
-
-**Om hoeveel objecten gaat het?**
-
-Bronhouder \| Aantal \| Punten \| Vlakken
-
-**Wanneer moet het klaar zijn?**
-
-Uiterlijk maanden na vaststelling werkafspraak.
-
-**Waarom doen we dit?**
-diverse gemeenten en veiligheidsdiensten hebben hierom gevraagd.
-
-Dit voorstel draagt bij aan
-\- Uniformiteit en kwaliteit van de BGT.
-
-\- Integraal beheer. Voor beheer zijn inritten in bebouwde kom ook belangrijk.
-
-\- samenwerking is mogelijk.
 
 ### Indeling van particuliere terreinen
 
@@ -410,3 +341,78 @@ Uiterlijk 12 maanden na vaststelling werkafspraak.
 
 Dit voorstel draagt bij aan
 \- Uniformiteit en kwaliteit van de BGT.
+
+Uitstellen tot nader uitwerking 
+-------------------------------------------------------
+
+### Schrappen afgelegen in definitie inrit
+
+**Wat was de oude regel?**
+Toegangswegen, oprijlanen en dergelijke met verkeersfunctie die leiden naar
+afgelegen erven en terreinen.
+
+**Wat wordt de nieuwe regel?**
+- In de definitie van inrit wordt de zinsnede ‘afgelegen’ geschrapt.
+
+**Wat moet je doen?**
+- alle inritten afbakenen die voldoen aan de nieuwe regel. waarbij de definitie van inrit nog vastgesteld moet worden.
+(manier van afbakening volgens wysiwyg?)
+
+**Wat moet je niet doen?**
+
+
+**Wie moeten het doen?**
+- bronhouders die nog geen inritten als dusdanig opgenomen hadden. bronhouders die inritten op de nieuwe manier opgenomen hebben, hoeven geen controle hierop uit te voeren.
+
+**Hoe moet je dat doen?**
+
+
+**Waar moet je opletten?**
+
+
+**Om hoeveel objecten gaat het?**
+
+Bronhouder \| Aantal \| Punten \| Vlakken
+
+**Wanneer moet het klaar zijn?**
+
+Uiterlijk maanden na vaststelling werkafspraak.
+
+**Waarom doen we dit?**
+diverse gemeenten en veiligheidsdiensten hebben hierom gevraagd.
+
+Dit voorstel draagt bij aan
+\- Uniformiteit en kwaliteit van de BGT.
+
+\- Integraal beheer. Voor beheer zijn inritten in bebouwde kom ook belangrijk.
+
+\- samenwerking is mogelijk.
+
+### Kleinere minimale afmetingen voor oever/slootkant
+
+**Wat was de oude regel?**
+
+**Wat wordt de nieuwe regel?**
+ntb
+
+**Wat moet je doen?**
+
+**Wat moet je niet doen?**
+
+**Wie moeten het doen?**
+
+**Hoe moet je dat doen?**
+
+**Waar moet je opletten?**
+
+**Om hoeveel objecten gaat het?**
+
+Bronhouder \| Aantal \| Punten \| Vlakken
+
+**Wanneer moet het klaar zijn?**
+
+Uiterlijk maanden na vaststelling werkafspraak.
+
+**Waarom doen we dit?**
+
+Dit voorstel draagt bij aan
