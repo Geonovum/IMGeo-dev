@@ -234,20 +234,24 @@ van 30cm worden opgenomen. Muren met een minimale hoogte van 50cm worden vastgel
 Voor hek en muur wordt de minimale lengte voor opname van respectievelijk 10 meter en 1 meter, geschrapt. De inwinregel voor minimale hoogte blijft onveranderd.
 
 **Wat moet je doen?**
-
+Gezien het toaal aantal om te zetten overige scheidingen naar scheidingen, kan de bronhouder met terugwerkende kracht alle gesignaleerde hekken en muren na lopen.
+Daarná alleen bij nieuwe gevallen bepalen of ze opgenomen moeten worden.
 
 **Wat moet je niet doen?**
-
+je hoeft niet alle scheidingen na te lopen. alleen de gesignaleerde overige scheidingen.
 
 **Wie moeten het doen?**
+Centraal kunnen alle bestaande overige scheidingen > 10 meter aangegeven worden, ongeacht de hoogte. Bronhouder zelf moet deze overige scheidingen omzetten naar scheiding ivm koppeling naar BOR.
 
 **Hoe moet je dat doen?**
+gewoon, omzetten
 
 **Waar moet je opletten?**
 
 **Om hoeveel objecten gaat het?**
 
 Bronhouder \| Aantal \| Punten \| Vlakken
+In totaal 15000 hekken en muren bij 147 bronhouders die van OVS naar Scheiding omgezet moeten worden, met gemiddeld 100 objecten per bronhouder. Met een paar bronhouders die uitschieters hebben van 1000 objecten.
 
 **Wanneer moet het klaar zijn?**
 
@@ -256,12 +260,18 @@ Uiterlijk maanden na vaststelling werkafspraak.
 **Waarom doen we dit?**
 
 Dit voorstel draagt bij aan
+\- Uniformiteit en kwaliteit van de BGT.
+
+
+
+opmerking: Onderscheid tussen twee objecten Scheiding en OverigScheiding blijft wel nodig voor bijvoorbeeld het opnemen van draadraster en faunaraster en scheidingen tussen percelen. Om die reden kan OverigeScheiding als objecttype niet geschrapt worden.
 
 ### Kleinere minimale afmetingen voor oever/slootkant
 
 **Wat was de oude regel?**
 
 **Wat wordt de nieuwe regel?**
+ntb
 
 **Wat moet je doen?**
 
@@ -288,18 +298,27 @@ Dit voorstel draagt bij aan
 ### Schrappen afgelegen in definitie inrit
 
 **Wat was de oude regel?**
+Toegangswegen, oprijlanen en dergelijke met verkeersfunctie die leiden naar
+afgelegen erven en terreinen.
 
 **Wat wordt de nieuwe regel?**
+In de definitie van inrit wordt de zinsnede ‘afgelegen’ geschrapt.
 
 **Wat moet je doen?**
+alle inritten afbakenen die voldoen aan de nieuwe regel. waarbij de definitie van inrit nog vastgesteld moet worden.
+(manier van afbakening volgens wysiwyg?)
 
 **Wat moet je niet doen?**
 
+
 **Wie moeten het doen?**
+bronhouders die nog geen inritten als dusdanig opgenomen hadden. bronhouders die inritten op de nieuwe manier opgenomen hebben, hoeven geen controle hierop uit te voeren.
 
 **Hoe moet je dat doen?**
 
+
 **Waar moet je opletten?**
+
 
 **Om hoeveel objecten gaat het?**
 
@@ -310,52 +329,74 @@ Bronhouder \| Aantal \| Punten \| Vlakken
 Uiterlijk maanden na vaststelling werkafspraak.
 
 **Waarom doen we dit?**
+diverse gemeenten en veiligheidsdiensten hebben hierom gevraagd.
 
 Dit voorstel draagt bij aan
+\- Uniformiteit en kwaliteit van de BGT.
+
+\- Integraal beheer. Voor beheer zijn inritten in bebouwde kom ook belangrijk.
+
+\- samenwerking is mogelijk.
 
 ### Indeling van particuliere terreinen
 
 **Wat was de oude regel?**
+De BGT wordt landsdekkend beheerd voor het grondgebied van Nederland binnen de
+gemeentegrenzen. Daartoe behoren ook industriële complexen, zoals Schiphol, de Hoogovens en Europoort. 
 
 **Wat wordt de nieuwe regel?**
+Ten aanzien van de dekking van de BGT wordt toegevoegd dat: Dit geldt voor ** alle ** particulieren terreinen, waar deze informatie noodzakelijk is voor wettelijk geregelde dienstverlening door bronhouders en gebruikers”
 
 **Wat moet je doen?**
+actief particuliere terreinen opzoeeken en volgens nieuwe regels afbakenen
 
 **Wat moet je niet doen?**
 
 **Wie moeten het doen?**
+Centraal kan er gezocht worden naar terreinen die in de BRT ook al zijn onderverdeeeld. De bronhouders zelf zullen deze gesignaleerde terreinen in BGT moeten afbakenen.
 
 **Hoe moet je dat doen?**
+Alleen particuliere terreinen die meerdere gebouwen bevatten, die ontsloten worden door meerdere wegendelen en waarvan in eerste instantie niet duidelijk is, op welke manier je vanaf de ingang naar een bepaald gebouw kan komen, moeten nader afgebakend worden. hierbij dienen minstens de wegdelen apart afgebakend te worden. Tevens zijn begroeide delen dan wel bomen en hekken van belang als dit voor de toegankelijkheid beperkingen geeft.
 
 **Waar moet je opletten?**
+Het opnemen van extra objecten moet steeds ten doel staan van de toegankelijkheid voor bijvoorbeeld veilighiedsdiensten of nutsbedrijven.
 
 **Om hoeveel objecten gaat het?**
-
+????
 Bronhouder \| Aantal \| Punten \| Vlakken
 
 **Wanneer moet het klaar zijn?**
 
-Uiterlijk maanden na vaststelling werkafspraak.
+Uiterlijk 12 maanden na vaststelling werkafspraak.
 
 **Waarom doen we dit?**
 
 Dit voorstel draagt bij aan
+\- Uniformiteit en kwaliteit van de BGT.
 
 ### Uitbreiden opslagtank voor gassen en energie
 
 **Wat was de oude regel?**
+opslagtank: Opslagfaciliteit voor vloeistoffen. Alleen bovengrondse opslagtanks worden
+opgenomen.
 
 **Wat wordt de nieuwe regel?**
+opslagtank: Opslagfaciliteit voor vloeistoffen of gassen of energie. Alleen bovengrondse opslagtanks worden opgenomen.
 
 **Wat moet je doen?**
+opzoeken van die opslagtanks die gas bevatten of voor energie doeleinden (wijk batterij) gebruikt worden en deze nader classificeren.
 
 **Wat moet je niet doen?**
 
 **Wie moeten het doen?**
+bronhouders zelf
 
 **Hoe moet je dat doen?**
 
+opzoeken van verunningen ten aanzien van opslagtanks die gassen of energie bevatten.
+
 **Waar moet je opletten?**
+
 
 **Om hoeveel objecten gaat het?**
 
@@ -363,8 +404,9 @@ Bronhouder \| Aantal \| Punten \| Vlakken
 
 **Wanneer moet het klaar zijn?**
 
-Uiterlijk maanden na vaststelling werkafspraak.
+Uiterlijk 12 maanden na vaststelling werkafspraak.
 
 **Waarom doen we dit?**
 
 Dit voorstel draagt bij aan
+\- Uniformiteit en kwaliteit van de BGT.
