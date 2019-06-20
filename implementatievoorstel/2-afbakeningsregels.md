@@ -5,37 +5,37 @@ Aanpassen bestaand gegevens op nieuwe afbakeningsregels
 
 **Wat was de oude regel?**
 
-Aan de maximale breedte van berm in de BGT worden geen eisen gesteld.
+- Aan de maximale breedte van berm in de BGT worden geen eisen gesteld.
 
 **Wat wordt de nieuwe regel?**
 
-Een berm mag in de BGT maximaal tot 25 meter uit de weg lopen.
+- Een berm mag in de BGT maximaal tot 25 meter uit de weg lopen.
 
 **Wat moet je doen?**
 
-Elke berm die breder is dan 25 meter moet worden opgeknipt of omgeclassificeerd.
+- Elke berm die breder is dan 25 meter moet worden opgeknipt of omgeclassificeerd.
 
 **Wat moet je niet doen?**
 
-Dit voorstel vraagt niet om alle ontbrekende bermen op te sporen en aan te
+- Dit voorstel vraagt niet om alle ontbrekende bermen op te sporen en aan te
 leveren.
 
 **Wie moeten het doen?**
 
-Centraal worden de bermen breder dan 25 meter gesignaleerd. Elke bronhouder past
+- Centraal worden de bermen breder dan 25 meter gesignaleerd. Elke bronhouder past
 vervolgens de eigen objecten aan.
 
 **Hoe moet je dat doen?**
 
-De bermen breder dan 25 meter worden 
-ofwel opgeknipt, bijvoorbeeld op een beheergrens, waarbij er 2 objecten ontstaan, 
+- De bermen breder dan 25 meter worden:
+- ofwel opgeknipt, bijvoorbeeld op een beheergrens, waarbij er 2 objecten ontstaan, 
 waarvan de eerste een berm en de tweede een begroeid terreindeel is;
-ofwel omgeclassificeerd in zijn geheel naar een begroeid terreindeel.
+- ofwel omgeclassificeerd in zijn geheel naar een begroeid terreindeel.
 
 **Waar moet je opletten?**
 
-Berm is een opdelend object. Dat betekent dat als bermen gesplitst worden ook de
-objecten die raken aan een berm ook minimaal geometrisch mee aanpassen
+- Berm is een opdelend object. Dat betekent dat als een berm gesplitst wordt, de
+objecten die raken aan de berm, ook minimaal geometrisch aangepast worden.
 (tussenpunt).
 
 **Om hoeveel objecten gaat het?**
@@ -85,6 +85,7 @@ dat de classificatie zoveel mogelijk overeenkomt met die van de BRT???
 Bij deze percentages worden het eventueel aanwezige onderhout en smalle stroken loof- en of naaldbos gelegen naast of als uitloper van het bos buiten beschouwing gelaten.
 
 **Om hoeveel objecten gaat het?**
+63.687 BGT begroeide terreindelen met fysiekvoorkomen '*-bos*' hebben een afwijkende waarde t.o.v. de BRT.
 
 Bronhouder \| Aantal \| Punten \| Vlakken
 
