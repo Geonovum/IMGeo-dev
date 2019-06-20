@@ -28,8 +28,8 @@ vervolgens de eigen objecten aan.
 **Hoe moet je dat doen?**
 
 - De bermen breder dan 25 meter worden:
-- ofwel opgeknipt, bijvoorbeeld op een beheergrens, waarbij er 2 objecten ontstaan, 
-waarvan de eerste een berm en de tweede een begroeid terreindeel is;
+- ofwel opgeknipt, bijvoorbeeld op een beheergrens, waarbij er 2 ( of meer) objecten ontstaan, 
+waarvan de eerste vanaf de weg een berm en de tweede een begroeid terreindeel is;
 - ofwel omgeclassificeerd in zijn geheel naar een begroeid terreindeel.
 
 **Waar moet je opletten?**
@@ -65,27 +65,29 @@ Het onderscheid tussen naaldbos, loofbos en gemengd bos was niet met percentages
 Het onderscheid tussen naaldbos, loofbos en gemengd bos wordt met minimum percentages aangescherpt: 90% of meer loofboom is loofbos, 90% of meer naaldboom is naaldbos en minder dan 90% naaldboom of loofboom is gemengd bos.
 
 **Wat moet je doen?**
-De bossen nalopen en een zo goed mogelijke inschatting maken van de percentages loof- danwel naaldbomen.
+De bossen nalopen en een zo goed mogelijke inschatting maken van de percentages loof- danwel naaldbomen. en vervolgens eventueel classificatie aanpassen.
 
 **Wat moet je niet doen?**
 Het is niet de bedoeling om alle bossen zonder meer om te zetten naar gemengde bossen.
+het is niet de bedoeling om naar buiten te gaan en de bomen individueel te gaan tellen, danwel ter plekken in te gaan schatten.
 
 **Wie moeten het doen?**
-Centraal worden de bossen gesignaleerd die afwijken van de type bos in de BRT. Elke
-bronhouder past vervolgens de eigen objecten aan.
+Centraal worden de bossen gesignaleerd waarbij de BGT classificatie afwijkt van de BRT classificatie. Elke
+bronhouder beoordeelt vervolgens of aanpassing nodig is.
 
 **Hoe moet je dat doen?**
-De bossen die gesignaleerd zijn, worden bekeken en er wordt, bijvoorbeeld via luchtfoto, een inschatting van het percentage loof- dan wel naaldbomen gemaakt. 
+De bossen die gesignaleerd zijn, worden bekeken en er wordt, bijvoorbeeld via luchtfoto of remote sensing (IR), een inschatting van het percentage loof- dan wel naaldbomen gemaakt. 
 Bij aanwezigheid van >90% naaldbomen is het bos een naaldbos, bij >90% loofbomen is het een loofbos, indien anders dan is het gemengd bos.
 Opknippen van een bos in meerdere delen is toegestaan als dat de classificatie vergemakkelijkt.
+Voorbeeld van stappenplan erbij zetten, van verschillende situaties.
 
 
 **Waar moet je opletten?**
-dat de classificatie zoveel mogelijk overeenkomt met die van de BRT???
 Bij deze percentages worden het eventueel aanwezige onderhout en smalle stroken loof- en of naaldbos gelegen naast of als uitloper van het bos buiten beschouwing gelaten.
 
 **Om hoeveel objecten gaat het?**
-63.687 BGT begroeide terreindelen met fysiekvoorkomen '*-bos*' hebben een afwijkende waarde t.o.v. de BRT.
+63.687 (1/4 deel) BGT begroeide terreindelen met fysiekvoorkomen '*-bos*' hebben een afwijkende waarde t.o.v. de BRT.
+dat wil zeggen gemiddeld per bronhouder een 170 bos objecten moet nalopen.
 
 Bronhouder \| Aantal \| Punten \| Vlakken
 
@@ -106,16 +108,16 @@ Dit voorstel draagt bij aan
 Van remmingswerk, geleidewerk en vuilvang wordt de lijngeometrie opgenomen. 
 
 **Wat wordt de nieuwe regel?**
-De inwinregel voor remmingswerks en geleidewerk wordt aangescherpt dat deze wordt ingewonnen langs de zijde waar de scheepvaart langs vaart.
+De inwinregel voor remmingswerks en geleidewerk wordt aangescherpt zodanig dat deze wordt ingewonnen langs de zijde waar de scheepvaart langs vaart.
 
 **Wat moet je doen?**
-De nieuwe objecten van het type waterinrichtingselement-geleidewerk (niet-BGT) en waterinrichtingselement-remmingswerk (niet-BGT) nader bekijken en afbakenen aan de kant waar de scheepvaart langs vaart.
+De objecten van het type waterinrichtingselement-geleidewerk (niet-BGT) en waterinrichtingselement-remmingswerk (niet-BGT) nader bekijken en afbakenen aan de kant waar de scheepvaart langs vaart.
 
 **Wat moet je niet doen?**
-Je hoeft niet met terugwerkende kracht alle objecten na te lopen en aan te passsen.
+
 
 **Wie moeten het doen?**
-Elke bronhouder die nieuwe objecten afbakent van het type waterinrichtingselement-geleidewerk (niet-BGT) of waterinrichtingselement-remmingswerk (niet-BGT) zal deze afbakenen volgnes de nieuwe regel.
+Centraal signaleren. Elke bronhouder die objecten afbakent van het type waterinrichtingselement-geleidewerk (niet-BGT) of waterinrichtingselement-remmingswerk (niet-BGT) zal deze afbakenen volgens de nieuwe regel.
 
 **Hoe moet je dat doen?**
 ??
@@ -124,27 +126,27 @@ Elke bronhouder die nieuwe objecten afbakent van het type waterinrichtingselemen
 ?? remko vragen?
 
 **Om hoeveel objecten gaat het?**
-
+2500 geleidewerken en 4200 remmingswerken die door 45 bronhouders nagelopen dienen te worden. Dat wil zeggen gemiddeld 150 objecten per bronhouder.
 Bronhouder \| Aantal \| Punten \| Vlakken
 
 **Wanneer moet het klaar zijn?**
 
-Uiterlijk 0 maanden na vaststelling werkafspraak. Dit geldt alleen voor nieuwe objecten.
+Uiterlijk 12 maanden na vaststelling werkafspraak. 
 
 **Waarom doen we dit?**
 
 Dit voorstel draagt bij aan
 \- Uniformiteit en kwaliteit van de BGT.
-
+\- betere dienstverlening en veiligheid voor diensten op het water.
 \- samenwerking is mogelijk.
 
 ### Afbakening damwand inclusief deksloof
 
 **Wat was de oude regel?**
-Damwand wordt opgenomen als een lijnobject als de breedte kleiner is dan 30 cm en als een valk als de breedte groter/gelijk is aan 30 cm. 
+Damwand wordt opgenomen als een lijnobject als de breedte kleiner is dan 30 cm en als een vlak als de breedte groter/gelijk is aan 30 cm. 
 
 **Wat wordt de nieuwe regel?**
-Indien een deksloof aanwezig op de damwand, wordt deze meegenomen in de afbakening van damwand, en niet afzonderlijk afgebakend.
+hieraan wordt toegevoegd: Indien een deksloof aanwezig op de damwand, wordt deze meegenomen in de afbakening van damwand, en niet afzonderlijk afgebakend.
 
 **Wat moet je doen?**
 Alle damwanden nalopen en, indien nodig, de afbakening aanpassen.
@@ -156,13 +158,14 @@ Alle damwanden nalopen en, indien nodig, de afbakening aanpassen.
 bronhouder past de objecten aan.
 
 **Hoe moet je dat doen?**
-Alle damwanden nalopen en, bijvoorbeeld via luchtfoto, bepalen of een deksloof aanwezig is. In dat geval moet de afbakening aangepast worden dusdanig dat de deksloof onderdeel uitmaakt van het object damwand. 
+Alle damwanden nalopen en, bijvoorbeeld via luchtfoto, (of fysiek erheen??) bepalen of een deksloof aanwezig is. In dat geval moet de afbakening aangepast worden dusdanig dat de deksloof onderdeel uitmaakt van het object damwand. 
+navragen?
 
 **Waar moet je opletten?**
 ?
 
 **Om hoeveel objecten gaat het?**
-
+18491 objecten van 181 bronhouders. dus gemiddeld 100 objecten nalopen per bronhouders.
 Bronhouder \| Aantal \| Punten \| Vlakken
 
 **Wanneer moet het klaar zijn?**
@@ -196,19 +199,19 @@ De inwinregels dat "uitsparingen in wegdelen van stedelijk groen kleiner dan 5 m
 Alleen bij nieuwe gevallen bepalen of ze als apart object afgebakend moeten worden.
 
 **Wat moet je niet doen?**
-je hoeft niet alle objecten < 5m2 in wegdeel na te lopen.
+je hoeft niet alle objecten < 5m2 in wegdelen na te lopen danwel op te voeren.
 
 **Wie moeten het doen?**
 bronhouders passen zelf eventueel nieuwe afbakening toe.
 
 **Hoe moet je dat doen?**
-?
+
 
 **Waar moet je opletten?**
-het verschil tussen boomspiegel en begroeid terreindeel?? 
+ 
 
 **Om hoeveel objecten gaat het?**
-
+NVT
 Bronhouder \| Aantal \| Punten \| Vlakken
 
 **Wanneer moet het klaar zijn?**
@@ -236,7 +239,7 @@ Voor hek en muur wordt de minimale lengte voor opname van respectievelijk 10 met
 
 **Wat moet je doen?**
 Gezien het toaal aantal om te zetten overige scheidingen naar scheidingen, kan de bronhouder met terugwerkende kracht alle gesignaleerde hekken en muren na lopen.
-Daarná alleen bij nieuwe gevallen bepalen of ze opgenomen moeten worden.
+Daarná alleen bij nieuwe gevallen bepalen of ze opgenomen moeten worden als scheiding of overige scheiding.
 
 **Wat moet je niet doen?**
 je hoeft niet alle scheidingen na te lopen. alleen de gesignaleerde overige scheidingen.
@@ -266,6 +269,7 @@ Dit voorstel draagt bij aan
 
 
 opmerking: Onderscheid tussen twee objecten Scheiding en OverigScheiding blijft wel nodig voor bijvoorbeeld het opnemen van draadraster en faunaraster en scheidingen tussen percelen. Om die reden kan OverigeScheiding als objecttype niet geschrapt worden.
+(nader aangeven)
 
 
 
