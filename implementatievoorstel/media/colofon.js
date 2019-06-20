@@ -1,6 +1,6 @@
 var respecConfig = {
-  specStatus: "GN-VV",
-  specType: "IM",
+  specStatus: "GN-WV",
+  specType: "",
   //canonicalURI: "WV",  
   editors: [
     {
@@ -8,21 +8,28 @@ var respecConfig = {
       company: "Geonovum",
       companyURL: "http://www.geonovum.nl/",
       mailto: "a.deboer@geonovum.nl",
-      note: ""    
-    },
-    {
-      name: "Hans van Eekelen",
-     company: "Geonovum",
-    companyURL: "http://www.geonovum.nl/",
-    mailto: "h.vaneekelen@geonovum.nl",
-    note: "" 
-    },
+      note: "Dit is een werkversie"    
+    },   
     {
       name: "Silvy Horbach",
       company: "SVB-BGT",
       companyURL: "http://www.svbbgt.nl/",
       mailto: "silvyhorbach@svb-bgt.nl",
-      note: ""    
+      note: "it is een werkversie"    
+    },
+	    {
+      name: "Arman Alavi",
+      company: "Ministerie BZK",
+      companyURL: "http://www.geobasisregistraties.nl/",
+      mailto: "arman@minbzk.nl",
+      note: "Dit is een werkversie"    
+    },
+	    {
+      name: "Gerlof Haan",
+      company: "VNG Realisatie",
+      companyURL: "http://www.vng.nl/",
+      mailto: "gerlof@vng.nl",
+      note: "Dit is een werkversie"    
     },
   ],
   //shortName: "shortname",
