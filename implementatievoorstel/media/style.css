@@ -1,0 +1,78 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat|Esteban);
+
+body {
+ font-family:  'Montserrat', sans-serif; !important
+}
+
+blockquote {
+ margin-left: 20px !important;
+ font-family:  'Esteban', serif !important;
+ font-style: italic;
+ border-color: transparent !important;
+ border-style: none !important;
+}
+
+/*blockquote:before {
+    display: block;
+    height: 0;
+    content: "“";   
+    margin-left: -0.95em;
+    font: italic 400%/1 Esteban, serif;
+    color: #999;
+}*/
+
+wijziging:before {
+    
+content: "Wijziging(en) t.o.v. vorige versie <br /><br />:";
+
+}
+
+wijziging {
+    
+    border-color: #eee;
+    background-color: #ccc;
+    font-style: italic;  
+    font-family:  'Esteban', serif !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+table, td, th {
+  cell-padding: 0px !important;
+  cell-spacing: 0px !important;
+  border-color: #eee !important; 
+  /*border-bottom: 1px solid !important;*/
+}
+
+
+
+th:first-child {
+	font-style: italic;
+	font-size: 0.85em!important;
+}
+
+
+thead {
+  border-color: #eee;
+  background-color: #ccc;
+  font-size: 0.85em !important;
+}
+
+table {
+	font-style: normal;
+}
+
+td {
+	vertical-align: top;
+	font-size: 0.9em !important;
+	font-style: normal;
+	border-bottom:1pt solid black;
+}
+
+td:first-child {
+	font-style: italic;
+	font-size: 0.85em!important;
+}
+
