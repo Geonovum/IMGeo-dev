@@ -118,16 +118,16 @@ De inwinregel voor remmingswerks en geleidewerk wordt aangescherpt zodanig dat d
 De objecten van het type waterinrichtingselement-geleidewerk (niet-BGT) en waterinrichtingselement-remmingswerk (niet-BGT) nader bekijken en afbakenen aan de kant waar de scheepvaart langs vaart.
 
 **Wat moet je niet doen?**
-
+De hartlijn van het remmings- en geleidewerk opnemen als objectlijn.
 
 **Wie moeten het doen?**
 Centraal signaleren. Elke bronhouder die objecten afbakent van het type waterinrichtingselement-geleidewerk (niet-BGT) of waterinrichtingselement-remmingswerk (niet-BGT) zal deze afbakenen volgens de nieuwe regel.
 
 **Hoe moet je dat doen?**
-??
+De geleide- en remmingswerken worden als lijn afgebakend. De ligging van de lijn is aan de vaarkant (dus niet-oever kant) van het werk. Dit omdat de schepen deze lijn gebruiken om te bepalen hoeveel ruimte ze nog hebben tussen schip en het remmings- en geleidewerk.
 
 **Waar moet je opletten?**
-?? remko vragen?
+Eventuele palen of andere objecten aan de oeverkant van het remmings- en geleidewerk mogen desgewens apart afgebakend worden.
 
 **Om hoeveel objecten gaat het?**
 2500 geleidewerken en 4200 remmingswerken die door 45 bronhouders nagelopen dienen te worden. Dat wil zeggen gemiddeld 150 objecten per bronhouder.
