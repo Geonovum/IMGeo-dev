@@ -44,6 +44,9 @@ die IMGeo 2.2 terugvertaal naar IMGeo 2.1.1. en vice versa. Na 12 tot 18 maanden
 wordt de overgangsperiode en daarmee de terugvertaling door de centrale
 voorziening beëindigd.*
 
+(opmerking Silvy: de verwachting van mij was dat de uitrol veel sneller zou gaan, geen 6-12 maandan maar 1-6 maanden. Het zijn toch alleen kleine toevoegingen of hernoemingen?
+)
+
 **Waarom doen we dit?**
 
 Dit voorstel draagt bij aan
@@ -67,14 +70,18 @@ vervallen de volgende domeinwaarden.
 |                                 | \-                    | **walbescherming** | Vlak |
 | Weginrichtingselement: typePlus | niet-bgt              | **boomspiegel **   | Punt |
 
+
+(opmerkinge silvy: zouden de volgende waarden niet ook verdwijnen: oco, transitie en 'in onderzoek"?
+)
+
 **Wat moet je doen?** Alle BGT\|IMGeo software wordt aangepast zodanig dat deze
-classificaties niet meer geleverd kunnen worden. De software wordt na een
-periode van proefproductie/ketentesten uitgerold in de keten van bronhouders tot
-afnemers. Bronhouders dienen de betreffende objecten om te classificeren naar
-andere IMGeo classificaties.
+classificaties niet meer (nieuw) geleverd kunnen worden. Bestaande objecten met deze classificaties 
+kunnen wel nog ingelezen worden. De software wordt na een periode van proefproductie/ketentesten 
+uitgerold in de keten van bronhouders tot afnemers. Bronhouders dienen de betreffende objecten
+om te classificeren naar andere IMGeo classificaties.
 
 **Wat moet je niet doen?** De software moet niet zodanig aangepast worden dat
-deze objecten niet meer ingelezen kunnen worden.
+deze objecten niet meer ingelezen kunnen worden. 
 
 **Wie moeten het doen?** SVB-BGT (BRAVO), Kadaster (LV-BGT), PDOK en
 softwareleveranciers van BGT bronhouders.
@@ -190,6 +197,8 @@ Voetgangersgebied en woonerf naar andere Wegdelen
 
 OverigeScheiding naar Scheiding
 
+*BIJLAGE 1*
+---------
 Uitbreiden domeinwaarden
 ------------------------
 
@@ -287,6 +296,8 @@ In IMGeo 2.2 worden de volgende uitbreidingen gedaan:
 |                                            | \-                  | **rabatstrook**                               | Vlak                 |
 | Vegetatieobject: typePlus                  | \-                  | **solitaire plant **                          | Punt                 |
 
+*BIJLAGE 2*
+---------
 Vervallen objecten
 
 De volgende domeinwaarden worden deprecated verklaard.
@@ -300,10 +311,15 @@ De volgende domeinwaarden worden deprecated verklaard.
 |                                 | \-                    | **walbescherming** |      |
 | Weginrichtingselement: typePlus | niet-bgt              | **boomspiegel **   | Punt |
 
+
+*BIJLAGE 3*
+---------
 Hernoemen domeinwaarden
 
 De volgende domeinwaarden worden hernoemd
 
+*BIJLAGE 4*
+---------
 Implementatie
 -------------
 
@@ -329,7 +345,11 @@ object met plus-type ‘*oplaadvoorziening elektrische voertuigen***’** geleve
 Als dit object wordt gewijzigd door een bronhouder met oude IMGeo 2.1.1 software
 (bijvoorbeeld andere geometrie of bronhouder) dan levert deze bronhouder deze
 laadpaal als Straatmeubilair zonder classificatie aan. De centrale voorziening
-weet op basis van het lokaalid uit eerdere registratie van dit object dat
+weet op basis van het lokaalid uit eerdere registratie 
+
+(opmerking silvy: of obv de aanmaakdatum?)
+
+van dit object dat
 ‘niet-bgt:geenWaarde’ vertaald moet worden naar IMGeo 2.2 ‘*oplaadvoorziening
 elektrische voertuigen***’**.
 
@@ -341,6 +361,8 @@ object weer terug als Straatmeubilair zonder classificatie, ofwel bgt-type
 ‘niet-bgt’ en plus-type ‘geenWaarde’. Een bronhouder of afnemer met nieuwe IMGeo
 2.2 software krijgt dit object na vertaling door de centrale voorziening met
 plus-type ‘*oplaadvoorziening elektrische voertuigen***’** geleverd.
+
+(opmerking Silvy: en als dan er al straatmeubilair zonder classificatie bestond?)
 
 Deze centrale terugvertaalvoorziening opereert zowel op het koppelvlak
 bronhouder-BRAVO/LV-BGT als op het koppelvlak LV-BGT/PDOK-afnemers.
