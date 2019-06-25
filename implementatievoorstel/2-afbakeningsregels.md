@@ -8,12 +8,12 @@ Aanpassen bestaand gegevens op nieuwe afbakeningsregels
 - Aan de maximale breedte van berm in de BGT worden geen eisen gesteld.
 
 **Wat wordt de nieuwe regel?**
-
-- Een berm mag in de BGT maximaal tot 25 meter uit de weg lopen.
+- Een terreindeel langs een weg dat niet breder is dan 25 meter gemeten t.o.v. de kant van de weg
+en met verharding of begroeiing conform de fysieke voorkomens van OndersteunendWegdeel wordt in 
+de BGT opgenomen als berm.
 
 **Wat moet je doen?**
-
-- Elke berm die breder is dan 25 meter moet worden opgeknipt of omgeclassificeerd.
+- Een berm mag in de BGT maximaal tot 25 meter uit de weg lopen. Elke berm die breder is dan 25 meter moet worden opgeknipt of omgeclassificeerd.
 
 **Wat moet je niet doen?**
 
@@ -59,17 +59,21 @@ Dit voorstel draagt bij aan
 ### Percentages type boom voor naaldbos, loofbos, gemengd bos
 
 **Wat was de oude regel?**
-Het onderscheid tussen naaldbos, loofbos en gemengd bos was niet met percentages uitgedrukt, maar kwalitatief, als volgt. Terreindeel begroeid met een dusdanige aantal naaldbomen/loofbomen/naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.
+Het onderscheid tussen naaldbos, loofbos en gemengd bos was niet met percentages uitgedrukt, maar kwalitatief, als volgt: Terreindeel begroeid met een dusdanige aantal naaldbomen/loofbomen/naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.
 
 **Wat wordt de nieuwe regel?**
-Het onderscheid tussen naaldbos, loofbos en gemengd bos wordt met minimum percentages aangescherpt: 90% of meer loofboom is loofbos, 90% of meer naaldboom is naaldbos en minder dan 90% naaldboom of loofboom is gemengd bos.
+aan de oude regel wordt toegevoegd:
+Om een terreindeel als loofbos af te bakenen dient het minimum percentage loofboom groter dan of gelijk aan 90% te zijn.
+idem voor naaldbos en gemengd bos
+
+Het onderscheid tussen naaldbos, loofbos en gemengd bos wordt hiermee met minimum percentages aangescherpt: 90% of meer loofboom is loofbos, 90% of meer naaldboom is naaldbos en minder dan 90% naaldboom of loofboom is gemengd bos.
 
 **Wat moet je doen?**
-De bossen nalopen en een zo goed mogelijke inschatting maken van de percentages loof- danwel naaldbomen. en vervolgens eventueel classificatie aanpassen.
+De bossen nalopen en een zo goed mogelijke inschatting maken van de percentages loof- danwel naaldbomen en vervolgens eventueel de classificatie aanpassen.
 
 **Wat moet je niet doen?**
 Het is niet de bedoeling om alle bossen zonder meer om te zetten naar gemengde bossen.
-het is niet de bedoeling om naar buiten te gaan en de bomen individueel te gaan tellen, danwel ter plekken in te gaan schatten.
+het is niet de bedoeling om persé naar buiten te gaan en de bomen individueel te gaan tellen, danwel ter plekken in te gaan schatten.
 
 **Wie moeten het doen?**
 Centraal worden de bossen gesignaleerd waarbij de BGT classificatie afwijkt van de BRT classificatie. Elke
@@ -155,7 +159,7 @@ Alle damwanden nalopen en, indien nodig, de afbakening aanpassen.
 ?
 
 **Wie moeten het doen?**
-bronhouder past de objecten aan.
+iedere bronhouder past de eigen objecten aan.
 
 **Hoe moet je dat doen?**
 Alle damwanden nalopen en, bijvoorbeeld via luchtfoto, (of fysiek erheen??) bepalen of een deksloof aanwezig is. In dat geval moet de afbakening aangepast worden dusdanig dat de deksloof onderdeel uitmaakt van het object damwand. 
@@ -193,7 +197,8 @@ indien < 5 m2. In IMGeo kunnen deze worden opgenomen als ‘begroeid terreindeel
 groenvoorziening’. 
 
 **Wat wordt de nieuwe regel?**
-De inwinregels dat "uitsparingen in wegdelen van stedelijk groen kleiner dan 5 m2 niet in de BGT opgenomen moeten worden, maar wel in IMGeo opgenomen mogen worden", worden geschrapt.
+De inwinregels dat "uitsparingen in wegdelen van stedelijk groen kleiner dan 5 m2 niet in de BGT opgenomen moeten worden, maar wel in IMGeo opgenomen mogen worden", worden geschrapt. m.a.w. de nieuwe regel wordt hiermee: Het wegdeel wordt daarbij geacht door te lopen.
+
 
 **Wat moet je doen?**
 Alleen bij nieuwe gevallen bepalen of ze als apart object afgebakend moeten worden.
@@ -235,14 +240,17 @@ Scheidingen van het type muur, met een minimale lengte van 1m en met een minimal
 van 30cm worden opgenomen. Muren met een minimale hoogte van 50cm worden vastgelegd. 
 
 **Wat wordt de nieuwe regel?**
-Voor hek en muur wordt de minimale lengte voor opname van respectievelijk 10 meter en 1 meter, geschrapt. De inwinregel voor minimale hoogte blijft onveranderd.
+Voor hek en muur wordt de minimale lengte voor opname van respectievelijk 10 meter en 1 meter, geschrapt. De inwinregel voor minimale hoogte blijft onveranderd. hiermee wordt de nieuwe regel:
+Scheidingen van het type hek met een minimale hoogte van 1m hebben, worden vastgelegd. 
+Scheidingen van het type muur met een minimale breedte van 30cm worden opgenomen. Muren met een minimale hoogte van 50cm worden vastgelegd.
 
 **Wat moet je doen?**
-Gezien het toaal aantal om te zetten overige scheidingen naar scheidingen, kan de bronhouder met terugwerkende kracht alle gesignaleerde hekken en muren na lopen.
+OVERIGE SCHEIDINGEN moeten omgezet worden naar SCHEIDING. Daarvoor worden de OVERIGE SCHEIDINGEN  gesignaleerd. 
+Gezien het totaal aantal om te zetten overige scheidingen naar scheidingen, kan de bronhouder met terugwerkende kracht alle gesignaleerde OVERIGE SCHEIDINGEN nml hekken en muren na lopen.
 Daarná alleen bij nieuwe gevallen bepalen of ze opgenomen moeten worden als scheiding of overige scheiding.
 
 **Wat moet je niet doen?**
-je hoeft niet alle scheidingen na te lopen. alleen de gesignaleerde overige scheidingen.
+Je hoeft dus niet objecten van type SCHEIDING na te lopen. Alleen de gesignaleerde OVERIGE SCHEIDINGEN.
 
 **Wie moeten het doen?**
 Centraal kunnen alle bestaande overige scheidingen > 10 meter aangegeven worden, ongeacht de hoogte. Bronhouder zelf moet deze overige scheidingen omzetten naar scheiding ivm koppeling naar BOR.
@@ -259,7 +267,7 @@ In totaal 15000 hekken en muren bij 147 bronhouders die van OVS naar Scheiding o
 
 **Wanneer moet het klaar zijn?**
 
-Uiterlijk maanden na vaststelling werkafspraak.
+Uiterlijk X maanden na vaststelling werkafspraak.
 
 **Waarom doen we dit?**
 
@@ -284,18 +292,18 @@ gemeentegrenzen. Daartoe behoren ook industriële complexen, zoals Schiphol, de 
 Ten aanzien van de dekking van de BGT wordt toegevoegd dat: Dit geldt voor ** alle ** particulieren terreinen, waar deze informatie noodzakelijk is voor wettelijk geregelde dienstverlening door bronhouders en gebruikers”
 
 **Wat moet je doen?**
-actief particuliere terreinen opzoeeken en volgens nieuwe regels afbakenen
+actief particuliere terreinen opzoeken en volgens nieuwe regels afbakenen
 
 **Wat moet je niet doen?**
 
 **Wie moeten het doen?**
-Centraal kan er gezocht worden naar terreinen die in de BRT ook al zijn onderverdeeeld. De bronhouders zelf zullen deze gesignaleerde terreinen in BGT moeten afbakenen.
+Centraal kan er gezocht worden naar terreinen die in de BRT ook al zijn onderverdeeld. De bronhouders zelf zullen deze gesignaleerde terreinen in BGT moeten afbakenen.
 
 **Hoe moet je dat doen?**
-Alleen particuliere terreinen die meerdere gebouwen bevatten, die ontsloten worden door meerdere wegendelen en waarvan in eerste instantie niet duidelijk is, op welke manier je vanaf de ingang naar een bepaald gebouw kan komen, moeten nader afgebakend worden. hierbij dienen minstens de wegdelen apart afgebakend te worden. Tevens zijn begroeide delen dan wel bomen en hekken van belang als dit voor de toegankelijkheid beperkingen geeft.
+Particuliere terreinen die meerdere gebouwen bevatten, die ontsloten worden door meerdere wegendelen en waarvan in eerste instantie niet duidelijk is, op welke manier je vanaf de ingang naar een bepaald gebouw kan komen, moeten nader afgebakend worden. hierbij dienen minstens de wegdelen apart afgebakend te worden. Tevens zijn begroeide delen dan wel bomen en hekken van belang als dit voor de toegankelijkheid beperkingen geeft.
 
 **Waar moet je opletten?**
-Het opnemen van extra objecten moet steeds ten doel staan van de toegankelijkheid voor bijvoorbeeld veilighiedsdiensten of nutsbedrijven.
+Het opnemen van extra objecten moet steeds ten doel staan van de toegankelijkheid voor bijvoorbeeld veiligheidsdiensten of nutsbedrijven.
 
 **Om hoeveel objecten gaat het?**
 ????
@@ -329,7 +337,7 @@ bronhouders zelf
 
 **Hoe moet je dat doen?**
 
-opzoeken van verunningen ten aanzien van opslagtanks die gassen of energie bevatten.
+opzoeken van vergunningen ten aanzien van opslagtanks die gassen of energie bevatten.
 
 **Waar moet je opletten?**
 
