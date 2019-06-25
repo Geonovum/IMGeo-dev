@@ -163,7 +163,9 @@ Bronhouder \| Aantal \| Punten \| Vlakken
 navragen?
 
 **Waar moet je opletten?**
-?
+Opmerking silvy: het blijkt nu, na overleg met jan hilhorst dat deksloven gelijk of (veel) breder zijn dan de eronderstaande damwand. De vraag is of de deksloof dan óók onderdeel moet worden van de damwand en als 1 object afgebakend moeten worden. Welke breedte houd je dan aan, die van de damwand of de deksloof? Of moet je deksloof dan wél weer apart afbakenen, als wat? Is het toevoegen van type deksloof niet een oplossing, die alleen gebruikt wordt om deksloven af te bakenen die breder zijn dan de damwand?
+soms is een deksloof ook een soort van betonnen deel, is dat ook onderdeel van de damwand?
+jan hilhorst overlegt met rene Heijnk en komt er begin juli op terug.
 
 **Om hoeveel objecten gaat het?**
 - 18491 objecten van 181 bronhouders. dus gemiddeld 100 objecten nalopen per bronhouders.
