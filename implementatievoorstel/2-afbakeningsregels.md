@@ -166,6 +166,7 @@ navragen?
 Opmerking silvy: het blijkt nu, na overleg met jan hilhorst dat deksloven gelijk of (veel) breder zijn dan de eronderstaande damwand. De vraag is of de deksloof dan óók onderdeel moet worden van de damwand en als 1 object afgebakend moeten worden. Welke breedte houd je dan aan, die van de damwand of de deksloof? Of moet je deksloof dan wél weer apart afbakenen, als wat? Is het toevoegen van type deksloof niet een oplossing, die alleen gebruikt wordt om deksloven af te bakenen die breder zijn dan de damwand?
 soms is een deksloof ook een soort van betonnen deel, is dat ook onderdeel van de damwand?
 jan hilhorst overlegt met rene Heijnk en komt er begin juli op terug.
+volgens hans komen deksloven die meer dan 30 cm boven water hangen niet voor. dus er is geen afbakeningsprobleem.
 
 **Om hoeveel objecten gaat het?**
 - 18491 objecten van 181 bronhouders. dus gemiddeld 100 objecten nalopen per bronhouders.
@@ -194,7 +195,7 @@ indien < 5 m2. In IMGeo kunnen deze worden opgenomen als ‘begroeid terreindeel
 groenvoorziening’. 
 
 **Wat wordt de nieuwe regel?**
-- De inwinregels dat "uitsparingen in wegdelen van stedelijk groen kleiner dan 5 m2 niet in de BGT opgenomen moeten worden, maar wel in IMGeo opgenomen mogen worden", worden geschrapt. m.a.w. de nieuwe regel wordt hiermee: Het wegdeel wordt daarbij geacht door te lopen.
+- De inwinregels dat "uitsparingen in wegdelen van stedelijk groen kleiner dan 5 m2 niet in de BGT opgenomen moeten worden, maar wel in IMGeo opgenomen mogen worden. Het wegdeel wordt daarbij geacht door te lopen.", worden geschrapt.
 
 
 **Wat moet je doen?**
@@ -240,8 +241,8 @@ van 30cm worden opgenomen. Muren met een minimale hoogte van 50cm worden vastgel
 -Scheidingen van het type muur met een minimale breedte van 30cm worden opgenomen. Muren met een minimale hoogte van 50cm worden vastgelegd.
 
 **Wat moet je doen?**
--OVERIGE SCHEIDINGEN moeten omgezet worden naar SCHEIDING. Daarvoor worden de OVERIGE SCHEIDINGEN centraal gesignaleerd. 
-Bronhouders ontvangen een bestand van de bij hen gesignaleerde OVERIGE SCHEDINGEN. Bronhouder loopt met terugwerkende kracht al zijn overige scheidingen van het type hek en muur na. Daarná alleen bij nieuwe gevallen bepalen of ze opgenomen moeten worden als scheiding of overige scheiding.
+-OVERIGE SCHEIDINGEN van type hek danwel muur moeten omgezet worden naar SCHEIDING hek en muur. Daarvoor worden de OVERIGE SCHEIDINGEN centraal gesignaleerd. 
+Bronhouders ontvangen een bestand van de bij hen gesignaleerde OVERIGE SCHEIDINGEN. Bronhouder loopt met terugwerkende kracht al zijn overige scheidingen van het type hek en muur na. Daarná alleen bij nieuwe gevallen bepalen of ze opgenomen moeten worden als scheiding of overige scheiding.
 Gezien het totaal aantal om te zetten overige scheidingen naar scheidingen, kan de bronhouder met terugwerkende kracht alle gesignaleerde OVERIGE SCHEIDINGEN nml hekken en muren na lopen.
 Daarná alleen bij nieuwe gevallen bepalen of ze opgenomen moeten worden als scheiding of overige scheiding.
 
@@ -296,7 +297,7 @@ actief particuliere terreinen opzoeken en volgens nieuwe regels afbakenen
 Centraal kan er gezocht worden naar terreinen die in de BRT ook al zijn onderverdeeld. De bronhouders zelf zullen deze gesignaleerde terreinen in BGT moeten afbakenen.
 
 **Hoe moet je dat doen?**
-Particuliere terreinen die meerdere gebouwen bevatten, die ontsloten worden door meerdere wegendelen en waarvan in eerste instantie niet duidelijk is, op welke manier je vanaf de ingang naar een bepaald gebouw kan komen, moeten nader afgebakend worden. hierbij dienen minstens de wegdelen apart afgebakend te worden. Tevens zijn begroeide delen dan wel bomen en hekken van belang als dit voor de toegankelijkheid beperkingen geeft.
+Particuliere terreinen die meerdere gebouwen bevatten, die ontsloten worden door meerdere wegdelen en waarvan niet duidelijk is, op welke manier je vanaf de ingang naar een bepaald gebouw kan komen, moeten nader afgebakend worden. Hierbij dienen minstens de wegdelen apart afgebakend te worden. Tevens zijn begroeide delen dan wel bomen en hekken van belang als dit voor de toegankelijkheid beperkingen geeft.
 
 **Waar moet je opletten?**
 Het opnemen van extra objecten moet steeds ten doel staan van de toegankelijkheid voor bijvoorbeeld veiligheidsdiensten of nutsbedrijven.
@@ -324,7 +325,7 @@ opgenomen.
 opslagtank: Opslagfaciliteit voor vloeistoffen of gassen of energie. Alleen bovengrondse opslagtanks worden opgenomen.
 
 **Wat moet je doen?**
-opzoeken van die opslagtanks die gas bevatten of voor energie doeleinden (wijk batterij) gebruikt worden en deze nader classificeren.
+opzoeken van die opslagtanks die gas bevatten of voor energie doeleinden (wijk batterij) gebruikt worden en deze nader classificeren. dit geldt ook voor particuliere gastanks.
 
 **Wat moet je niet doen?**
 
