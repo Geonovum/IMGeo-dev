@@ -1,6 +1,13 @@
 var respecConfig = {
-  specStatus: "GN-VV",
-  specType: "IM",
+  specStatus: "GN-WV",
+  specType: "HR",
+  alternateFormats: [{
+    label: "PDF",
+    uri: "https://example.w3.org/TR/example.pdf",
+  }, {
+    label: "XML",
+    uri: "https://example.w3.org/TR/example.xml",
+  }],
   //canonicalURI: "WV",  
   editors: [
     {
@@ -9,14 +16,7 @@ var respecConfig = {
       companyURL: "http://www.geonovum.nl/",
       mailto: "a.deboer@geonovum.nl",
       note: ""    
-    },
-    {
-      name: "Hans van Eekelen",
-     company: "Geonovum",
-    companyURL: "http://www.geonovum.nl/",
-    mailto: "h.vaneekelen@geonovum.nl",
-    note: "" 
-    },
+    },   	
     {
       name: "Silvy Horbach",
       company: "SVB-BGT",
@@ -24,10 +24,32 @@ var respecConfig = {
       mailto: "silvyhorbach@svb-bgt.nl",
       note: ""    
     },
+	{
+      name: "Hans van Eekelen",
+      company: "Geonovum",
+      companyURL: "http://www.svbbgt.nl/",
+      mailto: "silvyhorbach@svb-bgt.nl",
+      note: ""    
+    },
+	{
+      name: "Gerlof Haan",
+      company: "VNG Realisatie",
+      companyURL: "http://www.vng.nl/",
+      mailto: "gerlof@vng.nl",
+      note: ""    
+    },
+	{
+      name: "Arman Alavi",
+      company: "Ministerie BZK",
+      companyURL: "http://www.geobasisregistraties.nl/",
+      mailto: "arman@minbzk.nl",
+      note: ""    
+    }
+
   ],
   //shortName: "shortname",
   pubDomain: "https://www.geonovum.nl",
-  github: "https://github.com/Geonovm/IMGeo2018",
+  github: "https://github.com/Geonovum/IMGeo22",
   //previousPublishDate: "2018-06-01",
  // previousStatus: "GN-CV",
   //localBiblio: {

@@ -1,8 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat|Esteban);
-
-body {
- font-family:  'Montserrat', sans-serif; !important
-}
+﻿@import url(//fonts.googleapis.com/css?family=Montserrat|Esteban);
 
 blockquote {
  margin-left: 20px !important;
@@ -12,6 +8,15 @@ blockquote {
  border-style: none !important;
 }
 
+.view {
+	
+	width: 802px;
+	height: 402px;
+	border:0;
+	overflow: hidden;
+	
+	
+}
 /*blockquote:before {
     display: block;
     height: 0;
@@ -39,40 +44,60 @@ img {
   max-width: 100%;
 }
 
-table, td, th {
-  cell-padding: 0px !important;
-  cell-spacing: 0px !important;
-  border-color: #eee !important; 
-  /*border-bottom: 1px solid !important;*/
+
+
+
+
+icon {
+	margin: 0;
+	width: 96px;
+	height: 96px;
+	display: inline-block;
+	background-repeat: no-repeat;
+    background-size: 96px 96px;
 }
 
-
-
-th:first-child {
-	font-style: italic;
-	font-size: 0.85em!important;
+.software-voldoet {
+	background-image: url("51e255cf9ca735d13ce814cb4190537d.png");
 }
 
-
-thead {
-  border-color: #eee;
-  background-color: #ccc;
-  font-size: 0.85em !important;
+.software-aanpassen {
+	background-image: url("4c12d0aee36ab140454736d3cbca9f4c.png");
 }
 
-table {
-	font-style: normal;
+.centraal-signaleren {
+	background-image: url("3e7a602ebe38c76776a8a0eba4e83990.png");
 }
 
-td {
-	vertical-align: top;
-	font-size: 0.9em !important;
-	font-style: normal;
-	border-bottom:1pt solid black;
+.decentraal-signaleren {
+	background-image: url("d90734a4417d5c260354cbcc065fe438.png");
 }
 
-td:first-child {
-	font-style: italic;
-	font-size: 0.85em!important;
+.centraal-omzetten {
+	background-image: url("bcc6db15c559764f2caf8f68d454efe0.png");
 }
 
+.decentraal-omzetten {
+	background-image: url("d67b761a11e02641c4b79438ac558c58.png");
+}
+
+.terugwerkende-kracht {
+	background-image: url("8c9b26622bcbc8c510f1a06c3d4e391b.png");
+}
+
+.reguliere-bijhouding {
+	background-image: url("9cd5ddd8e03eb4a08f10fa67032369fc.png");
+}
+
+.tijd-geld {
+	background-image: url("35627a5d92e005a53a25950ea2b9207e.png");
+}
+
+.doorlooptijd {
+	background-image: url("597a9db0358ca2af752b262a0bb08569.png");
+}
+
+.nvt {
+	background-image: url("
+3e7a602ebe38c76776a8a0eba4e83991.png");
+}
