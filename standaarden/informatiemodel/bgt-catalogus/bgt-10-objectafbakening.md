@@ -376,3 +376,5 @@ Scheidingen van het type muur, met een minimale lengte van 1m en met een minimal
 
 In terreinen met een fysiek voorkomen ‘erf’ worden alleen die scheidingen opgenomen die direct aan de straatzijde zijn gelegen.
 
+Ter ondersteuning bij het vaststellen welk objecttype het betreft, geldt onderstaande beslisboom voor muren, dammen en wanden:
+
