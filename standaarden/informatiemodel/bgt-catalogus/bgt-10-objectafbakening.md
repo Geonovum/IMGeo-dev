@@ -350,8 +350,7 @@ De eventuele overige objecten zoals muren, kademuren, panden en overbruggingen v
 Nadere typeringen van sluis wordt beschouwd als beheerinformatie en niet opgenomen in de BGT.
 	
 Bij een stuw behoort uitsluitend de klep of schuif waarover het water kan stromen tot BGT-inhoud.
-De eventueel aanwezige bakken waar het water door wordt geleid, worden als stuwdeel opgenomen in de BGT. Eventuele overige objecten zoals muren, kademuren, panden en overbruggingen vormen als zodanig inhoud van de BGT. Over al deze relevante BGT-objecten is het mogelijk om het, niet verplichte, IMGeo functioneel gebied stuwcomplex op te nemen.
-Nadere typeringen van stuw wordt beschouwd als beheerinformatie en niet opgenomen in de BGT.
+De eventueel aanwezige bakken waar het water door wordt geleid, worden als stuwdeel opgenomen in de BGT. Eventuele overige objecten zoals muren, kademuren, panden en overbruggingen vormen als zodanig inhoud van de BGT.
 
 
 ## Scheiding
