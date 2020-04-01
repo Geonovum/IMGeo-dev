@@ -82,10 +82,10 @@ FysiekVoorkomenOnbegroeidTerrein
 FysiekVoorkomenBegroeidTerrein
 ------------------------------
 
-| loofbos            | Terreindeel begroeid met een percentage van minimaal 90% loofbomen die een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. (bron: BGT)                                                                   |
+| loofbos            | Terreindeel begroeid met minimaal 90% loofbomen die een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. (bron: BGT)                                                                   |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| gemengd bos        | Terreindeel begroeid met een percentage van maximaal 90% loof- of naaldbomen die een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. (bron: BGT)                                                         |
-| naaldbos           | Terreindeel begroeid met een percentage van minimaal 90% naaldbomen die een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. (bron: BGT)                                                                  |
+| gemengd bos        | Terreindeel begroeid met maximaal 90% loof- of naaldbomen die een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. (bron: BGT)|
+| naaldbos           | Terreindeel begroeid met minimaal 90% naaldbomen die een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. (bron: BGT)                                                                  |
 | heide              | Terreindeel overwegend begroeid met heide en heideachtige vegetaties. (bron: BGT)                                                                                                                                                     |
 | struiken           | Terreindeel bedekt met niet-gecultiveerde (natuurlijke), lage, houtachtige, overblijvende planten gekenmerkt door verschillende vertakkingen dicht bij de wortel en afwezigheid van opvallende stammen. (bron: BGT)                   |
 | houtwal            | Terreindeel zijnde een afscheiding met beperkte breedte en beplant met bomen of struiken. (bron: BGT)                                                                                                                                 |
