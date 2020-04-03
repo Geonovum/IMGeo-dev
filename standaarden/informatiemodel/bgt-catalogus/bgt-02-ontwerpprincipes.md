@@ -25,7 +25,7 @@ Dit geldt voor alle particuliere terreinen waar deze informatie voorziet in een 
 
 Niet tot de inhoud van de BGT behoort het grondgebied van Nederland in de Noordzee (Continentaal Plat) en de overzeese gebiedsdelen (Antillen).
 
-Ten behoeve van beheer door bronhouders kunnen objecten die gedeeltelijk buiten de landsgrens liggen worden opgenomen in de BGT. Wanneer beheerobjcetn geheel buiten de landsgrens liggen kunnen deze worden opgenomen in IMGeo.
+Ten behoeve van beheer door bronhouders kunnen objecten die gedeeltelijk buiten de landsgrens liggen in hun geheel worden opgenomen in de BGT. Wanneer beheerobjecten geheel buiten de landsgrens liggen kunnen deze worden opgenomen in IMGeo.
 
 ## IMGeo-objecten in de BGT
 
