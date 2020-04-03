@@ -21,7 +21,7 @@ _Figuur 1: Overzicht BGT-objecten._
 ## Dekking
 
 De BGT wordt landsdekkend beheerd voor het grondgebied van Nederland binnen de gemeentegrenzen. Daartoe behoren ook industriële complexen, zoals Schiphol, de Hoogovens en Europoort.
-Dit geldt voor alle particuliere terreinen waar deze informatie voorziet in een betere of zelfs noodzakelijke, wettelijk geregelde dienstverlening door bronhouders en gebruikers. Denk daarbij bijv. aan de inzet van hulpdiensten maar ook de dienstverlening door netbeheerders dat deels een wettelijke taak is.
+Dit geldt voor alle particuliere terreinen waar deze informatie voorziet in een betere of zelfs noodzakelijke, wettelijk geregelde dienstverlening door bronhouders en gebruikers. Denk daarbij bijv. aan de inzet van hulpdiensten maar ook de dienstverlening door netbeheerders die deels een wettelijke taak is.
 
 Niet tot de inhoud van de BGT behoort het grondgebied van Nederland in de Noordzee (Continentaal Plat) en de overzeese gebiedsdelen (Antillen).
 
