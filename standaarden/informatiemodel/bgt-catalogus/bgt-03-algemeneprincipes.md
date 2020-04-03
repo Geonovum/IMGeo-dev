@@ -44,6 +44,7 @@ De coördinaten van de kruinlijn zijn identiek aan de coördinaten van de object
 
 De BGT kent één functioneel gebied, de Kering. Hierdoor zijn (hoofd)waterkeringen herken­baar. Dit object wordt uitsluitend toegekend door een waterschap en in voorkomende gevallen door Rijkswaterstaat, die ook als bronhouder voor dit object fungeren.
 De begrenzing van functionele gebieden hoeft niet samen te vallen met de begrenzing van objecten.
+Functionele gebieden bevatten geen plaatsbepalingspunten.
 
 # Coördinaat-referentiesysteem
 
@@ -337,7 +338,7 @@ Ook de kwaliteit van puntgegevens en de bijbehorende kwaliteitsgegevens moeten e
 Plaatsbepalingspunten (PBP’s) zijn die punten die in coördinaten bekend zijn en die gebruikt zijn bij en onderdeel uitmaken van de begrenzing van BGT-objecten. Elk plaatsbepalingspunt heeft een unieke identificatie, maar de relatie tussen BGT-objecten en plaatsbepalingspunten bestaat uit de overeenkomstige coördinatenparen. Er vindt geen administratieve koppeling plaats op basis van
 het ID.
 
-Elk coördinatenpunt in de BGT bezit een plaatsbepalingspunt.
+Elk coördinatenpunt in de BGT bezit een plaatsbepalingspunt met uitzondering van coördinaatpunten van functionele gebieden.
 
 Een BGT-lijnobject bevat minimaal twee plaatsbepalingspunten. Een BGT-vlakobject moet uit minimaal drie plaatsbepalingspunten bestaan.
 
