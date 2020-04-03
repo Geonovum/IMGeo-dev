@@ -24,7 +24,8 @@ De BGT wordt landsdekkend beheerd voor het grondgebied van Nederland binnen de g
 Dit geldt voor alle particuliere terreinen waar deze informatie voorziet in een betere of zelfs noodzakelijke, wettelijk geregelde dienstverlening door bronhouders en gebruikers. Denk daarbij bijv. aan de inzet van hulpdiensten maar ook de dienstverlening door netbeheerders dat deels een wettelijke taak is.
 
 Niet tot de inhoud van de BGT behoort het grondgebied van Nederland in de Noordzee (Continentaal Plat) en de overzeese gebiedsdelen (Antillen).
-Ten behoeve van beheer door bronhouders kunnen objecten die geheel of gedeeltelijk buiten de landsgrens liggen worden opgenomen in de BGT.
+
+Ten behoeve van beheer door bronhouders kunnen objecten die gedeeltelijk buiten de landsgrens liggen worden opgenomen in de BGT. Wanneer beheerobjcetn geheel buiten de landsgrens liggen kunnen deze worden opgenomen in IMGeo.
 
 ## IMGeo-objecten in de BGT
 
