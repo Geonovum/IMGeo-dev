@@ -27,6 +27,7 @@ De kruinlijn moet bij het wegdeel worden opgenomen indien de helling een verhoud
 Eén van de zijden van het wegdeel valt altijd samen met de kruinlijn, zijnde bovenkant talud. De coördinaten van de kruinlijn zijn identiek met die van de objectbegrenzing ter plaatse. Het gedeelte van een object dat op het talud ligt, is altijd een apart begrensd vlak ten opzichte van het deel van het object dat niet op het talud ligt.
 
 Als er meer dan een objecttype op een talud ligt, bevat alleen het hoogst gelegen object een kruinlijngeometrie.
+De coördinaten van de kruinlijn zijn identiek aan de coördinaten van de objectbegrenzing die samenvalt met de kruinlijn.
 
 ### Aandachtspunten
 
@@ -68,6 +69,7 @@ Bij een naast een wegdeel liggend waterdeel geldt dat als de afstand tussen wegd
 De kruinlijn moet bij het ondersteunend wegdeel worden opgenomen indien de helling een verhouding heeft van verticaal:horizontaal van 1:4 of steiler en het hoogteverschil \>1m bedraagt. Eén van de zijden van het ondersteunend wegdeel valt altijd samen met de kruinlijn, zijnde bovenkant talud. De coördinaten van de kruinlijn zijn identiek met die van de objectbegrenzing ter plaatse. Het gedeelte van een object dat op het talud ligt is altijd een apart begrensd vlak ten opzichte van het deel van het object dat niet op het talud ligt.
 
 Als er meer dan een objecttype op een talud ligt, bevat alleen het hoogst gelegen object een kruinlijngeometrie.
+De coördinaten van de kruinlijn zijn identiek aan de coördinaten van de objectbegrenzing die samenvalt met de kruinlijn.
 
 ## Spoor
 
@@ -92,6 +94,7 @@ Het attribuut fysiek voorkomen geldt voor het gehele onbegroeide terreindeel. Ee
 De kruinlijn moet bij het onbegroeid terreindeel worden opgenomen indien de helling een verhouding heeft van verticaal:horizontaal van 1:4 of steiler en het hoogteverschil \>1m bedraagt. Een van de zijden van het onbegroeid terreindeel valt altijd samen met de kruinlijn, zijnde bovenkant talud. De coördinaten van de kruinlijn zijn identiek met die van de objectbegrenzing ter plaatse. Het gedeelte van een object dat op het talud ligt is altijd een apart begrensd vlak ten opzichte van het deel van het object dat niet op het talud ligt.
 
 Als er meer dan een objecttype op een talud ligt, bevat alleen het hoogst gelegen object een kruinlijngeometrie.
+De coördinaten van de kruinlijn zijn identiek aan de coördinaten van de objectbegrenzing die samenvalt met de kruinlijn.
 
 ### Aandachtspunten
 
