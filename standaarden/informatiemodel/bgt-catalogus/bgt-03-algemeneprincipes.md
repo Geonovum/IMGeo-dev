@@ -42,6 +42,7 @@ Taluds zijn BGT-inhoud als het hoogteverschil minimaal 1 meter is en de steilhei
 # Functioneel gebied
 
 De BGT kent één functioneel gebied, de Kering. Hierdoor zijn (hoofd)waterkeringen herken­baar. Dit object wordt uitsluitend toegekend door een waterschap en in voorkomende gevallen door Rijkswaterstaat, die ook als bronhouder voor dit object fungeren.
+De begrenzing van functionele gebieden hoeft niet samen te vallen met de begrenzing van objecten.
 
 # Coördinaat-referentiesysteem
 
@@ -171,7 +172,7 @@ Het BGT-informatiemodel beschrijft het geometrietype als een associatie van een 
 | 
 | *Functioneel Gebied*       | kering                         | Vlak                   |
 
-N.B. Functionele gebieden doen, in tegenstelling tot alle andere BGT-vlakobjecten, niet mee in de topologische structuur. Zij liggen als het ware als een overlay over andere BGT-objecten. Bij de kering kan het bijvoorbeeld gaan om dijken die zijn samengesteld uit terreindelen en wegdelen.
+N.B. Functionele gebieden doen, in tegenstelling tot alle andere BGT-vlakobjecten, niet mee in de topologische structuur. Zij liggen als het ware als een overlay over andere BGT-objecten. Bij de kering kan het bijvoorbeeld gaan om dijken die zijn samengesteld uit terreindelen en wegdelen. De begrenzing van functionele gebieden hoeft niet samen te vallen met de begrenzing van objecten.
 
 Voor de beschrijving van geometrieën geldt het ISO 19107 Spatial Schema. Voor de uitwisseling wordt gebruik gemaakt van Geography Markup Language (GML) 3.1.1. In de BGT zijn de geometrieën uit GML 3.1.1 simple features profile v1.0 toegestaan, plus cirkelbogen (GM\_Arc).
 
