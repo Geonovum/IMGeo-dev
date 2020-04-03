@@ -38,6 +38,7 @@ Voor de begrenzing van panddelen zie 10.7 e.v.
 # Talud
 
 Taluds zijn BGT-inhoud als het hoogteverschil minimaal 1 meter is en de steilheid 1:4 of meer bedraagt. Het kenmerk voor het voorkomen van een talud is een attribuut bij weg-, ondersteunend weg- en terreindelen. Als er meer dan een objecttype op een talud ligt, bevat alleen het hoogst gelegen object een kruinlijngeometrie. Een object dat op een talud ligt is altijd een afzonderlijk begrensd object ten opzichte van een aangrenzend identiek object dat niet op een talud ligt.
+De coördinaten van de kruinlijn zijn identiek aan de coördinaten van de objectbegrenzing die samenvalt met de kruinlijn.
 
 # Functioneel gebied
 
