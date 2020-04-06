@@ -90,10 +90,9 @@ worden gebruikt .
 
 IMGeo kent naast de BGT typen scheiding ook draadraster en faunaraster. Bovendien zijn heggen/hagen in IMGeo vertegenwoordigd, zij het niet als scheiding maar als vegetatieobject. Draadraster en faunaraster worden als lijnobject opgenomen.
 
-In de BGT worden scheidingen alleen vastgelegd als ze bepaalde minimum afmetingen hebben, die per type scheiding verschillen (zie deel I). In IMGeo kunnen scheidingen, die kleiner dan het BGT minimum zijn, worden opgenomen als
-objecttype ‘overige scheiding’. Deze kent dezelfde typen scheiding. 
+In de BGT worden scheidingen alleen vastgelegd als ze bepaalde minimum afmetingen hebben, die per type scheiding verschillen (zie deel I). In IMGeo kunnen scheidingen worden opgenomen die kleiner zijn dan de voor de BGT vermelde minimum afmetingen.
 
-De populatie van Overige Scheiding bestaat uit:
+De populatie van Scheiding in IMGeo bestaat uit:
 
 -   Scheidingen die niet voldoen aan de BGT minimummaat;
 -   Scheidingen in terrein met fysiek voorkomen ‘erf’ die niet aan de straatzijde gelegen zijn.
