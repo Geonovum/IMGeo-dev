@@ -27,6 +27,7 @@ De administratieve beheerinformatie, zoals hoe vaak een ‘groenvoorziening: gra
 IMGeo bevat naast het verplichte BGT-deel met daarin de fysieke topografische objecten (basistopografie) ook objecten die deze basistopografie nader inrichten (plustopografie) en objecten die de basisobjecten nader indelen voor beheer (beheertopografie).
 
 Functionele gebieden komen voor in zowel de BGT als IMGeo. Deze gebieden overlappen doorgaans met een groep andere objecten en geven aan deze verzameling, liggend in een bepaald gebied, een functie. Registratieve gebieden zijn onderdeel van IMGeo, terwijl die geen fysieke topografie hebben.
+Deze gebieden bevatten geen plaatsbepalingspunten.
 
 ## IMGeo-objecten in de BGT
 
