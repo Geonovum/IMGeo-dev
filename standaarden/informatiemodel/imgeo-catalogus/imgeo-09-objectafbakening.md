@@ -57,6 +57,7 @@ In IMGeo kunnen inrichtingselementen, die op en in het water voorkomen, worden o
 
 Het objecttype functioneel gebied kent op het gebied van de waterhuishouding de classificaties ‘kering’ als BGT inhoud, en in het optionele deel ‘waterbergingsgebied’ en ‘infrastructuur waterstaatswerken’. Zie de paragraaf
 over functioneel gebied voor meer informatie.
+Functionele gebieden bevatten geen plaatsbepalingspunten.
 
 ## Gebouwinstallatie
 
@@ -121,4 +122,4 @@ Buurt, wijk, stadsdeel en waterschap worden opgenomen met vlakgeometrie.
 ## Functioneel gebied
 
 In IMGeo kunnen functionele gebieden worden opgenomen als vlakobject. De functionele gebieden zijn inrichtend en mogen overlappen met elkaar en met andere vlakobjecten van alle soorten. De functionele gebieden hoeven niet samen
-een landsdekkend geheel zonder gaten te vormen.  
+een landsdekkend geheel zonder gaten te vormen. Ze bevatten geen plaatsbepalingspunten.
