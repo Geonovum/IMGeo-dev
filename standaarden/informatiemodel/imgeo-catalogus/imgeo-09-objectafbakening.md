@@ -29,7 +29,7 @@ In IMGeo kunnen inrichtingselementen, die op wegdelen voorkomen, worden opgenome
 
 -   Wegmarkeringen zoals symbolen, belijning en kleur zijn geen BGT inhoud maar kunnen in IMGEO worden opgenomen als weginrichtingselement.
 
--   Inritten (toegangswegen, oprijlanen) korter dan 25 m kunnen worden opogenomen als IMGeo inhoud.
+-   Inritten (toegangswegen, oprijlanen) korter dan 25 m kunnen worden opgenomen als IMGeo inhoud.
 
 ## Ondersteunend wegdeel
 
