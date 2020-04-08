@@ -27,7 +27,7 @@ FunctieWeg
 | ruiterpad              | Een wegdeel primair aangelegd voor het gebruik door ruiters. (bron: BGT)                                                                                                                                         |
 | parkeervlak            | Wegdeel bestemd voor het parkeren van motorvoertuigen. (bron: IMGEO 1.0)                                                                                                                                         |
 | voetgangersgebied      | Wegdeel alleen voor het gebruik door voetgangers, waarbij het door voetgangers te gebruiken gebied de volle breedte van de weg beslaat en het gebied een nadrukkelijk openbaar karakter heeft. (bron: IMGEO 1.0) |
-| inrit                  | Toegangswegen, oprijlanen en dergelijke met verkeersfunctie die leiden naar afgelegen erven en terreinen. (bron: IMGEO 2.0)                                                                                      |
+| inrit                  | Toegangswegen, oprijlanen en dergelijke met verkeersfunctie, waarvan de lengte > 25 m bedraagt en leiden naar erven en terreinen. (bron: BGT | IMGEO)                                                                                      |
 | woonerf                | Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie. (bron: IMGEO 1.0)                                                                              |
 |
 
