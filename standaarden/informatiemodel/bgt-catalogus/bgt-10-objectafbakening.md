@@ -316,7 +316,7 @@ Zichtbare muren enzovoort die de buitenste delen van een tunnel vormen worden in
 
 ### Relatieve hoogte
 
-In tunneldelen ligt of liggen altijd één of meer wegdelen. Deze wegdelen bezitten dezelfde aanduiding voor relatieve hoogte als het tunneldeel waarin zij liggen.
+De relatieve hoogte van tunneldelen is altijd < 0. In tunneldelen ligt of liggen altijd één of meer wegdelen. Deze wegdelen bezitten dezelfde aanduiding voor relatieve hoogte als het tunneldeel waarin zij liggen.
 
 ## Kunstwerkdelen
 
