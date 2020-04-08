@@ -29,6 +29,8 @@ In IMGeo kunnen inrichtingselementen, die op wegdelen voorkomen, worden opgenome
 
 -   Wegmarkeringen zoals symbolen, belijning en kleur zijn geen BGT inhoud maar kunnen in IMGEO worden opgenomen als weginrichtingselement.
 
+-   Inritten (toegangswegen, oprijlanen) korter dan 25 m kunnen worden opogenomen als IMGeo inhoud.
+
 ## Ondersteunend wegdeel
 
 Grasklinkers liggen soms naast een wegdeel in de berm. Het betreffende vlak vormt dan een afzonderlijk ondersteunend wegdeel. Wanneer een berm bestaat uit een deel gras en een deel grasklinkers zijn dat twee verschillende objecten
