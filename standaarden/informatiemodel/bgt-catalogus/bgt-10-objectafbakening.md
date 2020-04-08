@@ -218,18 +218,7 @@ De voorwaarde is wel dat deze panden al zijn ingemeten en/of dat het gaat om bes
 
 De grondvlakgeometrie is daar waar de ‘footprint’ van het pand de ondergrond raakt (rh = 0).
 
-Wanneer buitenomtrek en grondvlak op beide volgende twee (Inwinningsregels Pand 10.7.e.v.) wijzen van elkaar afwijken:
-1.	De horizontale afwijking ten opzichte van de situatie met het grondvlak bedraagt 1 m of meer;
-2.	De hoogte van de over- en/of onderbouw bedraagt minimaal één verdieping.
-
-ontstaan er zogenaamde panddelen van dat pand in de BGT.
-
-Panddelen ontstaan dus uitsluitend bij een afwijkende over- en/of onderbouw van een pand (resp rh = +1 en rh = -1). Er ontstaat dan één pand met als geometrie het grondvlak (rh = 0) plus één panddeel voor elke afwijkende over- (rh = +1) of onderbouw (rh = -1) van dat BAG-pand. In voorkomende situaties met over- of onderbouw bedraagt het minimum aantal panddelen van één BAG-pand daarom één. In principe geldt er geen maximum voor het aantal panddelen voor een BAG-pand.
-
-De begrenzing van een panddeel wordt gevormd door de geometrie van het grondvlak en de van het grondvlak afwijkende geometrie dat daar aan grenst.
-
 Voor panden die in hun geheel boven water liggen, bijvoorbeeld een brugwachtershuis dat aan een brug hangt, geldt dat dit pand in de BGT voorkomt met een relatieve hoogte (rh) van één hoger dan het water waar het zich boven bevindt.
-Panden die gedeeltelijk boven water liggen krijgen voor elk deel dat dit betreft een panddeel met een relatieve hoogte (rh) van één hoger dan het water waar het panddeel zich boven bevindt.
 
 Uitstulpingen in gevels, zoals steunberen, behoren tot de pandgeometrie als de afmetingen groter zijn dan 30x30cm. Als zij kleiner zijn, worden zij niet opgenomen (generalisatie). 
 Als zich op de hoeken van een gebouw uitstulpingen bevinden < 30 cm wordt de lijn die over de uiteinden van deze uitstulpingen loopt, beschouwd als gevellijn voor het pand.
