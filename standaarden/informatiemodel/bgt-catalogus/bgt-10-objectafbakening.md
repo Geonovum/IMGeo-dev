@@ -51,6 +51,8 @@ Uitsparingen in wegdelen, meestal van het type voetpad, voor stedelijk groen wor
 
 Belijning, kleur en symboliek zijn geen begrenzingen van wegdelen, zoals rijbanen, OV-banen, fietsstroken en parkeervakken.
 
+Inritten (toegangswegen, oprijlanen) naar erven en terreinen vormen BGT inhoud wanneer ze langer zijn dan 25 m. Kortere inritten kunnen worden opgenomen in IMGeo.
+
 ## OndersteunendWegdeel
 
 ### Indeling
