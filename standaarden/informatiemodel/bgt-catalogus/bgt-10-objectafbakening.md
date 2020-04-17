@@ -63,9 +63,9 @@ Dit object kent een onderverdeling in de typen verkeerseiland en berm. Berm kent
 
 In de regel is dit object scherp begrensd met het aanliggende wegdeel door bijvoorbeeld een band of de kant van de verharding. Als een berm bestaat uit een deel verhard (bijvoorbeeld grasklinkers) en een deel begroeid, ontstaan er voor de BGT twee objecten OndersteunendWegdeel.
 
-Wanneer de niet-wegdeel begrenzing van een berm met een aanliggend terrein niet herkenbaar is, hanteert men een breedte voor de berm van 25 m. Daarbuiten ligt dan een terreindeel.
+De niet-wegdeel begrenzing van een begroeide berm met een aanliggend begroeid terrein zal niet altijd even duidelijk herkenbaar zijn. Als begrenzing hanteert men dan een herkenbare overgang met een ander gewas of een ander maairegime.
 
-Bij een naast een wegdeel liggend waterdeel geldt dat als de afstand tussen wegdeel en kant insteek > 60 cm bedraagt, het deel daartussen als berm wordt opgenomen. Mogelijke waterbegrenzingen staan beschreven bij Waterdeel.
+Bij een naast een wegdeel liggend waterdeel geldt dat als de afstand tussen wegdeel en kant insteek > 30 cm bedraagt, het deel daartussen als berm wordt opgenomen. Mogelijke waterbegrenzingen staan beschreven bij Waterdeel.
 
 
 De kruinlijn moet bij het ondersteunend wegdeel worden opgenomen indien de helling een verhouding heeft van verticaal:horizontaal van 1:4 of steiler en het hoogteverschil \>1m bedraagt. Eén van de zijden van het ondersteunend wegdeel valt altijd samen met de kruinlijn, zijnde bovenkant talud. De coördinaten van de kruinlijn zijn identiek met die van de objectbegrenzing ter plaatse. Het gedeelte van een object dat op het talud ligt is altijd een apart begrensd vlak ten opzichte van het deel van het object dat niet op het talud ligt.
@@ -100,7 +100,7 @@ De coördinaten van de kruinlijn zijn identiek aan de coördinaten van de object
 
 ### Aandachtspunten
 
-Aaneengesloten voor- en achtertuinen van panden worden als één onbegroeid terreindeel opgenomen met het type ‘erf’. Er worden binnen een erf geen tussenliggende scheidingen opgenomen.
+Aaneengesloten voor- en achtertuinen van panden worden als één onbegroeid terreindeel opgenomen met het type ‘erf’. Voor de BGT worden er binnen een erf geen tussenliggende scheidingen opgenomen. Eventueel kunnen ze als IMGeo inhoud worden vastgelegd.
 
 Braakliggende grond in stedelijk gebied is een onbegroeid terreindeel met een fysiek voorkomen ‘onverhard’.
 
@@ -129,26 +129,14 @@ Bij deze percentages worden het eventueel aanwezige onderhout en smalle stroken 
 De volgende paragrafen beschrijven op welke wijze land en water zijn gescheiden in de BGT.
 
 ### Algemeen
-
-De BGT kent drie typen waterdeel:
-•	zee;
-•	waterloop;
-•	watervlakte.
-
+De BGT kent vier typen waterdeel:
+· zee;
+· waterloop;
+· watervlakte;
+· greppel, droge sloot.
 En twee typen ondersteunend waterdeel:
-•	oever, slootkant;
-•	slik.
-
-Waterlopen hebben een specifiek attribuut –permanent watervoerend-. De defaultwaarde hiervan is 1. Desgewenst geeft de bronhouder hieraan de waarde 0: droog. In dat geval betreft het een objecttype dat voorheen bekend was als –droge sloot-.
-
-Ondersteunende waterdelen komen voor wanneer er sprake is van een talud dat een minimumwaarde voor de helling heeft van 1:4 èn de horizontale afstand tussen kant insteek èn waterlijn (c) minimaal 0,5 m bedraagt:
-
- < afbeelding beslisboom ondersteunend waterdeel > zie https://github.com/Geonovum/IMGeo2018/commit/97c7a79716233d9b8f85b0bd72f2a074e5f3203e
-
-Ondersteunende waterdelen van het type oever, slootkant bezitten een fysiek voorkomen waarvoor een van de volgende vier waarden geldt: gesloten verharding, open verharding, begroeid of onbegroeid.
-Zogenaamde natuurvriendelijke oevers bezitten een zodanige helling dat deze niet voldoen aan de eisen van 1:4 of steiler voor het talud. Dit zijn in de BGT daarom terreindelen met de bijbehorende typering.
-
-Oevers en slootkanten zijn de delen die enerzijds begrensd worden door de waterlijn en anderzijds door een kant insteek.
+· oever, slootkant;
+· slik.
 
 De kruinlijngeometrie wordt bij het ondersteunend waterdeel niet opgenomen. Impliciet is de – niet-waterbegrenzing – van een oever altijd de hoogste kant.
 
@@ -158,11 +146,13 @@ Onder waterlopen vallen rivieren, kanalen, beken, sloten en grachten.
 
 Watervlakten zijn meren, plassen, vennen en vijvers. Ook havens vallen in de regel hieronder.
 
+Greppels en droge sloten hebben een functie in de waterhuishouding.
+
+Oevers en slootkanten zijn de delen die enerzijds begrensd worden door de waterlijn en anderzijds door een kant insteek.
+
 Slikken zijn bij laagwater droogvallende delen. Zij komen uitsluitend voor in de Waddenzee en in de Zuidwestelijke delta.
 
 In het algemeen geldt dat zichtbare topografie altijd als begrenzing voorkomt, in de beschreven situaties aangevuld met niet of niet-altijd zichtbare topografische begrenzingen.
-
-Greppels ten behoeve van afwatering en drainagegeulen vormen geen inhoud van de BGT.
 
 ### Noordzee
 
@@ -203,7 +193,9 @@ In meren wordt een streefpeil beheerd door bemalen en/of spuien. Als de ligging 
 
 #### Overige waterlopen en -vlakken
 
-Als kant water de begrenzing van objecten vormt, geldt dat dit een presentatie is van het laagst mogelijke streefpeil ter plaatse. De fysieke begrenzing kan bestaan uit een object scheiding van het type kademuur of  walbescherming of damwand.
+Hier geldt onderstaand stroomdiagram. Als kant water de begrenzing van objecten vormt, geldt dat dit een presentatie is van het laagst mogelijke streefpeil ter plaatse. Als de horizontale afstand tussen waterlijn en de bovenkant van een herkenbare insteek 1m of meer bedraagt dan ontstaat in de BGT een ondersteunend waterdeel van het type oever/slootkant.
+
+Figuur 13: Stroomdiagram
 
 # Pand en panddelen
 
@@ -227,6 +219,7 @@ Als zich op de hoeken van een gebouw uitstulpingen bevinden < 30 cm wordt de lij
 De gevel van erkers en schoorstenen, die meer dan 30 cm buiten de doorgaande gevellijn van de voorgevel liggen, behoren tot de geometrie van het pand.
 Indien de grondvlakgeometrie van een pand uit meerdere losse vlakken bestaat, worden deze in één multivlak vastgelegd.
 Kolommen van een dak, luifel of uitbouw (overbouw) van een pand behoren tot de grondvlakgeometrie als de kleinste afmeting (rechthoekzijde of middellijn) op het grondvlak meer dan 30 cm bedraagt.
+
 Aandachtspunten
 Voor veel panden is de grondvlakgeometrie overgenomen door de BAG als geometrie voor de buitenomtrek van het pand omdat deze geometrieën identiek zijn, met inachtneming van de in vorige paragraaf vermelde twee regels.
 
@@ -250,7 +243,7 @@ Het afdak van de overkapping is eventueel IMGeo inhoud.
 
 ### Regels voor opname
 Er is sprake van een overbrugging wanneer een van de onderdelen bestaat uit een los dek dat op een bak en/of pijlers rust.
-Dit in tegenstelling tot een tunnel, die uit een gesloten kokerconstructie met een in- en uitgangt bestaat.
+Dit in tegenstelling tot een tunnel, die uit een gesloten kokerconstructie met een in- en uitgang bestaat.
 
 Delen van overbruggingen worden in de BGT niet verder getypeerd. Zo worden zowel het brugdek als de pijler van een overbrugging in de BGT aangeduid als overbruggingsdeel.
 
@@ -307,7 +300,7 @@ Zichtbare muren enzovoort die de buitenste delen van een tunnel vormen worden in
 
 ### Relatieve hoogte
 
-De relatieve hoogte van tunneldelen is altijd < 0. In tunneldelen ligt of liggen altijd één of meer wegdelen. Deze wegdelen bezitten dezelfde aanduiding voor relatieve hoogte als het tunneldeel waarin zij liggen.
+De relatieve hoogte van tunneldelen bedraagt altijd < 0. In tunneldelen ligt of liggen altijd één of meer wegdelen. Deze wegdelen bezitten dezelfde aanduiding voor relatieve hoogte als het tunneldeel waarin zij liggen.
 
 ## Kunstwerkdelen
 
@@ -336,11 +329,11 @@ Als er afzonderlijke afmetingen van de mastvoeten bekend zijn, wordt elke mastvo
 #### Gemaaldelen, sluisdeur, stuw
 
 Bij een gemaal worden de eventueel aanwezige bakken waar het water door wordt geleid als gemaaldeel opgenomen in de BGT. 
-De eventuele overige objecten zoals muren, kademuren, panden en overbruggingen vormen als zodanig inhoud van de BGT. Over al deze relevante BGT-objecten is het mogelijk om het, niet verplichte, IMGeo functioneel gebied gemaalcomplex op te nemen.
+De eventuele overige objecten zoals muren, kademuren, panden en overbruggingen vormen als zodanig inhoud van de BGT.
 Nadere typeringen van gemaal wordt beschouwd als beheerinformatie en niet opgenomen in de BGT.
 
 Bij een sluis behoren alleen de sluisdeuren, in gesloten stand, tot BGT-inhoud.
-De eventuele overige objecten zoals muren, kademuren, panden en overbruggingen vormen als zodanig inhoud van de BGT. Over al deze relevante BGT-objecten is het mogelijk om het, niet verplichte, IMGeo functioneel gebied sluiscomplex op te nemen.
+De eventuele overige objecten zoals muren, kademuren, panden en overbruggingen vormen als zodanig inhoud van de BGT.
 Nadere typeringen van sluis wordt beschouwd als beheerinformatie en niet opgenomen in de BGT.
 	
 Bij een stuw behoort uitsluitend de klep of schuif waarover het water kan stromen tot BGT-inhoud.
@@ -369,5 +362,5 @@ Scheidingen van het type muur, met een minimale lengte van 1m en met een minimal
 
 In terreinen met een fysiek voorkomen ‘erf’ worden alleen die scheidingen opgenomen die direct aan de straatzijde zijn gelegen.
 
-Ter ondersteuning bij het vaststellen welk objecttype het betreft, geldt onderstaande beslisboom voor muren, dammen en wanden:
-
+Ter ondersteuning bij het vaststellen welk objecttype het betreft, geldt onderstaande beslisboom voor muren en wanden:
+    (Uit figuur verwijderen: dam(men) omdat dit uitbreiding betreft en naar DiSGeo gaat)
