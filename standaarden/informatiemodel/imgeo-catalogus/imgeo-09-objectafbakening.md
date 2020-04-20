@@ -77,7 +77,7 @@ pilaren.
 ## Kunstwerkdeel
 
 IMGeo voegt enkele optionele kunstwerken toe. Dit zijn allemaal vlakobjecten, met uitzondering duiker: deze heeft vlak- of lijngeometrie.
-De relatieve hoogte van duikers bedraagt altijd < 0.
+De relatieve hoogte van een duiker bedraagt altijd < 0.
 
 ## Overbruggingsdeel
 
@@ -95,6 +95,7 @@ worden gebruikt .
 IMGeo kent naast de BGT typen scheiding ook draadraster en faunaraster. Bovendien zijn heggen/hagen in IMGeo vertegenwoordigd, zij het niet als scheiding maar als vegetatieobject. Draadraster en faunaraster worden als lijnobject opgenomen.
 
 In de BGT worden scheidingen alleen vastgelegd als ze bepaalde minimum afmetingen hebben, die per type scheiding verschillen (zie deel I). In IMGeo kunnen scheidingen worden opgenomen die kleiner zijn dan de voor de BGT vermelde minimum afmetingen.
+Ook kunnen in IMGeo scheidingen worden opgenomen die binnen een erf en niet aan de straatzijde of openbare ruimte zijde zijn gelegen.
 
 De populatie van Scheiding in IMGeo bestaat uit:
 
@@ -121,6 +122,8 @@ In IMGeo kunnen verschillende soorten registratieve gebieden worden opgenomen, a
 Openbare ruimte mag als vlakobject worden opgenomen. Het is mogelijk een relatie te leggen naar de BGT OpenbareRuimteLabel, waarin de BAG identificatie, openbare ruimte type en openbare ruimte naam en plaatsingspunt zijn opgenomen. De afbakening van de openbare ruimte geometrie kan geschieden op de plaatsen waar de openbare ruimte naam wijzigt en aan de wegkanten de begrenzing van de erin gelegen wegdelen volgen.
 
 Buurt, wijk, stadsdeel en waterschap worden opgenomen met vlakgeometrie.
+
+Registratieve gebieden bevatten geen plaatsbepalingspunten.
 
 ## Functioneel gebied
 
