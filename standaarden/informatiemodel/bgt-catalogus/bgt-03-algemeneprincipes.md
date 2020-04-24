@@ -10,31 +10,6 @@ Er is gekozen voor het decentraal bronhouderschap. Dit houdt in dat iedere bronh
 
 Bronhoudergrenzen vallen samen met objectbegrenzingen en ‘bewegen mee’ als er mutaties in de objectbegrenzingen optreden.
 
-# Pand en panddelen
-
-De BGT bevat als object pand die panden die ook als gerealiseerd pand in de BAG voorkomen.
-Met name vanuit beheeroogpunt gezien is het van belang dat er geen verschillen in geometrie bestaan tussen BGT- en BAG-panden.
-In de meeste gevallen geldt de grondvlakgeometrie (geometrie op maaiveldniveau) van het BGT-pand ook als buitenomtrek van het BAG-pad.
-
-Wanneer buitenomtrek en grondvlak op beide volgende twee (Inwinningsregels Pand 10.7.e.v.) wijzen van elkaar afwijken:
-1.	De horizontale afwijking ten opzichte van de situatie met het grondvlak bedraagt 1 m of meer, en
-2.	De hoogte van de over- en/of onderbouw bedraagt minimaal één verdieping.
-
-ontstaan er zogenaamde panddelen van dat pand in de BGT.
-
-Panddelen ontstaan dus uitsluitend bij een afwijkende over- en/of onderbouw van een pand. Er ontstaat dan naast het pand met de grondvlakgeometrie één panddeel voor elke afwijkende over-of onderbouw van dat BAG-pand. In voorkomende situaties bedraagt het minimum aantal panddelen van één BGT-pand altijd twee. In principe geldt er geen maximum voor het aantal panddelen voor een BAG-pand.
-
-De samengestelde contour van panddelen en het pand (grondvlakgeometrie) mag nooit groter zijn dan BAG-contour.
-De geometrie van een panddeel mag nooit volledig binnen de BGT maaiveldgeometrie vallen.
-
-Elk BGT-panddeel van één BGT-pand bezit hetzelfde BAG-id als dat BGT-pand.
-
-Definitie panddeel:
-Een panddeel is een deel van een BGT-pand waarvan de geometrie volgens regelgeving afwijkt van de geometrie van het grondvlak en bestaat uit een zogenaamde over- of onderbouw van dat BGT-pand.
-Voor de begrenzing van panddelen zie 10.7 e.v.
-
-
-
 # Talud
 
 Taluds zijn BGT-inhoud als het hoogteverschil minimaal 1 meter is en de steilheid 1:4 of meer bedraagt. Het kenmerk voor het voorkomen van een talud is een attribuut bij weg-, ondersteunend weg- en terreindelen. Als er meer dan een objecttype op een talud ligt, bevat alleen het hoogst gelegen object een kruinlijngeometrie. Een object dat op een talud ligt is altijd een afzonderlijk begrensd object ten opzichte van een aangrenzend identiek object dat niet op een talud ligt.
