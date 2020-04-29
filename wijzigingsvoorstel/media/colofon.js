@@ -28,24 +28,9 @@ var respecConfig = {
       name: "Hans van Eekelen",
       company: "Geonovum",
       companyURL: "http://www.svbbgt.nl/",
-      mailto: "silvyhorbach@svb-bgt.nl",
-      note: ""    
-    },
-	{
-      name: "Gerlof Haan",
-      company: "VNG Realisatie",
-      companyURL: "http://www.vng.nl/",
-      mailto: "gerlof@vng.nl",
-      note: ""    
-    },
-	{
-      name: "Arman Alavi",
-      company: "Ministerie BZK",
-      companyURL: "http://www.geobasisregistraties.nl/",
-      mailto: "arman@minbzk.nl",
+      mailto: "h.vaneekelen@geonovum.nl",
       note: ""    
     }
-
   ],
   //shortName: "shortname",
   pubDomain: "https://www.geonovum.nl",
