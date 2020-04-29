@@ -212,7 +212,7 @@ De voorwaarde is wel dat deze panden al zijn ingemeten en/of dat het gaat om bes
 
 De grondvlakgeometrie is daar waar de ‘footprint’ van het pand de ondergrond raakt (rh = 0).
 
-Voor panden die in hun geheel boven water liggen, bijvoorbeeld een brugwachtershuis dat aan een brug hangt, geldt dat dit pand in de BGT voorkomt met een relatieve hoogte (rh) van één hoger dan het water waar het zich boven bevindt.
+Voor panden die in hun geheel boven water liggen, bijvoorbeeld een brugwachtershuis dat aan een brug hangt, geldt dat dit pand in de BGT voorkomt met een relatieve hoogte (rh) > 0, in ieder geval ligt het hoger dan het water waar het zich boven bevindt.
 
 Uitstulpingen in gevels, zoals steunberen, behoren tot de pandgeometrie als de afmetingen groter zijn dan 30x30cm. Als zij kleiner zijn, worden zij niet opgenomen (generalisatie). 
 Als zich op de hoeken van een gebouw uitstulpingen bevinden < 30 cm wordt de lijn die over de uiteinden van deze uitstulpingen loopt, beschouwd als gevellijn voor het pand.
