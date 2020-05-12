@@ -29,6 +29,8 @@ In IMGeo kunnen inrichtingselementen, die op wegdelen voorkomen, worden opgenome
 
 -   Wegmarkeringen zoals symbolen, belijning en kleur zijn geen BGT inhoud maar kunnen in IMGEO worden opgenomen als weginrichtingselement.
 
+-   Inritten (toegangswegen, oprijlanen) korter dan 25 m kunnen worden opgenomen als IMGeo inhoud.
+
 ## Ondersteunend wegdeel
 
 Grasklinkers liggen soms naast een wegdeel in de berm. Het betreffende vlak vormt dan een afzonderlijk ondersteunend wegdeel. Wanneer een berm bestaat uit een deel gras en een deel grasklinkers zijn dat twee verschillende objecten
@@ -57,6 +59,7 @@ In IMGeo kunnen inrichtingselementen, die op en in het water voorkomen, worden o
 
 Het objecttype functioneel gebied kent op het gebied van de waterhuishouding de classificaties ‘kering’ als BGT inhoud, en in het optionele deel ‘waterbergingsgebied’ en ‘infrastructuur waterstaatswerken’. Zie de paragraaf
 over functioneel gebied voor meer informatie.
+Functionele gebieden bevatten geen plaatsbepalingspunten.
 
 ## Gebouwinstallatie
 
@@ -74,6 +77,7 @@ pilaren.
 ## Kunstwerkdeel
 
 IMGeo voegt enkele optionele kunstwerken toe. Dit zijn allemaal vlakobjecten, met uitzondering duiker: deze heeft vlak- of lijngeometrie.
+De relatieve hoogte van een duiker bedraagt altijd < 0.
 
 ## Overbruggingsdeel
 
@@ -90,10 +94,10 @@ worden gebruikt .
 
 IMGeo kent naast de BGT typen scheiding ook draadraster en faunaraster. Bovendien zijn heggen/hagen in IMGeo vertegenwoordigd, zij het niet als scheiding maar als vegetatieobject. Draadraster en faunaraster worden als lijnobject opgenomen.
 
-In de BGT worden scheidingen alleen vastgelegd als ze bepaalde minimum afmetingen hebben, die per type scheiding verschillen (zie deel I). In IMGeo kunnen scheidingen, die kleiner dan het BGT minimum zijn, worden opgenomen als
-objecttype ‘overige scheiding’. Deze kent dezelfde typen scheiding. 
+In de BGT worden scheidingen alleen vastgelegd als ze bepaalde minimum afmetingen hebben, die per type scheiding verschillen (zie deel I). In IMGeo kunnen scheidingen worden opgenomen die kleiner zijn dan de voor de BGT vermelde minimum afmetingen.
+Ook kunnen in IMGeo scheidingen worden opgenomen die binnen een erf en niet aan de straatzijde of openbare ruimte zijde zijn gelegen.
 
-De populatie van Overige Scheiding bestaat uit:
+De populatie van Scheiding in IMGeo bestaat uit:
 
 -   Scheidingen die niet voldoen aan de BGT minimummaat;
 -   Scheidingen in terrein met fysiek voorkomen ‘erf’ die niet aan de straatzijde gelegen zijn.
@@ -119,7 +123,9 @@ Openbare ruimte mag als vlakobject worden opgenomen. Het is mogelijk een relatie
 
 Buurt, wijk, stadsdeel en waterschap worden opgenomen met vlakgeometrie.
 
+Registratieve gebieden bevatten geen plaatsbepalingspunten.
+
 ## Functioneel gebied
 
 In IMGeo kunnen functionele gebieden worden opgenomen als vlakobject. De functionele gebieden zijn inrichtend en mogen overlappen met elkaar en met andere vlakobjecten van alle soorten. De functionele gebieden hoeven niet samen
-een landsdekkend geheel zonder gaten te vormen.  
+een landsdekkend geheel zonder gaten te vormen. Ze bevatten geen plaatsbepalingspunten.
