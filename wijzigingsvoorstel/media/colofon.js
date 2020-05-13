@@ -1,6 +1,6 @@
 var respecConfig = {
   specStatus: "GN-WV",
-  specType: "HR",
+  specType: "AL",
   /*alternateFormats: [{
     label: "PDF",
     uri: "https://example.w3.org/TR/example.pdf",
