@@ -16,19 +16,19 @@ var respecConfig = {
       companyURL: "http://www.geonovum.nl/",
       mailto: "a.deboer@geonovum.nl",
       note: ""    
-    },   	
-    {
-      name: "Silvy Horbach",
-      company: "SVB-BGT",
-      companyURL: "http://www.svbbgt.nl/",
-      mailto: "silvyhorbach@svb-bgt.nl",
-      note: ""    
     },
 	{
       name: "Hans van Eekelen",
       company: "Geonovum",
       companyURL: "http://www.geonovum.nl/",
       mailto: "h.vaneekelen@geonovum.nl",
+      note: ""    
+    },   	
+    {
+      name: "Silvy Horbach",
+      company: "SVB-BGT",
+      companyURL: "http://www.svbbgt.nl/",
+      mailto: "silvyhorbach@svb-bgt.nl",
       note: ""    
     }
   ],
