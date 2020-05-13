@@ -1,6 +1,6 @@
 var respecConfig = {
   specStatus: "GN-WV",
-  specType: "HR",
+  specType: "AL",
   alternateFormats: [{
     label: "PDF",
     uri: "https://example.w3.org/TR/example.pdf",
@@ -34,7 +34,7 @@ var respecConfig = {
   ],
   //shortName: "shortname",
   pubDomain: "https://www.geonovum.nl",
-  github: "https://github.com/Geonovum/IMGeo22",
+  github: "https://github.com/Geonovum/IMGeo-dev",
   //previousPublishDate: "2018-06-01",
  // previousStatus: "GN-CV",
   //localBiblio: {
