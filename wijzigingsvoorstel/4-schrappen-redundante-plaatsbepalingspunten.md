@@ -39,10 +39,10 @@ PBP’s.
 
 ### Oplossing en nut
 
-Om meer uniformiteit en consistentie in de opname van plaatsbepalingspunten
-worden de volgende wijzigingen voorgesteld om de redundante:
+Om redundante plaatsbepalingspunten te schrappen worden de volgende wijzigingen
+voorgesteld:
 
--   Alleen een coördinaat daadwerkelijk ingemeten bezit een plaatsbepalingspunt.
+-   Alleen een coördinaat daadwerkelijk ingemeten heeft een plaatsbepalingspunt.
 
 -   De inwinningsmethoden worden beperkt tot terrestrisch, laser,
     fotogrammetrisch, en panoramabeelden. De overige inwinningsmethoden
@@ -52,58 +52,64 @@ worden de volgende wijzigingen voorgesteld om de redundante:
     begrenzing goed idealiseerbaar is. Dit zijn de objecten met een
     nauwkeurigheidseis van 30cm in tabel 1 van paragraaf 4.2 van de BGT
     gegevenscatalogus en de tabel in paragraaf 4.1 van de IMGeo
-    gegevenscatalogus .
+    gegevenscatalogus:
+
+-   Wegdeel
+
+-   Ondersteunend wegdeel
+
+-   Spoor
+
+-   Pand
+
+-   Overigbouwwerk *m.u.v. bassin, schuur, bunker, voedersilo*
+
+-   Scheiding *m.u.v. walbescherming, hek, draadraster, faunaraster*
+
+-   Kunstwerkdeel
+
+-   Overbruggingsdeel
+
+-   Tunneldeel
+
+-   Gebouwinstallatie
+
+-   Inrichtingselementen: bak, bord, installatie, kast mast, paal, put, sensor,
+    straatmeubilair, waterinrichtingselement, weginrichtingselement
 
 De wijzigingen leveren de volgende voordelen op:
 
 -   Door reductie van het aantal en verbetering van de kwaliteit van gegevens
     van plaatsbepalingspunten (immers non-informatie wordt verwijderd), kunnen
     betere landelijke beleidsanalyses en onderzoek worden gedaan. De verwachting
-    is dat het aantal Plaatsbepalingspunten daalt met tenminste 60-75%.
+    is dat het aantal Plaatsbepalingspunten aan de kant van afnemers kan dalen
+    met tenminste 60-75%.
 
 ### Impact en implementatie
 
-De impact van dit voorstel is relatief hoog: de software dient aangepast te
-worden en de bestaande plaatsbepalingspunten dienen te worden opgeschoond.
+De impact van dit voorstel is relatief hoog.
 
-Software moet worden aangepast: bij elk goed-idealiseerbaar object wordt de
-identificatie van één of meer gerelateerde PBP’s als attribuut opgenomen.
+In de centrale ketensystemen (LV-BGT) dienen een aantal software-aanpassingen
+doorgevoerd te worden:
 
-Vervolgens worden de plaatsbepalingspunten centraal en decentraal opgeschoond:
+-   de controle op volledigheid PBP’s (voor elk coördinaat een PBP) in de LV-BGT
+    wordt geschrapt in de LV-BGT.
 
-1.  Verwijderen van PBP’s met inwinningsmethoden digitaliseren, scannen,
-    bouwtekening, geconstrueerd, en transitie.
+-   BRAVO filtert uit de mutatieberichten van bronhouder de redundante PBP’s en
+    zet een opgeschoond bestand door richting LV-BGT.
 
-2.  Verwijderen van PBP’s voor de volgende (niet-goed idealiseerbare) objecten:
+-   LV-BGT en PDOK schonen de redundante PBP’s in hun database op, d.w.z. alle
+    PBP’s met inwinningsmethoden *digitaliseren, scannen*, *bouwtekening*,
+    *geconstrueerd*, en *transitie* en alle PBP’s die niet horen bij een
+    goed-idealiseerbaar object.
 
--   OnbegroeidTerreindeel
+Bronhoudersoftware hoeft niet aangepast te worden; bronhouders hoeven geen
+aanvullende gegevens in te winnen.
 
--   BegroeidTerreindeel
+**Uitzoekpunt:**
 
--   Scheiding: walbescherming, hek, draadraster, faunaraster
+-   **Als BRAVO een opgeschoond mutatiebericht via het abonnement doorzet naar
+    bronhouders, kan de bronhoudersoftware hier mee overweg?**
 
--   Waterdeel
-
--   OndersteunendWaterdeel
-
--   OverigBouwwerk: bassin, schuur, bunker, voedersilo
-
--   VegetatieObject
-
--   FunctioneelGebied
-
--   RegistratiefGebied, dus Buurt, OpenbareRuimte, Stadsdeel, Waterschap, en
-    Wijk
-
--   Ongeclassificeerd object
-
--   Inrichtingselementen
-
-1.  Vervolgens wordt centraal de relatie tussen object en resterende PBP’s
-    gelegd door de geometrie van een PBP te confronteren met een coördinaat in
-    de objectgeometrie. Het lokaalID van het overeenkomende PBP wordt vastgelegd
-    bij het object. Dit wordt alleen voor de actuele objectversies uitgevoerd.
-
-2.  Bronhouder kan vervolgens zelf verder de gegenereerde PBP’s of PBP’s met
-    transitiewaarden (nauwkeurigheid) opschonen door relaties tussen objecten en
-    PBP’s te schrappen.
+-   **Als de redundante PBP’s uit PDOK worden geschrapt, werkt synchronisatie
+    van bronhouders via PDOK (grote bloedsomloop) nog?**
