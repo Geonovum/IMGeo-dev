@@ -1,4 +1,4 @@
-Vervallen redundante plaatsbepalingspunten
+Schrappen redundante plaatsbepalingspunten
 ==========================================
 
 ### Huidige situatie en probleem
