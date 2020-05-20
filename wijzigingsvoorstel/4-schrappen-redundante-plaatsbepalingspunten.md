@@ -1,5 +1,5 @@
-Uniformeren plaatsbepalingspunten
-=================================
+Vervallen redundante plaatsbepalingspunten
+==========================================
 
 ### Huidige situatie en probleem
 
@@ -12,8 +12,9 @@ strenge eis van ‘voor elk coördinaat een PBP’ te voldoen: veel PBP’s hebb
 nauwkeurigheid ‘waardeOnbekend’ en inwinningsmethode ‘transitie’ of alle PBP’s
 in een levering hebben één generieke waarde voor nauwkeurigheid of
 inwinningsmethode gekregen (bijvoorbeeld bij het verstroken van cirkelbogen).
-Dit is niet uniform en consistent toegepast, en heeft tot gevolg dat veel PBP’s
-nu non-informatie voor afnemers bevatten.
+Dit is niet uniform en consistent toegepast, en heeft tot gevolg dat afnemers nu
+meer PBP’s krijgen dan nodig is, ofwel deze PBP’s zijn redundant in termen van
+overbodig, overtollig, en betekenisloos.
 
 Sommige bronhouders hebben later no de oorspronkelijk GBKN PIB-gegevens
 toegevoegd aan een PBP door een nieuw PBP op te voeren voor het coördinaat. Een
@@ -39,7 +40,7 @@ PBP’s.
 ### Oplossing en nut
 
 Om meer uniformiteit en consistentie in de opname van plaatsbepalingspunten
-worden de volgende wijzigingen voorgesteld:
+worden de volgende wijzigingen voorgesteld om de redundante:
 
 -   Alleen een coördinaat daadwerkelijk ingemeten bezit een plaatsbepalingspunt.
 
