@@ -51,5 +51,5 @@ De wijzigingen leveren de volgende voordelen op:
 ### Impact en implementatie
 
 De impact van dit voorstel is laag: bronhouders bepalen zelf of zij
-beheerobjecten buiten de landgrens opnemen in IMGeo. Voor de implementatie mag
-data worden toegevoegd.
+beheerobjecten buiten de landgrens opnemen in IMGeo. Voor de implementatie mogen
+gegevens worden toegevoegd.

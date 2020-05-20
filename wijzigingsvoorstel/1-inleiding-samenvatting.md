@@ -71,6 +71,60 @@ voorstellen voor IMGeo 2.2
 
 Samengevat bevat IMGeo 2.2 de volgende voorstellen:
 
+**Uniformeren door aangepaste afbakeningsregels**
+
+1.  naaldbos, loofbos en gemengd bos
+
+2.  hekken, muren en andere typen scheidingen
+
+3.  onderscheid muur, kademuur, damwand, strekdam en keermuur
+
+**Uniformeren door verduidelijking van het model**
+
+1.  onderscheid gemaal, sluis, stuw
+
+2.  onderscheid viaduct en tunnel
+
+3.  onderscheid duiker en brug
+
+4.  inwinning van geleidewerk en remmingswerk
+
+5.  relatieve hoogteligging van tunnels en duikers
+
+6.  opname van panden boven water
+
+7.  definities van rijbanen en fietspad
+
+8.  definitie van bunker
+
+9.  definities van putten
+
+10. samenvallen kruinlijngeometrie en objectbegrenzingen
+
+11. niet-samenvallen van functionele gebieden en objectbegrenzingen
+
+12. opmaak, plaatsing en draaïing van huisnummers en overige labels.
+
+13. Nederlandse tijdzone met zomer/wintertijd in versietijd van een object
+
+14. interne versus relatieve precisie.
+
+**Uitbreiden van gegevens**
+
+1.  beheertopografie over de landsgrens
+
+2.  indeling particuliere terreinen
+
+3.  opslagtanken voor gassen en energie
+
+4.  toegangswegen en inritten
+
+**Vervallen**
+
+1.  niet-ingemeten plaatsbepalingspunten
+
+2.  objecten en classificatie uit transitie
+
 Met IMGeo 2.2 wordt getracht te komen tot een goed maakbare en bruikbare
 registratie[^1] met grootschalige topografie voor Nederland. Er wordt verwacht
 dat met IMGeo 2.2 meer **nut/baten** worden bereikt op de volgende onderwerpen:

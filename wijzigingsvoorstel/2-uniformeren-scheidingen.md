@@ -26,8 +26,6 @@ Nu blijkt dat bijna alle bronhouders hekken en muren kleiner dan de minimale
 afmetingen in de BGT opnemen als Scheiding. Dit is niet consistent en
 niet-uniform.
 
-<iframe src="https://imgeo22.gewoongoedegeodata.nl/?view=hekmuurkorter10m" class="view"></iframe>
-
 Bronhouders en softwareleveranciers van bronhouders hebben gevraagd om het
 onderscheid tussen Scheiding en OverigeScheiding te laten vervallen om de
 bijhouding van de BGT te vereenvoudigen.
@@ -37,10 +35,10 @@ bijhouding van de BGT te vereenvoudigen.
 Om meer uniformiteit en consistentie in de afbakening van scheidingen te
 bereiken worden de volgende wijzigingen voorgesteld:
 
-1.   De objectklasse OverigeScheiding komt te vervallen. Alle hekken, muren en
+1.  De objectklasse OverigeScheiding komt te vervallen. Alle hekken, muren en
     andere typen scheidingen worden opgenomen als Scheiding.
 
-2.   In de BGT catalogus wordt beschreven welke hekken, muren en andere typen
+2.  In de BGT catalogus wordt beschreven welke hekken, muren en andere typen
     scheidingen aangeleverd *moeten* worden:
 
     -   Elke scheiding in terrein met fysiek voorkomen ‘erf’ die aan de
@@ -52,7 +50,7 @@ bereiken worden de volgende wijzigingen voorgesteld:
 
     -   Elke kademuur, damwand, geluidscherm en walbescherming.
 
-3.   In de IMGeo catalogus wordt beschreven welke hekken, muren en andere type
+3.  In de IMGeo catalogus wordt beschreven welke hekken, muren en andere type
     scheidingen aangeleverd *mogen* worden.
 
     -   Elke scheiding in terrein met fysiek voorkomen ‘erf’ die niet aan de
@@ -60,48 +58,56 @@ bereiken worden de volgende wijzigingen voorgesteld:
 
     -   Elke scheiding kleiner dan de minimale BGT-afmetingen.
 
-4.   De eisen voor opname van een scheiding met lijn- of vlakgeometrie blijven
+4.  De eisen voor opname van een scheiding met lijn- of vlakgeometrie blijven
     ongewijzigd:
 
-    -   Een BGT-muur of kademuur breder dan 30 centimeter *moet* met vlakgeometrie
-    worden afgebakend; smaller dan 30 centimeter met lijngeometrie.
+    -   Een BGT-muur of kademuur breder dan 30 centimeter *moet* met
+        vlakgeometrie worden afgebakend; smaller dan 30 centimeter met
+        lijngeometrie.
 
     -   Een muur of kademuur smaller dan 30 centimeter *mag* met vlakgeometrie
-    worden afgebakend.
+        worden afgebakend.
 
-   -   Andere typen scheidingen hebben alleen lijngeometrie in IMGeo.
+-   Andere typen scheidingen hebben alleen lijngeometrie in IMGeo.
 
 De wijzigingen leveren de volgende voordelen op:
 
-1.   De bijhouding van scheidingen door bronhouders wordt vereenvoudigd omdat
+1.  De bijhouding van scheidingen door bronhouders wordt vereenvoudigd omdat
     alle scheidingen onder dezelfde objectklasse vallen. Dit scheelt op de
     bijhoudingskosten van de BGT.
 
-2.   Er kunnen betere landelijke analyses worden uitgevoerd omdat de gegevens van
+2.  Er kunnen betere landelijke analyses worden uitgevoerd omdat de gegevens van
     scheidingen op één plek (objectklasse) in de BGT\|IMGeo dataset beschikbaar
     zijn. Dit leidt tot beter resultaten in onderzoek en beleid.
 
-3.   Door de keuze-/interpretatieruimte voor afbakening en classificatie van
+3.  Door de keuze-/interpretatieruimte voor afbakening en classificatie van
     scheiding in te perken, kunnen bestekken worden geüniformeerd en kunnen
     bronhouders beter samenwerken in de inwinning en bijhouding van de BGT.
 
-4.   De werkafspraak OverigScheiding als gevolg van een fout/inconsistentie in de
+4.  De werkafspraak OverigScheiding als gevolg van een fout/inconsistentie in de
     modellering van IMGeo (OverigeScheiding heeft geen bgt-type) wordt opgelost.
     Software wordt consistenter en dus eenvoudiger te beheren.
 
 ### Impact en implementatie
 
-De impact van dit voorstel is relatief laag: (bijna) alle gegevens zijn
-ingewonnen en beschikbaar en de software aanpassing blijft beperkt tot het laten
-vervallen van een objectklasse. Voor de implementatie wordt eerst de data en
-daarna de software aangepast.
+De impact van dit voorstel is relatief hoog: hoewel de wijziging zonder
+software-aanpassing kan worden doorgevoerd en (bijna) alle gegevens ingewonnen
+en beschikbaar zijn, zullen bronhouders alle overige scheidingen moeten omzetten
+naar de objectklasse Scheiding.
+
+Achterliggende registraties gekoppeld aan IMGeo worden daarbij geconfronteerd
+met nieuwe identificaties voor deze objecten. Overige scheidingen met
+vlakgeometrie op maaiveldniveau worden opdelend.
+
+De wijziging kan zonder software aanpassing worden doorgevoerd.
 
 Aan bronhouders gevraagd om met terugwerkende kracht alle hekken, muren en
 andere typen scheidingen die ondergebracht zijn in de objectklasse
 OverigeScheiding om te zetten naar Scheiding.
 
-<iframe src="https://imgeo22.gewoongoedegeodata.nl/?view=vervallen-overigescheiding" class="view"></iframe>
+Ongeveer 240 bronhouders hebben totaal ongeveer 120.000 overigescheidingen. 10%
+van de bronhouders hebben ruim 90% van de overige scheidingen. Omzetting kan
+naar verwachting grotendeels geautomatiseerd.
 
-Hekken, muren en andere typen scheidingen die worden omgezet naar Scheiding
-krijgen een nieuwe identificatie, omdat deze bij een andere objectklasse worden
-opgenomen.
+Een relatief klein aantal overige scheidingen (\~700 = \<1%) met vlakgeometrie
+op relatieve hoogteligging 0 moet worden ingepast in de topologische structuur.
