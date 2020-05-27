@@ -39,7 +39,7 @@ var respecConfig = {
 
 $(document).ready(function() {	
 	console.log($('.head').html());	
-	console.log('poging 2');
+	console.log('poging 3');
 });
 
 console.log('test');
