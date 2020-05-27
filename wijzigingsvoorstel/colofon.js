@@ -1,14 +1,6 @@
 var respecConfig = {
   specStatus: "GN-WV",
-  specType: "AL",
-  /*alternateFormats: [{
-    label: "PDF",
-    uri: "https://example.w3.org/TR/example.pdf",
-  }, {
-    label: "XML",
-    uri: "https://example.w3.org/TR/example.xml",
-  }],*/
-  //canonicalURI: "WV",  
+  specType: "IM",  
   editors: [
     {
       name: "Arnoud de Boer",
