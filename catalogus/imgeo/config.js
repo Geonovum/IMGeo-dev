@@ -37,8 +37,3 @@ var respecConfig = {
   //},
 };
 
-$(document).ready(function() {	
-	console.log($('.head').html());	
-});
-
-console.log('test');
