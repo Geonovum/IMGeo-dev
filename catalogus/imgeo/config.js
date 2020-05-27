@@ -36,10 +36,3 @@ var respecConfig = {
   //  },
   //},
 };
-
-$(document).ready(function() {	
-	console.log('subtitle: ' + $('#subtitle').html());	
-	console.log('poging 5');
-	
-	// h2 html(string.split('<br>')[1]
-});
