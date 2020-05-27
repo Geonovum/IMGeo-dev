@@ -2,7 +2,7 @@ var respecConfig = {
   format: "markdown",
   specStatus: "GN-WV",
   specType: "IM",
-  subtitle: "Gegevenscatalogus IMGeo 2.2",
+  subtitle: "Basisregistratie grootschalige topografie",
   //canonicalURI: "WV",
   //publishDate: "2017-09-12",
   editors: [
