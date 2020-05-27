@@ -2,7 +2,7 @@ var respecConfig = {
   format: "markdown",
   specStatus: "GN-WV",
   specType: "IM",
-  subtitle: "Gegevenscatalogus",
+  subtitle: "Gegevenscatalogus BGT 1.2",
   //canonicalURI: "WV",
   //publishDate: "2017-09-12",
   editors: [
