@@ -19,11 +19,12 @@ var respecConfig = {
     mailto: "h.vaneekelen@geonovum.nl",
     note: "" 
     },
-	  name: "Silvy Horbach",
+	{name: "Silvy Horbach",
      company: "SVB-BGT",
     companyURL: "http://www.svb-bgt.nl/",
     mailto: "silvyhorbach@svb-bgt.nl",
-    note: "" 
+    note: ""
+	}	
   ],
   //shortName: "shortname",
   pubDomain: "http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-bgt-111",
