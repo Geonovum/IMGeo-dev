@@ -38,8 +38,8 @@ var respecConfig = {
 };
 
 $(document).ready(function() {	
-	console.log($('div.head').html());	
-	console.log('poging 4');
+	console.log('subtitle: ' + $('#subtitle').html());	
+	console.log('poging 5');
 	
-	// h2 html(split('<br>'[0]
+	// h2 html(string.split('<br>')[1]
 });
