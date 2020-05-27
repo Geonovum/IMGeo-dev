@@ -1,5 +1,5 @@
 var respecConfig = {
-  //format: "markdown",
+  format: "markdown",
   specStatus: "GN-WV",
   specType: "IM",
   subtitle: "Gegevenscatalogus",
