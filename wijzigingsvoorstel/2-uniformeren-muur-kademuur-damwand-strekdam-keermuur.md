@@ -28,12 +28,12 @@ dammen te bereiken worden de volgende wijzigingen voorgesteld:
     wanden en dammen, om bronhouders uiteindelijk de beste optie te laten
     vinden.
 
->   **Ook wordt extra verduidelijkt dat de afbakening van een damwand inclusief
->   deksloof is.**
+-   Ook wordt extra verduidelijkt dat de afbakening van een damwand inclusief
+    deksloof is.
 
 ![](media/8579806fb776a782ef3b4609d8463e79.png)
 
->   https://docs.geostandaarden.nl/imgeo/wijzigingsvoorstel/media/8579806fb776a782ef3b4609d8463e79.png
+>   Beslisboom muur, kademuur, damwand, strekdam en keermuur
 
 Deze wijziging levert de volgende voordelen op:
 
