@@ -1,6 +1,7 @@
 var respecConfig = {
   specStatus: "GN-WV",
   specType: "IM",
+  subtitle: "Gegevenscatalogus",
   //canonicalURI: "WV",
   //publishDate: "2017-09-12",
   editors: [
@@ -10,14 +11,19 @@ var respecConfig = {
       companyURL: "http://www.geonovum.nl/",
       mailto: "a.deboer@geonovum.nl",
       note: ""    
-    },
+    },	
     {
       name: "Hans van Eekelen",
      company: "Geonovum",
     companyURL: "http://www.geonovum.nl/",
     mailto: "h.vaneekelen@geonovum.nl",
     note: "" 
-    }
+    },
+	  name: "Silvy Horbach",
+     company: "SVB-BGT",
+    companyURL: "http://www.svb-bgt.nl/",
+    mailto: "silvyhorbach@svb-bgt.nl",
+    note: "" 
   ],
   //shortName: "shortname",
   pubDomain: "http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-bgt-111",
