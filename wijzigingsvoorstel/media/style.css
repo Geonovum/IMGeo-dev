@@ -8,96 +8,13 @@ blockquote {
  border-style: none !important;
 }
 
-.view {
-	
+.view {	
 	width: 802px;
 	height: 402px;
 	border:0;
-	overflow: hidden;
-	
-	
-}
-/*blockquote:before {
-    display: block;
-    height: 0;
-    content: "“";   
-    margin-left: -0.95em;
-    font: italic 400%/1 Esteban, serif;
-    color: #999;
-}*/
-
-wijziging:before {
-    
-content: "Wijziging(en) t.o.v. vorige versie <br /><br />:";
-
-}
-
-wijziging {
-    
-    border-color: #eee;
-    background-color: #ccc;
-    font-style: italic;  
-    font-family:  'Esteban', serif !important;
+	overflow: hidden;	
 }
 
 img {
   max-width: 100%;
-}
-
-
-
-
-
-icon {
-	margin: 0;
-	width: 96px;
-	height: 96px;
-	display: inline-block;
-	background-repeat: no-repeat;
-    background-size: 96px 96px;
-}
-
-.software-voldoet {
-	background-image: url("51e255cf9ca735d13ce814cb4190537d.png");
-}
-
-.software-aanpassen {
-	background-image: url("4c12d0aee36ab140454736d3cbca9f4c.png");
-}
-
-.centraal-signaleren {
-	background-image: url("3e7a602ebe38c76776a8a0eba4e83990.png");
-}
-
-.decentraal-signaleren {
-	background-image: url("d90734a4417d5c260354cbcc065fe438.png");
-}
-
-.centraal-omzetten {
-	background-image: url("bcc6db15c559764f2caf8f68d454efe0.png");
-}
-
-.decentraal-omzetten {
-	background-image: url("d67b761a11e02641c4b79438ac558c58.png");
-}
-
-.terugwerkende-kracht {
-	background-image: url("8c9b26622bcbc8c510f1a06c3d4e391b.png");
-}
-
-.reguliere-bijhouding {
-	background-image: url("9cd5ddd8e03eb4a08f10fa67032369fc.png");
-}
-
-.tijd-geld {
-	background-image: url("35627a5d92e005a53a25950ea2b9207e.png");
-}
-
-.doorlooptijd {
-	background-image: url("597a9db0358ca2af752b262a0bb08569.png");
-}
-
-.nvt {
-	background-image: url("
-3e7a602ebe38c76776a8a0eba4e83991.png");
 }
