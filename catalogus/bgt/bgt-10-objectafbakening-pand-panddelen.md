@@ -1,5 +1,5 @@
-Pand en panddelen
-=================
+Pand
+====
 
 ### Regels voor opname
 
