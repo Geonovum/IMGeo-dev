@@ -395,9 +395,7 @@ De BGT hanteert de volgende regels voor object- en versiehistorie (zie ook
 paragraaf 4.5):
 
 1.  Als een nieuw object ontstaat bij een bronhouder wordt een nieuw object met
-    object-ID gecreëerd en ontstaat een versiehistorie. Het object krijgt van de
-    bronhouder een objectBeginTijd en een tijdstipRegistratie met beide dezelfde
-    datum.
+    object-ID gecreëerd en ontstaat een versiehistorie. Het object krijgt bij            ontstaan van de bronhouder een objectBeginTijd en een tijdstipRegistratie met beide dezelfde datum.
 
 2.  Als het nieuwe object wordt geregistreerd in de Landelijke Voorziening
     krijgt het object ook een LV-publicatiedatum.
