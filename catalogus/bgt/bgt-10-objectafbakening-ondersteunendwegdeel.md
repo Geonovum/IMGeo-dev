@@ -10,8 +10,8 @@ als fysiek voorkomen de verschillende verhardingssoorten en groenvoorziening.
 
 In de regel is dit object scherp begrensd met het aanliggende wegdeel door
 bijvoorbeeld een band of de kant van de verharding. Als een berm bestaat uit een
-deel verhard (bijvoorbeeld grasklinkers) en een deel begroeid, ontstaan er voor
-de BGT twee objecten OndersteunendWegdeel.
+deel verhard en een deel begroeid, ontstaan er voor de BGT twee objecten
+OndersteunendWegdeel.
 
 De niet-wegdeel begrenzing van een begroeide berm met een aanliggend begroeid
 terrein zal niet altijd even duidelijk herkenbaar zijn. Als begrenzing hanteert
