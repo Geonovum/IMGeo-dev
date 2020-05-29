@@ -501,13 +501,6 @@ In het geval dat niet-gestrookte bogen voorkomen in de vlakgeometrie van
 BGT-objecten worden de drie punten meegenomen die zijn gebruikt bij het
 vastleggen van de boog.
 
-Een ongeclassificeerd object bezit impliciet plaatsbepalingspunten, immers het
-is ontstaan doordat er een vlak 'overblijft' na classificatie van objecten in
-een gebied in de transitie naar de BGT. "Automatisch" bestaat de begrenzing van
-het ongeclassificeerde object uit geclassificeerde objecten met pbp's. Deze
-'gemeenschappelijke' pbp's behoren ook tot het ingesloten ongeclassificeerde
-object.
-
 ### Voorbeelden
 
 In onderstaande figuur zijn bij de objectafbakening van het terreindeel de
