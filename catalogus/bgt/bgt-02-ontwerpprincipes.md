@@ -108,11 +108,3 @@ Macro-objecten zijn geen inhoud van de BGT; in het eigen beheersysteem kan men
 indien gewenst macro-objecten definiëren, die een clustering van BGT objecten
 en/of delen van BGT-objecten bevatten. In het optionele deel van IMGeo kunnen
 deze worden uitgewisseld als Functioneel Gebied.
-
-Maaiveld
---------
-
-Met maaiveld bedoelt de BGT het oppervlak van de vaste aarde, daar waar de aarde
-niet bedekt is met water. Het maaiveld vormt de grens tussen de ondergrond en de
-bovengrond. Deze beschrijving is afkomstig van de Basisregistratie Ondergrond
-(BRO).
