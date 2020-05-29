@@ -23,11 +23,6 @@ worden opgenomen tot de bebouwingslijn van gebouwen als wegdeel type voetpad.
 Brandgangen met een ontsluitingsfunctie van kennelijk openbaar terrein worden
 altijd opgenomen.
 
-Grasklinkers (open klinkers, groenstenen) kunnen voorkomen als verhardingssoort
-van parkeervlakken. Voor de BGT is dan het fysiek voorkomen daarvan: open
-verharding. Wanneer ze als strookverharding voor komen langs wegdelen behoren
-tot de berm (ondersteunend wegdeel) waar ze in liggen.
-
 ![](media/8eeffe79b8eac59b938801ebe9da837b.jpg)
 
 Voorbeeld van weg- en terreindelen
