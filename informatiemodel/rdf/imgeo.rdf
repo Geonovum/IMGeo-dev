@@ -944,13 +944,7 @@
     <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="nl">Situatie die ontstaat op het moment van verlening van een beschikking voor bouw of aanleg en
 duurt tot het moment waarop het object gereed is voor het beoogde gebruik.</definition>
     <inScheme rdf:resource="http://www.geostandaarden.nl/imgeo/def/2.1#StatusPlus"/>
-  </Concept>
-  <Concept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.geostandaarden.nl/imgeo/def/2.1#StatusPlus_historie">
-    <type xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="nl">historie</prefLabel>
-    <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="nl">Situatie waarin het geregistreerde object fysiek niet meer bestaat.</definition>
-    <inScheme rdf:resource="http://www.geostandaarden.nl/imgeo/def/2.1#StatusPlus"/>
-  </Concept>
+  </Concept>  
   <ConceptScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.geostandaarden.nl/imgeo/def/2.1#TypeBak">
     <type xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </ConceptScheme>
