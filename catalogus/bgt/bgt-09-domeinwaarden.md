@@ -1,8 +1,14 @@
-# Domeinwaarden
+Domeinwaarden
+=============
 
-Hieronder volgt een specificatie van de domeinwaarden en hun definities voor de relevante attributen. De domeinwaarden bij een attribuut hebben een vaste volgorde. Deze volgorde geeft waar nodig een hiërarchie aan, die van belang is bij elkaar kruisende objecten, waarbij de eerstgenoemde domeinwaarde de belangrijkste is.
+Hieronder volgt een specificatie van de domeinwaarden en hun definities voor de
+relevante attributen. De domeinwaarden bij een attribuut hebben een vaste
+volgorde. Deze volgorde geeft waar nodig een hiërarchie aan, die van belang is
+bij elkaar kruisende objecten, waarbij de eerstgenoemde domeinwaarde de
+belangrijkste is.
 
-## Status
+Status
+------
 
 | bestaand | Situatie waarin het object wordt / kan worden gebruikt voor het doel waarvoor het is gebouwd / aangelegd. (bron: IMGEO 1.0) |
 |----------|-----------------------------------------------------------------------------------------------------------------------------|
@@ -11,25 +17,25 @@ Hieronder volgt een specificatie van de domeinwaarden en hun definities voor de 
 FunctieWeg
 ----------
 
-| OV-baan                | Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en afgescheiden is van de andere wegdelen niet uitsluitend door markering. (bron: BGT)                                                    |
-|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| overweg                | Een gelijkvloerse kruising van een wegdeel en een wegdeel type ov-baan met spoor type trein of sneltram. (bron: BGT)                                                                                             |
-| spoorbaan              | Gebaand gedeelte voor het verkeer over rails. (bron: NEN 3610)                                                                                                                                                   |
-| baan voor vliegverkeer | Wegdeel uitsluitend bedoeld voor vliegverkeer. (bron: BGT)                                                                                                                                                       |
-| rijbaan autosnelweg    | Wegdeel dat onderdeel is van een weg uitsluitend bestemd voor snelverkeer en met gescheiden rijbanen en ongelijkvloerse kruisingen, daartoe aangeduid met het betreffende verkeersbord G01. (bron: BGT)              |
-| rijbaan autoweg        | Wegdeel dat onderdeel is van een weg uitsluitend bestemd voor snelverkeer, daartoe aangeduid met het betreffende verkeersbord G03. (bron: BGT)                                                                       |
-| rijbaan regionale weg  | Wegdeel dat onderdeel is van een weg die een verbinding vormt tussen bewoonde oorden of tussen wijken binnen een dorp of stad waarbij er een, meestal fysieke, scheiding is tussen langzaam verkeer en snelverkeer. (bron: BGT+CROW)                                                                       |
-| rijbaan lokale weg     | Wegdeel dat onderdeel is van een weg van lokaal belang. (bron: BGT)                                                                                                                                              |
-| fietspad               | Weg uitsluitend bestemd voor fietsers en/of bromfietsers en daartoe aangeduid met een blauw bord met daarop een wit rijwiel (bord G11 of G12a), of een blauw of zwart bord met daarop de tekst “FIETSPAD” of “RIJWIELPAD” (bord G13) of een wit rijwielsymbool op een strook oranjekleurige verharding. (bron: CROW)
-                                            |
-| voetpad                | Wegdeel waar voetgangers gebruik van moeten maken. (bron: BGT)                                                                                                                                                   |
-| voetpad op trap        | Voetpad op verkeersinfrastructurele voorziening bestaande uit een constructie van treden, waarop men een hoger of lager gelegen plaats kan bereiken. (bron: BGT)                                                 |
-| ruiterpad              | Een wegdeel primair aangelegd voor het gebruik door ruiters. (bron: BGT)                                                                                                                                         |
-| parkeervlak            | Wegdeel bestemd voor het parkeren van motorvoertuigen. (bron: IMGEO 1.0)                                                                                                                                         |
-| voetgangersgebied      | Wegdeel alleen voor het gebruik door voetgangers, waarbij het door voetgangers te gebruiken gebied de volle breedte van de weg beslaat en het gebied een nadrukkelijk openbaar karakter heeft. (bron: IMGEO 1.0) |
-| inrit                  | Toegangswegen, oprijlanen en dergelijke met verkeersfunctie die leiden naar erven en terreinen. (bron: BGT | IMGEO)                                                                                      |
-| woonerf                | Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie. (bron: IMGEO 1.0)                                                                              |
-|
+| OV-baan                | Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en afgescheiden is van de andere wegdelen niet uitsluitend door markering. (bron: BGT)                                                                                                                                                        |
+|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| overweg                | Een gelijkvloerse kruising van een wegdeel en een wegdeel type ov-baan met spoor type trein of sneltram. (bron: BGT)                                                                                                                                                                                                 |
+| spoorbaan              | Gebaand gedeelte voor het verkeer over rails. (bron: NEN 3610)                                                                                                                                                                                                                                                       |
+| baan voor vliegverkeer | Wegdeel uitsluitend bedoeld voor vliegverkeer. (bron: BGT)                                                                                                                                                                                                                                                           |
+| rijbaan autosnelweg    | Wegdeel dat onderdeel is van een weg uitsluitend bestemd voor snelverkeer en met gescheiden rijbanen en ongelijkvloerse kruisingen, daartoe aangeduid met het betreffende verkeersbord G01. (bron: BGT)                                                                                                              |
+| rijbaan autoweg        | Wegdeel dat onderdeel is van een weg uitsluitend bestemd voor snelverkeer, daartoe aangeduid met het betreffende verkeersbord G03. (bron: BGT)                                                                                                                                                                       |
+| rijbaan regionale weg  | Wegdeel dat onderdeel is van een weg die een verbinding vormt tussen bewoonde oorden of tussen wijken binnen een dorp of stad waarbij er een, meestal fysieke, scheiding is tussen langzaam verkeer en snelverkeer. (bron: BGT+CROW)                                                                                 |
+| rijbaan lokale weg     | Wegdeel dat onderdeel is van een weg van lokaal belang. (bron: BGT)                                                                                                                                                                                                                                                  |
+| fietspad               | Weg uitsluitend bestemd voor fietsers en/of bromfietsers en daartoe aangeduid met een blauw bord met daarop een wit rijwiel (bord G11 of G12a), of een blauw of zwart bord met daarop de tekst “FIETSPAD” of “RIJWIELPAD” (bord G13) of een wit rijwielsymbool op een strook oranjekleurige verharding. (bron: CROW) |
+|                        |                                                                                                                                                                                                                                                                                                                      |
+| voetpad                | Wegdeel waar voetgangers gebruik van moeten maken. (bron: BGT)                                                                                                                                                                                                                                                       |
+| voetpad op trap        | Voetpad op verkeersinfrastructurele voorziening bestaande uit een constructie van treden, waarop men een hoger of lager gelegen plaats kan bereiken. (bron: BGT)                                                                                                                                                     |
+| ruiterpad              | Een wegdeel primair aangelegd voor het gebruik door ruiters. (bron: BGT)                                                                                                                                                                                                                                             |
+| parkeervlak            | Wegdeel bestemd voor het parkeren van motorvoertuigen. (bron: IMGEO 1.0)                                                                                                                                                                                                                                             |
+| voetgangersgebied      | Wegdeel alleen voor het gebruik door voetgangers, waarbij het door voetgangers te gebruiken gebied de volle breedte van de weg beslaat en het gebied een nadrukkelijk openbaar karakter heeft. (bron: IMGEO 1.0)                                                                                                     |
+| inrit                  | Toegangswegen, oprijlanen en dergelijke met verkeersfunctie die leiden naar erven en terreinen. (bron: BGT                                                                                                                                                                                                           |
+| woonerf                | Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie. (bron: IMGEO 1.0)                                                                                                                                                                                  |
+|                        |                                                                                                                                                                                                                                                                                                                      |
 
 FysiekVoorkomenWeg
 ------------------
@@ -39,7 +45,7 @@ FysiekVoorkomenWeg
 | open verharding     | Verharding gevormd door in verband aangebrachte elementen van beperkte afmetingen, zoals bijvoorbeeld klinkers en tegels. (bron: IMGEO 1.0)                        |
 | half verhard        | Verharding bestaande uit een door verdichting gebonden materiaal, of onsamenhangend materiaal. (bron: BGT)                                                         |
 | onverhard           | Wegdelen waar geen verharding of aaneengesloten vegetatie aanwezig is. (bron: IMGEO 1.0)                                                                           |
-|
+|                     |                                                                                                                                                                    |
 
 FunctieOndersteunendWegdeel
 ---------------------------
@@ -47,7 +53,7 @@ FunctieOndersteunendWegdeel
 | verkeerseiland | Ondersteunend wegdeel van beperkte omvang, uitgevoerd als verhoging of wegmarkering, dat wordt omsloten door wegdelen en ten doel heeft verkeersstromen te scheiden. (bron: CROW) |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | berm           | Een strook grond langs een weg of spoorweg. (bron: BGT)                                                                                                                           |
-|
+|                |                                                                                                                                                                                   |
 
 FysiekVoorkomenOndersteunendWegdeel
 -----------------------------------
@@ -62,11 +68,11 @@ FysiekVoorkomenOndersteunendWegdeel
 FunctieSpoor
 ------------
 
-| trein     | Spoor voor een railvoertuig voor de langere afstand dat sneller dan 45 km per uur kan, bestaande uit een enkele of een reeks van locomotieven, treinstellen en/of wagons. (bron: BGT) |
-|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| sneltram  | Spoor voor een boven- danwel ondergrondse interlokale tram met een vrije baan. (bron: BGT)                                                                                            |
-| tram      | Spoor voor een railvoertuig voor personenvervoer voor de korte afstand. (bron: BGT)                                                                                                   |
-| niet-bgt  | Het object is geen BGT object. (bron: BGT 1.1)                                                                                                                                        |
+| trein    | Spoor voor een railvoertuig voor de langere afstand dat sneller dan 45 km per uur kan, bestaande uit een enkele of een reeks van locomotieven, treinstellen en/of wagons. (bron: BGT) |
+|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| sneltram | Spoor voor een boven- danwel ondergrondse interlokale tram met een vrije baan. (bron: BGT)                                                                                            |
+| tram     | Spoor voor een railvoertuig voor personenvervoer voor de korte afstand. (bron: BGT)                                                                                                   |
+| niet-bgt | Het object is geen BGT object. (bron: BGT 1.1)                                                                                                                                        |
 
 FysiekVoorkomenOnbegroeidTerrein
 --------------------------------
@@ -84,7 +90,7 @@ FysiekVoorkomenBegroeidTerrein
 
 | loofbos            | Terreindeel begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. (bron: BGT)                                                                   |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| gemengd bos        | Terreindeel begroeid met een dusdanige aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. (bron: BGT)|
+| gemengd bos        | Terreindeel begroeid met een dusdanige aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. (bron: BGT)                                                         |
 | naaldbos           | Terreindeel begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. (bron: BGT)                                                                  |
 | heide              | Terreindeel overwegend begroeid met heide en heideachtige vegetaties. (bron: BGT)                                                                                                                                                     |
 | struiken           | Terreindeel bedekt met niet-gecultiveerde (natuurlijke), lage, houtachtige, overblijvende planten gekenmerkt door verschillende vertakkingen dicht bij de wortel en afwezigheid van opvallende stammen. (bron: BGT)                   |
@@ -100,7 +106,6 @@ FysiekVoorkomenBegroeidTerrein
 | grasland agrarisch | Terreindeel met een vegetatie bestaande uit grassen en of grasachtigen, en met de in graslanden voorkomende kruiden, zijnde cultuurgrasland dat in gebruik is voor de veeteelt, bijvoorbeeld als weiland of als hooiland. (bron: BGT) |
 | groenvoorziening   | Terreindeel met aangelegde beplanting, meestal gras, heesters of struiken. (bron: BGT)                                                                                                                                                |
 
-
 TypeWater
 ---------
 
@@ -110,7 +115,6 @@ TypeWater
 | watervlakte          | Alle oppervlakken die vrij permanent met zoet water zijn bedekt. (zoals meer, plas, ven, vijver). (bron: IMGEO 1.0)                  |
 | greppel, droge sloot | Een ten behoeve van de waterbeheersing gegraven geul die al dan niet met water bedekt is. (bron: IMGEO 1.0)                          |
 
-
 TypeOndersteunendWaterdeel
 --------------------------
 
@@ -118,34 +122,29 @@ TypeOndersteunendWaterdeel
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | slik             | Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt. (bron: aquo)                                    |
 
-
 TypeOverigBouwwerk
 ------------------
 
 | overkapping | Een afzonderlijk staande overdekking rustend op kolommen. (bron: BGT)                                                                             |
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | open loods  | Niet verplaatsbaar licht gebouw met een open gevel, bestemd als berg- of werkplaats of als tijdelijk onderdak voor andere doeleinden. (bron: BGT) |
-| opslagtank  | Opslagfaciliteit voor vloeistoffen of gassen. Alleen bovengrondse opslagtanks worden opgenomen. (bron: BGT)                                                 |
+| opslagtank  | Opslagfaciliteit voor vloeistoffen, gassen of energie. (bron: BGT)                                                                                |
 | bezinkbak   | Een gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening. (bron: BGT)                           |
 | windturbine | Turbine waarin winddruk omgezet wordt in mechanische energie. (bron: BGT)                                                                         |
 | lage trafo  | Bouwwerk waarin transformator(en) zijn geplaatst voor elektriciteitsvoorziening. (bron: BGT)                                                      |
 | bassin      | Waterbak, zoals een zwembad of een dok. (bron: BGT)                                                                                               |
 
-| niet-bgt    | Het object is geen BGT object. (bron: BGT 1.1)                                                                                                    |
-
 TypeKunstwerk
 -------------
 
-| hoogspanningsmast | Metalen mast of stellage ter ondersteuning van geleidedraden voor het transport van elektriciteit met een hoog voltage. (bron: IMGEO 1.0)                             |
-|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| gemaal            | Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen. (bron: BGT)                                                               |
-| perron            | Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen. (bron: BGT)                 |
-| sluisdeur             | Het beweegbare deel van een kunstmatige waterkering die de verbinding tussen twee wateren kan afsluiten of openstellen en daartoe van deuren of schuiven is voorzien. (bron: BGT) |
-| strekdam          | Constructie in het water ter verdediging van de kust/oever. (bron: IMGEO 1.0)                                                                                         |
-| steiger           | Vaste (niet drijvende) waterbouwkundige constructie voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen. (bron: IMGEO 1.0)   |
-| stuw              | Een constructie met een vaste drempel of een beweegbare klep, die dient om de waterstand boven- en benedenstrooms te regelen. (bron: BGT)                             |
-
-| niet-bgt          | Het object is geen BGT object. (bron: BGT 1.1)                                                                                                                        |
+| hoogspanningsmast | Metalen mast of stellage ter ondersteuning van geleidedraden voor het transport van elektriciteit met een hoog voltage. (bron: IMGEO 1.0)                                         |
+|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| gemaal            | Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen. (bron: BGT)                                                                           |
+| perron            | Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen. (bron: BGT)                             |
+| sluisdeur         | Het beweegbare deel van een kunstmatige waterkering die de verbinding tussen twee wateren kan afsluiten of openstellen en daartoe van deuren of schuiven is voorzien. (bron: BGT) |
+| strekdam          | Constructie in het water ter verdediging van de kust/oever. (bron: IMGEO 1.0)                                                                                                     |
+| steiger           | Vaste (niet drijvende) waterbouwkundige constructie voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen. (bron: IMGEO 1.0)               |
+| stuw              | Een constructie met een vaste drempel of een beweegbare klep, die dient om de waterstand boven- en benedenstrooms te regelen. (bron: BGT)                                         |
 
 TypeScheiding
 -------------
@@ -157,8 +156,6 @@ TypeScheiding
 | damwand        | Een grondkerende constructie die bestaat uit een verticaal in de grond geplaatste wand. (bron: BGT)                               |
 | walbescherming | Een nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur. (bron: IMGEO 1.0) |
 | hek            | Een hekwerk of schutting, typisch ten behoeve van erfafscheiding. (bron: BGT)                                                     |
-
-| niet-bgt       | Het object is geen BGT object. (bron: BGT 1.1)                                                                                    |
 
 TypeOpenbareRuimte
 ------------------

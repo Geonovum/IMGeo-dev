@@ -12,6 +12,8 @@ worden geclassificeerd als overig bouwwerk.
 
 Zwembaden worden als type bassin vastgelegd.
 
+Alleen bovengrondse opslagtanks worden opgenomen.
+
 Bij overkappingen wordt de grondvlakgeometrie van de pilaren (footprint) waarop
 de overkapping rust geregistreerd wanneer de afmetingen (rechthoekzijde of
 middellijn) ≥ 0,30 m bedraagt.
