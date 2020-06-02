@@ -1642,7 +1642,7 @@ duurt tot het moment waarop het object gereed is voor het beoogde gebruik.</defi
   <Concept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_opslagtank">
     <type xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="nl">opslagtank</prefLabel>
-    <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="nl">Opslagfaciliteit voor vloeistoffen. Alleen bovengrondse opslagtanks worden opgenomen.</definition>
+    <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="nl">Opslagfaciliteit voor vloeistoffen, gassen of energie.</definition>
     <inScheme rdf:resource="http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk"/>
   </Concept>
   <Concept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_bezinkbak">
