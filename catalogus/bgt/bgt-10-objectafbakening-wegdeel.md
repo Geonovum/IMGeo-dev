@@ -45,7 +45,7 @@ kruinlijn.
 ### Aandachtspunten
 
 Het begin van een wegdeel van een auto(snel)weg wordt aangegeven middels een
-bord G1 (autosnelweg) en G3 (autoweg). Dit kan zijn ter plaatse van een
+bord G01 (autosnelweg) en G03 (autoweg). Dit kan zijn ter plaatse van een
 kruispunt. In de praktijk staat zo'n bord nooit precies op het kruispunt, maar
 enkele meter verder, de praktische werking van het bord geldt vanaf dat
 kruispunt.
@@ -53,8 +53,8 @@ kruispunt.
 Een autosnelweg kan ook beginnen zonder dat er kruispunt aanwezig is.
 
 Het beëindigen van een wegdeel van een auto(snel)weg kan gebeuren door een bord
-G2 (einde autosnelweg) of G4 (einde autoweg). Een autoweg kan ook eindigen bij
-een kruispunt. Het bord G3 moet namelijk ná elk kruispunt worden herhaald.
+G2 (einde autosnelweg) of G04 (einde autoweg). Een autoweg kan ook eindigen bij
+een kruispunt. Het bord G03 moet namelijk ná elk kruispunt worden herhaald.
 
 Een autosnelweg kan ook eindigen zonder aanwezig kruispunt. Dan wordt het bord
 G2 gebruikt en gaat de weg over in een regionale weg.
@@ -70,16 +70,24 @@ van het wegdeel met vrijwel gelijke hoogte.
 Een afsluitende band hoort bij het wegdeel, verkeerseiland of berm dat gelijk
 ligt met de bovenzijde van de band.
 
+Fietspaden worden aangeduid met een blauw bord met daarop een wit rijwiel
+(bord G11 of G12a), of een blauw of zwart bord met daarop de tekst “FIETSPAD”
+of “RIJWIELPAD” (bord G13).
+Wegdelen met daarop oranjekleurige fietsstroken voorzien van een wit
+rijwielsymbool worden ingewonnen als fietspad.
+
 Aaneengesloten parkeervakken die zijn bedoeld voor één voertuig, worden
 ingewonnen als één aaneengesloten wegdeel waarbij functieWeg de waarde
 ‘parkeervlak’ heeft.
 
 Uitsparingen in wegdelen, meestal van het type voetpad, voor stedelijk groen
-worden niet afzonderlijk geregistreerd indien \<5 m2. Het wegdeel wordt daarbij
+worden niet afzonderlijk ingwonnen indien \<5 m2. Het wegdeel wordt daarbij
 geacht door te lopen.
 
 Belijning, kleur en symboliek zijn geen begrenzingen van wegdelen, zoals
-rijbanen, OV-banen, fietsstroken en parkeervakken.
+rijbanen, OV-banen en parkeervakken.
+Een uitzondering geldt voor de oranjekleurige fietsstroken voorzien van een wit
+rijwielsymbool. Deze worden ingewonnen als fietspad.
 
 Inritten (toegangswegen, oprijlanen) naar erven en terreinen vormen BGT inhoud
 wanneer ze langer zijn dan 25 m. Kortere inritten kunnen worden opgenomen in
