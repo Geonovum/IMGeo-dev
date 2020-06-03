@@ -4,7 +4,7 @@ Overbruggingsdeel
 ### Regels voor opname
 
 Er is sprake van een overbrugging wanneer een van de onderdelen bestaat uit een
-los dek dat op een bak en/of pijlers rust. Dit in tegenstelling tot een tunnel,
+afzonderlijk dek dat op een bak en/of pijlers rust. Dit in tegenstelling tot een tunnel,
 die uit een gesloten kokerconstructie met een in- en uitgang bestaat.
 
 Delen van overbruggingen worden in de BGT niet verder getypeerd. Zo worden zowel
