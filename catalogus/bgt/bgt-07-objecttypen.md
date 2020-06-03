@@ -261,7 +261,7 @@ De objecttypen worden hieronder besproken.
 | **Stereotype**                    | \<\<featureType\>\> \<\<BGT\>\> \<\<objecttype\>\>            |
 | **Herkomst objecttype**           | BGT                                                           |
 | **Code objecttype**               | 52                                                            |
-| **Definitie objecttype**          | Kunstmatig, meestal lineair obstakel met een werende functie. |
+| **Definitie objecttype**          | Kunstmatig obstakel met een werende functie.                  |
 | **Herkomst definitie objecttype** | BGT                                                           |
 | **Datum opname objecttype**       |                                                               |
 | **Subtype van**                   | OverigeConstructie                                            |
