@@ -5,7 +5,7 @@ Tunneldelen
 
 Er is sprake van een tunnel wanneer deze bestaat uit een gesloten
 kokerconstructie met een in- en een uitgang. Bij overbruggingsdelen zoals
-bijvoorbeeld een viaduct is er altijd sprake van een los dek dat op een bak
+bijvoorbeeld een viaduct is er altijd sprake van een afzonderlijk dek dat op een bak
 en/of pijlers rust.
 
 De buitenste begrenzing van tunneldelen ligt onder het maaiveld en is niet

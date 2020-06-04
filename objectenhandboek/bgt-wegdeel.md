@@ -1,7 +1,7 @@
-Objecttype: Wegdeel
--------------------
+Functie
+-------
 
-### Wegdeel, functie: OV-baan
+### OV-baan
 
 ![](media/3aff0f35e70e5c68e1a89a4b84cc30a6.jpg)
 
@@ -36,7 +36,7 @@ B en C: Begroeid terreindeel, Groenvoorziening.
 D, E en F: Ondersteunend wegdeel: Verkeerseiland, fysiek voorkomen: open
 verharding.
 
-### Wegdeel, functie: overweg
+### overweg
 
 ![](media/64546c37fabdf1decd2299edd4002ea7.jpg)
 
@@ -52,7 +52,7 @@ B: Wegdeel, Spoorbaan.
 
 C: Spoor, Trein.
 
-### Wegdeel, functie: spoorbaan
+### spoorbaan
 
 ![](media/64546c37fabdf1decd2299edd4002ea7.jpg)
 
@@ -68,7 +68,7 @@ A: Wegdeel, Overweg.
 
 C: Spoor, Trein.
 
-### Wegdeel, functie: baan voor vliegverkeer
+### baan voor vliegverkeer
 
 ![](media/3f64873f7ce69c380fbdab29414fe2bd.jpg)
 
@@ -82,7 +82,7 @@ A:
 
 B, C en D: Begroeid terreindeel, Grasland overig.
 
-### Wegdeel, functie: rijbaan: autosnelweg
+### rijbaan autosnelweg
 
 ![](media/fa579657546ab2f66f9739eec0580c75.jpg)
 
@@ -98,7 +98,24 @@ C: Ondersteunend wegdeel: Berm, fysiek voorkomen: Groenvoorziening.
 
 D (meerdere objecten): IMGeo: Type weginrichting, Geleideconstructie.
 
-### Wegdeel, functie: rijbaan: autoweg
+#### verbindingsweg
+
+![verbindingsweg](media/9eb97c59ab0b95845a743e89ba998f2d.png)
+
+A, B, C en D zijn in de BGT wegdelen autosnelweg, autoweg of regionale weg, in
+IMGeo kunnen ze tevens worden geclassificeerd als: verbindingsweg
+
+#### calamiteitendoorsteek (CADO)
+
+Een afbeelding van een calamiteitendoorsteek kunt u sturen aan:
+[imgeo\@geonovum.nl](mailto:info@geonovum.nl)
+
+Een (Calamiteiten doorsteek) CADO heeft tot doel het verkeer op een rijbaan via
+een doorsteek van de weg te kunnen geleiden in geval van een calamiteit of
+werkzaamheden op de rijbaan. Een tweede doel is het faciliteren van toegang tot
+rijbanen voor hulpdiensten vanaf andere rijbanen of van een parallelweg.
+
+### rijbaan: autoweg
 
 ![](media/9e7b5886ac50da7ff6f3f5de87d81c74.jpg)
 
@@ -110,7 +127,7 @@ A:
 | fysiekVoorkomen        |  Gesloten verharding |                 |
 | relatieveHoogteligging |  0                   |                 |
 
-### Wegdeel, functie: rijbaan: regionale weg
+### regionale weg
 
 ![](media/9da695d4393d10dbd50fbb74f8ad6f00.jpg)
 
@@ -234,6 +251,8 @@ C is voor IMGeo: Vegetatieobject: Haag.
 
 ![2325b](media/511d5264a64bfefc0c0e2ba05b00420d.jpg)
 
+2325b
+
 B:
 
 | **Wegdeel**            | **Attribuutwaarde** | **Opmerkingen** |
@@ -247,6 +266,8 @@ A: Onbegroeid terreindeel: Open verharding.
 C en D: Scheiding, Muur.
 
 ![dsc_2330](media/5952bb638819180f7daedb304c5d079b.jpg)
+
+dsc_2330
 
 Plantvak met boomspiegel is geen BGT inhoud want het is \< 5 m2, A loopt door.
 
@@ -393,6 +414,8 @@ De perken met groenvoorziening zijn \< 5m2 en daarom eventueel IMGeo inhoud.
 
 ![dsc_2340](media/deb5bfad18b05c0f814bb024c02097b2.jpg)
 
+dsc_2340
+
 B en D (afzonderlijke objecten):
 
 | *Wegdeel*              | *Attribuutwaarde*   | *Opmerkingen* |
@@ -411,6 +434,8 @@ E: Begroeid terreindeel, Groenvoorziening.
 
 ![dsc_2340](media/deb5bfad18b05c0f814bb024c02097b2.jpg)
 
+dsc_2340
+
 C:
 
 | **Wegdeel**            | **Attribuutwaarde**  | **Opmerkingen** |
@@ -427,6 +452,8 @@ Goten vormen geen BGT inhoud en worden gerekend tot het wegdeel waar ze in
 liggen.
 
 ![DSCN2148](media/3f8af004542a2b6f2d75c16fd41ba5a0.jpg)
+
+DSCN2148
 
 Zebrapad heeft hetzelfde fysiek voorkomen als rest wegdeel en hoort daarom voor
 de BGT bij A.
