@@ -96,21 +96,22 @@ brugwachtershuis dat aan een brug hangt, geldt dat dit pand in de BGT voorkomt
 met een relatieve hoogte groter dan 0, in ieder geval ligt het hoger dan het
 water waar het zich boven bevindt.
 
-##### definities van rijbanen en fietspad
+##### afbakening van rijbanen en fietspad
 
-Voor onderscheid tussen verschillende rijbanen en fietspad wordt in definitie
-verduidelijk dat een wegdeel met functie
+Voor onderscheid tussen verschillende rijbanen en fietspad wordt in de
+afbakeningsregels verduidelijkt dat een wegdeel met functie
 
--   rijbaan autosnelweg onderdeel uit maakt van een weg, **welke veelal is
+-   rijbaan autosnelweg onderdeel uit maakt van een weg, welke **veelal is
     aangeduid met het betreffende verkeersbord G01.**
 
 -   rijbaan autoweg, **er een, meestal fysieke, scheiding is tussen langzaam
     verkeer en snelverkeer.** 
 
--   fietspad onderdeel uitmaakt van een weg, welke veelal is **aangeduid met een
-    blauw bord met daarop een wit rijwiel (bord G11 of G12a), een blauw of zwart
-    bord met daarop de tekst “FIETSPAD” of “RIJWIELPAD” (bord G13), of een wit
-    rijwielsymbool op een strook oranjekleurige verharding.**
+-   fietspad onderdeel uitmaakt van een weg, welke voor de BGT veelal **moet
+    aangeduid zijn met een blauw bord met daarop een wit rijwiel (bord G11 of
+    G12a), een blauw of zwart bord met daarop de tekst “FIETSPAD” of
+    “RIJWIELPAD” (bord G13)**. In IMGeo mag ook **een strook oranjekleurige
+    verharding met een wit rijwielsymbool** als fietspad worden opgenomen.
 
 Voor fietssuggestiestroken wordt verduidelijk dat deze niet als fietspad in de
 BGT worden opgenomen.
