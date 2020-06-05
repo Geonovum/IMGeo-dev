@@ -109,5 +109,6 @@ Ongeveer 240 bronhouders hebben totaal ongeveer 120.000 overigescheidingen. 10%
 van de bronhouders hebben ruim 90% van de overige scheidingen. Omzetting kan
 naar verwachting grotendeels geautomatiseerd.
 
-Een relatief klein aantal overige scheidingen (\~700 = \<1%) met vlakgeometrie
-op relatieve hoogteligging 0 moet worden ingepast in de topologische structuur.
+Een relatief klein aantal overige scheidingen (ongeveer 700 = minder dan 1%) met
+vlakgeometrie op relatieve hoogteligging 0 moet worden ingepast in de
+topologische structuur.
