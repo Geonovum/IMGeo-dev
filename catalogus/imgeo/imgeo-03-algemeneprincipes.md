@@ -395,10 +395,13 @@ De objecten in het optionele deel van IMGeo zijn al dan niet topologisch
 gestructureerd (‘opdelend’).
 
 De optionele objecttypen van IMGeo zijn topologisch gestructureerd indien het
-een nadere detaillering of een uitbreiding betreft van de BGT objecten, zie daarvoor de tabel in de
-vorige paragraaf.
+een nadere detaillering of een uitbreiding betreft van de BGT objecten, zie
+daarvoor de tabel in de vorige paragraaf.
 
-Het optionele deel van IMGeo is dus onderdeel van de topologische structuur indien het een object met vlakgeomtrie betreft. Uitgezonderd van deze regel zijn de functionele gebieden. De functionele gebieden zijn inrichtend en mogen overlappen met elkaar en met andere vlakobjecten van alle soorten.
+Het optionele deel van IMGeo is dus onderdeel van de topologische structuur
+indien het een object met vlakgeomtrie betreft. Uitgezonderd van deze regel zijn
+de functionele gebieden. De functionele gebieden zijn inrichtend en mogen
+overlappen met elkaar en met andere vlakobjecten van alle soorten.
 
 **Niveaus ongelijk aan 0**
 
@@ -407,14 +410,21 @@ Op deze niveaus zijn alle objecten niet topologisch gestructureerd.
 Niveauaanduidingen per object
 -----------------------------
 
-Alle IMGeo vlakobjecten krijgen het niveaugetal toegekend overeenkomstig de regelgeving in de BGT, zie daarvoor de BGT gevenscatalogus 3.8. Alle IMGeo punt- en lijnobjecten bezitten dezelkfde relatieve hoogte als het object, waarboven of onder het zich bevindt. Voorbeeld: de lantaarnpalen op een wegdeel dat zich bevindt op een
-brug en dus niveau 1 heeft, krijgen ook het niveaugetal 1 toegekend. Een putdeksel krijgt niveau 0, net als het wegdeel of terreindeel waar die in ligt.
+Alle IMGeo vlakobjecten krijgen het niveaugetal toegekend overeenkomstig de
+regelgeving in de BGT, zie daarvoor de BGT gevenscatalogus 3.8. Alle IMGeo punt-
+en lijnobjecten bezitten dezelkfde relatieve hoogte als het object, waarboven of
+onder het zich bevindt. Voorbeeld: de lantaarnpalen op een wegdeel dat zich
+bevindt op een brug en dus niveau 1 heeft, krijgen ook het niveaugetal 1
+toegekend. Een putdeksel krijgt niveau 0, net als het wegdeel of terreindeel
+waar die in ligt.
 
 Meetgegevens
 ------------
 
-Net als in de BGT worden bij optionele IMGeo objecten de plaatsbepalingspunten
-opgenomen. Uitgezonderd van deze regel zijn alle registratieve gebieden en alle geplande objecten.
+Net als in de BGT worden bij optionele IMGeo objecten plaatsbepalingspunten
+opgenomen als deze goed idealiseerbaar zijn (positionele nauwkeurigheid 30cm in
+tabel H4 Datakwaliteit), en ingewonnen middels fotogrammetrie, terrestrisch,
+laserscanning of panoramabeelden.
 
 Identificatie en historie
 -------------------------
@@ -442,8 +452,8 @@ Als aan een bestaand object een wijziging gepland is die gevolgen heeft voor de
 registratie, kan het object zowel voorkomen als bestaand object met een unieke
 identificatie en als nieuw object met een nieuw toegekende identificatie met de
 status: plan. Dit dient om mogelijke verwisseling van gerealiseerde en geplande
-informatie over dit object te voorkomen.
-Objecten met de status 'plan' bezitten geen plaatsbepalingspunten.
+informatie over dit object te voorkomen. Objecten met de status 'plan' bezitten
+geen plaatsbepalingspunten.
 
 IMGeo heeft niet als doel om de gehele levenscyclus van topografische objecten,
 van plan tot realisatie en sloop, exact vast te leggen. IMGeo biedt wel de
@@ -457,7 +467,8 @@ volgende werkwijze wordt daarbij gehanteerd:
 
 -   Als een planobject een volledig nieuw object in de werkelijkheid betreft,
     blijft na realisatie van de bouw/aanleg het object met dezelfde
-    identificatie bestaan. De status wijzigt van ‘plan’ naar ‘bestaand’. Vanaf dit moment zijn plaatsbepalingspunten voor dat object verplicht. 
+    identificatie bestaan. De status wijzigt van ‘plan’ naar ‘bestaand’. Vanaf
+    dit moment zijn plaatsbepalingspunten voor dat object verplicht.
 
 -   Als een planobject een geometriewijziging betreft van een bestaande object,
     worden de twee objecten verenigd, zodra de plangeometrie gerealiseerd is.

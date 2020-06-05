@@ -395,7 +395,9 @@ De BGT hanteert de volgende regels voor object- en versiehistorie (zie ook
 paragraaf 4.5):
 
 1.  Als een nieuw object ontstaat bij een bronhouder wordt een nieuw object met
-    object-ID gecreëerd en ontstaat een versiehistorie. Het object krijgt bij            ontstaan van de bronhouder een objectBeginTijd en een tijdstipRegistratie met beide dezelfde datum.
+    object-ID gecreëerd en ontstaat een versiehistorie. Het object krijgt bij
+    ontstaan van de bronhouder een objectBeginTijd en een tijdstipRegistratie
+    met beide dezelfde datum.
 
 2.  Als het nieuwe object wordt geregistreerd in de Landelijke Voorziening
     krijgt het object ook een LV-publicatiedatum.
@@ -474,11 +476,12 @@ BGT-objecten en plaatsbepalingspunten bestaat uit de overeenkomstige
 coördinatenparen. Er vindt geen administratieve koppeling plaats op basis van
 het ID.
 
-Elk coördinatenpunt in de BGT bezit een plaatsbepalingspunt met uitzondering van
-coördinaatpunten van functionele gebieden.
-
-Een BGT-lijnobject bevat minimaal twee plaatsbepalingspunten. Een BGT-vlakobject
-moet uit minimaal drie plaatsbepalingspunten bestaan.
+Alleen voor objecten die goed idealiseerbaar zijn in het terrein worden voor de
+coördinaten die zijn ingemeten middels inwinningsmethoden fotogrammetrisch,
+terrestrisch, laserscanning of panoramabeelden, plaatsbepalingspunten opgenomen.
+De goed idealiseerbare objecten zijn de objecten met een positionele
+nauwkeurigheid van 30 centimeter, zoals opgenomen in de tabel in H4
+Datakwaliteit.
 
 Van elke plaatsbepalingspunt is de nauwkeurigheid, de inwinningsdatum, de
 inwinnende instantie die het heeft bepaald en de inwinningsmethode bekend. De
@@ -490,12 +493,12 @@ expliciet gekoppeld aan een BGT-object in de vorm van een attribuut ‘geometrie
 Deze geometrie moet overeenkomen met de geometrie van plaatsbepalingspunten, die
 deel uitmaken van de verzameling van de meetkundige afbakening.
 
-Op maaiveldniveau vormen de verbindingen tussen de plaatsbepalingspunten altijd
-een grens tussen twee aangrenzende objecten in de BGT. Uitzonderingen op deze
-regel zijn de punten die de geometrie van een spoor en in specifieke gevallen
-van een lijnvormige scheiding definiëren. De specifieke gevallen treden alleen
-dan op als een lijnvormige scheiding in zijn geheel binnen een vlakobject ligt
-en met maximaal een punt raakt aan de begrenzing van dat vlakobject.
+Op maaiveldniveau vormen de verbindingen tussen de coördinaten altijd een grens
+tussen twee aangrenzende objecten in de BGT. Uitzonderingen op deze regel zijn
+de punten die de geometrie van een spoor en in specifieke gevallen van een
+lijnvormige scheiding definiëren. De specifieke gevallen treden alleen dan op
+als een lijnvormige scheiding in zijn geheel binnen een vlakobject ligt en met
+maximaal een punt raakt aan de begrenzing van dat vlakobject.
 
 In het geval dat niet-gestrookte bogen voorkomen in de vlakgeometrie van
 BGT-objecten worden de drie punten meegenomen die zijn gebruikt bij het
@@ -503,9 +506,16 @@ vastleggen van de boog.
 
 ### Voorbeelden
 
-In onderstaande figuur zijn bij de objectafbakening van het terreindeel de
-plaatsbepalingspunten 1 t/m 10 gebruikt. Bij het wegdeel zijn bij de
-objectafbakening de plaatsbepalingspunten 6 t/m 16 gebruikt.
+In onderstaande figuur wordt het terreindeel gevormd door de coördinaten 1 t/m
+10 en het wegdeel door de coördinaten 6 t/m 16.
+
+Voor het wegdeel wordt voor elk coördinaat ingewonnen met fotogrammetrie,
+terrestrisch, laserscanning of panoramabeelden een plaatsbepalingspunt
+opgenomen.
+
+Voor het terreindeel worden voor de coördinaten 1 t/m 5 geen eigen
+plaatsbepalingspunten opgenomen, voor de overige coördinaten worden de
+plaatsbepalingspunten verkregen via het wegdeel.
 
 ![](media/882c48ea4ba239aa34e8ca38eb400716.png)
 
