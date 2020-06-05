@@ -468,7 +468,8 @@ volgende werkwijze wordt daarbij gehanteerd:
 -   Als een planobject een volledig nieuw object in de werkelijkheid betreft,
     blijft na realisatie van de bouw/aanleg het object met dezelfde
     identificatie bestaan. De status wijzigt van ‘plan’ naar ‘bestaand’. Vanaf
-    dit moment zijn plaatsbepalingspunten voor dat object verplicht.
+    dit moment zijn plaatsbepalingspunten voor dat object verplicht, wanneer
+    dat goed idealiseerbaar is, zie daarvoor de tabel in hoofdstuk 4 Datakwaliteit.
 
 -   Als een planobject een geometriewijziging betreft van een bestaande object,
     worden de twee objecten verenigd, zodra de plangeometrie gerealiseerd is.
