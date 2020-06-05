@@ -422,9 +422,9 @@ Meetgegevens
 ------------
 
 Net als in de BGT worden bij optionele IMGeo objecten plaatsbepalingspunten
-opgenomen als deze goed idealiseerbaar zijn (positionele nauwkeurigheid 30cm in
-tabel H4 Datakwaliteit), en ingewonnen middels fotogrammetrie, terrestrisch,
-laserscanning of panoramabeelden.
+opgenomen als deze goed idealiseerbaar zijn (positionele nauwkeurigheid 30 cm in
+de tabel in hoofdstuk 4 Datakwaliteit), en ingewonnen middels fotogrammetrie,
+terrestrisch, laserscanning of panoramabeelden.
 
 Identificatie en historie
 -------------------------
