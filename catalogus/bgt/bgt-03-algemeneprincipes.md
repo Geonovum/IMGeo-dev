@@ -462,7 +462,8 @@ Hetzelfde geldt voor de waterschappen bij het definiëren van objectbegrenzingen
 van de waterdelen.
 
 Ook de kwaliteit van puntgegevens en de bijbehorende kwaliteitsgegevens moeten
-expliciet voor iedereen bekend zijn. In de gegevenscatalogus worden daarom
+expliciet voor iedereen bekend zijn. In de gegevenscatalogus worden daarom van
+goed idealiseerbare objecten, zie daarvoor hoofdstuk 4 Datakwalieit, 
 puntgegevens en de daarbij horende kwaliteit vastgelegd in de vorm van
 plaatsbepalingspunten. Voor bronhouders geldt een verplicht gebruik van deze
 punten bij het vormen van aangrenzende objecten.
