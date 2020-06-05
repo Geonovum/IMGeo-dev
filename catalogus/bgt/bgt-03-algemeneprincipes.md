@@ -480,7 +480,7 @@ Alleen voor objecten die goed idealiseerbaar zijn in het terrein worden voor de
 coördinaten die zijn ingemeten middels inwinningsmethoden fotogrammetrisch,
 terrestrisch, laserscanning of panoramabeelden, plaatsbepalingspunten opgenomen.
 De goed idealiseerbare objecten zijn de objecten met een positionele
-nauwkeurigheid van 30 centimeter, zoals opgenomen in de tabel in H4
+nauwkeurigheid van 30 centimeter, zoals opgenomen in de tabel in hoofdstuk 4
 Datakwaliteit.
 
 Van elke plaatsbepalingspunt is de nauwkeurigheid, de inwinningsdatum, de
@@ -490,8 +490,9 @@ historie, een gegeven binnen het stelsel van basisregistraties.
 
 De ligging van elk BGT-object is gedefinieerd door geometrie. Deze geometrie is
 expliciet gekoppeld aan een BGT-object in de vorm van een attribuut ‘geometrie’.
-Deze geometrie moet overeenkomen met de geometrie van plaatsbepalingspunten, die
-deel uitmaken van de verzameling van de meetkundige afbakening.
+Deze geometrie moet overeenkomen met de geometrie van plaatsbepalingspunten van
+de goed idealiseerbare objecten, die deel uitmaken van de verzameling van de
+meetkundige afbakening.
 
 Op maaiveldniveau vormen de verbindingen tussen de coördinaten altijd een grens
 tussen twee aangrenzende objecten in de BGT. Uitzonderingen op deze regel zijn
