@@ -51,32 +51,35 @@ Om de uniformiteit en consistentie in de afbakening en toepassing van de regels
 van IMGeo te borgen in de standaarden, worden de volgende wijzigingen
 voorgesteld:
 
-##### onderscheid gemaal, sluis, stuw 
+##### onderscheid gemaal, sluis, stuw
 
 Voor de afbakening van een gemaal wordt verduidelijkt dat de bij een gemaal
 eventueel aanwezige bakken waar het water door wordt geleid als gemaal opgenomen
-in de BGT.
+worden in de BGT.
+
+Voor een sluis wordt aangegeven dat alleen de sluisdeuren in gesloten stand tot
+de BGT behoren.
 
 Voor een stuw wordt verduidelijkt dat naast de klep of schuif waarover het water
 kan stromen bij een stuw, ook de eventueel aanwezige bakken waar het water door
 wordt geleid als stuw wordt opgenomen in de BGT.
 
-##### onderscheid viaduct en tunnel 
+##### onderscheid viaduct en tunnel
 
 Voor het onderscheid tussen viaduct en tunnel wordt verduidelijkt dat een tunnel
-bestaat uit een overwegend gesloten kokerconstructie met een in- en een uitgang,
-en een overbruggingsdeel zoals bijvoorbeeld een viaduct bestaat uit een los dek
-dat op een bak en/of pijlers rust.
+bestaat uit een gesloten kokerconstructie met een in- en een uitgang, en een
+overbruggingsdeel zoals bijvoorbeeld een viaduct bestaat uit een los dek dat op
+een bak en/of pijlers rust.
 
-##### onderscheid duiker en brug 
+##### onderscheid duiker en brug
 
 Voor het onderscheid tussen duiker en brug wordt verduidelijkt in de definitie
-van duiker dat het een kunstwerk voor de waterhuishouding, bestaande uit een
+van duiker dat het een kunstwerk is voor de waterhuishouding, bestaande uit een
 **gesloten** kokervormige constructie met **een in- en
 uitstroomopening**, aangebracht onder een weg of spoorweg of in een
 dam of **ander terreindeel**.
 
-##### inwinning van geleidewerk en remmingswerk 
+##### inwinning van geleidewerk en remmingswerk
 
 Voor geleidewerk en remmingswerk wordt verduidelijkt dat deze wordt ingewonnen
 langs de zijde waar de scheepvaart langs vaart.
@@ -86,12 +89,12 @@ langs de zijde waar de scheepvaart langs vaart.
 Een tunneldeel en duiker liggen onder het maaiveld en worden daarom altijd
 opgenomen met een relatieve hoogte lager dan nul.
 
-##### opname van panden boven water 
+##### opname van panden boven water
 
-Voor panden die in hun geheel boven water, bijvoorbeeld een brugwachtershuis dat
-aan een brug hangt, wordt verduidelijkt dat geldt dat dit pand in de BGT
-voorkomt met een relatieve hoogte (rh) van één hoger dan het water waar het zich
-boven bevindt.
+Voor panden die in hun geheel boven water liggen, bijvoorbeeld een
+brugwachtershuis dat aan een brug hangt, geldt dat dit pand in de BGT voorkomt
+met een relatieve hoogte groter dan 0, in ieder geval ligt het hoger dan het
+water waar het zich boven bevindt.
 
 ##### definities van rijbanen en fietspad
 
@@ -112,18 +115,18 @@ verduidelijk dat een wegdeel met functie
 Voor fietssuggestiestroken wordt verduidelijk dat deze niet als fietspad in de
 BGT worden opgenomen.
 
-##### definitie van bunker 
+##### definitie van bunker
 
 Voor een bunker wordt verduidelijkt dat dit een **van oorsprong** militair
 verdedigingswerk is.
 
-##### definities van putten 
+##### definities van putten
 
 Voor putten wordt verduidelijkt dat in IMGeo alleen de deksel van een put wordt
 opgenomen. Dit wordt in de definitie van de verschillende type putten opgenomen
 als ‘deksel van een …’.
 
-##### samenvallen kruinlijngeometrie en objectbegrenzingen 
+##### samenvallen kruinlijngeometrie en objectbegrenzingen
 
 Voor kruinlijngeometrie wordt verduidelijkt dat een van de zijden van het
 (ondersteunend) wegdeel of terreindeel altijd samenvalt met de kruinlijn, zijnde
@@ -134,12 +137,6 @@ die van de objectbegrenzing ter plaatse.**
 
 Voor macro-objecten (functioneel gebied) wordt verduidelijkt dat dit een
 clustering van objecten en/of delen van objecten is.
-
-##### niet-samenvallen van functionele gebieden en objectbegrenzingen 
-
-Voor de tijdstippen van objecten wordt verduidelijkt dat de wettelijke
-Nederlandse tijd geldt, waarbij in de winter de wintertijd en in de zomer de
-zomertijd wordt aangehouden.
 
 ##### opmaak, plaatsing en draaïing van huisnummers en overige labels
 
@@ -157,18 +154,18 @@ moet te worden.
 
 {huisnummer}{huisletter}/{huisnummertoevoeging}-{huisnummer}{huisletter}/{huisnummertoevoeging}
 
-waarin
+Waarin (regex = reguliere expressie)
 
--   {huisnummer} een nummer van 1 tot 99999 (regex {0-9}[1-5])
+-   {huisnummer} een nummer van 1 tot 99999 (*regex {0-9}[1-5]*)
 
--   {huisle tter} een hoofdletter of kleine letter (regex {a-zA-Z}[0-1])
+-   {huisle tter} een hoofdletter of kleine letter (*regex {a-zA-Z}[0-1]*)
 
--   {huisnummertoevoeging} 0 tot 4 alfanumeriek karakter (regex
-    {0-9a-zA-Z}[0-4])
+-   {huisnummertoevoeging} 0 tot 4 alfanumeriek karakter (*regex
+    {0-9a-zA-Z}[0-4]*)
 
 -   geen scheidingsteken (koppelteken of spatie) tussen huisnummer en huisletter
 
--   forward slash (/) als scheidingsteken tussen huinummer en huisletter
+-   forward slash (/) als scheidingsteken tussen huisnummer en huisletter
 
 -   koppelteken(-) als scheidingsteken tussen twee nummeraanduidingen van reeks.
 
@@ -194,7 +191,7 @@ Voor de tijdstippen van objecten wordt verduidelijkt dat de wettelijke
 Nederlandse tijd geldt, waarbij in de winter de wintertijd en in de zomer de
 zomertijd wordt aangehouden.
 
-##### interne versus relatieve precisie. 
+##### interne versus relatieve precisie.
 
 Voor de positionele nauwkeurigheid van een object wordt verduidelijkt dat de
 relatieve precisie en niet de interne precisie wordt gehanteerd.
