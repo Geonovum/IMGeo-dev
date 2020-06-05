@@ -421,10 +421,10 @@ waar die in ligt.
 Meetgegevens
 ------------
 
-Net als in de BGT worden bij optionele IMGeo objecten plaatsbepalingspunten
-opgenomen als deze goed idealiseerbaar zijn (positionele nauwkeurigheid 30 cm in
-de tabel in hoofdstuk 4 Datakwaliteit), en ingewonnen middels fotogrammetrie,
-terrestrisch, laserscanning of panoramabeelden.
+Net als in de BGT worden bij optionele IMGeo objecten als deze goed idealiseerbaar
+zijn (positionele nauwkeurigheid 30 cm in de tabel in hoofdstuk 4 Datakwaliteit),
+en ingewonnen zijn middels fotogrammetrie, terrestrisch, laserscanning of
+panoramabeelden, plaatsbepalingspunten opgenomen.
 
 Identificatie en historie
 -------------------------
