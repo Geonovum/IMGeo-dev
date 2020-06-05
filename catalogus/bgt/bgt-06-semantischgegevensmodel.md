@@ -8,6 +8,6 @@ alle BGT objecttypen overerfd. Objecttypen met een gestippeld kader en
 schuingedrukte tekst zijn abstracte objecttypen en komen niet als concreet
 object voor in een BGT dataset.
 
-![](media/d8a570e4639f5958bc2cf079ac6742e6.png)
+![](media/0672de3438003bdf276db0d424b85eda.png)
 
 Overzicht BGT-objecttypen
