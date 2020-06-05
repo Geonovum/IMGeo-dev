@@ -58,8 +58,6 @@ Aan bronhouders wordt gevraagd om met terugwerkende kracht elk terreindeel met
 een classificatie bos dat afwijkt van classificatie van de BRT te controleren op
 juiste classificatie.
 
-<iframe src="https://imgeo22.gewoongoedegeodata.nl/?view=bos" class="view"></iframe>
-
 De terreindelen die een andere classificatie bos krijgen, behouden hun
 identificatie.
 
@@ -68,5 +66,3 @@ door ander schaalniveau van de BRT niet gegarandeerd juist is: verschillende BGT
 bossen kunnen samenvallen met één groter BRT bos en ook vice versa komt voor.
 Wel worden afwijkingen tussen BGT bossen en BRT bossen centraal gesignaleerd, en
 teruggegeven als melding richting bronhouders.
-
-
