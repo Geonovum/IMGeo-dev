@@ -115,7 +115,7 @@ Samengevat bevat IMGeo 2.2 de volgende voorstellen:
 
 2.  indeling van particuliere terreinen
 
-3.  opslagtanken voor gassen en energie
+3.  opslagtanks voor gassen en energie
 
 4.  toegangswegen en inritten
 
@@ -140,7 +140,7 @@ dat met IMGeo 2.2 meer **nut/baten** worden bereikt op de volgende onderwerpen:
 2.  Door het uitbreiden van IMGeo met extra gegevens, kunnen
     overheidsorganisatie *betere dienstverlening aan burgers en bedrijven*
     geven. Meldkamer en hulpdiensten krijgen met IMGeo 2.2 meer informatie over
-    o.a. de indeling van en toegangswegen naar erven en terreinen, opslagtanken
+    o.a. de indeling van en toegangswegen naar erven en terreinen, opslagtanks
     met gevaarlijke stoffen en het soort bos voor een brandverspreidingsanalyse.
     Zo kan de plaats van een incident accuraat in beeld worden gekregen, kunnen
     mensen en materieel efficiënt worden ingezet, en kunnen hulpdiensten sneller
@@ -176,7 +176,7 @@ kracht de gegevens in te winnen of om te zetten:
 
 1.  naaldbos, loofbos en gemengd bos.
 
-2.  opslagtanken met gassen en energie.
+2.  opslagtanks met gassen en energie.
 
 3.  indeling van particuliere terreinen.
 

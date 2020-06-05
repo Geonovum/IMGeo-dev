@@ -92,7 +92,7 @@ bedrijventerrein (erf) (5028)
 bronhouders gewenst wanneer gedetailleerder opname is gewenst op particuliere en
 bedrijventerrein (erf) (5028)
 
-**Uitbreiden opslagtanken**
+**Uitbreiden opslagtanks**
 
 [190](https://github.com/Geonovum/IMGeo-dev/issues/190) Definitie opslagtank
 aanscherpen
