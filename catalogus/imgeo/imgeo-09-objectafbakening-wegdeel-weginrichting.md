@@ -26,6 +26,10 @@ opgenomen met het objecttype weginrichtingselement.
     verkeerseiland of berm. In IMGeo kan een band worden opgenomen als
     Weginrichtingselement type geleideconstructie.
 
+-   In IMGeo kunnen stroken oranjekleurige verharding voorzien van een wit
+    rijwielsymbool worden opgenomen als fietspad. Fietssuggestiestroken (zonder
+    wit rijwielsymbool) vormen geen inhoud van IMGeo.
+
 -   In de BGT worden aaneengesloten parkeervakken ingewonnen als één wegdeel. In
     IMGeo kunnen deze eventueel nader worden ingedeeld. Ook kan de belijning als
     weginrichtingselement worden opgenomen.

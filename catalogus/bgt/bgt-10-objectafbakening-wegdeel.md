@@ -59,6 +59,9 @@ een kruispunt. Het bord G03 moet namelijk ná elk kruispunt worden herhaald.
 Een autosnelweg kan ook eindigen zonder aanwezig kruispunt. Dan wordt het bord
 G2 gebruikt en gaat de weg over in een regionale weg.
 
+Bij een autoweg is er sprake van een, meestal fysieke, scheiding tussen langzaam
+verkeer en snelverkeer.
+
 Samenvattend geldt dat voor het begin en einde van een wegdeel van een
 auto(snel)weg de plaats van het bord bepalend is, op basis van de betekenis in
 het RVV 1990.
@@ -70,11 +73,10 @@ van het wegdeel met vrijwel gelijke hoogte.
 Een afsluitende band hoort bij het wegdeel, verkeerseiland of berm dat gelijk
 ligt met de bovenzijde van de band.
 
-Fietspaden worden aangeduid met een blauw bord met daarop een wit rijwiel
-(bord G11 of G12a), of een blauw of zwart bord met daarop de tekst “FIETSPAD”
-of “RIJWIELPAD” (bord G13).
-Wegdelen met daarop oranjekleurige fietsstroken voorzien van een wit
-rijwielsymbool worden ingewonnen als fietspad.
+Fietspaden vormen BGT inhoud indien aangeduid met een blauw bord met daarop een
+wit rijwiel (bord G11 of G12a), of een blauw of zwart bord met daarop de tekst
+“FIETSPAD” of “RIJWIELPAD” (bord G13). In IMGeo mogen stroken oranjekleurige
+verharding voorzien van een wit rijwielsymbool worden opgenomen als fietspad.
 
 Aaneengesloten parkeervakken die zijn bedoeld voor één voertuig, worden
 ingewonnen als één aaneengesloten wegdeel waarbij functieWeg de waarde
@@ -85,9 +87,9 @@ worden niet afzonderlijk ingwonnen indien \<5 m2. Het wegdeel wordt daarbij
 geacht door te lopen.
 
 Belijning, kleur en symboliek zijn geen begrenzingen van wegdelen, zoals
-rijbanen, OV-banen en parkeervakken.
-Een uitzondering geldt voor de oranjekleurige fietsstroken voorzien van een wit
-rijwielsymbool. Deze worden ingewonnen als fietspad.
+rijbanen, OV-banen en parkeervakken. Een uitzondering geldt voor de
+oranjekleurige fietsstroken voorzien van een wit rijwielsymbool. Deze worden
+ingewonnen als fietspad.
 
 Inritten (toegangswegen, oprijlanen) naar erven en terreinen vormen BGT inhoud
 wanneer ze langer zijn dan 25 m. Kortere inritten kunnen worden opgenomen in
