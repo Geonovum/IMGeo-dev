@@ -55,8 +55,8 @@ Oplossing en nut
 IMGeo 2.2 is een nieuwe geoptimaliseerde versie van het model met als doel om de
 kwaliteit van de BGT te verbeteren. , door
 
-1.  het aanscherpen van afbakeningsregels, zodat de BGT uniformer voor afnemers
-    en makkelijker maakbaar voor bronhouders wordt.
+1.  het aanscherpen en verduidelijken van afbakeningsregels, zodat de BGT
+    uniformer voor afnemers en makkelijker maakbaar voor bronhouders wordt.
 
 2.  het uitbreiden met ontbrekende gegevens, zodat sectoren (o.m. hulpdiensten
     en netbeheerders) beter kunnen aansluiten op IMGeo.

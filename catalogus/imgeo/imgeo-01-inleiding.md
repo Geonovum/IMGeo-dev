@@ -22,53 +22,27 @@ deel I is het verplichte deel van IMGeo, de BGT, vastgelegd: de
 Gegevenscatalogus BGT. Dit is deel II met daarin het optionele deel van IMGeo:
 de Gegevenscatalogus IMGeo.
 
-Dit document is versie 2.1.1 van de Gegevenscatalogus IMGeo. Ten opzichte van
-versie 2.0 zijn er, naast de verbetering van taal- en stijlfouten, wijzigingen
-doorgevoerd die zijn gebaseerd op afspraken die bij de voorlopige vaststelling
-van versie 2.0 in de IMGeo-stuurgroep zijn gemaakt. Het betreft afspraken over
-de actualiteit, plaatsbepalingspunten en wegindeling.
+Vanaf 2013 is op basis van BGT versie 1.1.1 en IMGeo 2.1.1 de opbouw van de BGT
+door bronhouders gestart. Eind 2020 is de laatste fase van de transitie
+afgerond. Tijdens de opbouw van de BGT is veel ervaring opgedaan met de
+toepassing van de regels van IMGeo.
 
-Daarnaast zijn aanpassingen doorgevoerd die voortkomen uit opmerkingen, wensen
-en vragen van bronhouders en softwareontwikkelaars. De opmerkingen en wensen
-zijn via de BGT \| IMGeo helpdesk in de loop van 2012 geregistreerd en in deze
-versie verwerkt.
+Hieruit kwam naar voren dat de BGT niet geheel uniform is opgebouwd door
+bronhouders door ruimte voor interpretatie in de afbakeningsregels, en dat IMGeo
+niet volledig ruimte biedt om alle objecten op te nemen waar vanuit o.m. beheer
+openbare ruimte, netbeheerders en hulpdiensten behoefte aan is.
 
-De mogelijkheid is gecreëerd om aan de Landelijke Voorziening aan elkaar
-grenzende objecten met gelijke attribuutwaarden aan te bieden. Dit impliceert
-het opnemen van beheerobjecten als IMGeo-object waarbij wel de
-kwaliteitsaspecten van IMGeo vereist blijven, evenals de toepassing van
-plaatsbepalingspunten bij de aangeboden objecten. Hierdoor verdwijnt de noodzaak
-van het vastleggen van weg-, terrein- en watervakonderdelen in IMGeo. Deze
-objecten komen daarom niet meer voor in deze versie 2.1.
+Deze versie is een optimalisatie van het model door:
 
-De belangrijkste wijzigingen ten opzichte van IMGeo 2.0 zijn verder:
+1.  het verduidelijken en aanscherpen van de afbakeningsregels, zodat de BGT
+    uniformer voor afnemers, en makkelijker maakbaar voor bronhouders wordt.
 
--   Voor het vastleggen van toekomstige gegevens (plantopografie) geldt dat als
-    een bestaand object mogelijk gaat wijzigen, de plantopografie als nieuw
-    object met een nieuw (plan) ID wordt opgenomen. Dit om mogelijke
-    verwisseling van gerealiseerde en geplande informatie te voorkomen;
+2.  het uitbreiden met ontbrekende gegevens, zodat sectoren beter kunnen
+    aansluiten op IMGeo.
 
--   Toevoeging van classificaties:
-
--   kunststof bij fysiek voorkomen van onbegroeid terrein;
-
--   voedersilo en schuur, beide bij overig bouwwerk;
-
--   benzinestation en verzorgingsplaats, beide bij functioneel gebied.
-
--   Verplaatsing van classificaties:
-
--   Parkeervlak: carpoolplaats van wegdeel naar functioneel gebied:
-    carpoolplaats;
-
--   OV-baan: bushalte van wegdeel naar functioneel gebied: bushalte.
-
--   Verwijdering van objecten door de opname ervan in de Basisregistratie
-    Ondergrond (BRO):
-
--   Put: boorgat;
-
--   Sensor: peilbuis.
+Ten grondslag aan deze versie van de IMGeo catalogus ligt het wijzigingsvoorstel
+IMGeo 2.2 versie 8 juni 2020, waarin alle wijzigingen voor de verbetering en
+uitbreiding van IMGeo zijn beschreven.
 
 IMGeo, het optionele deel
 -------------------------
