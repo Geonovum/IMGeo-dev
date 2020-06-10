@@ -104,12 +104,6 @@ doorgevoerd te worden:
     goed-idealiseerbaar object.
 
 Bronhoudersoftware hoeft niet aangepast te worden; bronhouders hoeven geen
-aanvullende gegevens in te winnen.
-
-**Uitzoekpunt:**
-
--   **Als BRAVO een opgeschoond mutatiebericht via het abonnement doorzet naar
-    bronhouders, kan de bronhoudersoftware hier mee overweg?**
-
--   **Als de redundante PBP’s uit PDOK worden geschrapt, werkt synchronisatie
-    van bronhouders via PDOK (grote bloedsomloop) nog?**
+aanvullende gegevens in te winnen. Uit inventarisatie onder leveranciers blijkt
+dat er geen mutatie/inleesblokkade optreedt als abonnementsberichten met
+‘ontbrekende’ PBP’s worden aangeboden via BRAVO of PDOK.
