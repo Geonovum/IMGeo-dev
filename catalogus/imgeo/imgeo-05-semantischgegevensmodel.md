@@ -2,78 +2,109 @@ Semantisch gegevensmodel
 ========================
 
 Het IMGeo gegevensmodel is te uitgebreid om in één plaat te laten zien.
-Hieronder wordt het overzicht getoond in twee delen waarop de objecttypen, die tot de BGT behoren, in lichtroze zijn afgebeeld en de objecttypen, die tot het optionele IMGeo deel behoren, in oranje.
+Hieronder wordt het overzicht getoond in twee delen waarop de objecttypen, die
+tot de BGT behoren, in lichtroze zijn afgebeeld en de objecttypen, die tot het
+optionele IMGeo deel behoren, in oranje.
 
-In het model is te zien dat de IMGeo klassen zijn afgeleid van klassen van CityGML. De klasse IMGeo-Object is gedefinieerd als een «ADEElement» specialisatie die extra eigenschappen toevoegt aan \_CityObject uit CityGML. Via die klasse erven alle IMGEO objecttypen deze eigenschappen.
+In het model is te zien dat de IMGeo klassen zijn afgeleid van klassen van
+CityGML. De klasse IMGeo-Object is gedefinieerd als een «ADEElement»
+specialisatie die extra eigenschappen toevoegt aan \_CityObject uit CityGML. Via
+die klasse erven alle IMGEO objecttypen deze eigenschappen.
 
-![IMGeo model overzicht deel I: constructies en transport](../afbeeldingen-opmaak/imgeo-fig-overzicht-model-constructies-transport.png)
+IMGeo model overzicht deel I: constructies en transport
 
-_Figuur 5: IMGeo model overzicht deel I: constructies en transport_
+IMGeo model overzicht deel I: constructies en transport
 
-![IMGeo model overzicht deel II: terrein, water, inrichtingselementen en
-gebieden](../afbeeldingen-opmaak/imgeo-fig-overzicht-model-terrein-water-inrichtingselementen-gebieden.png)
+*Figuur 5: IMGeo model overzicht deel I: constructies en transport*
 
-_Figuur 6: IMGeo model overzicht deel II: terrein, water, inrichtingselementen en gebieden_
+IMGeo model overzicht deel II: terrein, water, inrichtingselementen en gebieden
 
-In de rest van dit hoofdstuk wordt de detailmodellering getoond in meerdere figuren. In deze diagrammen zijn de IMGeo klassen uitgewerkt als specialisaties van klassen uit CityGML. Deze OGC-standaard bevat een uitgebreid semantisch model voor 3D topografie. IMGeo is van CityGML afgeleid om zo het informatiemodel 3D klaar te maken. Zoals beschreven in paragraaf 2.6.2 zijn de IMGeo klassen gemodelleerd als subklasse van CityGML van de vorm «ADEElement» of «featureType». De laatsten zijn volwaardige subklassen, de eersten komen conceptueel volledig overeen met de CityGML superklasse en voegen er alleen eigenschappen aan toe.
+IMGeo model overzicht deel II: terrein, water, inrichtingselementen en gebieden
 
-In de diagrammen is gebruik gemaakt van kleur om te laten zien welke klassen bij CityGML, BGT of het optionele IMGeo deel horen:
+*Figuur 6: IMGeo model overzicht deel II: terrein, water, inrichtingselementen
+en gebieden*
+
+In de rest van dit hoofdstuk wordt de detailmodellering getoond in meerdere
+figuren. In deze diagrammen zijn de IMGeo klassen uitgewerkt als specialisaties
+van klassen uit CityGML. Deze OGC-standaard bevat een uitgebreid semantisch
+model voor 3D topografie. IMGeo is van CityGML afgeleid om zo het
+informatiemodel 3D klaar te maken. Zoals beschreven in paragraaf 2.6.2 zijn de
+IMGeo klassen gemodelleerd als subklasse van CityGML van de vorm «ADEElement» of
+«featureType». De laatsten zijn volwaardige subklassen, de eersten komen
+conceptueel volledig overeen met de CityGML superklasse en voegen er alleen
+eigenschappen aan toe.
+
+In de diagrammen is gebruik gemaakt van kleur om te laten zien welke klassen bij
+CityGML, BGT of het optionele IMGeo deel horen:
 
 -   CityGML: geel
+
 -   BGT: beige
+
 -   IMGeo optioneel: oranje
 
-In het informatiemodel zijn BGT en IMGeo samen gemodelleerd. Niet alleen op klasseniveau, maar ook op attribuut-, associatie- en domeinwaardenlijstenniveau is het onderscheid tussen BGT en IMGeo gemaakt. Een BGT klasse kan een attribuut of associatie hebben die bij het optionele IMGeo deel hoort en voor de BGT niet geleverd hoeft te worden. Een domeinwaardenlijst (enumeratie) kan onderdeel van BGT of IMGeo zijn, waarbij een IMGeo waardenlijst waarden bevat die die optioneel zijn en ofwel een optionele nadere detaillering bieden, ofwel objecten aanduiden die voor de BGT niet geleverd hoeven te worden maar in IMGeo wel toegestaan zijn.
+In het informatiemodel zijn BGT en IMGeo samen gemodelleerd. Niet alleen op
+klasseniveau, maar ook op attribuut-, associatie- en domeinwaardenlijstenniveau
+is het onderscheid tussen BGT en IMGeo gemaakt. Een BGT klasse kan een attribuut
+of associatie hebben die bij het optionele IMGeo deel hoort en voor de BGT niet
+geleverd hoeft te worden. Een domeinwaardenlijst (enumeratie) kan onderdeel van
+BGT of IMGeo zijn, waarbij een IMGeo waardenlijst waarden bevat die die
+optioneel zijn en ofwel een optionele nadere detaillering bieden, ofwel objecten
+aanduiden die voor de BGT niet geleverd hoeven te worden maar in IMGeo wel
+toegestaan zijn.
 
-Alle objecten, attributen, associaties en domeinwaardenlijsten die onderdeel zijn van de BGT zijn aangemerkt met een «BGT» stereotype. Alle objecten, attributen, associaties en domeinwaardenlijsten die deze markering niet hebben, horen bij het optionele deel van IMGeo.
+Alle objecten, attributen, associaties en domeinwaardenlijsten die onderdeel
+zijn van de BGT zijn aangemerkt met een «BGT» stereotype. Alle objecten,
+attributen, associaties en domeinwaardenlijsten die deze markering niet hebben,
+horen bij het optionele deel van IMGeo.
 
 De rest van dit hoofdstuk bevat figuren van alle IMGeo UML diagrammen.
 
-![Wegdeel](../afbeeldingen-opmaak/imgeo-fig-uml-wegdeel.png)
+![](media/c1d740573d8cae35f9f8f1d3c8a5782d.png)
 
-_Figuur 7: Wegdeel, ondersteunend wegdeel en weginrichtingselement_
+*Figuur 7: Wegdeel, ondersteunend wegdeel en weginrichtingselement*
 
-![Onbegroeid Terreindeel](../afbeeldingen-opmaak/imgeo-fig-uml-onbegroeidterreindeel.png)
+![](media/d8aee91ae394ff51311b7b6b95a0de0d.png)
 
-_Figuur 8: Onbegroeid terreindeel_
+*Figuur 8: Onbegroeid terreindeel*
 
-![Begroeid terreindeel en vegetatieobject](../afbeeldingen-opmaak/imgeo-fig-uml-begroeidterreindeel-vegetatieobject.png)
+![](media/26c81640ca7ba480347c4cd5e2377978.png)
 
-_Figuur 9: Begroeid terreindeel en vegetatieobject_
+*Figuur 9: Begroeid terreindeel en vegetatieobject*
 
-![Waterdeel en waterinrichtingselement](../afbeeldingen-opmaak/imgeo-fig-uml-waterdeel-waterinrichtingslement.png)
+![](media/2d1d80c9755870021cb5d1935ace6772.png)
 
-_Figuur 10: Waterdeel en waterinrichtingselement_
+*Figuur 10: Waterdeel en waterinrichtingselement*
 
-![Pand en gebouwinstallatie](../afbeeldingen-opmaak/imgeo-fig-uml-pand-gebouwinstallatie.png)
+![](media/5d7e4aea5887c51f00323136288d3aa2.png)
 
-_Figuur 11: Pand en gebouwinstallatie_
+*Figuur 11: Pand en gebouwinstallatie*
 
-![Spoor.png](../afbeeldingen-opmaak/imgeo-fig-uml-spoor.png)
+![](media/7dd860ec2b6e87494b1f482fd53936ad.png)
 
-_Figuur 12: Spoor_
+*Figuur 12: Spoor*
 
-![Overige Constructie](../afbeeldingen-opmaak/imgeo-fig-uml-overige-constructie.png)
+![](media/77e06a76df94f903107b608023d75e74.png)
 
-_Figuur 13: Abstracte superklasse OverigeConstructie met subklassen:
-kunstwerkdeel, overig bouwwerk, scheiding en overige scheiding_
+*Figuur 13: Abstracte superklasse OverigeConstructie met subklassen:
+kunstwerkdeel, overig bouwwerk, scheiding en overige scheiding*
 
-![Overbruggingsdeel](../afbeeldingen-opmaak/imgeo-fig-uml-overbruggingsdeel.png)
+![](media/f889ffe7797208f37056661cfcfe716b.png)
 
 Figuur 14: Overbruggingsdeel
 
-![Tunneldeel](../afbeeldingen-opmaak/imgeo-fig-uml-tunneldeel.png)
+![](media/73d82fdcb48ca4c87bac223255f12b53.png)
 
 Figuur 15: Tunneldeel
 
-![Inrichtingselementen](../afbeeldingen-opmaak/imgeo-fig-uml-inrichtingselementen.png)
+![](media/2af055de7ef374ff11eacd03bbd7daa8.png)
 
 Figuur 16: Inrichtingselementen
 
-![Registratief gebied](../afbeeldingen-opmaak/imgeo-fig-uml-registratief-gebied.png)
+![](media/000f82c083f779a4d873df6c3d8ea9bf.png)
 
-_Figuur 17: Registratief gebied_
+*Figuur 17: Registratief gebied*
 
-![Functioneel gebied](../afbeeldingen-opmaak/imgeo-fig-uml-functioneel-gebied.png)
+![](media/f4fb592e32d2e110e172285eb3859d01.png)
 
-_Figuur 18: Functioneel gebied_
+*Figuur 18: Functioneel gebied*
