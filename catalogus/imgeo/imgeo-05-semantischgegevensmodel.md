@@ -11,15 +11,11 @@ CityGML. De klasse IMGeo-Object is gedefinieerd als een «ADEElement»
 specialisatie die extra eigenschappen toevoegt aan \_CityObject uit CityGML. Via
 die klasse erven alle IMGEO objecttypen deze eigenschappen.
 
-IMGeo model overzicht deel I: constructies en transport
-
-IMGeo model overzicht deel I: constructies en transport
+![](media/d8a570e4639f5958bc2cf079ac6742e6.png)
 
 *Figuur 5: IMGeo model overzicht deel I: constructies en transport*
 
-IMGeo model overzicht deel II: terrein, water, inrichtingselementen en gebieden
-
-IMGeo model overzicht deel II: terrein, water, inrichtingselementen en gebieden
+![](media/2110a6f341abded258202fc4960d7c75.png)
 
 *Figuur 6: IMGeo model overzicht deel II: terrein, water, inrichtingselementen
 en gebieden*
