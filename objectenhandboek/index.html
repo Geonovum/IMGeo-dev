@@ -1,39 +1,1610 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <title>Objectenhandboek</title>
-    <link rel='shortcut icon' type='image/x-icon' href='https://tools.geostandaarden.nl/respec/media/logos/Geonovum.ico' />
-    <link rel="stylesheet" type="text/css" href="media/style.css">    
-	<script class="remove" src="config.js"></script>
-    <script class='remove' src='https://tools.geostandaarden.nl/respec/builds/respec-geonovum.js' async></script>    
-  </head>
-  <body>
-    <section id='abstract'>
-      <p>
-        De Gegevenscatalogus IMGeo beschrijft de afspraken over beheer- en plustopografie, inclusief 3D geo-informatie.
-      </p>
-    </section>
-    <section id='sotd'>
-      <p>
-        This is required.
-      </p>
-    </section>
-   <section data-format="markdown" data-include="00-inleiding.md"></section>
-   <section><h2>Wegdeel</h2>
-	   <section data-format="markdown" data-include="bgt-wegdeel.md"></section>		  
-	   <section data-format="markdown" data-include="imgeo-wegdeel.md"></section>		  
-	</section>
-	<section>
-	   <section data-format="markdown" data-include="bgt-ondersteunendwegdeel.md"></section>		  
-	   <section data-format="markdown" data-include="imgeo-ondersteunendwegdeel.md"></section>		  
-	</section>  
-	<section>
-	   <section data-format="markdown" data-include="bgt-spoor.md"></section>		  
-	   <section data-format="markdown" data-include="imgeo-spoor.md"></section>		  
-	</section> 
-  </body>
+   <head>
+      <meta charset="utf-8">
+      <title>Objectenhandboek</title>
+      <link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/media/logos/Geonovum.ico"/>
+      <link rel="stylesheet" type="text/css" href="media/style.css">
+      <script class="remove" src="config.js"></script>
+      <script class="remove" src="https://tools.geostandaarden.nl/respec/builds/respec-geonovum.js" async></script>
+   </head>
+   <body>
+      <section id="abstract">
+         <p>Het objectenhandboek BGT beschrijft de inwinregels voor de BGT met voorbeelden.</p>
+      </section>
+      <section id="sotd">
+         <p>This is required.</p>
+      </section>
+      <section data-format="markdown" data-include="00-inleiding.md"></section>
+      <section id="Wegdeel">
+         <h1>Wegdeel</h1>
+         <p>Kleinste functioneel onafhankelijk stukje van een NEN 3610 Weg met gelijkblijvende  homogene eigenschappen en relaties en primair bedoeld voor gebruik door weg-  spoor- en vliegverkeer te land.  </p>
+         <h2>Inwinregels BGT</h2>
+         <section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/bgt/bgt-10-objectafbakening-wegdeel.md"></section>
+         <h2>Inwinregels IMGeo</h2>
+         <section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/imgeo/imgeo-09-objectafbakening-wegdeel-weginrichting.md"></section>
+         <h2>FunctieWeg</h2>
+         <h3>OV-baan</h3>
+         <p> Verplicht: ja </p>
+         <p>Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en afgescheiden is van de andere wegdelen niet uitsluitend door markering.</p>
+         <section data-format="markdown" data-include="functieweg_ov_baan.md"></section>
+         <h3>overweg</h3>
+         <p> Verplicht: ja </p>
+         <p>Een gelijkvloerse kruising van een wegdeel en een wegdeel type ov-baan met spoor type trein of sneltram.</p>
+         <section data-format="markdown" data-include="functieweg_overweg.md"></section>
+         <h3>spoorbaan</h3>
+         <p> Verplicht: ja </p>
+         <p>Gebaand gedeelte voor het verkeer over rails.</p>
+         <section data-format="markdown" data-include="functieweg_spoorbaan.md"></section>
+         <h3>baan voor vliegverkeer</h3>
+         <p> Verplicht: ja </p>
+         <p>Wegdeel uitsluitend bedoeld voor vliegverkeer.</p>
+         <section data-format="markdown" data-include="functieweg_baan_voor_vliegverkeer.md"></section>
+         <h3>rijbaan autosnelweg</h3>
+         <p> Verplicht: ja </p>
+         <p>Wegdeel dat onderdeel is van een weg uitsluitend bestemd voor snelverkeer en met gescheiden rijbanen en ongelijkvloerse kruisingen, daartoe aangeduid met het betreffende verkeersbord.</p>
+         <section data-format="markdown" data-include="functieweg_rijbaan_autosnelweg.md"></section>
+         <h4>verbindingsweg</h4>
+         <p> Verplicht: nee </p>
+         <p>Een verbindingsweg is (in principe) een eenrichtingsweg, gelegen binnen een knooppunt of aansluiting, die onderdeel is van de wijze waarop de ongelijkvloersheid is gerealiseerd.</p>
+         <section data-format="markdown" data-include="functiewegplus_verbindingsweg.md"></section>
+         <h4>calamiteitendoorsteek</h4>
+         <p> Verplicht: nee </p>
+         <p>Een (Calamiteiten doorsteek) CADO heeft tot doel het verkeer op een rijbaan via een doorsteek van de weg te kunnen geleiden in geval van een calamiteit of werkzaamheden op de rijbaan. Een tweede doel is het faciliteren van toegang tot rijbanen voor hulpdiensten vanaf andere rijbanen of van een parallelweg.</p>
+         <section data-format="markdown" data-include="functiewegplus_calamiteitendoorsteek.md"></section>
+         <h3>rijbaan autoweg</h3>
+         <p> Verplicht: ja </p>
+         <p>Wegdeel dat onderdeel is van een weg uitsluitend bestemd voor snelverkeer, daartoe aangeduid met het betreffende verkeersbord.</p>
+         <section data-format="markdown" data-include="functieweg_rijbaan_autoweg.md"></section>
+         <h4>verbindingsweg</h4>
+         <p> Verplicht: nee </p>
+         <p>Een verbindingsweg is (in principe) een eenrichtingsweg, gelegen binnen een knooppunt of aansluiting, die onderdeel is van de wijze waarop de ongelijkvloersheid is gerealiseerd.</p>
+         <section data-format="markdown" data-include="functiewegplus_verbindingsweg.md"></section>
+         <h4>calamiteitendoorsteek</h4>
+         <p> Verplicht: nee </p>
+         <p>Een (Calamiteiten doorsteek) CADO heeft tot doel het verkeer op een rijbaan via een doorsteek van de weg te kunnen geleiden in geval van een calamiteit of werkzaamheden op de rijbaan. Een tweede doel is het faciliteren van toegang tot rijbanen voor hulpdiensten vanaf andere rijbanen of van een parallelweg.</p>
+         <section data-format="markdown" data-include="functiewegplus_calamiteitendoorsteek.md"></section>
+         <h3>rijbaan regionale weg</h3>
+         <p> Verplicht: ja </p>
+         <p>Wegdeel dat onderdeel is van een weg die een verbinding vormt tussen bewoonde oorden of tussen wijken binnen een dorp of stad.</p>
+         <section data-format="markdown" data-include="functieweg_rijbaan_regionale_weg.md"></section>
+         <h4>verbindingsweg</h4>
+         <p> Verplicht: nee </p>
+         <p>Een verbindingsweg is (in principe) een eenrichtingsweg, gelegen binnen een knooppunt of aansluiting, die onderdeel is van de wijze waarop de ongelijkvloersheid is gerealiseerd.</p>
+         <section data-format="markdown" data-include="functiewegplus_verbindingsweg.md"></section>
+         <h4>verkeersdrempel</h4>
+         <p> Verplicht: nee </p>
+         <p>Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden.</p>
+         <section data-format="markdown" data-include="functiewegplus_verkeersdrempel.md"></section>
+         <h3>rijbaan lokale weg</h3>
+         <p> Verplicht: ja </p>
+         <p>Wegdeel dat onderdeel is van een weg van lokaal belang.</p>
+         <section data-format="markdown" data-include="functieweg_rijbaan_lokale_weg.md"></section>
+         <h4>verkeersdrempel</h4>
+         <p> Verplicht: nee </p>
+         <p>Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden.</p>
+         <section data-format="markdown" data-include="functiewegplus_verkeersdrempel.md"></section>
+         <h3>fietspad</h3>
+         <p> Verplicht: ja </p>
+         <p>Wegdeel met name bestemd voor fietsers en, indien toegestaan, bromfietsers en dat afgescheiden is van de andere wegdelen niet uitsluitend door markering.</p>
+         <section data-format="markdown" data-include="functieweg_fietspad.md"></section>
+         <h3>voetpad</h3>
+         <p> Verplicht: ja </p>
+         <p>Wegdeel waar voetgangers gebruik van moeten maken.</p>
+         <section data-format="markdown" data-include="functieweg_voetpad.md"></section>
+         <h3>voetpad op trap</h3>
+         <p> Verplicht: ja </p>
+         <p>Voetpad op verkeersinfrastructurele voorziening bestaande uit een constructie van treden, waarop men een hoger of lager gelegen plaats kan bereiken.</p>
+         <section data-format="markdown" data-include="functieweg_voetpad_op_trap.md"></section>
+         <h3>ruiterpad</h3>
+         <p> Verplicht: ja </p>
+         <p>Een wegdeel primair aangelegd voor het gebruik door ruiters.</p>
+         <section data-format="markdown" data-include="functieweg_ruiterpad.md"></section>
+         <h3>parkeervlak</h3>
+         <p> Verplicht: ja </p>
+         <p>Wegdeel bestemd voor het parkeren van motorvoertuigen.</p>
+         <section data-format="markdown" data-include="functieweg_parkeervlak.md"></section>
+         <h3>voetgangersgebied</h3>
+         <p> Verplicht: ja </p>
+         <p>Wegdeel alleen voor het gebruik door voetgangers, waarbij het door voetgangers te gebruiken gebied de volle breedte van de weg beslaat en het gebied een nadrukkelijk openbaar karakter heeft.</p>
+         <section data-format="markdown" data-include="functieweg_voetgangersgebied.md"></section>
+         <h3>inrit</h3>
+         <p> Verplicht: ja </p>
+         <p>Toegangswegen, oprijlanen en dergelijke met verkeersfunctie die leiden naar erven en terreinen.</p>
+         <section data-format="markdown" data-include="functieweg_inrit.md"></section>
+         <h3>woonerf</h3>
+         <p> Verplicht: ja </p>
+         <p>Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie.</p>
+         <section data-format="markdown" data-include="functieweg_woonerf.md"></section>
+         <h2>FunctieWegPlus</h2>
+         <h2>FysiekVoorkomenWeg</h2>
+         <h3>gesloten verharding</h3>
+         <p> Verplicht: ja </p>
+         <p>Verharding bestaande uit een materiaal dat niet verwijderbaar is zonder definitieve destructie, zoals bijvoorbeeld bitumen, cement of kunststof.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenweg_gesloten_verharding.md"></section>
+         <h4>asfalt</h4>
+         <p> Verplicht: nee </p>
+         <p>Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenwegplus_asfalt.md"></section>
+         <h4>cementbeton</h4>
+         <p> Verplicht: nee </p>
+         <p>Gesloten verharding bestaande uit gewapend of ongewapend beton.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenwegplus_cementbeton.md"></section>
+         <h3>open verharding</h3>
+         <p> Verplicht: ja </p>
+         <p>Verharding gevormd door in verband aangebrachte elementen van beperkte afmetingen, zoals bijvoorbeeld klinkers en tegels.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenweg_open_verharding.md"></section>
+         <h4>betonstraatstenen</h4>
+         <p> Verplicht: nee </p>
+         <p>Verharding gemaakt van betonstraatstenen. Straatsteen die als goedkope vervanging van de gebakken klinkers is ontwikkeld.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenwegplus_betonstraatstenen.md"></section>
+         <h4>gebakken klinkers</h4>
+         <p> Verplicht: nee </p>
+         <p>Verharding gemaakt van straatbakstenen. Gebakken klinkers worden voornamelijk geproduceerd uit grondstof van eigen bodem &ndash; de beddingen van onze rivieren.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenwegplus_gebakken_klinkers.md"></section>
+         <h4>tegels</h4>
+         <p> Verplicht: nee </p>
+         <p>Bestrating van tegels, een platte vaak vierkante betonnen steen; veelal gebruikt voor trottoirbestrating.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenwegplus_tegels.md"></section>
+         <h4>sierbestrating</h4>
+         <p> Verplicht: nee </p>
+         <p>Bestrating, uitgevoerd in verschillende bestratingsverbanden en -materialen, of in een sierverband, die vooral wordt toegepast uit esthetische overwegingen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenwegplus_sierbestrating.md"></section>
+         <h4>beton element</h4>
+         <p> Verplicht: nee </p>
+         <p>Geprepareerde elementen van beton zoals, trottoirbanden, opsluitbanden en stelconplaten.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenwegplus_beton_element.md"></section>
+         <h3>half verhard</h3>
+         <p> Verplicht: ja </p>
+         <p>Verharding bestaande uit een door verdichting gebonden materiaal, of onsamenhangend materiaal.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenweg_half_verhard.md"></section>
+         <h4>grasklinkers</h4>
+         <p> Verplicht: nee </p>
+         <p>Elementenverharding bestaande uit elementen van beperkte afmetingen die ten behoeve van de doorgroei van grassen en kruiden, zijn voorzien van openingen of met tussenruimten aangebracht.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenwegplus_grasklinkers.md"></section>
+         <h4>schelpen</h4>
+         <p> Verplicht: nee </p>
+         <p>Ongebonden verharding bestaande uit schelpenmateriaal.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenwegplus_schelpen.md"></section>
+         <h4>puin</h4>
+         <p> Verplicht: nee </p>
+         <p>Puin is afvalmateriaal dat bestaat uit losse brokstukken, grotendeels bestaande uit stenen en beton, van gesloopte of ingestorte gebouwen, viaducten, bruggen en andere objecten.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenwegplus_puin.md"></section>
+         <h4>grind</h4>
+         <p> Verplicht: nee </p>
+         <p>Ongebonden verharding bestaande uit kiezelmateriaal, waarvan de stenen in doorsnede variëren van 1 tot 5 cm.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenwegplus_grind.md"></section>
+         <h4>gravel</h4>
+         <p> Verplicht: nee </p>
+         <p>Gravel is een ondergrond van gemalen baksteen die veel wordt gebruikt bij tennis en ook wel op atletiekbanen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenwegplus_gravel.md"></section>
+         <h3>onverhard</h3>
+         <p> Verplicht: ja </p>
+         <p>Wegdelen waar geen verharding of aaneengesloten vegetatie aanwezig is.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenweg_onverhard.md"></section>
+         <h4>boomschors</h4>
+         <p> Verplicht: nee </p>
+         <p>Onverhard met als deklaag boomschors.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenwegplus_boomschors.md"></section>
+         <h4>zand</h4>
+         <p> Verplicht: nee </p>
+         <p>Onverhard met als deklaag zand.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenwegplus_zand.md"></section>
+         <h2>FysiekVoorkomenWegPlus</h2>
+      </section>
+      <section id="Wegdeel">
+         <h1>OndersteunendWegdeel</h1>
+         <p>Een deel van de weg dat niet primair bedoeld is voor gebruik door het verkeer. </p>
+         <h2>Inwinregels BGT</h2>
+         <section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/bgt/bgt-10-objectafbakening-ondersteunendwegdeel.md"></section>
+         <h2>Inwinregels IMGeo</h2>
+         <section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/imgeo/imgeo-9-objectafbakening-ondersteunendwegdeel.md"></section>
+         <h2>FunctieOndersteunendWegdeel</h2>
+         <h3>verkeerseiland</h3>
+         <p> Verplicht: ja </p>
+         <p>Ondersteunend wegdeel van beperkte omvang, uitgevoerd als verhoging of wegmarkering, dat wordt omsloten door wegdelen en ten doel heeft verkeersstromen te scheiden.</p>
+         <section data-format="markdown" data-include="functieondersteunendwegdeel_verkeerseiland.md"></section>
+         <h3>berm</h3>
+         <p> Verplicht: ja </p>
+         <p>Een strook grond langs een weg of spoorweg.</p>
+         <section data-format="markdown" data-include="functieondersteunendwegdeel_berm.md"></section>
+         <h2>FunctieOndersteunendWegdeelPlus</h2>
+         <h2>FysiekVoorkomenOndersteunendWegdeel</h2>
+         <h3>gesloten verharding</h3>
+         <p> Verplicht: ja </p>
+         <p>Verharding bestaande uit een materiaal dat niet verwijderbaar is zonder definitieve destructie, zoals bijvoorbeeld bitumen, cement of kunststof.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeel_gesloten_verharding.md"></section>
+         <h4>asfalt</h4>
+         <p> Verplicht: nee </p>
+         <p>Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_asfalt.md"></section>
+         <h4>cementbeton</h4>
+         <p> Verplicht: nee </p>
+         <p>Gesloten verharding bestaande uit gewapend of ongewapend beton.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_cementbeton.md"></section>
+         <h3>open verharding</h3>
+         <p> Verplicht: ja </p>
+         <p>Verharding gevormd door in verband aangebrachte elementen van beperkte afmetingen, zoals bijvoorbeeld klinkers en tegels.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeel_open_verharding.md"></section>
+         <h4>betonstraatstenen</h4>
+         <p> Verplicht: nee </p>
+         <p>Verharding gemaakt van betonstraatstenen. Straatsteen die als goedkope vervanging van de gebakken klinkers is ontwikkeld.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_betonstraatstenen.md"></section>
+         <h4>gebakken klinkers</h4>
+         <p> Verplicht: nee </p>
+         <p>Verharding gemaakt van straatbakstenen. Gebakken klinkers worden voornamelijk geproduceerd uit grondstof van eigen bodem; de beddingen van onze rivieren.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_gebakken_klinkers.md"></section>
+         <h4>tegels</h4>
+         <p> Verplicht: nee </p>
+         <p>Bestrating van tegels, een platte vaak vierkante betonnen steen; veelal gebruikt voor trottoirbestrating.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_tegels.md"></section>
+         <h4>sierbestrating</h4>
+         <p> Verplicht: nee </p>
+         <p>Bestrating, uitgevoerd in verschillende bestratingsverbanden en -materialen, of in een sierverband, die vooral wordt toegepast uit esthetische overwegingen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_sierbestrating.md"></section>
+         <h4>beton element</h4>
+         <p> Verplicht: nee </p>
+         <p>Geprepareerde elementen van beton zoals, trottoirbanden, opsluitbanden en stelconplaten.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_beton_element.md"></section>
+         <h3>half verhard</h3>
+         <p> Verplicht: ja </p>
+         <p>Verharding bestaande uit een door verdichting gebonden materiaal, of onsamenhangend materiaal.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeel_half_verhard.md"></section>
+         <h4>grasklinkers</h4>
+         <p> Verplicht: nee </p>
+         <p>Elementenverharding bestaande uit elementen van beperkte afmetingen die ten behoeve van de doorgroei van grassen en kruiden, zijn voorzien van openingen of met tussenruimten aangebracht.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_grasklinkers.md"></section>
+         <h4>schelpen</h4>
+         <p> Verplicht: nee </p>
+         <p>Ongebonden verharding bestaande uit schelpenmateriaal.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_schelpen.md"></section>
+         <h4>puin</h4>
+         <p> Verplicht: nee </p>
+         <p>Puin is afvalmateriaal dat bestaat uit losse brokstukken, grotendeels bestaande uit stenen en beton, van gesloopte of ingestorte gebouwen, viaducten, bruggen en andere objecten.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_puin.md"></section>
+         <h4>grind</h4>
+         <p> Verplicht: nee </p>
+         <p>Ongebonden verharding bestaande uit kiezelmateriaal, waarvan de stenen in doorsnede variëren van 1 tot 5 cm.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_grind.md"></section>
+         <h4>gravel</h4>
+         <p> Verplicht: nee </p>
+         <p>Gravel is een ondergrond van gemalen baksteen die veel wordt gebruikt bij tennis en ook wel op atletiekbanen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_gravel.md"></section>
+         <h3>onverhard</h3>
+         <p> Verplicht: ja </p>
+         <p>Wegdelen waar geen verharding of aaneengesloten vegetatie aanwezig is.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeel_onverhard.md"></section>
+         <h4>boomschors</h4>
+         <p> Verplicht: nee </p>
+         <p>Onverhard met als deklaag boomschors.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_boomschors.md"></section>
+         <h4>zand</h4>
+         <p> Verplicht: nee </p>
+         <p>Onverhard met als deklaag zand.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_zand.md"></section>
+         <h3>groenvoorziening</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel met aangelegde beplanting, meestal gras, heesters of struiken.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeel_groenvoorziening.md"></section>
+         <h4>bosplantsoen</h4>
+         <p> Verplicht: nee </p>
+         <p>Opgaande beplanting van houtachtige gewassen die struikvormend en/of boomvormend zijn. De soorten zijn als bosplantsoen opgekweekt en aangeplant.De beplanting kan open of gesloten zijn en bestaat vaak uit inheemse soorten. Onderscheidt zich van heesters omdat de sierkenmerken niet voorop staan.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_bosplantsoen.md"></section>
+         <h4>gras- en kruidachtigen</h4>
+         <p> Verplicht: nee </p>
+         <p>(Grond met) een laagblijvende, aaneengesloten kruidachtige vegetatie.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_gras_en_kruidachtigen.md"></section>
+         <h4>planten</h4>
+         <p> Verplicht: nee </p>
+         <p>Beheerde niet nader gespecificeerde beplanting van groenvak in de openbare ruimte.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_planten.md"></section>
+         <h4>struikrozen</h4>
+         <p> Verplicht: nee </p>
+         <p>Beheerde beplanting van groenvak in  de openbare ruimte, zijnde in struikvorm groeiende rozen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_struikrozen.md"></section>
+         <h4>heesters</h4>
+         <p> Verplicht: nee </p>
+         <p>Beplanting van houtige gewassen die struikvormend zijn en die al dan niet een gesloten geheel vormen. Het accent ligt op de sierwaarde, de beplanting kan uit één soort of uit meerdere soorten bestaan. Onder de heesters kan een houtachtige of kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met struikachtige gewassen is meer dan 50% van de totale oppervlakte van het vak.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_heesters.md"></section>
+         <h4>bodembedekkers</h4>
+         <p> Verplicht: nee </p>
+         <p>Beheerde beplanting van groenvak in  de openbare ruimte, zijnde bodembedekkers.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenondersteunendwegdeelplus_bodembedekkers.md"></section>
+         <h2>FysiekVoorkomenOndersteunendWegdeelPlus</h2>
+      </section>
+      <section id="Wegdeel">
+         <h1>Spoor</h1>
+         <p>De as van het spoor  dat wil zeggen het midden van twee stalen staven op een onderling vaste afstand  waarover trein  tram  of sneltram rijdt. </p>
+         <h2>Inwinregels BGT</h2>
+         <section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/bgt/bgt-10-objectafbakening-spoor.md"></section>
+         <h2>FunctieSpoor</h2>
+         <h3>trein</h3>
+         <p> Verplicht: ja </p>
+         <p>Spoor voor een railvoertuig voor de langere afstand dat sneller dan 45 km per uur kan, bestaande uit een enkele of een reeks van locomotieven, treinstellen en/of wagons.</p>
+         <section data-format="markdown" data-include="functiespoor_trein.md"></section>
+         <h3>sneltram</h3>
+         <p> Verplicht: ja </p>
+         <p>Spoor voor een boven- danwel ondergrondse interlokale tram met een vrije baan.</p>
+         <section data-format="markdown" data-include="functiespoor_sneltram.md"></section>
+         <h3>tram</h3>
+         <p> Verplicht: ja </p>
+         <p>Spoor voor een railvoertuig voor personenvervoer voor de korte afstand.</p>
+         <section data-format="markdown" data-include="functiespoor_tram.md"></section>
+         <h3>niet-bgt</h3>
+         <p> Verplicht: ja </p>
+         <p>Het object is geen BGT object.</p>
+         <section data-format="markdown" data-include="functiespoor_niet_bgt.md"></section>
+         <h2>FunctieSpoorPlus</h2>
+         <h3>(haven)kraan</h3>
+         <p> Verplicht: nee </p>
+         <p>Spoorbaan waarop een hefkraan (bij een haven) zich voortbeweegt.</p>
+         <section data-format="markdown" data-include="functiespoorplus_(haven)kraan.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>OnbegroeidTerreindeel</h1>
+         <p>Kleinste functioneel onafhankelijk stukje van een terrein  dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden  zonder aaneengesloten vegetatie. </p>
+         <h2>FysiekVoorkomenOnbegroeidTerrein</h2>
+         <h3>erf</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel dat bij een pand of overig bouwwerk hoort, dat niet nader wordt ingewonnen en dat bestaat uit een mengvorm van begroeiing, verharding, en/of water.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterrein_erf.md"></section>
+         <h3>gesloten verharding</h3>
+         <p> Verplicht: ja </p>
+         <p>Verharding bestaande uit een materiaal dat niet verwijderbaar is zonder definitieve destructie, zoals bijvoorbeeld bitumen, cement of kunststof.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterrein_gesloten_verharding.md"></section>
+         <h4>asfalt</h4>
+         <p> Verplicht: nee </p>
+         <p>Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_asfalt.md"></section>
+         <h4>cementbeton</h4>
+         <p> Verplicht: nee </p>
+         <p>Gesloten verharding bestaande uit gewapend of ongewapend beton.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_cementbeton.md"></section>
+         <h4>kunststof</h4>
+         <p> Verplicht: nee </p>
+         <p>Synthetisch vervaardigd materiaal dat als verharding dient, zoals kunstgras of kunststof toplagen op atletiekbanen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_kunststof.md"></section>
+         <h3>open verharding</h3>
+         <p> Verplicht: ja </p>
+         <p>Verharding gevormd door in verband aangebrachte elementen van beperkte afmetingen, zoals bijvoorbeeld klinkers en tegels.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterrein_open_verharding.md"></section>
+         <h4>betonstraatstenen</h4>
+         <p> Verplicht: nee </p>
+         <p>Verharding gemaakt van betonstraatstenen. Straatsteen die als goedkope vervanging van de gebakken klinkers is ontwikkeld.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_betonstraatstenen.md"></section>
+         <h4>gebakken klinkers</h4>
+         <p> Verplicht: nee </p>
+         <p>Verharding gemaakt van straatbakstenen. Gebakken klinkers worden voornamelijk geproduceerd uit grondstof van eigen bodem &ndash; de beddingen van onze rivieren.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_gebakken_klinkers.md"></section>
+         <h4>tegels</h4>
+         <p> Verplicht: nee </p>
+         <p>Bestrating van tegels, een platte vaak vierkante betonnen steen; veelal gebruikt voor trottoirbestrating.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_tegels.md"></section>
+         <h4>sierbestrating</h4>
+         <p> Verplicht: nee </p>
+         <p>Bestrating, uitgevoerd in verschillende bestratingsverbanden en -materialen, of in een sierverband, die vooral wordt toegepast uit esthetische overwegingen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_sierbestrating.md"></section>
+         <h4>beton element</h4>
+         <p> Verplicht: nee </p>
+         <p>Geprepareerde elementen van beton zoals, trottoirbanden, opsluitbanden en stelconplaten.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_beton_element.md"></section>
+         <h3>half verhard</h3>
+         <p> Verplicht: ja </p>
+         <p>Verharding bestaande uit een door verdichting gebonden materiaal, of onsamenhangend materiaal.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterrein_half_verhard.md"></section>
+         <h4>grasklinkers</h4>
+         <p> Verplicht: nee </p>
+         <p>Elementenverharding bestaande uit elementen van beperkte afmetingen die ten behoeve van de doorgroei van grassen en kruiden, zijn voorzien van openingen of met tussenruimten aangebracht.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_grasklinkers.md"></section>
+         <h4>schelpen</h4>
+         <p> Verplicht: nee </p>
+         <p>Ongebonden verharding bestaande uit schelpenmateriaal</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_schelpen.md"></section>
+         <h4>puin</h4>
+         <p> Verplicht: nee </p>
+         <p>Puin is afvalmateriaal dat bestaat uit losse brokstukken, grotendeels bestaande uit stenen en beton, van gesloopte of ingestorte gebouwen, viaducten, bruggen en andere objecten.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_puin.md"></section>
+         <h4>grind</h4>
+         <p> Verplicht: nee </p>
+         <p>Ongebonden verharding bestaande uit kiezelmateriaal, waarvan de stenen in doorsnede variëren van 1 tot 5 cm.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_grind.md"></section>
+         <h4>gravel</h4>
+         <p> Verplicht: nee </p>
+         <p>Gravel is een ondergrond van gemalen baksteen die veel wordt gebruikt bij tennis en ook wel op atletiekbanen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_gravel.md"></section>
+         <h3>onverhard</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel waar geen verharding of aaneengesloten vegetatie aanwezig is, niet zijnde zand. Braakliggend valt hier wel onder.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterrein_onverhard.md"></section>
+         <h4>boomschors</h4>
+         <p> Verplicht: nee </p>
+         <p>Onverhard met als deklaag boomschors.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_boomschors.md"></section>
+         <h4>zand</h4>
+         <p> Verplicht: nee </p>
+         <p>Onverhard met als deklaag zand.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_zand.md"></section>
+         <h3>zand</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel dat grotendeels bedekt is met zand.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterrein_zand.md"></section>
+         <h4>strand en strandwal</h4>
+         <p> Verplicht: nee </p>
+         <p>Onbegroeide zandige kustvlakte op de overgang van zee met land. Staat onder invloed van het zeewater en de wind.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_strand_en_strandwal.md"></section>
+         <h4>zandverstuiving</h4>
+         <p> Verplicht: nee </p>
+         <p>Een gebied met zandige bodem waarvan delen van het gebied zonder vegetatie zijn, door invloed van wind.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenonbegroeidterreinplus_zandverstuiving.md"></section>
+         <h2>FysiekVoorkomenOnbegroeidTerreinPlus</h2>
+      </section>
+      <section id="Wegdeel">
+         <h1>BegroeidTerreindeel</h1>
+         <p>Kleinste functioneel onafhankelijk stukje van een terrein dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden  met aaneengesloten vegetatie. </p>
+         <h2>FysiekVoorkomenBegroeidTerrein</h2>
+         <h3>loofbos</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterrein_loofbos.md"></section>
+         <h4>griend en hakhout</h4>
+         <p> Verplicht: nee </p>
+         <p>Terreindeel met opgaande begroeiing van loofbomen, in een dicht groeiverband, en die periodiek wordt afgezet.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_griend_en_hakhout.md"></section>
+         <h3>gemengd bos</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel begroeid met een dusdanige aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterrein_gemengd_bos.md"></section>
+         <h3>naaldbos</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterrein_naaldbos.md"></section>
+         <h3>heide</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel overwegend begroeid met heide en heideachtige vegetaties.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterrein_heide.md"></section>
+         <h3>struiken</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel bedekt met niet-gecultiveerde (natuurlijke), lage, houtachtige, overblijvende planten gekenmerkt door verschillende vertakkingen dicht bij de wortel en afwezigheid van opvallende stammen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterrein_struiken.md"></section>
+         <h3>houtwal</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel zijnde een afscheiding met beperkte breedte en beplant met bomen of struiken.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterrein_houtwal.md"></section>
+         <h3>duin</h3>
+         <p> Verplicht: ja </p>
+         <p>Verhoging of heuvel van zand of fijne losse aarde  en verpulverd gesteente opgeworpen door wind of door stromend water.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterrein_duin.md"></section>
+         <h4>open duinvegetatie</h4>
+         <p> Verplicht: nee </p>
+         <p>Duin met een overwegend grasachtige vegetatie.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_open_duinvegetatie.md"></section>
+         <h4>gesloten duinvegetatie</h4>
+         <p> Verplicht: nee </p>
+         <p>Duin met een overwegend opgaande vegetatie van struiken en of bomen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_gesloten_duinvegetatie.md"></section>
+         <h3>grasland overig</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel met een vegetatie bestaande uit grassen en of grasachtigen, en met de in graslanden voorkomende  kruiden, dat niet in gebruik is voor agrarische doeleinden.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterrein_grasland_overig.md"></section>
+         <h3>moeras</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel met moerasvegetatie in stilstaand water van geringe diepte zonder merkbare toe- of afvloeiing.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterrein_moeras.md"></section>
+         <h3>rietland</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel overwegend begroeid met rietvegetatie.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterrein_rietland.md"></section>
+         <h3>kwelder</h3>
+         <p> Verplicht: ja </p>
+         <p>Buitendijks gelegen aangeslibd land van een wad, dat bij gewone vloed niet meer onder loopt.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterrein_kwelder.md"></section>
+         <h3>fruitteelt</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel begroeid met fruitbomen in de vorm van hoogstam en laagstamboomgaard, druiven of kleinfruit.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterrein_fruitteelt.md"></section>
+         <h4>laagstam boomgaarden</h4>
+         <p> Verplicht: nee </p>
+         <p>Terreindeel begroeid met laagstamfruitbomen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_laagstam_boomgaarden.md"></section>
+         <h4>hoogstam boomgaarden</h4>
+         <p> Verplicht: nee </p>
+         <p>Terreindeel begroeid met hoogstamfruitbomen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_hoogstam_boomgaarden.md"></section>
+         <h4>wijngaarden</h4>
+         <p> Verplicht: nee </p>
+         <p>Terreindeel begroeid met druivenstokken voor wijnbouw.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_wijngaarden.md"></section>
+         <h4>klein fruit</h4>
+         <p> Verplicht: nee </p>
+         <p>Terreindeel begroeid met heesters voor zachtfruit zoals bessen of frambozen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_klein_fruit.md"></section>
+         <h3>boomteelt</h3>
+         <p> Verplicht: ja </p>
+         <p>Grond in gebruik voor het kweken van jonge siergewassen, bomen enz. ten behoeve van een later gebruik elders.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterrein_boomteelt.md"></section>
+         <h3>bouwland</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterrein_bouwland.md"></section>
+         <h4>akkerbouw</h4>
+         <p> Verplicht: nee </p>
+         <p>Terreindeel in gebruik als akker, voor de teelt van akkerbouwgewassen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_akkerbouw.md"></section>
+         <h4>braakliggend</h4>
+         <p> Verplicht: nee </p>
+         <p>Terrein in gebruik als akker, maar tijdelijk niet beteeld met een landbouwgewas.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_braakliggend.md"></section>
+         <h4>vollegrondsteelt</h4>
+         <p> Verplicht: nee </p>
+         <p>Terreindeel in gebruik als akker, voor de teelt van tuinbouwgewassen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_vollegrondsteelt.md"></section>
+         <h4>bollenteelt</h4>
+         <p> Verplicht: nee </p>
+         <p>Terreindeel in gebruik als akker, voor de teelt van bloembollen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_bollenteelt.md"></section>
+         <h3>grasland agrarisch</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel met een vegetatie bestaande uit grassen en of grasachtigen, en met de in graslanden voorkomende  kruiden, zijnde cultuurgrasland dat in gebruik is voor de veeteelt, bijvoorbeeld als weiland of als hooiland.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterrein_grasland_agrarisch.md"></section>
+         <h3>groenvoorziening</h3>
+         <p> Verplicht: ja </p>
+         <p>Terreindeel met aangelegde beplanting, meestal gras, heesters of struiken.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterrein_groenvoorziening.md"></section>
+         <h4>bosplantsoen</h4>
+         <p> Verplicht: nee </p>
+         <p>Opgaande beplanting van houtachtige gewassen die struikvormend en/of boomvormend zijn. De soorten zijn als bosplantsoen opgekweekt en aangeplant.De beplanting kan open of gesloten zijn en bestaat vaak uit inheemse soorten. Onderscheidt zich van heesters omdat de sierkenmerken niet voorop staan.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_bosplantsoen.md"></section>
+         <h4>gras- en kruidachtigen</h4>
+         <p> Verplicht: nee </p>
+         <p>(Grond met) een laagblijvende, aaneengesloten kruidachtige vegetatie.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_gras_en_kruidachtigen.md"></section>
+         <h4>planten</h4>
+         <p> Verplicht: nee </p>
+         <p>Beheerde niet nader gespecificeerde beplanting van groenvak in de openbare ruimte.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_planten.md"></section>
+         <h4>struikrozen</h4>
+         <p> Verplicht: nee </p>
+         <p>Beheerde beplanting van groenvak in  de openbare ruimte, zijnde in struikvorm groeiende rozen.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_struikrozen.md"></section>
+         <h4>heesters</h4>
+         <p> Verplicht: nee </p>
+         <p>Beplanting van houtige gewassen die struikvormend zijn en die al dan niet een gesloten geheel vormen. Het accent ligt op de sierwaarde, de beplanting kan uit één soort of uit meerdere soorten bestaan. Onder de heesters kan een houtachtige of kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met struikachtige gewassen is meer dan 50% van de totale oppervlakte van het vak.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_heesters.md"></section>
+         <h4>bodembedekkers</h4>
+         <p> Verplicht: nee </p>
+         <p>Beheerde beplanting van groenvak in  de openbare ruimte, zijnde bodembedekkers.</p>
+         <section data-format="markdown" data-include="fysiekvoorkomenbegroeidterreinplus_bodembedekkers.md"></section>
+         <h2>FysiekVoorkomenBegroeidTerreinPlus</h2>
+      </section>
+      <section id="Wegdeel">
+         <h1>Waterdeel</h1>
+         <p>Kleinste functioneel onafhankelijk stukje water met gelijkblijvende  homogene eigenschappen en relaties dat er binnen het objecttype Water van NEN 3610 wordt onderscheiden en dat permanent met water bedekt is. </p>
+         <h2>Inwinregels BGT</h2>
+         <section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/bgt/bgt-10-objectafbakening-waterdeel-ondersteunendwaterdeel.md"></section>
+         <h2>Inwinregels IMGeo</h2>
+         <section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/imgeo/imgeo-09-objectafbakening-waterdeel-waterinrichting.md"></section>
+         <h2>TypeWater</h2>
+         <h3>zee</h3>
+         <p> Verplicht: ja </p>
+         <p>Uitgestrekt oppervlak zout water.</p>
+         <section data-format="markdown" data-include="typewater_zee.md"></section>
+         <h3>waterloop</h3>
+         <p> Verplicht: ja </p>
+         <p>Een voor de waterbeheersing bestemde geul die meestal permanent water bevat (zoals rivier, kanaal, beek, sloot, gracht).</p>
+         <section data-format="markdown" data-include="typewater_waterloop.md"></section>
+         <h4>rivier</h4>
+         <p> Verplicht: nee </p>
+         <p>Het water, dat ten atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een waterloop en stroomt naar laaggelegen streken. Zulk een natuurlijke afvloeiing heet een rivier.</p>
+         <section data-format="markdown" data-include="typewaterplus_rivier.md"></section>
+         <h4>sloot</h4>
+         <p> Verplicht: nee </p>
+         <p>Algemene benaming voor een waterloop van beperkte breedte die stilstaand of slechts langzaam stromend water bevat.</p>
+         <section data-format="markdown" data-include="typewaterplus_sloot.md"></section>
+         <h4>kanaal</h4>
+         <p> Verplicht: nee </p>
+         <p>Een gegraven grote waterloop die dient voor scheepvaart en/of watertransport.</p>
+         <section data-format="markdown" data-include="typewaterplus_kanaal.md"></section>
+         <h4>beek</h4>
+         <p> Verplicht: nee </p>
+         <p>Een natuurlijke smalle waterloop zonder getij.</p>
+         <section data-format="markdown" data-include="typewaterplus_beek.md"></section>
+         <h4>gracht</h4>
+         <p> Verplicht: nee </p>
+         <p>Een gracht is een gegraven greppel met water, die hoofdzakelijk voorkomt in oude steden.</p>
+         <section data-format="markdown" data-include="typewaterplus_gracht.md"></section>
+         <h4>bron</h4>
+         <p> Verplicht: nee </p>
+         <p>Grondwater dat op natuurlijke wijze uit het aardoppervlak tevoorschijn komt.</p>
+         <section data-format="markdown" data-include="typewaterplus_bron.md"></section>
+         <h3>watervlakte</h3>
+         <p> Verplicht: ja </p>
+         <p>Alle oppervlakken die vrij permanent met zoet water zijn bedekt. (zoals meer, plas, ven, vijver).</p>
+         <section data-format="markdown" data-include="typewater_watervlakte.md"></section>
+         <h4>haven</h4>
+         <p> Verplicht: nee </p>
+         <p>Een tot ligplaats van schepen geschikt, natuurlijk of gegraven waterbekken aan zee of aan de oever van een rivier of binnenwater, dat beschutting biedt tegen wind en golven.</p>
+         <section data-format="markdown" data-include="typewaterplus_haven.md"></section>
+         <h4>meer, plas, ven, vijver</h4>
+         <p> Verplicht: nee </p>
+         <p>Een massa stilstaand landoppervlaktewater.</p>
+         <section data-format="markdown" data-include="typewaterplus_meer_plas_ven_vijver.md"></section>
+         <h3>greppel, droge sloot</h3>
+         <p> Verplicht: ja </p>
+         <p>Een ten behoeve van de waterbeheersing gegraven geul die al dan niet met water bedekt is.</p>
+         <section data-format="markdown" data-include="typewater_greppel_droge_sloot.md"></section>
+         <h2>TypeWaterPlus</h2>
+      </section>
+      <section id="Wegdeel">
+         <h1>OndersteunendWaterdeel</h1>
+         <p>Object dat in het kader van de waterhuishouding periodiek gedeeltelijk of geheel met water is bedekt. </p>
+         <h2>TypeOndersteunendWaterdeel</h2>
+         <h3>oever, slootkant</h3>
+         <p> Verplicht: ja </p>
+         <p>De strook land die in direct contact staat met water, inclusief het gebied tussen de hoogwaterlijn en laagwaterlijn.</p>
+         <section data-format="markdown" data-include="typeondersteunendwaterdeel_oever_slootkant.md"></section>
+         <h3>slik</h3>
+         <p> Verplicht: ja </p>
+         <p>Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt.</p>
+         <section data-format="markdown" data-include="typeondersteunendwaterdeel_slik.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>Pand</h1>
+         <p>Een PAND is de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is. </p>
+         <h2>Inwinregels BGT</h2>
+         <section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/bgt/bgt-10-objectafbakening-pand-panddelen.md"></section>
+      </section>
+      <section id="Wegdeel">
+<h1>OverigBouwwerk</h1>
+<br />
+<b>Notice</b>:  Undefined index: skos:definition in <b>C:\xampp\htdocs\objectenhandboek\index.php</b> on line <b>128</b><br />
+<p></p>
+<h2>Inwinregels BGT</h2>
+<section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/bgt/bgt-10-objectafbakening-overigbouwwerk.md"></section>
+<h2>Inwinregels IMGeo</h2>
+<section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/imgeo/imgeo-09-objectafbakening-overigbouwwerk.md"></section>
+<h2>TypeOverigBouwwerk</h2>
+<h3>overkapping</h3><p> Verplicht: ja </p>
+<p>Een afzonderlijk staande overdekking rustend op kolommen.</p>
+<section data-format="markdown" data-include="typeoverigbouwwerk_overkapping.md"></section>
+<h3>open loods</h3><p> Verplicht: ja </p>
+<p>Niet verplaatsbaar licht gebouw met een open gevel, bestemd als berg- of werkplaats of als tijdelijk onderdak voor andere doeleinden.</p>
+<section data-format="markdown" data-include="typeoverigbouwwerk_open_loods.md"></section>
+<h3>opslagtank</h3><p> Verplicht: ja </p>
+<p>Opslagfaciliteit voor vloeistoffen, gassen of energie.</p>
+<section data-format="markdown" data-include="typeoverigbouwwerk_opslagtank.md"></section>
+<h3>bezinkbak</h3><p> Verplicht: ja </p>
+<p>Een gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening.</p>
+<section data-format="markdown" data-include="typeoverigbouwwerk_bezinkbak.md"></section>
+<h3>windturbine</h3><p> Verplicht: ja </p>
+<p>Turbine waarin winddruk omgezet wordt in mechanische energie.</p>
+<section data-format="markdown" data-include="typeoverigbouwwerk_windturbine.md"></section>
+<h3>lage trafo</h3><p> Verplicht: ja </p>
+<p>Bouwwerk waarin transformator(en) zijn geplaatst voor elektriciteitsvoorziening.</p>
+<section data-format="markdown" data-include="typeoverigbouwwerk_lage_trafo.md"></section>
+<h3>bassin</h3><p> Verplicht: ja </p>
+<p>Waterbak, zoals een zwembad of een dok.</p>
+<section data-format="markdown" data-include="typeoverigbouwwerk_bassin.md"></section>
+<h3>niet-bgt</h3><p> Verplicht: ja </p>
+<p>Het object is geen BGT object.</p>
+<section data-format="markdown" data-include="typeoverigbouwwerk_niet_bgt.md"></section>
+<h2>TypeOverigBouwwerkPlus</h2>
+<h3>schuur</h3><p> Verplicht: nee </p>
+<p>Een vrijstaand, al of niet prefab, niet-vergunningsplichtig bouwwerk dat gebruikt wordt om goederen in op te slaan en ook als werkruimte kan dienen.</p>
+<section data-format="markdown" data-include="typeoverigbouwwerkplus_schuur.md"></section>
+<h3>bunker</h3><p> Verplicht: nee </p>
+<p>Een bunker is een van oorsprong militair verdedigingswerk dat een zekere mate van bescherming biedt tegen beschietingen en bombardementen.</p>
+<section data-format="markdown" data-include="typeoverigbouwwerkplus_bunker.md"></section>
+<h3>voedersilo</h3><p> Verplicht: nee </p>
+<p>Opslagfaciliteit voor veevoer, bestaande uit een verticale container met een opening aan de onderkant.</p>
+<section data-format="markdown" data-include="typeoverigbouwwerkplus_voedersilo.md"></section>
+</section>
+      <section id="Wegdeel">
+         <h1>Overbruggingsdeel</h1>
+         <p>Onderdeel van een beweegbare of vaste verbinding tussen twee punten  die door water  een weg of anderszins gescheiden zijn  dat essentieel is voor de constructie .  </p>
+         <h2>Inwinregels BGT</h2>
+         <section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/bgt/bgt-10-objectafbakening-overbruggingsdeel.md"></section>
+         <h2>Inwinregels IMGeo</h2>
+         <section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/imgeo/imgeo-09-objectafbakening-overbruggingsdeel.md"></section>
+         <h2>TypeOverbrugging</h2>
+         <h3>brug</h3>
+         <p> Verplicht: nee </p>
+         <p>Kunstwerk over een watervlakte of waterloop, bestaande uit een brugdek gesteund door pijlers en/of landhoofden.</p>
+         <section data-format="markdown" data-include="typeoverbrugging_brug.md"></section>
+         <h3>aquaduct</h3>
+         <p> Verplicht: nee </p>
+         <p>Kunstwerk waarmee een watergang door een bakvormige constructie over een weg, een spoorweg, een andere watergang, een leiding of een terrein wordt geleid.</p>
+         <section data-format="markdown" data-include="typeoverbrugging_aquaduct.md"></section>
+         <h3>viaduct</h3>
+         <p> Verplicht: nee </p>
+         <p>Kunstwerk over een weg, spoorweg of terreinverdieping, bestaande uit een dek gesteund door pijlers en/of landhoofden.</p>
+         <section data-format="markdown" data-include="typeoverbrugging_viaduct.md"></section>
+         <h3>ecoduct</h3>
+         <p> Verplicht: nee </p>
+         <p>Wildwissel in de vorm van een viaduct voor passages van dieren over een weg of spoorweg.</p>
+         <section data-format="markdown" data-include="typeoverbrugging_ecoduct.md"></section>
+         <h3>fly-over</h3>
+         <p> Verplicht: nee </p>
+         <p>Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid.</p>
+         <section data-format="markdown" data-include="typeoverbrugging_fly_over.md"></section>
+         <h2>TypeOverbruggingsdeel</h2>
+         <h3>dek</h3>
+         <p> Verplicht: nee </p>
+         <p>Direct door het verkeer belaste deel van de bovenbouw van de brug.</p>
+         <section data-format="markdown" data-include="typeoverbruggingsdeel_dek.md"></section>
+         <h3>landhoofd</h3>
+         <p> Verplicht: nee </p>
+         <p>Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk.</p>
+         <section data-format="markdown" data-include="typeoverbruggingsdeel_landhoofd.md"></section>
+         <h3>pijler</h3>
+         <p> Verplicht: nee </p>
+         <p>Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken.</p>
+         <section data-format="markdown" data-include="typeoverbruggingsdeel_pijler.md"></section>
+         <h3>sloof</h3>
+         <p> Verplicht: nee </p>
+         <p>Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering.</p>
+         <section data-format="markdown" data-include="typeoverbruggingsdeel_sloof.md"></section>
+         <h3>pyloon</h3>
+         <p> Verplicht: nee </p>
+         <p>Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels).</p>
+         <section data-format="markdown" data-include="typeoverbruggingsdeel_pyloon.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>Tunneldeel</h1>
+         <p>Onderdeel van een kunstmatig aangelegde  kokervormige onderdoorgang dat essentieel is voor de constructie. </p>
+         <h2>Inwinregels BGT</h2>
+         <section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/bgt/bgt-10-objectafbakening-tunneldeel.md"></section>
+         <h2>Inwinregels IMGeo</h2>
+         <section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/imgeo/imgeo-09-objectafbakening-functioneelgebied.md"></section>
+      </section>
+      <section id="Wegdeel">
+<h1>Kunstwerkdeel</h1>
+<br />
+<b>Notice</b>:  Undefined index: skos:definition in <b>C:\xampp\htdocs\objectenhandboek\index.php</b> on line <b>128</b><br />
+<p></p>
+<h2>Inwinregels BGT</h2>
+<section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/bgt/bgt-10-objectafbakening-kunstwerkdeel.md"></section>
+<h2>Inwinregels IMGeo</h2>
+<section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/imgeo/imgeo-09-objectafbakening-kunstwerkdeel.md"></section>
+<h2>TypeKunstwerk</h2>
+<h3>hoogspanningsmast</h3><p> Verplicht: ja </p>
+<p>Metalen mast of stellage ter ondersteuning van geleidedraden voor het transport van elektriciteit met een hoog voltage.</p>
+<section data-format="markdown" data-include="typekunstwerk_hoogspanningsmast.md"></section>
+<h3>gemaal</h3><p> Verplicht: ja </p>
+<p>Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen.</p>
+<section data-format="markdown" data-include="typekunstwerk_gemaal.md"></section>
+<h3>perron</h3><p> Verplicht: ja </p>
+<p>Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen.</p>
+<section data-format="markdown" data-include="typekunstwerk_perron.md"></section>
+<h3>sluis</h3><p> Verplicht: ja </p>
+<p>Een kunstmatige, beweegbare waterkering die de verbinding tussen twee wateren kan afsluiten of openstellen en daartoe van deuren of schuiven is voorzien.</p>
+<section data-format="markdown" data-include="typekunstwerk_sluis.md"></section>
+<h3>strekdam</h3><p> Verplicht: ja </p>
+<p>Constructie in het water ter verdediging van de kust/oever.</p>
+<section data-format="markdown" data-include="typekunstwerk_strekdam.md"></section>
+<h3>steiger</h3><p> Verplicht: ja </p>
+<p>Vaste (niet drijvende) waterbouwkundige constructie voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen.</p>
+<section data-format="markdown" data-include="typekunstwerk_steiger.md"></section>
+<h3>stuw</h3><p> Verplicht: ja </p>
+<p>Een constructie met een vaste drempel of een beweegbare klep, die dient om de waterstand boven- en benedenstrooms te regelen.</p>
+<section data-format="markdown" data-include="typekunstwerk_stuw.md"></section>
+<h3>niet-bgt</h3><p> Verplicht: ja </p>
+<p>Het object is geen BGT object.</p>
+<section data-format="markdown" data-include="typekunstwerk_niet_bgt.md"></section>
+<h2>TypeKunstwerkPlus</h2>
+<h3>keermuur</h3><p> Verplicht: nee </p>
+<p>Een keermuur of keerwand is een stijf, grond- of waterkerend kunstwerk dat door een groot gewicht en een brede voet een grote standzekerheid kan bereiken. Een keermuur is meestal van gewapend beton, maar er kan ook ander materiaal gebruikt worden.</p>
+<section data-format="markdown" data-include="typekunstwerkplus_keermuur.md"></section>
+<h3>overkluizing</h3><p> Verplicht: nee </p>
+<p>Een overkluizing is een civieltechnisch kunstwerk waarmee een weg een andere weg, een plein of een waterloop (kruiselings) overwelft. In het geval van een waterweg is er onder het bouwwerk (vaak) geen scheepvaart mogelijk, maar ligt het wateroppervlak nog wel vrij. Een overkluizing is te vergelijken met een brug, alleen bestaat de brug in dit geval vaak niet uit een wegdek maar uit een opstal. Anders gesteld: het maakt meestal geen deel uit van een weg.</p>
+<section data-format="markdown" data-include="typekunstwerkplus_overkluizing.md"></section>
+<h3>duiker</h3><p> Verplicht: nee </p>
+<p>Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, niet de gehele waterbreedte beslaand en aangebracht onder een weg of spoorweg of in een dam. (bron: CROW)</p>
+<section data-format="markdown" data-include="typekunstwerkplus_duiker.md"></section>
+<h3>faunavoorziening</h3><p> Verplicht: nee </p>
+<p>Voorziening bij een weg of spoorweg, niet zijnde een ecoduct, om de uit dat werk voortvloeiende negatieve gevolgen voor de fauna zoveel mogelijk te voorkomen of te beperken.</p>
+<section data-format="markdown" data-include="typekunstwerkplus_faunavoorziening.md"></section>
+<h3>vispassage</h3><p> Verplicht: nee </p>
+<p>Een kunstmatige passage ten behoeve van de vistrek bij kunstwerken in wateren.</p>
+<section data-format="markdown" data-include="typekunstwerkplus_vispassage.md"></section>
+<h3>bodemval</h3><p> Verplicht: nee </p>
+<p>Sprong in de bodem van een waterloop.</p>
+<section data-format="markdown" data-include="typekunstwerkplus_bodemval.md"></section>
+<h3>coupure</h3><p> Verplicht: nee </p>
+<p>Een onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is.</p>
+<section data-format="markdown" data-include="typekunstwerkplus_coupure.md"></section>
+<h3>ponton</h3><p> Verplicht: nee </p>
+<p>Drijvende, dichte bak, waarover soms een dek is gelegd.</p>
+<section data-format="markdown" data-include="typekunstwerkplus_ponton.md"></section>
+<h3>voorde</h3><p> Verplicht: nee </p>
+<p>Een doorwaadbare, doorgaans verharde, plaats in de waterloop, die dient voor de oversteek van die waterloop.</p>
+<section data-format="markdown" data-include="typekunstwerkplus_voorde.md"></section>
+</section>
+      <section id="Wegdeel">
+<h1>Scheiding</h1>
+<br />
+<b>Notice</b>:  Undefined index: skos:definition in <b>C:\xampp\htdocs\objectenhandboek\index.php</b> on line <b>128</b><br />
+<p></p>
+<h2>Inwinregels BGT</h2>
+<section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/bgt/bgt-10-objectafbakening-scheiding.md"></section>
+<h2>Inwinregels IMGeo</h2>
+<section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/imgeo/imgeo-09-objectafbakening-scheiding.md"></section>
+<h2>TypeScheiding</h2>
+<h3>muur</h3><p> Verplicht: ja </p>
+<p>Een scheiding gemaakt van steen.</p>
+<section data-format="markdown" data-include="typescheiding_muur.md"></section>
+<h3>kademuur</h3><p> Verplicht: ja </p>
+<p>Verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton.</p>
+<section data-format="markdown" data-include="typescheiding_kademuur.md"></section>
+<h3>geluidsscherm</h3><p> Verplicht: ja </p>
+<p>Een scheiding bedoeld om geluidshinder in de buitenlucht te verminderen.</p>
+<section data-format="markdown" data-include="typescheiding_geluidsscherm.md"></section>
+<h3>damwand</h3><p> Verplicht: ja </p>
+<p>Een grondkerende constructie die bestaat uit een verticaal in de grond geplaatste wand.</p>
+<section data-format="markdown" data-include="typescheiding_damwand.md"></section>
+<h3>walbescherming</h3><p> Verplicht: ja </p>
+<p>Een nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur.</p>
+<section data-format="markdown" data-include="typescheiding_walbescherming.md"></section>
+<h3>hek</h3><p> Verplicht: ja </p>
+<p>Een hekwerk of schutting, typisch ten behoeve van erfafscheiding.</p>
+<section data-format="markdown" data-include="typescheiding_hek.md"></section>
+<h3>niet-bgt</h3><p> Verplicht: ja </p>
+<p>Het object is geen BGT object.</p>
+<section data-format="markdown" data-include="typescheiding_niet_bgt.md"></section>
+<h2>TypeScheidingPlus</h2>
+<h3>draadraster</h3><p> Verplicht: nee </p>
+<p>Kunstmatige terreinafscheiding, niet zijnde een faunaraster, in de vorm van een overwegend houten, metalen of kunststoffen rechtopstaande palen met daartussen een of meerdere draden.</p>
+<section data-format="markdown" data-include="typescheidingplus_draadraster.md"></section>
+<h3>faunaraster</h3><p> Verplicht: nee </p>
+<p>Kunstmatig aangebrachte scheiding van metaaldraad tussen palen, bedoeld voor het leiden van dieren.</p>
+<section data-format="markdown" data-include="typescheidingplus_faunaraster.md"></section>
+</section>
+      <section id="Wegdeel">
+         <h1>GebouwInstallatie</h1>
+         <p>Een component aan de buitenzijde van een gebouw  die het aanzicht van het gebouw mede bepaalt.  </p>
+         <h2>Inwinregels IMGeo</h2>
+         <section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/imgeo/imgeo-09-objectafbakening-gebouwinstallatie.md"></section>
+         <h2>TypeGebouwInstallatie</h2>
+         <h3>niet-bgt</h3>
+         <p> Verplicht: ja </p>
+         <p>Het object is geen BGT object.</p>
+         <section data-format="markdown" data-include="typegebouwinstallatie_niet_bgt.md"></section>
+         <h2>TypeGebouwInstallatiePlus</h2>
+         <h3>bordes</h3>
+         <p> Verplicht: nee </p>
+         <p>Een verhard oppervlak, eventueel verhoogd en/of uitgevoerd met treden, grenzend aan een pand en primair bedoeld voor gebruik door voetgangers.</p>
+         <section data-format="markdown" data-include="typegebouwinstallatieplus_bordes.md"></section>
+         <h3>luifel</h3>
+         <p> Verplicht: nee </p>
+         <p>Afdak aangebracht aan de gevel van een pand, eventueel rustend op kolommen.</p>
+         <section data-format="markdown" data-include="typegebouwinstallatieplus_luifel.md"></section>
+         <h3>toegangstrap</h3>
+         <p> Verplicht: nee </p>
+         <p>Niet afsluitbare trap (of trappenhuis) die toegang biedt aan een gebouw.</p>
+         <section data-format="markdown" data-include="typegebouwinstallatieplus_toegangstrap.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>Inrichtingselement</h1>
+         <p>Een ruimtelijk object al dan niet ter detaillering dan wel ter inrichting van de overige benoemde ruimtelijke objecten of een ander inrichtingselement. </p>
+      </section>
+      <section id="Wegdeel">
+         <h1>Bak</h1>
+         <p>Object met een permanent karakter dat dient om iets in te bergen of te verzamelen. </p>
+         <h2>TypeBak</h2>
+         <h3>niet-bgt</h3>
+         <p> Verplicht: ja </p>
+         <p>Het object is geen BGT object.</p>
+         <section data-format="markdown" data-include="typebak_niet_bgt.md"></section>
+         <h2>TypeBakPlus</h2>
+         <h3>afval apart plaats</h3>
+         <p> Verplicht: nee </p>
+         <p>Boven- of ondergrondse opslagplaats voor het gescheiden inzamelen van afval, met stortkoker(s) op het straatniveau.</p>
+         <section data-format="markdown" data-include="typebakplus_afval_apart_plaats.md"></section>
+         <h3>afvalbak</h3>
+         <p> Verplicht: nee </p>
+         <p>Bak of korf in de openbare ruimte met een permanent karakter; bedoeld voor het verzamelen van (meestal los) afval.</p>
+         <section data-format="markdown" data-include="typebakplus_afvalbak.md"></section>
+         <h3>drinkbak</h3>
+         <p> Verplicht: nee </p>
+         <p>Bak gevuld met water, waaruit vee of wild kan drinken.</p>
+         <section data-format="markdown" data-include="typebakplus_drinkbak.md"></section>
+         <h3>bloembak</h3>
+         <p> Verplicht: nee </p>
+         <p>Bak in de openbare ruimte met een permanent karakter, waarin planten of struiken zijn geplant.</p>
+         <section data-format="markdown" data-include="typebakplus_bloembak.md"></section>
+         <h3>zand- / zoutbak</h3>
+         <p> Verplicht: nee </p>
+         <p>Een bak met strooisel ten behoeve van gladheidsbestrijding.</p>
+         <section data-format="markdown" data-include="typebakplus_zand_zoutbak.md"></section>
+         <h3>container</h3>
+         <p> Verplicht: nee </p>
+         <p>Nagelvast met de grond verbonden inzamelmiddel voor afvalstoffen, doorgaans van metaal of kunststof waarin afvalstoffen worden verzameld, bewaard en waaruit deze afvalstoffen vervolgens worden overgeladen in een inzamelvoertuig.</p>
+         <section data-format="markdown" data-include="typebakplus_container.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>Bord</h1>
+         <p>Een paneel waarop informatie wordt afgebeeld. </p>
+         <h2>TypeBord</h2>
+         <h3>niet-bgt</h3>
+         <p> Verplicht: ja </p>
+         <p>Het object is geen BGT object.</p>
+         <section data-format="markdown" data-include="typebord_niet_bgt.md"></section>
+         <h2>TypeBordPlus</h2>
+         <h3>informatiebord</h3>
+         <p> Verplicht: nee </p>
+         <p>Een bord met daarop specifieke actuele informatie, zoals plattegronden of vertrektijden.</p>
+         <section data-format="markdown" data-include="typebordplus_informatiebord.md"></section>
+         <h3>plaatsnaambord</h3>
+         <p> Verplicht: nee </p>
+         <p>Een bord waarop een naam van een (woon)plaats of locatie is vermeld.</p>
+         <section data-format="markdown" data-include="typebordplus_plaatsnaambord.md"></section>
+         <h3>straatnaambord</h3>
+         <p> Verplicht: nee </p>
+         <p>Bord waarop de door de gemeente vastgestelde naam van de straat is vermeld. Bord kan zich op een paal of aan de gevel bevinden.</p>
+         <section data-format="markdown" data-include="typebordplus_straatnaambord.md"></section>
+         <h3>verkeersbord</h3>
+         <p> Verplicht: nee </p>
+         <p>Bord waarop een verkeersteken is aangebracht en waarvan de uitvoering wettelijk is voorgeschreven volgens het 'Reglement verkeersregels en verkeerstekens 1990 (RVV 1990)'.</p>
+         <section data-format="markdown" data-include="typebordplus_verkeersbord.md"></section>
+         <h3>scheepvaartbord</h3>
+         <p> Verplicht: nee </p>
+         <p>Bord waarop een scheepvaartteken is aangebracht en waarvan de uitvoering als richtlijn is voorgeschreven volgens 'Richtlijnen Scheepvaarttekens (RST 2008)'.</p>
+         <section data-format="markdown" data-include="typebordplus_scheepvaartbord.md"></section>
+         <h3>verklikker transportleiding</h3>
+         <p> Verplicht: nee </p>
+         <p>Bovengrondse voorziening om een ondergrondse transportleiding te markeren.</p>
+         <section data-format="markdown" data-include="typebordplus_verklikker_transportleiding.md"></section>
+         <h3>reclamebord</h3>
+         <p> Verplicht: nee </p>
+         <p>Vrijstaand bord/zuil waarop rondom of aan één of meer zijden affiches kunnen worden (of zijn) geplakt.</p>
+         <section data-format="markdown" data-include="typebordplus_reclamebord.md"></section>
+         <h3>wegwijzer</h3>
+         <p> Verplicht: nee </p>
+         <p>Constructie voorzien van een of meer panelen met informatie ten behoeve van de bewegwijzering.</p>
+         <section data-format="markdown" data-include="typebordplus_wegwijzer.md"></section>
+         <h3>waarschuwingshek</h3>
+         <p> Verplicht: nee </p>
+         <p>Constructie in de vorm van een hek, voorzien van rode en witte blokken of chevrons, die het verkeer attendeert op een gevarenpunt.</p>
+         <section data-format="markdown" data-include="typebordplus_waarschuwingshek.md"></section>
+         <h3>dynamische snelheidsindicator</h3>
+         <p> Verplicht: nee </p>
+         <p>Een snelheidsinformatiebord dat in "real time" de snelheid van de weggebruikers aanduidt.</p>
+         <section data-format="markdown" data-include="typebordplus_dynamische_snelheidsindicator.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>Installatie</h1>
+         <p>Samenhangend systeem dat een bepaald doel dient. </p>
+         <h2>TypeInstallatie</h2>
+         <h3>niet-bgt</h3>
+         <p> Verplicht: ja </p>
+         <p>Het object is geen BGT object.</p>
+         <section data-format="markdown" data-include="typeinstallatie_niet_bgt.md"></section>
+         <h2>TypeInstallatiePlus</h2>
+         <h3>pomp</h3>
+         <p> Verplicht: nee </p>
+         <p>Werktuig dat door middel van een verschil in druk vloeistoffen of gassen verplaatst.</p>
+         <section data-format="markdown" data-include="typeinstallatieplus_pomp.md"></section>
+         <h3>zonnepaneel</h3>
+         <p> Verplicht: nee </p>
+         <p>Een zonnepaneel is een paneel dat zonne-energie omzet in elektriciteit.</p>
+         <section data-format="markdown" data-include="typeinstallatieplus_zonnepaneel.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>Kast</h1>
+         <p>Object met een permanent karakter dat dient om iets in te bergen en te beschermen. </p>
+         <h2>TypeKast</h2>
+         <h3>niet-bgt</h3>
+         <p> Verplicht: ja </p>
+         <p>Het object is geen BGT object.</p>
+         <section data-format="markdown" data-include="typekast_niet_bgt.md"></section>
+         <h2>TypeKastPlus</h2>
+         <h3>CAI-kast</h3>
+         <p> Verplicht: nee </p>
+         <p>Kast ten behoeve van de regeling van radio- en televisiesignalen.</p>
+         <section data-format="markdown" data-include="typekastplus_cai_kast.md"></section>
+         <h3>elektrakast</h3>
+         <p> Verplicht: nee </p>
+         <p>Kast ten behoeve van de regeling van het transport van elektriciteit.</p>
+         <section data-format="markdown" data-include="typekastplus_elektrakast.md"></section>
+         <h3>gaskast</h3>
+         <p> Verplicht: nee </p>
+         <p>Kast ten behoeve van de regeling van het transport van gas.</p>
+         <section data-format="markdown" data-include="typekastplus_gaskast.md"></section>
+         <h3>telecom kast</h3>
+         <p> Verplicht: nee </p>
+         <p>Kast ten behoeve van de regeling van telecommunicatie.</p>
+         <section data-format="markdown" data-include="typekastplus_telecom_kast.md"></section>
+         <h3>rioolkast</h3>
+         <p> Verplicht: nee </p>
+         <p>Kast ten behoeve van de regeling van het transport van rioolwater.</p>
+         <section data-format="markdown" data-include="typekastplus_rioolkast.md"></section>
+         <h3>openbare verlichtingkast</h3>
+         <p> Verplicht: nee </p>
+         <p>Kast ten behoeve van de regeling van de openbare verlichting.</p>
+         <section data-format="markdown" data-include="typekastplus_openbare_verlichtingkast.md"></section>
+         <h3>verkeersregelinstallatiekast</h3>
+         <p> Verplicht: nee </p>
+         <p>Kast ten behoeve van de regeling van het verkeer.</p>
+         <section data-format="markdown" data-include="typekastplus_verkeersregelinstallatiekast.md"></section>
+         <h3>telkast</h3>
+         <p> Verplicht: nee </p>
+         <p>Kast ten behoeve van het meten van permanente verkeertellingen.</p>
+         <section data-format="markdown" data-include="typekastplus_telkast.md"></section>
+         <h3>GMS kast</h3>
+         <p> Verplicht: nee </p>
+         <p>Kast ten behoeve van het meten van weers- en wegdekomstandigheden.</p>
+         <section data-format="markdown" data-include="typekastplus_gms_kast.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>Mast</h1>
+         <p>Hoge draagconstructie. </p>
+         <h2>TypeMast</h2>
+         <h3>niet-bgt</h3>
+         <p> Verplicht: ja </p>
+         <p>Het object is geen BGT object.</p>
+         <section data-format="markdown" data-include="typemast_niet_bgt.md"></section>
+         <h2>TypeMastPlus</h2>
+         <h3>bovenleidingmast</h3>
+         <p> Verplicht: nee </p>
+         <p>Mast die een onderdeel vormt van de bovenleidingdraagconstructie.</p>
+         <section data-format="markdown" data-include="typemastplus_bovenleidingmast.md"></section>
+         <h3>laagspanningsmast</h3>
+         <p> Verplicht: nee </p>
+         <p>Houten of metalen mast waaraan kabels voor het transport van elektrische energie met een spannning lager dan 500 V zijn bevestigd.</p>
+         <section data-format="markdown" data-include="typemastplus_laagspanningsmast.md"></section>
+         <h3>straalzender</h3>
+         <p> Verplicht: nee </p>
+         <p>Zender voor radio, televisie en telecommunicatie signalen die in smalle stralenbundels uitzendt.</p>
+         <section data-format="markdown" data-include="typemastplus_straalzender.md"></section>
+         <h3>zendmast</h3>
+         <p> Verplicht: nee </p>
+         <p>Mast bestemd voor het uitzenden van radio, televisie of telecommunicatie signalen.</p>
+         <section data-format="markdown" data-include="typemastplus_zendmast.md"></section>
+         <h3>radarmast</h3>
+         <p> Verplicht: nee </p>
+         <p>Vaste of neerklapbare constructie waarop de radarantenne bevestigd is.</p>
+         <section data-format="markdown" data-include="typemastplus_radarmast.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>Paal</h1>
+         <p>Langwerpig stuk hout  ijzer  steen enz.  dat in de grond staat. </p>
+         <h2>TypePaal</h2>
+         <h3>niet-bgt</h3>
+         <p> Verplicht: ja </p>
+         <p>Het object is geen BGT object.</p>
+         <section data-format="markdown" data-include="typepaal_niet_bgt.md"></section>
+         <h2>TypePaalPlus</h2>
+         <h3>lichtmast</h3>
+         <p> Verplicht: nee </p>
+         <p>Mast bestemd voor het dragen van een of meer verlichtingsarmaturen.</p>
+         <section data-format="markdown" data-include="typepaalplus_lichtmast.md"></section>
+         <h3>telpaal</h3>
+         <p> Verplicht: nee </p>
+         <p>Paal waaraan de verkeersteller is bevestigd.</p>
+         <section data-format="markdown" data-include="typepaalplus_telpaal.md"></section>
+         <h3>portaal</h3>
+         <p> Verplicht: nee </p>
+         <p>Geheel van twee of meer ondersteuningsconstructies die door een ligger zijn verbonden, bedoelt voor het aanbrengen van verkeersaanduidingen.</p>
+         <section data-format="markdown" data-include="typepaalplus_portaal.md"></section>
+         <h3>verkeersregelinstallatiepaal</h3>
+         <p> Verplicht: nee </p>
+         <p>Paal met daaraan bevestigd de verkeersregelinstallatie.</p>
+         <section data-format="markdown" data-include="typepaalplus_verkeersregelinstallatiepaal.md"></section>
+         <h3>verkeersbordpaal</h3>
+         <p> Verplicht: nee </p>
+         <p>Paal waaraan een of meerdere verkeersborden zijn bevestigd.</p>
+         <section data-format="markdown" data-include="typepaalplus_verkeersbordpaal.md"></section>
+         <h3>poller</h3>
+         <p> Verplicht: nee </p>
+         <p>Een poller of inzinkbare paal is een paal die door een elektrische of hydraulische aandrijving uit een wegdek omhoog wordt gestuurd en die dient om het autoverkeer te reguleren.</p>
+         <section data-format="markdown" data-include="typepaalplus_poller.md"></section>
+         <h3>haltepaal</h3>
+         <p> Verplicht: nee </p>
+         <p>Paal met daarop de dienstregeling ten behoeve van het openbaar vervoer.</p>
+         <section data-format="markdown" data-include="typepaalplus_haltepaal.md"></section>
+         <h3>vlaggenmast</h3>
+         <p> Verplicht: nee </p>
+         <p>Paal bedoeld om vlaggen aan te hangen.</p>
+         <section data-format="markdown" data-include="typepaalplus_vlaggenmast.md"></section>
+         <h3>afsluitpaal</h3>
+         <p> Verplicht: nee </p>
+         <p>Al dan niet verwijderbare paal in de grond om de weg of een gedeelte hiervan af te sluiten.</p>
+         <section data-format="markdown" data-include="typepaalplus_afsluitpaal.md"></section>
+         <h3>praatpaal</h3>
+         <p> Verplicht: nee </p>
+         <p>Stalen of kunststof paal langs verkeerswegen welke bedoeld is telefonisch contact te leggen met een centrale meldkamer (ANWB).</p>
+         <section data-format="markdown" data-include="typepaalplus_praatpaal.md"></section>
+         <h3>hectometerpaal</h3>
+         <p> Verplicht: nee </p>
+         <p>Paaltje of bordje geplaatst langs de weg, waarop een hectometerwaarde (weg) of kilometrering (vaarweg) is vermeld eventueel gevolgd door een letter.</p>
+         <section data-format="markdown" data-include="typepaalplus_hectometerpaal.md"></section>
+         <h3>dijkpaal</h3>
+         <p> Verplicht: nee </p>
+         <p>Een markant punt op de waterkering of op het strand dat dient als referentiepunt voor afstandsaanduidingen.</p>
+         <section data-format="markdown" data-include="typepaalplus_dijkpaal.md"></section>
+         <h3>drukknoppaal</h3>
+         <p> Verplicht: nee </p>
+         <p>Paal met een lengte van ongeveer 1 m, met drukknop waarmee de verkeersdeelnemer zich meldt bij een verkeersregelinstallatie.</p>
+         <section data-format="markdown" data-include="typepaalplus_drukknoppaal.md"></section>
+         <h3>grensmarkering</h3>
+         <p> Verplicht: nee </p>
+         <p>Paal ter afbakening van een grens.</p>
+         <section data-format="markdown" data-include="typepaalplus_grensmarkering.md"></section>
+         <h3>sirene</h3>
+         <p> Verplicht: nee </p>
+         <p>Een apparaat dat geluiden van variabele toonhoogte kan voortbrengen met als functie waarschuwingsdoeleinden.</p>
+         <section data-format="markdown" data-include="typepaalplus_sirene.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>Put</h1>
+         <p>Gegraven of geboorde kokervormige diepte waarin zich  vloei stoffen bevinden. </p>
+         <h2>TypePut</h2>
+         <h3>niet-bgt</h3>
+         <p> Verplicht: ja </p>
+         <p>Het object is geen BGT object.</p>
+         <section data-format="markdown" data-include="typeput_niet_bgt.md"></section>
+         <h2>TypePutPlus</h2>
+         <h3>benzine- / olieput</h3>
+         <p> Verplicht: nee </p>
+         <p>Putdeksel die toegang geeft tot een benzine- of olietank ten behoeve van vullen, onderhoud of inspectie.</p>
+         <section data-format="markdown" data-include="typeputplus_benzine_olieput.md"></section>
+         <h3>brandkraan / -put</h3>
+         <p> Verplicht: nee </p>
+         <p>Op de drinkwaterleiding aangesloten kraan, of deksel van een put voor het plaatsen van een brandkraan, op of nabij de openbare weg, voor brandbestrijding.</p>
+         <section data-format="markdown" data-include="typeputplus_brandkraan_put.md"></section>
+         <h3>drainageput</h3>
+         <p> Verplicht: nee </p>
+         <p>Putdeksel welke toegang geeft naar een poreuze of geperforeerde buisleiding, aangebracht onder de grond om de afwatering van de grond te verbeteren.</p>
+         <section data-format="markdown" data-include="typeputplus_drainageput.md"></section>
+         <h3>gasput</h3>
+         <p> Verplicht: nee </p>
+         <p>Putdeksel met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor gastransport.</p>
+         <section data-format="markdown" data-include="typeputplus_gasput.md"></section>
+         <h3>inspectie- / rioolput</h3>
+         <p> Verplicht: nee </p>
+         <p>Putdeksel die toegang geeft tot een (riool)leiding.</p>
+         <section data-format="markdown" data-include="typeputplus_inspectie_rioolput.md"></section>
+         <h3>kolk</h3>
+         <p> Verplicht: nee </p>
+         <p>Deksel van een op het riool aangesloten voorziening voor de opvang van hemel- en afvalwater afkomstig van erop aangesloten oppervlakken.</p>
+         <section data-format="markdown" data-include="typeputplus_kolk.md"></section>
+         <h3>waterleidingput</h3>
+         <p> Verplicht: nee </p>
+         <p>Putdeksel met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor watertransport.</p>
+         <section data-format="markdown" data-include="typeputplus_waterleidingput.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>Sensor</h1>
+         <p>Apparaat voor de meting van een fysieke grootheid  bijv. temperatuur  licht  druk  elektriciteit .  </p>
+         <h2>TypeSensor</h2>
+         <h3>niet-bgt</h3>
+         <p> Verplicht: ja </p>
+         <p>Het object is geen BGT object.</p>
+         <section data-format="markdown" data-include="typesensor_niet_bgt.md"></section>
+         <h2>TypeSensorPlus</h2>
+         <h3>camera</h3>
+         <p> Verplicht: nee </p>
+         <p>Installatie voor de registratie van beelden van situaties, waarvan direkte observatie moeilijk of niet permanent mogelijk is.</p>
+         <section data-format="markdown" data-include="typesensorplus_camera.md"></section>
+         <h3>debietmeter</h3>
+         <p> Verplicht: nee </p>
+         <p>Een instrument dat de (afvoer)capaciteit van de volumestroom meet.</p>
+         <section data-format="markdown" data-include="typesensorplus_debietmeter.md"></section>
+         <h3>hoogtedetectieapparaat</h3>
+         <p> Verplicht: nee </p>
+         <p>Een mechanisch of elektronisch waarschuwingssysteem, dat in werking treedt bij overschrijding van de aangegeven maximale doorrijhoogte.</p>
+         <section data-format="markdown" data-include="typesensorplus_hoogtedetectieapparaat.md"></section>
+         <h3>detectielus</h3>
+         <p> Verplicht: nee </p>
+         <p>In de verharding opgenomen lusvormig onderdeel van een verkeersdetector.</p>
+         <section data-format="markdown" data-include="typesensorplus_detectielus.md"></section>
+         <h3>weerstation</h3>
+         <p> Verplicht: nee </p>
+         <p>Een weerstation is een verzameling instrumenten die het weer kunnen meten.</p>
+         <section data-format="markdown" data-include="typesensorplus_weerstation.md"></section>
+         <h3>flitser</h3>
+         <p> Verplicht: nee </p>
+         <p>Een flitser bevat een mechanisme om een snelheidsmeting uit te voeren om snelheidsovertredingen in het verkeer te kunnen vaststellen.</p>
+         <section data-format="markdown" data-include="typesensorplus_flitser.md"></section>
+         <h3>waterstandmeter</h3>
+         <p> Verplicht: nee </p>
+         <p>Een meter die de waterstand, over het algemeen ten opzichte van NAP, meet.</p>
+         <section data-format="markdown" data-include="typesensorplus_waterstandmeter.md"></section>
+         <h3>windmeter</h3>
+         <p> Verplicht: nee </p>
+         <p>Apparatuur waarmee de snelheid en de richting van de wind kan worden gemeten.</p>
+         <section data-format="markdown" data-include="typesensorplus_windmeter.md"></section>
+         <h3>lichtcel</h3>
+         <p> Verplicht: nee </p>
+         <p>Lichtcel waarmee het verlichtingsniveau naar een lager verlichtingsniveau omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat.</p>
+         <section data-format="markdown" data-include="typesensorplus_lichtcel.md"></section>
+         <h3>GMS sensor</h3>
+         <p> Verplicht: nee </p>
+         <p>Gladheidsmeldsysteem (GMS) waarmee de kans op gladheid wordt voorspeld aan de hand van meting en interpretatie van de parameters die een rol spelen bij het ontstaan van gladheid.</p>
+         <section data-format="markdown" data-include="typesensorplus_gms_sensor.md"></section>
+         <h3>radar detector</h3>
+         <p> Verplicht: nee </p>
+         <p>Met een radardetector wordt het verkeer gedetecteerd, bijvoorbeeld voor het beïnvloeden van verkeerslichten.</p>
+         <section data-format="markdown" data-include="typesensorplus_radar_detector.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>Straatmeubilair</h1>
+         <p>Een ruimtelijk object ter inrichting van de openbare ruimte.  </p>
+         <h2>TypeStraatmeubilair</h2>
+         <h3>niet-bgt</h3>
+         <p> Verplicht: ja </p>
+         <p>Het object is geen BGT object.</p>
+         <section data-format="markdown" data-include="typestraatmeubilair_niet_bgt.md"></section>
+         <h2>TypeStraatmeubilairPlus</h2>
+         <h3>abri</h3>
+         <p> Verplicht: nee </p>
+         <p>Overdekte wachtplaats voor passagiers van het openbaar vervoer.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_abri.md"></section>
+         <h3>bolder</h3>
+         <p> Verplicht: nee </p>
+         <p>Een inrichting aan de wal, waar een schip, door middel van een tros of landvast, aan vastgelegd kan worden.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_bolder.md"></section>
+         <h3>brievenbus</h3>
+         <p> Verplicht: nee </p>
+         <p>Uitpandige kast waar post in kan worden gedeponeerd ter bezorging.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_brievenbus.md"></section>
+         <h3>fietsenrek</h3>
+         <p> Verplicht: nee </p>
+         <p>Een duurzaam verankerd rek in de openbare ruimte voor het stallen van fietsen.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_fietsenrek.md"></section>
+         <h3>kunstobject</h3>
+         <p> Verplicht: nee </p>
+         <p>Een object dat als kunst gezien wordt en een bepaalde schoonheid heeft, niet door de natuur gemaakt.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_kunstobject.md"></section>
+         <h3>openbaar toilet</h3>
+         <p> Verplicht: nee </p>
+         <p>Voor mensen bedoeld toilet niet zijnde een pand, langs de openbare weg.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_openbaar_toilet.md"></section>
+         <h3>slagboom</h3>
+         <p> Verplicht: nee </p>
+         <p>Boom of balk om de weg of een gedeelte hiervan af te sluiten.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_slagboom.md"></section>
+         <h3>speelvoorziening</h3>
+         <p> Verplicht: nee </p>
+         <p>Aard en nagelvast met de grond verbonden constructie in de openbare ruimte, bedoeld als speelmateriaal voor kinderen.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_speelvoorziening.md"></section>
+         <h3>telefooncel</h3>
+         <p> Verplicht: nee </p>
+         <p>Niet-inpandige ruimte in openbaar gebied louter bestemd voor telefoneren.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_telefooncel.md"></section>
+         <h3>bank</h3>
+         <p> Verplicht: nee </p>
+         <p>Aaneengesloten zitplaats voor verscheidene personen, bedoeld voor openbaar gebruik en geplaatst in de openbare ruimte (vnl. in parken, plantsoenen, bossen en langs wegen).</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_bank.md"></section>
+         <h3>picknicktafel</h3>
+         <p> Verplicht: nee </p>
+         <p>Een `picknicktafel` is een tafel met vaak daaraan gemonteerde zitbanken of stoelen die kan gebruikt worden om te picknicken.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_picknicktafel.md"></section>
+         <h3>fontein</h3>
+         <p> Verplicht: nee </p>
+         <p>Een fontein is een natuurlijke of kunstmatige installatie die water spuit.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_fontein.md"></section>
+         <h3>lichtpunt</h3>
+         <p> Verplicht: nee </p>
+         <p>Een lichtpunt is een lamp die licht uitzendt niet verbonden met een mast die het maaiveld raakt.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_lichtpunt.md"></section>
+         <h3>parkeerbeugel</h3>
+         <p> Verplicht: nee </p>
+         <p>Een omklapbare beugel voor het afschermen van een parkeerplaats.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_parkeerbeugel.md"></section>
+         <h3>betaalautomaat</h3>
+         <p> Verplicht: nee </p>
+         <p>Een apparaat dat betaalkaarten en/of contant geld accepteert om betalingen uit te voeren.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_betaalautomaat.md"></section>
+         <h3>reclamezuil</h3>
+         <p> Verplicht: nee </p>
+         <p>Vrijstaand bord/zuil waarop rondom of aan één of meer zijden affiches kunnen worden (of zijn) geplakt.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_reclamezuil.md"></section>
+         <h3>fietsenkluis</h3>
+         <p> Verplicht: nee </p>
+         <p>Een fietskluis is een kluis om een fiets in te bewaren, meestal ter voorkoming van diefstal of beschadiging.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_fietsenkluis.md"></section>
+         <h3>herdenkingsmonument</h3>
+         <p> Verplicht: nee </p>
+         <p>Langs de weg of elders in het terrein aangelegd object ter herdenking van personen of evenementen.</p>
+         <section data-format="markdown" data-include="typestraatmeubilairplus_herdenkingsmonument.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>Waterinrichtingselement</h1>
+         <p>Een ruimtelijk object ter inrichting van het water. </p>
+         <h2>TypeWaterinrichting</h2>
+         <h3>niet-bgt</h3>
+         <p> Verplicht: ja </p>
+         <p>Het object is geen BGT object.</p>
+         <section data-format="markdown" data-include="typewaterinrichting_niet_bgt.md"></section>
+         <h2>TypeWaterinrichtingPlus</h2>
+         <h3>remmingswerk</h3>
+         <p> Verplicht: nee </p>
+         <p>Constructie langs de opstelruimte en wachtruimte bedoeld voor het afmeren van schepen.</p>
+         <section data-format="markdown" data-include="typewaterinrichtingplus_remmingswerk.md"></section>
+         <h3>betonning</h3>
+         <p> Verplicht: nee </p>
+         <p>Een systeem van boeien en bakens, waarmee in open zee of in een vaarwater ondiepten of de aanwezigheid van gevaarlijke objecten worden aangegeven.</p>
+         <section data-format="markdown" data-include="typewaterinrichtingplus_betonning.md"></section>
+         <h3>geleidewerk</h3>
+         <p> Verplicht: nee </p>
+         <p>Fuikvormige constructie aansluitend aan het hoofd van een kunstwerk voor het geven van mechanische en visuele geleiding tijdens het invaren van dat kunstwerk.</p>
+         <section data-format="markdown" data-include="typewaterinrichtingplus_geleidewerk.md"></section>
+         <h3>vuilvang</h3>
+         <p> Verplicht: nee </p>
+         <p>Een voorziening om de waterloop dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke.</p>
+         <section data-format="markdown" data-include="typewaterinrichtingplus_vuilvang.md"></section>
+         <h3>meerpaal</h3>
+         <p> Verplicht: nee </p>
+         <p>Paal voor een kade of in een haven waaraan een schip kan worden afgemeerd.</p>
+         <section data-format="markdown" data-include="typewaterinrichtingplus_meerpaal.md"></section>
+         <h3>hoogtemerk</h3>
+         <p> Verplicht: nee </p>
+         <p>Relatief permanent merk, natuurlijk of kunstmatig, met daarin een punt met een bekende hoogte ten opzichte van een bepaald referentievlak.</p>
+         <section data-format="markdown" data-include="typewaterinrichtingplus_hoogtemerk.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>Weginrichtingselement</h1>
+         <p>Een ruimtelijk object dat dient voor de inrichting van de openbare weg. </p>
+         <h2></h2>
+         <h2>TypeWeginrichtingPlus</h2>
+         <h3>molgoot</h3>
+         <p> Verplicht: nee </p>
+         <p>Smalle goot (lijngeometrie) in de lengterichting van de verharding, met veelal een cirkelsegment als dwarsprofiel.</p>
+         <section data-format="markdown" data-include="typeweginrichtingplus_molgoot.md"></section>
+         <h3>lijnafwatering</h3>
+         <p> Verplicht: nee </p>
+         <p>Goot in de lengterichting van de verharding, niet zijnde molgoot. Bijvoorbeeld roostergoot en verholen goot.</p>
+         <section data-format="markdown" data-include="typeweginrichtingplus_lijnafwatering.md"></section>
+         <h3>wegmarkering</h3>
+         <p> Verplicht: nee </p>
+         <p>Op of in het oppervlak van de verharding aangebrachte tekens ter geleiding, waarschuwing, regeling of informatie van het verkeer.</p>
+         <section data-format="markdown" data-include="typeweginrichtingplus_wegmarkering.md"></section>
+         <h3>wildrooster</h3>
+         <p> Verplicht: nee </p>
+         <p>Horizontaal raamwerk dat dient om wild de doorgang te beletten.</p>
+         <section data-format="markdown" data-include="typeweginrichtingplus_wildrooster.md"></section>
+         <h3>rooster</h3>
+         <p> Verplicht: nee </p>
+         <p>Een rooster niet zijnde lijnafwatering of wildrooster.</p>
+         <section data-format="markdown" data-include="typeweginrichtingplus_rooster.md"></section>
+         <h3>geleideconstructie</h3>
+         <p> Verplicht: nee </p>
+         <p>Bermbeveiligingsconstructie bedoeld voor fysieke geleiding van voertuigen die uit de koers zijn geraakt.</p>
+         <section data-format="markdown" data-include="typeweginrichtingplus_geleideconstructie.md"></section>
+         <h3>balustrade</h3>
+         <p> Verplicht: nee </p>
+         <p>Een balustrade is een hekwerk of afzetting aan de rand van een overbrugging. Een balustrade beveiligt tegen het vallen.</p>
+         <section data-format="markdown" data-include="typeweginrichtingplus_balustrade.md"></section>
+         <h3>boomspiegel</h3>
+         <p> Verplicht: nee </p>
+         <p>Het stuk grond rondom de stam van een boom dat van boven toegankelijk is voor lucht en water.</p>
+         <section data-format="markdown" data-include="typeweginrichtingplus_boomspiegel.md"></section>
+         <h3>verblindingswering</h3>
+         <p> Verplicht: nee </p>
+         <p>Constructie bedoeld om verblinding van weggebruikers door tegenlicht te voorkomen.</p>
+         <section data-format="markdown" data-include="typeweginrichtingplus_verblindingswering.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>VegetatieObject</h1>
+         <p>Solitair vegetatieobject of lijn- of vlakvormige groep gelijksoortige vegetatieobjecten met een beperkte omvang. </p>
+         <h2>Inwinregels IMGeo</h2>
+         <section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/imgeo/imgeo-09-objectafbakening-vegetatieobject.md"></section>
+         <h2>TypeVegetatieObject</h2>
+         <h3>niet-bgt</h3>
+         <p> Verplicht: ja </p>
+         <p>Het object is geen BGT object.</p>
+         <section data-format="markdown" data-include="typevegetatieobject_niet_bgt.md"></section>
+         <h2>TypeVegetatieObjectPlus</h2>
+         <h3>boom</h3>
+         <p> Verplicht: nee </p>
+         <p>Een markante boom die geen onderdeel uitmaakt van een ander boom- of struikbeplanting.</p>
+         <section data-format="markdown" data-include="typevegetatieobjectplus_boom.md"></section>
+         <h3>haag</h3>
+         <p> Verplicht: nee </p>
+         <p>Een rijvormige afscheiding van zeer beperkte breedte bestaande uit aangeplante aaneengesloten struiken.</p>
+         <section data-format="markdown" data-include="typevegetatieobjectplus_haag.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>OpenbareRuimteLabel</h1>
+         <p>Naam en plaatsingspunten van een in de BAG geregistreerde OPENBARE RUIMTE.  </p>
+         <h2></h2>
+         <h2>TypeOpenbareRuimte</h2>
+         <h3>Weg</h3>
+         <p> Verplicht: ja </p>
+         <p>Gebaand gedeelte voor het wegverkeer en vliegverkeer te land.</p>
+         <section data-format="markdown" data-include="typeopenbareruimte_weg.md"></section>
+         <h3>Water</h3>
+         <p> Verplicht: ja </p>
+         <p>Grondoppervlak in principe bedekt met water.</p>
+         <section data-format="markdown" data-include="typeopenbareruimte_water.md"></section>
+         <h3>Spoorbaan</h3>
+         <p> Verplicht: ja </p>
+         <p>Gebaand gedeelte voor het verkeer over rails.</p>
+         <section data-format="markdown" data-include="typeopenbareruimte_spoorbaan.md"></section>
+         <h3>Terrein</h3>
+         <p> Verplicht: ja </p>
+         <p>Door een fysiek voorkomen gekarakteriseerd zichtbaar begrensd stuk grond.</p>
+         <section data-format="markdown" data-include="typeopenbareruimte_terrein.md"></section>
+         <h3>Kunstwerk</h3>
+         <p> Verplicht: ja </p>
+         <p>Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf.</p>
+         <section data-format="markdown" data-include="typeopenbareruimte_kunstwerk.md"></section>
+         <h3>Landschappelijk gebied</h3>
+         <p> Verplicht: ja </p>
+         <p>Definitie ontbreekt in de BAG.</p>
+         <section data-format="markdown" data-include="typeopenbareruimte_landschappelijk_gebied.md"></section>
+         <h3>Administratief gebied</h3>
+         <p> Verplicht: ja </p>
+         <p>Een niet tastbaar begrensd grondoppervlak dat als eenheid geldt voor bestuurlijke verantwoordelijkheid, voor bedrijfsvoering, waarbinnen een specifieke rechtsverhouding te onderscheiden is of waarvoor een specifieke functie of bestemming geldt.</p>
+         <section data-format="markdown" data-include="typeopenbareruimte_administratief_gebied.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>RegistratiefGebied</h1>
+         <p>Op basis van wet- of regelgeving afgebakend gebied dat als eenheid geldt van politiek bestuurlijke verantwoordelijkheid of voor bedrijfsvoering. </p>
+         <h2>Inwinregels IMGeo</h2>
+         <section data-format="markdown" data-include="https://geonovum.github.io/IMGeo-dev/catalogus/imgeo/imgeo-09-objectafbakening-registratiefgebied.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>FunctioneelGebied</h1>
+         <p>Begrensd en benoemd gebied dat door een functionele eenheid beschreven wordt. </p>
+         <h2>TypeFunctioneelGebied</h2>
+         <h3>kering</h3>
+         <p> Verplicht: ja </p>
+         <p>Een waterkerende en / of scheidende, kunstmatige of natuurlijke hoogte of hooggelegen gronden inclusief de daarin aanwezige waterkerende elementen.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebied_kering.md"></section>
+         <h3>niet-bgt</h3>
+         <p> Verplicht: ja </p>
+         <p>Het object is geen BGT object.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebied_niet_bgt.md"></section>
+         <h2>TypeFunctioneelGebiedPlus</h2>
+         <h3>bedrijvigheid</h3>
+         <p> Verplicht: nee </p>
+         <p>Gebied waarop  panden of overige gebouwen staan, en / of niet bebouwde oppervlakte , voornamelijk gebruikt  voor economische activiteiten en non-profit activiteiten.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_bedrijvigheid.md"></section>
+         <h3>natuur en landschap</h3>
+         <p> Verplicht: nee </p>
+         <p>Gebied dat wegens natuurschoon en/of natuurlijke historie in stand wordt gehouden.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_natuur_en_landschap.md"></section>
+         <h3>landbouw</h3>
+         <p> Verplicht: nee </p>
+         <p>Gebied primair in gebruik voor land- en tuinbouwproductie.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_landbouw.md"></section>
+         <h3>bewoning</h3>
+         <p> Verplicht: nee </p>
+         <p>Gebied waarop panden of overige bouwwerken staan die voornamelijk gebruikt worden voor bewoning, inclusief erven en tuinen die bij de panden behoren.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_bewoning.md"></section>
+         <h3>infrastructuur verkeer en vervoer</h3>
+         <p> Verplicht: nee </p>
+         <p>Gebied primair in gebruik voor verkeer en vervoer, waaronder verstaan spoorwegen, wegdelen, vliegverkeersbanen, parkeerterreinen, bermen en de ondersteunende objecten als kunstwerken.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_infrastructuur_verkeer_en_vervoer.md"></section>
+         <h3>infrastructuur waterstaatswerken</h3>
+         <p> Verplicht: nee </p>
+         <p>Gebied grenzend aan oppervlaktewater, primair in gebruik voor de oppervlaktewaterhuishouding (waterafvoer, wateraanvoer en waterconservering).</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_infrastructuur_waterstaatswerken.md"></section>
+         <h3>waterbergingsgebied</h3>
+         <p> Verplicht: nee </p>
+         <p>Terrein met als functie het tijdelijk of langdurig bergen van (regen)wateroverschotten uit de omgeving.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_waterbergingsgebied.md"></section>
+         <h3>maatschappelijke en/of publieksvoorziening</h3>
+         <p> Verplicht: nee </p>
+         <p>Bebouwd of landelijk gebied, niet zijnde woon- of bedrijventerrein, in gebruik voor maatschappelijke- en publieksdoeleinden (omvat overheids- en particuliere terreinen).</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_maatschappelijke_en_of_publieksvoorziening.md"></section>
+         <h3>recreatie</h3>
+         <p> Verplicht: nee </p>
+         <p>Gebied in gebruik voor openlucht recreatie.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_recreatie.md"></section>
+         <h3>begraafplaats</h3>
+         <p> Verplicht: nee </p>
+         <p>Een besloten gebied waar lichamen van overleden personen worden begraven. Ook worden op begraafplaatsen urnen as van gecremeerde lichamen bewaard.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_begraafplaats.md"></section>
+         <h3>functioneel beheer</h3>
+         <p> Verplicht: nee </p>
+         <p>Gebied waar een specifiek beheer voor benodigd is, louter bepaald vanuit beheersoogpunt.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_functioneel_beheer.md"></section>
+         <h3>recreatie: speeltuin</h3>
+         <p> Verplicht: nee </p>
+         <p>Geheel van begroeiing, verharding, opstallen en speelwerktuigen, bedoeld als speelplaats voor kinderen.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_recreatie_speeltuin.md"></section>
+         <h3>recreatie: park</h3>
+         <p> Verplicht: nee </p>
+         <p>Landschappelijk ingericht terrein, begroeid met houtachtige en kruidachtige vegetatie, verharding, objecten, waterpartijen en dergelijke, bedoeld als (grootschalige) recreatieve voorziening.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_recreatie_park.md"></section>
+         <h3>recreatie: sportterrein</h3>
+         <p> Verplicht: nee </p>
+         <p>Terrein, mogelijk met groenvoorziening, verharding en bebouwing, bestemd voor sportbeoefening.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_recreatie_sportterrein.md"></section>
+         <h3>recreatie: camping</h3>
+         <p> Verplicht: nee </p>
+         <p>Geheel van verharding, begroeiing en opstallen, in gebruik als terrein waar tijdelijk tenten en/of caravans kunnen worden geplaatst ten behoeve van recreatie.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_recreatie_camping.md"></section>
+         <h3>recreatie: bungalowpark</h3>
+         <p> Verplicht: nee </p>
+         <p>Geheel van verharding, begroeiing, overige opstallen en gebouwen, bedoeld als vakantie-/weekendhuisjes die niet permanent bewoond worden.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_recreatie_bungalowpark.md"></section>
+         <h3>bushalte</h3>
+         <p> Verplicht: nee </p>
+         <p>Halteplaats voor bussen van het openbaar vervoer.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_bushalte.md"></section>
+         <h3>carpoolplaats</h3>
+         <p> Verplicht: nee </p>
+         <p>Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_carpoolplaats.md"></section>
+         <h3>benzinestation</h3>
+         <p> Verplicht: nee </p>
+         <p>Geheel van installaties, verharding en opstallen waar brandstoffen ten behoeve van verbrandingsmotoren worden verkocht.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_benzinestation.md"></section>
+         <h3>verzorgingsplaats</h3>
+         <p> Verplicht: nee </p>
+         <p>Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_verzorgingsplaats.md"></section>
+         <h3>functioneel beheer: hondenuitlaatplaats</h3>
+         <p> Verplicht: nee </p>
+         <p>Een uitlaatplaats waar uw hond zijn behoefte kan/ mag doen waarbij geen opruimplicht bestaat.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_functioneel_beheer_hondenuitlaatplaats.md"></section>
+         <h3>recreatie: volkstuin</h3>
+         <p> Verplicht: nee </p>
+         <p>Terreingedeelte in gebruik als volkstuinen, inclusief bebouwing, verharding en dergelijke.</p>
+         <section data-format="markdown" data-include="typefunctioneelgebiedplus_recreatie_volkstuin.md"></section>
+      </section>
+      <section id="Wegdeel">
+         <h1>Plaatsbepalingspunt</h1>
+         <p>Punt dat is ingemeten en vervolgens gebruikt is bij en onderdeel uitmaakt van de begrenzing van BGT objecten. </p>
+         <h2>Inwinningsmethode</h2>
+         <h3>terrestrisch</h3>
+         <p> Verplicht: ja </p>
+         <p>De geometrie is ingewonnen middels terreinbezoek.</p>
+         <section data-format="markdown" data-include="inwinningsmethode_terrestrisch.md"></section>
+         <h3>laser</h3>
+         <p> Verplicht: ja </p>
+         <p>De geometrie is met behulp van een laserscanner ingewonnen.</p>
+         <section data-format="markdown" data-include="inwinningsmethode_laser.md"></section>
+         <h3>fotogrammetrisch</h3>
+         <p> Verplicht: ja </p>
+         <p>De geometrie is ingewonnen vanaf daartoe geschikte (digitale) foto's, meestal luchtfoto's.</p>
+         <section data-format="markdown" data-include="inwinningsmethode_fotogrammetrisch.md"></section>
+         <h3>panoramabeelden</h3>
+         <p> Verplicht: ja </p>
+         <p>De geometrie is vanaf panoramafoto's ingewonnen.</p>
+         <section data-format="markdown" data-include="inwinningsmethode_panoramabeelden.md"></section>
+         <h3>digitaliseren</h3>
+         <p> Verplicht: ja </p>
+         <p>De geometrie is handmatig van analoog naar digitale informatie omgezet.</p>
+         <section data-format="markdown" data-include="inwinningsmethode_digitaliseren.md"></section>
+         <h3>scannen</h3>
+         <p> Verplicht: ja </p>
+         <p>De geometrie is geautomatiseerd van analoog naar digitale informatie omgezet.</p>
+         <section data-format="markdown" data-include="inwinningsmethode_scannen.md"></section>
+         <h3>bouwtekening</h3>
+         <p> Verplicht: ja </p>
+         <p>De geometrie is van een bouwtekening afgeleid.</p>
+         <section data-format="markdown" data-include="inwinningsmethode_bouwtekening.md"></section>
+         <h3>geconstrueerd</h3>
+         <p> Verplicht: ja </p>
+         <p>De geometrie is in een GIS of CAD systeem geconstrueerd.</p>
+         <section data-format="markdown" data-include="inwinningsmethode_geconstrueerd.md"></section>
+      </section>
+      <section id="Wegdeel">
+<h1>VoidReasonValue</h1>
+<br />
+<b>Warning</b>:  file_get_contents(https://definities.geostandaarden.nl/imgeo/doc/begrip/VoidReasonValue?format=json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in <b>C:\xampp\htdocs\objectenhandboek\index.php</b> on line <b>128</b><br />
+<p></p>
+<h2>VoidReasonValue</h2>
+<h3>geenWaarde</h3><p> Verplicht: ja </p>
+<p>Element heeft in werkelijkheid geen waarde.</p>
+<section data-format="markdown" data-include="voidreasonvalue_geenwaarde.md"></section>
+<h3>nietOndersteund</h3><p> Verplicht: ja </p>
+<p>Zender houdt in zijn registratie geen waarde voor dit attribuut bij. Geldt voor alle objecten van dit objecttype.</p>
+<section data-format="markdown" data-include="voidreasonvalue_nietondersteund.md"></section>
+<h3>waardeOnbekend</h3><p> Verplicht: ja </p>
+<p>Element is verplicht maar de waarde is bij de zender niet bekend.</p>
+<section data-format="markdown" data-include="voidreasonvalue_waardeonbekend.md"></section>
+<h3>vastgesteldOnbekend</h3><p> Verplicht: ja </p>
+<p>Er is vastgesteld dat de waarde van het attribuut onbekend is en hoogst waarschijnlijk niet meer kan worden achterhaald (bijvoorbeeld omdat het brondocument onleesbaar is of het object niet meer bestaat in de werkelijkheid).</p>
+<section data-format="markdown" data-include="voidreasonvalue_vastgesteldonbekend.md"></section>
+<h3>nietGeautoriseerd</h3><p> Verplicht: ja </p>
+<p>Deze zender vindt dat de ontvanger niet geautoriseerd is om de waarde te kennen.</p>
+<section data-format="markdown" data-include="voidreasonvalue_nietgeautoriseerd.md"></section>
+</section>
+   </body>
 </html>
-
-
-
