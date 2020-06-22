@@ -446,7 +446,7 @@ Samengestelde attributen
 | **Definitie samengesteld attribuut**   | Locatie waar een label ten behoeve van visualisatie moet worden afgebeeld.                                                 |
 | **Stereotype**                         | \<\<dataType\>\> \<\<BGT\>\> \<\<groepattribuuttype\>\>                                                                    |
 | **Herkomst samengesteld attribuut**    | \-                                                                                                                         |
-| **Toelichting samengesteld attribuut** | Ten behoeve van visualisatie is opgenomen het geometriepunt en eventuele rotatie die gewenst is bij het tonen van de naam. |
+| **Toelichting samengesteld attribuut** | Ten behoeve van visualisatie zijn opgenomen het geometriepunt en eventuele rotatie die gewenst is bij het tonen van de naam. |
 | **Overzicht attributen**               | \<\<BGT\>\>plaatsingspunt [1-1]                                                                                            |
 |                                        | \<\<BGT\>\>hoek [1-1]                                                                                                      |
 
