@@ -459,7 +459,7 @@ IMGeo heeft niet als doel om de gehele levenscyclus van topografische objecten,
 van plan tot realisatie en sloop, exact vast te leggen. IMGeo biedt wel de
 mogelijkheid om plantopografie vast te leggen, omdat de behoefte bestaat om op
 de kaart alvast te kunnen laten zien waar in de toekomst bepaalde objecten komen
-te liggen. Men heeft over het algemeen aan de lijnen al voldoende die schetsen
+te liggen. Men heeft over het algemeen al voldoende aan de lijnen die schetsen
 waar het object komt te liggen. Omdat IMGeo objectgericht is, wordt ook
 plantopografie opgenomen als zelfstandig object met een eigen identificatie. De
 levenscyclus van het object wordt echter niet expliciet gemodelleerd. De
