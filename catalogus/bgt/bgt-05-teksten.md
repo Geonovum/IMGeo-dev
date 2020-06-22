@@ -25,7 +25,7 @@ Namen
 -----
 
 In de visualisatie van de BGT worden namen gepresenteerd van alle openbare
-ruimten, zoals gedefinieerd in de BAG. Dit is bedoeld ter oriëntatie. Een naam
+ruimten, zoals gedefinieerd in de BAG. De namen zijn bedoeld ter oriëntatie. Een naam
 van een openbare ruimte kan meerdere malen worden gepresenteerd. Dit heeft te
 maken met het gebruik binnen het schaalbereik van 1:500 tot 1:5.000. Als een
 openbare ruimte een lengte heeft van meer dan 300 meter, dan is het noodzakelijk
@@ -93,10 +93,6 @@ haaks op de voorgevel staat. (zie Figuur 10).
 Locaties van nummeraanduidingen van lig- en standplaatsen worden in de BGT niet
 geregistreerd. Locaties van individuele verblijfsobjecten zijn geen onderdeel
 van de BGT. Deze worden in de BAG vastgelegd.
-
-N.B. Bij het maken van producten uit het stelsel zijn ook gecombineerde
-producten mogelijk, waarbij bijvoorbeeld zowel gegevens uit de BGT als de BAG
-worden gevisualiseerd.
 
 Rotatie
 -------
