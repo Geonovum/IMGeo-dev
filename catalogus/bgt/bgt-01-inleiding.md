@@ -83,7 +83,7 @@ gebruik gecreëerd.
 
 Het doel van de BGT is een verbijzondering van de doelstelling van
 basisregistraties in algemene zin: de hele overheid gebruikt dezelfde
-basisgegevens. De ratio is dat de overheid dezelfde topografische basiskaart te
+basisgegevens. De ratio is dat de overheid dezelfde topografische basiskaart
 gebruikt als basis voor geo-gerelateerde thema's. Dit vindt zijn weerslag in de
 BGT en door de BGT op te nemen in het stelsel van basisregistraties. Dit creëert
 mogelijkheden voor:
