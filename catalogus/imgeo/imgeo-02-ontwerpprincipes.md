@@ -111,10 +111,9 @@ IMGeo 2.0 optimaal voorbereid voor 3D.
 De volgende subparagrafen bevatten een technische uitleg over de integratie
 tussen CityGML en IMGeo en mogelijke uitbreiding van 2D IMGeo naar 3D IMGeo. Om
 de integratie te kunnen begrijpen, volgt eerst een korte uitleg over CityGML.
-Het eindrapport van de 3D Pilot werkgroep 3D Standaard NL[^1] gaat dieper in op
-CityGML en de integratie hiervan met IMGeo.
-
-[^1]: http://www.geonovum.nl/sites/default/files/standaarden/3DPilot_2Eindrapport_WerkgroepStandaarden.pdf
+Meer over de integratie tussen CityGML en IMGeo vindt u in het dossier
+3D Omgevingsinformatie [https://www.geonovum.nl/geo-standaarden/3d-omgevingsinformatie]
+op de website van Geonovum.
 
 ### CityGML
 
@@ -217,14 +216,10 @@ modelleerprincipes:
     (EPSG:28992) en NAP voor de Z dimensie (EPSG:5709). Hiernaar moet expliciet
     gerefereerd worden in een CityGML-bestand.
 
-    [^3]: Overeenkomstig het raamwerk van geo-standaarden, versie 2.1
-
+ 
 ![](media/234443eb87a75ba5ced70591a63bb0e3.png)
 
 Vegetatieobject als subklasse van CityGML SolitaryVegetationObject
 
-Zie voor meer informatie over het toepassen van CityGML-IMGeo het
-3D-pilotrapport “Technische specificaties voor de opbouw van 3D
-IMGeo-CityGML[^4]”.
-
-[^4]: http://www.geonovum.nl/sites/default/files/3D/toolkit/3DIMGeoBestekteksten.pdf.
+Zie voor meer informatie over het toepassen van CityGML-IMGeo
+https://www.geonovum.nl/geo-standaarden/3d-omgevingsinformatie
