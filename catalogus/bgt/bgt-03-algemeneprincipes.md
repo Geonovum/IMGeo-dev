@@ -253,14 +253,13 @@ over een brug loopt, ook al zijn de rest van de kenmerken gelijk.
 Niveauaanduidingen per object
 =============================
 
-De BGT, het verplichte deel van IMGeo dus, is een tweedimensionale
-objectverzameling. Daarom is het noodzakelijk om de re­la­tieve hoogteligging
-van objecten ten opzichte van elkaar vast te leggen. Hiervoor wordt gebruik
-gemaakt van niveaus die aangeven of een object zich op maaiveldniveau (niveau 0)
-bevindt of op een onder- of bovenliggend niveau. Het niveau wordt vastgelegd met
-het attribuut ‘relatieveHoogteligging’. Dit kan elk willekeurig geheel getal
-(integer) aannemen. Het niveaugetal geeft geen informatie over de absolute
-hoogte van een object.
+De BGT is een tweedimensionale objectverzameling. Daarom is het noodzakelijk om
+de rel­tieve hoogteligging van objecten ten opzichte van elkaar vast te leggen.
+Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op
+maaiveldniveau (niveau 0) bevindt of op een onder- of bovenliggend niveau.
+Het niveau wordt vastgelegd met het attribuut ‘relatieveHoogteligging’. Dit
+kan elk willekeurig geheel getal (integer) aannemen. Het niveaugetal geeft
+geen informatie over de absolute hoogte van een object.
 
 Open, bovengronds water heeft altijd niveau 0. Objecten op een bovenliggend
 niveau, bijvoorbeeld een overbrugging over water, hebben een hoger niveaugetal.
