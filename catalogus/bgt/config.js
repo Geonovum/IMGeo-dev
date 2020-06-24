@@ -3,8 +3,7 @@ var respecConfig = {
   specStatus: "GN-VV",
   specType: "IM",
   //subtitle: "Gegevenscatalogus BGT 1.2",  
-  logos: 
-  {
+  logos: [{
     src: 'logo_minbzk.png',
     href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
     alt: "Ministerie BZK",
