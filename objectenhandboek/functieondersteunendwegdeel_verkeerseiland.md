@@ -1,4 +1,4 @@
-<div>
+
 
 ### OndersteunendWegdeel, functie: verkeerseiland
 
@@ -6,14 +6,13 @@
 
 C:
 
-  ***OndersteunendWegdeel***   ***Attribuutwaarde***   ***Opmerkingen***
-  ---------------------------- ----------------------- -------------------
-  typeOndersteunendWegdeel     Verkeerseiland          
-  fysiekVoorkomen              Open verharding         
-  relatieveHoogteligging       0                       
+ | ***OndersteunendWegdeel***  | ***Attribuutwaarde***  | ***Opmerkingen***|
+ | ----------------------------| -----------------------| -------------------|
+ | typeOndersteunendWegdeel    | Verkeerseiland         | |
+ | fysiekVoorkomen             | Open verharding       |  |
+|  relatieveHoogteligging      | 0                     |  |
 
 A: Wegdeel, Rijbaan: Lokale weg, Open verharding.
 
 B: Wegdeel, Rijbaan: Lokale weg, Gesloten verharding.
 
-</div>
