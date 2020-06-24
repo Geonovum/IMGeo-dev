@@ -8,19 +8,18 @@ informatiemodel voor de Basisregistratie Grootschalige Topografie (BGT) is
 vervolgens in samenhang met IMGeo ontwikkeld.
 
 In februari 2012 is versie 2.0 van IMGeo vastgesteld, waarin het informatiemodel
-BGT in zijn geheel is opgenomen. IMGeo bevat meer detail dan de BGT. IMGeo
-bestaat uit een verplicht deel, te weten de BGT, en een optio­neel deel, te
-weten de plus- en beheertopografie.
+BGT in zijn geheel is opgenomen. IMGeo bestaat sindsdien uit een verplicht deel,
+te weten de BGT, en een optio­neel deel, te weten de plus- en beheertopografie.
 
 Vanaf versie 2.0 is IMGeo gebaseerd op CityGML, een internationale standaard
 voor 3D geo-informatie. De IMGeo objecttypen zijn gekoppeld aan klassen uit het
 CityGML informatiemodel en hebben hiermee de mogelijkheid om 3D geometrie in
 verschillende gradaties van detail op te nemen.
 
-IMGeo is beschreven in een gegevenscatalogus, die uit twee delen bestaat. In
-deel I is het verplichte deel van IMGeo, de BGT, vastgelegd: de
-Gegevenscatalogus BGT. Dit is deel II met daarin het optionele deel van IMGeo:
-de Gegevenscatalogus IMGeo.
+IMGeo is beschreven in een gegevenscatalogus, die uit twee delen bestaat.
+Deel I beschrijft het verplichte deel van IMGeo: de Gegevenscatalogus BGT.
+Deel II, het deel dat u nu leest, beschrijft het optionele deel: de
+Gegevenscatalogus IMGeo.
 
 Vanaf 2013 is op basis van BGT versie 1.1.1 en IMGeo 2.1.1 de opbouw van de BGT
 door bronhouders gestart. Eind 2020 is de laatste fase van de transitie
@@ -29,8 +28,8 @@ toepassing van de regels van IMGeo.
 
 Hieruit kwam naar voren dat de BGT niet geheel uniform is opgebouwd door
 bronhouders door ruimte voor interpretatie in de afbakeningsregels, en dat IMGeo
-niet volledig ruimte biedt om alle objecten op te nemen waar vanuit o.m. beheer
-openbare ruimte, netbeheerders en hulpdiensten behoefte aan is.
+niet volledig ruimte biedt om alle objecten op te nemen waar behoefte aan is
+vanuit o.m. beheer openbare ruimte, netbeheerders en hulpdiensten.
 
 Deze versie is een optimalisatie van het model door:
 
@@ -50,9 +49,9 @@ IMGeo, het optionele deel
 Het informatiemodel IMGeo is een uitbreiding in diepte en breedte op de
 verplichte Basisregistratie Grootschalige Topografie (BGT). Een wegdeel is in de
 BGT bijvoorbeeld omschreven als Wegdeel: rijbaan, gesloten verharding. Met IMGeo
-kan deze beschrijving worden gedetailleerd naar Wegdeel: rijbaan, gesloten
-verharding, asfaltbeton. Deze uitgebreide objectbeschrijving is vervolgens met
-verschillende applicaties uit te wisselen.
+kan deze beschrijving verder wordt gespecificeerd naar Wegdeel: rijbaan,
+gesloten verharding, asfaltbeton. Deze uitgebreide objectbeschrijving is
+vervolgens met verschillende applicaties uit te wisselen.
 
 Het verplichte informatiemodel van de BGT vormt een integraal onderdeel van
 IMGeo.
@@ -67,7 +66,7 @@ heel Nederland gebiedsdekkend beschikbaar te hebben. Wel zijn er bronhouders en
 afnemers die deze informatie willen uitwisselen. Een informatiemodel voor de
 plus- en beheertopografie is ook voor softwareleveranciers van belang. Zij
 kunnen hun softwareproducten hierop inrichten. IMGeo zorgt ervoor dat wie de
-optionele informatie wil beheren en/of uitwisselen, dit in ieder geval volgens
+optionele informatie wil beheren en/of uitwisselen, dit volgens
 een landelijke standaard kan doen (zie ook paragraaf 2.1.1 en 2.1.2).
 
 IMGeo biedt ook voor de uitwisseling van grootschalige topografie in 3D de

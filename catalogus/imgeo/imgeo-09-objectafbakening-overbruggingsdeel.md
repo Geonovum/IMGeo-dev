@@ -1,8 +1,6 @@
 Overbruggingsdeel
 -----------------
 
-### Objectvorming
-
 In IMGeo kunnen bij het overbruggingsdeel ook kenmerken van de gehele
 overbrugging worden opgenomen. Het overbruggingsdeel (CityGML
 BridgeConstructionElement) zelf kan nader worden geclassificeerd als

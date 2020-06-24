@@ -41,7 +41,7 @@ Om een vastgestelde actualiteit van een bestand als de BGT te kunnen garanderen
 moet de inwinning en het verwerkingsproces daarvan met een hogere frequentie
 plaatsvinden. Neem als voorbeeld dat een object een dag na een terreinopname
 wijzigt. Als er pas na zes maanden een nieuwe inwinning plaatsvindt, zou de
-actualiteit al vrijwel zijn overschreden, terwijl het verwerkingsproces van de
+actualiteit al zijn overschreden, terwijl het verwerkingsproces van de
 inwinning nog moet plaatsvinden. Een ander voorbeeld, luchtfoto’s. Deze worden
 met een bijhoudingsfrequentie van 12 maanden gevlogen. Daarna volgt de
 verwerking van de luchtfoto’s en de aanpassing van de BGT op basis van de
@@ -62,7 +62,8 @@ De positionele nauwkeurigheid van een object wordt beschreven op het niveau van
 het objecttype. Hiermee wordt aan elk object binnen dat objecttype een
 nauwkeurigheidseis gesteld. De BGT hanteert voor het beschrijven van de
 positionele nauwkeurigheid de relatieve precisie. Een uitgebreide theoretische
-beschrijving hiervan staat in de HTW 1996. Bij de precisiebeschrijving wordt
+beschrijving hiervan staat in het Handboek Technische Werkzaamheden van het
+Kadaster uit 1996 (HTW 1996). Bij de precisiebeschrijving wordt
 onderscheid gemaakt tussen de relatieve precisie van coördinaten ten gevolge van
 de ontstaanswijze (het meet-en verwerkingsproces) en de idealisatie. Toepassing
 van het meet- en verwerkingsproces levert de vereiste minimumwaarde op.

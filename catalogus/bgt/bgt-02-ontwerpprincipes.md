@@ -11,7 +11,7 @@ de be­schre­ven, fysieke, op enig moment in de werkelijkheid voorkomende,
 zichtbare to­po­grafische objecten met een duidelijk meervoudig gebruik,
 samengevat onder de term basistopografie. De BGT neemt deze op als authentieke,
 wettelijk vastgestelde objecten. Deze objecten vormen het verplichte deel van
-IMGeo 2.1.
+IMGeo 2.2.
 
 Schaalbereik
 ------------
@@ -35,10 +35,10 @@ Dekking
 
 De BGT wordt landsdekkend beheerd voor het grondgebied van Nederland binnen de
 gemeentegrenzen. Daartoe behoren ook industriële complexen, zoals Schiphol, de
-Hoogovens en Europoort. Dit geldt voor alle particuliere terreinen waar deze
+Hoogovens en Europoort. Dit geldt ook voor alle particuliere terreinen waar deze
 informatie voorziet in een betere of zelfs noodzakelijke, wettelijk geregelde
 dienstverlening door bronhouders en gebruikers. Denk daarbij bijv. aan de inzet
-van hulpdiensten maar ook de dienstverlening door netbeheerders die deels een
+van hulpdiensten maar ook de dienstverlening door netbeheerders dat deels een
 wettelijke taak is.
 
 Niet tot de inhoud van de BGT behoort het grondgebied van Nederland in de
