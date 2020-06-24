@@ -56,10 +56,10 @@ parken en bossen.
 De inhoud van de BGT is afgestemd op de gezamenlijke informatiebehoefte van de
 verschillende gebruikers van het bestand. Een belangrijk uitgangspunt hierbij is
 dat sprake moet zijn van meervoudig gebruik. Het gaat hierbij zowel om de
-bronhouders (gemeenten, waterschappen, provincies, Ministerie van Economische
-Zaken, Ministerie van Defensie, Rijkswaterstaat en Prorail), als om andere
-gebruikers en basisregistraties in het stelsel. Gebruikers kunnen via de
-Landelijke Voorziening BGT-informatie opvragen en downloaden.
+bronhouders zoals staat vermeld in artikel 10 van de Wet basisregistratie
+grootschalige topografie, als om andere gebruikers en basisregistraties in het
+stelsel. Gebruikers kunnen via de Landelijke Voorziening BGT-informatie opvragen
+en downloaden.
 
 Een belangrijk onderdeel van het ontwerp van de BGT is de gegevenscatalogus. Bij
 het opstellen ervan is zoveel mogelijk rekening gehouden met de actuele
