@@ -16,7 +16,7 @@ Dit is niet uniform en consistent toegepast, en heeft tot gevolg dat afnemers nu
 meer PBP’s krijgen dan nodig is, ofwel deze PBP’s zijn redundant in termen van
 overbodig, overtollig, en betekenisloos.
 
-Sommige bronhouders hebben later no de oorspronkelijk GBKN PIB-gegevens
+Sommige bronhouders hebben later nog de oorspronkelijk GBKN PIB-gegevens
 toegevoegd aan een PBP door een nieuw PBP op te voeren voor het coördinaat. Een
 PBP krijgt namelijk geen einddatum. Als gevolg daarvan is het aantal PBP’s nu
 gegroeid tot onverwerkbare grootte (\>350 miljoen). De signalen zijn dat dit bij
@@ -42,13 +42,13 @@ PBP’s.
 Om redundante plaatsbepalingspunten te schrappen worden de volgende wijzigingen
 voorgesteld:
 
--   Alleen een coördinaat daadwerkelijk ingemeten heeft een plaatsbepalingspunt.
+1.  Alleen een coördinaat daadwerkelijk ingemeten heeft een plaatsbepalingspunt.
 
--   De inwinningsmethoden worden beperkt tot terrestrisch, laser,
+2.  De inwinningsmethoden worden beperkt tot terrestrisch, laser,
     fotogrammetrisch, en panoramabeelden. De overige inwinningsmethoden
     vervallen.
 
--   Plaatsbepalingspunten worden alleen opgenomen bij BGT-objecten waarvan de
+3.  Plaatsbepalingspunten worden alleen opgenomen bij BGT-objecten waarvan de
     begrenzing goed idealiseerbaar is. Dit zijn de objecten met een
     nauwkeurigheidseis van 30cm in tabel 1 van paragraaf 4.2 van de BGT
     gegevenscatalogus en de tabel in paragraaf 4.1 van de IMGeo
@@ -92,13 +92,13 @@ De impact van dit voorstel is relatief hoog.
 In de centrale ketensystemen (LV-BGT) dienen een aantal software-aanpassingen
 doorgevoerd te worden:
 
--   de controle op volledigheid PBP’s (voor elk coördinaat een PBP) in de LV-BGT
+1.  de controle op volledigheid PBP’s (voor elk coördinaat een PBP) in de LV-BGT
     wordt geschrapt in de LV-BGT.
 
--   BRAVO filtert uit de mutatieberichten van bronhouder de redundante PBP’s en
+2.  BRAVO filtert uit de mutatieberichten van bronhouder de redundante PBP’s en
     zet een opgeschoond bestand door richting LV-BGT.
 
--   LV-BGT en PDOK schonen de redundante PBP’s in hun database op, d.w.z. alle
+3.  LV-BGT en PDOK schonen de redundante PBP’s in hun database op, d.w.z. alle
     PBP’s met inwinningsmethoden *digitaliseren, scannen*, *bouwtekening*,
     *geconstrueerd*, en *transitie* en alle PBP’s die niet horen bij een
     goed-idealiseerbaar object.

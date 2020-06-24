@@ -31,7 +31,7 @@ De wijzigingen leveren de volgende voordelen op:
 
 -   Omdat de percentages aansluiten bij de BRT wordt consistentie tussen de BRT
     en BGT bereikt. Dit geeft vertrouwen in de kwaliteit van de BRT en BGT en
-    leidt tot meer gebruik van de BGT. Ook geeft
+    leidt tot meer gebruik van de BGT.
 
 -   Er kunnen betere landelijke analyses worden uitgevoerd omdat de
     classificaties van bossen juist en uniform zijn toebedeeld. Dit leidt tot

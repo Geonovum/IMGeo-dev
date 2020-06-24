@@ -74,7 +74,7 @@ alinea van 4.2 (4509)
 [175](https://github.com/Geonovum/IMGeo-dev/issues/175) Exacte regels voor kruin
 BegroeidTerreindeel opnemen
 
-[176](https://github.com/Geonovum/IMGeo-dev/issues/176) definities van brug en
+[176](https://github.com/Geonovum/IMGeo-dev/issues/176) Definities van brug en
 duiker verbeteren
 
 [183](https://github.com/Geonovum/IMGeo-dev/issues/183) Definitie 'bunker' in
@@ -130,7 +130,7 @@ Begroeid terreindeel met 1:graft en 2:steilwand (4387)
 [156](https://github.com/Geonovum/IMGeo-dev/issues/156) Opnemen definitie
 maaiveld in catalogus
 
-[165](https://github.com/Geonovum/IMGeo-dev/issues/165) molgoten tussen rijbaan
+[165](https://github.com/Geonovum/IMGeo-dev/issues/165) Molgoten tussen rijbaan
 en parkeervlakken
 
 [197](https://github.com/Geonovum/IMGeo-dev/issues/197) Aanscherpen

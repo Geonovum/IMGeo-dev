@@ -7,7 +7,7 @@ In de BGT worden scheidingen alleen vastgelegd als ze bepaalde minimum
 afmetingen hebben, die per type scheiding verschillen (zie BGT
 gegevenscatalogus).
 
-In IMGeo kunnen scheidingen, die kleiner dan het BGT minimum zijn, worden
+In IMGeo kunnen scheidingen, die kleiner zijn dan het BGT minimum, worden
 opgenomen als objecttype ‘overige scheiding’. Deze kent dezelfde typen
 scheiding. De populatie van Overige Scheiding bestaat uit:
 
@@ -78,7 +78,7 @@ De wijzigingen leveren de volgende voordelen op:
 
 2.  Er kunnen betere landelijke analyses worden uitgevoerd omdat de gegevens van
     scheidingen op één plek (objectklasse) in de BGT\|IMGeo dataset beschikbaar
-    zijn. Dit leidt tot beter resultaten in onderzoek en beleid.
+    zijn. Dit leidt tot betere resultaten in onderzoek en beleid.
 
 3.  Door de keuze-/interpretatieruimte voor afbakening en classificatie van
     scheiding in te perken, kunnen bestekken worden geüniformeerd en kunnen
@@ -101,7 +101,7 @@ vlakgeometrie op maaiveldniveau worden opdelend.
 
 De wijziging kan zonder software aanpassing worden doorgevoerd.
 
-Aan bronhouders gevraagd om met terugwerkende kracht alle hekken, muren en
+Aan bronhouders wordt gevraagd om met terugwerkende kracht alle hekken, muren en
 andere typen scheidingen die ondergebracht zijn in de objectklasse
 OverigeScheiding om te zetten naar Scheiding.
 

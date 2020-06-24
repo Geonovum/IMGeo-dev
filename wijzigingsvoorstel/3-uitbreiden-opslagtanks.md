@@ -15,7 +15,7 @@ dit niet uniform is, is de aanwezigheid van een opslagtank wel relevante
 informatie voor hulpdiensten. De toename van het aantal particuliere
 zonnepanelen, zorgt voor de lokale opslag van energie in een zogenaamde
 buurtbatterij. Bij een calamiteit is het relevant om de locaties van deze
-buurtbatterijen te weten, omdat bij brand er een andere manier van blussen moet
+buurtbatterijen te weten, omdat er bij brand een andere manier van blussen moet
 worden toegepast op de lithium-accu’s en er veel giftige stoffen vrij kunnen
 komen.
 
@@ -29,7 +29,7 @@ hulpdiensten, worden de volgende wijzigingen voorgesteld:
 
 Deze wijzigingen levert het volgende voordeel op:
 
--   De dienstverlening van hulpdiensten verbeterd, omdat er meer informatie is.
+-   De dienstverlening van hulpdiensten verbetert, omdat er meer informatie is.
 
 ### Impact en implementatie
 

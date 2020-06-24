@@ -15,7 +15,7 @@ de BGT.
 
 ### Oplossing en nut
 
-Om de informatievoorziening beheerders en hulpdiensten voor de inzet van
+Om de informatievoorziening te verbeteren voor beheerders en voor de inzet van
 hulpdiensten, worden de volgende wijzigingen voorgesteld:
 
 -   Voor de indeling van particuliere terreinen wordt geregeld dat dit geldt
@@ -25,7 +25,7 @@ hulpdiensten, worden de volgende wijzigingen voorgesteld:
 De wijzigingen leveren de volgende voordelen op:
 
 -   De dienstverlening van hulpdiensten verbeterd, omdat er meer informatie is.
-    Ook netbeheerders hebben nut van de indeling van particuliere terreinen bij
+    Ook netbeheerders hebben baat bij de indeling van particuliere terreinen bij
     het bepalen van de ligging van kabels voor aansluitingen naar gebouwen.
 
 ### Impact en implementatie
@@ -33,7 +33,7 @@ De wijzigingen leveren de volgende voordelen op:
 De impact van dit voorstel is relatief laag: software hoeft niet aangepast te
 worden, en bronhouders hoeven relatief weinig extra gegevens in te winnen.
 
-Aan bonhouders wordt met terugwerkende kracht gevraagd om grote particuliere
+Aan bronhouders wordt met terugwerkende kracht gevraagd om grote particuliere
 terreinen (principeregel meer dan 5ha) nader in te delen met wegen, bouwwerken
 en water voor zover nog niet gedaan.
 

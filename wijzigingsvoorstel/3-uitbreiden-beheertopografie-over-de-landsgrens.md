@@ -19,7 +19,7 @@ gehanteerd: bronhouders knippen niet actief op de gemeentegrens, maar op de
 grens waar objectkenmerken veranderen. Ook hebben deze organisaties de behoefte
 om objecten geheel in het buitenland maar wel in beheer op te nemen in IMGeo.
 
-IMGeo geeft nu weinig tot geen regels hoe omgaan moet worden met objecten die
+IMGeo geeft nu weinig tot geen regels hoe omgegaan moet worden met objecten die
 geheel of deels buiten Nederland liggen. Dit leidt tot onduidelijkheid en extra
 complexiteit: bronhouders gaan toch knippen op de landsgrens, en registreren de
 beheertopografie op/over de landsgrens apart van de BGT\|IMGeo-gegevens. Dit is
@@ -51,5 +51,5 @@ De wijzigingen leveren de volgende voordelen op:
 ### Impact en implementatie
 
 De impact van dit voorstel is laag: bronhouders bepalen zelf of zij
-beheerobjecten buiten de landgrens opnemen in IMGeo. Voor de implementatie mogen
-gegevens worden toegevoegd.
+beheerobjecten buiten de landsgrens opnemen in IMGeo. Voor de implementatie
+mogen gegevens worden toegevoegd.

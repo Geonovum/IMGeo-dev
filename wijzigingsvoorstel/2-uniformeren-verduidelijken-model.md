@@ -5,7 +5,7 @@ Huidige situatie en probleem
 ----------------------------
 
 Tijdens de opbouw van de BGT zijn werkafspraken gemaakt bij
-interpretatieverschillen en fouten in de standard Deze werkafspraken zijn
+interpretatieverschillen en fouten in de standaard Deze werkafspraken zijn
 gepubliceerd via de website van Geonovum. Bronhouders hebben hierop hun gegevens
 en leveranciers hun software aangepast. Ook is de toepassing van het model
 verder verduidelijkt via de IMGeo helpdesk en aanvullende communicatie vanuit
@@ -99,7 +99,7 @@ water waar het zich boven bevindt.
 ##### afbakening van rijbanen en fietspad
 
 Voor onderscheid tussen verschillende rijbanen en fietspad wordt in de
-afbakeningsregels verduidelijkt dat een wegdeel met functie
+afbakeningsregels verduidelijkt dat een wegdeel met functie:
 
 -   rijbaan autosnelweg onderdeel uit maakt van een weg, welke **veelal is
     aangeduid met het betreffende verkeersbord G01.**
@@ -139,19 +139,19 @@ die van de objectbegrenzing ter plaatse.**
 Voor macro-objecten (functioneel gebied) wordt verduidelijkt dat dit een
 clustering van objecten en/of delen van objecten is.
 
-##### opmaak, plaatsing en draaïing van huisnummers en overige labels
+##### opmaak, plaatsing en draaiing van huisnummers en overige labels
 
 Voor huisnummers (nummeraanduidingreeks) wordt verduidelijkt dat de rotatiehoek
-dient te worden vastgelegd, zodat het nummer haaks of eenwijdig aan de voorgevel
-mee kan worden gevisualiseerd, waarbij de kleinste rotatie wordt gekozen ten
-opzichte van de normale tekstrichting.
+dient te worden vastgelegd, zodat het nummer haaks of evenwijdig aan de
+voorgevel mee kan worden gevisualiseerd, waarbij de kleinste rotatie wordt
+gekozen ten opzichte van de normale tekstrichting.
 
 Voor huisnummers (nummeraanduidingreeks) wordt verduidelijkt dat elke
 nummeraanduidingreeks van een Pand eenmaal wordt afgebeeld.
 
 Voor huisnummers (nummeraanduidingreeks) wordt verduidelijkt dat voor de opmaak
 van een nummeraanduidingreeks zo veel mogelijk onderstaand patroon toegepast
-moet te worden.
+moet worden.
 
 {huisnummer}{huisletter}/{huisnummertoevoeging}-{huisnummer}{huisletter}/{huisnummertoevoeging}
 
@@ -159,7 +159,7 @@ Waarin (regex = reguliere expressie)
 
 -   {huisnummer} een nummer van 1 tot 99999 (*regex {0-9}[1-5]*)
 
--   {huisle tter} een hoofdletter of kleine letter (*regex {a-zA-Z}[0-1]*)
+-   {huisletter} een hoofdletter of kleine letter (*regex {a-zA-Z}[0-1]*)
 
 -   {huisnummertoevoeging} 0 tot 4 alfanumeriek karakter (*regex
     {0-9a-zA-Z}[0-4]*)

@@ -4,11 +4,11 @@ Vervallen objecten en classificatie uit transitie
 Huidige situatie en probleem
 ----------------------------
 
-In de opbouwfase van de BGT konden objecten als ongeclassificeerd of met waarde
-'transitie' opnemen. De transitie van de BGT is per 1 januari 2020 ten einde en
-alle gegevens dienen geclassificeerd volgens de regels van het IMGeo te zijn
-aangeleverd aan de LV-BGT. De transitieobjecten dienen niet meer te mogen worden
-toegepast door bronhouders.
+In de opbouwfase van de BGT konden bronhouders objecten als ongeclassificeerd of
+met waarde 'transitie' opnemen. De transitie van de BGT is per 1 januari 2020
+ten einde en alle gegevens moeten geclassificeerd volgens de regels van het
+IMGeo zijn aangeleverd aan de LV-BGT. De transitieobjecten mogen niet meer
+worden toegepast door bronhouders.
 
 Oplossing en nut
 ----------------

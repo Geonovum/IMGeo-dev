@@ -7,9 +7,9 @@ In de BGT worden toegangswegen naar afgelegen percelen en erven opgenomen als
 ‘inrit’ bij wegdeel.
 
 Nu blijkt dat veel bronhouders ook korte inritten over bijvoorbeeld een voetpad
-of fietspad te hebben afgebakend als inrit bij wegdeel. Veelal omdat vanuit
-beheer openbare ruimte er behoefte is gegevens van inritten, onder meer omdat
-hier andere dikkere tegels worden toegepast. In het terrein is dit nauwelijks
+of fietspad hebben afgebakend als inrit bij wegdeel. Veelal omdat vanuit beheer
+openbare ruimte er behoefte is aan gegevens over inritten, onder meer omdat hier
+andere dikkere tegels worden toegepast. In het terrein is dit nauwelijks
 zichtbaar maar voor beheer en onderhoud is deze informatie belangrijk. Korte
 inritten naar percelen en erven voldoen niet aan de term ‘afgelegen’ in de
 definitie van inrit.
@@ -30,7 +30,7 @@ volgende wijzigingen voorgesteld:
     verkeersfunctie die leiden naar erven en terreinen.
 
 -   In de BGT moet elke toegangsweg naar een perceel of erf meer dan 25 meter
-    vanaf de weg gelegen worden opgenomen als inrit van wegdeel .
+    vanaf de weg gelegen worden opgenomen als inrit van een wegdeel.
 
 -   In IMGeo mag een toegangsweg naar een perceel of erf korter dan 25 meter
     vanaf de weg gelegen worden opgenomen als inrit van een wegdeel.
@@ -43,7 +43,7 @@ De wijzigingen leveren de volgende voordelen op:
     inritten en met het aanpassen van de definitie kunnen alle inritten worden
     opgenomen in IMGeo.
 
--   De dienstverlening van hulpdiensten verbeterd, omdat met de nieuwe definitie
+-   De dienstverlening van hulpdiensten verbetert, omdat met de nieuwe definitie
     alle toegangen tot erven en terrein in IMGeo mogen worden opgenomen.
     Hulpdiensten hebben meer informatie over de bereikbaarheid en toegang van
     erven en terreinen, waardoor deze sneller ter plaatse kunnen zijn.
@@ -54,7 +54,7 @@ De wijzigingen leveren de volgende voordelen op:
 
 ### Impact en implementatie
 
-De impact van dit voorstel is nul: alle gegevens zijn beschikbaar in de BGT en
+De impact van dit voorstel is nihil: alle gegevens zijn beschikbaar in de BGT en
 de software is reeds voorbereid. Voor de implementatie mag data worden
 toegevoegd.
 

@@ -5,7 +5,7 @@ Huidige situatie en probleem
 ----------------------------
 
 De opbouw van de Basisregistratie Grootschalige Topografie (BGT) is zo goed als
-gereed: de laatste restjes van de transitie worden weggewerkt door bronhouders,
+gereed: de laatste puntjes van de transitie worden weggewerkt door bronhouders,
 en afnemers sluiten aan op de BGT. Door een unieke samenwerking van bronhouders
 is een landsdekkende zeer gedetailleerde objectgerichte kaart van Nederland
 gerealiseerd om met een ruimtelijke blik maatschappelijke vraagstukken te
@@ -28,15 +28,16 @@ ligging.
 
 Het probleem hierbij is dat gegevens over dezelfde dingen op verschillende
 plekken in IMGeo worden opgenomen. Dit maakt gegevens voor afnemers moeilijk
-vindbaar, opvraagbaar en toepasbaar. Ook uniforme kleinschalige kaart (BRT) uit
-de BGT afleiden is door .
+vindbaar, opvraagbaar en toepasbaar. Ook bij het afleiden van een uniforme
+kleinschalige kaart (BRT) uit de BGT zorgen dit soort interpretatieverschillen
+voor een vertekend beeld.
 
 *Knelpunt 2) IMGeo is niet volledig*
 
 In IMGeo zijn niet alle typen *assets* opgenomen die in beheer bij een
 bronhouder kunnen voorkomen. Bijvoorbeeld verhardingstypen van wegen/voetpaden
 als metaal en hout ontbreken, of laadpalen voor elektrische voertuigen komen
-niet voor in de lijst met installaties of straatmeubilair. Maar ook heeft de BGT
+niet voor in de lijst met installaties of straatmeubilair. Ook heeft de BGT
 ‘witte vlekken’ in de kaart als het gaat om grotere particuliere terreinen en
 natuurgebieden, omdat inwinregels of een duidelijke bronhouder hiervoor
 ontbreekt.
@@ -46,14 +47,14 @@ versie van het model nu niet kunnen overstappen op één integrale (beheer)kaart
 Als gevolg daarvan blijven schaduwregistraties en maatwerkkoppelingen bestaan.
 
 Beide knelpunten zorgen voor twijfels over de kwaliteit van de BGT bij afnemers
-met als gevolg dat zij zelf extra gaan inwinnen, en overall worden de baten van
-de BGT voor ‘eenmalig inwinnen, meervoudig gebruik’ niet geheel gerealiseerd.
+met als gevolg dat zij zelf extra gaan inwinnen. Hierdoor worden de baten van de
+BGT voor ‘eenmalig inwinnen, meervoudig gebruik’ niet geheel gerealiseerd.
 
 Oplossing en nut
 ----------------
 
-IMGeo 2.2 is een nieuwe geoptimaliseerde versie van het model met als doel om de
-kwaliteit van de BGT te verbeteren. , door
+IMGeo 2.2 is een nieuwe geoptimaliseerde versie van het informatiemodel met als
+doel om de kwaliteit van de BGT te verbeteren. , door
 
 1.  het aanscherpen en verduidelijken van afbakeningsregels, zodat de BGT
     uniformer voor afnemers en makkelijker maakbaar voor bronhouders wordt.
@@ -103,7 +104,7 @@ Samengevat bevat IMGeo 2.2 de volgende voorstellen:
 
 11. niet-samenvallen van functionele gebieden en objectbegrenzingen
 
-12. opmaak, plaatsing en draaïing van huisnummers en overige labels.
+12. opmaak, plaatsing en draaiing van huisnummers en overige labels.
 
 13. Nederlandse tijdzone met zomer/wintertijd in versietijd van een object
 
@@ -125,11 +126,10 @@ Samengevat bevat IMGeo 2.2 de volgende voorstellen:
 
 2.  objecten en classificatie uit transitie
 
-Met IMGeo 2.2 wordt getracht te komen tot een goed maakbare en bruikbare
-registratie[^1] met grootschalige topografie voor Nederland. Er wordt verwacht
-dat met IMGeo 2.2 meer **nut/baten** worden bereikt op de volgende onderwerpen:
-
-[^1]:  
+Met IMGeo 2.2 zetten we de volgende stap naar een goed maakbare en bruikbare
+registratie[\^1](https://geonovum.github.io/IMGeo-dev/wijzigingsvoorstel/ ) met
+grootschalige topografie voor Nederland. IMGeo 2.2 leidt tot meer **nut/baten**
+op de volgende onderwerpen:
 
 1.  Door meer uniformiteit kunnen *betere landelijke beleidsanalyses en
     onderzoek* worden gedaan. Gegevens zijn consistent opgenomen in het model en
@@ -139,10 +139,10 @@ dat met IMGeo 2.2 meer **nut/baten** worden bereikt op de volgende onderwerpen:
 
 2.  Door het uitbreiden van IMGeo met extra gegevens, kunnen
     overheidsorganisatie *betere dienstverlening aan burgers en bedrijven*
-    geven. Meldkamer en hulpdiensten krijgen met IMGeo 2.2 meer informatie over
+    geven. Meldkamers en hulpdiensten krijgen met IMGeo 2.2 meer informatie over
     o.a. de indeling van en toegangswegen naar erven en terreinen, opslagtanks
     met gevaarlijke stoffen en het soort bos voor een brandverspreidingsanalyse.
-    Zo kan de plaats van een incident accuraat in beeld worden gekregen, kunnen
+    Zo kan de plaats van een incident accuraat in beeld worden gebracht, kunnen
     mensen en materieel efficiënt worden ingezet, en kunnen hulpdiensten sneller
     ter plaatse zijn en sneller handelen: dit bespaart kosten, en voorkomt
     schade en slachtoffers.
@@ -157,8 +157,8 @@ dat met IMGeo 2.2 meer **nut/baten** worden bereikt op de volgende onderwerpen:
     inconsistenties in inwinregels en ontbrekende afspraken over bijhouding van
     bepaalde gegevens.
 
-Samengevat is de inschatting dat deze *herstelactie* op IMGeo als nut heeft dat
-de bijhouding van de BGT eenvoudiger wordt en de algehele kwaliteit en
+Samengevat is de inschatting dat deze herstelactie op IMGeo als nut heeft dat de
+bijhouding van de BGT eenvoudiger wordt en de algehele kwaliteit en
 bruikbaarheid van de BGT wordt vergroot.
 
 Impact en implementatie
@@ -184,8 +184,8 @@ kracht de gegevens in te winnen of om te zetten:
 
 5.  hekken, muren en andere typen scheidingen
 
-De doorlooptijd voor het inwinnen en omzetten van gegevens wordt voorgesteld op
-2 jaar vanaf publicatie van de nieuwe versie van BGT\|IMGeo standaarden.
+De doorlooptijd voor het inwinnen en omzetten van gegevens bedraagt 2 jaar vanaf
+publicatie van de nieuwe versie van BGT\|IMGeo standaarden.
 
-Bronhouders zullen worden centraal worden ondersteund via dashboards/lijsten met
+Bronhouders zullen centraal worden ondersteund via dashboards/lijsten met
 ‘nog-om-te-zetten’ gegevens.
