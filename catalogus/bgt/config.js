@@ -2,18 +2,30 @@ var respecConfig = {
   format: "markdown",
   specStatus: "GN-VV",
   specType: "IM",
-  //subtitle: "Gegevenscatalogus BGT 1.2",
-  //canonicalURI: "WV",
-  //publishDate: "2017-09-12",
+  //subtitle: "Gegevenscatalogus BGT 1.2",  
+  logos: 
+  {
+    src: 'logo_minbzk.png',
+    href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
+    alt: "Ministerie BZK",
+    width: 229,
+    height: 130,
+    id: 'BZK',
+  }
+  ] ,
+  editors: [    {
+      name: "Geonovum",
+      companyURL: "https://www.geonovum.nl/geo-standaarden/bgt-imgeo",
+    }],
   authors: [
     {
       name: "Geonovum",
-      companyURL: "http://www.geonovum.nl/",
-      mailto: "imgeo@geonovum.nl",
-       
-    }   
-  ],
-  //shortName: "shortname",
+      companyURL: "https://www.geonovum.nl/geo-standaarden/bgt-imgeo",
+    }
+	], 
+  //canonicalURI: "WV",
+  //publishDate: "2017-09-12",
+  //shortName: "IMGeo",
   pubDomain: "http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-bgt-111",
   github: "https://github.com/Geonovm/IMGeo",
   //previousPublishDate: "2017-01-01",
