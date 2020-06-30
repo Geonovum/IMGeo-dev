@@ -5,13 +5,11 @@ img {
 table, td, th {
   cell-padding: 0px;
   cell-spacing: 0px;
-  border-color: #000; 
+  border: solid 1px black; 
 }
 
-
 thead {
-  border-color: #eee;
-  background-color: #ccc;
+  background-color: #888;
   color: white;
   font-weight: bold;
 }
