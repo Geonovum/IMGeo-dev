@@ -2,15 +2,16 @@ img {
   max-width: 100%;
 }
 
-table, th, td {
-  padding: 10px;
-  cell-spacing: 0px;
+th, td {
+  padding-left: 10 10 5 5;
+  height: 30px;
   border: solid 1px black;
 }
 
 table {
   width: 100%; 
   border-collapse: collapse; 
+  border: solid 1px black;
 }
 
 thead {
