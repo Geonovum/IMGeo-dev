@@ -5,15 +5,14 @@ img {
 table, td, th {
   cell-padding: 0px;
   cell-spacing: 0px;
-  border-color: #eee; 
+  border-color: #000; 
 }
+
 
 thead {
-   border-color: #eee;
+  border-color: #eee;
   background-color: #ccc;
-}
-
-#subtitle {
-	font-size: 200% !important;	
+  color: white;
+  font-weight: bold;
 }
 
