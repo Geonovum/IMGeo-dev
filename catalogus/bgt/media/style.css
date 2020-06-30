@@ -2,7 +2,7 @@ img {
   max-width: 100%;
 }
 
-table, td, th {
+td {
   cell-padding: 0px;
   cell-spacing: 0px;
   border: solid 1px black; 
