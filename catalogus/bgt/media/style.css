@@ -3,7 +3,7 @@ img {
 }
 
 table, th, td {
-  padding: 5px;
+  padding: 10px;
   cell-spacing: 0px;
   border: solid 1px black;
 }
