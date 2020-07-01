@@ -25,10 +25,12 @@ var respecConfig = {
   //canonicalURI: "WV",
   publishDate: "2020-07-01",
   //shortName: "IMGeo",
-  pubDomain: "http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-bgt-111",
+  pubDomain: "imgeo", 
+  previousURI: "http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-bgt-111",
+  previousPublishDate: "2017-01-01",
+  previousStatus: "GN-DEF",
   github: "https://github.com/Geonovm/IMGeo",
-  //previousPublishDate: "2017-01-01",
-  //previousStatus: "GN-CV",
+ 
   //localBiblio: {
   //  "ISO19136": {
   //    "href": "https://www.iso.org/standard/32554.html",
