@@ -94,7 +94,7 @@ terreinen voor beheer.
 
 Onderstaande figuur geeft een overzicht van de optionele objecttypen in de BGT.
 
-![](media/e06259e842931b5cc2bb5cf31e4d7c4d.png)
+![Inhoud van IMGeo: optionele objecttypen](media/e06259e842931b5cc2bb5cf31e4d7c4d.png)
 *Inhoud van IMGeo: optionele objecttypen*
 
 De meeste van deze objecttypen hebben een attribuut ‘type’ waarmee het object
@@ -108,6 +108,8 @@ een nadere verdieping van de classificatie en/of een uitbreiding van de
 populatie van het objecttype. Zowel de verdieping van BGT-classificaties als de
 uitbreiding van de populatie komen tot uitdrukking in de uitbreiding die IMGeo
 kent van de BGT-domeinwaardenlijsten.
+
+*Voorbeeld van nadere classificatie in IMGeo*
 
 | BGT                 | IMGeo optionele deel |
 |---------------------|----------------------|
@@ -126,11 +128,9 @@ kent van de BGT-domeinwaardenlijsten.
 | onverhard           | boomschors           |
 |                     | zand                 |
 
-Tabel 1 Voorbeeld van nadere classificatie in IMGeo
 
-![](media/c1ee4fdb69a2d1e4fe62f71494d54d44.png)
-
-Uitbreidingen van de populatie van BGT-objecttypen
+![Uitbreidingen van de populatie van BGT-objecttypen](media/c1ee4fdb69a2d1e4fe62f71494d54d44.png)
+*Uitbreidingen van de populatie van BGT-objecttypen*
 
 Voorbeelden ter verduidelijking:
 
