@@ -26,7 +26,7 @@ var respecConfig = {
   publishDate: "2020-07-01",
   //shortName: "IMGeo",
   pubDomain: "imgeo", 
-  previousURI: "http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-bgt-111",
+  previousURI: "https://www.geonovum.nl/uploads/standards/downloads/BGTGegevenscatalogus111.pdf",
   previousPublishDate: "2017-01-01",
   previousStatus: "GN-DEF",
   github: "https://github.com/Geonovm/IMGeo",
