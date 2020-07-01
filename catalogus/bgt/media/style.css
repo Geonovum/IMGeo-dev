@@ -2,6 +2,10 @@ img {
   max-width: 100%;
 }
 
+p {
+ text-align: justify;  
+}
+
 .logo { 
   float: none !important;
   display: block;
