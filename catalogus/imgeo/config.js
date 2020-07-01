@@ -2,28 +2,34 @@ var respecConfig = {
   format: "markdown",
   specStatus: "GN-WV",
   specType: "IM",
-  subtitle: "Basisregistratie grootschalige topografie",
-  //canonicalURI: "WV",
-  //publishDate: "2017-09-12",
-  editors: [
+   //subtitle: "Gegevenscatalogus BGT 1.2",  
+  logos: [{
+    src: 'media/logo_minbzk.png',
+    href: "https://www.geobasisregistraties.nl/basisregistraties/grootschalige-topografie",
+    alt: "Ministerie BZK",
+    width: 776,
+    height: 163,
+    id: 'BZK',
+  }
+  ] ,
+  editors: [    {
+      name: "Geonovum",
+      companyURL: "https://www.geonovum.nl/geo-standaarden/bgt-imgeo",
+    }],
+  authors: [
     {
-      name: "Arnoud de Boer",
-      company: "Geonovum",
-      companyURL: "http://www.geonovum.nl/",
-      mailto: "a.deboer@geonovum.nl",
-      note: ""    
-    },
-    {
-      name: "Hans van Eekelen",
-     company: "Geonovum",
-    companyURL: "http://www.geonovum.nl/",
-    mailto: "h.vaneekelen@geonovum.nl",
-    note: "" 
+      name: "Geonovum",
+      companyURL: "https://www.geonovum.nl/geo-standaarden/bgt-imgeo",
     }
-  ],
-  //shortName: "shortname",
-  pubDomain: "http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-imgeo-versie-211",
-  github: "https://github.com/Geonovm/IMGeo2018",
+	], 
+  //canonicalURI: "WV",
+  publishDate: "2020-07-01",
+  //shortName: "IMGeo",
+  pubDomain: "imgeo", 
+  previousURI: "https://www.geonovum.nl/uploads/standards/downloads/BGTGegevenscatalogus111.pdf",
+  previousPublishDate: "2017-01-01",
+  previousStatus: "GN-DEF",
+  github: "https://github.com/Geonovm/IMGeo",
   //previousPublishDate: "2017-01-01",
   //previousStatus: "GN-CV",
   //localBiblio: {
