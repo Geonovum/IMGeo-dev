@@ -1,6 +1,7 @@
 # Afkortingen
 
 | BAG | Basisregistratie Adressen en Gebouwen |
+| ----| --------------------------------------|
 | BGT | Basisregistratie Grootschalige Topografie
 | BRT | Basisregistratie Topografie |
 | CROW | Centrum voor Regelgeving en Onderzoek in Grond-, Water-, Wegenbouw en Verkeerstechniek |
