@@ -1,5 +1,5 @@
 var respecConfig = {
-  specStatus: "GN-VV",
+  specStatus: "GN-DEF",
   specType: "IM",  
   editors: [
     {
@@ -24,11 +24,11 @@ var respecConfig = {
       note: ""    
     }
   ],
-  //shortName: "shortname",
-  pubDomain: "https://www.geonovum.nl",
+  shortName: "imgeo",
+  pubDomain: "IMGeo",
   github: "https://github.com/Geonovum/IMGeo-dev",
-  previousPublishDate: "2018-06-01",
-  previousStatus: "GN-CV",
+  //previousPublishDate: "2018-06-01",
+ // previousStatus: "GN-CV",
   //localBiblio: {
   //  "ISO19136": {
   //    "href": "https://www.iso.org/standard/32554.html",
