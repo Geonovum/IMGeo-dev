@@ -33,19 +33,19 @@ zie <https://github.com/Geonovum/IMGeo-dev/milestone/1?closed=1>
 
 Met deze versie komen de volgende werkafspraken te vervallen:
 
-• Werkafspraak: Nummeraanduidingsreeksen
+- Werkafspraak: Nummeraanduidingsreeksen
 
-• Werkafspraak: Combinatie BGT- en PLUS-classificaties
+- Werkafspraak: Combinatie BGT- en PLUS-classificaties
 
-• Werkafspraak: Kruinlijn-symbool
+- Werkafspraak: Kruinlijn-symbool
 
-• Werkafspraak: Overige Scheiding
+- Werkafspraak: Overige Scheiding
 
-• Werkafspraak: Custom domeinwaarden
+- Werkafspraak: Custom domeinwaarden
 
-• Werkafspraak: Rotatiehoek
+- Werkafspraak: Rotatiehoek
 
-• Werkafspraak: Genormaliseerde warden
+- Werkafspraak: Genormaliseerde warden
 
 Met deze versie blijven de volgende bestaande werkafspraken van kracht:
 
