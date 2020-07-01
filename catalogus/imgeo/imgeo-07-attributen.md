@@ -1,4 +1,4 @@
-# Beschrijving van de attributen en associaties
+# Attributen en associaties
 
 Hieronder worden besproken:
 
