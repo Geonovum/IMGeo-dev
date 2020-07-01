@@ -42,7 +42,7 @@ thead {
   color: black;  
 }
 
-#domeinwaarden th, #objecttypen th, #beschrijving-van-de-attributen-en-associaties-0 thead {  
+#domeinwaarden th, #objecttypen th, #attributen-en-associaties thead {  
   font-weight: normal !important;
 }
 
