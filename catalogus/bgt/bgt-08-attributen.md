@@ -16,7 +16,7 @@ IMGeo-Object
 
 | **Naam attribuut**               | objectBeginTijd                                                                                                     |
 |----------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<formeleLevensduur\>\> \<\<attribuuttype\>\>                                                         |
+| **Stereotype**                   | «BGT» «formeleLevensduur» «attribuuttype»                                                         |
 | **Herkomst attribuut**           | NEN 3610:2011                                                                                                       |
 | **Code attribuut**               | 10.2                                                                                                                |
 | **Definitie attribuut**          | Datum waarop het object bij de bronhouder is ontstaan.                                                              |
@@ -33,7 +33,7 @@ IMGeo-Object
 
 | **Naam attribuut**               | objectEindTijd                                                 |
 |----------------------------------|----------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<formeleLevensduur\>\> \<\<attribuuttype\>\>    |
+| **Stereotype**                   | «BGT» «formeleLevensduur» «attribuuttype»    |
 | **Herkomst attribuut**           | NEN 3610:2011                                                  |
 | **Code attribuut**               | 10.3                                                           |
 | **Definitie attribuut**          | Datum waarop het object bij de bronhouder niet meer geldig is. |
@@ -50,7 +50,7 @@ IMGeo-Object
 
 | **Naam attribuut**               | identificatie                                                                              |
 |----------------------------------|--------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<identificatie\>\> \<\<attribuuttype\>\>                                    |
+| **Stereotype**                   | «BGT» «identificatie» «attribuuttype»                                    |
 | **Herkomst attribuut**           | BGT                                                                                        |
 | **Code attribuut**               | 10.1                                                                                       |
 | **Definitie attribuut**          | Uniek identificatienummer voor het object dat onveranderlijk is zolang het object bestaat. |
@@ -67,7 +67,7 @@ IMGeo-Object
 
 | **Naam attribuut**               | tijdstipRegistratie                                                                                                                                                                                              |
 |----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<formeleHistorie\>\> \<\<attribuuttype\>\>                                                                                                                                                        |
+| **Stereotype**                   | «BGT» «formeleHistorie» «attribuuttype»                                                                                                                                                        |
 | **Herkomst attribuut**           | NEN3610:2011                                                                                                                                                                                                     |
 | **Code attribuut**               | 10.4                                                                                                                                                                                                             |
 | **Definitie attribuut**          | Tijdstip waarop deze instantie van het object is opgenomen door de bronhouder.                                                                                                                                   |
@@ -84,7 +84,7 @@ IMGeo-Object
 
 | **Naam attribuut**               | eindRegistratie                                                                                                                                        |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<formeleHistorie\>\> \<\<attribuuttype\>\>                                                                                              |
+| **Stereotype**                   | «BGT» «formeleHistorie» «attribuuttype»                                                                                              |
 | **Herkomst attribuut**           | NEN3610:2011                                                                                                                                           |
 | **Code attribuut**               | 10.5                                                                                                                                                   |
 | **Definitie attribuut**          | Eind van de periode waarop deze instantie van het object geldig is bij de bronhouder. Wanneer deze waarde niet is ingevuld is de instantie nog geldig. |
@@ -101,7 +101,7 @@ IMGeo-Object
 
 | **Naam attribuut**               | LV-publicatiedatum                                                                                                                                                                                                                                                    |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                                                                                                                                                                                                     |
+| **Stereotype**                   | «BGT» «attribuuttype»                                                                                                                                                                                                                                     |
 | **Herkomst attribuut**           | BGT                                                                                                                                                                                                                                                                   |
 | **Code attribuut**               | 10.10                                                                                                                                                                                                                                                                 |
 | **Definitie attribuut**          | Tijdstip waarop deze instantie van het object is opgenomen in de Landelijke Voorziening.                                                                                                                                                                              |
@@ -118,7 +118,7 @@ IMGeo-Object
 
 | **Naam attribuut**               | bronhouder                                                                                                                                                                                              |
 |----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                                                                                                                                       |
+| **Stereotype**                   | «BGT» «attribuuttype»                                                                                                                                                                       |
 | **Herkomst attribuut**           | BGT                                                                                                                                                                                                     |
 | **Code attribuut**               | 10.6                                                                                                                                                                                                    |
 | **Definitie attribuut**          | De bronhoudercode van het object.                                                                                                                                                                       |
@@ -135,7 +135,7 @@ IMGeo-Object
 
 | **Naam attribuut**               | inOnderzoek                                                                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                                                                                 |
+| **Stereotype**                   | «BGT» «attribuuttype»                                                                                                                 |
 | **Herkomst attribuut**           | Stelselcatalogus                                                                                                                                  |
 | **Code attribuut**               | 10.7                                                                                                                                              |
 | **Definitie attribuut**          | Een aanduiding waarmee wordt aangegeven dat een onderzoek wordt uitgevoerd naar de juistheid van een of meer gegevens van het betreffende object. |
@@ -152,7 +152,7 @@ IMGeo-Object
 
 | **Naam attribuut**               | relatieveHoogteligging                             |
 |----------------------------------|----------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                  |
+| **Stereotype**                   | «BGT» «attribuuttype»                  |
 | **Herkomst attribuut**           | BGT                                                |
 | **Code attribuut**               | 10.8                                               |
 | **Definitie attribuut**          | Aanduiding voor de relatieve hoogte van het object |
@@ -169,7 +169,7 @@ IMGeo-Object
 
 | **Naam attribuut**               | bgt-status                                                 |
 |----------------------------------|------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                          |
+| **Stereotype**                   | «BGT» «attribuuttype»                          |
 | **Herkomst attribuut**           | IMGeo                                                      |
 | **Code attribuut**               | 10.9                                                       |
 | **Definitie attribuut**          | De status gekoppeld aan de levenscyclus van een geo-object |
@@ -189,7 +189,7 @@ Wegdeel
 
 | **Naam attribuut**               | bgt-functie                                             |
 |----------------------------------|---------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                       |
+| **Stereotype**                   | «BGT» «attribuuttype»                       |
 | **Herkomst attribuut**           | NEN 3610:2011                                           |
 | **Code attribuut**               | 20.2                                                    |
 | **Definitie attribuut**          | Specificatie van het hoofdgebruiksdoel van het wegdeel. |
@@ -206,7 +206,7 @@ Wegdeel
 
 | **Naam attribuut**               | bgt-fysiekVoorkomen                            |
 |----------------------------------|------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>              |
+| **Stereotype**                   | «BGT» «attribuuttype»              |
 | **Herkomst attribuut**           | BGT                                            |
 | **Code attribuut**               | 20.3                                           |
 | **Definitie attribuut**          | Mate waarin het wegdeel al of niet verhard is. |
@@ -223,7 +223,7 @@ Wegdeel
 
 | **Naam attribuut**               | wegdeelOpTalud                                                |
 |----------------------------------|---------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\> \<\<voidable\>\>            |
+| **Stereotype**                   | «BGT» «attribuuttype» «voidable»            |
 | **Herkomst attribuut**           | BGT                                                           |
 | **Code attribuut**               | 20.1                                                          |
 | **Definitie attribuut**          | Indicatie of het object wel of niet op een hellend vlak ligt. |
@@ -242,7 +242,7 @@ Wegdeel
 |--------------------|----------------------------------------------------------------------------------------------------|
 | **Doelklasse**     | GM_Curve                                                                                           |
 | **Multipliciteit** | [0..1]                                                                                             |
-| **Stereotype**     | \<\<BGT\>\> \<\<voidable\>\>                                                                       |
+| **Stereotype**     | «BGT» «voidable»                                                                       |
 | **Toelichting**    |                                                                                                    |
 
 ### Associatie: geometrie2dWegdeel
@@ -251,7 +251,7 @@ Wegdeel
 |--------------------|----------------|
 | **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
-| **Stereotype**     | \<\<BGT\>\>    |
+| **Stereotype**     | «BGT»    |
 | **Toelichting**    |                |
 
 OndersteunendWegdeel
@@ -261,7 +261,7 @@ OndersteunendWegdeel
 
 | **Naam attribuut**               | bgt-functie                                                |
 |----------------------------------|------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                          |
+| **Stereotype**                   | «BGT» «attribuuttype»                          |
 | **Herkomst attribuut**           | BGT                                                        |
 | **Code attribuut**               | 70.1                                                       |
 | **Definitie attribuut**          | Specificatie van de functie van het ondersteunend wegdeel. |
@@ -278,7 +278,7 @@ OndersteunendWegdeel
 
 | **Naam attribuut**               | bgt-fysiekVoorkomen                                          |
 |----------------------------------|--------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                            |
+| **Stereotype**                   | «BGT» «attribuuttype»                            |
 | **Herkomst attribuut**           | BGT                                                          |
 | **Code attribuut**               | 70.3                                                         |
 | **Definitie attribuut**          | Mate waarin het ondersteunend wegdeel al of niet verhard is. |
@@ -295,7 +295,7 @@ OndersteunendWegdeel
 
 | **Naam attribuut**               | ondersteunendWegdeelOpTalud                                   |
 |----------------------------------|---------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\> \<\<voidable\>\>            |
+| **Stereotype**                   | «BGT» «attribuuttype» «voidable»            |
 | **Herkomst attribuut**           | BGT                                                           |
 | **Code attribuut**               | 70.2                                                          |
 | **Definitie attribuut**          | Indicatie of het object wel of niet op een hellend vlak ligt. |
@@ -314,7 +314,7 @@ OndersteunendWegdeel
 |--------------------|----------------|
 | **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
-| **Stereotype**     | \<\<BGT\>\>    |
+| **Stereotype**     | «BGT»    |
 | **Toelichting**    |                |
 
 ### Associatie: kruinlijnOndersteunendWegdeel
@@ -323,7 +323,7 @@ OndersteunendWegdeel
 |--------------------|----------------------------------------------------------------------------------------------------|
 | **Doelklasse**     | GM_Curve                                                                                           |
 | **Multipliciteit** | [0..1]                                                                                             |
-| **Stereotype**     | \<\<BGT\>\> \<\<voidable\>\>                                                                       |
+| **Stereotype**     | «BGT» «voidable»                                                                       |
 | **Toelichting**    |                                                                                                    |
 
 Spoor
@@ -333,7 +333,7 @@ Spoor
 
 | **Naam attribuut**               | bgt-functie                                       |
 |----------------------------------|---------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\>                                       |
+| **Stereotype**                   | «BGT»                                       |
 | **Herkomst attribuut**           | BGT                                               |
 | **Code attribuut**               | 100.1                                             |
 | **Definitie attribuut**          | Specificatie van het soort gebruik van het spoor. |
@@ -352,7 +352,7 @@ Spoor
 |--------------------|----------------|
 | **Doelklasse**     | GM_Curve       |
 | **Multipliciteit** | [1..1]         |
-| **Stereotype**     | \<\<BGT\>\>    |
+| **Stereotype**     | «BGT»    |
 | **Toelichting**    |                |
 
 OnbegroeidTerreindeel
@@ -362,7 +362,7 @@ OnbegroeidTerreindeel
 
 | **Naam attribuut**               | bgt-fysiekVoorkomen                                                                  |
 |----------------------------------|--------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                    |
+| **Stereotype**                   | «BGT» «attribuuttype»                                                    |
 | **Herkomst attribuut**           | BGT                                                                                  |
 | **Code attribuut**               | 30.1                                                                                 |
 | **Definitie attribuut**          | Classificatie van het soort terrein, ingedeeld naar de uiterlijke verschijningsvorm. |
@@ -379,7 +379,7 @@ OnbegroeidTerreindeel
 
 | **Naam attribuut**               | onbegroeidTerreindeelOpTalud                                  |
 |----------------------------------|---------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\> \<\<voidable\>\>            |
+| **Stereotype**                   | «BGT» «attribuuttype» «voidable»            |
 | **Herkomst attribuut**           | BGT                                                           |
 | **Code attribuut**               | 30.2                                                          |
 | **Definitie attribuut**          | Indicatie of het object wel of niet op een hellend vlak ligt. |
@@ -398,7 +398,7 @@ OnbegroeidTerreindeel
 |--------------------|----------------------------------------------------------------------------------------------------|
 | **Doelklasse**     | GM_Curve                                                                                           |
 | **Multipliciteit** | [0..1]                                                                                             |
-| **Stereotype**     | \<\<BGT\>\> \<\<voidable\>\>                                                                       |
+| **Stereotype**     | «BGT» «voidable»                                                                       |
 | **Toelichting**    |                                                                                                    |
 
 ### Associatie: geometrie2dOnbegroeidTerreindeel
@@ -407,7 +407,7 @@ OnbegroeidTerreindeel
 |--------------------|----------------|
 | **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
-| **Stereotype**     | \<\<BGT\>\>    |
+| **Stereotype**     | «BGT»    |
 | **Toelichting**    |                |
 
 BegroeidTerreindeel
@@ -417,7 +417,7 @@ BegroeidTerreindeel
 
 | **Naam attribuut**               | bgt-fysiekVoorkomen                                                 |
 |----------------------------------|---------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                   |
+| **Stereotype**                   | «BGT» «attribuuttype»                                   |
 | **Herkomst attribuut**           | BGT                                                                 |
 | **Code attribuut**               | 140.1                                                               |
 | **Definitie attribuut**          | Classificatie van het vegetatiedek, ingedeeld naar soort vegetatie. |
@@ -434,7 +434,7 @@ BegroeidTerreindeel
 
 | **Naam attribuut**               | begroeidTerreindeelOpTalud                                    |
 |----------------------------------|---------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\> \<\<voidable\>\>            |
+| **Stereotype**                   | «BGT» «attribuuttype» «voidable»            |
 | **Herkomst attribuut**           | BGT                                                           |
 | **Code attribuut**               | 140.2                                                         |
 | **Definitie attribuut**          | Indicatie of het object wel of niet op een hellend vlak ligt. |
@@ -453,7 +453,7 @@ BegroeidTerreindeel
 |--------------------|----------------|
 | **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
-| **Stereotype**     | \<\<BGT\>\>    |
+| **Stereotype**     | «BGT»    |
 | **Toelichting**    |                |
 
 ### Associatie: kruinlijnBegroeidTerreindeel
@@ -462,7 +462,7 @@ BegroeidTerreindeel
 |--------------------|----------------------------------------------------------------------------------------------------|
 | **Doelklasse**     | GM_Curve                                                                                           |
 | **Multipliciteit** | [0..1]                                                                                             |
-| **Stereotype**     | \<\<BGT\>\> \<\<voidable\>\>                                                                       |
+| **Stereotype**     | «BGT» «voidable»                                                                       |
 | **Toelichting**    |                                                                                                    |
 
 Waterdeel
@@ -472,7 +472,7 @@ Waterdeel
 
 | **Naam attribuut**               | bgt-type                          |
 |----------------------------------|-----------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\> |
+| **Stereotype**                   | «BGT» «attribuuttype» |
 | **Herkomst attribuut**           | BGT                               |
 | **Code attribuut**               | 40.1                              |
 | **Definitie attribuut**          | Specificatie van het soort Water. |
@@ -491,7 +491,7 @@ Waterdeel
 |--------------------|----------------|
 | **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
-| **Stereotype**     | \<\<BGT\>\>    |
+| **Stereotype**     | «BGT»    |
 | **Toelichting**    |                |
 
 OndersteunendWaterdeel
@@ -501,7 +501,7 @@ OndersteunendWaterdeel
 
 | **Naam attribuut**               | bgt-type                          |
 |----------------------------------|-----------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\> |
+| **Stereotype**                   | «BGT» «attribuuttype» |
 | **Herkomst attribuut**           | BGT                               |
 | **Code attribuut**               | 41.1                              |
 | **Definitie attribuut**          | Specificatie van het soort Water. |
@@ -520,7 +520,7 @@ OndersteunendWaterdeel
 |--------------------|----------------|
 | **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
-| **Stereotype**     | \<\<BGT\>\>    |
+| **Stereotype**     | «BGT»    |
 | **Toelichting**    |                |
 
 Pand
@@ -530,7 +530,7 @@ Pand
 
 | **Naam attribuut**               | identificatieBAGPND                                                                |
 |----------------------------------|------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                  |
+| **Stereotype**                   | «BGT» «attribuuttype»                                                  |
 | **Herkomst attribuut**           | BAG                                                                                |
 | **Code attribuut**               | 60.1                                                                               |
 | **Definitie attribuut**          | De unieke identificatie van het object zoals is toegekend in de BAG-administratie. |
@@ -547,7 +547,7 @@ Pand
 
 | **Naam attribuut**               | nummeraanduidingreeks                                                                 |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                     |
+| **Stereotype**                   | «BGT» «attribuuttype»                                                     |
 | **Herkomst attribuut**           | BGT                                                                                   |
 | **Code attribuut**               | 60.3                                                                                  |
 | **Definitie attribuut**          | Bevat de reeks nummeraanduidingen behorend bij het pand ten behoeve van visualisatie. |
@@ -566,7 +566,7 @@ Pand
 |--------------------|--------------------------|
 | **Doelklasse**     | GM_MultiSurface          |
 | **Multipliciteit** | [1..1]                   |
-| **Stereotype**     | \<\<BGT\>\>              |
+| **Stereotype**     | «BGT»              |
 | **Toelichting**    |                          |
 
 OverigeConstructie
@@ -578,7 +578,7 @@ OverigeConstructie
 |--------------------|--------------------------------------------|
 | **Doelklasse**     | GM_Object                                  |
 | **Multipliciteit** | [1..1]                                     |
-| **Stereotype**     | \<\<BGT\>\>                                |
+| **Stereotype**     | «BGT»                                |
 | **Toelichting**    |                                            |
 
 OverigBouwwerk
@@ -588,7 +588,7 @@ OverigBouwwerk
 
 | **Naam attribuut**               | bgt-type                                    |
 |----------------------------------|---------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\>                                 |
+| **Stereotype**                   | «BGT»                                 |
 | **Herkomst attribuut**           | BGT                                         |
 | **Code attribuut**               | 53.1                                        |
 | **Definitie attribuut**          | Specificatie van het soort overig bouwwerk. |
@@ -610,7 +610,7 @@ Overbruggingsdeel
 |--------------------|----------------|
 | **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
-| **Stereotype**     | \<\<BGT\>\>    |
+| **Stereotype**     | «BGT»    |
 | **Toelichting**    |                |
 
 Tunneldeel
@@ -622,7 +622,7 @@ Tunneldeel
 |--------------------|----------------|
 | **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
-| **Stereotype**     | \<\<BGT\>\>    |
+| **Stereotype**     | «BGT»    |
 | **Toelichting**    |                |
 
 Kunstwerkdeel
@@ -632,7 +632,7 @@ Kunstwerkdeel
 
 | **Naam attribuut**               | bgt-type                              |
 |----------------------------------|---------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\>                           |
+| **Stereotype**                   | «BGT»                           |
 | **Herkomst attribuut**           | BGT                                   |
 | **Code attribuut**               | 51.1                                  |
 | **Definitie attribuut**          | Specificatie van het soort kunstwerk. |
@@ -652,7 +652,7 @@ Scheiding
 
 | **Naam attribuut**               | bgt-type                              |
 |----------------------------------|---------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\>                           |
+| **Stereotype**                   | «BGT»                           |
 | **Herkomst attribuut**           | BGT                                   |
 | **Code attribuut**               | 52.1                                  |
 | **Definitie attribuut**          | Specificatie van het soort scheiding. |
@@ -672,7 +672,7 @@ FunctioneelGebied
 
 | **Naam attribuut**               | bgt-type                                       |
 |----------------------------------|------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>              |
+| **Stereotype**                   | «BGT» «attribuuttype»              |
 | **Herkomst attribuut**           | BGT                                            |
 | **Code attribuut**               | 350.2                                          |
 | **Definitie attribuut**          | Specificatie van het soort Functioneel Gebied. |
@@ -691,7 +691,7 @@ FunctioneelGebied
 |--------------------|----------------|
 | **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
-| **Stereotype**     | \<\<BGT\>\>    |
+| **Stereotype**     | «BGT»    |
 | **Toelichting**    |                |
 
 OpenbareRuimteLabel
@@ -701,7 +701,7 @@ OpenbareRuimteLabel
 
 | **Naam attribuut**               | identificatieBAGOPR                                                                |
 |----------------------------------|------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                  |
+| **Stereotype**                   | «BGT» «attribuuttype»                                                  |
 | **Herkomst attribuut**           | BAG                                                                                |
 | **Code attribuut**               | 11.01                                                                              |
 | **Definitie attribuut**          | De unieke identificatie van het object zoals is toegekend in de BAG-administratie. |
@@ -718,7 +718,7 @@ OpenbareRuimteLabel
 
 | **Naam attribuut**               | openbareRuimteNaam                                                                                                                                                                                                          |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                                                                                                                                                           |
+| **Stereotype**                   | «BGT» «attribuuttype»                                                                                                                                                                                           |
 | **Herkomst attribuut**           | BAG                                                                                                                                                                                                                         |
 | **Code attribuut**               | 11.10                                                                                                                                                                                                                       |
 | **Definitie attribuut**          | Een door het bevoegde gemeentelijke orgaan aan een OPENBARE RUIMTE toegekende benaming.                                                                                                                                     |
@@ -735,7 +735,7 @@ OpenbareRuimteLabel
 
 | **Naam attribuut**               | openbareRuimteType                                                                                                                                                                                                          |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                                                                                                                                                           |
+| **Stereotype**                   | «BGT» «attribuuttype»                                                                                                                                                                                           |
 | **Herkomst attribuut**           | BAG                                                                                                                                                                                                                         |
 | **Code attribuut**               | 11.16                                                                                                                                                                                                                       |
 | **Definitie attribuut**          | De aard van de als zodanig benoemde OPENBARE RUIMTE.                                                                                                                                                                        |
@@ -755,7 +755,7 @@ Plaatsbepalingspunt
 
 | **Naam attribuut**               | identificatie                                                                              |
 |----------------------------------|--------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                          |
+| **Stereotype**                   | «BGT» «attribuuttype»                                                          |
 | **Herkomst attribuut**           | BGT                                                                                        |
 | **Code attribuut**               | 120.1                                                                                      |
 | **Definitie attribuut**          | Uniek identificatienummer voor het object dat onveranderlijk is zolang het object bestaat. |
@@ -772,7 +772,7 @@ Plaatsbepalingspunt
 
 | **Naam attribuut**               | nauwkeurigheid                                                                                                                                |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\> \<\<voidable\>\>                                                                                            |
+| **Stereotype**                   | «BGT» «attribuuttype» «voidable»                                                                                            |
 | **Herkomst attribuut**           | BGT                                                                                                                                           |
 | **Code attribuut**               | 120.2                                                                                                                                         |
 | **Definitie attribuut**          | Gerealiseerde geometrische nauwkeurigheid van het punt als het resultaat van het inwinnings- en verwerkingsproces, uitgedrukt in centimeters. |
@@ -789,7 +789,7 @@ Plaatsbepalingspunt
 
 | **Naam attribuut**               | datumInwinning                       |
 |----------------------------------|--------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>    |
+| **Stereotype**                   | «BGT» «attribuuttype»    |
 | **Herkomst attribuut**           | BGT                                  |
 | **Code attribuut**               | 120.3                                |
 | **Definitie attribuut**          | Datum waarop het punt is ingewonnen. |
@@ -806,7 +806,7 @@ Plaatsbepalingspunt
 
 | **Naam attribuut**               | inwinnendeInstantie                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\> \<\<voidable\>\>                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Stereotype**                   | «BGT» «attribuuttype» «voidable»                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Herkomst attribuut**           | BGT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | **Code attribuut**               | 120.4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Definitie attribuut**          | De organisatie die namens de bronhouder het object inwint.                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -823,7 +823,7 @@ Plaatsbepalingspunt
 
 | **Naam attribuut**               | inwinningsmethode                       |
 |----------------------------------|-----------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>       |
+| **Stereotype**                   | «BGT» «attribuuttype»       |
 | **Herkomst attribuut**           | BGT                                     |
 | **Code attribuut**               | 120.5                                   |
 | **Definitie attribuut**          | De wijze waarop het punt is ingewonnen. |
@@ -842,7 +842,7 @@ Plaatsbepalingspunt
 |--------------------|----------------|
 | **Doelklasse**     | GM_Point       |
 | **Multipliciteit** | [1..1]         |
-| **Stereotype**     | \<\<BGT\>\>    |
+| **Stereotype**     | «BGT»    |
 | **Toelichting**    |                |
 
 Samengestelde attributen
@@ -864,7 +864,7 @@ Samengestelde attributen
 
 | **Naam attribuut**               | nummeraanduidingreeks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Stereotype**                   | «BGT» «attribuuttype»                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Herkomst attribuut**           | BGT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | **Code attribuut**               | 60.3.1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Definitie attribuut**          | Bevat de reeks nummeraanduidingen behorend bij het pand ten behoeve van visualisatie.                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -881,7 +881,7 @@ Samengestelde attributen
 
 | **Naam attribuut**               | identificatieBAGVBOLaagsteHuisnummer                                                                           |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                                              |
+| **Stereotype**                   | «BGT» «attribuuttype»                                                                              |
 | **Herkomst attribuut**           | BGT                                                                                                            |
 | **Code attribuut**               | 60.3.2                                                                                                         |
 | **Definitie attribuut**          | Identificatie in de BAG registratie van het verblijfsobject met het laagste huisnummer behorende tot de reeks. |
@@ -898,7 +898,7 @@ Samengestelde attributen
 
 | **Naam attribuut**               | identificatieBAGVBOHoogsteHuisnummer                                                                           |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                                              |
+| **Stereotype**                   | «BGT» «attribuuttype»                                                                              |
 | **Herkomst attribuut**           | BGT                                                                                                            |
 | **Code attribuut**               | 60.3.3                                                                                                         |
 | **Definitie attribuut**          | Identificatie in de BAG registratie van het verblijfsobject met het hoogste huisnummer behorende tot de reeks. |
@@ -926,7 +926,7 @@ Samengestelde attributen
 
 | **Naam attribuut**               | namespace                                                                                                                                                                                                                                                                                                                                                               |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                                                                                                                                                                                                                                                                                                       |
+| **Stereotype**                   | «BGT» «attribuuttype»                                                                                                                                                                                                                                                                                                                                       |
 | **Herkomst attribuut**           | BGT                                                                                                                                                                                                                                                                                                                                                                     |
 | **Code attribuut**               | 10.1.1                                                                                                                                                                                                                                                                                                                                                                  |
 | **Definitie attribuut**          | Unieke verwijzing naar een registratie van objecten.                                                                                                                                                                                                                                                                                                                    |
@@ -943,7 +943,7 @@ Samengestelde attributen
 
 | **Naam attribuut**               | lokaalID                                                                                                                                                                                                                                              |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                                                                                                                                                                                     |
+| **Stereotype**                   | «BGT» «attribuuttype»                                                                                                                                                                                                                     |
 | **Herkomst attribuut**           | BGT                                                                                                                                                                                                                                                   |
 | **Code attribuut**               | 10.1.2                                                                                                                                                                                                                                                |
 | **Definitie attribuut**          | Unieke identificatiecode binnen een registratie.                                                                                                                                                                                                      |
@@ -971,7 +971,7 @@ Samengestelde attributen
 
 | **Naam attribuut**               | tekst                             |
 |----------------------------------|-----------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\> |
+| **Stereotype**                   | «BGT» «attribuuttype» |
 | **Herkomst attribuut**           | BGT                               |
 | **Code attribuut**               | 11.10.1                           |
 | **Definitie attribuut**          | Tekst voor het label.             |
@@ -988,7 +988,7 @@ Samengestelde attributen
 
 | **Naam attribuut**               | positie                                                       |
 |----------------------------------|---------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                             |
+| **Stereotype**                   | «BGT» «attribuuttype»                             |
 | **Herkomst attribuut**           | BGT                                                           |
 | **Code attribuut**               | 11.10.2                                                       |
 | **Definitie attribuut**          | Labelpositie, samengesteld uit plaatsingspunt en rotatiehoek. |
@@ -1016,7 +1016,7 @@ Samengestelde attributen
 
 | **Naam attribuut**               | plaatsingspunt                                                  |
 |----------------------------------|-----------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                               |
+| **Stereotype**                   | «BGT» «attribuuttype»                               |
 | **Herkomst attribuut**           | BGT                                                             |
 | **Code attribuut**               | 11.10.2.1                                                       |
 | **Definitie attribuut**          | Coördinaten voor de locatie waar het label moet worden getoond. |
@@ -1033,7 +1033,7 @@ Samengestelde attributen
 
 | **Naam attribuut**               | hoek                                                                                                  |
 |----------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                                     |
+| **Stereotype**                   | «BGT» «attribuuttype»                                                                     |
 | **Herkomst attribuut**           | BGT                                                                                                   |
 | **Code attribuut**               | 11.10.2.2                                                                                             |
 | **Definitie attribuut**          | De rotatie van het label bij visualisatie, met de klok mee ten opzichte van de normale tekstrichting. |
