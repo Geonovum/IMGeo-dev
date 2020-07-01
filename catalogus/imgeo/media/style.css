@@ -48,4 +48,5 @@ thead {
 
 #afkortingen th, #afkortingen td, #afkortingen table {
  border: none;   
+ font-weight: normal;
 }
