@@ -177,9 +177,8 @@ betreffende plaatsbepalingspunten én de idealisatieprecisie die geldt voor de
 objecten waar deze punten deel van uit maken. Het proces daarvan is uitgebreid
 beschreven in de HTW 1996.
 
-![](media/9df2785c8ef75f6a836b204115fb5c8f.png)
-
-a: puntprecisie b: idealisatieprecisie c: resulterende relatieve precisie
+![a: puntprecisie b: idealisatieprecisie c: resulterende relatieve precisie](media/9df2785c8ef75f6a836b204115fb5c8f.png)
+*a: puntprecisie b: idealisatieprecisie c: resulterende relatieve precisie*
 
 Als men punten over grotere afstand met elkaar wil vergelijken, moet men
 rekening houden met de fouten­invloed van het gehanteerde referentiesysteem. In

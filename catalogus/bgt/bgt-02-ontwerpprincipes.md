@@ -26,9 +26,8 @@ De BGT bevat fysieke topografische objecten. Uitzonderingen hierop zijn het
 functioneel gebied Kering (zie paragraaf 3.4) en de (kunstmatig) gekozen
 vlakobjectbegrenzingen bij wegdelen, waterdelen en terreindelen.
 
-![](media/61b5f388b93df7f9808aa185a44ce7bd.png)
-
-Overzicht BGT-objecten.
+![Overzicht BGT-objecten](media/61b5f388b93df7f9808aa185a44ce7bd.png)
+*Overzicht BGT-objecten.*
 
 Dekking
 -------

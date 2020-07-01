@@ -417,12 +417,11 @@ paragraaf 4.5):
         samenvoegen van (delen van) een object met (delen) van één of meer
         andere objecten, ontstaan nieuwe objecten.
 
-![](media/5eef69a98731b2a4f65b2eb016ce01c2.png)
-
+![Uitsluitend wijzigingen in geometrie: dezelfde ID’s, nieuwe versies](media/5eef69a98731b2a4f65b2eb016ce01c2.png)
 *Uitsluitend wijzigingen in geometrie: dezelfde ID’s, nieuwe versies*
 
-![](media/fa53fdddec252f43035c2228b2173f9e.png)
-
+![Wijziging door samenvoegen of splitsen: nieuwe, gewijzigde en vervallen
+objecten](media/fa53fdddec252f43035c2228b2173f9e.png)
 *Wijziging door samenvoegen of splitsen: nieuwe, gewijzigde en vervallen
 objecten*
 
@@ -518,6 +517,5 @@ Voor het terreindeel worden voor de coördinaten 1 t/m 5 geen eigen
 plaatsbepalingspunten opgenomen, voor de overige coördinaten worden de
 plaatsbepalingspunten verkregen via het wegdeel.
 
-![](media/882c48ea4ba239aa34e8ca38eb400716.png)
-
-BGT-objecten en plaatsbepalingspunten
+![BGT-objecten en plaatsbepalingspunten](media/882c48ea4ba239aa34e8ca38eb400716.png)
+*BGT-objecten en plaatsbepalingspunten.*

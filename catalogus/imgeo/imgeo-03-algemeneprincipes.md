@@ -479,32 +479,3 @@ volgende werkwijze wordt daarbij gehanteerd:
     planobject wordt overgenomen in het bestaande object (dat zijn id behoudt).
     Het planobject wordt beëindigd (de einddatum wordt ingevuld). De status van
     dit object blijft ‘plan’.
-
-    1.  Domeinwaardenlijsten
-
-In IMGeo zijn objecttypen nader geclassificeerd door middel van domeinwaarden.
-Er zijn aparte lijsten met domeinwaarden die in de BGT zijn toegestaan, en
-lijsten met waarden die geen BGT inhoud zijn maar wel in het optionele IMGeo
-deel gebruikt mogen worden. BGT waarden en IMGeo waarden worden in aparte
-attributen opgenomen, waarvan de naam begint met respectievelijk ‘bgt-‘ en
-‘plus-’.
-
-Daarnaast is het in IMGeo toegestaan om eigen waarden toe te voegen. De
-domeinwaardenlijsten zijn in het technische informatiemodel aangemerkt met het
-stereotype \<\<codeList\>\>. Dit duidt aan dat de waardenlijst uitbreidbaar is.
-
-Bij de uitwisseling dient men, naast het opnemen van een waarde uit een
-codelijst, een verwijzing op te nemen naar de codelijst waaruit de waarde
-afkomstig is. Alle IMGeo codelijsten zijn te vinden op een URI beginnend met
-<http://schemas.geostandaarden.nl>. Bij het gebruik van een eigen, niet in IMGeo
-gedefinieerde waarde dient te bij de uitwisseling te worden gerefereerd (middels
-een URI) aan een eigen codelijst.
-
-Voorbeeld:
-
-Men wil een wegdeel typeren met een functie weg ‘vluchtstrook’. Deze waarde zit
-niet in IMGeo. In de BGT kunnen alle rijstroken van een weg, ook als ze alleen
-gescheiden zijn door wegmarkering, evenzovele wegdelen zijn, alle met functie
-‘rijbaan’. In IMGeo mogen aan deze wegdelen eigen domeinwaarden worden toegekend
-zoals: functie weg ‘vluchtstrook’ waarbij in het attribuut codeSpace wordt
-gerefereerd aan een URI waar de codelijst met deze waarde te vinden is.
