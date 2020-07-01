@@ -1,4 +1,5 @@
-# Beschrijving van de attributen en associaties
+Attributen en associaties
+=========================
 
 Hieronder worden de attributen van de BGT-objecttypen besproken. Alleen de voor
 de BGT relevante attributen worden hier besproken. De overige attributen worden
@@ -239,7 +240,7 @@ Wegdeel
 
 | **Definitie**      | Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling. |
 |--------------------|----------------------------------------------------------------------------------------------------|
-| **Doelklasse**     | GM\_Curve                                                                                          |
+| **Doelklasse**     | GM_Curve                                                                                           |
 | **Multipliciteit** | [0..1]                                                                                             |
 | **Stereotype**     | \<\<BGT\>\> \<\<voidable\>\>                                                                       |
 | **Toelichting**    |                                                                                                    |
@@ -248,7 +249,7 @@ Wegdeel
 
 | **Definitie**      | Vlakgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Surface    |
+| **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     | \<\<BGT\>\>    |
 | **Toelichting**    |                |
@@ -311,7 +312,7 @@ OndersteunendWegdeel
 
 | **Definitie**      | Vlakgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Surface    |
+| **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     | \<\<BGT\>\>    |
 | **Toelichting**    |                |
@@ -320,7 +321,7 @@ OndersteunendWegdeel
 
 | **Definitie**      | Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling. |
 |--------------------|----------------------------------------------------------------------------------------------------|
-| **Doelklasse**     | GM\_Curve                                                                                          |
+| **Doelklasse**     | GM_Curve                                                                                           |
 | **Multipliciteit** | [0..1]                                                                                             |
 | **Stereotype**     | \<\<BGT\>\> \<\<voidable\>\>                                                                       |
 | **Toelichting**    |                                                                                                    |
@@ -349,7 +350,7 @@ Spoor
 
 | **Definitie**      | Lijngeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Curve      |
+| **Doelklasse**     | GM_Curve       |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     | \<\<BGT\>\>    |
 | **Toelichting**    |                |
@@ -395,7 +396,7 @@ OnbegroeidTerreindeel
 
 | **Definitie**      | Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling. |
 |--------------------|----------------------------------------------------------------------------------------------------|
-| **Doelklasse**     | GM\_Curve                                                                                          |
+| **Doelklasse**     | GM_Curve                                                                                           |
 | **Multipliciteit** | [0..1]                                                                                             |
 | **Stereotype**     | \<\<BGT\>\> \<\<voidable\>\>                                                                       |
 | **Toelichting**    |                                                                                                    |
@@ -404,7 +405,7 @@ OnbegroeidTerreindeel
 
 | **Definitie**      | Vlakgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Surface    |
+| **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     | \<\<BGT\>\>    |
 | **Toelichting**    |                |
@@ -450,7 +451,7 @@ BegroeidTerreindeel
 
 | **Definitie**      | Vlakgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Surface    |
+| **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     | \<\<BGT\>\>    |
 | **Toelichting**    |                |
@@ -459,7 +460,7 @@ BegroeidTerreindeel
 
 | **Definitie**      | Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling. |
 |--------------------|----------------------------------------------------------------------------------------------------|
-| **Doelklasse**     | GM\_Curve                                                                                          |
+| **Doelklasse**     | GM_Curve                                                                                           |
 | **Multipliciteit** | [0..1]                                                                                             |
 | **Stereotype**     | \<\<BGT\>\> \<\<voidable\>\>                                                                       |
 | **Toelichting**    |                                                                                                    |
@@ -488,7 +489,7 @@ Waterdeel
 
 | **Definitie**      | Vlakgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Surface    |
+| **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     | \<\<BGT\>\>    |
 | **Toelichting**    |                |
@@ -517,7 +518,7 @@ OndersteunendWaterdeel
 
 | **Definitie**      | Vlakgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Surface    |
+| **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     | \<\<BGT\>\>    |
 | **Toelichting**    |                |
@@ -563,7 +564,7 @@ Pand
 
 | **Definitie**      | Vlakgeometrie grondvlak. |
 |--------------------|--------------------------|
-| **Doelklasse**     | GM\_MultiSurface         |
+| **Doelklasse**     | GM_MultiSurface          |
 | **Multipliciteit** | [1..1]                   |
 | **Stereotype**     | \<\<BGT\>\>              |
 | **Toelichting**    |                          |
@@ -575,7 +576,7 @@ OverigeConstructie
 
 | **Definitie**      | Punt-, lijn-, vlak- of multivlakgeometrie. |
 |--------------------|--------------------------------------------|
-| **Doelklasse**     | GM\_Object                                 |
+| **Doelklasse**     | GM_Object                                  |
 | **Multipliciteit** | [1..1]                                     |
 | **Stereotype**     | \<\<BGT\>\>                                |
 | **Toelichting**    |                                            |
@@ -607,7 +608,7 @@ Overbruggingsdeel
 
 | **Definitie**      | Vlakgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Surface    |
+| **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     | \<\<BGT\>\>    |
 | **Toelichting**    |                |
@@ -619,7 +620,7 @@ Tunneldeel
 
 | **Definitie**      | Vlakgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Surface    |
+| **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     | \<\<BGT\>\>    |
 | **Toelichting**    |                |
@@ -664,8 +665,6 @@ Scheiding
 | **Indicatie authentiek**         | Authentiek                            |
 | **Toelichting attribuut**        |                                       |
 
-
-
 FunctioneelGebied
 -----------------
 
@@ -690,7 +689,7 @@ FunctioneelGebied
 
 | **Definitie**      | Vlakgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Surface    |
+| **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     | \<\<BGT\>\>    |
 | **Toelichting**    |                |
@@ -771,37 +770,37 @@ Plaatsbepalingspunt
 
 ### nauwkeurigheid
 
-| **Naam attribuut**               | nauwkeurigheid                                                                                                                          |
-|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\> \<\<voidable\>\>                                                                                      |
-| **Herkomst attribuut**           | BGT                                                                                                                                     |
-| **Code attribuut**               | 120.2                                                                                                                                   |
+| **Naam attribuut**               | nauwkeurigheid                                                                                                                                |
+|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\> \<\<voidable\>\>                                                                                            |
+| **Herkomst attribuut**           | BGT                                                                                                                                           |
+| **Code attribuut**               | 120.2                                                                                                                                         |
 | **Definitie attribuut**          | Gerealiseerde geometrische nauwkeurigheid van het punt als het resultaat van het inwinnings- en verwerkingsproces, uitgedrukt in centimeters. |
-| **Waardetype attribuut**         | Integer                                                                                                                                 |
-| **Waardenverzameling**           |                                                                                                                                         |
-| **Multipliciteit**               | [1-1]                                                                                                                                   |
-| **Datum opname**                 |                                                                                                                                         |
-| **Indicatie materiële historie** | Nee                                                                                                                                     |
-| **Indicatie formele historie**   | Nee                                                                                                                                     |
-| **Indicatie authentiek**         | Authentiek                                                                                                                              |
-| **Toelichting attribuut**        |                                                                                                                                         |
+| **Waardetype attribuut**         | Integer                                                                                                                                       |
+| **Waardenverzameling**           |                                                                                                                                               |
+| **Multipliciteit**               | [1-1]                                                                                                                                         |
+| **Datum opname**                 |                                                                                                                                               |
+| **Indicatie materiële historie** | Nee                                                                                                                                           |
+| **Indicatie formele historie**   | Nee                                                                                                                                           |
+| **Indicatie authentiek**         | Authentiek                                                                                                                                    |
+| **Toelichting attribuut**        |                                                                                                                                               |
 
 ### datumInwinning
 
-| **Naam attribuut**               | datumInwinning                                                                                                                                       |
-|----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                                                                                    |
-| **Herkomst attribuut**           | BGT                                                                                                                                                  |
-| **Code attribuut**               | 120.3                                                                                                                                                |
-| **Definitie attribuut**          | Datum waarop het punt is ingewonnen.                                                                                                                 |
-| **Waardetype attribuut**         | Date                                                                                                                                                 |
-| **Waardenverzameling**           |                                                                                                                                                      |
-| **Multipliciteit**               | [1-1]                                                                                                                                                |
-| **Datum opname**                 |                                                                                                                                                      |
-| **Indicatie materiële historie** | Nee                                                                                                                                                  |
-| **Indicatie formele historie**   | Nee                                                                                                                                                  |
-| **Indicatie authentiek**         | Authentiek                                                                                                                                           |
-| **Toelichting attribuut**        |
+| **Naam attribuut**               | datumInwinning                       |
+|----------------------------------|--------------------------------------|
+| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>    |
+| **Herkomst attribuut**           | BGT                                  |
+| **Code attribuut**               | 120.3                                |
+| **Definitie attribuut**          | Datum waarop het punt is ingewonnen. |
+| **Waardetype attribuut**         | Date                                 |
+| **Waardenverzameling**           |                                      |
+| **Multipliciteit**               | [1-1]                                |
+| **Datum opname**                 |                                      |
+| **Indicatie materiële historie** | Nee                                  |
+| **Indicatie formele historie**   | Nee                                  |
+| **Indicatie authentiek**         | Authentiek                           |
+| **Toelichting attribuut**        |                                      |
 
 ### inwinnendeInstantie
 
@@ -841,15 +840,27 @@ Plaatsbepalingspunt
 
 | **Definitie**      | Puntgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Point      |
+| **Doelklasse**     | GM_Point       |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     | \<\<BGT\>\>    |
 | **Toelichting**    |                |
 
-Nummeraanduidingreeks
----------------------
+Samengestelde attributen
+------------------------
 
-### nummeraanduidingreeks
+### Nummeraanduidingreeks
+
+| **Naam samengesteld attribuut**        | Nummeraanduidingreeks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Definitie samengesteld attribuut**   | Samengesteld attribuut ten behoeve van opname van een reeks nummeraanduidingen van verblijfsobjecten in een pand.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Stereotype**                         | «dataType» «BGT» «groepattribuuttype»                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Herkomst samengesteld attribuut**    | \-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Toelichting samengesteld attribuut** | Uit de BAG afgeleide reeks nummeraanduidingen waarbij het laagste en hoogste bijbehorende huisnummer worden gevisualiseerd. Bij één pand kunnen meerdere reeksen nummeraanduidingen worden opgenomen (t.b.v galerijflats en dergelijke). In een reeks kunnen ook huisletters worden opgenomen. Bij een pand met één verblijfsobject wordt een nummeraanduidingreeks met daarin één huisnummer en eventueel huisletter en toevoeging opgenomen. De BAG identificatie van de verblijfsobjecten met het laagste en hoogste huisnummer wordt opgenomen. Als bij het pand maar één nummeraanduiding hoort, wordt de bijbehorende BAG identificatie opgenomen als laagste nummeraanduiding. Ten behoeve van visualisatie zijn het punt waar de nummeraanduidingreeks moet worden gevisualiseerd en eventueel de rotatiehoek opgenomen. |
+| **Overzicht attributen**               | «BGT»nummeraanduidingreeks [1-1]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                        | «BGT»identificatieBAGVBOLaagsteHuisnummer [1-1]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                        | «BGT»identificatieBAGVBOHoogsteHuisnummer [0-1]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+
+#### nummeraanduidingreeks
 
 | **Naam attribuut**               | nummeraanduidingreeks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -866,7 +877,7 @@ Nummeraanduidingreeks
 | **Indicatie authentiek**         | Authentiek                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Toelichting attribuut**        | Om een reeks nummeraanduidingen op te nemen ten behoeve van visualisatie. Dit wordt geautomatiseerd afgeleid uit de BAG, waarbij het laagste en hoogste huisnummer van nummeraanduidingen van verblijfsobjecten in een pand worden weergegeven. - Voor hoekpanden waarbij verblijfsobjecten uit verschillende openbare ruimten zijn opgenomen, is het mogelijk om meerdere nummeraanduidingreeksen op te nemen. - Meerdere huisnummers in een pand worden niet individueel afgebeeld, laat staan de bijbehorende huisletters en toevoegingen. |
 
-### identificatieBAGVBOLaagsteHuisnummer
+#### identificatieBAGVBOLaagsteHuisnummer
 
 | **Naam attribuut**               | identificatieBAGVBOLaagsteHuisnummer                                                                           |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------|
@@ -883,7 +894,7 @@ Nummeraanduidingreeks
 | **Indicatie authentiek**         | Authentiek andere registratie                                                                                  |
 | **Toelichting attribuut**        |                                                                                                                |
 
-### identificatieBAGVBOHoogsteHuisnummer
+#### identificatieBAGVBOHoogsteHuisnummer
 
 | **Naam attribuut**               | identificatieBAGVBOHoogsteHuisnummer                                                                           |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------|
@@ -900,47 +911,63 @@ Nummeraanduidingreeks
 | **Indicatie authentiek**         | Authentiek andere registratie                                                                                  |
 | **Toelichting attribuut**        |                                                                                                                |
 
-NEN3610ID
----------
+### NEN3610ID
 
-### namespace
+| **Naam samengesteld attribuut**        | NEN3610ID                                                                                                                                                                                                                       |
+|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Definitie samengesteld attribuut**   | Identificatiegegevens voor de universeel unieke identificatie van een object.                                                                                                                                                   |
+| **Stereotype**                         | «dataType» «BGT» «groepattribuuttype»                                                                                                                                                                                           |
+| **Herkomst samengesteld attribuut**    | \-                                                                                                                                                                                                                              |
+| **Toelichting samengesteld attribuut** | De combinatie van namespace van een registratie, lokale identificatie en versie informatie maken een object uniek identificeerbaar. Met het NEN3610ID kun je daardoor met zekerheid verwijzen naar het geïdentificeerde object. |
+| **Overzicht attributen**               | «BGT»namespace [1-1]                                                                                                                                                                                                            |
+|                                        | «BGT»lokaalID [1-1]                                                                                                                                                                                                             |
 
-| **Naam attribuut**               | namespace                                                                                                                                                                                                                                                                                                                                                                |
-|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                                                                                                                                                                                                                                                                                                        |
-| **Herkomst attribuut**           | BGT                                                                                                                                                                                                                                                                                                                                                                      |
-| **Code attribuut**               | 10.1.1                                                                                                                                                                                                                                                                                                                                                                   |
-| **Definitie attribuut**          | Unieke verwijzing naar een registratie van objecten.                                                                                                                                                                                                                                                                                                                     |
-| **Waardetype attribuut**         | CharacterString                                                                                                                                                                                                                                                                                                                                                          |
-| **Waardenverzameling**           |                                                                                                                                                                                                                                                                                                                                                                          |
-| **Multipliciteit**               | [1-1]                                                                                                                                                                                                                                                                                                                                                                    |
-| **Datum opname**                 |                                                                                                                                                                                                                                                                                                                                                                          |
-| **Indicatie materiële historie** | Nee                                                                                                                                                                                                                                                                                                                                                                      |
-| **Indicatie formele historie**   | Nee                                                                                                                                                                                                                                                                                                                                                                      |
-| **Indicatie authentiek**         | Authentiek                                                                                                                                                                                                                                                                                                                                                               |
-| **Toelichting attribuut**        | Het attribuut ‘namespace’ is een unieke verwijzing naar de registratie die de identificatie uitdeelt. Deze lijst van registraties wordt beheerd door de beheerder van NEN3610. Binnen Nederland zal deze namespace vrijwel altijd met ‘NL.’ beginnen. De volgende karakters mogen in een namespace aanduiding voorkomen: {”A” …”Z”, “a”…”z”,”0”…”9”, “\_”, “-“, “,”,”.”} |
+#### namespace
 
-### lokaalID
+| **Naam attribuut**               | namespace                                                                                                                                                                                                                                                                                                                                                               |
+|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                                                                                                                                                                                                                                                                                                       |
+| **Herkomst attribuut**           | BGT                                                                                                                                                                                                                                                                                                                                                                     |
+| **Code attribuut**               | 10.1.1                                                                                                                                                                                                                                                                                                                                                                  |
+| **Definitie attribuut**          | Unieke verwijzing naar een registratie van objecten.                                                                                                                                                                                                                                                                                                                    |
+| **Waardetype attribuut**         | CharacterString                                                                                                                                                                                                                                                                                                                                                         |
+| **Waardenverzameling**           |                                                                                                                                                                                                                                                                                                                                                                         |
+| **Multipliciteit**               | [1-1]                                                                                                                                                                                                                                                                                                                                                                   |
+| **Datum opname**                 |                                                                                                                                                                                                                                                                                                                                                                         |
+| **Indicatie materiële historie** | Nee                                                                                                                                                                                                                                                                                                                                                                     |
+| **Indicatie formele historie**   | Nee                                                                                                                                                                                                                                                                                                                                                                     |
+| **Indicatie authentiek**         | Authentiek                                                                                                                                                                                                                                                                                                                                                              |
+| **Toelichting attribuut**        | Het attribuut ‘namespace’ is een unieke verwijzing naar de registratie die de identificatie uitdeelt. Deze lijst van registraties wordt beheerd door de beheerder van NEN3610. Binnen Nederland zal deze namespace vrijwel altijd met ‘NL.’ beginnen. De volgende karakters mogen in een namespace aanduiding voorkomen: {”A” …”Z”, “a”…”z”,”0”…”9”, “_”, “-“, “,”,”.”} |
 
-| **Naam attribuut**               | lokaalID                                                                                                                                                                                                                                               |
-|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                                                                                                                                                                                      |
-| **Herkomst attribuut**           | BGT                                                                                                                                                                                                                                                    |
-| **Code attribuut**               | 10.1.2                                                                                                                                                                                                                                                 |
-| **Definitie attribuut**          | Unieke identificatiecode binnen een registratie.                                                                                                                                                                                                       |
-| **Waardetype attribuut**         | CharacterString                                                                                                                                                                                                                                        |
-| **Waardenverzameling**           |                                                                                                                                                                                                                                                        |
-| **Multipliciteit**               | [1-1]                                                                                                                                                                                                                                                  |
-| **Datum opname**                 |                                                                                                                                                                                                                                                        |
-| **Indicatie materiële historie** | Nee                                                                                                                                                                                                                                                    |
-| **Indicatie formele historie**   | Nee                                                                                                                                                                                                                                                    |
-| **Indicatie authentiek**         | Authentiek                                                                                                                                                                                                                                             |
-| **Toelichting attribuut**        | LokaalID is de identificatiecode die een object heeft binnen een (lokaal) registratie. De volgende karakters mogen in een lokaalID voorkomen: {”A” …”Z”, “a”…”z”,”0”…”9”, “\_”, “-“, “,”,”.”} Dit is de IMGeo identificatie. Een betekenisloos nummer. |
+#### lokaalID
 
-Label
------
+| **Naam attribuut**               | lokaalID                                                                                                                                                                                                                                              |
+|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Stereotype**                   | \<\<BGT\>\> \<\<attribuuttype\>\>                                                                                                                                                                                                                     |
+| **Herkomst attribuut**           | BGT                                                                                                                                                                                                                                                   |
+| **Code attribuut**               | 10.1.2                                                                                                                                                                                                                                                |
+| **Definitie attribuut**          | Unieke identificatiecode binnen een registratie.                                                                                                                                                                                                      |
+| **Waardetype attribuut**         | CharacterString                                                                                                                                                                                                                                       |
+| **Waardenverzameling**           |                                                                                                                                                                                                                                                       |
+| **Multipliciteit**               | [1-1]                                                                                                                                                                                                                                                 |
+| **Datum opname**                 |                                                                                                                                                                                                                                                       |
+| **Indicatie materiële historie** | Nee                                                                                                                                                                                                                                                   |
+| **Indicatie formele historie**   | Nee                                                                                                                                                                                                                                                   |
+| **Indicatie authentiek**         | Authentiek                                                                                                                                                                                                                                            |
+| **Toelichting attribuut**        | LokaalID is de identificatiecode die een object heeft binnen een (lokaal) registratie. De volgende karakters mogen in een lokaalID voorkomen: {”A” …”Z”, “a”…”z”,”0”…”9”, “_”, “-“, “,”,”.”} Dit is de IMGeo identificatie. Een betekenisloos nummer. |
 
-### tekst
+### Label
+
+| **Naam samengesteld attribuut**        | Label                                                                                          |
+|----------------------------------------|------------------------------------------------------------------------------------------------|
+| **Definitie samengesteld attribuut**   | Een samengesteld attribuut voor verwijzing naar een te plaatsen labeltekst en positie daarvan. |
+| **Stereotype**                         | «dataType» «BGT» «groepattribuuttype»                                                          |
+| **Herkomst samengesteld attribuut**    | \-                                                                                             |
+| **Toelichting samengesteld attribuut** |                                                                                                |
+| **Overzicht attributen**               | «BGT»tekst [1-1]                                                                               |
+|                                        | «BGT»positie [1-\*]                                                                            |
+
+#### tekst
 
 | **Naam attribuut**               | tekst                             |
 |----------------------------------|-----------------------------------|
@@ -957,7 +984,7 @@ Label
 | **Indicatie authentiek**         |                                   |
 | **Toelichting attribuut**        |                                   |
 
-### positie
+#### positie
 
 | **Naam attribuut**               | positie                                                       |
 |----------------------------------|---------------------------------------------------------------|
@@ -974,10 +1001,18 @@ Label
 | **Indicatie authentiek**         | Zie groep                                                     |
 | **Toelichting attribuut**        |                                                               |
 
-Labelpositie
-------------
+### Labelpositie
 
-### plaatsingspunt
+| **Naam samengesteld attribuut**        | Labelpositie                                                                                                                 |
+|----------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| **Definitie samengesteld attribuut**   | Locatie waar een label ten behoeve van visualisatie moet worden afgebeeld.                                                   |
+| **Stereotype**                         | «dataType» «BGT» «groepattribuuttype»                                                                                        |
+| **Herkomst samengesteld attribuut**    | \-                                                                                                                           |
+| **Toelichting samengesteld attribuut** | Ten behoeve van visualisatie zijn opgenomen het geometriepunt en eventuele rotatie die gewenst is bij het tonen van de naam. |
+| **Overzicht attributen**               | «BGT»plaatsingspunt [1-1]                                                                                                    |
+|                                        | «BGT»hoek [1-1]                                                                                                              |
+
+#### plaatsingspunt
 
 | **Naam attribuut**               | plaatsingspunt                                                  |
 |----------------------------------|-----------------------------------------------------------------|
@@ -985,7 +1020,7 @@ Labelpositie
 | **Herkomst attribuut**           | BGT                                                             |
 | **Code attribuut**               | 11.10.2.1                                                       |
 | **Definitie attribuut**          | Coördinaten voor de locatie waar het label moet worden getoond. |
-| **Waardetype attribuut**         | GM\_Point                                                       |
+| **Waardetype attribuut**         | GM_Point                                                        |
 | **Waardenverzameling**           |                                                                 |
 | **Multipliciteit**               | [1-1]                                                           |
 | **Datum opname**                 |                                                                 |
@@ -994,7 +1029,7 @@ Labelpositie
 | **Indicatie authentiek**         | Authentiek                                                      |
 | **Toelichting attribuut**        |                                                                 |
 
-### hoek
+#### hoek
 
 | **Naam attribuut**               | hoek                                                                                                  |
 |----------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -1009,55 +1044,4 @@ Labelpositie
 | **Indicatie materiële historie** | Nee                                                                                                   |
 | **Indicatie formele historie**   | Nee                                                                                                   |
 | **Indicatie authentiek**         | Authentiek                                                                                            |
-| **Toelichting attribuut**        |    |
-
-
-
-
-Samengestelde attributen
-------------------------
-
-### Nummeraanduidingreeks
-
-| **Naam samengesteld attribuut**        | Nummeraanduidingreeks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Definitie samengesteld attribuut**   | Samengesteld attribuut ten behoeve van opname van een reeks nummeraanduidingen van verblijfsobjecten in een pand.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Stereotype**                         | «dataType» «BGT» «groepattribuuttype»                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Herkomst samengesteld attribuut**    | \-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **Toelichting samengesteld attribuut** | Uit de BAG afgeleide reeks nummeraanduidingen waarbij het laagste en hoogste bijbehorende huisnummer worden gevisualiseerd. Bij één pand kunnen meerdere reeksen nummeraanduidingen worden opgenomen (t.b.v galerijflats en dergelijke). In een reeks kunnen ook huisletters worden opgenomen. Bij een pand met één verblijfsobject wordt een nummeraanduidingreeks met daarin één huisnummer en eventueel huisletter en toevoeging opgenomen. De BAG identificatie van de verblijfsobjecten met het laagste en hoogste huisnummer wordt opgenomen. Als bij het pand maar één nummeraanduiding hoort, wordt de bijbehorende BAG identificatie opgenomen als laagste nummeraanduiding. Ten behoeve van visualisatie zijn het punt waar de nummeraanduidingreeks moet worden gevisualiseerd en eventueel de rotatiehoek opgenomen. |
-| **Overzicht attributen**               | «BGT»nummeraanduidingreeks [1-1]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|                                        | «BGT»identificatieBAGVBOLaagsteHuisnummer [1-1]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|                                        | «BGT»identificatieBAGVBOHoogsteHuisnummer [0-1]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-
-### NEN3610ID
-
-| **Naam samengesteld attribuut**        | NEN3610ID                                                                                                                                                                                                                       |
-|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Definitie samengesteld attribuut**   | Identificatiegegevens voor de universeel unieke identificatie van een object.                                                                                                                                                   |
-| **Stereotype**                         | «dataType» «BGT» «groepattribuuttype»                                                                                                                                                                         |
-| **Herkomst samengesteld attribuut**    | \-                                                                                                                                                                                                                              |
-| **Toelichting samengesteld attribuut** | De combinatie van namespace van een registratie, lokale identificatie en versie informatie maken een object uniek identificeerbaar. Met het NEN3610ID kun je daardoor met zekerheid verwijzen naar het geïdentificeerde object. |
-| **Overzicht attributen**               | «BGT»namespace [1-1]                                                                                                                                                                                                      |
-|                                        | «BGT»lokaalID [1-1]                                                                                                                                                                                                       |
-
-### Label
-
-| **Naam samengesteld attribuut**        | Label                                                                                          |
-|----------------------------------------|------------------------------------------------------------------------------------------------|
-| **Definitie samengesteld attribuut**   | Een samengesteld attribuut voor verwijzing naar een te plaatsen labeltekst en positie daarvan. |
-| **Stereotype**                         | «dataType» «BGT» «groepattribuuttype»                                        |
-| **Herkomst samengesteld attribuut**    | \-                                                                                             |
-| **Toelichting samengesteld attribuut** |                                                                                                |
-| **Overzicht attributen**               | «BGT»tekst [1-1]                                                                         |
-|                                        | «BGT»positie [1-\*]                                                                      |
-
-### Labelpositie
-
-| **Naam samengesteld attribuut**        | Labelpositie                                                                                                               |
-|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| **Definitie samengesteld attribuut**   | Locatie waar een label ten behoeve van visualisatie moet worden afgebeeld.                                                 |
-| **Stereotype**                         | «dataType» «BGT» «groepattribuuttype»                                                                    |
-| **Herkomst samengesteld attribuut**    | \-                                                                                                                         |
-| **Toelichting samengesteld attribuut** | Ten behoeve van visualisatie zijn opgenomen het geometriepunt en eventuele rotatie die gewenst is bij het tonen van de naam. |
-| **Overzicht attributen**               | «BGT»plaatsingspunt [1-1]                                                                                            |
-|                                        | «BGT»hoek [1-1]              
+| **Toelichting attribuut**        |                                                                                                       |

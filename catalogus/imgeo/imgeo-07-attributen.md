@@ -1,18 +1,20 @@
-# Attributen en associaties
+Attributen en associaties
+=========================
 
-Hieronder worden besproken:
+Hieronder worden beschreven:
 
 -   De optionele attributen en associaties van BGT objecttypen;
 
 -   De attributen en associaties van optionele IMGeo objecttypen.
 
-## IMGeo-Object
+IMGeo-Object
+------------
 
 ### plus-status
 
 | **Naam attribuut**               | plus-status                                                                                                      |
 |----------------------------------|------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                                                            |
+| **Stereotype**                   | «attribuuttype»                                                                                                  |
 | **Herkomst attribuut**           | IMGeo                                                                                                            |
 | **Code attribuut**               | 10.11                                                                                                            |
 | **Definitie attribuut**          | De status gekoppeld aan de levenscyclus van een geo-object, indien dit een uitbreiding van de populatie betreft. |
@@ -25,13 +27,14 @@ Hieronder worden besproken:
 | **Indicatie authentiek**         | Niet-authentiek                                                                                                  |
 | **Toelichting attribuut**        |                                                                                                                  |
 
-## Wegdeel
+Wegdeel
+-------
 
 ### plus-functieWegdeel
 
 | **Naam attribuut**               | plus-functieWegdeel                                                           |
 |----------------------------------|-------------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                         |
+| **Stereotype**                   | «attribuuttype»                                                               |
 | **Herkomst attribuut**           | NEN 3610:2011                                                                 |
 | **Code attribuut**               | 20.4                                                                          |
 | **Definitie attribuut**          | Specificatie van het hoofdgebruiksdoel van het wegdeel, nadere classificatie. |
@@ -48,7 +51,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-fysiekVoorkomenWegdeel                                          |
 |----------------------------------|----------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                |
+| **Stereotype**                   | «attribuuttype»                                                      |
 | **Herkomst attribuut**           | IMGEO                                                                |
 | **Code attribuut**               | 20.5                                                                 |
 | **Definitie attribuut**          | Mate waarin het wegdeel al of niet verhard is, nadere classificatie. |
@@ -65,18 +68,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Vlakgeometrie in 2.5D.                                                                                                 |
 |--------------------|------------------------------------------------------------------------------------------------------------------------|
-| **Doelklasse**     | GM\_Surface                                                                                                            |
+| **Doelklasse**     | GM_Surface                                                                                                             |
 | **Multipliciteit** | [0..1]                                                                                                                 |
 | **Stereotype**     |                                                                                                                        |
 | **Toelichting**    | Vlakgeometrie met z coördinaat (2.5D) die als level of detail(LOD)0 geometrie in een Digital Terrain Model (DTM) past. |
 
-## OndersteunendWegdeel
+OndersteunendWegdeel
+--------------------
 
 ### plus-functieOndersteunendWegdeel
 
 | **Naam attribuut**               | plus-functieOndersteunendWegdeel                                        |
 |----------------------------------|-------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                   |
+| **Stereotype**                   | «attribuuttype»                                                         |
 | **Herkomst attribuut**           | IMGEO                                                                   |
 | **Code attribuut**               | 70.4                                                                    |
 | **Definitie attribuut**          | Specificatie van het soort ondersteunend wegdeel, nadere classificatie. |
@@ -93,7 +97,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-fysiekVoorkomenOndersteunendWegdeel                                           |
 |----------------------------------|------------------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                              |
+| **Stereotype**                   | «attribuuttype»                                                                    |
 | **Herkomst attribuut**           | BGT                                                                                |
 | **Code attribuut**               | 70.5                                                                               |
 | **Definitie attribuut**          | Mate waarin het ondersteunend wegdeel al of niet verhard is, nadere classificatie. |
@@ -110,18 +114,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Vlakgeometrie in 2.5D. |
 |--------------------|------------------------|
-| **Doelklasse**     | GM\_Surface            |
+| **Doelklasse**     | GM_Surface             |
 | **Multipliciteit** | [0..1]                 |
 | **Stereotype**     |                        |
 | **Toelichting**    |                        |
 
-## OnbegroeidTerreindeel
+OnbegroeidTerreindeel
+---------------------
 
 ### plus-fysiekVoorkomen
 
 | **Naam attribuut**               | plus-fysiekVoorkomen                                                                        |
 |----------------------------------|---------------------------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                                       |
+| **Stereotype**                   | «attribuuttype»                                                                             |
 | **Herkomst attribuut**           | IMGEO                                                                                       |
 | **Code attribuut**               | 30.3                                                                                        |
 | **Definitie attribuut**          | Nadere classificatie van het soort terrein, ingedeeld naar de uiterlijke verschijningsvorm. |
@@ -134,13 +139,14 @@ Hieronder worden besproken:
 | **Indicatie authentiek**         | Niet-authentiek                                                                             |
 | **Toelichting attribuut**        |                                                                                             |
 
-## BegroeidTerreindeel
+BegroeidTerreindeel
+-------------------
 
 ### plus-fysiekVoorkomen
 
 | **Naam attribuut**               | plus-fysiekVoorkomen                                                       |
 |----------------------------------|----------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                      |
+| **Stereotype**                   | «attribuuttype»                                                            |
 | **Herkomst attribuut**           | IMGEO                                                                      |
 | **Code attribuut**               | 140.3                                                                      |
 | **Definitie attribuut**          | Nadere classificatie van het vegetatiedek, ingedeeld naar soort vegetatie. |
@@ -157,18 +163,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Multivlakgeometrie in 2.5D. |
 |--------------------|-----------------------------|
-| **Doelklasse**     | GM\_MultiSurface            |
+| **Doelklasse**     | GM_MultiSurface             |
 | **Multipliciteit** | [0..1]                      |
 | **Stereotype**     |                             |
 | **Toelichting**    |                             |
 
-## Waterdeel
+Waterdeel
+---------
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                                               |
 |----------------------------------|---------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                   |
+| **Stereotype**                   | «attribuuttype»                                         |
 | **Herkomst attribuut**           | IMGEO                                                   |
 | **Code attribuut**               | 40.2                                                    |
 | **Definitie attribuut**          | Specificatie van het soort Water, nadere classificatie. |
@@ -181,13 +188,14 @@ Hieronder worden besproken:
 | **Indicatie authentiek**         | Niet-authentiek                                         |
 | **Toelichting attribuut**        |                                                         |
 
-## OndersteunendWaterdeel
+OndersteunendWaterdeel
+----------------------
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                                               |
 |----------------------------------|---------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                   |
+| **Stereotype**                   | «attribuuttype»                                         |
 | **Herkomst attribuut**           | IMGEO                                                   |
 | **Code attribuut**               | 41.2                                                    |
 | **Definitie attribuut**          | Specificatie van het soort Water, nadere classificatie. |
@@ -200,13 +208,14 @@ Hieronder worden besproken:
 | **Indicatie authentiek**         | Niet-authentiek                                         |
 | **Toelichting attribuut**        |                                                         |
 
-## OverigeConstructie
+OverigeConstructie
+------------------
 
 ### Associatie: lod0Geometry
 
 | **Definitie**      | Punt-, lijn- of vlakgeometrie in 2.5D. |
 |--------------------|----------------------------------------|
-| **Doelklasse**     | GM\_Object                             |
+| **Doelklasse**     | GM_Object                              |
 | **Multipliciteit** | [0..1]                                 |
 | **Stereotype**     |                                        |
 | **Toelichting**    |                                        |
@@ -215,7 +224,7 @@ Hieronder worden besproken:
 
 | **Definitie**      | 3D geometrie op level of detail 1. |
 |--------------------|------------------------------------|
-| **Doelklasse**     | GM\_Object                         |
+| **Doelklasse**     | GM_Object                          |
 | **Multipliciteit** | [0..1]                             |
 | **Stereotype**     |                                    |
 | **Toelichting**    |                                    |
@@ -224,7 +233,7 @@ Hieronder worden besproken:
 
 | **Definitie**      | 3D geometrie op level of detail 2. |
 |--------------------|------------------------------------|
-| **Doelklasse**     | GM\_Object                         |
+| **Doelklasse**     | GM_Object                          |
 | **Multipliciteit** | [0..1]                             |
 | **Stereotype**     |                                    |
 | **Toelichting**    |                                    |
@@ -233,7 +242,7 @@ Hieronder worden besproken:
 
 | **Definitie**      | 3D geometrie op level of detail 3. |
 |--------------------|------------------------------------|
-| **Doelklasse**     | GM\_Object                         |
+| **Doelklasse**     | GM_Object                          |
 | **Multipliciteit** | [0..1]                             |
 | **Stereotype**     |                                    |
 | **Toelichting**    |                                    |
@@ -274,13 +283,14 @@ Hieronder worden besproken:
 | **Stereotype**     |                                                                                                                                |
 | **Toelichting**    |                                                                                                                                |
 
-## Spoor
+Spoor
+-----
 
 ### plus-functieSpoor
 
 | **Naam attribuut**               | plus-functieSpoor                                                                                            |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                                                        |
+| **Stereotype**                   | «attribuuttype»                                                                                              |
 | **Herkomst attribuut**           | IMGEO                                                                                                        |
 | **Code attribuut**               | 100.2                                                                                                        |
 | **Definitie attribuut**          | Specificatie van het soort gebruik van het spoor, indien dit een IMGeo uitbreiding van de populatie betreft. |
@@ -291,24 +301,25 @@ Hieronder worden besproken:
 | **Indicatie materiële historie** | Nee                                                                                                          |
 | **Indicatie formele historie**   | Ja                                                                                                           |
 | **Indicatie authentiek**         | Niet-authentiek                                                                                              |
-| **Toelichting attribuut**        |                                                                                             |
+| **Toelichting attribuut**        |                                                                                                              |
 
 ### Associatie: lod0CurveSpoor
 
 | **Definitie**      | Lijngeometrie in 2.5D. |
 |--------------------|------------------------|
-| **Doelklasse**     | GM\_Curve              |
+| **Doelklasse**     | GM_Curve               |
 | **Multipliciteit** | [0..1]                 |
 | **Stereotype**     |                        |
 | **Toelichting**    |                        |
 
-## OverigBouwwerk
+OverigBouwwerk
+--------------
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                                                                                              |
 |----------------------------------|--------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                                                  |
+| **Stereotype**                   | «attribuuttype»                                                                                        |
 | **Herkomst attribuut**           | IMGEO                                                                                                  |
 | **Code attribuut**               | 53.2                                                                                                   |
 | **Definitie attribuut**          | Specificatie van het soort overig bouwwerk, indien dit een IMGeo uitbreiding van de populatie betreft. |
@@ -321,13 +332,14 @@ Hieronder worden besproken:
 | **Indicatie authentiek**         | Niet-authentiek                                                                                        |
 | **Toelichting attribuut**        |                                                                                                        |
 
-## Kunstwerkdeel
+Kunstwerkdeel
+-------------
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                                                                                        |
 |----------------------------------|--------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                                            |
+| **Stereotype**                   | «attribuuttype»                                                                                  |
 | **Herkomst attribuut**           | IMGEO                                                                                            |
 | **Code attribuut**               | 51.2                                                                                             |
 | **Definitie attribuut**          | Specificatie van het soort kunstwerk, indien dit een IMGeo uitbreiding van de populatie betreft. |
@@ -340,13 +352,14 @@ Hieronder worden besproken:
 | **Indicatie authentiek**         | Niet-authentiek                                                                                  |
 | **Toelichting attribuut**        |                                                                                                  |
 
-## Overbruggingsdeel
+Overbruggingsdeel
+-----------------
 
 ### typeOverbruggingsdeel
 
 | **Naam attribuut**               | typeOverbruggingsdeel                       |
 |----------------------------------|---------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                       |
+| **Stereotype**                   | «attribuuttype»                             |
 | **Herkomst attribuut**           | IMGEO 2.0                                   |
 | **Code attribuut**               | 55.2                                        |
 | **Definitie attribuut**          | Het soort onderdeel van de brugconstructie. |
@@ -363,7 +376,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | hoortBijTypeOverbrugging                                                                  |
 |----------------------------------|-------------------------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                                     |
+| **Stereotype**                   | «attribuuttype»                                                                           |
 | **Herkomst attribuut**           | IMGEO 2.0                                                                                 |
 | **Code attribuut**               | 55.1                                                                                      |
 | **Definitie attribuut**          | Nadere classificatie van de overbrugging waar het overbruggingsdeel een onderdeel van is. |
@@ -380,7 +393,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | overbruggingIsBeweegbaar                                                              |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                                 |
+| **Stereotype**                   | «attribuuttype»                                                                       |
 | **Herkomst attribuut**           | IMGEO 2.0                                                                             |
 | **Code attribuut**               | 55.3                                                                                  |
 | **Definitie attribuut**          | Aanduiding of de brug waar het overbruggingsdeel bij hoort al dan niet beweegbaar is. |
@@ -397,29 +410,31 @@ Hieronder worden besproken:
 
 | **Definitie**      | Vlakgeometrie in 2.5D op level of detail 0. |
 |--------------------|---------------------------------------------|
-| **Doelklasse**     | GM\_Surface                                 |
+| **Doelklasse**     | GM_Surface                                  |
 | **Multipliciteit** | [0..1]                                      |
 | **Stereotype**     |                                             |
 | **Toelichting**    |                                             |
 
-## Tunneldeel
+Tunneldeel
+----------
 
 ### Associatie: lod0GeometrieTunneldeel
 
 | **Definitie**      | Vlakgeometrie in 2.5D op level of detail 0. |
 |--------------------|---------------------------------------------|
-| **Doelklasse**     | GM\_Surface                                 |
+| **Doelklasse**     | GM_Surface                                  |
 | **Multipliciteit** | [0..1]                                      |
 | **Stereotype**     |                                             |
 | **Toelichting**    |                                             |
 
-## Scheiding
+Scheiding
+---------
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                                                                                        |
 |----------------------------------|--------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                                            |
+| **Stereotype**                   | «attribuuttype»                                                                                  |
 | **Herkomst attribuut**           | IMGEO                                                                                            |
 | **Code attribuut**               | 52.2                                                                                             |
 | **Definitie attribuut**          | Specificatie van het soort scheiding, indien dit een IMGeo uitbreiding van de populatie betreft. |
@@ -432,13 +447,14 @@ Hieronder worden besproken:
 | **Indicatie authentiek**         | Niet-authentiek                                                                                  |
 | **Toelichting attribuut**        |                                                                                                  |
 
-## FunctioneelGebied
+FunctioneelGebied
+-----------------
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                                                     |
+| **Stereotype**                   | «attribuuttype»                                                                                           |
 | **Herkomst attribuut**           | IMGEO                                                                                                     |
 | **Code attribuut**               | 350.3                                                                                                     |
 | **Definitie attribuut**          | Specificatie van het soort Functioneel Gebied, indien het een IMGeo uitbreiding van de populatie betreft. |
@@ -455,7 +471,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | naam                                                                                                                                                           |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                                                                                                          |
+| **Stereotype**                   | «attribuuttype»                                                                                                                                                |
 | **Herkomst attribuut**           | IMGeo 2.0                                                                                                                                                      |
 | **Code attribuut**               | 350.1                                                                                                                                                          |
 | **Definitie attribuut**          | De benaming van het functionele gebied.                                                                                                                        |
@@ -468,13 +484,14 @@ Hieronder worden besproken:
 | **Indicatie authentiek**         | Niet-authentiek.                                                                                                                                               |
 | **Toelichting attribuut**        | Het datatype is GenericName. Naast het opnemen van de naam als CharacterString kan optioneel de codespace waarbinnen de naam is gedefinieerd worden opgenomen. |
 
-## OverigeScheiding
+OverigeScheiding
+----------------
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                                     |
 |----------------------------------|-----------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                         |
+| **Stereotype**                   | «attribuuttype»                               |
 | **Herkomst attribuut**           | IMGEO                                         |
 | **Code attribuut**               | 54.1                                          |
 | **Definitie attribuut**          | Specificatie van het soort overige scheiding. |
@@ -487,13 +504,14 @@ Hieronder worden besproken:
 | **Indicatie authentiek**         | Niet-authentiek                               |
 | **Toelichting attribuut**        |                                               |
 
-## Inrichtingselement
+Inrichtingselement
+------------------
 
 ### bgt-type
 
 | **Naam attribuut**               | bgt-type                                                                                                                                            |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                                                                                               |
+| **Stereotype**                   | «attribuuttype»                                                                                                                                     |
 | **Herkomst attribuut**           | IMGEO                                                                                                                                               |
 | **Code attribuut**               | 150.1                                                                                                                                               |
 | **Definitie attribuut**          | Het soort inrichtingselement.                                                                                                                       |
@@ -506,13 +524,14 @@ Hieronder worden besproken:
 | **Indicatie authentiek**         | Niet-authentiek                                                                                                                                     |
 | **Toelichting attribuut**        |                                                                                                                                                     |
 
-## Bak
+Bak
+---
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                             |
 |----------------------------------|---------------------------------------|
-| **Stereotype**                   | «attribuuttype»                 |
+| **Stereotype**                   | «attribuuttype»                       |
 | **Herkomst attribuut**           | IMGEO                                 |
 | **Code attribuut**               | 160.1                                 |
 | **Definitie attribuut**          | Het soort bak (IMGeo plus-populatie). |
@@ -529,7 +548,7 @@ Hieronder worden besproken:
 
 | **Definitie**      | Puntgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Point      |
+| **Doelklasse**     | GM_Point       |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     |                |
 | **Toelichting**    |                |
@@ -538,18 +557,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Puntgeometrie in 2.5D op level of detail 0. |
 |--------------------|---------------------------------------------|
-| **Doelklasse**     | GM\_Point                                   |
+| **Doelklasse**     | GM_Point                                    |
 | **Multipliciteit** | [0..1]                                      |
 | **Stereotype**     |                                             |
 | **Toelichting**    |                                             |
 
-## Bord
+Bord
+----
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                              |
 |----------------------------------|----------------------------------------|
-| **Stereotype**                   | «attribuuttype»                  |
+| **Stereotype**                   | «attribuuttype»                        |
 | **Herkomst attribuut**           | IMGEO                                  |
 | **Code attribuut**               | 170.1                                  |
 | **Definitie attribuut**          | Het soort bord (IMGeo plus-populatie). |
@@ -566,7 +586,7 @@ Hieronder worden besproken:
 
 | **Definitie**      | Puntgeometrie in 2.5D op level of detail 0. |
 |--------------------|---------------------------------------------|
-| **Doelklasse**     | GM\_Point                                   |
+| **Doelklasse**     | GM_Point                                    |
 | **Multipliciteit** | [0..1]                                      |
 | **Stereotype**     |                                             |
 | **Toelichting**    |                                             |
@@ -575,18 +595,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Puntgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Point      |
+| **Doelklasse**     | GM_Point       |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     |                |
 | **Toelichting**    |                |
 
-## GebouwInstallatie
+GebouwInstallatie
+-----------------
 
 ### bgt-typeGebouwInstallatie
 
 | **Naam attribuut**               | bgt-typeGebouwInstallatie                     |
 |----------------------------------|-----------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                         |
+| **Stereotype**                   | «attribuuttype»                               |
 | **Herkomst attribuut**           | IMGEO 2.0                                     |
 | **Code attribuut**               | 180.1                                         |
 | **Definitie attribuut**          | Specificatie van het soort gebouwinstallatie. |
@@ -603,7 +624,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-typeGebouwInstallatie                                                                               |
 |----------------------------------|----------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                                                    |
+| **Stereotype**                   | «attribuuttype»                                                                                          |
 | **Herkomst attribuut**           | IMGEO                                                                                                    |
 | **Code attribuut**               | 180.2                                                                                                    |
 | **Definitie attribuut**          | Specificatie van het soort gebouwinstallatie, indien dit een IMGeo uitbreiding van de populatie betreft. |
@@ -620,7 +641,7 @@ Hieronder worden besproken:
 
 | **Definitie**      | Vlakgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Surface    |
+| **Doelklasse**     | GM_Surface     |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     |                |
 | **Toelichting**    |                |
@@ -629,18 +650,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Vlakgeometrie in 2.5D op level of detail 0. |
 |--------------------|---------------------------------------------|
-| **Doelklasse**     | GM\_Surface                                 |
+| **Doelklasse**     | GM_Surface                                  |
 | **Multipliciteit** | [0..1]                                      |
 | **Stereotype**     |                                             |
 | **Toelichting**    |                                             |
 
-## Installatie
+Installatie
+-----------
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                                     |
 |----------------------------------|-----------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                         |
+| **Stereotype**                   | «attribuuttype»                               |
 | **Herkomst attribuut**           | IMGEO                                         |
 | **Code attribuut**               | 190.1                                         |
 | **Definitie attribuut**          | Het soort installatie (IMGeo plus-populatie). |
@@ -657,7 +679,7 @@ Hieronder worden besproken:
 
 | **Definitie**      | Puntgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Point      |
+| **Doelklasse**     | GM_Point       |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     |                |
 | **Toelichting**    |                |
@@ -666,18 +688,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Puntgeometrie in 2.5D op level of detail 0. |
 |--------------------|---------------------------------------------|
-| **Doelklasse**     | GM\_Point                                   |
+| **Doelklasse**     | GM_Point                                    |
 | **Multipliciteit** | [0..1]                                      |
 | **Stereotype**     |                                             |
 | **Toelichting**    |                                             |
 
-## Kast
+Kast
+----
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                              |
 |----------------------------------|----------------------------------------|
-| **Stereotype**                   | «attribuuttype»                  |
+| **Stereotype**                   | «attribuuttype»                        |
 | **Herkomst attribuut**           | IMGEO                                  |
 | **Code attribuut**               | 200.1                                  |
 | **Definitie attribuut**          | Het soort kast (IMGeo plus-populatie). |
@@ -694,7 +717,7 @@ Hieronder worden besproken:
 
 | **Definitie**      | Puntgeometrie in 2.5D op level of detail 0. |
 |--------------------|---------------------------------------------|
-| **Doelklasse**     | GM\_Point                                   |
+| **Doelklasse**     | GM_Point                                    |
 | **Multipliciteit** | [0..1]                                      |
 | **Stereotype**     |                                             |
 | **Toelichting**    |                                             |
@@ -703,18 +726,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Puntgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Point      |
+| **Doelklasse**     | GM_Point       |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     |                |
 | **Toelichting**    |                |
 
-## Mast
+Mast
+----
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                              |
 |----------------------------------|----------------------------------------|
-| **Stereotype**                   | «attribuuttype»                  |
+| **Stereotype**                   | «attribuuttype»                        |
 | **Herkomst attribuut**           | IMGEO                                  |
 | **Code attribuut**               | 210.1                                  |
 | **Definitie attribuut**          | Het soort mast (IMGeo plus-populatie). |
@@ -731,7 +755,7 @@ Hieronder worden besproken:
 
 | **Definitie**      | Puntgeometrie in 2.5D op level of detail 0. |
 |--------------------|---------------------------------------------|
-| **Doelklasse**     | GM\_Point                                   |
+| **Doelklasse**     | GM_Point                                    |
 | **Multipliciteit** | [0..1]                                      |
 | **Stereotype**     |                                             |
 | **Toelichting**    |                                             |
@@ -740,18 +764,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Puntgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Point      |
+| **Doelklasse**     | GM_Point       |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     |                |
 | **Toelichting**    |                |
 
-## Paal
+Paal
+----
 
 ### hectometeraanduiding
 
 | **Naam attribuut**               | hectometeraanduiding                                                                                         |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                                                        |
+| **Stereotype**                   | «attribuuttype»                                                                                              |
 | **Herkomst attribuut**           | IMGEO 2.0                                                                                                    |
 | **Code attribuut**               | 220.1                                                                                                        |
 | **Definitie attribuut**          | Code van de paal die kan worden gebruikt voor afstandsaanduiding, zoals bij hectometerpaaltjes en dijkpalen. |
@@ -768,7 +793,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                              |
 |----------------------------------|----------------------------------------|
-| **Stereotype**                   | «attribuuttype»                  |
+| **Stereotype**                   | «attribuuttype»                        |
 | **Herkomst attribuut**           | IMGEO                                  |
 | **Code attribuut**               | 220.2                                  |
 | **Definitie attribuut**          | Het soort paal (IMGeo plus-populatie). |
@@ -785,7 +810,7 @@ Hieronder worden besproken:
 
 | **Definitie**      | Puntgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Point      |
+| **Doelklasse**     | GM_Point       |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     |                |
 | **Toelichting**    |                |
@@ -794,18 +819,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Puntgeometrie in 2.5D op level of detail 0. |
 |--------------------|---------------------------------------------|
-| **Doelklasse**     | GM\_Point                                   |
+| **Doelklasse**     | GM_Point                                    |
 | **Multipliciteit** | [0..1]                                      |
 | **Stereotype**     |                                             |
 | **Toelichting**    |                                             |
 
-## Put
+Put
+---
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                             |
 |----------------------------------|---------------------------------------|
-| **Stereotype**                   | «attribuuttype»                 |
+| **Stereotype**                   | «attribuuttype»                       |
 | **Herkomst attribuut**           | IMGEO                                 |
 | **Code attribuut**               | 230.1                                 |
 | **Definitie attribuut**          | Het soort put (IMGeo plus-populatie). |
@@ -822,7 +848,7 @@ Hieronder worden besproken:
 
 | **Definitie**      | Puntgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Point      |
+| **Doelklasse**     | GM_Point       |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     |                |
 | **Toelichting**    |                |
@@ -831,18 +857,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Puntgeometrie in 2.5D op level of detail 0. |
 |--------------------|---------------------------------------------|
-| **Doelklasse**     | GM\_Point                                   |
+| **Doelklasse**     | GM_Point                                    |
 | **Multipliciteit** | [0..1]                                      |
 | **Stereotype**     |                                             |
 | **Toelichting**    |                                             |
 
-## Sensor
+Sensor
+------
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                                |
 |----------------------------------|------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                    |
+| **Stereotype**                   | «attribuuttype»                          |
 | **Herkomst attribuut**           | IMGEO                                    |
 | **Code attribuut**               | 240.1                                    |
 | **Definitie attribuut**          | Het soort sensor (IMGeo plus-populatie). |
@@ -859,7 +886,7 @@ Hieronder worden besproken:
 
 | **Definitie**      | Punt- of lijngeometrie in 2.5D op level of detail 0. |
 |--------------------|------------------------------------------------------|
-| **Doelklasse**     | GM\_Object                                           |
+| **Doelklasse**     | GM_Object                                            |
 | **Multipliciteit** | [0..1]                                               |
 | **Stereotype**     |                                                      |
 | **Toelichting**    |                                                      |
@@ -868,18 +895,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Punt- of lijngeometrie. |
 |--------------------|-------------------------|
-| **Doelklasse**     | GM\_Object              |
+| **Doelklasse**     | GM_Object               |
 | **Multipliciteit** | [1..1]                  |
 | **Stereotype**     |                         |
 | **Toelichting**    |                         |
 
-## Straatmeubilair
+Straatmeubilair
+---------------
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                                         |
 |----------------------------------|---------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                             |
+| **Stereotype**                   | «attribuuttype»                                   |
 | **Herkomst attribuut**           | IMGEO                                             |
 | **Code attribuut**               | 250.1                                             |
 | **Definitie attribuut**          | Het soort straatmeubilair (IMGeo plus-populatie). |
@@ -896,7 +924,7 @@ Hieronder worden besproken:
 
 | **Definitie**      | Puntgeometrie. |
 |--------------------|----------------|
-| **Doelklasse**     | GM\_Point      |
+| **Doelklasse**     | GM_Point       |
 | **Multipliciteit** | [1..1]         |
 | **Stereotype**     |                |
 | **Toelichting**    |                |
@@ -905,18 +933,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Puntgeometrie in 2.5D op level of detail 0. |
 |--------------------|---------------------------------------------|
-| **Doelklasse**     | GM\_Point                                   |
+| **Doelklasse**     | GM_Point                                    |
 | **Multipliciteit** | [0..1]                                      |
 | **Stereotype**     |                                             |
 | **Toelichting**    |                                             |
 
-## Waterinrichtingselement
+Waterinrichtingselement
+-----------------------
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                                                 |
 |----------------------------------|-----------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                     |
+| **Stereotype**                   | «attribuuttype»                                           |
 | **Herkomst attribuut**           | IMGEO                                                     |
 | **Code attribuut**               | 260.1                                                     |
 | **Definitie attribuut**          | Het soort waterinrichtingselement (IMGeo plus-populatie). |
@@ -933,7 +962,7 @@ Hieronder worden besproken:
 
 | **Definitie**      | Punt- of lijngeometrie in 2.5D op level of detail 0. |
 |--------------------|------------------------------------------------------|
-| **Doelklasse**     | GM\_Object                                           |
+| **Doelklasse**     | GM_Object                                            |
 | **Multipliciteit** | [0..1]                                               |
 | **Stereotype**     |                                                      |
 | **Toelichting**    |                                                      |
@@ -942,18 +971,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Punt- of lijngeometrie. |
 |--------------------|-------------------------|
-| **Doelklasse**     | GM\_Object              |
+| **Doelklasse**     | GM_Object               |
 | **Multipliciteit** | [1..1]                  |
 | **Stereotype**     |                         |
 | **Toelichting**    |                         |
 
-## Weginrichtingselement
+Weginrichtingselement
+---------------------
 
 ### plus-type
 
 | **Naam attribuut**               | plus-type                                               |
 |----------------------------------|---------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                   |
+| **Stereotype**                   | «attribuuttype»                                         |
 | **Herkomst attribuut**           | IMGEO                                                   |
 | **Code attribuut**               | 270.1                                                   |
 | **Definitie attribuut**          | Het soort weginrichtingselement (IMGeo plus-populatie). |
@@ -970,7 +1000,7 @@ Hieronder worden besproken:
 
 | **Definitie**      | Punt-, lijn- of vlakgeometrie in 2.5D op level of detail 0. |
 |--------------------|-------------------------------------------------------------|
-| **Doelklasse**     | GM\_Object                                                  |
+| **Doelklasse**     | GM_Object                                                   |
 | **Multipliciteit** | [0..1]                                                      |
 | **Stereotype**     |                                                             |
 | **Toelichting**    |                                                             |
@@ -979,18 +1009,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Punt-, lijn of vlakgeometrie. |
 |--------------------|-------------------------------|
-| **Doelklasse**     | GM\_Object                    |
+| **Doelklasse**     | GM_Object                     |
 | **Multipliciteit** | [1..1]                        |
 | **Stereotype**     |                               |
 | **Toelichting**    |                               |
 
-## VegetatieObject
+VegetatieObject
+---------------
 
 ### bgt-type
 
 | **Naam attribuut**               | bgt-type                                                  |
 |----------------------------------|-----------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                     |
+| **Stereotype**                   | «attribuuttype»                                           |
 | **Herkomst attribuut**           | IMGEO 2.0                                                 |
 | **Code attribuut**               | 300.1                                                     |
 | **Definitie attribuut**          | De specificatie van het soort vrijstaand vegetatieobject. |
@@ -1007,7 +1038,7 @@ Hieronder worden besproken:
 
 | **Naam attribuut**               | plus-type                                                 |
 |----------------------------------|-----------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                     |
+| **Stereotype**                   | «attribuuttype»                                           |
 | **Herkomst attribuut**           | IMGEO 2.0                                                 |
 | **Code attribuut**               | 300.2                                                     |
 | **Definitie attribuut**          | De specificatie van het soort vrijstaand vegetatieobject. |
@@ -1024,7 +1055,7 @@ Hieronder worden besproken:
 
 | **Definitie**      | Punt-, lijn-, of vlakgeometrie. |
 |--------------------|---------------------------------|
-| **Doelklasse**     | GM\_Object                      |
+| **Doelklasse**     | GM_Object                       |
 | **Multipliciteit** | [1..1]                          |
 | **Stereotype**     |                                 |
 | **Toelichting**    |                                 |
@@ -1033,18 +1064,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Punt-, lijn-, of vlakgeometrie in 2.5D op level of detail 0. |
 |--------------------|--------------------------------------------------------------|
-| **Doelklasse**     | GM\_Object                                                   |
+| **Doelklasse**     | GM_Object                                                    |
 | **Multipliciteit** | [0..1]                                                       |
 | **Stereotype**     |                                                              |
 | **Toelichting**    |                                                              |
 
-## RegistratiefGebied
+RegistratiefGebied
+------------------
 
 ### naam
 
 | **Naam attribuut**               | naam                                                                                                                                                           |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                                                                                                                                          |
+| **Stereotype**                   | «attribuuttype»                                                                                                                                                |
 | **Herkomst attribuut**           | IMGeo 2.0                                                                                                                                                      |
 | **Code attribuut**               | 360.1                                                                                                                                                          |
 | **Definitie attribuut**          | De benaming van het registratieve gebied.                                                                                                                      |
@@ -1061,18 +1093,19 @@ Hieronder worden besproken:
 
 | **Definitie**      | Multivlakgeometrie. |
 |--------------------|---------------------|
-| **Doelklasse**     | GM\_MultiSurface    |
+| **Doelklasse**     | GM_MultiSurface     |
 | **Multipliciteit** | [1..1]              |
 | **Stereotype**     |                     |
 | **Toelichting**    |                     |
 
-## Buurt
+Buurt
+-----
 
 ### buurtcode
 
 | **Naam attribuut**               | buurtcode                                   |
 |----------------------------------|---------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                       |
+| **Stereotype**                   | «attribuuttype»                             |
 | **Herkomst attribuut**           | IMGeo                                       |
 | **Code attribuut**               | 330.1                                       |
 | **Definitie attribuut**          | De code behorende bij de naam van de buurt. |
@@ -1094,7 +1127,8 @@ Hieronder worden besproken:
 | **Stereotype**     |                                     |
 | **Toelichting**    |                                     |
 
-## OpenbareRuimte
+OpenbareRuimte
+--------------
 
 ### Associatie: naamEnIdOpenbareRuimte
 
@@ -1105,13 +1139,14 @@ Hieronder worden besproken:
 | **Stereotype**     |                                                                                                                                                        |
 | **Toelichting**    |                                                                                                                                                        |
 
-## Wijk
+Wijk
+----
 
 ### wijkcode
 
 | **Naam attribuut**               | wijkcode                                   |
 |----------------------------------|--------------------------------------------|
-| **Stereotype**                   | «attribuuttype»                      |
+| **Stereotype**                   | «attribuuttype»                            |
 | **Herkomst attribuut**           | IMGeo                                      |
 | **Code attribuut**               | 390.1                                      |
 | **Definitie attribuut**          | De code behorende bij de naam van de wijk. |
@@ -1132,5 +1167,3 @@ Hieronder worden besproken:
 | **Multipliciteit** | [0..1]                                   |
 | **Stereotype**     |                                          |
 | **Toelichting**    |                                          |
-
-
