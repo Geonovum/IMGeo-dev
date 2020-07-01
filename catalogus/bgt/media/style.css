@@ -3,7 +3,7 @@ img {
 }
 
 th, td {
-  padding: 10 10 5 5;
+  padding: 5 20 5 20;
   height: 30px;
   border: solid 1px black;
 }
