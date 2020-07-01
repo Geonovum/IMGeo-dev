@@ -23,5 +23,5 @@ thead {
 #domeinwaarden thead {
   background-color: #fff;
   color: black;
-  font-weight: normal;
+  font-weight: normal !important;
 }
