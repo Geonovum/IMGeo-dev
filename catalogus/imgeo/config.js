@@ -1,6 +1,6 @@
 var respecConfig = {
   format: "markdown",
-  specStatus: "GN-WV",
+  specStatus: "GN-DEF",
   specType: "IM",
    //subtitle: "Gegevenscatalogus BGT 1.2",  
   logos: [{
