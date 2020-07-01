@@ -33,5 +33,8 @@ In terreinen met een fysiek voorkomen ‘erf’ worden alleen die scheidingen
 opgenomen die direct aan de straatzijde zijn gelegen.
 
 Ter ondersteuning bij het vaststellen welk objecttype het betreft, geldt
-onderstaande beslisboom voor muren en wanden: (Uit figuur verwijderen: dam(men)
-omdat dit uitbreiding betreft en naar DiSGeo gaat)
+onderstaande beslisboom voor muren en wanden.
+
+![](media/8579806fb776a782ef3b4609d8463e79.png)
+
+*Beslisboom afbakening van muren, wanden en dammen.*
