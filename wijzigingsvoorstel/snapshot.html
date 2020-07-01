@@ -1,0 +1,1122 @@
+<!DOCTYPE html><html lang="nl"><head><meta charset="utf-8"><meta name="generator" content="ReSpec 24.5.2"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Wijzigingsvoorstel IMGeo 2.2</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/media/logos/Geonovum.svg">
+    <link rel="stylesheet" type="text/css" href="media/style.css">    
+    
+          
+  <style id="respec-mainstyle">/*****************************************************************
+ * ReSpec 3 CSS
+ * Robin Berjon - http://berjon.com/
+ *****************************************************************/
+
+/* Override code highlighter background */
+.hljs {
+  background: transparent !important;
+}
+
+/* --- INLINES --- */
+h1 abbr,
+h2 abbr,
+h3 abbr,
+h4 abbr,
+h5 abbr,
+h6 abbr,
+a abbr {
+  border: none;
+}
+
+dfn {
+  font-weight: bold;
+}
+
+a.internalDFN {
+  color: inherit;
+  border-bottom: 1px solid #99c;
+  text-decoration: none;
+}
+
+a.externalDFN {
+  color: inherit;
+  border-bottom: 1px dotted #ccc;
+  text-decoration: none;
+}
+
+a.bibref {
+  text-decoration: none;
+}
+
+#references :target {
+  background: #eaf3ff;
+}
+
+cite .bibref {
+  font-style: normal;
+}
+
+code {
+  color: #c83500;
+}
+
+th code {
+  color: inherit;
+}
+
+/* --- TOC --- */
+
+.toc a,
+.tof a {
+  text-decoration: none;
+}
+
+a .secno,
+a .figno {
+  color: #000;
+}
+
+ul.tof,
+ol.tof {
+  list-style: none outside none;
+}
+
+.caption {
+  margin-top: 0.5em;
+  font-style: italic;
+}
+
+/* --- TABLE --- */
+
+table.simple {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-bottom: 3px solid #005a9c;
+}
+
+.simple th {
+  background: #005a9c;
+  color: #fff;
+  padding: 3px 5px;
+  text-align: left;
+}
+
+.simple th[scope="row"] {
+  background: inherit;
+  color: inherit;
+  border-top: 1px solid #ddd;
+}
+
+.simple td {
+  padding: 3px 10px;
+  border-top: 1px solid #ddd;
+}
+
+.simple tr:nth-child(even) {
+  background: #f0f6ff;
+}
+
+/* --- DL --- */
+
+.section dd>p:first-child {
+  margin-top: 0;
+}
+
+.section dd>p:last-child {
+  margin-bottom: 0;
+}
+
+.section dd {
+  margin-bottom: 1em;
+}
+
+.section dl.attrs dd,
+.section dl.eldef dd {
+  margin-bottom: 0;
+}
+
+#issue-summary>ul,
+.respec-dfn-list {
+  column-count: 2;
+}
+
+#issue-summary li,
+.respec-dfn-list li {
+  list-style: none;
+}
+
+details.respec-tests-details {
+  margin-left: 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+details.respec-tests-details>* {
+  padding-right: 2em;
+}
+
+details.respec-tests-details[open] {
+  z-index: 999999;
+  position: absolute;
+  border: thin solid #cad3e2;
+  border-radius: 0.3em;
+  background-color: white;
+  padding-bottom: 0.5em;
+}
+
+details.respec-tests-details[open]>summary {
+  border-bottom: thin solid #cad3e2;
+  padding-left: 1em;
+  margin-bottom: 1em;
+  line-height: 2em;
+}
+
+details.respec-tests-details>ul {
+  width: 100%;
+  margin-top: -0.3em;
+}
+
+details.respec-tests-details>li {
+  padding-left: 1em;
+}
+
+a[href].self-link:hover {
+  opacity: 1;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+}
+
+aside.example .marker > a.self-link {
+  color: inherit;
+}
+
+h2>a.self-link,
+h3>a.self-link,
+h4>a.self-link,
+h5>a.self-link,
+h6>a.self-link {
+  border: none;
+  color: inherit;
+  font-size: 83%;
+  height: 2em;
+  left: -1.6em;
+  opacity: .5;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 0;
+  transition: opacity .2s;
+  width: 2em;
+}
+
+h2>a.self-link::before,
+h3>a.self-link::before,
+h4>a.self-link::before,
+h5>a.self-link::before,
+h6>a.self-link::before {
+  content: "§";
+  display: block;
+}
+
+@media (max-width: 767px) {
+  dd {
+    margin-left: 0;
+  }
+
+  /* Don't position self-link in headings off-screen */
+  h2>a.self-link,
+  h3>a.self-link,
+  h4>a.self-link,
+  h5>a.self-link,
+  h6>a.self-link {
+    left: auto;
+    top: auto;
+  }
+}
+
+@media print {
+  .removeOnSave {
+    display: none;
+  }
+}
+</style><link rel="stylesheet" href="https://tools.geostandaarden.nl/respec/style/GN-DEF.css"><link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico"><script id="initialUserConfig" type="application/json">{
+  "specStatus": "GN-DEF",
+  "specType": "AL",
+  "editors": [
+    {
+      "name": "Arnoud de Boer",
+      "company": "Geonovum",
+      "companyURL": "http://www.geonovum.nl/",
+      "mailto": "a.deboer@geonovum.nl",
+      "note": ""
+    },
+    {
+      "name": "Hans van Eekelen",
+      "company": "Geonovum",
+      "companyURL": "http://www.geonovum.nl/",
+      "mailto": "h.vaneekelen@geonovum.nl",
+      "note": ""
+    },
+    {
+      "name": "Silvy Horbach",
+      "company": "SVB-BGT",
+      "companyURL": "http://www.svbbgt.nl/",
+      "mailto": "silvyhorbach@svb-bgt.nl",
+      "note": ""
+    }
+  ],
+  "shortName": "imgeo",
+  "pubDomain": "IMGeo",
+  "github": "https://github.com/Geonovum/IMGeo-dev",
+  "publishISODate": "2020-07-01T00:00:00.000Z",
+  "generatedSubtitle": "Vastgestelde versie 01 juli 2020"
+}</script><meta name="description" content="Het wijzigingsvoorstel bevat de voorstellen voor (de optimalisatie van) IMGeo. De voorstellen worden beschreven aan de hand van huidige situatie en probleem, oplossing en nut, en impact en implementatie. Deze voorstellen worden opgenomen in een nieuwe versie, IMGeo 2.2."><script type="application/ld+json">{
+  "@context": [
+    "http://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "nl",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      },
+      "inLanguage": {
+        "@language": null
+      },
+      "isBasedOn": {
+        "@type": "@id"
+      },
+      "license": {
+        "@type": "@id"
+      }
+    }
+  ],
+  "id": "https://docs.geostandaarden.nl/imgeo/def-al-imgeo-20200701/",
+  "type": [
+    "TechArticle"
+  ],
+  "name": "Wijzigingsvoorstel IMGeo 2.2",
+  "inLanguage": "nl",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "datePublished": "2020-07-01",
+  "copyrightHolder": {
+    "name": "Geonovum",
+    "url": "https://www.geonovum.nl/"
+  },
+  "discussionUrl": "https://github.com/Geonovum/IMGeo-dev/issues/",
+  "alternativeHeadline": "",
+  "description": "Het wijzigingsvoorstel bevat de voorstellen voor (de optimalisatie van) IMGeo. De voorstellen worden beschreven aan de hand van huidige situatie en probleem, oplossing en nut, en impact en implementatie. Deze voorstellen worden opgenomen in een nieuwe versie, IMGeo 2.2.",
+  "editor": [
+    {
+      "type": "Person",
+      "name": "Arnoud de Boer",
+      "foaf:mbox": "a.deboer@geonovum.nl",
+      "worksFor": {
+        "name": "Geonovum",
+        "url": "http://www.geonovum.nl/"
+      }
+    },
+    {
+      "type": "Person",
+      "name": "Hans van Eekelen",
+      "foaf:mbox": "h.vaneekelen@geonovum.nl",
+      "worksFor": {
+        "name": "Geonovum",
+        "url": "http://www.geonovum.nl/"
+      }
+    },
+    {
+      "type": "Person",
+      "name": "Silvy Horbach",
+      "foaf:mbox": "silvyhorbach@svb-bgt.nl",
+      "worksFor": {
+        "name": "SVB-BGT",
+        "url": "http://www.svbbgt.nl/"
+      }
+    }
+  ],
+  "citation": []
+}</script></head>
+  <body cz-shortcut-listen="true" class="h-entry"><div class="head">
+  <a href="https://www.geonovum.nl/" class="logo"><img id="Geonovum" alt="Geonovum" width="132" height="67" src="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg"></a>
+  <h1 class="title p-name" id="title">Wijzigingsvoorstel IMGeo 2.2</h1>
+  
+  <h2>Geonovum Algemeen<br>
+  Vastgestelde versie <time class="dt-published" datetime="2020-07-01">01 juli 2020</time></h2>
+  <dl>
+    <dt>Deze versie:</dt><dd><a class="u-url" href="https://docs.geostandaarden.nl/imgeo/def-al-wijzigingsvoorstel-imgeo22-20200701/">https://docs.geostandaarden.nl/imgeo/def-al-wijzigingsvoorstel-imgeo22-20200701/</a></dd><dt>
+    <dt>Auteurs:</dt>
+    <dd class="p-author h-card vcard"><span class="p-name fn">Arnoud de Boer</span>, <a class="p-org org h-org h-card" href="http://www.geonovum.nl/">Geonovum</a>, <a class="ed_mailto u-email email" href="mailto:a.deboer@geonovum.nl">a.deboer@geonovum.nl</a></dd><dd class="p-author h-card vcard"><span class="p-name fn">Hans van Eekelen</span>, <a class="p-org org h-org h-card" href="http://www.geonovum.nl/">Geonovum</a>, <a class="ed_mailto u-email email" href="mailto:h.vaneekelen@geonovum.nl">h.vaneekelen@geonovum.nl</a></dd><dd class="p-author h-card vcard"><span class="p-name fn">Silvy Horbach</span>, <a class="p-org org h-org h-card" href="http://www.svbbgt.nl/">SVB-BGT</a>, <a class="ed_mailto u-email email" href="mailto:silvyhorbach@svb-bgt.nl">silvyhorbach@svb-bgt.nl</a></dd>    
+    <dt>Doe mee:</dt><dd>
+      <a href="https://github.com/Geonovum/IMGeo-dev/">GitHub Geonovum/IMGeo-dev</a>
+    </dd><dd>
+      <a href="https://github.com/Geonovum/IMGeo-dev/issues/">Dien een melding in</a>
+    </dd>
+  </dl>  
+    <dl>
+          <dt>Rechtenbeleid:</dt>
+          <dd>
+            <div class="copyright" style="margin: 0.25em 0;">
+              <abbr title="Creative Commons Attribution 4.0 International Public License">
+              <a href="https://creativecommons.org/licenses/by/4.0/legalcode"><img width="115" height="40" src="https://tools.geostandaarden.nl/respec/style/logos/cc-by.svg" alt="Creative Commons Attribution 4.0 International Public License"></a>
+            </abbr>
+              <div style="display:inline-block; vertical-align:top">
+                <p style="font-size: small;">Creative Commons Attribution 4.0 International Public License<br>(CC-BY)</p>
+              </div>
+            </div>
+          </dd>
+        </dl>
+  <hr title="Separator for header">
+</div>
+     <section id="abstract" class="introductory"><h2>Samenvatting</h2>
+      <p>
+        Het wijzigingsvoorstel bevat de voorstellen voor (de optimalisatie van) IMGeo. De voorstellen worden beschreven aan de hand van huidige situatie en probleem, oplossing en nut, en impact en implementatie. Deze voorstellen worden opgenomen in een nieuwe versie, IMGeo 2.2.<br>	
+      </p>	  
+    </section>
+    <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>
+    Dit is de definitieve versie van het wijzigingsvoorstel. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.
+</p>
+      <p>Op 5 maart 2020 heeft de Regieraad BGT ingestemd met deze opzet van IMGeo 2.2.</p>
+    </section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#samenvatting-imgeo-2-2"><span class="secno">1. </span>Samenvatting IMGeo 2.2</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#huidige-situatie-en-probleem"><span class="secno">1.1 </span>Huidige situatie en probleem</a></li><li class="tocline"><a class="tocxref" href="#oplossing-en-nut"><span class="secno">1.2 </span>Oplossing en nut</a></li><li class="tocline"><a class="tocxref" href="#impact-en-implementatie"><span class="secno">1.3 </span>Impact en implementatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#uniformeren-naaldbos-loofbos-en-gemengd-bos"><span class="secno">2. </span>Uniformeren naaldbos, loofbos en gemengd bos</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#huidige-situatie-en-probleem-0"><span class="secno">2.1 </span>Huidige situatie en probleem</a></li><li class="tocline"><a class="tocxref" href="#oplossing-en-nut-0"><span class="secno">2.2 </span>Oplossing en nut</a></li><li class="tocline"><a class="tocxref" href="#impact-en-implementatie-0"><span class="secno">2.3 </span>Impact en implementatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#uniformeren-hekken-muren-en-andere-typen-scheidingen"><span class="secno">3. </span>Uniformeren hekken, muren en andere typen scheidingen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#huidige-situatie-en-probleem-1"><span class="secno">3.1 </span>Huidige situatie en probleem</a></li><li class="tocline"><a class="tocxref" href="#oplossing-en-nut-1"><span class="secno">3.2 </span>Oplossing en nut</a></li><li class="tocline"><a class="tocxref" href="#impact-en-implementatie-1"><span class="secno">3.3 </span>Impact en implementatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#uniformeren-muur-kademuur-damwand-strekdam-en-keermuur"><span class="secno">4. </span>Uniformeren muur, kademuur, damwand, strekdam en keermuur</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#huidige-situatie-en-probleem-2"><span class="secno">4.1 </span>Huidige situatie en probleem</a></li><li class="tocline"><a class="tocxref" href="#oplossing-en-nut-2"><span class="secno">4.2 </span>Oplossing en nut</a></li><li class="tocline"><a class="tocxref" href="#impact-en-implementatie-2"><span class="secno">4.3 </span>Impact en implementatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#uniformeren-door-opnemen-werkafspraken-en-verduidelijken-in-model"><span class="secno">5. </span>Uniformeren door opnemen werkafspraken en verduidelijken in model</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#huidige-situatie-en-probleem-3"><span class="secno">5.1 </span>Huidige situatie en probleem</a></li><li class="tocline"><a class="tocxref" href="#oplossing-en-nut-3"><span class="secno">5.2 </span>Oplossing en nut</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#onderscheid-gemaal-sluis-stuw"><span class="secno">5.2.1 </span>onderscheid gemaal, sluis, stuw</a></li><li class="tocline"><a class="tocxref" href="#onderscheid-viaduct-en-tunnel"><span class="secno">5.2.2 </span>onderscheid viaduct en tunnel</a></li><li class="tocline"><a class="tocxref" href="#onderscheid-duiker-en-brug"><span class="secno">5.2.3 </span>onderscheid duiker en brug</a></li><li class="tocline"><a class="tocxref" href="#inwinning-van-geleidewerk-en-remmingswerk"><span class="secno">5.2.4 </span>inwinning van geleidewerk en remmingswerk</a></li><li class="tocline"><a class="tocxref" href="#relatieve-hoogteligging-van-tunnels-en-duikers"><span class="secno">5.2.5 </span>relatieve hoogteligging van tunnels en duikers</a></li><li class="tocline"><a class="tocxref" href="#opname-van-panden-boven-water"><span class="secno">5.2.6 </span>opname van panden boven water</a></li><li class="tocline"><a class="tocxref" href="#afbakening-van-rijbanen-en-fietspad"><span class="secno">5.2.7 </span>afbakening van rijbanen en fietspad</a></li><li class="tocline"><a class="tocxref" href="#definitie-van-bunker"><span class="secno">5.2.8 </span>definitie van bunker</a></li><li class="tocline"><a class="tocxref" href="#definities-van-putten"><span class="secno">5.2.9 </span>definities van putten</a></li><li class="tocline"><a class="tocxref" href="#samenvallen-kruinlijngeometrie-en-objectbegrenzingen"><span class="secno">5.2.10 </span>samenvallen kruinlijngeometrie en objectbegrenzingen</a></li><li class="tocline"><a class="tocxref" href="#niet-samenvallen-van-functionele-gebieden-en-objectbegrenzingen"><span class="secno">5.2.11 </span>(Niet-)samenvallen van functionele gebieden en objectbegrenzingen</a></li><li class="tocline"><a class="tocxref" href="#opmaak-plaatsing-en-draaiing-van-huisnummers-en-overige-labels"><span class="secno">5.2.12 </span>opmaak, plaatsing en draaiing van huisnummers en overige labels</a></li><li class="tocline"><a class="tocxref" href="#nederlandse-tijdzone-met-zomer-wintertijd-in-versietijd-van-een-object"><span class="secno">5.2.13 </span>Nederlandse tijdzone met zomer/wintertijd in versietijd van een object</a></li><li class="tocline"><a class="tocxref" href="#interne-versus-relatieve-precisie"><span class="secno">5.2.14 </span>interne versus relatieve precisie.</a></li></ol></li><li class="tocline"><a class="tocxref" href="#impact-en-implementatie-3"><span class="secno">5.3 </span>Impact en implementatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#uitbreiden-met-beheertopografie-over-de-landsgrens"><span class="secno">6. </span>Uitbreiden met beheertopografie over de landsgrens</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#huidige-situatie-en-probleem-4"><span class="secno">6.1 </span>Huidige situatie en probleem</a></li><li class="tocline"><a class="tocxref" href="#oplossing-en-nut-4"><span class="secno">6.2 </span>Oplossing en nut</a></li><li class="tocline"><a class="tocxref" href="#impact-en-implementatie-4"><span class="secno">6.3 </span>Impact en implementatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#uitbreiden-opslagtanks"><span class="secno">7. </span>Uitbreiden opslagtanks</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#huidige-situatie-en-probleem-5"><span class="secno">7.1 </span>Huidige situatie en probleem</a></li><li class="tocline"><a class="tocxref" href="#oplossing-en-nut-5"><span class="secno">7.2 </span>Oplossing en nut</a></li><li class="tocline"><a class="tocxref" href="#impact-en-implementatie-5"><span class="secno">7.3 </span>Impact en implementatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#uitbreiden-indeling-particuliere-terreinen"><span class="secno">8. </span>Uitbreiden indeling particuliere terreinen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#huidige-situatie-en-probleem-6"><span class="secno">8.1 </span>Huidige situatie en probleem</a></li><li class="tocline"><a class="tocxref" href="#oplossing-en-nut-6"><span class="secno">8.2 </span>Oplossing en nut</a></li><li class="tocline"><a class="tocxref" href="#impact-en-implementatie-6"><span class="secno">8.3 </span>Impact en implementatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#uitbreiden-toegangswegen-en-inritten"><span class="secno">9. </span>Uitbreiden toegangswegen en inritten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#huidige-situatie-en-probleem-7"><span class="secno">9.1 </span>Huidige situatie en probleem</a></li><li class="tocline"><a class="tocxref" href="#oplossing-en-nut-7"><span class="secno">9.2 </span>Oplossing en nut</a></li><li class="tocline"><a class="tocxref" href="#impact-en-implementatie-7"><span class="secno">9.3 </span>Impact en implementatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#schrappen-redundante-plaatsbepalingspunten"><span class="secno">10. </span>Schrappen redundante plaatsbepalingspunten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#huidige-situatie-en-probleem-8"><span class="secno">10.1 </span>Huidige situatie en probleem</a></li><li class="tocline"><a class="tocxref" href="#oplossing-en-nut-8"><span class="secno">10.2 </span>Oplossing en nut</a></li><li class="tocline"><a class="tocxref" href="#impact-en-implementatie-8"><span class="secno">10.3 </span>Impact en implementatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#vervallen-objecten-en-classificatie-uit-transitie"><span class="secno">11. </span>Vervallen objecten en classificatie uit transitie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#huidige-situatie-en-probleem-9"><span class="secno">11.1 </span>Huidige situatie en probleem</a></li><li class="tocline"><a class="tocxref" href="#oplossing-en-nut-9"><span class="secno">11.2 </span>Oplossing en nut</a></li><li class="tocline"><a class="tocxref" href="#impact-en-implementatie-9"><span class="secno">11.3 </span>Impact en implementatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#bijlage-voorstellen-imgeo-2-2"><span class="secno">12. </span>Bijlage Voorstellen IMGeo 2.2</a></li></ol></nav>
+<section data-format="markdown" aria-busy="false" id="samenvatting-imgeo-2-2"><!--OddPage--><h2 id="x1-samenvatting-imgeo-2-2"><span class="secno">1. </span>Samenvatting IMGeo 2.2</h2><section id="huidige-situatie-en-probleem"><h3 id="x1-1-huidige-situatie-en-probleem"><span class="secno">1.1 </span>Huidige situatie en probleem</h3><p>De opbouw van de Basisregistratie Grootschalige Topografie (BGT) is zo goed als
+gereed: de laatste puntjes van de transitie worden weggewerkt door bronhouders,
+en afnemers sluiten aan op de BGT. Door een unieke samenwerking van bronhouders
+is een landsdekkende zeer gedetailleerde objectgerichte kaart van Nederland
+gerealiseerd om met een ruimtelijke blik maatschappelijke vraagstukken te
+benaderen.</p><p>Tijdens de omzetting van de lijngerichte grootschalige kaart (GBKN) naar
+objectgerichte BGT is veel ervaring opgedaan met de toepassing van het
+BGT|IMGeo model. Hieruit zijn twee knelpunten naar voren gekomen:</p><p><em>Knelpunt 1) De BGT is niet uniform.</em></p><p>Het model van de BGT bevat ruimte voor interpretatie bij de afbakening van
+objecten met als gevolg dat bronhouders het model niet-uniform toepassen.</p><p>Zo bakent de ene bronhouder een stuk gras langs de weg af als berm, de andere
+bronhouder als oever als het ook aan water grenst, of gewoon als een stuk
+terrein. Ook een hek of muur kan worden ondergebracht in twee objectklassen
+namelijk als een scheiding of een overige scheiding afhankelijk van lengte en
+ligging.</p><p>Het probleem hierbij is dat gegevens over dezelfde dingen op verschillende
+plekken in IMGeo worden opgenomen. Dit maakt gegevens voor afnemers moeilijk
+vindbaar, opvraagbaar en toepasbaar. Ook bij het afleiden van een uniforme
+kleinschalige kaart (BRT) uit de BGT zorgen dit soort interpretatieverschillen
+voor een vertekend beeld.</p><p><em>Knelpunt 2) IMGeo is niet volledig</em></p><p>In IMGeo zijn niet alle typen <em>assets</em> opgenomen die in beheer bij een
+bronhouder kunnen voorkomen. Bijvoorbeeld verhardingstypen van wegen/voetpaden
+als metaal en hout ontbreken, of laadpalen voor elektrische voertuigen komen
+niet voor in de lijst met installaties of straatmeubilair. Ook heeft de BGT
+‘witte vlekken’ in de kaart als het gaat om grotere particuliere terreinen en
+natuurgebieden, omdat inwinregels of een duidelijke bronhouder hiervoor
+ontbreekt.</p><p>Het probleem hierbij is dat (interne afnemers van) bronhouders met de huidige
+versie van het model nu niet kunnen overstappen op één integrale (beheer)kaart.
+Als gevolg daarvan blijven schaduwregistraties en maatwerkkoppelingen bestaan.</p><p>Beide knelpunten zorgen voor twijfels over de kwaliteit van de BGT bij afnemers
+met als gevolg dat zij zelf extra gaan inwinnen. Hierdoor worden de baten van de
+BGT voor ‘eenmalig inwinnen, meervoudig gebruik’ niet geheel gerealiseerd.</p></section><section id="oplossing-en-nut"><h3 id="x1-2-oplossing-en-nut"><span class="secno">1.2 </span>Oplossing en nut</h3><p>IMGeo 2.2 is een nieuwe geoptimaliseerde versie van het informatiemodel met als
+doel om de kwaliteit van de BGT te verbeteren. , door</p><ol>
+<li><p>het aanscherpen en verduidelijken van afbakeningsregels, zodat de BGT
+uniformer voor afnemers en makkelijker maakbaar voor bronhouders wordt.</p>
+</li>
+<li><p>het uitbreiden met ontbrekende gegevens, zodat sectoren (o.m. hulpdiensten
+en netbeheerders) beter kunnen aansluiten op IMGeo.</p>
+</li>
+</ol><p>Deze oplossing wordt gerealiseerd binnen de randvoorwaarden dat de voorstellen
+voor IMGeo 2.2:</p><ol>
+<li><p>niet strijdig mogen zijn met de <a href="https://www.geobasisregistraties.nl/basisregistraties/doorontwikkeling-in-samenhang">doorontwikkeling in samenhang van de
+geo-basisregistratie</a>,</p>
+</li>
+<li><p>geen technische impact mogen hebben op de software van bronhouders.</p>
+</li>
+</ol><p>Samengevat bevat IMGeo 2.2 de volgende voorstellen:</p><p><strong>Uniformeren door aangepaste afbakeningsregels voor</strong></p><ol>
+<li><p>naaldbos, loofbos en gemengd bos</p>
+</li>
+<li><p>hekken, muren en andere typen scheidingen</p>
+</li>
+<li><p>onderscheid muur, kademuur, damwand, strekdam en keermuur</p>
+</li>
+</ol><p><strong>Uniformeren door verduidelijking van het model voor</strong></p><ol>
+<li><p>onderscheid gemaal, sluis, stuw</p>
+</li>
+<li><p>onderscheid viaduct en tunnel</p>
+</li>
+<li><p>onderscheid duiker en brug</p>
+</li>
+<li><p>inwinning van geleidewerk en remmingswerk</p>
+</li>
+<li><p>relatieve hoogteligging van tunnels en duikers</p>
+</li>
+<li><p>opname van panden boven water</p>
+</li>
+<li><p>definities van rijbanen en fietspad</p>
+</li>
+<li><p>definitie van bunker</p>
+</li>
+<li><p>definities van putten</p>
+</li>
+<li><p>samenvallen kruinlijngeometrie en objectbegrenzingen</p>
+</li>
+<li><p>niet-samenvallen van functionele gebieden en objectbegrenzingen</p>
+</li>
+<li><p>opmaak, plaatsing en draaiing van huisnummers en overige labels.</p>
+</li>
+<li><p>Nederlandse tijdzone met zomer/wintertijd in versietijd van een object</p>
+</li>
+<li><p>interne versus relatieve precisie.</p>
+</li>
+</ol><p><strong>Uitbreiden van gegevens voor</strong></p><ol>
+<li><p>beheertopografie over de landsgrens</p>
+</li>
+<li><p>indeling van particuliere terreinen</p>
+</li>
+<li><p>opslagtanks voor gassen en energie</p>
+</li>
+<li><p>toegangswegen en inritten</p>
+</li>
+</ol><p><strong>Vervallen van</strong></p><ol>
+<li><p>redundante plaatsbepalingspunten</p>
+</li>
+<li><p>objecten en classificatie uit transitie</p>
+</li>
+</ol><p>Met IMGeo 2.2 zetten we de volgende stap naar een goed maakbare en bruikbare
+registratie<a href="https://geonovum.github.io/IMGeo-dev/wijzigingsvoorstel/&nbsp;">^1</a> met
+grootschalige topografie voor Nederland. IMGeo 2.2 leidt tot meer <strong>nut/baten</strong>
+op de volgende onderwerpen:</p><ol>
+<li><p>Door meer uniformiteit kunnen <em>betere landelijke beleidsanalyses en
+onderzoek</em> worden gedaan. Gegevens zijn consistent opgenomen in het model en
+daardoor makkelijker vindbaar en toepasbaar voor eindgebruikers. Ook wordt
+een stap gemaakt in de potentie om <em>BRT uit BGT</em> af te leiden, omdat de
+inwinregels voor BGT en BRT dichter bij elkaar worden gebracht.</p>
+</li>
+<li><p>Door het uitbreiden van IMGeo met extra gegevens, kunnen
+overheidsorganisatie <em>betere dienstverlening aan burgers en bedrijven</em>
+geven. Meldkamers en hulpdiensten krijgen met IMGeo 2.2 meer informatie over
+o.a. de indeling van en toegangswegen naar erven en terreinen, opslagtanks
+met gevaarlijke stoffen en het soort bos voor een brandverspreidingsanalyse.
+Zo kan de plaats van een incident accuraat in beeld worden gebracht, kunnen
+mensen en materieel efficiënt worden ingezet, en kunnen hulpdiensten sneller
+ter plaatse zijn en sneller handelen: dit bespaart kosten, en voorkomt
+schade en slachtoffers.</p>
+</li>
+<li><p>Door eenduidige en consistente inwinregels kunnen <em>bronhouders beter
+samenwerken in de bijhouding van de BGT</em>. Door minder ruis in de toepassing
+van het model, kunnen bestekken verder gestandaardiseerd worden, en kan
+goedkoper en beter worden ingewonnen.</p>
+</li>
+<li><p>Het is niet mogelijk om een exacte inschatting te geven van de baten van
+IMGeo 2.2 in euro’s, omdat het vooral een oplossing betreft voor
+inconsistenties in inwinregels en ontbrekende afspraken over bijhouding van
+bepaalde gegevens.</p>
+</li>
+</ol><p>Samengevat is de inschatting dat deze herstelactie op IMGeo als nut heeft dat de
+bijhouding van de BGT eenvoudiger wordt en de algehele kwaliteit en
+bruikbaarheid van de BGT wordt vergroot.</p></section><section id="impact-en-implementatie"><h3 id="x1-3-impact-en-implementatie"><span class="secno">1.3 </span>Impact en implementatie</h3><p>De impact van de voorstellen voor IMGeo 2.2 is relatief laag, omdat</p><ul>
+<li><p>BGT bronhoudersoftware <em>niet</em> hoeft te worden aangepast,</p>
+</li>
+<li><p>Gegevens over het algemeen beschikbaar zijn bij bronhouders, dus relatief
+weinig extra inwinning.</p>
+</li>
+</ul><p>Van de volgende voorstellen wordt aan bronhouders gevraagd om met terugwerkende
+kracht de gegevens in te winnen of om te zetten:</p><ol>
+<li><p>naaldbos, loofbos en gemengd bos.</p>
+</li>
+<li><p>opslagtanks met gassen en energie.</p>
+</li>
+<li><p>indeling van particuliere terreinen.</p>
+</li>
+<li><p>relatieve hoogteligging van tunnels en duikers</p>
+</li>
+<li><p>hekken, muren en andere typen scheidingen</p>
+</li>
+</ol><p>De doorlooptijd voor het inwinnen en omzetten van gegevens bedraagt 2 jaar vanaf
+publicatie van de nieuwe versie van BGT|IMGeo standaarden.</p><p>Bronhouders zullen centraal worden ondersteund via dashboards/lijsten met
+‘nog-om-te-zetten’ gegevens.</p></section></section>			
+	<section data-format="markdown" aria-busy="false" id="uniformeren-naaldbos-loofbos-en-gemengd-bos"><!--OddPage--><h2 id="x2-uniformeren-naaldbos-loofbos-en-gemengd-bos"><span class="secno">2. </span>Uniformeren naaldbos, loofbos en gemengd bos</h2><section id="huidige-situatie-en-probleem-0"><h3 id="x2-1-huidige-situatie-en-probleem"><span class="secno">2.1 </span>Huidige situatie en probleem</h3><p>In de BGT worden naaldbossen, loofbossen en gemengde bossen opgenomen als
+begroeidterreindeel. In de definitie van naaldbos en loofbos wordt gesteld dat
+een bos is een naaldbos bij “een dusdanige aantal naaldbomen” en een bos is een
+loofbos bij “een dusdanig aantal loofbomen. “Dusdanig aantal” wordt niet nader
+uitgelegd of gespecificeerd.</p><p>Als gevolg daarvan hebben bronhouders in veel gevallen als classificatie voor
+een bos ‘gemengd bos’ opgevoerd: Terreindeel begroeid met een dusdanige aantal
+naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na
+volgroeiing van de bomen, zullen vormen. Deze classificatie is in veel gevallen
+niet juist en leidt tot verschillen tussen onder meer de BRT en de BGT.</p></section><section id="oplossing-en-nut-0"><h3 id="x2-2-oplossing-en-nut"><span class="secno">2.2 </span>Oplossing en nut</h3><p>Om meer uniformiteit en consistentie in de afbakening van bossen te bereiken
+worden de volgende wijzigingen voorgesteld:</p><ul>
+<li><p>Voor naaldbos wordt een minimumpercentage van 90% naaldbomen gehanteerd.</p>
+</li>
+<li><p>Voor loofbos wordt een minimumpercentage van 90% loofbomen gehanteerd.</p>
+</li>
+<li><p>Voor gemengd bos wordt maximumpercentage van 90% loofboom en naaldboom
+gehanteerd.</p>
+</li>
+</ul><p>De wijzigingen leveren de volgende voordelen op:</p><ul>
+<li><p>Omdat de percentages aansluiten bij de BRT wordt consistentie tussen de BRT
+en BGT bereikt. Dit geeft vertrouwen in de kwaliteit van de BRT en BGT en
+leidt tot meer gebruik van de BGT.</p>
+</li>
+<li><p>Er kunnen betere landelijke analyses worden uitgevoerd omdat de
+classificaties van bossen juist en uniform zijn toebedeeld. Dit leidt tot
+betere resultaten in onderzoek en beleid.</p>
+</li>
+<li><p>Betere dienstverlening van de overheid. Bijvoorbeeld bij een bosbrand voert
+de brandweer een brandverspreidingsanalyse uit, waarbij de gegevens over het
+type bos nu veelal worden ontleend aan satellietfoto’s. Als de gegevens
+juist en uniform beschikbaar zijn in de BGT kan mogelijk eenvoudiger de
+brandverspreiding worden bepaald, en de inzet van materiaal efficiënter
+worden uitgevoerd.</p>
+</li>
+<li><p>Door de keuze-/interpretatieruimte voor afbakening en classificatie van
+bossen in te perken, kunnen bestekken worden geüniformeerd en kunnen
+bronhouders beter samenwerken in de inwinning en bijhouding van de BGT.</p>
+</li>
+</ul></section><section id="impact-en-implementatie-0"><h3 id="x2-3-impact-en-implementatie"><span class="secno">2.3 </span>Impact en implementatie</h3><p>De impact van dit voorstel is relatief laag: (bijna) alle gegevens zijn
+beschikbaar via de BRT en de software is reeds voorbereid. Voor de implementatie
+wordt alleen de data aangepast.</p><p>Aan bronhouders wordt gevraagd om met terugwerkende kracht elk terreindeel met
+een classificatie bos dat afwijkt van classificatie van de BRT te controleren op
+juiste classificatie.</p><p>De terreindelen die een andere classificatie bos krijgen, behouden hun
+identificatie.</p><p>De data wordt decentraal aangepast door bronhouders, omdat centraal converteren
+door ander schaalniveau van de BRT niet gegarandeerd juist is: verschillende BGT
+bossen kunnen samenvallen met één groter BRT bos en ook vice versa komt voor.
+Wel worden afwijkingen tussen BGT bossen en BRT bossen centraal gesignaleerd, en
+teruggegeven als melding richting bronhouders.</p></section></section>	
+	<section data-format="markdown" aria-busy="false" id="uniformeren-hekken-muren-en-andere-typen-scheidingen"><!--OddPage--><h2 id="x3-uniformeren-hekken-muren-en-andere-typen-scheidingen"><span class="secno">3. </span>Uniformeren hekken, muren en andere typen scheidingen</h2><section id="huidige-situatie-en-probleem-1"><h3 id="x3-1-huidige-situatie-en-probleem"><span class="secno">3.1 </span>Huidige situatie en probleem</h3><p>In de BGT worden scheidingen alleen vastgelegd als ze bepaalde minimum
+afmetingen hebben, die per type scheiding verschillen (zie BGT
+gegevenscatalogus).</p><p>In IMGeo kunnen scheidingen, die kleiner zijn dan het BGT minimum, worden
+opgenomen als objecttype ‘overige scheiding’. Deze kent dezelfde typen
+scheiding. De populatie van Overige Scheiding bestaat uit:</p><ul>
+<li><p>Scheidingen die niet voldoen aan de BGT minimummaat;</p>
+</li>
+<li><p>Scheidingen in terrein met fysiek voorkomen ‘erf’ die niet aan de
+straatzijde gelegen zijn.</p>
+</li>
+</ul><p>De opname van een hek, muur of ander type scheiding wordt dus bepaald op basis
+van minimale afmetingen of de ligging in de openbare ruimte. Een hek wordt als
+Scheiding opgenomen als dit hek minimaal 10 meter lang én minimaal 1 meter hoog
+is. Een muur wordt als Scheiding opgenomen als deze muur minimaal 1 meter lang
+én minimaal 30 centimeter breed is.</p><p>Nu blijkt dat bijna alle bronhouders hekken en muren kleiner dan de minimale
+afmetingen in de BGT opnemen als Scheiding. Dit is niet consistent en
+niet-uniform.</p><p>Bronhouders en softwareleveranciers van bronhouders hebben gevraagd om het
+onderscheid tussen Scheiding en OverigeScheiding te laten vervallen om de
+bijhouding van de BGT te vereenvoudigen.</p></section><section id="oplossing-en-nut-1"><h3 id="x3-2-oplossing-en-nut"><span class="secno">3.2 </span>Oplossing en nut</h3><p>Om meer uniformiteit en consistentie in de afbakening van scheidingen te
+bereiken worden de volgende wijzigingen voorgesteld:</p><ol>
+<li><p>De objectklasse OverigeScheiding komt te vervallen. Alle hekken, muren en
+andere typen scheidingen worden opgenomen als Scheiding.</p>
+</li>
+<li><p>In de BGT catalogus wordt beschreven welke hekken, muren en andere typen
+scheidingen aangeleverd <em>moeten</em> worden:</p>
+</li>
+</ol><ul>
+<li><p>Elke scheiding in terrein met fysiek voorkomen ‘erf’ die aan de
+straatzijde gelegen zijn.</p>
+</li>
+<li><p>Elk hek langer dan 10 meter en hoger dan 1 meter.</p>
+</li>
+<li><p>Elke muur langer dan 1 meter en breder dan 30 centimeter.</p>
+</li>
+<li><p>Elke kademuur, damwand, geluidscherm en walbescherming.</p>
+</li>
+</ul><ol start="3">
+<li>In de IMGeo catalogus wordt beschreven welke hekken, muren en andere type
+scheidingen aangeleverd <em>mogen</em> worden.</li>
+</ol><ul>
+<li><p>Elke scheiding in terrein met fysiek voorkomen ‘erf’ die niet aan de
+straatzijde gelegen zijn.</p>
+</li>
+<li><p>Elke scheiding kleiner dan de minimale BGT-afmetingen.</p>
+</li>
+</ul><ol start="4">
+<li>De eisen voor opname van een scheiding met lijn- of vlakgeometrie blijven
+ongewijzigd:</li>
+</ol><ul>
+<li><p>Een BGT-muur of kademuur breder dan 30 centimeter <em>moet</em> met
+vlakgeometrie worden afgebakend; smaller dan 30 centimeter met
+lijngeometrie.</p>
+</li>
+<li><p>Een muur of kademuur smaller dan 30 centimeter <em>mag</em> met vlakgeometrie
+worden afgebakend.</p>
+</li>
+<li><p>Andere typen scheidingen hebben alleen lijngeometrie in IMGeo.</p>
+</li>
+</ul><p>De wijzigingen leveren de volgende voordelen op:</p><ol>
+<li><p>De bijhouding van scheidingen door bronhouders wordt vereenvoudigd omdat
+alle scheidingen onder dezelfde objectklasse vallen. Dit scheelt op de
+bijhoudingskosten van de BGT.</p>
+</li>
+<li><p>Er kunnen betere landelijke analyses worden uitgevoerd omdat de gegevens van
+scheidingen op één plek (objectklasse) in de BGT|IMGeo dataset beschikbaar
+zijn. Dit leidt tot betere resultaten in onderzoek en beleid.</p>
+</li>
+<li><p>Door de keuze-/interpretatieruimte voor afbakening en classificatie van
+scheiding in te perken, kunnen bestekken worden geüniformeerd en kunnen
+bronhouders beter samenwerken in de inwinning en bijhouding van de BGT.</p>
+</li>
+<li><p>De werkafspraak OverigScheiding als gevolg van een fout/inconsistentie in de
+modellering van IMGeo (OverigeScheiding heeft geen bgt-type) wordt opgelost.
+Software wordt consistenter en dus eenvoudiger te beheren.</p>
+</li>
+</ol></section><section id="impact-en-implementatie-1"><h3 id="x3-3-impact-en-implementatie"><span class="secno">3.3 </span>Impact en implementatie</h3><p>De impact van dit voorstel is relatief hoog: hoewel de wijziging zonder
+software-aanpassing kan worden doorgevoerd en (bijna) alle gegevens ingewonnen
+en beschikbaar zijn, zullen bronhouders alle overige scheidingen moeten omzetten
+naar de objectklasse Scheiding.</p><p>Achterliggende registraties gekoppeld aan IMGeo worden daarbij geconfronteerd
+met nieuwe identificaties voor deze objecten. Overige scheidingen met
+vlakgeometrie op maaiveldniveau worden opdelend.</p><p>De wijziging kan zonder software aanpassing worden doorgevoerd.</p><p>Aan bronhouders wordt gevraagd om met terugwerkende kracht alle hekken, muren en
+andere typen scheidingen die ondergebracht zijn in de objectklasse
+OverigeScheiding om te zetten naar Scheiding.</p><p>Ongeveer 240 bronhouders hebben totaal ongeveer 120.000 overigescheidingen. 10%
+van de bronhouders hebben ruim 90% van de overige scheidingen. Omzetting kan
+naar verwachting grotendeels geautomatiseerd.</p><p>Een relatief klein aantal overige scheidingen (ongeveer 700 = minder dan 1%) met
+vlakgeometrie op relatieve hoogteligging 0 moet worden ingepast in de
+topologische structuur.</p></section></section>
+	<section data-format="markdown" aria-busy="false" id="uniformeren-muur-kademuur-damwand-strekdam-en-keermuur"><!--OddPage--><h2 id="x4-uniformeren-muur-kademuur-damwand-strekdam-en-keermuur"><span class="secno">4. </span>Uniformeren muur, kademuur, damwand, strekdam en keermuur</h2><section id="huidige-situatie-en-probleem-2"><h3 id="x4-1-huidige-situatie-en-probleem"><span class="secno">4.1 </span>Huidige situatie en probleem</h3><p>In de BGT worden verschillende muren, wanden en dammen die grond of water
+tegenhouden opgenomen als scheiding of kunstwerkdeel.</p><table>
+<thead>
+<tr>
+<th><em>Scheiding</em></th>
+<th><em>bgt-type</em></th>
+<th><em>muur</em></th>
+<th>Een scheiding gemaakt van steen.</th>
+<th><em>lijn of vlak</em></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><em>Scheiding</em></td>
+<td><em>bgt-type</em></td>
+<td><em>kademuur</em></td>
+<td>Een verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton.</td>
+<td>lijn of vlak</td>
+</tr>
+<tr>
+<td><em>Scheiding</em></td>
+<td><em>bgt-type</em></td>
+<td><em>damwand</em></td>
+<td>Een grondkerende constructie die bestaat uit een verticaal in de grond geplaatste wand.</td>
+<td>lijn</td>
+</tr>
+<tr>
+<td><em>Kunstwerkdeel</em></td>
+<td><em>bgt_type</em></td>
+<td><em>strekdam</em></td>
+<td>Constructie in het water ter verdediging van de kust/oever.</td>
+<td>vlak</td>
+</tr>
+<tr>
+<td><em>Kunstwerkdeel</em></td>
+<td><em>plus_type</em></td>
+<td><em>keermuur</em></td>
+<td>Een keermuur of keerwand is een stijf, grond- of waterkerend kunstwerk dat door een groot gewicht en een brede voet een grote standzekerheid kan bereiken. Een keermuur is meestal van gewapend beton, maar er kan ook ander materiaal gebruikt worden.</td>
+<td>vlak</td>
+</tr>
+</tbody></table><p>Bij bronhouders is er onduidelijkheid wanneer een muur, wand of dam als
+scheiding of kunstwerkdeel moet worden opgenomen, en welke type er aan toegekend
+moet worden. De afbakening van muren, wanden en dammen door bronhouders zijn
+niet consistent en niet-uniform.</p></section><section id="oplossing-en-nut-2"><h3 id="x4-2-oplossing-en-nut"><span class="secno">4.2 </span>Oplossing en nut</h3><p>Om meer uniformiteit en consistentie in de afbakening van muren, wanden en
+dammen te bereiken worden de volgende wijzigingen voorgesteld:</p><ul>
+<li><p>Een beslisboom wordt toegevoegd aan de afbakeningsregels om een beter zicht
+te bieden op welke keuzes gemaakt kunnen worden bij de afbakening van muren,
+wanden en dammen, om bronhouders uiteindelijk de beste optie te laten
+vinden.</p>
+</li>
+<li><p>Ook wordt extra verduidelijkt dat de afbakening van een damwand inclusief
+deksloof is.</p>
+</li>
+</ul><p><img src="media/8579806fb776a782ef3b4609d8463e79.png" alt="" height="932" width="1091"></p><blockquote>
+<p>  Beslisboom muur, kademuur, damwand, strekdam en keermuur</p>
+</blockquote><p>Deze wijziging levert de volgende voordelen op:</p><ul>
+<li><p>Door de keuze-/interpretatieruimte voor afbakening en classificatie van
+muren, wanden en dammen in te perken, kunnen bestekken worden geüniformeerd
+en kunnen bronhouders beter samenwerken in de inwinning en bijhouding van de
+BGT.</p>
+</li>
+<li><p>Er kunnen betere landelijke analyses worden uitgevoerd omdat alle gegevens
+van muren, wanden en dammen op de juiste plek in de registratie beschikbaar
+komen. Dit leidt tot betere resultaten in onderzoek en beleid.</p>
+</li>
+</ul></section><section id="impact-en-implementatie-2"><h3 id="x4-3-impact-en-implementatie"><span class="secno">4.3 </span>Impact en implementatie</h3><p>De impact van dit voorstel is relatief laag: software hoeft niet te worden
+aangepast, en bronhouders dienen naar verwachting maar beperkt aanvullende
+gegevens in te winnen.</p></section></section>		
+	<section data-format="markdown" aria-busy="false" id="uniformeren-door-opnemen-werkafspraken-en-verduidelijken-in-model"><!--OddPage--><h2 id="x5-uniformeren-door-opnemen-werkafspraken-en-verduidelijken-in-model"><span class="secno">5. </span>Uniformeren door opnemen werkafspraken en verduidelijken in model</h2><section id="huidige-situatie-en-probleem-3"><h3 id="x5-1-huidige-situatie-en-probleem"><span class="secno">5.1 </span>Huidige situatie en probleem</h3><p>Tijdens de opbouw van de BGT zijn werkafspraken gemaakt bij
+interpretatieverschillen en fouten in de standaard Deze werkafspraken zijn
+gepubliceerd via de website van Geonovum. Bronhouders hebben hierop hun gegevens
+en leveranciers hun software aangepast. Ook is de toepassing van het model
+verder verduidelijkt via de IMGeo helpdesk en aanvullende communicatie vanuit
+Geonovum, BZK of SVB-BGT.</p><p>Het betreft werkafspraken en verduidelijking over</p><ol>
+<li><p>onderscheid gemaal, sluis, stuw</p>
+</li>
+<li><p>onderscheid viaduct en tunnel</p>
+</li>
+<li><p>onderscheid duiker en brug</p>
+</li>
+<li><p>inwinning van geleidewerk en remmingswerk</p>
+</li>
+<li><p>relatieve hoogteligging van tunnels en duikers</p>
+</li>
+<li><p>opname van panden boven water</p>
+</li>
+<li><p>definities van rijbanen en fietspad</p>
+</li>
+<li><p>definitie van bunker</p>
+</li>
+<li><p>definities van putten</p>
+</li>
+<li><p>samenvallen kruinlijngeometrie en objectbegrenzingen</p>
+</li>
+<li><p>niet-samenvallen van functionele gebieden en objectbegrenzingen</p>
+</li>
+<li><p>opmaak, plaatsing en draaïing van huisnummers en overige labels.</p>
+</li>
+<li><p>Nederlandse tijdzone met zomer/wintertijd in versietijd van een object</p>
+</li>
+<li><p>interne versus relatieve precisie.</p>
+</li>
+</ol><p>Deze werkafspraken en toelichting op de regels zijn nu niet in het model
+opgenomen. Dit is wel nodig om deze eisen en regels te formaliseren.</p></section><section id="oplossing-en-nut-3"><h3 id="x5-2-oplossing-en-nut"><span class="secno">5.2 </span>Oplossing en nut</h3><p>Om de uniformiteit en consistentie in de afbakening en toepassing van de regels
+van IMGeo te borgen in de standaarden, worden de volgende wijzigingen
+voorgesteld:</p><section id="onderscheid-gemaal-sluis-stuw"><h4 id="x5-2-1-onderscheid-gemaal-sluis-stuw"><span class="secno">5.2.1 </span>onderscheid gemaal, sluis, stuw</h4><p>Voor de afbakening van een gemaal wordt verduidelijkt dat de bij een gemaal
+eventueel aanwezige bakken waar het water door wordt geleid als gemaal opgenomen
+worden in de BGT.</p><p>Voor een sluis wordt aangegeven dat alleen de sluisdeuren in gesloten stand tot
+de BGT behoren.</p><p>Voor een stuw wordt verduidelijkt dat naast de klep of schuif waarover het water
+kan stromen bij een stuw, ook de eventueel aanwezige bakken waar het water door
+wordt geleid als stuw wordt opgenomen in de BGT.</p></section><section id="onderscheid-viaduct-en-tunnel"><h4 id="x5-2-2-onderscheid-viaduct-en-tunnel"><span class="secno">5.2.2 </span>onderscheid viaduct en tunnel</h4><p>Voor het onderscheid tussen viaduct en tunnel wordt verduidelijkt dat een tunnel
+bestaat uit een gesloten kokerconstructie met een in- en een uitgang, en een
+overbruggingsdeel zoals bijvoorbeeld een viaduct bestaat uit een los dek dat op
+een bak en/of pijlers rust.</p></section><section id="onderscheid-duiker-en-brug"><h4 id="x5-2-3-onderscheid-duiker-en-brug"><span class="secno">5.2.3 </span>onderscheid duiker en brug</h4><p>Voor het onderscheid tussen duiker en brug wordt verduidelijkt in de definitie
+van duiker dat het een kunstwerk is voor de waterhuishouding, bestaande uit een
+<strong>gesloten</strong>&nbsp;kokervormige constructie&nbsp;met&nbsp;<strong>een in- en
+uitstroomopening</strong>,&nbsp;aangebracht onder een weg of spoorweg of in een
+dam&nbsp;of&nbsp;<strong>ander terreindeel</strong>.</p></section><section id="inwinning-van-geleidewerk-en-remmingswerk"><h4 id="x5-2-4-inwinning-van-geleidewerk-en-remmingswerk"><span class="secno">5.2.4 </span>inwinning van geleidewerk en remmingswerk</h4><p>Voor geleidewerk en remmingswerk wordt verduidelijkt dat deze wordt ingewonnen
+langs de zijde waar de scheepvaart langs vaart.</p></section><section id="relatieve-hoogteligging-van-tunnels-en-duikers"><h4 id="x5-2-5-relatieve-hoogteligging-van-tunnels-en-duikers"><span class="secno">5.2.5 </span>relatieve hoogteligging van tunnels en duikers</h4><p>Een tunneldeel en duiker liggen onder het maaiveld en worden daarom altijd
+opgenomen met een relatieve hoogte lager dan nul.</p></section><section id="opname-van-panden-boven-water"><h4 id="x5-2-6-opname-van-panden-boven-water"><span class="secno">5.2.6 </span>opname van panden boven water</h4><p>Voor panden die in hun geheel boven water liggen, bijvoorbeeld een
+brugwachtershuis dat aan een brug hangt, geldt dat dit pand in de BGT voorkomt
+met een relatieve hoogte groter dan 0, in ieder geval ligt het hoger dan het
+water waar het zich boven bevindt.</p></section><section id="afbakening-van-rijbanen-en-fietspad"><h4 id="x5-2-7-afbakening-van-rijbanen-en-fietspad"><span class="secno">5.2.7 </span>afbakening van rijbanen en fietspad</h4><p>Voor onderscheid tussen verschillende rijbanen en fietspad wordt in de
+afbakeningsregels verduidelijkt dat een wegdeel met functie:</p><ul>
+<li><p>rijbaan autosnelweg onderdeel uit maakt van een weg, welke <strong>veelal is
+aangeduid met het betreffende verkeersbord G01.</strong></p>
+</li>
+<li><p>rijbaan autoweg, <strong>er een, meestal fysieke, scheiding is tussen langzaam
+verkeer en snelverkeer.</strong>&nbsp;</p>
+</li>
+<li><p>fietspad onderdeel uitmaakt van een weg, welke voor de BGT veelal <strong>moet
+aangeduid zijn met een blauw bord met daarop een wit rijwiel (bord G11 of
+G12a), een blauw of zwart bord met daarop de tekst “FIETSPAD” of
+“RIJWIELPAD” (bord G13)</strong>. In IMGeo mag ook <strong>een strook oranjekleurige
+verharding met een wit rijwielsymbool</strong> als fietspad worden opgenomen.</p>
+</li>
+</ul><p>Voor fietssuggestiestroken wordt verduidelijk dat deze niet als fietspad in de
+BGT worden opgenomen.</p></section><section id="definitie-van-bunker"><h4 id="x5-2-8-definitie-van-bunker"><span class="secno">5.2.8 </span>definitie van bunker</h4><p>Voor een bunker wordt verduidelijkt dat dit een <strong>van oorsprong</strong>&nbsp;militair
+verdedigingswerk is.</p></section><section id="definities-van-putten"><h4 id="x5-2-9-definities-van-putten"><span class="secno">5.2.9 </span>definities van putten</h4><p>Voor putten wordt verduidelijkt dat in IMGeo alleen de deksel van een put wordt
+opgenomen. Dit wordt in de definitie van de verschillende type putten opgenomen
+als ‘deksel van een …’.</p></section><section id="samenvallen-kruinlijngeometrie-en-objectbegrenzingen"><h4 id="x5-2-10-samenvallen-kruinlijngeometrie-en-objectbegrenzingen"><span class="secno">5.2.10 </span>samenvallen kruinlijngeometrie en objectbegrenzingen</h4><p>Voor kruinlijngeometrie wordt verduidelijkt dat een van de zijden van het
+(ondersteunend) wegdeel of terreindeel altijd samenvalt met de kruinlijn, zijnde
+bovenkant talud, zodanig dat d<strong>e coördinaten van de kruinlijn identiek zijn met
+die van de objectbegrenzing ter plaatse.</strong></p></section><section id="niet-samenvallen-van-functionele-gebieden-en-objectbegrenzingen"><h4 id="x5-2-11-niet-samenvallen-van-functionele-gebieden-en-objectbegrenzingen"><span class="secno">5.2.11 </span>(Niet-)samenvallen van functionele gebieden en objectbegrenzingen</h4><p>Voor macro-objecten (functioneel gebied) wordt verduidelijkt dat dit een
+clustering van objecten en/of delen van objecten is.</p></section><section id="opmaak-plaatsing-en-draaiing-van-huisnummers-en-overige-labels"><h4 id="x5-2-12-opmaak-plaatsing-en-draaiing-van-huisnummers-en-overige-labels"><span class="secno">5.2.12 </span>opmaak, plaatsing en draaiing van huisnummers en overige labels</h4><p>Voor huisnummers (nummeraanduidingreeks) wordt verduidelijkt dat de rotatiehoek
+dient te worden vastgelegd, zodat het nummer haaks of evenwijdig aan de
+voorgevel mee kan worden gevisualiseerd, waarbij de kleinste rotatie wordt
+gekozen ten opzichte van de normale tekstrichting.</p><p>Voor huisnummers (nummeraanduidingreeks) wordt verduidelijkt dat elke
+nummeraanduidingreeks van een Pand eenmaal wordt afgebeeld.</p><p>Voor huisnummers (nummeraanduidingreeks) wordt verduidelijkt dat voor de opmaak
+van een nummeraanduidingreeks zo veel mogelijk onderstaand patroon toegepast
+moet worden.</p><p>{huisnummer}{huisletter}/{huisnummertoevoeging}-{huisnummer}{huisletter}/{huisnummertoevoeging}</p><p>Waarin (regex = reguliere expressie)</p><ul>
+<li><p>{huisnummer} een nummer van 1 tot 99999 (<em>regex {0-9}[1-5]</em>)</p>
+</li>
+<li><p>{huisletter} een hoofdletter of kleine letter (<em>regex {a-zA-Z}[0-1]</em>)</p>
+</li>
+<li><p>{huisnummertoevoeging} 0 tot 4 alfanumeriek karakter (<em>regex
+{0-9a-zA-Z}[0-4]</em>)</p>
+</li>
+<li><p>geen scheidingsteken (koppelteken of spatie) tussen huisnummer en huisletter</p>
+</li>
+<li><p>forward slash (/) als scheidingsteken tussen huisnummer en huisletter</p>
+</li>
+<li><p>koppelteken(-) als scheidingsteken tussen twee nummeraanduidingen van reeks.</p>
+</li>
+</ul><p>Dus bijvoorbeeld: 33, 33A, 33/1, 33-37, 33A-33F, 33/1-33/20, 33A/1–33A/20,
+33A/1A-33A/3F.</p><p>Voor de rotatiehoek van een label wordt verduidelijkt dat de</p><ul>
+<li><p>eenheid is booggraad; één booggraad is een 360ste deel van een cirkelomtrek</p>
+</li>
+<li><p>oriëntering is met de klok mee (positief) t.o.v. normale tekstrichting
+(horizontaal = 0 graden; voor een kaart die noord georiënteerd is.)</p>
+</li>
+<li><p>decimale precisie is 1, ofwel 1 cijfer achter de komma, komt overeen met
+1/10 booggraad</p>
+</li>
+<li><p>het bereik (min/max) ligt tussen -90 en +90, waarbij [270,360] niet gelijk
+is aan [-90,0].</p>
+</li>
+</ul></section><section id="nederlandse-tijdzone-met-zomer-wintertijd-in-versietijd-van-een-object"><h4 id="x5-2-13-nederlandse-tijdzone-met-zomer-wintertijd-in-versietijd-van-een-object"><span class="secno">5.2.13 </span>Nederlandse tijdzone met zomer/wintertijd in versietijd van een object</h4><p>Voor de tijdstippen van objecten wordt verduidelijkt dat de wettelijke
+Nederlandse tijd geldt, waarbij in de winter de wintertijd en in de zomer de
+zomertijd wordt aangehouden.</p></section><section id="interne-versus-relatieve-precisie"><h4 id="x5-2-14-interne-versus-relatieve-precisie"><span class="secno">5.2.14 </span>interne versus relatieve precisie.</h4><p>Voor de positionele nauwkeurigheid van een object wordt verduidelijkt dat de
+relatieve precisie en niet de interne precisie wordt gehanteerd.</p></section></section><section id="impact-en-implementatie-3"><h3 id="x5-3-impact-en-implementatie"><span class="secno">5.3 </span>Impact en implementatie</h3><p>De impact van dit voorstel is relatief laag: (bijna) alle gegevens worden al
+ingewonnen conform bovenstaande regels, en er is geen software aanpassing nodig.</p><p>Aan bronhouders wordt gevraagd om met terugwerkende kracht elk tunneldeel of
+duiker met een relatievehoogteligging van 0 of hoger aan te passen.</p></section></section>			
+	<section data-format="markdown" aria-busy="false" id="uitbreiden-met-beheertopografie-over-de-landsgrens"><!--OddPage--><h2 id="x6-uitbreiden-met-beheertopografie-over-de-landsgrens"><span class="secno">6. </span>Uitbreiden met beheertopografie over de landsgrens</h2><section id="huidige-situatie-en-probleem-4"><h3 id="x6-1-huidige-situatie-en-probleem"><span class="secno">6.1 </span>Huidige situatie en probleem</h3><p>De BGT wordt landsdekkend beheerd voor het grondgebied van Nederland binnen de
+gemeentegrenzen. Dat betekent dat de BGT gevuld moet zijn met objecten tot aan
+de landsgrens (binnen de marges van nauwkeurigheid van 30 of 60 centimeter).</p><p>Bepaalde wegen, waterlopen of terreinen liggen op of over de landsgrens heen, en
+vaak werken organisaties over de grens samen om deze objecten te beheren. In
+sommige gevallen komt het zelfs voor dat een wegdeel in beheer is bij een
+Nederlandse overheidsorganisatie, maar volledig in het buitenland is gelegen.</p><p>Vanuit beheer openbare ruimte van grensgemeenten, -waterschappen, en -provincies
+is het onwenselijk om objecten op de landsgrens te knippen. Bij
+bronhoudergrenzen (lees: gemeentegrenzen) wordt een vergelijkbaar principe
+gehanteerd: bronhouders knippen niet actief op de gemeentegrens, maar op de
+grens waar objectkenmerken veranderen. Ook hebben deze organisaties de behoefte
+om objecten geheel in het buitenland maar wel in beheer op te nemen in IMGeo.</p><p>IMGeo geeft nu weinig tot geen regels hoe omgegaan moet worden met objecten die
+geheel of deels buiten Nederland liggen. Dit leidt tot onduidelijkheid en extra
+complexiteit: bronhouders gaan toch knippen op de landsgrens, en registreren de
+beheertopografie op/over de landsgrens apart van de BGT|IMGeo-gegevens. Dit is
+onwenselijk en geeft problemen bij deze organisaties om over te gaan op één
+integrale beheerkaart.</p></section><section id="oplossing-en-nut-4"><h3 id="x6-2-oplossing-en-nut"><span class="secno">6.2 </span>Oplossing en nut</h3><p>Om te voorzien in de behoefte van grensgemeenten, -waterschappen, en -provincies
+om beheerobjecten op/over de landsgrens op te nemen in IMGeo, worden de volgende
+wijzigingen voorgesteld:</p><ul>
+<li><p>In de BGT wordt verduidelijkt dat beheerobjecten die deels buiten de
+landsgrens liggen in hun geheel moeten worden opgenomen in de BGT.</p>
+</li>
+<li><p>In IMGeo mogen objecten, die geheel buiten Nederland liggen én in beheer
+zijn bij bronhouder, worden opgenomen in IMGeo.</p>
+</li>
+</ul><p>De wijzigingen leveren de volgende voordelen op:</p><ul>
+<li><p>Met deze verduidelijking moet voorkomen worden dat bronhouders objecten op
+de landsgrens gaan knippen, wat leidt tot een eenvoudigere bijhouding en
+kostenbesparing in de bijhouding van de BGT.</p>
+</li>
+<li><p>Het uitbreiden van IMGeo met beheertopografie buiten de landsgrens, moet het
+voor grensgemeenten, -waterschappen, en -provincies mogelijk maken om
+sneller over te gaan op één integrale beheerkaart.</p>
+</li>
+</ul></section><section id="impact-en-implementatie-4"><h3 id="x6-3-impact-en-implementatie"><span class="secno">6.3 </span>Impact en implementatie</h3><p>De impact van dit voorstel is laag: bronhouders bepalen zelf of zij
+beheerobjecten buiten de landsgrens opnemen in IMGeo. Voor de implementatie
+mogen gegevens worden toegevoegd.</p></section></section>	
+	<section data-format="markdown" aria-busy="false" id="uitbreiden-opslagtanks"><!--OddPage--><h2 id="x7-uitbreiden-opslagtanks"><span class="secno">7. </span>Uitbreiden opslagtanks</h2><section id="huidige-situatie-en-probleem-5"><h3 id="x7-1-huidige-situatie-en-probleem"><span class="secno">7.1 </span>Huidige situatie en probleem</h3><p>In de BGT worden opslagtanks voor vloeistoffen verplicht opgenomen. Opslagtanks
+voor gassen en energie worden uitgesloten in de definitie van opslagtank bij
+OverigBouwwerk:</p><p>“Opslagfaciliteit voor vloeistoffen. Alleen bovengrondse opslagtanks worden
+opgenomen.”</p><p>Sommige bronhouders nemen opslagtanks met vloeistoffen wel op in de BGT. Hoewel
+dit niet uniform is, is de aanwezigheid van een opslagtank wel relevante
+informatie voor hulpdiensten. De toename van het aantal particuliere
+zonnepanelen, zorgt voor de lokale opslag van energie in een zogenaamde
+buurtbatterij. Bij een calamiteit is het relevant om de locaties van deze
+buurtbatterijen te weten, omdat er bij brand een andere manier van blussen moet
+worden toegepast op de lithium-accu’s en er veel giftige stoffen vrij kunnen
+komen.</p></section><section id="oplossing-en-nut-5"><h3 id="x7-2-oplossing-en-nut"><span class="secno">7.2 </span>Oplossing en nut</h3><p>Om te voorzien in de informatiebehoefte van hulpdiensten voor de inzet van
+hulpdiensten, worden de volgende wijzigingen voorgesteld:</p><ul>
+<li>Opslagtanks in de BGT worden uitgebreid met opslagtanks voor gassen en
+energie.</li>
+</ul><p>Deze wijzigingen levert het volgende voordeel op:</p><ul>
+<li>De dienstverlening van hulpdiensten verbetert, omdat er meer informatie is.</li>
+</ul></section><section id="impact-en-implementatie-5"><h3 id="x7-3-impact-en-implementatie"><span class="secno">7.3 </span>Impact en implementatie</h3><p>De impact van dit voorstel is relatief laag: software hoeft niet te worden
+aangepast, en bronhouders dienen naar verwachting maar beperkt aanvullende
+gegevens in te winnen.</p><p>Aan bronhouders wordt met terugwerkende kracht gevraagd om opslagtanks voor
+gassen en energie op te nemen in de BGT. De verwachting is dat een groot deel
+van deze gegevens via vergunningverlening beschikbaar zijn.</p></section></section>
+	<section data-format="markdown" aria-busy="false" id="uitbreiden-indeling-particuliere-terreinen"><!--OddPage--><h2 id="x8-uitbreiden-indeling-particuliere-terreinen"><span class="secno">8. </span>Uitbreiden indeling particuliere terreinen</h2><section id="huidige-situatie-en-probleem-6"><h3 id="x8-1-huidige-situatie-en-probleem"><span class="secno">8.1 </span>Huidige situatie en probleem</h3><p>De BGT wordt landsdekkend beheerd voor het grondgebied van Nederland binnen de
+gemeentegrenzen. Daartoe behoren ook industriële complexen, zoals Schiphol, de
+Hoogovens en Europoort. Er zijn regels opgenomen dat alle particuliere terreinen
+en complexen nader ingedeeld moeten of mogen worden in de BGT of IMGeo. Voor
+hulpdiensten is het bij een calamiteit relevant om te weten waar de wegen en
+bouwwerken op een groter particulier liggen, en waar er bluswater beschikbaar
+is. Maar ook voor netbeheerders voor het leggen van kabels en leidingen over
+grotere particuliere terreinen. Deze gegevens zijn nu onvoldoende beschikbaar in
+de BGT.</p></section><section id="oplossing-en-nut-6"><h3 id="x8-2-oplossing-en-nut"><span class="secno">8.2 </span>Oplossing en nut</h3><p>Om de informatievoorziening te verbeteren voor beheerders en voor de inzet van
+hulpdiensten, worden de volgende wijzigingen voorgesteld:</p><ul>
+<li>Voor de indeling van particuliere terreinen wordt geregeld dat dit geldt
+voor alle particuliere terreinen waar deze informatie noodzakelijk is voor
+wettelijk geregelde dienstverlening door bronhouders en afnemers.</li>
+</ul><p>De wijzigingen leveren de volgende voordelen op:</p><ul>
+<li>De dienstverlening van hulpdiensten verbeterd, omdat er meer informatie is.
+Ook netbeheerders hebben baat bij de indeling van particuliere terreinen bij
+het bepalen van de ligging van kabels voor aansluitingen naar gebouwen.</li>
+</ul></section><section id="impact-en-implementatie-6"><h3 id="x8-3-impact-en-implementatie"><span class="secno">8.3 </span>Impact en implementatie</h3><p>De impact van dit voorstel is relatief laag: software hoeft niet aangepast te
+worden, en bronhouders hoeven relatief weinig extra gegevens in te winnen.</p><p>Aan bronhouders wordt met terugwerkende kracht gevraagd om grote particuliere
+terreinen (principeregel meer dan 5ha) nader in te delen met wegen, bouwwerken
+en water voor zover nog niet gedaan.</p><p>Het gaat daarbij om alleen (semi)particuliere terreinen, van groter dan 5ha, die
+meer dan 2 gebouwen bevatten, die niet alleen voor woning bestemd zijn, die
+ontsloten worden door meerdere wegdelen en waarvan in eerste instantie niet
+duidelijk is, op welke manier je vanaf de ingang naar een bepaald gebouw kan
+komen, moeten nader afgebakend worden. Hierbij dienen minstens de wegdelen apart
+afgebakend te worden. Tevens zijn begroeide delen en waterdelen, dan wel bomen
+en hekken van belang als dit voor de toegankelijkheid beperkingen geeft.</p></section></section>		
+	<section data-format="markdown" aria-busy="false" id="uitbreiden-toegangswegen-en-inritten"><!--OddPage--><h2 id="x9-uitbreiden-toegangswegen-en-inritten"><span class="secno">9. </span>Uitbreiden toegangswegen en inritten</h2><section id="huidige-situatie-en-probleem-7"><h3 id="x9-1-huidige-situatie-en-probleem"><span class="secno">9.1 </span>Huidige situatie en probleem</h3><p>In de BGT worden toegangswegen naar afgelegen percelen en erven opgenomen als
+‘inrit’ bij wegdeel.</p><p>Nu blijkt dat veel bronhouders ook korte inritten over bijvoorbeeld een voetpad
+of fietspad hebben afgebakend als inrit bij wegdeel. Veelal omdat vanuit beheer
+openbare ruimte er behoefte is aan gegevens over inritten, onder meer omdat hier
+andere dikkere tegels worden toegepast. In het terrein is dit nauwelijks
+zichtbaar maar voor beheer en onderhoud is deze informatie belangrijk. Korte
+inritten naar percelen en erven voldoen niet aan de term ‘afgelegen’ in de
+definitie van inrit.</p><p>Ook voor hulpdiensten is elke toegang tot erf of bouwwerk belangrijk voor het
+berekenen van aanrijtijden en het snel ter plaatse zijn bij een noodgeval. De
+huidige definitie van inrit voorziet dus niet in de volledige informatiebehoefte
+vanuit hulpdiensten en beheer openbare ruimte.</p></section><section id="oplossing-en-nut-7"><h3 id="x9-2-oplossing-en-nut"><span class="secno">9.2 </span>Oplossing en nut</h3><p>Om te voorzien in de informatiebehoefte van beheer openbare ruimte en
+hulpdiensten voor inritten en toegangswegen naar percelen en erven, worden de
+volgende wijzigingen voorgesteld:</p><ul>
+<li><p>In de definitie van ‘inrit’ wordt de term afgelegen geschrapt. Onder inrit
+worden verstaan alle toegangswegen, oprijlanen en dergelijke met een
+verkeersfunctie die leiden naar erven en terreinen.</p>
+</li>
+<li><p>In de BGT moet elke toegangsweg naar een perceel of erf meer dan 25 meter
+vanaf de weg gelegen worden opgenomen als inrit van een wegdeel.</p>
+</li>
+<li><p>In IMGeo mag een toegangsweg naar een perceel of erf korter dan 25 meter
+vanaf de weg gelegen worden opgenomen als inrit van een wegdeel.</p>
+</li>
+</ul><p>De wijzigingen leveren de volgende voordelen op:</p><ul>
+<li><p>Bronhouders kunnen sneller overgaan op een integrale beheerkaart omdat de
+basis/plustopografie van IMGeo beter aansluit op de behoefte vanuit
+beheer(topografie). Vanuit beheer is behoefte aan informatie over korte
+inritten en met het aanpassen van de definitie kunnen alle inritten worden
+opgenomen in IMGeo.</p>
+</li>
+<li><p>De dienstverlening van hulpdiensten verbetert, omdat met de nieuwe definitie
+alle toegangen tot erven en terrein in IMGeo mogen worden opgenomen.
+Hulpdiensten hebben meer informatie over de bereikbaarheid en toegang van
+erven en terreinen, waardoor deze sneller ter plaatse kunnen zijn.</p>
+</li>
+<li><p>Door de keuze-/interpretatieruimte voor afbakening en classificatie van
+inritten in te perken, kunnen bestekken worden geüniformeerd en kunnen
+bronhouders beter samenwerken in de inwinning en bijhouding van de BGT.</p>
+</li>
+</ul></section><section id="impact-en-implementatie-7"><h3 id="x9-3-impact-en-implementatie"><span class="secno">9.3 </span>Impact en implementatie</h3><p>De impact van dit voorstel is nihil: alle gegevens zijn beschikbaar in de BGT en
+de software is reeds voorbereid. Voor de implementatie mag data worden
+toegevoegd.</p><p>Er is geen implementatieadvies voor inritten. Aan bronhouders wordt niet
+gevraagd om alle inritten toe te voegen in de BGT, maar naar eigen inzicht en
+behoefte op te nemen in IMGeo. De verwachting is dat meerdere functies bij een
+wegdeel volledig voorziet in de informatiebehoefte vanuit onder meer
+toegankelijke looproutes/walkability, hulpdiensten en beheer openbare ruimte.
+Deze oplossing wordt nader onderzocht voor IMGeo 3.0.</p></section></section>	
+	<section data-format="markdown" aria-busy="false" id="schrappen-redundante-plaatsbepalingspunten"><!--OddPage--><h2 id="x10-schrappen-redundante-plaatsbepalingspunten"><span class="secno">10. </span>Schrappen redundante plaatsbepalingspunten</h2><section id="huidige-situatie-en-probleem-8"><h3 id="x10-1-huidige-situatie-en-probleem"><span class="secno">10.1 </span>Huidige situatie en probleem</h3><p>In de BGT wordt voor elk coördinaat in de geometrie van een topografisch object
+een plaatsbepalingspunt (PBP) opgenomen met de nauwkeurigheid, inwinningsmethode
+en inwinnende instantie van het betreffende coördinaat.</p><p>Tijdens de opbouw zijn veel PBP’s gegenereerd met default waarden om aan de
+strenge eis van ‘voor elk coördinaat een PBP’ te voldoen: veel PBP’s hebben een
+nauwkeurigheid ‘waardeOnbekend’ en inwinningsmethode ‘transitie’ of alle PBP’s
+in een levering hebben één generieke waarde voor nauwkeurigheid of
+inwinningsmethode gekregen (bijvoorbeeld bij het verstroken van cirkelbogen).
+Dit is niet uniform en consistent toegepast, en heeft tot gevolg dat afnemers nu
+meer PBP’s krijgen dan nodig is, ofwel deze PBP’s zijn redundant in termen van
+overbodig, overtollig, en betekenisloos.</p><p>Sommige bronhouders hebben later nog de oorspronkelijk GBKN PIB-gegevens
+toegevoegd aan een PBP door een nieuw PBP op te voeren voor het coördinaat. Een
+PBP krijgt namelijk geen einddatum. Als gevolg daarvan is het aantal PBP’s nu
+gegroeid tot onverwerkbare grootte (&gt;350 miljoen). De signalen zijn dat dit bij
+vooral landelijke bronhouders kan leiden tot asynchroniteit met de LV, en
+uiteindelijk een mutatieblokkade.</p><p>Als er voor één coördinaat nu meerdere PBP’s zijn, is voor een afnemer niet
+bekend welk PBP hoort bij een object(versie): er is geen expliciete koppeling
+tussen PBP en een object; de relatie is op basis van het coördinaat.</p><p>Samenvattend is de huidige systematiek rond PBP’s niet houdbaar: PBP’s zijn niet
+juist en uniform ingevuld, PBP’s uit de opbouwfase van de BGT bevatten
+non-informatie, voor gebruikers is niet bekend welk PBP bij een object hoort, en
+het aantal PBP’s is technisch niet te verwerken in software van bronhouders en
+afnemers.</p><p>Bronhouders, afnemers, en softwareleveranciers van bronhoudersoftware en de
+centrale ketensystemen vragen om een oplossing voor de huidige problematiek rond
+PBP’s.</p></section><section id="oplossing-en-nut-8"><h3 id="x10-2-oplossing-en-nut"><span class="secno">10.2 </span>Oplossing en nut</h3><p>Om redundante plaatsbepalingspunten te schrappen worden de volgende wijzigingen
+voorgesteld:</p><ol>
+<li><p>Alleen een coördinaat daadwerkelijk ingemeten heeft een plaatsbepalingspunt.</p>
+</li>
+<li><p>De inwinningsmethoden worden beperkt tot terrestrisch, laser,
+fotogrammetrisch, en panoramabeelden. De overige inwinningsmethoden
+vervallen.</p>
+</li>
+<li><p>Plaatsbepalingspunten worden alleen opgenomen bij BGT-objecten waarvan de
+begrenzing goed idealiseerbaar is. Dit zijn de objecten met een
+nauwkeurigheidseis van 30cm in tabel 1 van paragraaf 4.2 van de BGT
+gegevenscatalogus en de tabel in paragraaf 4.1 van de IMGeo
+gegevenscatalogus:</p>
+</li>
+</ol><ul>
+<li><p>Wegdeel</p>
+</li>
+<li><p>Ondersteunend wegdeel</p>
+</li>
+<li><p>Spoor</p>
+</li>
+<li><p>Pand</p>
+</li>
+<li><p>Overigbouwwerk <em>m.u.v. bassin, schuur, bunker, voedersilo</em></p>
+</li>
+<li><p>Scheiding <em>m.u.v. walbescherming, hek, draadraster, faunaraster</em></p>
+</li>
+<li><p>Kunstwerkdeel</p>
+</li>
+<li><p>Overbruggingsdeel</p>
+</li>
+<li><p>Tunneldeel</p>
+</li>
+<li><p>Gebouwinstallatie</p>
+</li>
+<li><p>Inrichtingselementen: bak, bord, installatie, kast mast, paal, put, sensor,
+straatmeubilair, waterinrichtingselement, weginrichtingselement</p>
+</li>
+</ul><p>De wijzigingen leveren de volgende voordelen op:</p><ul>
+<li>Door reductie van het aantal en verbetering van de kwaliteit van gegevens
+van plaatsbepalingspunten (immers non-informatie wordt verwijderd), kunnen
+betere landelijke beleidsanalyses en onderzoek worden gedaan. De verwachting
+is dat het aantal Plaatsbepalingspunten aan de kant van afnemers kan dalen
+met tenminste 60-75%.</li>
+</ul></section><section id="impact-en-implementatie-8"><h3 id="x10-3-impact-en-implementatie"><span class="secno">10.3 </span>Impact en implementatie</h3><p>De impact van dit voorstel is relatief hoog.</p><p>In de centrale ketensystemen (LV-BGT) dienen een aantal software-aanpassingen
+doorgevoerd te worden:</p><ol>
+<li><p>de controle op volledigheid PBP’s (voor elk coördinaat een PBP) in de LV-BGT
+wordt geschrapt in de LV-BGT.</p>
+</li>
+<li><p>BRAVO filtert uit de mutatieberichten van bronhouder de redundante PBP’s en
+zet een opgeschoond bestand door richting LV-BGT.</p>
+</li>
+<li><p>LV-BGT en PDOK schonen de redundante PBP’s in hun database op, d.w.z. alle
+PBP’s met inwinningsmethoden <em>digitaliseren, scannen</em>, <em>bouwtekening</em>,</p>
+</li>
+</ol><p><em>geconstrueerd</em>, en <em>transitie</em> en alle PBP’s die niet horen bij een
+goed-idealiseerbaar object.</p><p>Bronhoudersoftware hoeft niet aangepast te worden; bronhouders hoeven geen
+aanvullende gegevens in te winnen. Uit inventarisatie onder leveranciers blijkt
+dat er geen mutatie/inleesblokkade optreedt als abonnementsberichten met
+‘ontbrekende’ PBP’s worden aangeboden via BRAVO of PDOK.</p></section></section>  
+	<section data-format="markdown" aria-busy="false" id="vervallen-objecten-en-classificatie-uit-transitie"><!--OddPage--><h2 id="x11-vervallen-objecten-en-classificatie-uit-transitie"><span class="secno">11. </span>Vervallen objecten en classificatie uit transitie</h2><section id="huidige-situatie-en-probleem-9"><h3 id="x11-1-huidige-situatie-en-probleem"><span class="secno">11.1 </span>Huidige situatie en probleem</h3><p>In de opbouwfase van de BGT konden bronhouders objecten als ongeclassificeerd of
+met waarde 'transitie' opnemen. De transitie van de BGT is per 1 januari 2020
+ten einde en alle gegevens moeten geclassificeerd volgens de regels van het
+IMGeo zijn aangeleverd aan de LV-BGT. De transitieobjecten mogen niet meer
+worden toegepast door bronhouders.</p></section><section id="oplossing-en-nut-9"><h3 id="x11-2-oplossing-en-nut"><span class="secno">11.2 </span>Oplossing en nut</h3><p>Om te voorkomen dat transitieobjecten (opnieuw) worden opgenomen in de BGT,
+worden de volgende wijzigingen voorgesteld:</p><ul>
+<li><p>Het object OngeclassificeerdObject vervalt.</p>
+</li>
+<li><p>De classificatie 'transitie' bij BGT-objecten vervalt.</p>
+</li>
+</ul><p>De wijzigingen leveren de volgende voordelen op:</p><ul>
+<li>Duidelijkheid over dat de opbouwfase van de BGT ten einde is.</li>
+</ul></section><section id="impact-en-implementatie-9"><h3 id="x11-3-impact-en-implementatie"><span class="secno">11.3 </span>Impact en implementatie</h3><p>De impact van dit voorstel is laag: deze wijziging ligt in de lijn van de
+transitie-aanpak en is ruimschoots gecommuniceerd.</p><p>Bronhouders wordt gevraagd om met terugwerkende kracht ongeclassificeerde
+objecten en objecten met functie, fysiekvoorkomen of type 'transitie' om te
+zetten naar een geclassificeerd object.</p></section></section>	
+	<section data-format="markdown" aria-busy="false" id="bijlage-voorstellen-imgeo-2-2"><!--OddPage--><h2 id="x12-bijlage-voorstellen-imgeo-2-2"><span class="secno">12. </span>Bijlage Voorstellen IMGeo 2.2</h2><p>Onderstaande tabel toont een overzicht van de voorstellen van IMGeo 2.2
+gerelateerd aan de meldingen in het <a href="https://github.com/Geonovum/IMGeo-dev/issues">registratiesysteem voor
+IMGeo</a>.</p><p><strong>Uniformeren naaldbos, loofbos en gemengd bos</strong></p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/161">161</a> Opnemen criteria (%)
+voor type bos</p><p><strong>Uniformeren hekken, muren en andere typen scheidingen</strong></p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/28">28</a> Onderscheid Scheiding en
+Overige Scheiding laten vervallen (4999)</p><p><strong>Uniformeren muur, kademuur, damwand, strekdam en keermuur</strong></p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/14">14</a> Beter onderscheid gewenst
+tussen Muur, Kademuur en Keermuur. Ook damwand erbij betrekken. (5033)</p><p><strong>Uniformeren door opnemen werkafspraken en verduidelijken in model</strong></p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/3">3</a> Meerdere posities in
+nummeraanduidingreeks Pand (4562)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/11">11</a> Beter onderscheid gewenst
+in functie van wegdelen met daarbij afstemming met BRT en CROW (5030)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/12">12</a> Duidelijker onderscheid
+gewenst tussen overbruggingsdeel, zoals bijv. viaduct, en tunneldeel. (5031)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/37">37</a> De huidige definitie van
+gemaal en voorbeelden geven voor het waterschap een aantal problemen (4924)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/45">45</a> Tijdzones berichtenverkeer
+zijn niet vastgelegd (4932)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/58">58</a> Tijdzone in BGT
+berichtenverkeer expliciet vastleggen (4914)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/61">61</a> Regels omtrend Pand boven
+water onduidelijk (4913)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/68">68</a> Definitie gemaal sluit
+niet aan bij modellering waterschap (4904)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/72">72</a> Afbakening gemaal en sluis
+IMWA komt niet overeen IMGeo (4892)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/80">80</a> Kenmerken en eisen
+rotatiehoek label (4546)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/92">92</a> Het woord -deksel-
+toevoegen aan 5 van de 7 definities van TypePutPlus (4671)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/114">114</a> Het is niet juist om de
+Relatieve precisie toe te passen voor het invullen van de nauwkeurigheid per
+plaatsbepalingspunt. (4083)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/119">119</a> Vallen grenzen van
+funct. gebieden samen met objectgrenzen? (4113)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/120">120</a> Ten onrechte zijn geen
+pbp's toegestaan bij ongeclassificeerd object. (4111)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/134">134</a> Geplande objecten hebben
+geen pbp's (4349)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/142">142</a> Tekstaanpassing 2e
+alinea van 4.2 (4509)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/175">175</a> Exacte regels voor kruin
+BegroeidTerreindeel opnemen</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/176">176</a> Definities van brug en
+duiker verbeteren</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/183">183</a> Definitie 'bunker' in
+IMGeo aanscherpen</p><p><strong>Uitbreiden beheertopografie over de landsgrens</strong></p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/9">9</a> Meer duidelijkheid voor
+bronhouders gewenst wanneer gedetailleerder opname is gewenst op particuliere en
+bedrijventerrein (erf) (5028)</p><p><strong>Uitbreiden indeling particuliere terreinen</strong></p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/9">9</a> Meer duidelijkheid voor
+bronhouders gewenst wanneer gedetailleerder opname is gewenst op particuliere en
+bedrijventerrein (erf) (5028)</p><p><strong>Uitbreiden opslagtanks</strong></p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/190">190</a> Definitie opslagtank
+aanscherpen</p><p><strong>Uitbreiden toegangswegen en inritten</strong></p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/126">126</a> IMGeo uitbreiden voor
+inritten in bebouwde kom (4088)</p><p><strong>Schrappen redundante plaatsbepalingspunten</strong></p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/71">71</a> Wens om PBP's te wijzigen
+(4897) Vervallen niet-ingemeten plaatsbepalingspunten</p><p><strong>Schrappen objecten en classificaties uit transitie</strong></p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/104">104</a> Aanpassen BGT en IMGeo
+op einde transitie</p><p><strong>Wordt niet opgelost</strong></p><p>De volgende verbetersuggesties worden <em>niet opgelost en doorgevoerd</em> in de
+BGT|IMGeo standaarden, en de meldingen worden afgesloten in het
+registratiesysteem. De argumentatie is opgenomen bij de melding:</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/51">51</a> Opdeling van objecten
+o.b.v. van talud verplaatsen van IMBGT naar optionele IMGEO model (4928)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/52">52</a> Extra attributen opnemen
+bij ondergrondse en bovengrondse afvalcontainers in IMGeo (4919)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/131">131</a> Uitbreiding van BGT
+Begroeid terreindeel met 1:graft en 2:steilwand (4387)</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/156">156</a> Opnemen definitie
+maaiveld in catalogus</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/165">165</a> Molgoten tussen rijbaan
+en parkeervlakken</p><p><a href="https://github.com/Geonovum/IMGeo-dev/issues/197">197</a> Aanscherpen
+afbakeningsregel voor luifels</p></section> 						
+	 
+  
+
+<p role="navigation" id="back-to-top"><a href="#title">
+  <abbr title="Naar begin">↑</abbr></a></p><script src="https://www.w3.org/scripts/TR/2016/fixup.js"></script></body></html>
