@@ -95,8 +95,7 @@ terreinen voor beheer.
 Onderstaande figuur geeft een overzicht van de optionele objecttypen in de BGT.
 
 ![](media/e06259e842931b5cc2bb5cf31e4d7c4d.png)
-
-Inhoud van IMGeo: optionele objecttypen
+*Inhoud van IMGeo: optionele objecttypen*
 
 De meeste van deze objecttypen hebben een attribuut ‘type’ waarmee het object
 nader geclassificeerd kan worden. Zo kan een Bord worden opgenomen met de nadere
