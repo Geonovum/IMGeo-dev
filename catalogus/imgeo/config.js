@@ -26,11 +26,10 @@ var respecConfig = {
   publishDate: "2020-07-01",
   //shortName: "IMGeo",
   pubDomain: "imgeo", 
-  previousURI: "https://www.geonovum.nl/uploads/standards/downloads/BGTGegevenscatalogus111.pdf",
-  previousPublishDate: "2017-01-01",
+  previousURI: "https://www.geonovum.nl/uploads/standards/downloads/IMGeoGegevenscatalogus211.pdf",
   previousStatus: "GN-DEF",
   github: "https://github.com/Geonovm/IMGeo",
-  //previousPublishDate: "2017-01-01",
+  previousPublishDate: "2013-07-01",
   //previousStatus: "GN-CV",
   //localBiblio: {
   //  "ISO19136": {
