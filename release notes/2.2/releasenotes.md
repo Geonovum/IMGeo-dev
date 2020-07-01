@@ -1,7 +1,8 @@
-## Documenten en bestanden
+Documenten en bestanden
+=======================
 
-Versie 2.2 van het informatiemodel Geografie (IMGeo) bestaat uit (nieuwe versies van) de volgende
- documenten en bestanden:
+Versie 2.2 van het informatiemodel Geografie (IMGeo) bestaat uit (nieuwe versies
+van) de volgende documenten en bestanden:
 
 -   [Catalogus BGT
     1.2](https://docs.geostandaarden.nl/imgeo/def-im-BGT-20200701/)
@@ -17,7 +18,8 @@ applicatieschema, StUF-Geo IMGeo berichtschema en RDF waardenlijsten)
 beschikbaar gesteld. Deze versie kan zonder wijziging van bronhoudersoftware
 worden geïmplementeerd.
 
-## Wijzigingen t.o.v. vorige versie ##
+Wijzigingen t.o.v. vorige versie
+--------------------------------
 
 De wijzigingen die zijn doorgevoerd in IMGeo 2.2 zijn beschreven in het
 wijzigingsvoorstel IMGeo 2.2:
@@ -28,23 +30,24 @@ Op 5 maart 2020 heeft de Regieraad BGT ingestemd met deze opzet van IMGeo 2.2.
 Voor een overzicht van de meldingen (issues) die zijn opgelost in deze versie,
 zie <https://github.com/Geonovum/IMGeo-dev/milestone/1?closed=1>
 
-## Werkafspraken ##
+Werkafspraken
+-------------
 
 Met deze versie komen de volgende werkafspraken te vervallen:
 
-- Werkafspraak: Nummeraanduidingsreeksen
+-   Werkafspraak: Nummeraanduidingsreeksen
 
-- Werkafspraak: Combinatie BGT- en PLUS-classificaties
+-   Werkafspraak: Combinatie BGT- en PLUS-classificaties
 
-- Werkafspraak: Kruinlijn-symbool
+-   Werkafspraak: Kruinlijn-symbool
 
-- Werkafspraak: Overige Scheiding
+-   Werkafspraak: Overige Scheiding
 
-- Werkafspraak: Custom domeinwaarden
+-   Werkafspraak: Custom domeinwaarden
 
-- Werkafspraak: Rotatiehoek
+-   Werkafspraak: Rotatiehoek
 
-- Werkafspraak: Genormaliseerde warden
+-   Werkafspraak: Genormaliseerde warden
 
 Met deze versie blijven de volgende bestaande werkafspraken van kracht:
 
@@ -67,7 +70,8 @@ Met deze versie blijven de volgende bestaande werkafspraken van kracht:
 -   [Werkafspraak: Genormaliseerde
     waarden](https://www.geonovum.nl/documents/20150622bgt-werkafspraak-genormaliseerde-waardenpdf)
 
-## Overgangsperiode ##
+Overgangsperiode
+----------------
 
 Na publicatie zijn deze inwinregels van kracht voor de bijhouding van de BGT.
 Voor de bestaande inhoud van de BGT geldt een overgangsperiode tot 1 maart 2022.
