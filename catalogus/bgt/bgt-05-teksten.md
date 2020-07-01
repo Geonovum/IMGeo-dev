@@ -18,15 +18,16 @@ rotatie, zie 5.3. Deze teksten betreffen namen van openbare ruimten en een
 nummeraanduidingreeks bij panden.
 
 ![Visualisatie van openbare ruimtenamen op de BGT achtergrondkaart](media/2246f72e43b403281a04a5a9b6f9b1bf.png)
-*Visualisatie van openbare ruimtenamen op de BGT achtergrondkaart*
+
+Visualisatie van openbare ruimtenamen op de BGT achtergrondkaart
 
 Namen
 -----
 
 In de visualisatie van de BGT worden namen gepresenteerd van alle openbare
-ruimten, zoals gedefinieerd in de BAG. De namen zijn bedoeld ter oriëntatie. Een naam
-van een openbare ruimte kan meerdere malen worden gepresenteerd. Dit heeft te
-maken met het gebruik binnen het schaalbereik van 1:500 tot 1:5.000. Als een
+ruimten, zoals gedefinieerd in de BAG. De namen zijn bedoeld ter oriëntatie. Een
+naam van een openbare ruimte kan meerdere malen worden gepresenteerd. Dit heeft
+te maken met het gebruik binnen het schaalbereik van 1:500 tot 1:5.000. Als een
 openbare ruimte een lengte heeft van meer dan 300 meter, dan is het noodzakelijk
 om de naam vaker af te beelden.
 
@@ -56,6 +57,7 @@ bij panden, zoals gedefinieerd in de BAG voor de verblijfsobjecten in die
 panden. Dit is bedoeld ter oriëntatie.
 
 ![Visualisatie van nummeraanduidingen op de BGT hoofdthema kaart](media/a32c2e8fc4bbc9bb2f1bb6522c0e1976.png)
+
 *Visualisatie van nummeraanduidingen op de BGT hoofdthema kaart*
 
 De nummeraanduidingen van verblijfsobjecten in een pand worden verzameld tot een

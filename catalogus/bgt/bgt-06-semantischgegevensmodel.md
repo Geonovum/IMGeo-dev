@@ -9,4 +9,5 @@ schuingedrukte tekst zijn abstracte objecttypen en komen niet als concreet
 object voor in een BGT dataset.
 
 ![Overzicht BGT-objecttypen](media/0672de3438003bdf276db0d424b85eda.png)
-*Overzicht BGT-objecttypen*
+
+Overzicht BGT-objecttypen

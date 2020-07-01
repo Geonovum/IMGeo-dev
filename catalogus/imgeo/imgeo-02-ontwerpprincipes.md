@@ -111,13 +111,14 @@ IMGeo 2.0 optimaal voorbereid voor 3D.
 De volgende subparagrafen bevatten een technische uitleg over de integratie
 tussen CityGML en IMGeo en mogelijke uitbreiding van 2D IMGeo naar 3D IMGeo. Om
 de integratie te kunnen begrijpen, volgt eerst een korte uitleg over CityGML.
-Meer over de integratie tussen CityGML en IMGeo vindt u in het dossier
-3D Omgevingsinformatie [https://www.geonovum.nl/geo-standaarden/3d-omgevingsinformatie]
-op de website van Geonovum.
+Meer over de integratie tussen CityGML en IMGeo vindt u in het dossier 3D
+Omgevingsinformatie
+[https://www.geonovum.nl/geo-standaarden/3d-omgevingsinformatie] op de website
+van Geonovum.
 
 ### CityGML
 
-De OGC-standaard CityGML[^2] kent zijn oorsprong als uitwisselingsformaat. In
+De OGC-standaard CityGML[^1] kent zijn oorsprong als uitwisselingsformaat. In
 middels is het ook en vooral een informatiemodel voor het weergeven van
 3D-ruimtelijke objecten. CityGML onderscheidt zowel op geometrisch als
 semantisch niveau thematische concepten (gebouwen, vegetatie, water,
@@ -128,13 +129,13 @@ dakvormen (LOD2), met ramen, deuren en andere uiterlijke kenmerken (LOD3) tot
 een volledig gedetailleerd interieurmodel (LOD4) met of zonder textuur
 informatie.
 
-[^2]: OpenGIS® City Geography Markup Language (CityGML) Encoding Standard,
+[^1]: OpenGIS® City Geography Markup Language (CityGML) Encoding Standard,
 version 2.0.0, document \# 12-019. Zie
 https://portal.opengeospatial.org/files/?artifact_id=47842
 
 ![](media/878e3b785d756b4ed69cacd71c875236.png)
 
-LOD concept in CityGML verbeeld
+*LOD concept in CityGML verbeeld*
 
 CityGML is gebaseerd op Geography Markup Language (GML) en heeft daarmee
 dezelfde geometriemogelijkheden als GML. Veel informatiemodellen voor
@@ -154,29 +155,31 @@ modelleerprincipes:
 1.  Er is zoveel mogelijk gebruik gemaakt van de CityGML-klassen, -attributen en
     –attribuutwaarden. Hierbij zijn de IMGeo-klassen (met Nederlandse benaming)
     gemodelleerd als specialisaties van CityGML-klassen (met Engelse benaming),
-    zie bijvoorbeeld Wegdeel in Figuur 7. De specialisatierelatie met CityGML is
-    gerealiseerd voor alle objecten. De diagrammen zijn opgenomen in hoofdstuk
-    5.
+    zie bijvoorbeeld figuur *Wegdeel, ondersteunend wegdeel en
+    weginrichtingselement*. De specialisatierelatie met CityGML is gerealiseerd
+    voor alle objecten. De diagrammen zijn opgenomen in hoofdstuk
 
 2.  Er zijn twee vormen van specialisatie toegepast:
 
-    1.  IMGeo-klassen die conceptueel en wat betreft de eigenschappen
-        overeenkomen met een CityGML-klasse, en er alleen extra eigenschappen
-        aan toevoegen, zijn gemodelleerd als subklasse met het stereotype
-        \<\<ADEElement\>\> (zie Figuur 4). Dit geeft aan dat de CityGML-klasse
-        gebruikt wordt en IMGeo er alleen eigenschappen aan toevoegt. In de
-        uitwisseling wordt de CityGML-klasse gebruikt.
+3.  IMGeo-klassen die conceptueel en wat betreft de eigenschappen overeenkomen
+    met een CityGML-klasse, en er alleen extra eigenschappen aan toevoegen, zijn
+    gemodelleerd als subklasse met het stereotype \<\<ADEElement\>\> (zie figuur
+    *Vegetatieobject als subklasse van CityGML SolitaryVegetationObject*).
+
+    1.  Dit geeft aan dat de CityGML-klasse gebruikt wordt en IMGeo er alleen
+        eigenschappen aan toevoegt. In de uitwisseling wordt de CityGML-klasse
+        gebruikt.
 
     2.  IMGeo-klassen die conceptueel een nadere specialisatie zijn van een
         CityGML-klasse, zijn gemodelleerd als subklasse met het stereotype
         \<\<featureType\>\>. In de uitwisseling wordt de IMGeo-klasse gebruikt.
 
-3.  Voor constructies die niet gelijk zijn aan gebouwen bevat CityGML geen
+4.  Voor constructies die niet gelijk zijn aan gebouwen bevat CityGML geen
     equivalente klasse. Er is een klasse toegevoegd, namelijk OtherConstruction
     (*OverigeConstructie*). Hieronder vallen Kunstwerkdeel, Scheiding en
     OverigBouwwerk.
 
-4.  Voor de meeste attributen heeft CityGML wel een equivalent (bijvoorbeeld
+5.  Voor de meeste attributen heeft CityGML wel een equivalent (bijvoorbeeld
     Wegdeel.bgt-fysiekVoorkomen is equivalent met TrafficArea.surfaceMaterial).
     In dat geval wordt het CityGML-attribuut gebruikt. In het model is voor alle
     CityGML-attributen die gebruikt worden door IMGeo een Nederlandse benaming
@@ -184,42 +187,41 @@ modelleerprincipes:
     gebruikt. Waar geen CityGML-attribuut beschikbaar is, is een attribuut
     toegevoegd.
 
-5.  Omdat CityGML geen definities kent voor de domeinwaarden zijn de Nederlandse
+6.  Omdat CityGML geen definities kent voor de domeinwaarden zijn de Nederlandse
     domeinwaardenlijsten (codelijsten) 1:1 gehandhaafd.
 
-6.  Ten opzichte van IMGeo 1.0 zijn door de nauwe aansluiting met CityGML twee
+7.  Ten opzichte van IMGeo 1.0 zijn door de nauwe aansluiting met CityGML twee
     nieuwe klassen gedefinieerd: de klasse Vegetatie (*BegroeidTerreindeel*; in
     IMGeo 1.0 was dit concept verdeeld over meerdere klassen) en de klasse
     AuxiliaryTrafficArea (*OndersteunendWegdeel*), voor wegdelen die niet
     bedoeld zijn voor gebruik door verkeer, zoals vluchtheuvels en bermen.
 
-7.  CityGML definieert voor de verschillende klassen verschillende LODs
+8.  CityGML definieert voor de verschillende klassen verschillende LODs
     afhankelijk van het detailniveau. Deze detailniveaus variëren van 2.5D
     surfaces (LOD0) tot volume LOD1 (blokmodellen), LOD2 en LOD3 representaties.
     Voor IMGeo is daar een 2D-LOD geometrie aan toegevoegd. Hierdoor wordt voor
     topografie de hele reeks vanaf 2D en 2.5D tot 3D-met-veel-detail
     geïntegreerd in één model.
 
-8.  In CityGML hebben niet alle klassen een LOD0 (2.5D) representatie; sommige
+9.  In CityGML hebben niet alle klassen een LOD0 (2.5D) representatie; sommige
     klassen “beginnen” pas op LOD1. Dit zijn Vegetation en CityFurniture. Voor
     deze klassen zijn daarom ook LOD0 representaties toegevoegd aan IMGeo.
 
-9.  De 2.5D topologie sluit aan bij de 2D topologie in IMGeo: alle objecten
+10. De 2.5D topologie sluit aan bij de 2D topologie in IMGeo: alle objecten
     krijgen een LOD0 representatie (= 2.5D surface) die samen een 2.5D
     topologische structuur vormen. Hierdoor is de exacte 3D locatie van de
     objecten in het 2.5D terrein bekend en kunnen de 3D representaties in het
     terrein worden geplaatst, zodat zij niet zweven of onder het maaiveld
     verdwijnen.
 
-10. Voor CityGML-IMGeo wordt het Spatial Reference System EPSG:7415[^3]
+11. Voor CityGML-IMGeo wordt het Spatial Reference System EPSG:7415[\^3]
     gehanteerd. Dit is een samengesteld SRS met RD voor de XY-dimensie
     (EPSG:28992) en NAP voor de Z dimensie (EPSG:5709). Hiernaar moet expliciet
     gerefereerd worden in een CityGML-bestand.
 
- 
 ![](media/234443eb87a75ba5ced70591a63bb0e3.png)
 
-Vegetatieobject als subklasse van CityGML SolitaryVegetationObject
+*Vegetatieobject als subklasse van CityGML SolitaryVegetationObject*
 
 Zie voor meer informatie over het toepassen van CityGML-IMGeo
 https://www.geonovum.nl/geo-standaarden/3d-omgevingsinformatie

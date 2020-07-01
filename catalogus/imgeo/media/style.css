@@ -1,21 +1,51 @@
 img {
+  display: block;
   max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
-table, td, th {
-  cell-padding: 0px;
-  cell-spacing: 0px;
-  border-color: #eee; 
+p {
+ text-align: justify;  
+}
+
+.logo { 
+  float: none !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+th, td {
+  padding: 5px 20px 5px 20px;
+  height: 30px;
+  border: solid 1px black;
+}
+
+table {
+  width: 100%; 
+  border-collapse: collapse; 
+  border: solid 1px black;
 }
 
 thead {
-   border-color: #eee;
-  background-color: #ccc;
+  background-color: #888;
+  color: white;
+  font-weight: bold;
 }
 
-
-#subtitle {
-	font-size: 200% !important;	
+#domeinwaarden thead, 
+#objecttypen thead, 
+#beschrijving-van-de-attributen-en-associaties-0 thead,
+#afkortingen thead {
+  background-color: #fff;
+  color: black;  
 }
 
+#domeinwaarden th, #objecttypen th, #beschrijving-van-de-attributen-en-associaties-0 thead {  
+  font-weight: normal !important;
+}
 
+#afkortingen th, #afkortingen td, #afkortingen table {
+ border: none;   
+}

@@ -13,12 +13,12 @@ die klasse erven alle IMGEO objecttypen deze eigenschappen.
 
 ![](media/d8a570e4639f5958bc2cf079ac6742e6.png)
 
-*Figuur 5: IMGeo model overzicht deel I: constructies en transport*
+*IMGeo model overzicht deel I: constructies en transport*
 
 ![](media/2110a6f341abded258202fc4960d7c75.png)
 
-*Figuur 6: IMGeo model overzicht deel II: terrein, water, inrichtingselementen
-en gebieden*
+*IMGeo model overzicht deel II: terrein, water, inrichtingselementen en
+gebieden*
 
 In de rest van dit hoofdstuk wordt de detailmodellering getoond in meerdere
 figuren. In deze diagrammen zijn de IMGeo klassen uitgewerkt als specialisaties
@@ -58,49 +58,49 @@ De rest van dit hoofdstuk bevat figuren van alle IMGeo UML diagrammen.
 
 ![](media/c1d740573d8cae35f9f8f1d3c8a5782d.png)
 
-*Figuur 7: Wegdeel, ondersteunend wegdeel en weginrichtingselement*
+*Wegdeel, ondersteunend wegdeel en weginrichtingselement*
 
 ![](media/d8aee91ae394ff51311b7b6b95a0de0d.png)
 
-*Figuur 8: Onbegroeid terreindeel*
+*Onbegroeid terreindeel*
 
 ![](media/26c81640ca7ba480347c4cd5e2377978.png)
 
-*Figuur 9: Begroeid terreindeel en vegetatieobject*
+*Begroeid terreindeel en vegetatieobject*
 
 ![](media/2d1d80c9755870021cb5d1935ace6772.png)
 
-*Figuur 10: Waterdeel en waterinrichtingselement*
+*Waterdeel en waterinrichtingselement*
 
 ![](media/5d7e4aea5887c51f00323136288d3aa2.png)
 
-*Figuur 11: Pand en gebouwinstallatie*
+*Pand en gebouwinstallatie*
 
 ![](media/7dd860ec2b6e87494b1f482fd53936ad.png)
 
-*Figuur 12: Spoor*
+*Spoor*
 
 ![](media/77e06a76df94f903107b608023d75e74.png)
 
-*Figuur 13: Abstracte superklasse OverigeConstructie met subklassen:
-kunstwerkdeel, overig bouwwerk, scheiding en overige scheiding*
+*Abstracte superklasse OverigeConstructie met subklassen: kunstwerkdeel, overig
+bouwwerk, scheiding en overige scheiding*
 
 ![](media/f889ffe7797208f37056661cfcfe716b.png)
 
-Figuur 14: Overbruggingsdeel
+*Overbruggingsdeel*
 
 ![](media/73d82fdcb48ca4c87bac223255f12b53.png)
 
-Figuur 15: Tunneldeel
+*Tunneldeel*
 
 ![](media/2af055de7ef374ff11eacd03bbd7daa8.png)
 
-Figuur 16: Inrichtingselementen
+*Inrichtingselementen*
 
 ![](media/000f82c083f779a4d873df6c3d8ea9bf.png)
 
-*Figuur 17: Registratief gebied*
+*Registratief gebied*
 
 ![](media/f4fb592e32d2e110e172285eb3859d01.png)
 
-*Figuur 18: Functioneel gebied*
+*Functioneel gebied*
