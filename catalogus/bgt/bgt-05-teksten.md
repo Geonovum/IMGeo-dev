@@ -86,7 +86,7 @@ binnen het pand geplaatst.
 
 De nummeraanduidingreeks wordt geplaatst met een minimale rotatie ten opzichte
 van de tekstrichting, zodanig dat de nummeraanduidingreeks evenwijdig aan of
-haaks op de voorgevel staat. (zie Figuur 10).
+haaks op de voorgevel staat.
 
 Locaties van nummeraanduidingen van lig- en standplaatsen worden in de BGT niet
 geregistreerd. Locaties van individuele verblijfsobjecten zijn geen onderdeel
