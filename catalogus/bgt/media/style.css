@@ -20,11 +20,11 @@ thead {
   font-weight: bold;
 }
 
-#domeinwaarden thead, #objecttypen thead {
+#domeinwaarden thead, #objecttypen thead, #beschrijving-van-de-attributen-en-associaties thead{
   background-color: #fff;
   color: black;  
 }
 
-#domeinwaarden th, #objecttypen th {  
+#domeinwaarden th, #objecttypen th, #beschrijving-van-de-attributen-en-associaties thead {  
   font-weight: normal !important;
 }
