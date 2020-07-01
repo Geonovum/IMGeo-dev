@@ -2,7 +2,7 @@
 
 De optionele objecttypen uit IMGeo worden hieronder besproken.
 
-## Objecttype: Inrichtingselement
+## Inrichtingselement
 
 | **Naam objecttype**               | Inrichtingselement                                                                                                                                                                                                                                                                                                                                                          |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -19,7 +19,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Kwaliteitsbegrip**              |                                                                                                                                                                                                                                                                                                                                                                             |
 | **Overzicht associaties**         |                                                                                                                                                                                                                                                                                                                                                                             |
 | **Overzicht attributen**          | bgt-type [1-1]                                                                                                                                                                                                                                                                                                                                                              |
-## Objecttype: Bak
+## Bak
 
 | **Naam objecttype**               | Bak                                                                                |
 |-----------------------------------|------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         | geometrie2dBak [1..1]<br />lod0GeometrieBak [0..1]                               |
 | **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                              |
 
-## Objecttype: Bord
+## Bord
 
 | **Naam objecttype**               | Bord                                                   |
 |-----------------------------------|--------------------------------------------------------|
@@ -55,7 +55,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         | lod0GeometrieBord [0..1]<br />geometrie2dBord [1..1] |
 | **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                  |
 
-## Objecttype: GebouwInstallatie
+## GebouwInstallatie
 
 | **Naam objecttype**               | GebouwInstallatie                                                                              |
 |-----------------------------------|------------------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         | geometrie2dGebouwInstallatie [1..1]<br />lod0GeometryGebouwInstallatie [0..1]                |
 | **Overzicht attributen**          | bgt-typeGebouwInstallatie [1-1]<br />plus-typeGebouwInstallatie [0-1]                        |
 
-## Objecttype: Installatie
+## Installatie
 
 | **Naam objecttype**               | Installatie                                                          |
 |-----------------------------------|----------------------------------------------------------------------|
@@ -91,7 +91,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         | geometrie2dInstallatie [1..1]<br />lod0GeometrieInstallatie [0..1] |
 | **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                |
 
-## Objecttype: Kast
+## Kast
 
 | **Naam objecttype**               | Kast                                                                               |
 |-----------------------------------|------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         | lod0GeometrieKast [0..1]<br />geometrie2dKast [1..1]                             |
 | **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                              |
 
-## Objecttype: Mast
+## Mast
 
 | **Naam objecttype**               | Mast                                                   |
 |-----------------------------------|--------------------------------------------------------|
@@ -127,7 +127,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         | lod0GeometrieMast [0..1]<br />geometrie2dMast [1..1] |
 | **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                  |
 
-## Objecttype: Paal
+## Paal
 
 | **Naam objecttype**               | Paal                                                                                                |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         | geometrie2dPaal [1..1]<br />lod0GeometriePaal [0..1]                                              |
 | **Overzicht attributen**          | bgt-type [1-1]<br />hectometeraanduiding [0-1]<br />plus-type [0-1]                             |
 
-## Objecttype: Put
+## Put
 
 | **Naam objecttype**               | Put                                                                           |
 |-----------------------------------|-------------------------------------------------------------------------------|
@@ -163,7 +163,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         | geometrie2dPut [1..1]<br />lod0GeometriePut [0..1]                          |
 | **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                         |
 
-## Objecttype: Sensor
+## Sensor
 
 | **Naam objecttype**               | Sensor                                                                                             |
 |-----------------------------------|----------------------------------------------------------------------------------------------------|
@@ -181,7 +181,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         | lod0GeometrieSensor [0..1]<br />geometrie2dSensor [1..1]                                         |
 | **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                                              |
 
-## Objecttype: Straatmeubilair
+## Straatmeubilair
 
 | **Naam objecttype**               | Straatmeubilair                                                              |
 |-----------------------------------|------------------------------------------------------------------------------|
@@ -199,7 +199,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         | geometrie2dStraatmeubilair [1..1]<br />lod0GeometrieStraatmeubilair [0..1] |
 | **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                        |
 
-## Objecttype: Waterinrichtingselement
+## Waterinrichtingselement
 
 | **Naam objecttype**               | Waterinrichtingselement                                                                      |
 |-----------------------------------|----------------------------------------------------------------------------------------------|
@@ -217,7 +217,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         | lod0GeometrieWaterinrichtingselement [0..1]<br />geometrie2dWaterinrichtingselement [1..1] |
 | **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                                        |
 
-## Objecttype: Weginrichtingselement
+## Weginrichtingselement
 
 | **Naam objecttype**               | Weginrichtingselement                                                                    |
 |-----------------------------------|------------------------------------------------------------------------------------------|
@@ -235,7 +235,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         | lod0GeometrieWeginrichtingselement [0..1]<br />geometrie2dWeginrichtingselement [1..1] |
 | **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                                    |
 
-## Objecttype: VegetatieObject
+## VegetatieObject
 
 | **Naam objecttype**               | VegetatieObject                                                                                                                                                                                             |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -253,7 +253,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         | geometrie2dVegetatieObject [1..1]<br />lod0GeometryVegetatieObject [0..1]                                                                                                                                 |
 | **Overzicht attributen**          | bgt-type [1-1]<br />plus-type [0-1]                                                                                                                                                                       |
 
-## Objecttype: RegistratiefGebied
+## RegistratiefGebied
 
 | **Naam objecttype**               | RegistratiefGebied                                                                                                                                                          |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -271,7 +271,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         | geometrie2d [1..1]                                                                                                                                                          |
 | **Overzicht attributen**          | naam [0-1]                                                                                                                                                                  |
 
-## Objecttype: Buurt
+## Buurt
 
 | **Naam objecttype**               | Buurt                                                                                                                   |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------|
@@ -289,7 +289,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         | wijk [0..1]                                                                                                             |
 | **Overzicht attributen**          | buurtcode [1-1]                                                                                                         |
 
-## Objecttype: OpenbareRuimte
+## OpenbareRuimte
 
 | **Naam objecttype**               | OpenbareRuimte                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -307,7 +307,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         | naamEnIdOpenbareRuimte [0..1]                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | **Overzicht attributen**          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
-## Objecttype: Stadsdeel
+## Stadsdeel
 
 | **Naam objecttype**               | Stadsdeel                              |
 |-----------------------------------|----------------------------------------|
@@ -325,7 +325,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         |                                        |
 | **Overzicht attributen**          |                                        |
 
-## Objecttype: Waterschap
+## Waterschap
 
 | **Naam objecttype**               | Waterschap                                                                                                                                  |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
@@ -343,7 +343,7 @@ De optionele objecttypen uit IMGeo worden hieronder besproken.
 | **Overzicht associaties**         |                                                                                                                                             |
 | **Overzicht attributen**          |                                                                                                                                             |
 
-## Objecttype: Wijk
+## Wijk
 
 | **Naam objecttype**               | Wijk                                                                                                                                                  |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
