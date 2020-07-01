@@ -3,7 +3,7 @@ img {
 }
 
 th, td {
-  padding-left: 10 10 5 5;
+  padding: 10 10 5 5;
   height: 30px;
   border: solid 1px black;
 }
@@ -20,11 +20,11 @@ thead {
   font-weight: bold;
 }
 
-#domeinwaarden thead {
+#domeinwaarden thead, #objecttypen thead {
   background-color: #fff;
-  color: black;
+  color: black;  
 }
 
-#domeinwaarden th {  
+#domeinwaarden th, #objecttypen th {  
   font-weight: normal !important;
 }
