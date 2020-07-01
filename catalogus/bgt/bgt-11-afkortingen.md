@@ -1,7 +1,5 @@
 # Afkortingen
 
-|     |                                       |
-| ----| --------------------------------------|
 | BAG | Basisregistratie Adressen en Gebouwen |
 | BGT | Basisregistratie Grootschalige Topografie
 | BRT | Basisregistratie Topografie |
