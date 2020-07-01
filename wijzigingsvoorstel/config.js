@@ -1,6 +1,6 @@
 var respecConfig = {
   specStatus: "GN-DEF",
-  specType: "IM",  
+  specType: "AL",  
   editors: [
     {
       name: "Arnoud de Boer",
