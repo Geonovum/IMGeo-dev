@@ -19,3 +19,9 @@ thead {
   color: white;
   font-weight: bold;
 }
+
+#domeinwaarden thead {
+  background-color: #fff;
+  color: black;
+  font-weight: normal;
+}
