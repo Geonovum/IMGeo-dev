@@ -2,8 +2,8 @@ Bijlage Voorstellen IMGeo 2.2
 =============================
 
 Onderstaande tabel toont een overzicht van de voorstellen van IMGeo 2.2
-gerelateerd aan de meldingen in het registratiesysteem voor IMGeo
-(<https://github.com/Geonovum/IMGeo-dev/issues>)
+gerelateerd aan de meldingen in het [registratiesysteem voor
+IMGeo](https://github.com/Geonovum/IMGeo-dev/issues).
 
 **Uniformeren naaldbos, loofbos en gemengd bos**
 
