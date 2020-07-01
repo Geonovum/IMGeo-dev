@@ -155,19 +155,15 @@ modelleerprincipes:
 -   Er is zoveel mogelijk gebruik gemaakt van de CityGML-klassen, -attributen en
     –attribuutwaarden. Hierbij zijn de IMGeo-klassen (met Nederlandse benaming)
     gemodelleerd als specialisaties van CityGML-klassen (met Engelse benaming),
-    zie bijvoorbeeld figuur *Wegdeel, ondersteunend wegdeel en
-    weginrichtingselement*. De specialisatierelatie met CityGML is gerealiseerd
+    zie bijvoorbeeld figuur _Wegdeel, ondersteunend wegdeel en
+    weginrichtingselement_. De specialisatierelatie met CityGML is gerealiseerd
     voor alle objecten. De diagrammen zijn opgenomen in hoofdstuk
 
 -   Er zijn twee vormen van specialisatie toegepast:
 
 1.  IMGeo-klassen die conceptueel en wat betreft de eigenschappen overeenkomen
     met een CityGML-klasse, en er alleen extra eigenschappen aan toevoegen, zijn
-    gemodelleerd als subklasse met het stereotype “ADEElement” (zie figuur
-    *Vegetatieobject als subklasse van CityGML SolitaryVegetationObject*). Dit
-    geeft aan dat de CityGML-klasse gebruikt wordt en IMGeo er alleen
-    eigenschappen aan toevoegt. In de uitwisseling wordt de CityGML-klasse
-    gebruikt.
+    gemodelleerd als subklasse met het stereotype “ADEElement” (zie figuur _Vegetatieobject als subklasse van CityGML SolitaryVegetationObject_). Dit geeft aan dat de CityGML-klasse gebruikt wordt en IMGeo er alleen eigenschappen aan toevoegt. In de uitwisseling wordt de CityGML-klasse gebruikt.
 
 2.  IMGeo-klassen die conceptueel een nadere specialisatie zijn van een
     CityGML-klasse, zijn gemodelleerd als subklasse met het stereotype
