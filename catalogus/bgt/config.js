@@ -15,6 +15,7 @@ var respecConfig = {
   editors: [    {
       name: "Geonovum",
       companyURL: "https://www.geonovum.nl/geo-standaarden/bgt-imgeo",
+      email: "imgeo@geonovum.nl",
     }],
   authors: [
     {
