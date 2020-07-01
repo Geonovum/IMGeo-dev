@@ -18,14 +18,9 @@ worden geïmplementeerd.
 Wijzigingen t.o.v. vorige versie
 --------------------------------
 
-De wijzigingen die zijn doorgevoerd in IMGeo 2.2 zijn beschreven in het
-wijzigingsvoorstel IMGeo 2.2:
-[](https://docs.geostandaarden.nl/imgeo/def-al-wijzigingsvoorstel-imgeo22-20200701/)
+De wijzigingen die zijn doorgevoerd in IMGeo 2.2 zijn beschreven in het [wijzigingsvoorstel IMGeo 2.2](https://docs.geostandaarden.nl/imgeo/def-al-wijzigingsvoorstel-imgeo22-20200701/). Op 5 maart 2020 heeft de Regieraad BGT ingestemd met deze opzet van IMGeo 2.2.
 
-Op 5 maart 2020 heeft de Regieraad BGT ingestemd met deze opzet van IMGeo 2.2.
-
-Voor een overzicht van de meldingen (issues) die zijn opgelost in deze versie,
-zie [](https://github.com/Geonovum/IMGeo-dev/milestone/1?closed=1)
+Een overzicht van de meldingen (issues) die zijn opgelost in deze versie is beschikbaar in het wijzigingsvoorstel en in het [IMGeo meldingenregistratiesysteem op Github](https://github.com/Geonovum/IMGeo-dev/milestone/1?closed=1).
 
 Werkafspraken
 -------------
@@ -74,7 +69,7 @@ Na publicatie zijn deze inwinregels van kracht voor de bijhouding van de BGT.
 Voor de bestaande inhoud van de BGT geldt een overgangsperiode tot 1 maart 2022.
 
 De ondersteuning van bronhouders bij de implementatie van IMGeo 2.2 verloopt via
-het SVB-BGT: [](https://www.svb-bgt.nl/nieuws/implementatieplan-imgeo2-2/).
+het [SVB-BGT](https://www.svb-bgt.nl/nieuws/implementatieplan-imgeo2-2/).
 
 Vragen over de toepassing van de BGT\|IMGeo standaarden kunnen gesteld worden
-aan de IMGeo helpdesk: [](imgeo@geonovum.nl).
+aan de [IMGeo helpdesk](imgeo@geonovum.nl).
