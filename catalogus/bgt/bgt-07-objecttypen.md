@@ -1461,3 +1461,4 @@ Labelpositie
 | **Indicatie formele historie**   | Nee                                                                                                   |
 | **Indicatie authentiek**         | Authentiek                                                                                            |
 | **Toelichting attribuut**        |                                                                                                       |
+
