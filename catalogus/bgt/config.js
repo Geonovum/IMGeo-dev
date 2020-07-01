@@ -1,6 +1,6 @@
 var respecConfig = {
   format: "markdown",
-  specStatus: "GN-VV",
+  specStatus: "GN-DEF",
   specType: "IM",
   //subtitle: "Gegevenscatalogus BGT 1.2",  
   logos: [{
@@ -27,10 +27,9 @@ var respecConfig = {
   //shortName: "IMGeo",
   pubDomain: "imgeo", 
   previousURI: "https://www.geonovum.nl/uploads/standards/downloads/BGTGegevenscatalogus111.pdf",
-  previousPublishDate: "2017-01-01",
+  previousPublishDate: "2013-07-01",
   previousStatus: "GN-DEF",
-  github: "https://github.com/Geonovm/IMGeo",
- 
+  github: "https://github.com/Geonovm/IMGeo", 
   //localBiblio: {
   //  "ISO19136": {
   //    "href": "https://www.iso.org/standard/32554.html",

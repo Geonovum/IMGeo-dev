@@ -1,5 +1,8 @@
 img {
+  display: block;
   max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
 p {
@@ -31,11 +34,18 @@ thead {
   font-weight: bold;
 }
 
-#domeinwaarden thead, #objecttypen thead, #beschrijving-van-de-attributen-en-associaties-0 thead{
+#domeinwaarden thead, 
+#objecttypen thead, 
+#beschrijving-van-de-attributen-en-associaties-0 thead,
+#afkortingen thead {
   background-color: #fff;
   color: black;  
 }
 
 #domeinwaarden th, #objecttypen th, #beschrijving-van-de-attributen-en-associaties-0 thead {  
   font-weight: normal !important;
+}
+
+#afkortingen th, #afkortingen td, #afkortingen table {
+ border: none;   
 }
