@@ -163,11 +163,7 @@ modelleerprincipes:
 
 1.  IMGeo-klassen die conceptueel en wat betreft de eigenschappen overeenkomen
     met een CityGML-klasse, en er alleen extra eigenschappen aan toevoegen, zijn
-    gemodelleerd als subklasse met het stereotype “ADEElement” (zie figuur
-    *Vegetatieobject als subklasse van CityGML SolitaryVegetationObject*). Dit
-    geeft aan dat de CityGML-klasse gebruikt wordt en IMGeo er alleen
-    eigenschappen aan toevoegt. In de uitwisseling wordt de CityGML-klasse
-    gebruikt.
+    gemodelleerd als subklasse met het stereotype “ADEElement” (zie figuur*Vegetatieobject als subklasse van CityGML SolitaryVegetationObject*). Dit geeft aan dat de CityGML-klasse gebruikt wordt en IMGeo er alleen eigenschappen aan toevoegt. In de uitwisseling wordt de CityGML-klasse gebruikt.
 
 2.  IMGeo-klassen die conceptueel een nadere specialisatie zijn van een
     CityGML-klasse, zijn gemodelleerd als subklasse met het stereotype
