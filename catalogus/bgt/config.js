@@ -23,7 +23,7 @@ var respecConfig = {
     }
 	], 
   //canonicalURI: "WV",
-  //publishDate: "2017-09-12",
+  publishDate: "2020-07-01",
   //shortName: "IMGeo",
   pubDomain: "http://www.geonovum.nl/wegwijzer/standaarden/gegevenscatalogus-bgt-111",
   github: "https://github.com/Geonovm/IMGeo",
