@@ -7,8 +7,8 @@ var respecConfig = {
     src: 'media/logo_minbzk.png',
     href: "https://www.geobasisregistraties.nl/basisregistraties/grootschalige-topografie",
     alt: "Ministerie BZK",
-    width: 582,
-    height: 122,
+    width: 776,
+    height: 163,
     id: 'BZK',
   }
   ] ,
