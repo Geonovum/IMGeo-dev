@@ -291,7 +291,7 @@ Hieronder worden besproken:
 | **Indicatie materiële historie** | Nee                                                                                                          |
 | **Indicatie formele historie**   | Ja                                                                                                           |
 | **Indicatie authentiek**         | Niet-authentiek                                                                                              |
-| **Toelichting attribuut**        | Default: \<memo\>                                                                                            |
+| **Toelichting attribuut**        |                                                                                             |
 
 ### Associatie: lod0CurveSpoor
 
