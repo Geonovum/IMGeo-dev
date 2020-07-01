@@ -4,31 +4,32 @@ Release notes IMGeo 2.2
 Versie 2.2 van het informatiemodel Geografie (IMGeo) bestaat uit de volgende
 nieuwe documenten:
 
-[Catalogus BGT 1.2](https://docs.geostandaarden.nl/imgeo/def-im-BGT-20200701/)
+-   [Catalogus BGT
+    1.2](https://docs.geostandaarden.nl/imgeo/def-im-BGT-20200701/)
 
-[Catalogus IMGeo
-2.2](https://docs.geostandaarden.nl/imgeo/def-im-IMGeo-20200701/)
+-   [Catalogus IMGeo
+    2.2](https://docs.geostandaarden.nl/imgeo/def-im-IMGeo-20200701/)
 
-[UML
-informatiemodel](http://register.geostandaarden.nl/informatiemodel/imgeo/2.2)
+-   [UML
+    informatiemodel](http://register.geostandaarden.nl/informatiemodel/imgeo/2.2)
 
 Voor deze versie worden geen nieuwe versie van implementatiebestanden (GML
 applicatieschema, StUF-Geo IMGeo berichtschema en RDF waardenlijsten)
 beschikbaar gesteld. Deze versie kan zonder wijziging van bronhoudersoftware
 worden geïmplementeerd.
 
-Wijzigingen t.o.v. vorige versie
---------------------------------
+**Wijzigingen t.o.v. vorige versie**
 
 De wijzigingen die zijn doorgevoerd in IMGeo 2.2 zijn beschreven in het
 wijzigingsvoorstel IMGeo 2.2:
+<https://docs.geostandaarden.nl/imgeo/def-al-wijzigingsvoorstel-imgeo22-20200701/>
 
-. Op 5 maart 2020 heeft de Regieraad BGT ingestemd met deze opzet van IMGeo 2.2.
+Op 5 maart 2020 heeft de Regieraad BGT ingestemd met deze opzet van IMGeo 2.2.
 
-In deze versie worden de volgende issues opgelost:
+Voor een overzicht van de meldingen (issues) die zijn opgelost in deze versie,
+zie <https://github.com/Geonovum/IMGeo-dev/milestone/1?closed=1>
 
-Werkafspraken
--------------
+**Werkafspraken**
 
 Met deze versie komen de volgende werkafspraken te vervallen:
 
@@ -67,8 +68,7 @@ Met deze versie blijven de volgende bestaande werkafspraken van kracht:
 -   [Werkafspraak: Genormaliseerde
     waarden](https://www.geonovum.nl/documents/20150622bgt-werkafspraak-genormaliseerde-waardenpdf)
 
-Overgangsperiode
-----------------
+**Overgangsperiode**
 
 Na publicatie zijn deze inwinregels van kracht voor de bijhouding van de BGT.
 Voor de bestaande inhoud van de BGT geldt een overgangsperiode tot 1 maart 2022.
@@ -76,5 +76,5 @@ Voor de bestaande inhoud van de BGT geldt een overgangsperiode tot 1 maart 2022.
 De ondersteuning van bronhouders bij de implementatie van IMGeo 2.2 verloopt via
 het SVB-BGT: <https://www.svb-bgt.nl/nieuws/implementatieplan-imgeo2-2/>.
 
-Vragen over de toepassing van de BGT\|IMGeo Standaarden kunnen gesteld worden
+Vragen over de toepassing van de BGT\|IMGeo standaarden kunnen gesteld worden
 aan de IMGeo helpdesk: <imgeo@geonovum.nl>.
