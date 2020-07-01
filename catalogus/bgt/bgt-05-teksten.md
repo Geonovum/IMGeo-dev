@@ -17,9 +17,8 @@ teksten zijn opgenomen, worden zij vergezeld van een geometriepunt en eventuele
 rotatie, zie 5.3. Deze teksten betreffen namen van openbare ruimten en een
 nummeraanduidingreeks bij panden.
 
-![](media/2246f72e43b403281a04a5a9b6f9b1bf.png)
-
-Visualisatie van openbare ruimtenamen op de BGT achtergrondkaart
+![Visualisatie van openbare ruimtenamen op de BGT achtergrondkaart](media/2246f72e43b403281a04a5a9b6f9b1bf.png)
+*Visualisatie van openbare ruimtenamen op de BGT achtergrondkaart*
 
 Namen
 -----
@@ -56,9 +55,8 @@ In de visualisatie van de BGT worden nummeraanduidingen gepresenteerd, die horen
 bij panden, zoals gedefinieerd in de BAG voor de verblijfsobjecten in die
 panden. Dit is bedoeld ter oriëntatie.
 
-![](media/a32c2e8fc4bbc9bb2f1bb6522c0e1976.png)
-
-Visualisatie van nummeraanduidingen op de BGT hoofdthema kaart
+![Visualisatie van nummeraanduidingen op de BGT hoofdthema kaart](media/a32c2e8fc4bbc9bb2f1bb6522c0e1976.png)
+*Visualisatie van nummeraanduidingen op de BGT hoofdthema kaart*
 
 De nummeraanduidingen van verblijfsobjecten in een pand worden verzameld tot een
 nummeraanduidingreeks. Als er slechts één huisnummer voorkomt, wordt alleen deze
