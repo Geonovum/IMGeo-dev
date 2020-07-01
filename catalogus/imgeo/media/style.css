@@ -36,16 +36,17 @@ thead {
 
 #domeinwaarden thead, 
 #objecttypen thead, 
-#beschrijving-van-de-attributen-en-associaties-0 thead,
+#attributen-en-associaties thead,
 #afkortingen thead {
   background-color: #fff;
   color: black;  
 }
 
-#domeinwaarden th, #objecttypen th, #beschrijving-van-de-attributen-en-associaties-0 thead {  
+#domeinwaarden th, #objecttypen th, #attributen-en-associaties thead {  
   font-weight: normal !important;
 }
 
 #afkortingen th, #afkortingen td, #afkortingen table {
  border: none;   
+ font-weight: normal;
 }
