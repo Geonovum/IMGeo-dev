@@ -4,8 +4,8 @@ var respecConfig = {
   specType: "IM",
   //subtitle: "Gegevenscatalogus BGT 1.2",  
   logos: [{
-    src: 'logo_minbzk.png',
-    href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
+    src: 'media/logo_minbzk.png',
+    href: "https://www.geobasisregistraties.nl/basisregistraties/grootschalige-topografie",
     alt: "Ministerie BZK",
     width: 229,
     height: 130,
