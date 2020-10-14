@@ -1,5 +1,3 @@
-### Wegdeel, functie: woonerf
-
 ![](media/58f221007cf06a728ecca9309012466fca057e10.jpg)
 
 Het woonerf wordt hier begrensd door de panden en bevat geen afzonderlijk voetpad.
