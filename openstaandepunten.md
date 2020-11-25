@@ -16,7 +16,9 @@ Overwegen:
 Water
 -----
 
-n.t.b.
+Overwegen:
+
+-   kering/dijk toevoegen aan OndersteunendWaterdeel
 
 Weg en verharding
 -----------------
