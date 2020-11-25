@@ -12,7 +12,7 @@
   
 }
 #mapping thead td { 
- background-color: lightgray;
+ background-color: lightgray !important;
  font-weight: bold;
  font-varian: small-caps;
 
