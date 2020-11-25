@@ -5,7 +5,8 @@
 }
 #mapping thead { 
  background-color: lightgray;
-color: red;
+ font-weight: bold;
+ font-varian: small-caps;
 
 }
 
