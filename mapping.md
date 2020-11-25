@@ -4,7 +4,7 @@ Relatie tussen IMGeo 2.2, IMSOR 0.1 en IMGeo.next
 Terrein en vegetatie
 --------------------
 
-| IMGeo 2.2             |                 |                     |                        | SOR                    |                     | IMGeo 3.0               |                     |                         |                        |
+| IMGeo 2.2             |                 |                     |                        | SOR                    |                     | IMGeo.next               |                     |                         |                        |
 |-----------------------|-----------------|---------------------|------------------------|------------------------|---------------------|-------------------------|---------------------|-------------------------|------------------------|
 | Onbegroeidterreindeel | fysiekvoorkomen | erf                 |                        | Onbepaald Terrein      |                     | Onbegroeidterreindeel   | fysiekvoorkomen     | erf                     |                        |
 | Onbegroeidterreindeel | fysiekvoorkomen | gesloten verharding | asfalt                 | Verharding             | asfaltverharding    | **Verharding**          | fysiekvoorkomen     | **gesloten verharding** | **asfalt**             |
@@ -60,7 +60,7 @@ Terrein en vegetatie
 Water
 -----
 
-| **IMGeo 2.2**           |                 |                     |                         | **SOR**                                                  |               | **IMGeo 3.0**                     |                 |                                      |
+| **IMGeo 2.2**           |                 |                     |                         | **SOR**                                                  |               | **IMGeo.next**                     |                 |                                      |
 |-------------------------|-----------------|---------------------|-------------------------|----------------------------------------------------------|---------------|-----------------------------------|-----------------|--------------------------------------|
 | OndersteunendWaterdeel  | type            | oever/slootkant     |                         | Oever                                                    |               | OndersteunendWaterdeel            | type            | oever/slootkant                      |
 |                         |                 |                     |                         |                                                          |               | Verharding of BegroeidTerreindeel | fysiekvoorkomen |                                      |
@@ -90,7 +90,7 @@ Water
 Wegen en verharding
 -------------------
 
-| **IMGeo 2.2**            |                 |                        |                       | **SOR**                                                                                 |                        | **IMGeo 3.0**                         |                     |                         |                            |
+| **IMGeo 2.2**            |                 |                        |                       | **SOR**                                                                                 |                        | **IMGeo.next**                         |                     |                         |                            |
 |--------------------------|-----------------|------------------------|-----------------------|-----------------------------------------------------------------------------------------|------------------------|---------------------------------------|---------------------|-------------------------|----------------------------|
 | Wegdeel                  | fysiekvoorkomen | gesloten verharding    | asfalt                | verharding                                                                              | asfaltverharding       | **Verharding**                        | **fysiekvoorkomen** | **gesloten verharding** | **asfalt**                 |
 | Wegdeel                  | fysiekvoorkomen | gesloten verharding    | cementbeton           | verharding                                                                              | betonverharding        | **Verharding**                        | **fysiekvoorkomen** | **gesloten verharding** | **cementbeton**            |
@@ -146,7 +146,7 @@ Wegen en verharding
 Gebouwen, kunstwerken en overige bouwwerken
 -------------------------------------------
 
-| IMGeo 2.2         |           |                                 |                                 | SOR                                                         |                                | IMGeo 3.0                           |                 |                    |                                              |
+| IMGeo 2.2         |           |                                 |                                 | SOR                                                         |                                | IMGeo.next                           |                 |                    |                                              |
 |-------------------|-----------|---------------------------------|---------------------------------|-------------------------------------------------------------|--------------------------------|-------------------------------------|-----------------|--------------------|----------------------------------------------|
 | Pand              |           | Grondvlaksituatie van BAG-pand  |                                 | Gebouw                                                      |                                | **Gebouwdeel**                      |                 |                    |                                              |
 | Overig bouwwerk   |           | overkapping (maaiveldgeometrie) | open bouwwerk: type overkapping | **Gebouwdeel**                                              | **type**                       | **overkapping (maaiveldgeometrie)** |                 |                    |                                              |
@@ -302,7 +302,7 @@ Gebouwen, kunstwerken en overige bouwwerken
 
 Functionele gebieden
 
-| IMGeo 2.2              |          |              |                                            | SOR                                 |                                  | IMGeo 3.0              |             |              |                                            |
+| IMGeo 2.2              |          |              |                                            | SOR                                 |                                  | IMGeo.next              |             |              |                                            |
 |------------------------|----------|--------------|--------------------------------------------|-------------------------------------|----------------------------------|------------------------|-------------|--------------|--------------------------------------------|
 | Functioneel Gebied     | type     | kering       |                                            | kering                              |                                  | Functioneel Gebied     | type        | kering       |                                            |
 | Functioneel Gebied     | type     | niet-bgt     | bedrijvigheid                              | vervalt waarschijnlijk              |                                  | Functioneel Gebied     | type        | niet-bgt     | bedrijvigheid                              |
@@ -336,7 +336,7 @@ Functionele gebieden
 Registratieve gebieden
 ----------------------
 
-| IMGeo 2.2       |   |   |   | SOR                      |                 | IMGeo 3.0       |
+| IMGeo 2.2       |   |   |   | SOR                      |                 | IMGeo.next       |
 |-----------------|---|---|---|--------------------------|-----------------|-----------------|
 | Buurt           |   |   |   | registratief objecttype  | buurt           | Buurt           |
 | Openbare Ruimte |   |   |   | registratief objecttype  | openbare ruimte | Openbare Ruimte |
