@@ -6,16 +6,15 @@
   margin: auto;
 }
 
-#mapping tr {
- border: solid 1px #ccc;
-  
-  
+
+td {
+ border: solid 1px #888; 
 }
 
 #mapping td {
  
   padding: 0px;
-  border: solid 1px #888;
+  
   
 }
 
