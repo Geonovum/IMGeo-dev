@@ -17,15 +17,15 @@
 }
 #mapping td:nth-child(1)  {
   
- font-variant: small-caps; 
+ font-variant: small-caps !important; 
 }
 
  #mapping td:nth-child(4) {
   
- font-variant: small-caps; 
+ font-variant: small-caps !important;
 }
 
  #mapping td:nth-child(6) {
   
- font-variant: small-caps; 
+ font-variant: small-caps !important;
 }
