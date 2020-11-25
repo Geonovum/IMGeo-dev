@@ -39,14 +39,25 @@
 #mapping td:nth-child(1)  {
   
  font-variant: small-caps !important; 
+  border-left: solid 1px #888;
 }
 
  #mapping td:nth-child(5) {
   
  font-variant: small-caps !important;
+   border-left: solid 1px #888;
 }
 
  #mapping td:nth-child(7) {
   
  font-variant: small-caps !important;
+   border-left: solid 1px #888;
+   
+}
+
+#mapping td:nth-child(10) {
+  
+ font-variant: small-caps !important;
+   border-right: solid 1px #888;
+   
 }
