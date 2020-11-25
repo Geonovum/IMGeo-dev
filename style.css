@@ -11,6 +11,12 @@
   
   
 }
+
+#mapping td {
+ 
+  padding: 0px;
+  
+}
 #mapping thead td { 
  background-color: lightgray !important;
  font-weight: bold;
