@@ -2,6 +2,14 @@
   
   border: solid 1px #ccc;
   font-size: 0.8em;
+  width: 100%;
+  margin: auto;
+}
+
+#mapping tr {
+ border: solid 1px #ccc;
+  
+  
 }
 #mapping thead { 
  background-color: lightgray;
@@ -15,17 +23,18 @@
   vertical-align: baseline;
   
 }
+
 #mapping td:nth-child(1)  {
   
  font-variant: small-caps !important; 
 }
 
- #mapping td:nth-child(4) {
+ #mapping td:nth-child(5) {
   
  font-variant: small-caps !important;
 }
 
- #mapping td:nth-child(6) {
+ #mapping td:nth-child(7) {
   
  font-variant: small-caps !important;
 }
