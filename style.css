@@ -1,11 +1,18 @@
 #mapping table {
   
+  border: solid 1px #ccc;
   font-size: 0.8em;
 }
 #mapping thead { 
 
 color: red;
 
+}
+
+#mapping td {
+ 
+  vertical-align: baseline;
+  
 }
 #mapping table td:nth-child(1),  #mapping table td:nth-child(4), #mapping table td:nth-child(6),  {
   
