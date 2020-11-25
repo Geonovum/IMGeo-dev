@@ -25,9 +25,9 @@ Toevoegen netwerken
 -------------------
 
 De BGT wordt uitgebreid met netwerken van wegen, spoorwegen, vaarwegen en
-watersystemen. Het BGT object Spoor . Een netwerk bestaat uit een verzameling
+watersystemen. Een netwerk bestaat uit een verzameling
 verbindingen en knooppunten waarbij gebruik/functies en andere eigenschappen
-kunnen worden opgenomen.
+kunnen worden opgenomen. Het BGT object Spoor wordt opgenomen in deze structuur. 
 
 Uitbreiden registratieve gebieden
 ---------------------------------
@@ -40,7 +40,7 @@ Scheiden van objecten en labels
 
 Labels zijn niet langer een eigenschap van objecten, maar worden opgenomen in
 een aparte annotatielaag conform het model van de BRT. Van huisnummerreeksen,
-openbare ruimten en andere benamingen. Alleen labels van officiële benamingen
-worden opgenomen in IMGeo.
+openbare ruimten worden de labelposities en relaties met de objecten opgenomen. Alleen labels van officiële benamingen
+worden opgenomen als label.
 
 ![Globale indeling IMGeo.next](media/a56690ee9bdee33fddf53529137bcd42.png)
