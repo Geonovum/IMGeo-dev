@@ -24,6 +24,15 @@
   
 }
 
+#mapping td:nth-child(2)  {
+  
+ font-style: italic !important; 
+}
+
+#mapping td:nth-child(8)  {  
+ font-style: italic !important; 
+}
+
 #mapping td:nth-child(1)  {
   
  font-variant: small-caps !important; 
