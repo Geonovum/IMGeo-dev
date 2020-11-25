@@ -14,7 +14,7 @@ color: red;
   vertical-align: baseline;
   
 }
-#mapping table td:nth-child(1),  #mapping table td:nth-child(4), #mapping table td:nth-child(6),  {
+#mapping td:nth-child(1),  #mapping td:nth-child(4), #mapping td:nth-child(6),  {
   
  font-variant: small-caps; 
 }
