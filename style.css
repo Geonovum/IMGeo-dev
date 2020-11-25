@@ -11,12 +11,15 @@
   
   
 }
-#mapping thead { 
+#mapping thead td { 
  background-color: lightgray;
  font-weight: bold;
  font-varian: small-caps;
 
 }
+
+#mapping tr:nth-child(even) {background: #CCC}
+#mapping tr:nth-child(odd) {background: #FFF}
 
 #mapping td {
  
