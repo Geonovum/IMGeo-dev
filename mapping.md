@@ -1,4 +1,4 @@
-Relatie tussen IMGeo 2.2, IMSOR 0.1 en IMGeo 3.0
+Relatie tussen IMGeo 2.2, IMSOR 0.1 en IMGeo.next
 ================================================
 
 Terrein en vegetatie
