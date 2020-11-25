@@ -42,3 +42,7 @@ Labels zijn niet langer een eigenschap van objecten, maar worden opgenomen in
 een aparte annotatielaag conform het model van de BRT. Van huisnummerreeksen,
 openbare ruimten en andere benamingen. Alleen labels van officiële benamingen
 worden opgenomen in IMGeo.
+
+![](media/a56690ee9bdee33fddf53529137bcd42.png)
+
+Overzicht IMGeo 3.0
