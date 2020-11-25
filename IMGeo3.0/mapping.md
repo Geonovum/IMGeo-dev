@@ -348,5 +348,14 @@ Registratieve gebieden
 Geografische gebieden
 ---------------------
 
+ToDo
+
 Netwerken
 ---------
+
+ToDo
+
+Annotaties
+----------
+
+ToDo
