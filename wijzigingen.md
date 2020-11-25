@@ -102,7 +102,17 @@ Netwerken
 
 ToDo
 
-Water
------
+Registratieve gebieden
+----------------------
+
+ToDo
+
+Geografische gebieden
+---------------------
+
+ToDo
+
+Annotaties
+----------
 
 ToDo
