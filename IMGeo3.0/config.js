@@ -1,5 +1,4 @@
 var respecConfig = {
-  format: "markdown",
   specStatus: "GN-WV",
   specType: "IM", 
   //canonicalURI: "WV",
