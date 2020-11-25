@@ -17,15 +17,20 @@
   padding: 0px;
   
 }
-#mapping thead td { 
+
+#mapping tr:nth-child(even) {background: #CCC}
+#mapping tr:nth-child(odd) {background: #FFF}
+
+
+
+#mapping thead { 
  background-color: lightgray !important;
  font-weight: bold;
  font-varian: small-caps;
 
 }
 
-#mapping tr:nth-child(even) {background: #CCC}
-#mapping tr:nth-child(odd) {background: #FFF}
+
 
 #mapping td {
  
@@ -63,7 +68,6 @@
 
 #mapping td:nth-child(10) {
   
- font-variant: small-caps !important;
    border-right: solid 1px #888;
    
 }
