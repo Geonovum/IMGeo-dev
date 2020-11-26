@@ -15,7 +15,7 @@ var respecConfig = {
   ],
   //shortName: "shortname",
   pubDomain: "http://www.geonovum.nl/bgt-imgeostandaarden",
-  github: "https://github.com/Geonovm/IMGeo2018",
+  github: "https://github.com/Geonovm/IMGeo-dev",
   //previousPublishDate: "2017-01-01",
   //previousStatus: "GN-CV",
   //localBiblio: {
