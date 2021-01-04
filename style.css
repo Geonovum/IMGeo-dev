@@ -1,7 +1,69 @@
 #mapping table {
+  
+  border: solid 1px #ccc;
+  font-size: 0.8em;
+  width: 100%;
+  margin: auto;
 }
+
+
+#mapping td {
+ 
+  padding: 0px;
+  
+  
+}
+
+#mapping tr:nth-child(even) {background: #CCC}
+#mapping tr:nth-child(odd) {background: #FFF}
+
+
+
 #mapping thead { 
+ background-color: lightgray !important;
+ font-weight: bold;
+ font-varian: small-caps;
 
-color: red;
+}
 
+
+
+#mapping td {
+ 
+  vertical-align: baseline;
+  
+}
+
+#mapping td:nth-child(2)  {
+  
+ font-style: italic !important; 
+}
+
+#mapping td:nth-child(8)  {  
+ font-style: italic !important; 
+}
+
+#mapping td:nth-child(1)  {
+  
+ font-variant: small-caps !important; 
+  border-left: solid 1px #888;
+}
+
+ #mapping td:nth-child(5) {
+  
+ font-variant: small-caps !important;
+   border-left: solid 1px #888;
+}
+
+ #mapping td:nth-child(7) {
+  
+ font-variant: small-caps !important;
+   border-left: solid 1px #888;
+   
+}
+
+#mapping td:nth-child(10) {
+  
+   border-right: solid 1px #888;
+   
 }
