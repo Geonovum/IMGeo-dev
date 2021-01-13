@@ -29,7 +29,15 @@ scss: |
   .wy-nav-content-wrap{background:#fcfcfc}
   .wy-nav-content-wrap .wy-nav-content{max-width:none}
 
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
+
+collections:
+    tekstfragmenten:
+        output: false
+        permalink: /:collection/:path
+    hoofdstukken:
+        output: true
+        permalink: /:collection/:path
 
 # https://github.com/benbalter/jekyll-relative-links
 relative_links:
