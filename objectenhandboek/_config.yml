@@ -27,3 +27,13 @@ scss: |
   .wy-nav-content-wrap .wy-nav-content{max-width:none}
 
 theme: jekyll-theme-minimal
+
+# https://github.com/benbalter/jekyll-relative-links
+relative_links:
+    enabled: true
+    collections: true
+
+# Exclusions from the final site
+exclude:
+  - optional
+  - vendor
