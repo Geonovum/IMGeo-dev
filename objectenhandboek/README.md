@@ -1,4 +1,3 @@
-![Ministerie BZK](media/4be684fd0712608921f4a2d15c293cac.png)
 
 IMGeo objectenhandboek
 ======================
