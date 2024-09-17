@@ -30,7 +30,7 @@ var respecConfig = {
   previousURI: "https://www.geonovum.nl/uploads/standards/downloads/BGTGegevenscatalogus111.pdf",
   previousPublishDate: "2020-07-01",
   previousStatus: "GN-DEF",
-  github: "https://github.com/Geonovm/IMGeo", 
+  github: "https://github.com/Geonovum/IMGeo", 
   //localBiblio: {
   //  "ISO19136": {
   //    "href": "https://www.iso.org/standard/32554.html",
