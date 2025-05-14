@@ -2,7 +2,7 @@
 name: Wijzigingsverzoek
 about: Template voor wijzigingsverzoek  (meld eerst via imgeo@geonovum.nl)
 title: titel (SDIMGEO-xxx, WELT-yyy)
-labels: 9 enhancement
+labels: Wens
 assignees: ''
 
 ---
@@ -10,7 +10,7 @@ assignees: ''
 # Gegevens indiener
 Beschrijf hier uw contactgegevens.
 
-#Rol indiener
+# Rol indiener
 Beschrijf hier uw rol in het IMGEO werkveld.
 **Bronhouder**
 **Afnemer/gebruiker**
