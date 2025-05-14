@@ -7,9 +7,8 @@ assignees: ''
 
 ---
 
-# Handleiding
-Laat svp de tekst achter de # staan en vul daaronder de gegevens in
-Haal de tekst tussen ** en ** weg als deze niet van toepassing is
+# Laat svp de tekst achter de # staan en vul daaronder de gegevens in
+# Haal de **tekst** weg als deze niet van toepassing is
 
 # Gegevens indiener
 Beschrijf hier uw contactgegevens.
