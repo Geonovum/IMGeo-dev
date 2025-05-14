@@ -1,11 +1,15 @@
 ---
 name: Wijzigingsverzoek
 about: Template voor wijzigingsverzoek  (meld eerst via imgeo@geonovum.nl)
-title: ''
+title: 'Wijzigingsverzoek: '
 labels: Wens
 assignees: ''
 
 ---
+
+# Handleiding
+Laat svp de tekst achter de # staan en vul daaronder de gegevens in
+Haal de tekst tussen ** en ** weg als deze niet van toepassing is
 
 # Gegevens indiener
 Beschrijf hier uw contactgegevens.
