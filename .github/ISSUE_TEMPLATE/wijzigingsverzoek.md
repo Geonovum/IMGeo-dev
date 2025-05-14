@@ -10,7 +10,7 @@ assignees: ''
 # Gegevens indiener
 Beschrijf hier uw contactgegevens.
 
-#Rol indiener
+# Rol indiener
 Beschrijf hier uw rol in het IMGEO werkveld.
 **Bronhouder**
 **Afnemer/gebruiker**
