@@ -7,8 +7,9 @@ assignees: ''
 
 ---
 
-# Laat svp de tekst achter de # staan en vul daaronder de gegevens in
-# Haal de **tekst** weg als deze niet van toepassing is
+# Handleiding voor invullen van dit wijzigingsverzoek
+Laat svp de tekst achter de # staan en vul daaronder de gegevens in
+Haal de **tekst** weg als deze niet van toepassing is
 
 # Gegevens indiener
 Beschrijf hier uw contactgegevens.
