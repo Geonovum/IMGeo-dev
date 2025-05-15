@@ -32,8 +32,8 @@ body:
         - label: Afnemer/gebruiker
         - label: Verstrekker
         - label: Leverancier
-        - label: Standaarden beheerder
-        - label: Besluitvormend orgaan
+	- label: Standaarden beheerder
+	- label: Besluitvormend orgaan
 	- label: Toezichthouder
 	- label: Beleidsverantwoordelijke
         - label: Niet van toepassing / Anders
