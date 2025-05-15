@@ -34,7 +34,7 @@ body:
         - label: Leverancier
         - label: Standaarden beheerder
         - label: Besluitvormend orgaan
-        - label: Toezichthouder
+	- label: Toezichthouder
 	- label: Beleidsverantwoordelijke
         - label: Niet van toepassing / Anders
   - type: dropdown
