@@ -28,10 +28,10 @@ body:
     attributes:
       label: Welke rol heeft u?
       options:
-        - label: Bronhouder (of koepel van bronhouders)
-        - label: Afnemer/gebruiker
-        - label: Verstrekker
-        - label: Leverancier
+      - label: Bronhouder (of koepel van bronhouders)
+	- label: Afnemer/gebruiker
+	- label: Verstrekker
+	- label: Leverancier
 	- label: Standaarden beheerder
 	- label: Besluitvormend orgaan
 	- label: Toezichthouder
