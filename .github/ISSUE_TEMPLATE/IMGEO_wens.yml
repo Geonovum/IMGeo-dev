@@ -1,0 +1,63 @@
+name: Dien een BGT/IMGEO wens in
+description: IMGEO wensen lijst
+title: "[Wens]: "
+labels: ["Wens"]
+body:
+  - type: markdown
+    attributes: 
+      value: |
+        Bedankt voor het indienen van een wens. Beschrijf zo duidelijk mogelijk welke wens u heeft.
+        Voordat je aan de slag gaat met dit formulier, nog een puntje:
+        - Heeft iemand anders al eens een soortgelijke wens ingediend? Check dit in de [backlog](https://github.com/Geonovum/IMGeo-dev/issues).
+  - type: input
+    id: name
+    attributes: 
+      label: Uw naam
+    validations:
+      required: false
+  - type: input
+    id: contact
+    attributes: 
+      label: Contactgegevens
+      description: Hoe kunnen we contact met u opnemen als er nog vragen zijn?
+      placeholder: bijv. email@example.com
+    validations:
+      required: false
+  - type: checkboxes
+    id: browsers
+    attributes:
+      label: Welke rol heeft u?
+      options:
+        - label: Bronhouder
+        - label: Afnemer / gebruiker
+        - label: verstrekker
+        - label: leverancier
+        - label: Standaardenbeheerder
+        - label: Beleidsverantwoordelijke / toezichthouder
+  - type: textarea
+    id: description
+    attributes: 
+      label: Omschrijving wens (wat)
+      description: Beschrijf de wens, graag met voorbeelden en/of een link.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Omschrijving wens (waarom)
+      description: Geef aan waarom deze wens noodzakelijk is.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes: 
+      label: Impact
+      description: Geef aan wat de mogelijke impact is.
+    validations:
+      required: true
+  - type: markdown
+    attributes: 
+      value: |
+        Alvast bedankt voor uw wens, we gaan er zsm mee aan de slag.
+
+        Geonovum
