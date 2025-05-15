@@ -24,7 +24,7 @@ body:
     validations:
       required: false
   - type: checkboxes
-    id: browsers
+    id: roles
     attributes:
       label: Welke rol heeft u?
       options:
@@ -42,14 +42,14 @@ body:
     validations:
       required: true
   - type: textarea
-    id: description
+    id: description2
     attributes:
       label: Omschrijving wens (waarom)
       description: Geef aan waarom deze wens noodzakelijk is.
     validations:
       required: true
   - type: textarea
-    id: description
+    id: description3
     attributes: 
       label: Impact
       description: Geef aan wat de mogelijke impact is.
