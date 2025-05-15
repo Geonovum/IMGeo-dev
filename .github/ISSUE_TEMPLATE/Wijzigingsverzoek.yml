@@ -45,10 +45,6 @@ body:
         - Het informatiemodel: domeinwaardes en objecten
         - Het informatiemodel: GML en XSD schema's
         - Het informatiemodel: geometriewijzigingen
-        - Objectenhandboek
-        - Visualisatie
-        - Berichtenverkeer
-	- Anders
     validations:
       required: true
   - type: textarea
