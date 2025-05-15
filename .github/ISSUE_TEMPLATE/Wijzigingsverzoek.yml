@@ -29,14 +29,14 @@ body:
       label: Welke rol heeft u?
       options:
       - label: Bronhouder (of koepel van bronhouders)
-	- label: Afnemer/gebruiker
-	- label: Verstrekker
-	- label: Leverancier
-	- label: Standaarden beheerder
-	- label: Besluitvormend orgaan
-	- label: Toezichthouder
-	- label: Beleidsverantwoordelijke
-        - label: Niet van toepassing / Anders
+      - label: Afnemer/gebruiker
+      - label: Verstrekker
+      - label: Leverancier
+      - label: Standaarden beheerder
+      - label: Besluitvormend orgaan
+      - label: Toezichthouder
+      - label: Beleidsverantwoordelijke
+      - label: Niet van toepassing / Anders
   - type: dropdown
     id: application
     attributes:
