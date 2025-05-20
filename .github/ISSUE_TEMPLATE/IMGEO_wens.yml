@@ -40,21 +40,21 @@ body:
   - type: textarea
     id: description
     attributes: 
-      label: Omschrijving wens (wat)
+      label: Omschrijving wens (wat) met zoveel mogelijk voorbeelden
       description: Beschrijf de wens, graag met voorbeelden en/of een link.
     validations:
       required: true
   - type: textarea
     id: description2
     attributes:
-      label: Omschrijving wens (waarom)
-      description: Geef aan waarom deze wens noodzakelijk is.
+      label: Omschrijving wens (waarom) en namens of voor wie u deze wens indient
+      description: Geef aan waarom deze wens noodzakelijk is en namens wie u deze wens indient.
     validations:
       required: true
   - type: textarea
     id: description3
     attributes: 
-      label: Impact
+      label: Omschrijf de mogelijke impact die u voorziet (bijv. wijzigingen in techniek, bijhouding, financieel)
       description: Geef aan wat de mogelijke impact is. Verwacht u bijvoorbeeld wijzigingen in de bronhoudersoftware, of bij de LV, of andere technische, organistorische, financiele impact?
     validations:
       required: true
