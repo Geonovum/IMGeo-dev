@@ -8,9 +8,9 @@ body:
       value: |
         Dit is het wensenformulier voor het indienen van een wens om de IMGEO-standaard te verbeteren.
         Beschrijf zo duidelijk mogelijk welke wens u heeft.
-        Heeft uw specifieke vraag over de werking, gebruik of anderszins van de IMGEO-standaard stuur dan uw vraag naar imgeo@geonovum.nl.
-        Voordat je aan de slag gaat met dit formulier, nog een puntje:
-        - Heeft iemand anders al eens een soortgelijke wens ingediend? Check dit in de [backlog](https://github.com/Geonovum/IMGeo-dev/issues).
+        Heeft u een specifieke vraag over de werking, gebruik van of anderszins van de IMGEO-standaard stuur dan uw vraag naar imgeo@geonovum.nl.
+        Voordat u aan de slag gaat met dit formulier, nog een puntje:
+        Heeft iemand anders al eens een soortgelijke wens ingediend? Check dit in de [backlog](https://github.com/Geonovum/IMGeo-dev/issues).
   - type: input
     id: name
     attributes: 
@@ -55,7 +55,7 @@ body:
     id: description3
     attributes: 
       label: Impact
-      description: Geef aan wat de mogelijke impact is.
+      description: Geef aan wat de mogelijke impact is. Verwacht u bijvoorbeeld wijzigingen in de bronhoudersoftware, of bij de LV, of andere technische, organistorische, financiele impact?
     validations:
       required: true
   - type: markdown
@@ -63,4 +63,4 @@ body:
       value: |
         Alvast bedankt voor uw wens, we gaan er zsm mee aan de slag.
 
-        Geonovum
+        Geonovum beheerteam IMGEO
