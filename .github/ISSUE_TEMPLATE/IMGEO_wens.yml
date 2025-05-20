@@ -6,7 +6,9 @@ body:
   - type: markdown
     attributes: 
       value: |
-        Bedankt voor het indienen van een wens. Beschrijf zo duidelijk mogelijk welke wens u heeft.
+        Dit is het wensenformulier voor het indienen van een wens om de IMGEO-standaard te verbeteren.
+        Beschrijf zo duidelijk mogelijk welke wens u heeft.
+        Heeft uw specifieke vraag over de werking, gebruik of anderszins van de IMGEO-standaard stuur dan uw vraag naar imgeo@geonovum.nl.
         Voordat je aan de slag gaat met dit formulier, nog een puntje:
         - Heeft iemand anders al eens een soortgelijke wens ingediend? Check dit in de [backlog](https://github.com/Geonovum/IMGeo-dev/issues).
   - type: input
@@ -30,10 +32,11 @@ body:
       options:
         - label: Bronhouder
         - label: Afnemer / gebruiker
-        - label: verstrekker
-        - label: leverancier
+        - label: Verstrekker
+        - label: Leverancier
         - label: Standaardenbeheerder
         - label: Beleidsverantwoordelijke / toezichthouder
+        - label: Anders
   - type: textarea
     id: description
     attributes: 
