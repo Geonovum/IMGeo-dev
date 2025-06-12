@@ -28,7 +28,7 @@ var respecConfig = {
   pubDomain: "imgeo", 
   previousURI: "https://www.geonovum.nl/uploads/standards/downloads/IMGeoGegevenscatalogus211.pdf",
   previousStatus: "GN-DEF",
-  github: "https://github.com/Geonovm/IMGeo",
+  github: "https://github.com/Geonovum/IMGeo",
   previousPublishDate: "2020-07-01",
   //previousStatus: "GN-CV",
   //localBiblio: {

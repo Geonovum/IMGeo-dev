@@ -14,7 +14,7 @@ var respecConfig = {
   ],
   //shortName: "shortname",
   pubDomain: "https://www.geonovum.nl",
-  github: "https://github.com/Geonovm/IMGeo2018",
+  github: "https://github.com/Geonovum/IMGeo2018",
   //previousPublishDate: "2017-01-01",
   //previousStatus: "GN-CV",
   //localBiblio: {
