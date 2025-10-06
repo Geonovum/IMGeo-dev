@@ -1,6 +1,6 @@
 name: Dien een BGT/IMGEO wens in
 description: IMGEO wensen lijst
-title: " "
+title: "Issue:"
 body:
   - type: markdown
     attributes: 
