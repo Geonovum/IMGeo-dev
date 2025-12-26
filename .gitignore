@@ -1,0 +1,4 @@
+# Ignore docs and testing folders
+docs/
+testing/
+

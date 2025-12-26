@@ -10,15 +10,13 @@ var respecConfig = {
       name: "Arnoud de Boer",
       company: "Geonovum",
       companyURL: "http://www.geonovum.nl/",
-      mailto: "a.deboer@geonovum.nl",
-      note: ""    
+      mailto: "a.deboer@geonovum.nl"
     },
     {
       name: "Hans van Eekelen",
      company: "Geonovum",
     companyURL: "http://www.geonovum.nl/",
-    mailto: "h.vaneekelen@geonovum.nl",
-    note: "" 
+    mailto: "h.vaneekelen@geonovum.nl"
     }
   ],
   //shortName: "shortname",
