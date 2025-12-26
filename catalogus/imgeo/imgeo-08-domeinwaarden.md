@@ -132,7 +132,7 @@ worden hier genoemd.
 
 | **waarde**            | **definitie**      |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| bunker     | Een bunker is een van oorsprong militair verdedigingswerk dat een zekere mate van bescherming bood tegen beschietingen en bombardementen. (bron: Wikipedia)       |
+| bunker     | Een bunker is een van oorsprong militair verdedigingswerk dat een zekere mate van bescherming biedt tegen beschietingen en bombardementen. (bron: Wikipedia)       |
 
 | voedersilo | Opslagfaciliteit voor veevoer, bestaande uit een verticale container met een opening aan de onderkant. (bron: IMGEO)                                 |
 | schuur     | Een vrijstaand, al of niet prefab, niet-vergunningsplichtig bouwwerk dat gebruikt wordt om goederen in op te slaan en ook als werkruimte kan dienen. |
@@ -347,10 +347,10 @@ worden hier genoemd.
 | benzine- / olieput    | Putdeksel die toegang geeft tot een benzine- of olietank ten behoeve van vullen, onderhoud of inspectie. (bron: IMGEO 1.0)                                       |
 | brandkraan / -put     | Op de drinkwaterleiding aangesloten kraan, of deksel van een put voor het plaatsen van een brandkraan, op of nabij de openbare weg, voor brandbestrijding. (bron: CROW)     |
 | drainageput           | Putdeksel welke toegang geeft naar een poreuze of geperforeerde buisleiding, aangebracht onder de grond om de afwatering van de grond te verbeteren. (bron: IMGEO 1.0) |
-| gasput                | Deksel van een put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor gastransport. (bron: IMGEO 1.0)                                                      |
-| inspectie- / rioolput | Deksel van een constructie die toegang geeft tot een rioolstelsel. (bron: CROW)                                                                                 |
-| kolk                  | Deksel van een ingegraven bak voor de opvang en afvoer van neerslag afkomstig van erop aangesloten oppervlakken. (bron: CROW)                           |
-| waterleidingput       | Deksel van een put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor watertransport. (bron: IMGEO 1.0)                                                    |
+| gasput                | Putdeksel met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor gastransport. (bron: IMGEO 1.0)                                                      |
+| inspectie- / rioolput | Putdeksel die toegang geeft tot een (riool)leiding. (bron: CROW)                                                                                 |
+| kolk                  | Deksel van een op het riool aangesloten voorziening voor de opvang van hemel- en afvalwater afkomstig van erop aangesloten oppervlakken. (bron: CROW)                           |
+| waterleidingput       | Putdeksel met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor watertransport. (bron: IMGEO 1.0)                                                    |
 
 ## TypeSensor
 
