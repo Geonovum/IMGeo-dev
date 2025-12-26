@@ -147,7 +147,7 @@ Bron: [Gegevenscatalogus IMGeo 2.2](https://docs.geostandaarden.nl/imgeo/catalog
 >
 >   In de BGT worden uitsparingen in wegdelen voor stedelijk groen niet apart
 >   ingewonnen indien \< 5 m2. In IMGeo kunnen deze worden opgenomen als
->   ‘begroeid terreindeel groenvoorziening’.
+>   'begroeid terreindeel stedelijk groen'.
 >
 >   Wegmarkeringen zoals symbolen, belijning en kleur zijn geen BGT inhoud maar
 >   kunnen in IMGEO worden opgenomen als weginrichtingselement.
@@ -202,7 +202,7 @@ A:
 | fysiekVoorkomen        |  Gesloten verharding |                 |
 | relatieveHoogteligging |  0                   |                 |
 
-B en C: Begroeid terreindeel, Groenvoorziening.
+B en C: Begroeid terreindeel, Stedelijk groen.
 
 D, E en F: Ondersteunend wegdeel: Verkeerseiland, fysiek voorkomen: open
 verharding.
@@ -308,7 +308,7 @@ A en B:
 | fysiekVoorkomen        |  Gesloten verharding |                 |
 | relatieveHoogteligging |  0                   |                 |
 
-C: Ondersteunend wegdeel: Berm, fysiek voorkomen: Groenvoorziening.
+C: Ondersteunend wegdeel: Berm, fysiek voorkomen: Stedelijk groen.
 
 D (meerdere objecten): IMGeo: Type weginrichting, Geleideconstructie.
 
@@ -494,7 +494,7 @@ A:
 
 B: Wegdeel, Inrit.
 
-C: Ondersteunend wegdeel: Berm, fysiek voorkomen: Groenvoorziening.
+C: Ondersteunend wegdeel: Berm, fysiek voorkomen: Stedelijk groen.
 
 D: Begroeid terreindeel, Grasland agrarisch.
 
@@ -515,7 +515,7 @@ B en C: Wegdeel, Fietspad, Gesloten verharding.
 
 E en D: Wegdeel, Rijbaan: Regionale weg, Gesloten verharding.
 
-F, G, H en I: Begroeid terreindeel, Groenvoorziening.
+F, G, H en I: Begroeid terreindeel, Stedelijk groen.
 
 #### verkeersdrempel
 
@@ -565,7 +565,7 @@ A:
 
 B: Wegdeel, Voetpad, Open verharding.
 
-C: Ondersteunend wegdeel: Berm, fysiek voorkomen: Groenvoorziening.
+C: Ondersteunend wegdeel: Berm, fysiek voorkomen: Stedelijk groen.
 
 D: IMGeo: Type weginrichting, Geleideconstructie.
 
@@ -583,7 +583,7 @@ B:
 
 A: Wegdeel, Rijbaan: lokale weg, Gesloten verharding.
 
-C: Ondersteunend wegdeel: Berm, fysiek voorkomen: Groenvoorziening.
+C: Ondersteunend wegdeel: Berm, fysiek voorkomen: Stedelijk groen.
 
 ![](media/9b74a7af9b3618cb1b59cd0729a4578e.jpg)
 
@@ -630,7 +630,7 @@ A:
 | fysiekVoorkomen        |  onverhard          |                 |
 | relatieveHoogteligging |  0                  |                 |
 
-B en C zijn voor de BGT beide: Begroeid terreindeel: Groenvoorziening.
+B en C zijn voor de BGT beide: Begroeid terreindeel: Stedelijk groen.
 
 C is voor IMGeo: Vegetatieobject: Haag.
 
@@ -753,7 +753,7 @@ A: Wegdeel, Fietspad, Gesloten verharding.
 
 B: Wegdeel, Voetpad, Open verharding.
 
-D en E: Ondersteunend wegdeel: Berm, fysiek voorkomen: Groenvoorziening.
+D en E: Ondersteunend wegdeel: Berm, fysiek voorkomen: Stedelijk groen.
 
 ![](media/41ebcf8ca62f2d6836372fbbfaf59fc4.jpg)
 
@@ -769,9 +769,9 @@ A:
 
 B en C: Wegdeel, Voetpad.
 
-D: Begroeid terreindeel, Groenvoorziening.
+D: Begroeid terreindeel, Stedelijk groen.
 
-E: Ondersteunend wegdeel: Berm, fysiek voorkomen: Groenvoorziening.
+E: Ondersteunend wegdeel: Berm, fysiek voorkomen: Stedelijk groen.
 
 ### voetgangersgebied
 
@@ -826,7 +826,7 @@ B:
 
 A: Wegdeel, Rijbaan, Regionale weg, Gesloten verharding.
 
-C: Ondersteunend wegdeel: Berm, fysiek voorkomen: Groenvoorziening.
+C: Ondersteunend wegdeel: Berm, fysiek voorkomen: Stedelijk groen.
 
 ### woonerf
 
@@ -854,7 +854,7 @@ A:
 | fysiekVoorkomen        |  Open verharding    |                 |
 | relatieveHoogteligging |  0                  |                 |
 
-De perken met groenvoorziening zijn \< 5m2 en daarom eventueel IMGeo inhoud.
+De perken met stedelijk groen zijn \< 5m2 en daarom eventueel IMGeo inhoud.
 
 ## fysiekvoorkomen
 
@@ -889,7 +889,7 @@ A: Wegdeel, Voetpad, Open verharding.
 
 C: op volgende bladzijde.
 
-E: Begroeid terreindeel, Groenvoorziening.
+E: Begroeid terreindeel, Stedelijk groen.
 
 #### asfalt
 

@@ -192,7 +192,7 @@ Uitbreiden van gegevens door nieuwe afbakeningsregels
 afzonderlijk geregistreerd indien <5 m2. Het wegdeel wordt daarbij geacht door te lopen.
 In de BGT worden uitsparingen in wegdelen voor stedelijk groen niet apart ingewonnen
 indien < 5 m2. In IMGeo kunnen deze worden opgenomen als ‘begroeid terreindeel
-groenvoorziening’. 
+stedelijk groen'.
 
 **Wat wordt de nieuwe regel?**
 - De inwinregels dat "uitsparingen in wegdelen van stedelijk groen kleiner dan 5 m2 niet in de BGT opgenomen moeten worden, maar wel in IMGeo opgenomen mogen worden. Het wegdeel wordt daarbij geacht door te lopen.", worden geschrapt.

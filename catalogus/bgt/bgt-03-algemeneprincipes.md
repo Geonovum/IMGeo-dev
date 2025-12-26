@@ -103,7 +103,7 @@ lijn- en puntgeometrie. Tot de BGT-inhoud behoren de volgende objecten.
 |                           | open verharding                | Vlak                   |
 |                           | half verhard                   | Vlak                   |
 |                           | onverhard                      | Vlak                   |
-|                           | groenvoorziening               | Vlak                   |
+|                           | stedelijk groen               | Vlak                   |
 |                           |                                |                        |
 | *Spoor*                   | *Functie*                      |                        |
 |                           | trein                          | Lijn                   |
@@ -135,7 +135,7 @@ lijn- en puntgeometrie. Tot de BGT-inhoud behoren de volgende objecten.
 |                           | bouwland                       | Vlak                   |
 |                           | grasland agrarisch             | Vlak                   |
 |                           | grasland overig                | Vlak                   |
-|                           | groenvoorziening               | Vlak                   |
+|                           | stedelijk groen               | Vlak                   |
 |                           |                                |                        |
 | *Water*                   |                                |                        |
 | *Waterdeel*               | *Type*                         |                        |

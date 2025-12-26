@@ -14,7 +14,7 @@ Bron: [Gegevenscatalogus BGT 1.2](https://docs.geostandaarden.nl/imgeo/catalogus
 >   
 >   Dit object kent een onderverdeling in de typen verkeerseiland en berm. Berm
 >   kent als fysiek voorkomen de verschillende verhardingssoorten en
->   groenvoorziening.
+>   stedelijk groen.
 >   
 >   **Regels voor opname**
 >   
@@ -54,7 +54,7 @@ Bron: [Gegevenscatalogus IMGeo 2.2](https://docs.geostandaarden.nl/imgeo/catalog
 >   vormt dan een afzonderlijk ondersteunend wegdeel. Wanneer een berm bestaat
 >   uit een deel gras en een deel grasklinkers zijn dat twee verschillende
 >   objecten -ondersteunend wegdeel- voor IMGeo/BGT; berm met als fysiek
->   voorkomen respectievelijk groenvoorziening gras en half verhard
+>   voorkomen respectievelijk stedelijk groen gras en half verhard
 >   grasklinkers.
 
 ## functie
@@ -104,7 +104,7 @@ Ja, verplichte inhoud BGT.
 **Voorbeeld**
 
 *Het ondersteunend wegdeel Berm kent dezelfde waarden voor fysiek voorkomen als
-geldt voor Wegdeel, aangevuld met de classificatie groenvoorziening zoals
+geldt voor Wegdeel, aangevuld met de classificatie stedelijk groen zoals
 voorkomt bij Begroeid terreindeel.*
 
 *Niet van al deze mogelijke classificaties zijn fotovoorbeelden opgenomen.*
@@ -140,7 +140,7 @@ C:
 | *OndersteunendWegdeel*   | *Attribuutwaarde* | *Opmerkingen* |
 |--------------------------|-------------------|---------------|
 | typeOndersteunendWegdeel | Berm              |               |
-| fysiekVoorkomen          | groenvoorziening  |               |
+| fysiekVoorkomen          | stedelijk groen  |               |
 | relatieveHoogteligging   | 0                 |               |
 
 A: Wegdeel, Rijbaan: Lokale weg, Gesloten verharding.
@@ -154,7 +154,7 @@ Mate waarin het ondersteunend wegdeel al of niet verhard is.
 **Toelichting**
 In IMGeo kunnen bij ondersteunend wegdeel alle fysieke voorkomens worden
 toegekend zoals bij wegdeel of een deel van de plustypen van begroeid
-terreindeel groenvoorziening.
+terreindeel stedelijk groen.
 
 ### gesloten verharding
 
@@ -423,7 +423,7 @@ Nee, optionele inhoud IMGeo.
 
 Zie fysiekvoorkomen van Wegdeel.
 
-### groenvoorziening
+### stedelijk groen
 
 **Definitie**
 

@@ -11,7 +11,7 @@ Overwegen:
 -   Verplaatsen Onbegroeidterreindeel met bgt-fysiekvoorkomen ‘erf’ naar
     OngeclassificeerdObject.
 
--   Hernoemen ‘groenvoorziening’ naar ‘stedelijk groen’ of ‘openbaar groen’.
+-   ~~Hernoemen 'groenvoorziening' naar 'stedelijk groen' of 'openbaar groen'.~~ ✅ Voltooid: hernoemd naar 'stedelijk groen'
 
 Water
 -----

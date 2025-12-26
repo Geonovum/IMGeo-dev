@@ -41,7 +41,7 @@ opgenomen met het objecttype weginrichtingselement.
 
 -   In de BGT worden uitsparingen in wegdelen voor stedelijk groen niet apart
     ingewonnen indien \< 5 m2. In IMGeo kunnen deze worden opgenomen als
-    ‘begroeid terreindeel groenvoorziening’.
+    'begroeid terreindeel stedelijk groen'.
 
 -   Wegmarkeringen zoals symbolen, belijning en kleur zijn geen BGT inhoud maar
     kunnen in IMGEO worden opgenomen als weginrichtingselement.
@@ -56,7 +56,7 @@ Grasklinkers liggen soms naast een wegdeel in de berm. Het betreffende vlak
 vormt dan een afzonderlijk ondersteunend wegdeel. Wanneer een berm bestaat uit
 een deel gras en een deel grasklinkers zijn dat twee verschillende objecten
 -ondersteunend wegdeel- voor IMGeo/BGT; berm met als fysiek voorkomen
-respectievelijk groenvoorziening gras en half verhard grasklinkers.
+respectievelijk stedelijk groen gras en half verhard grasklinkers.
 
 OnbegroeidTerreindeel
 ---------------------
@@ -71,7 +71,7 @@ BegroeidTerreindeel
 -------------------
 
 In IMGeo kunnen begroeide terreindelen desgewenst nader worden ingedeeld naar
-fysiek voorkomen. Er zijn nadere detailleringen voor groenvoorzieningen,
+fysiek voorkomen. Er zijn nadere detailleringen voor stedelijk groen,
 bouwland, fruitteelt, loofbos en duin.
 
 Waterdeel en waterinrichtingselement

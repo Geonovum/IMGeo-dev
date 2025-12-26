@@ -63,7 +63,7 @@ FysiekVoorkomenOndersteunendWegdeel
 | open verharding     | Verharding gevormd door in verband aangebrachte elementen van beperkte afmetingen, zoals bijvoorbeeld klinkers en tegels. (bron: BGT)                        |
 | half verhard        | Verharding bestaande uit een door verdichting gebonden materiaal, of onsamenhangend materiaal. (bron: BGT)                                                   |
 | onverhard           | Wegdelen waar geen verharding of aaneengesloten vegetatie aanwezig is. (bron: BGT)                                                                           |
-| groenvoorziening    | Terreindeel met aangelegde beplanting, meestal gras, heesters of struiken. (bron: BGT)                                                                       |
+| stedelijk groen    | Terreindeel met aangelegde beplanting, meestal gras, heesters of struiken. (bron: BGT)                                                                       |
 
 FunctieSpoor
 ------------
@@ -104,7 +104,7 @@ FysiekVoorkomenBegroeidTerrein
 | boomteelt          | Grond in gebruik voor het kweken van jonge siergewassen, bomen enz. ten behoeve van een later gebruik elders. (bron: CROW)                                                                                                            |
 | bouwland           | Terreindeel in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. (bron: BGT)                                                                           |
 | grasland agrarisch | Terreindeel met een vegetatie bestaande uit grassen en of grasachtigen, en met de in graslanden voorkomende kruiden, zijnde cultuurgrasland dat in gebruik is voor de veeteelt, bijvoorbeeld als weiland of als hooiland. (bron: BGT) |
-| groenvoorziening   | Terreindeel met aangelegde beplanting, meestal gras, heesters of struiken. (bron: BGT)                                                                                                                                                |
+| stedelijk groen   | Terreindeel met aangelegde beplanting, meestal gras, heesters of struiken. (bron: BGT)                                                                                                                                                |
 
 TypeWater
 ---------

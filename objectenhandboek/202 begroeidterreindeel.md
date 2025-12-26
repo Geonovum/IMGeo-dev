@@ -54,7 +54,7 @@ Bron: [Gegevenscatalogus IMGeo
 
 >   In IMGeo kunnen begroeide terreindelen desgewenst nader worden ingedeeld
 >   naar fysiek voorkomen. Er zijn nadere detailleringen voor
->   groenvoorzieningen, bouwland, fruitteelt, loofbos en duin.
+>   stedelijk groen, bouwland, fruitteelt, loofbos en duin.
 
 fysiekvoorkomen
 ---------------
@@ -183,7 +183,7 @@ Nee, optionele inhoud IMGeo.
 
 ![](media/de9e40491fde18e8b2d3e7fffb30dce5.jpg)
 
-B is een ondersteunend wegdeel type berm, fysiek voorkomen groenvoorziening.
+B is een ondersteunend wegdeel type berm, fysiek voorkomen stedelijk groen.
 
 C:
 
@@ -595,11 +595,11 @@ C:
 
 A: wegdeel, rijbaan:lokale weg, open verharding.
 
-B: ondersteunend wegdeel: berm, fysiek voorkomen: groenvoorziening.
+B: ondersteunend wegdeel: berm, fysiek voorkomen: stedelijk groen.
 
 D: IMGeo inhoud: scheiding, draadraster.
 
-### groenvoorziening
+### stedelijk groen
 
 **Definitie**
 
@@ -617,7 +617,7 @@ C en D (afzonderlijke objecten):
 
 | *BegroeidTerreindeel*  | *Attribuutwaarde* | *Opmerkingen* |
 |------------------------|-------------------|---------------|
-| fysiekVoorkomen        | Groenvoorziening  |               |
+| fysiekVoorkomen        | Stedelijk groen  |               |
 | relatieveHoogteligging |  0                |               |
 
 A en B: wegdeel, voetpad, open verharding.
@@ -628,7 +628,7 @@ B:
 
 | *BegroeidTerreindeel*  | *Attribuutwaarde* | *Opmerkingen*                 |
 |------------------------|-------------------|-------------------------------|
-| fysiekVoorkomen        | Groenvoorziening  | Plantvak opnemen want \> 5 m2 |
+| fysiekVoorkomen        | Stedelijk groen  | Plantvak opnemen want \> 5 m2 |
 | relatieveHoogteligging |  0                |                               |
 
 A: wegdeel, rijbaan: lokale weg, openverharding.
@@ -655,7 +655,7 @@ Ja, verplichte inhoud BGT.
 
 | **BegroeidTerreindeel** | **Attribuutwaarde**            | **Opmerkingen** |
 |-------------------------|--------------------------------|-----------------|
-| fysiekVoorkomen         | groenvoorziening: bosplantsoen |                 |
+| fysiekVoorkomen         | stedelijk groen: bosplantsoen |                 |
 | relatieveHoogteligging  |                                |                 |
 
 #### gras- en kruidachtigen
@@ -696,7 +696,7 @@ Ja, verplichte inhoud BGT.
 
 | **BegroeidTerreindeel** | **Attribuutwaarde**       | **Opmerkingen** |
 |-------------------------|---------------------------|-----------------|
-| fysiekVoorkomen         | groenvoorziening: planten |                 |
+| fysiekVoorkomen         | stedelijk groen: planten |                 |
 | relatieveHoogteligging  |                           |                 |
 
 #### struikrozen
@@ -714,7 +714,7 @@ Ja, verplichte inhoud BGT.
 
 | **BegroeidTerreindeel** | **Attribuutwaarde**           | **Opmerkingen** |
 |-------------------------|-------------------------------|-----------------|
-| fysiekVoorkomen         | groenvoorziening: struikrozen |                 |
+| fysiekVoorkomen         | stedelijk groen: struikrozen |                 |
 | relatieveHoogteligging  |                               |                 |
 
 #### heesters
@@ -737,7 +737,7 @@ Ja, verplichte inhoud BGT.
 
 | **BegroeidTerreindeel** | **Attribuutwaarde**        | **Opmerkingen** |
 |-------------------------|----------------------------|-----------------|
-| fysiekVoorkomen         | groenvoorziening: heesters |                 |
+| fysiekVoorkomen         | stedelijk groen: heesters |                 |
 | relatieveHoogteligging  |                            |                 |
 
 #### bodembedekkers
@@ -754,5 +754,5 @@ Ja, verplichte inhoud BGT.
 
 | **BegroeidTerreindeel** | **Attribuutwaarde**              | **Opmerkingen** |
 |-------------------------|----------------------------------|-----------------|
-| fysiekVoorkomen         | groenvoorziening: bodembedekkers |                 |
+| fysiekVoorkomen         | stedelijk groen: bodembedekkers |                 |
 | relatieveHoogteligging  |                                  |                 |

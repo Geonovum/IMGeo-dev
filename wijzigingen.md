@@ -29,7 +29,7 @@ Toevoegen afbakenen nieuwe objecten:
 Toevoegen extra classificaties:
 
 -   *haagvak* aan plus-fysiekvoorkomen bij bgt-fysiekvoorkomen
-    *groenvoorziening* van BegroeidTerreindeel.
+    *stedelijk groen* van BegroeidTerreindeel.
 
 -   *Bomenrij, klimplant* en *solitaire plant* aan plus-type van Vegetatieobject
 

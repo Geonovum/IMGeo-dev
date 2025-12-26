@@ -83,7 +83,7 @@ vermelding: niet-bgt in de kolom BGT classificatie.
 |                                                             |                                | gravel                                     | Vlak                   |
 |                                                             | onverhard                      | boomschors                                 | Vlak                   |
 |                                                             |                                | zand                                       | Vlak                   |
-|                                                             | groenvoorziening               | bosplantsoen                               | Vlak                   |
+|                                                             | stedelijk groen               | bosplantsoen                               | Vlak                   |
 |                                                             |                                | gras- en kruidachtigen                     | Vlak                   |
 |                                                             |                                | planten                                    | Vlak                   |
 |                                                             |                                | struikrozen                                | Vlak                   |
@@ -140,7 +140,7 @@ vermelding: niet-bgt in de kolom BGT classificatie.
 |                                                             |                                | vollegrondsteelt                           | Vlak                   |
 |                                                             |                                | bollenteelt                                | Vlak                   |
 |                                                             | grasland agrarisch             |                                            | Vlak                   |
-|                                                             | groenvoorziening               | bosplantsoen                               | Vlak                   |
+|                                                             | stedelijk groen               | bosplantsoen                               | Vlak                   |
 |                                                             |                                | gras- en kruidachtigen                     | Vlak                   |
 |                                                             |                                | planten                                    | Vlak                   |
 |                                                             |                                | struikrozen                                | Vlak                   |
