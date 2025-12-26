@@ -70,8 +70,15 @@ Molgoten langs wegdelen maken deel uit van dat wegdeel, ook als zij uit een
 andere ver­harding bestaan. De buitenzijde van de molgoot vormt de begrenzing
 van het wegdeel met vrijwel gelijke hoogte.
 
-Een afsluitende band hoort bij het wegdeel, verkeerseiland of berm dat gelijk
-ligt met de bovenzijde van de band.
+Een afsluitende band (zoals een trottoirband) hoort bij het wegdeel,
+verkeerseiland of berm dat gelijk ligt met de bovenzijde van de band. De
+objectbegrenzing valt samen met de buitenzijde van de band (aan de kant van het
+object waar de band bij hoort). Als een trottoirband een scheiding vormt tussen
+een wegdeel en een berm of onbegroeid terreindeel, dan hoort de band bij het
+wegdeel indien de bovenzijde van de band gelijk ligt met het wegdek. Als de
+bovenzijde van de band gelijk ligt met het niveau van de berm of het
+onbegroeid terreindeel, dan hoort de band bij het ondersteunend wegdeel
+respectievelijk onbegroeid terreindeel.
 
 Fietspaden vormen BGT inhoud indien aangeduid met een blauw bord met daarop een
 wit rijwiel (bord G11 of G12a), of een blauw of zwart bord met daarop de tekst
