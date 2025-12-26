@@ -6,8 +6,7 @@ var respecConfig = {
       name: "Geonovum",
       company: "Geonovum",
       companyURL: "http://www.geonovum.nl/",
-      mailto: "imgeo@geonovum.nl",
-      note: ""    
+      mailto: "imgeo@geonovum.nl"
     }
   ],
   shortName: "imgeo",
