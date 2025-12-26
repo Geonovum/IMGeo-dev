@@ -100,7 +100,7 @@ classificaties, bijvoorbeeld de volgende defaultwaarden:
 |                                 | \-                    | **kademuur**       |                     | **kademuur**         | \-                          |
 |                                 | \-                    | **damwand**        |                     | **damwand**          | \-                          |
 |                                 | \-                    | **walbescherming** |                     | **walbescherming**   | \-                          |
-| Weginrichtingselement: typePlus | niet-bgt              | **boomspiegel **   | BegroeidTerreindeel | **groenvoorziening** | **boomspiegel** (IMGeo 2.2) |
+| Weginrichtingselement: typePlus | niet-bgt              | **boomspiegel **   | BegroeidTerreindeel | **stedelijk groen** | **boomspiegel** (IMGeo 2.2) |
 
 **Waar moet je opletten?** Op enig moment zijn er bronhouders die over zijn op
 IMGeo 2.2, en bronhouders die werken op de oude versie. Het voorstel is om een
@@ -217,8 +217,8 @@ In IMGeo 2.2 worden de volgende uitbreidingen gedaan:
 |                                            | verkeerseiland      | **verkeersdruppel**                           | Vlak                 |
 | OnbegroeidTerreindeel: fysiekVoorkomenPlus | open verharding     | **natuursteen**                               | Vlak                 |
 |                                            | open verharding     | **basalt**                                    | Vlak                 |
-| Begroeidterreindeel: fysiekvoorkomenPlus   | groenvoorziening    | **haagvak**                                   | Vlak                 |
-|                                            | groenvoorziening    | **boomspiegel**                               | Vlak                 |
+| Begroeidterreindeel: fysiekvoorkomenPlus   | stedelijk groen    | **haagvak**                                   | Vlak                 |
+|                                            | stedelijk groen    | **boomspiegel**                               | Vlak                 |
 | OverigBouwwerk: typePlus                   | \-                  | **sleufsilo**                                 | Vlak                 |
 |                                            | \-                  | **parkeergarage**                             | Vlak                 |
 |                                            | \-                  | **strandtent**                                | Vlak                 |

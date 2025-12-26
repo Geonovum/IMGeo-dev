@@ -235,7 +235,7 @@ D en E:
 
 A: waterdeel, waterloop.
 
-B en C: begroeid terreindeel, groenvoorziening.
+B en C: begroeid terreindeel, stedelijk groen.
 
 ### hek
 
@@ -260,7 +260,7 @@ B:
 
 A: onbegroeid terreindeel, erf.
 
-C: ondersteunend wegdeel, berm, fysiek voorkomen: groenvoorziening.
+C: ondersteunend wegdeel, berm, fysiek voorkomen: stedelijk groen.
 
 D: wegdeel, voetpad, open verharding.
 

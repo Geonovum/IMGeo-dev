@@ -112,7 +112,7 @@ B: wegdeel. Rijbaan: lokale weg, gesloten verharding
 
 C: begroeid terreindeel, grasland overig
 
-D en E: ondersteunend wegdeel: berm, fysiek voorkomen: groenvoorziening.
+D en E: ondersteunend wegdeel: berm, fysiek voorkomen: stedelijk groen.
 
 ![](media/dd9cd842f95a15c1a57c8defbcd3d6ec.jpg)
 
@@ -132,7 +132,7 @@ B: wegdeel. Rijbaan: lokale weg, gesloten verharding
 
 C en E: begroeid terreindeel, grasland overig
 
-D: ondersteunend wegdeel: berm, fysiek voorkomen: groenvoorziening.
+D: ondersteunend wegdeel: berm, fysiek voorkomen: stedelijk groen.
 
 ### gemaal
 

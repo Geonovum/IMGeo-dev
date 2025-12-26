@@ -36,8 +36,8 @@ harmoniserende werking in model en uitwisseling binnen Nederland.
 
 Een beheerder van de openbare ruimte, landelijk gebied, rijkswegen, etc. heeft
 meer gedetailleerde objecttypen nodig dan de BGT biedt. Een begroeid terreindeel
-heeft een BGT-classificatie ‘groenvoorziening’. Met IMGeo kan het geometrisch
-vlak van het objecttype ‘groenvoorziening’ nader onderverdeeld worden in
+heeft een BGT-classificatie 'stedelijk groen'. Met IMGeo kan het geometrisch
+vlak van het objecttype 'stedelijk groen' nader onderverdeeld worden in
 kleinere vlakken met als classificatie ‘bodembedekkers’, ‘heesters’, ‘planten’,
 etc. Deze onderverdeling is dusdanig van opzet dat de verschillende objecttypen,
 die geometrie hebben en door beheersystemen gebruikt worden, in IMGeo met hun
@@ -48,7 +48,7 @@ vastgelegd. Dit zorgt voor een harmoniserende werking in de uitwisseling tussen
 IMGeo met de beheersystemen en de beheersystemen onderling, doordat de
 objecttypen en de structuur van objecttypen is vastgelegd.
 
-De administratieve beheerinformatie, zoals hoe vaak een ‘groenvoorziening: gras-
+De administratieve beheerinformatie, zoals hoe vaak een 'stedelijk groen: gras-
 en kruidachtigen’ wordt gemaaid valt buiten de scope van IMGeo en dient te
 worden opgenomen in het beheersysteem zelf.
 

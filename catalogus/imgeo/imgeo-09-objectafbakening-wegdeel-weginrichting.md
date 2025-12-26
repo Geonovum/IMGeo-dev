@@ -36,7 +36,7 @@ opgenomen met het objecttype weginrichtingselement.
 
 -   In de BGT worden uitsparingen in wegdelen voor stedelijk groen niet apart
     ingewonnen indien \< 5 m2. In IMGeo kunnen deze worden opgenomen als
-    ‘begroeid terreindeel groenvoorziening’.
+    'begroeid terreindeel stedelijk groen'.
 
 -   Wegmarkeringen zoals symbolen, belijning en kleur zijn geen BGT inhoud maar
     kunnen in IMGEO worden opgenomen als weginrichtingselement.

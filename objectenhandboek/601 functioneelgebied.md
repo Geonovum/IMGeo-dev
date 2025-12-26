@@ -293,7 +293,7 @@ de topografie.
 
 **Definitie**
 
-Terrein, mogelijk met groenvoorziening, verharding en bebouwing, bestemd voor
+Terrein, mogelijk met stedelijk groen, verharding en bebouwing, bestemd voor
 sportbeoefening.
 
 **Verplicht?**

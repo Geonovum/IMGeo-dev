@@ -135,7 +135,7 @@ kent van de BGT-domeinwaardenlijsten.
 Voorbeelden ter verduidelijking:
 
 -   Waar de BGT voor begroeid terreindeel het fysiek voorkomen
-    ‘groenvoorziening’ kent, is dit in IMGeo nader geclassificeerd tot onder
+    'stedelijk groen' kent, is dit in IMGeo nader geclassificeerd tot onder
     meer bosplantsoen, gras en beplanting.
 
 -   De populatie van kunstwerkdeel is uitgebreid met onder meer keermuur,

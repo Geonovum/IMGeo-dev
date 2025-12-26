@@ -4,7 +4,7 @@ OndersteunendWegdeel
 ### Indeling
 
 Dit object kent een onderverdeling in de typen verkeerseiland en berm. Berm kent
-als fysiek voorkomen de verschillende verhardingssoorten en groenvoorziening.
+als fysiek voorkomen de verschillende verhardingssoorten en stedelijk groen.
 
 ### Regels voor opname
 
